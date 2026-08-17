@@ -54,3 +54,7 @@
 - [x] Capturar automaticamente a legenda disponível em links públicos de posts e Reels do Instagram.
 - [x] Usar a legenda captada no relatório e solicitar complemento manual apenas se nenhum texto público estiver disponível.
 - [x] Cobrir a extração automática de legenda em metadados públicos e testar a integração da avaliação.
+- [x] Distinguir no MVP o bloqueio de dados pelo Instagram de uma falha interna da Platéia.
+- [x] Informar um caminho de continuidade objetivo quando um link público não expuser imagem, vídeo nem legenda.
+- [x] Validar o comportamento com um link de Instagram que não disponibiliza metadados públicos.
+- [x] Normalizar URLs públicas do Instagram com o caminho /reels/ para a rota canônica de captura /reel/.

@@ -91,6 +91,13 @@ describe("validateAnalysisShape", () => {
     fetchMock.mockRestore();
   });
 
+  it("normalizes the plural /reels/ public URL before requesting the Instagram embed", async () => {
+    const fetchMock = vi.spyOn(globalThis, "fetch").mockResolvedValue(new Response('<meta property="og:description" content="Legenda de Reel">', { status: 200 }));
+    await resolveInstagramMaterial("https://www.instagram.com/reels/C1Example/");
+    expect(fetchMock.mock.calls[0]?.[0]).toBe("https://www.instagram.com/reel/C1Example/embed/captioned/");
+    fetchMock.mockRestore();
+  });
+
   it("accepts the minimum required material for copy, uploaded visual content and public Instagram links", () => {
     const shared = { product: "", objective: "", targetAudience: "" };
     expect(createAnalysisInputSchema.safeParse({ ...shared, contentType: "copy", contentText: "Uma copy curta para avaliar." }).success).toBe(true);

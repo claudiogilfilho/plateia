@@ -101,7 +101,7 @@ export const analysesRouter = router({
         coverage = {
           level: "requires_complement",
           title: "Legenda ou arquivo necessário",
-          description: "O Instagram não liberou uma prévia deste link. Cole a legenda ou a copy do post para a Platéia fazer uma leitura textual.",
+          description: "O Instagram não disponibilizou capa nem legenda pública para este link. Cole a legenda ou a copy do post para a Platéia fazer uma leitura textual.",
         };
       } else {
         coverage = {

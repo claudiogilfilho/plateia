@@ -66,7 +66,8 @@ export async function resolveInstagramMaterial(sourceUrl: string): Promise<Insta
   if (!isInstagramPublicationUrl(sourceUrl)) return null;
   const source = new URL(sourceUrl);
   const path = source.pathname.replace(/^\/+|\/+$/g, "");
-  const embedUrl = `https://www.instagram.com/${path}/embed/captioned/`;
+  const canonicalPath = path.replace(/^reels\//i, "reel/");
+  const embedUrl = `https://www.instagram.com/${canonicalPath}/embed/captioned/`;
   const controller = new AbortController();
   const timeout = setTimeout(() => controller.abort(), 8_000);
 

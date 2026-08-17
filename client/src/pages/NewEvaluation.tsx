@@ -87,7 +87,7 @@ export default function NewEvaluation() {
   };
 
   const materialInstruction = textOnlyComplement
-    ? "O Instagram não liberou a prévia visual. Cole somente a legenda ou a copy para receber uma leitura textual do conteúdo."
+    ? "O Instagram não disponibilizou capa nem legenda pública para este link. Cole somente a legenda ou a copy para receber uma leitura textual do conteúdo."
     : contentType === "copy"
       ? "Para uma copy, cole o texto no campo ao lado. Os demais campos são opcionais."
       : "Para post, carrossel ou Reel, a imagem, o vídeo ou um link público do material é obrigatório. Os demais campos são opcionais.";
