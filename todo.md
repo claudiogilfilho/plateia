@@ -28,3 +28,5 @@
 - [x] Validar visualmente o modo de link selecionado em desktop e mobile, incluindo orientações de mídia direta e post publicado.
 - [x] Permitir abrir diretamente a prévia do submodo de mídia direta para revisar seus controles.
 - [x] Exibir no relatório o link de origem público quando houver uma avaliação enviada por URL.
+- [x] Exportar o checkpoint atual da Platéia para o repositório GitHub confirmado pelo usuário.
+- [x] Criar exclusivamente o repositório privado claudiogilfilho/plateia, sem alterar o projeto auto.
