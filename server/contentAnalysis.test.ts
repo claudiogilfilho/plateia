@@ -1,5 +1,5 @@
 import { describe, expect, it, vi } from "vitest";
-import { CONSUMERS, CRITERIA, normalizeAnalysis, parseStructuredEvaluation, validateAnalysisShape } from "./contentAnalysis";
+import { applyVisualOnlyScope, CONSUMERS, CRITERIA, normalizeAnalysis, parseStructuredEvaluation, validateAnalysisShape } from "./contentAnalysis";
 import { createAnalysisInputSchema } from "./analysisRouter";
 import { isAllowedPublicHttpsUrl, isInstagramPublicationUrl, resolveInstagramMaterial } from "./publicLinks";
 
@@ -48,6 +48,17 @@ describe("validateAnalysisShape", () => {
     expect(result.consumers[0].criteria.gancho).toBe(0);
     expect(result.synthesis.overallScore).toBe(100);
     expect(result.synthesis.divergence).toBe(0);
+  });
+
+  it("recalculates the consolidated score with visual criteria only", () => {
+    const scoped = applyVisualOnlyScope({
+      consumers: CONSUMERS.map((name, index) => ({ name, overallScore: 0, reaction: "Reação objetiva.", criteria: { gancho: 60 + index, clareza: 10, relevância: 70 + index, desejo: 80 + index, confiança: 90 + index, retenção: 50 + index, ação: 20, objeções: 30 }, mainObjection: "Sem objeção crítica." })),
+      synthesis: { overallScore: 0, weightedAverage: 0, divergence: 0, strengths: ["Mensagem clara.", "Boa estética."], risks: ["Prova limitada.", "Ritmo lento."], recommendations: ["Melhorar gancho.", "Adicionar prova.", "Reduzir texto."] },
+    });
+    expect(scoped.consumers[0].overallScore).toBe(70);
+    expect(scoped.synthesis.overallScore).toBe(72);
+    expect(scoped.synthesis.weightedAverage).toBe(72);
+    expect(scoped.synthesis.divergence).toBe(4);
   });
 
   it("rejects a response when one required consumer is missing", () => {

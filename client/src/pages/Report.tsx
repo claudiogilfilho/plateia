@@ -9,7 +9,7 @@ type Criterion = (typeof criteria)[number];
 type ReportData = {
   consumers: Array<{ name: string; overallScore: number; reaction: string; criteria: Record<Criterion, number>; mainObjection: string }>;
   synthesis: { overallScore: number; weightedAverage: number; divergence: number; strengths: string[]; risks: string[]; recommendations: [string, string, string] };
-  coverage?: { level: "complete" | "partial" | "requires_complement"; title: string; description: string };
+  coverage?: { level: "complete" | "partial" | "requires_complement"; title: string; description: string; mode?: "visual_only"; excludedCriteria?: Criterion[] };
 };
 
 export default function Report() {
@@ -27,7 +27,9 @@ export default function Report() {
   const report = JSON.parse(analysis.reportJson) as ReportData;
   const reportTitle = analysis.product || `Avaliação de ${analysis.contentType}`;
   const reportContext = [analysis.objective && `Objetivo: ${analysis.objective}`, analysis.targetAudience && `Público: ${analysis.targetAudience}`].filter(Boolean).join(" · ");
-  const avgByCriterion = Object.fromEntries(criteria.map(key => [key, Math.round(report.consumers.reduce((sum, consumer) => sum + consumer.criteria[key], 0) / report.consumers.length)])) as Record<Criterion, number>;
+  const excludedCriteria = report.coverage?.excludedCriteria ?? [];
+  const assessedCriteria = criteria.filter(key => !excludedCriteria.includes(key));
+  const avgByCriterion = Object.fromEntries(assessedCriteria.map(key => [key, Math.round(report.consumers.reduce((sum, consumer) => sum + consumer.criteria[key], 0) / report.consumers.length)])) as Partial<Record<Criterion, number>>;
 
   return <div className="mx-auto max-w-7xl pb-12">
     <Link href="/historico" className="mb-6 inline-flex items-center gap-2 rounded-md px-1 py-1 text-sm font-semibold text-violet-700 hover:text-violet-900 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-violet-500"><ArrowLeft className="h-4 w-4" /> Voltar ao histórico</Link>
@@ -51,7 +53,7 @@ export default function Report() {
       <div className="space-y-6">
         <div className="plateia-card p-6 sm:p-7">
           <div className="flex items-center justify-between"><div><p className="text-xs font-bold uppercase tracking-[0.16em] text-violet-500">Painel de critérios</p><h2 className="mt-1 font-display text-2xl font-extrabold tracking-[-0.045em] text-[#2b1058]">O que o material comunica</h2></div><span className="rounded-xl bg-violet-50 px-3 py-2 text-xs font-bold text-violet-700">Média {report.synthesis.weightedAverage}</span></div>
-          <div className="mt-7 space-y-4">{criteria.map(key => <ScoreBar key={key} label={key} score={avgByCriterion[key]} />)}</div>
+          <div className="mt-7 space-y-4">{criteria.map(key => excludedCriteria.includes(key) ? <ExcludedScore key={key} label={key} /> : <ScoreBar key={key} label={key} score={avgByCriterion[key] ?? 0} />)}</div>
         </div>
         <div className="plateia-card p-6 sm:p-7">
           <div className="flex items-center gap-3"><div className="grid h-10 w-10 place-items-center rounded-xl bg-[#fff1ef] text-[#f15d50]"><Target className="h-5 w-5" /></div><div><p className="text-xs font-bold uppercase tracking-[0.16em] text-violet-500">Leitura por perfil</p><h2 className="font-display text-2xl font-extrabold tracking-[-0.045em] text-[#2b1058]">Cinco reações, uma decisão melhor.</h2></div></div>
@@ -89,4 +91,8 @@ function InsightList({ tone, title, items }: { tone: "success" | "risk"; title: 
 
 function ScoreBar({ label, score }: { label: string; score: number }) {
   return <div><div className="mb-1.5 flex items-center justify-between"><span className="capitalize text-sm font-semibold text-[#2b1058]">{label}</span><span className="text-xs font-bold text-violet-700">{score}</span></div><div className="h-2 overflow-hidden rounded-full bg-violet-100"><div className="h-full rounded-full bg-gradient-to-r from-[#4c2385] to-[#ff6f61]" style={{ width: `${score}%` }} /></div></div>;
+}
+
+function ExcludedScore({ label }: { label: string }) {
+  return <div><div className="mb-1.5 flex items-center justify-between"><span className="capitalize text-sm font-semibold text-slate-500">{label}</span><span className="text-xs font-bold text-slate-400">não avaliado</span></div><div className="h-2 rounded-full bg-slate-100" /></div>;
 }

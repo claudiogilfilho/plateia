@@ -58,3 +58,9 @@
 - [x] Informar um caminho de continuidade objetivo quando um link público não expuser imagem, vídeo nem legenda.
 - [x] Validar o comportamento com um link de Instagram que não disponibiliza metadados públicos.
 - [x] Normalizar URLs públicas do Instagram com o caminho /reels/ para a rota canônica de captura /reel/.
+- [x] Permitir continuar uma avaliação de link público sem enviar legenda complementar.
+- [x] Marcar a análise sem legenda como visual limitada e excluir critérios dependentes de texto da pontuação consolidada.
+- [x] Exibir no relatório quais aspectos não foram avaliados por ausência de legenda.
+- [x] Testar o fluxo de continuidade sem legenda e sincronizar a atualização no GitHub.
+- [x] Recalcular notas individuais, nota geral, média ponderada e divergência com base apenas nos critérios visuais avaliados.
+- [x] Descartar a legenda fornecida quando a pessoa selecionar explicitamente a leitura somente visual.

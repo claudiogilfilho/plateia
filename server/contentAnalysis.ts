@@ -2,6 +2,7 @@ import { evaluateWithProvider } from "./aiProvider";
 
 export const CONSUMERS = ["O Apressado", "O Analítico", "O Aspiracional", "O Influenciado pela Comunidade", "O Cético"] as const;
 export const CRITERIA = ["gancho", "clareza", "relevância", "desejo", "confiança", "retenção", "ação", "objeções"] as const;
+export const VISUAL_ONLY_EXCLUDED_CRITERIA = ["clareza", "ação", "objeções"] as const;
 
 export type ContentAnalysis = {
   consumers: Array<{ name: (typeof CONSUMERS)[number]; overallScore: number; reaction: string; criteria: Record<(typeof CRITERIA)[number], number>; mainObjection: string }>;
@@ -62,6 +63,17 @@ export function normalizeAnalysis(input: unknown): ContentAnalysis {
   return validateAnalysisShape({ consumers, synthesis: { overallScore: scoreOf(rawSynthesis.overallScore, "Nota geral"), weightedAverage: scoreOf(rawSynthesis.weightedAverage, "Média ponderada"), divergence: scoreOf(rawSynthesis.divergence, "Divergência"), strengths: listOf(rawSynthesis.strengths, "Pontos fortes", 2, 4), risks: listOf(rawSynthesis.risks, "Riscos", 2, 4), recommendations: listOf(rawSynthesis.recommendations, "Recomendações", 3, 3) as [string, string, string] } });
 }
 
+export function applyVisualOnlyScope(analysis: ContentAnalysis): ContentAnalysis {
+  const visualCriteria = CRITERIA.filter(criterion => !VISUAL_ONLY_EXCLUDED_CRITERIA.includes(criterion as (typeof VISUAL_ONLY_EXCLUDED_CRITERIA)[number]));
+  const consumers = analysis.consumers.map(consumer => ({
+    ...consumer,
+    overallScore: Math.round(visualCriteria.reduce((sum, criterion) => sum + consumer.criteria[criterion], 0) / visualCriteria.length),
+  }));
+  const overallScore = Math.round(consumers.reduce((sum, consumer) => sum + consumer.overallScore, 0) / consumers.length);
+  const divergence = Math.max(...consumers.map(consumer => consumer.overallScore)) - Math.min(...consumers.map(consumer => consumer.overallScore));
+  return { consumers, synthesis: { ...analysis.synthesis, overallScore, weightedAverage: overallScore, divergence } };
+}
+
 export function parseStructuredEvaluation(raw: string) {
   const trimmed = raw.trim().replace(/^```(?:json)?\s*/i, "").replace(/\s*```$/i, "");
   try { return JSON.parse(trimmed); } catch {
@@ -72,7 +84,7 @@ export function parseStructuredEvaluation(raw: string) {
   }
 }
 
-export async function evaluateContent(input: { contentType: "post" | "carrossel" | "reel" | "copy"; text: string; product: string; objective: string; targetAudience: string; mediaUrl?: string | null; mediaMimeType?: string | null; sourceUrl?: string | null }): Promise<ContentAnalysis> {
+export async function evaluateContent(input: { contentType: "post" | "carrossel" | "reel" | "copy"; text: string; product: string; objective: string; targetAudience: string; mediaUrl?: string | null; mediaMimeType?: string | null; sourceUrl?: string | null; analysisScope?: "standard" | "visual_only" }): Promise<ContentAnalysis> {
   const prompt = `Você é o motor de avaliação da Platéia, uma plataforma brasileira de pré-avaliação de conteúdo para redes sociais.
 
 Avalie o material abaixo sem afirmar que ele prevê vendas. Simule lentes comportamentais para os cinco consumidores obrigatórios e avalie todos os oito critérios obrigatórios. Notas mais altas em “objeções” significam menor barreira percebida; notas baixas significam maior resistência ou risco. Seja específico, prático, respeitoso e escreva em português do Brasil.
@@ -83,6 +95,7 @@ Objetivo da publicação: ${input.objective || "Não informado"}
 Público-alvo declarado: ${input.targetAudience || "Não informado"}
 Texto ou legenda: ${input.text || "Não informado"}
 Link de origem: ${input.sourceUrl || "Não informado"}
+Escopo da leitura: ${input.analysisScope === "visual_only" ? "Somente elementos visuais disponíveis. Não avalie, deduza ou critique uma legenda/copy inexistente." : "Material visual e texto disponíveis."}
 
 Contexto dos consumidores:
 ${CONSUMERS.map(name => `- ${name}: ${consumerContext[name]}`).join("\n")}
@@ -94,7 +107,8 @@ Regras:
 4. Identifique pontos fortes e riscos concretos do material.
 5. Não invente depoimentos, resultados, clientes, dados de performance ou provas sociais.
 6. Se houver somente um link de origem sem mídia anexada, trate-o apenas como referência e avalie somente o texto e o contexto fornecidos; não invente o conteúdo do link.
-7. Seja conciso: reações e objeções com até 180 caracteres; itens de síntese com até 160 caracteres.`;
+7. Quando o escopo for somente visual, baseie-se apenas no material visual. Não invente ou suponha CTA, promessa, preço, legenda ou qualquer texto que não esteja visível.
+8. Seja conciso: reações e objeções com até 180 caracteres; itens de síntese com até 160 caracteres.`;
   const request = { mediaUrl: input.mediaUrl, mediaMimeType: input.mediaMimeType, responseFormat: outputSchema };
   try { return normalizeAnalysis(parseStructuredEvaluation(await evaluateWithProvider({ prompt, ...request }))); }
   catch (firstError) {

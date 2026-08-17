@@ -1,7 +1,7 @@
 import { TRPCError } from "@trpc/server";
 import { z } from "zod";
 import { createAnalysis, getAnalysisByIdForUser, listAnalysesForUser, updateAnalysisResult } from "./db";
-import { evaluateContent } from "./contentAnalysis";
+import { applyVisualOnlyScope, evaluateContent } from "./contentAnalysis";
 import { protectedProcedure, router } from "./_core/trpc";
 import { storagePut } from "./storage";
 import { isAllowedPublicHttpsUrl, isInstagramPublicationUrl, publicLinkMessage, resolveInstagramMaterial } from "./publicLinks";
@@ -9,6 +9,7 @@ import { isAllowedPublicHttpsUrl, isInstagramPublicationUrl, publicLinkMessage, 
 const contentTypeSchema = z.enum(["post", "carrossel", "reel", "copy"]);
 const mediaMimeSchema = z.enum(["image/jpeg", "image/png", "image/webp", "video/mp4"]);
 const optionalText = (max: number) => z.string().max(max).optional().transform(value => value?.trim() ?? "");
+const visualOnlyExcludedCriteria = ["clareza", "ação", "objeções"] as const;
 
 const uploadSchema = z.object({
   fileName: z.string().min(1).max(160),
@@ -32,6 +33,7 @@ export const createAnalysisInputSchema = z.object({
   targetAudience: optionalText(600),
   media: uploadSchema.optional(),
   source: remoteSourceSchema.optional(),
+  skipCaption: z.boolean().optional().default(false),
 }).superRefine((input, ctx) => {
   if (input.contentType === "copy" && !input.contentText) ctx.addIssue({ code: z.ZodIssueCode.custom, path: ["contentText"], message: "Para avaliar uma copy, cole o texto do conteúdo." });
   if (input.contentType !== "copy" && !input.media && !input.source) ctx.addIssue({ code: z.ZodIssueCode.custom, path: ["media"], message: "Para post, carrossel ou Reel, envie um arquivo ou informe um link público do material." });
@@ -41,7 +43,19 @@ type ReadingCoverage = {
   level: "complete" | "partial" | "requires_complement";
   title: string;
   description: string;
+  mode?: "visual_only";
+  excludedCriteria?: readonly (typeof visualOnlyExcludedCriteria)[number][];
 };
+
+function visualOnlyCoverage(): ReadingCoverage {
+  return {
+    level: "partial",
+    mode: "visual_only",
+    excludedCriteria: visualOnlyExcludedCriteria,
+    title: "Leitura visual sem legenda",
+    description: "A Platéia avaliou somente os elementos visuais disponíveis. Clareza textual, ação e objeções ligadas à copy não entram na leitura consolidada.",
+  };
+}
 
 function safeFileName(fileName: string) {
   return fileName.toLowerCase().replace(/[^a-z0-9._-]/g, "-").replace(/-+/g, "-");
@@ -60,7 +74,7 @@ export const analysesRouter = router({
     let mediaUrl: string | null = null;
     let mediaKey: string | null = null;
     let mediaMimeType: string | null = null;
-    let contentText = input.contentText;
+    let contentText = input.skipCaption ? "" : input.contentText;
     const sourceUrl = input.source?.url ?? null;
     const sourceKind = input.source?.kind ?? null;
     const sourceMediaMimeType = input.source?.mimeType ?? null;
@@ -96,7 +110,7 @@ export const analysesRouter = router({
       if (instagram) {
         mediaUrl = instagram.mediaUrl;
         mediaMimeType = instagram.mediaMimeType;
-        if (!contentText && instagram.caption) contentText = instagram.caption;
+        if (!input.skipCaption && !contentText && instagram.caption) contentText = instagram.caption;
       } else if (!contentText) {
         coverage = {
           level: "requires_complement",
@@ -110,7 +124,10 @@ export const analysesRouter = router({
           description: "O Instagram não liberou a prévia visual; a Platéia avaliou somente o texto informado. Envie o MP4 para uma leitura visual completa.",
         };
       }
+      if (mediaUrl && (input.skipCaption || !contentText)) coverage = visualOnlyCoverage();
     }
+
+    if (input.contentType !== "copy" && mediaUrl && (input.skipCaption || !contentText) && coverage.level === "complete") coverage = visualOnlyCoverage();
 
     if (input.contentType !== "copy" && !mediaUrl && !contentText && coverage.level !== "requires_complement") throw new TRPCError({ code: "BAD_REQUEST", message: "A Platéia precisa de uma imagem, vídeo, carrossel ou texto de complemento para avaliar esse conteúdo." });
 
@@ -144,8 +161,10 @@ export const analysesRouter = router({
         mediaUrl,
         mediaMimeType,
         sourceUrl,
+        analysisScope: coverage.mode === "visual_only" ? "visual_only" : "standard",
       });
-      await updateAnalysisResult(created.id, "completed", { ...evaluation, coverage });
+      const scopedEvaluation = coverage.mode === "visual_only" ? applyVisualOnlyScope(evaluation) : evaluation;
+      await updateAnalysisResult(created.id, "completed", { ...scopedEvaluation, coverage });
       return { id: created.id, status: "completed" as const };
     } catch (error) {
       await updateAnalysisResult(created.id, "failed", null);

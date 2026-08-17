@@ -5,6 +5,7 @@ const mocks = vi.hoisted(() => ({
   updateAnalysisResult: vi.fn(),
   storagePut: vi.fn(),
   evaluateContent: vi.fn(),
+  applyVisualOnlyScope: vi.fn((value: unknown) => value),
   resolveInstagramMaterial: vi.fn(),
 }));
 
@@ -15,7 +16,7 @@ vi.mock("./db", () => ({
   updateAnalysisResult: mocks.updateAnalysisResult,
 }));
 vi.mock("./storage", () => ({ storagePut: mocks.storagePut }));
-vi.mock("./contentAnalysis", () => ({ evaluateContent: mocks.evaluateContent }));
+vi.mock("./contentAnalysis", () => ({ evaluateContent: mocks.evaluateContent, applyVisualOnlyScope: mocks.applyVisualOnlyScope }));
 vi.mock("./publicLinks", () => ({
   isAllowedPublicHttpsUrl: () => true,
   isInstagramPublicationUrl: (url: string) => url.includes("instagram.com/reel/"),
@@ -82,5 +83,18 @@ describe("analyses.create integration", () => {
     mocks.resolveInstagramMaterial.mockResolvedValue({ mediaUrl: null, mediaMimeType: null, caption: "Legenda captada do post" });
     await expect(caller().create({ contentType: "reel", contentText: "", product: "", objective: "", targetAudience: "", source: { url: "https://www.instagram.com/reel/C1Example/", kind: "published_post" } })).resolves.toEqual({ id: 42, status: "completed" });
     expect(mocks.evaluateContent).toHaveBeenCalledWith(expect.objectContaining({ text: "Legenda captada do post", mediaUrl: null }));
+  });
+
+  it("continues with a visual-only reading when the user chooses not to evaluate the caption", async () => {
+    mocks.resolveInstagramMaterial.mockResolvedValue({ mediaUrl: "https://cdn.instagram.example/preview.jpg", mediaMimeType: "image/jpeg", caption: "Legenda pública" });
+    await expect(caller().create({ contentType: "reel", contentText: "", product: "", objective: "", targetAudience: "", skipCaption: true, source: { url: "https://www.instagram.com/reel/C1Example/", kind: "published_post" } })).resolves.toEqual({ id: 42, status: "completed" });
+    expect(mocks.evaluateContent).toHaveBeenCalledWith(expect.objectContaining({ text: "", analysisScope: "visual_only", mediaUrl: "https://cdn.instagram.example/preview.jpg" }));
+    expect(mocks.applyVisualOnlyScope).toHaveBeenCalledWith(report);
+    expect(mocks.updateAnalysisResult).toHaveBeenCalledWith(42, "completed", expect.objectContaining({ coverage: expect.objectContaining({ mode: "visual_only", excludedCriteria: ["clareza", "ação", "objeções"] }) }));
+  });
+
+  it("discards user-provided text when the user explicitly selects visual-only reading", async () => {
+    await expect(caller().create({ contentType: "post", contentText: "Legenda que não deve entrar na análise.", product: "", objective: "", targetAudience: "", skipCaption: true, media: { fileName: "post.png", mimeType: "image/png", base64: "a".repeat(24) } })).resolves.toEqual({ id: 42, status: "completed" });
+    expect(mocks.evaluateContent).toHaveBeenCalledWith(expect.objectContaining({ text: "", analysisScope: "visual_only" }));
   });
 });
