@@ -77,4 +77,10 @@ describe("analyses.create integration", () => {
     expect(mocks.evaluateContent).toHaveBeenCalledWith(expect.objectContaining({ text: "Legenda fornecida pelo usuário.", mediaUrl: null }));
     expect(mocks.updateAnalysisResult).toHaveBeenCalledWith(42, "completed", expect.objectContaining({ coverage: expect.objectContaining({ level: "partial" }) }));
   });
+
+  it("uses a caption captured from Instagram even when the visual preview is unavailable", async () => {
+    mocks.resolveInstagramMaterial.mockResolvedValue({ mediaUrl: null, mediaMimeType: null, caption: "Legenda captada do post" });
+    await expect(caller().create({ contentType: "reel", contentText: "", product: "", objective: "", targetAudience: "", source: { url: "https://www.instagram.com/reel/C1Example/", kind: "published_post" } })).resolves.toEqual({ id: 42, status: "completed" });
+    expect(mocks.evaluateContent).toHaveBeenCalledWith(expect.objectContaining({ text: "Legenda captada do post", mediaUrl: null }));
+  });
 });

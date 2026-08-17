@@ -51,3 +51,6 @@
 - [x] Ajustar o estado de complemento para orientar exclusivamente a inclusão de legenda/copy nesse caminho de link público.
 - [x] Criar um modo explícito de complemento textual que preserve o link e o tipo de conteúdo, ocultando o requisito visual.
 - [x] Encaminhar explicitamente o CTA de complemento para o modo textual-only, preservando tipo e link do Instagram.
+- [x] Capturar automaticamente a legenda disponível em links públicos de posts e Reels do Instagram.
+- [x] Usar a legenda captada no relatório e solicitar complemento manual apenas se nenhum texto público estiver disponível.
+- [x] Cobrir a extração automática de legenda em metadados públicos e testar a integração da avaliação.

@@ -32,10 +32,35 @@ function metaContent(html: string, property: string) {
 }
 
 function decodeHtml(value: string | null) {
-  return value?.replace(/&amp;/g, "&").replace(/&#x27;/g, "'").replace(/&quot;/g, '"').trim() || null;
+  return value?.replace(/&amp;/g, "&").replace(/&#x27;/g, "'").replace(/&quot;/g, '"').replace(/&#39;/g, "'").trim() || null;
 }
 
-export type InstagramMaterial = { mediaUrl: string; mediaMimeType: "image/jpeg"; caption: string | null };
+function jsonLdCaption(html: string) {
+  const scripts = Array.from(html.matchAll(/<script[^>]+type=["']application\/ld\+json["'][^>]*>([\s\S]*?)<\/script>/gi));
+  for (const script of scripts) {
+    try {
+      const parsed = JSON.parse(script[1]) as Record<string, unknown>;
+      const candidates = [parsed.caption, parsed.description, parsed.articleBody];
+      const caption = candidates.find(value => typeof value === "string" && value.trim());
+      if (typeof caption === "string") return caption.trim();
+    } catch {
+      // A página pode conter dados estruturados incompletos; os metadados seguem como fallback.
+    }
+  }
+  return null;
+}
+
+function captionFromHtml(html: string) {
+  const candidates = [
+    metaContent(html, "og:description"),
+    metaContent(html, "twitter:description"),
+    metaContent(html, "description"),
+    jsonLdCaption(html),
+  ];
+  return candidates.map(decodeHtml).find((caption): caption is string => Boolean(caption)) ?? null;
+}
+
+export type InstagramMaterial = { mediaUrl: string | null; mediaMimeType: "image/jpeg" | null; caption: string | null };
 
 export async function resolveInstagramMaterial(sourceUrl: string): Promise<InstagramMaterial | null> {
   if (!isInstagramPublicationUrl(sourceUrl)) return null;
@@ -52,10 +77,11 @@ export async function resolveInstagramMaterial(sourceUrl: string): Promise<Insta
     });
     if (!response.ok) return null;
     const html = await response.text();
-    const mediaUrl = decodeHtml(metaContent(html, "og:image"));
-    if (!mediaUrl || !isAllowedPublicHttpsUrl(mediaUrl)) return null;
-    const caption = decodeHtml(metaContent(html, "og:description"));
-    return { mediaUrl, mediaMimeType: "image/jpeg", caption };
+    const candidateMediaUrl = decodeHtml(metaContent(html, "og:image"));
+    const mediaUrl = candidateMediaUrl && isAllowedPublicHttpsUrl(candidateMediaUrl) ? candidateMediaUrl : null;
+    const caption = captionFromHtml(html);
+    if (!mediaUrl && !caption) return null;
+    return { mediaUrl, mediaMimeType: mediaUrl ? "image/jpeg" : null, caption };
   } catch {
     return null;
   } finally {

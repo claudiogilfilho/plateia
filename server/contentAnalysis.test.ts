@@ -77,6 +77,20 @@ describe("validateAnalysisShape", () => {
     fetchMock.mockRestore();
   });
 
+  it("captures a public caption even when Instagram does not expose a preview image", async () => {
+    const fetchMock = vi.spyOn(globalThis, "fetch").mockResolvedValue(new Response('<meta name="twitter:description" content="Legenda captada automaticamente">', { status: 200 }));
+    const material = await resolveInstagramMaterial("https://www.instagram.com/reel/C1Example/");
+    expect(material).toEqual({ mediaUrl: null, mediaMimeType: null, caption: "Legenda captada automaticamente" });
+    fetchMock.mockRestore();
+  });
+
+  it("uses structured public metadata as a caption fallback", async () => {
+    const fetchMock = vi.spyOn(globalThis, "fetch").mockResolvedValue(new Response('<script type="application/ld+json">{"caption":"Legenda vinda do JSON-LD"}</script>', { status: 200 }));
+    const material = await resolveInstagramMaterial("https://www.instagram.com/reel/C1Example/");
+    expect(material).toEqual({ mediaUrl: null, mediaMimeType: null, caption: "Legenda vinda do JSON-LD" });
+    fetchMock.mockRestore();
+  });
+
   it("accepts the minimum required material for copy, uploaded visual content and public Instagram links", () => {
     const shared = { product: "", objective: "", targetAudience: "" };
     expect(createAnalysisInputSchema.safeParse({ ...shared, contentType: "copy", contentText: "Uma copy curta para avaliar." }).success).toBe(true);
