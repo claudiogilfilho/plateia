@@ -1,15 +1,16 @@
 import { Badge } from "@/components/ui/badge";
 import { trpc } from "@/lib/trpc";
 import { AlertTriangle, ArrowLeft, CheckCircle2, CircleAlert, ExternalLink, Lightbulb, Loader2, Target } from "lucide-react";
-import type { CSSProperties } from "react";
+import React, { type CSSProperties } from "react";
 import { Link, useRoute } from "wouter";
 
 const criteria = ["gancho", "clareza", "relevância", "desejo", "confiança", "retenção", "ação", "objeções"] as const;
 type Criterion = (typeof criteria)[number];
+export type ReadingCoverage = { level: "complete" | "partial" | "requires_complement"; title: string; description: string; mode?: "visual_only"; excludedCriteria?: Criterion[] };
 type ReportData = {
   consumers: Array<{ name: string; overallScore: number; reaction: string; criteria: Record<Criterion, number>; mainObjection: string }>;
   synthesis: { overallScore: number; weightedAverage: number; divergence: number; strengths: string[]; risks: string[]; recommendations: [string, string, string] };
-  coverage?: { level: "complete" | "partial" | "requires_complement"; title: string; description: string; mode?: "visual_only"; excludedCriteria?: Criterion[] };
+  coverage?: ReadingCoverage;
 };
 
 export default function Report() {
@@ -48,7 +49,7 @@ export default function Report() {
         </div>
       </div>
     </section>
-    {report.coverage?.level === "partial" && <div className="mt-6 flex gap-3 rounded-2xl border border-amber-200 bg-amber-50 px-5 py-4 text-amber-950"><CircleAlert className="mt-0.5 h-5 w-5 shrink-0 text-amber-700" /><div><p className="text-sm font-bold">{report.coverage.title}</p><p className="mt-1 text-sm leading-6 text-amber-900">{report.coverage.description}</p></div></div>}
+    <CoverageNotice coverage={report.coverage} />
     <section className="mt-6 grid gap-6 xl:grid-cols-[1.2fr_0.8fr]">
       <div className="space-y-6">
         <div className="plateia-card p-6 sm:p-7">
@@ -78,6 +79,11 @@ function NeedsContentReport({ contentType, sourceUrl, reportJson }: { contentTyp
   const coverage = reportJson ? (JSON.parse(reportJson) as Pick<ReportData, "coverage">).coverage : undefined;
   const href = `/avaliar?envio=link&tipo=${contentType}&complemento=legenda${sourceUrl ? `&link=${encodeURIComponent(sourceUrl)}` : ""}`;
   return <div className="mx-auto max-w-xl pt-16 text-center"><CircleAlert className="mx-auto mb-4 h-10 w-10 text-amber-500" /><h1 className="font-display text-3xl font-extrabold text-[#2b1058]">Falta só a legenda.</h1><p className="mt-2 text-slate-600">{coverage?.description || "Cole a legenda ou a copy para que a Platéia consiga iniciar a leitura textual."}</p><Link href={href} className="mt-6 inline-flex h-10 items-center rounded-md bg-[#2b1058] px-4 text-sm font-semibold text-white focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-violet-500">Adicionar legenda</Link></div>;
+}
+
+export function CoverageNotice({ coverage }: { coverage?: ReadingCoverage }) {
+  if (coverage?.level !== "partial") return null;
+  return <div role="note" className="mt-6 flex gap-3 rounded-2xl border border-amber-200 bg-amber-50 px-5 py-4 text-amber-950"><CircleAlert className="mt-0.5 h-5 w-5 shrink-0 text-amber-700" /><div><p className="text-sm font-bold">{coverage.title}</p><p className="mt-1 text-sm leading-6 text-amber-900">{coverage.description}</p></div></div>;
 }
 
 function ConsumerCard({ consumer }: { consumer: ReportData["consumers"][number] }) {
