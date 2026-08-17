@@ -21,15 +21,17 @@ import {
 } from "@/components/ui/sidebar";
 import { startLogin } from "@/const";
 import { useIsMobile } from "@/hooks/useMobile";
-import { LayoutDashboard, LogOut, PanelLeft, Users } from "lucide-react";
+import { ClipboardCheck, History, LayoutDashboard, LogOut, PanelLeft, PlusCircle } from "lucide-react";
 import { CSSProperties, useEffect, useRef, useState } from "react";
 import { useLocation } from "wouter";
 import { DashboardLayoutSkeleton } from './DashboardLayoutSkeleton';
 import { Button } from "./ui/button";
+import { BrandMark } from "./BrandMark";
 
 const menuItems = [
-  { icon: LayoutDashboard, label: "Page 1", path: "/" },
-  { icon: Users, label: "Page 2", path: "/some-path" },
+  { icon: LayoutDashboard, label: "Visão geral", path: "/app" },
+  { icon: PlusCircle, label: "Nova avaliação", path: "/avaliar" },
+  { icon: History, label: "Histórico", path: "/historico" },
 ];
 
 const SIDEBAR_WIDTH_KEY = "sidebar-width";
@@ -61,11 +63,11 @@ export default function DashboardLayout({
       <div className="flex items-center justify-center min-h-screen">
         <div className="flex flex-col items-center gap-8 p-8 max-w-md w-full">
           <div className="flex flex-col items-center gap-6">
-            <h1 className="text-2xl font-semibold tracking-tight text-center">
-              Sign in to continue
-            </h1>
-            <p className="text-sm text-muted-foreground text-center max-w-sm">
-              Access to this dashboard requires authentication. Continue to launch the login flow.
+              <h1 className="font-display text-2xl font-extrabold tracking-tight text-center text-[#2b1058]">
+                Entre para ouvir a sua Platéia
+              </h1>
+              <p className="text-sm text-muted-foreground text-center max-w-sm">
+                As avaliações, relatórios e materiais da sua marca ficam protegidos na sua conta.
             </p>
           </div>
           <Button
@@ -73,7 +75,7 @@ export default function DashboardLayout({
             size="lg"
             className="w-full shadow-lg hover:shadow-xl transition-all"
           >
-            Sign in
+              Entrar na Platéia
           </Button>
         </div>
       </div>
@@ -157,7 +159,7 @@ function DashboardLayoutContent({
           className="border-r-0"
           disableTransition={isResizing}
         >
-          <SidebarHeader className="h-16 justify-center">
+          <SidebarHeader className="h-20 justify-center">
             <div className="flex items-center gap-3 px-2 transition-all w-full">
               <button
                 onClick={toggleSidebar}
@@ -168,9 +170,7 @@ function DashboardLayoutContent({
               </button>
               {!isCollapsed ? (
                 <div className="flex items-center gap-2 min-w-0">
-                  <span className="font-semibold tracking-tight truncate">
-                    Navigation
-                  </span>
+                  <BrandMark />
                 </div>
               ) : null}
             </div>
@@ -186,7 +186,7 @@ function DashboardLayoutContent({
                       isActive={isActive}
                       onClick={() => setLocation(item.path)}
                       tooltip={item.label}
-                      className={`h-10 transition-all font-normal`}
+                      className={`h-11 transition-all font-semibold ${isActive ? "bg-violet-100/75 text-[#2b1058]" : "text-slate-600 hover:bg-violet-50"}`}
                     >
                       <item.icon
                         className={`h-4 w-4 ${isActive ? "text-primary" : ""}`}
@@ -224,7 +224,7 @@ function DashboardLayoutContent({
                   className="cursor-pointer text-destructive focus:text-destructive"
                 >
                   <LogOut className="mr-2 h-4 w-4" />
-                  <span>Sign out</span>
+                  <span>Sair da Platéia</span>
                 </DropdownMenuItem>
               </DropdownMenuContent>
             </DropdownMenu>
@@ -248,14 +248,14 @@ function DashboardLayoutContent({
               <div className="flex items-center gap-3">
                 <div className="flex flex-col gap-1">
                   <span className="tracking-tight text-foreground">
-                    {activeMenuItem?.label ?? "Menu"}
+                    {activeMenuItem?.label ?? "Platéia"}
                   </span>
                 </div>
               </div>
             </div>
           </div>
         )}
-        <main className="flex-1 p-4">{children}</main>
+        <main className="min-h-screen flex-1 bg-[#fbfaff] p-4 sm:p-7">{children}</main>
       </SidebarInset>
     </>
   );

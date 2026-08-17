@@ -1,6 +1,6 @@
-import { eq } from "drizzle-orm";
+import { desc, eq, and } from "drizzle-orm";
 import { drizzle } from "drizzle-orm/mysql2";
-import { InsertUser, users } from "../drizzle/schema";
+import { Analysis, InsertAnalysis, InsertUser, analyses, users } from "../drizzle/schema";
 import { ENV } from './_core/env';
 
 let _db: ReturnType<typeof drizzle> | null = null;
@@ -89,4 +89,28 @@ export async function getUserByOpenId(openId: string) {
   return result.length > 0 ? result[0] : undefined;
 }
 
-// TODO: add feature queries here as your schema grows.
+export async function createAnalysis(analysis: Omit<InsertAnalysis, "id" | "status" | "reportJson" | "createdAt" | "updatedAt">) {
+  const db = await getDb();
+  if (!db) throw new Error("Banco de dados indisponível.");
+  const result = await db.insert(analyses).values(analysis);
+  return { id: Number(result[0].insertId) };
+}
+
+export async function updateAnalysisResult(id: number, status: "completed" | "failed", report: unknown) {
+  const db = await getDb();
+  if (!db) throw new Error("Banco de dados indisponível.");
+  await db.update(analyses).set({ status, reportJson: report ? JSON.stringify(report) : null }).where(eq(analyses.id, id));
+}
+
+export async function listAnalysesForUser(userId: number): Promise<Analysis[]> {
+  const db = await getDb();
+  if (!db) return [];
+  return db.select().from(analyses).where(eq(analyses.userId, userId)).orderBy(desc(analyses.createdAt));
+}
+
+export async function getAnalysisByIdForUser(id: number, userId: number): Promise<Analysis | undefined> {
+  const db = await getDb();
+  if (!db) return undefined;
+  const result = await db.select().from(analyses).where(and(eq(analyses.id, id), eq(analyses.userId, userId))).limit(1);
+  return result[0];
+}

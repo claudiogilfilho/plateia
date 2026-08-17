@@ -25,4 +25,22 @@ export const users = mysqlTable("users", {
 export type User = typeof users.$inferSelect;
 export type InsertUser = typeof users.$inferInsert;
 
-// TODO: Add your tables here
+export const analyses = mysqlTable("analyses", {
+  id: int("id").autoincrement().primaryKey(),
+  userId: int("userId").notNull(),
+  contentType: mysqlEnum("contentType", ["post", "carrossel", "reel", "copy"]).notNull(),
+  contentText: text("contentText").notNull(),
+  product: varchar("product", { length: 300 }).notNull(),
+  objective: varchar("objective", { length: 300 }).notNull(),
+  targetAudience: text("targetAudience").notNull(),
+  mediaUrl: text("mediaUrl"),
+  mediaKey: varchar("mediaKey", { length: 1024 }),
+  mediaMimeType: varchar("mediaMimeType", { length: 120 }),
+  status: mysqlEnum("status", ["processing", "completed", "failed"]).default("processing").notNull(),
+  reportJson: text("reportJson"),
+  createdAt: timestamp("createdAt").defaultNow().notNull(),
+  updatedAt: timestamp("updatedAt").defaultNow().onUpdateNow().notNull(),
+});
+
+export type Analysis = typeof analyses.$inferSelect;
+export type InsertAnalysis = typeof analyses.$inferInsert;

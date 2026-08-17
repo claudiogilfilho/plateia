@@ -1,0 +1,23 @@
+# Projeto Platéia — TODO
+
+- [x] Definir o modelo de dados para avaliações, critérios, consumidores sintéticos e arquivos de mídia.
+- [x] Criar a identidade visual da Platéia, incluindo logo, paleta roxo + coral e tipografia moderna.
+- [x] Construir a landing page pública com proposta de valor e chamada clara para login.
+- [x] Implementar rotas protegidas por Manus OAuth para o espaço interno da aplicação.
+- [x] Criar formulário de envio com tipo de conteúdo, upload, texto/legenda, produto, objetivo e público-alvo.
+- [x] Configurar armazenamento S3 para imagens e vídeos enviados pelos usuários.
+- [x] Implementar a camada de IA embutida via invokeLLM com provedor substituível.
+- [x] Implementar as avaliações de O Apressado, O Analítico, O Aspiracional, O Influenciado pela Comunidade e O Cético.
+- [x] Implementar notas de 0 a 100 para gancho, clareza, relevância, desejo, confiança, retenção, ação e objeções.
+- [x] Gerar relatório com nota geral, média ponderada, divergência, pontos fortes, riscos e exatamente três recomendações prioritárias.
+- [x] Criar histórico individual de avaliações com status e acesso ao relatório completo.
+- [x] Adicionar estados de carregamento, erro, vazio e sucesso em todos os fluxos principais.
+- [x] Criar testes Vitest para a normalização e validação da avaliação estruturada.
+- [x] Revisar responsividade, acessibilidade e experiência visual em desktop e mobile.
+- [x] Criar uma interface de provedor de IA que separe a orquestração da Platéia do serviço inicial de IA embutida.
+- [x] Implementar normalização defensiva da resposta da IA e cobrir nomes, critérios, notas e recomendações com testes Vitest.
+- [x] Adicionar estados de erro explícitos no painel, histórico e relatório, além de confirmação de sucesso após o envio.
+- [x] Validar o fluxo em viewport mobile e revisar foco, labels, contraste e navegação por teclado.
+- [x] Corrigir o loading explícito do histórico no painel e remover controles interativos aninhados.
+- [x] Validar o histórico e os estados do relatório em viewport mobile, incluindo foco, contraste e legibilidade.
+- [x] Exibir imediatamente o estado de relatório não encontrado, sem tentativas repetidas de carregamento.
