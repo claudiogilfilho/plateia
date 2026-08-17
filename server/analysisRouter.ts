@@ -4,6 +4,7 @@ import { createAnalysis, getAnalysisByIdForUser, listAnalysesForUser, updateAnal
 import { evaluateContent } from "./contentAnalysis";
 import { protectedProcedure, router } from "./_core/trpc";
 import { storagePut } from "./storage";
+import { isAllowedPublicHttpsUrl, publicLinkMessage } from "./publicLinks";
 
 const contentTypeSchema = z.enum(["post", "carrossel", "reel", "copy"]);
 
@@ -13,6 +14,16 @@ const uploadSchema = z.object({
   base64: z.string().min(16),
 });
 
+const remoteSourceSchema = z.object({
+  url: z.string().trim().max(2048).url().refine(isAllowedPublicHttpsUrl, publicLinkMessage),
+  kind: z.enum(["direct_media", "published_post"]),
+  mimeType: z.enum(["image/jpeg", "image/png", "image/webp", "video/mp4"]).optional(),
+}).superRefine((source, ctx) => {
+  if (source.kind === "direct_media" && !source.mimeType) {
+    ctx.addIssue({ code: z.ZodIssueCode.custom, path: ["mimeType"], message: "Informe se o link direto aponta para imagem ou vídeo." });
+  }
+});
+
 const createSchema = z.object({
   contentType: contentTypeSchema,
   contentText: z.string().max(10000).default(""),
@@ -20,6 +31,11 @@ const createSchema = z.object({
   objective: z.string().min(2).max(300),
   targetAudience: z.string().min(2).max(600),
   media: uploadSchema.optional(),
+  source: remoteSourceSchema.optional(),
+}).superRefine((input, ctx) => {
+  if (!input.media && !input.source && !input.contentText.trim()) {
+    ctx.addIssue({ code: z.ZodIssueCode.custom, path: ["contentText"], message: "Envie um arquivo, informe um link público ou adicione o texto do conteúdo." });
+  }
 });
 
 function safeFileName(fileName: string) {
@@ -39,6 +55,9 @@ export const analysesRouter = router({
     let mediaUrl: string | null = null;
     let mediaKey: string | null = null;
     let mediaMimeType: string | null = null;
+    const sourceUrl = input.source?.url ?? null;
+    const sourceKind = input.source?.kind ?? null;
+    const sourceMediaMimeType = input.source?.mimeType ?? null;
 
     if (input.media) {
       const payload = input.media.base64.includes(",") ? input.media.base64.split(",")[1] : input.media.base64;
@@ -53,6 +72,11 @@ export const analysesRouter = router({
       mediaMimeType = input.media.mimeType;
     }
 
+    if (!mediaUrl && input.source?.kind === "direct_media") {
+      mediaUrl = input.source.url;
+      mediaMimeType = input.source.mimeType ?? null;
+    }
+
     const created = await createAnalysis({
       userId: ctx.user.id,
       contentType: input.contentType,
@@ -63,6 +87,9 @@ export const analysesRouter = router({
       mediaUrl,
       mediaKey,
       mediaMimeType,
+      sourceUrl,
+      sourceKind,
+      sourceMediaMimeType,
     });
 
     try {
@@ -74,6 +101,7 @@ export const analysesRouter = router({
         targetAudience: input.targetAudience,
         mediaUrl,
         mediaMimeType,
+        sourceUrl,
       });
       await updateAnalysisResult(created.id, "completed", evaluation);
       return { id: created.id, status: "completed" as const };

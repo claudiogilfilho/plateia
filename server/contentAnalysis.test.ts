@@ -1,5 +1,6 @@
 import { describe, expect, it } from "vitest";
 import { CONSUMERS, CRITERIA, normalizeAnalysis, validateAnalysisShape } from "./contentAnalysis";
+import { isAllowedPublicHttpsUrl } from "./publicLinks";
 
 const criteria = Object.fromEntries(CRITERIA.map(key => [key, 70])) as Record<(typeof CRITERIA)[number], number>;
 
@@ -53,5 +54,12 @@ describe("validateAnalysisShape", () => {
       consumers: CONSUMERS.slice(0, 4).map(name => ({ name, overallScore: 70, reaction: "Reação objetiva.", criteria, mainObjection: "Sem objeção crítica." })),
       synthesis: { overallScore: 70, weightedAverage: 70, divergence: 12, strengths: ["Clareza inicial.", "Ação visível."], risks: ["Prova limitada.", "Ritmo lento."], recommendations: ["Melhorar o gancho.", "Adicionar prova.", "Reduzir texto."] },
     })).toThrow("cinco consumidores");
+  });
+
+  it("only accepts public HTTPS links as remote content sources", () => {
+    expect(isAllowedPublicHttpsUrl("https://cdn.exemplo.com/video.mp4")).toBe(true);
+    expect(isAllowedPublicHttpsUrl("http://cdn.exemplo.com/video.mp4")).toBe(false);
+    expect(isAllowedPublicHttpsUrl("https://localhost:3000/video.mp4")).toBe(false);
+    expect(isAllowedPublicHttpsUrl("https://192.168.1.10/video.mp4")).toBe(false);
   });
 });

@@ -186,6 +186,7 @@ export async function evaluateContent(input: {
   targetAudience: string;
   mediaUrl?: string | null;
   mediaMimeType?: string | null;
+  sourceUrl?: string | null;
 }): Promise<ContentAnalysis> {
   const prompt = `Você é o motor de avaliação da Platéia, uma plataforma brasileira de pré-avaliação de conteúdo para redes sociais.
 
@@ -196,6 +197,7 @@ Produto relacionado: ${input.product}
 Objetivo da publicação: ${input.objective}
 Público-alvo declarado: ${input.targetAudience}
 Texto ou legenda: ${input.text || "Não informado"}
+Link de origem: ${input.sourceUrl || "Não informado"}
 
 Contexto dos consumidores:
 ${CONSUMERS.map(name => `- ${name}: ${consumerContext[name]}`).join("\n")}
@@ -205,7 +207,8 @@ Regras:
 2. Avalie exatamente estes critérios: ${CRITERIA.join(", ")}.
 3. Recomendações deve conter exatamente três sugestões, em ordem de prioridade e acionáveis.
 4. Identifique pontos fortes e riscos concretos do material.
-5. Não invente depoimentos, resultados, clientes, dados de performance ou provas sociais.`;
+5. Não invente depoimentos, resultados, clientes, dados de performance ou provas sociais.
+6. Se houver somente um link de origem sem mídia anexada, trate-o apenas como referência e avalie somente o texto e o contexto fornecidos; não invente o conteúdo do link.`;
 
   const raw = await evaluateWithProvider({ prompt, mediaUrl: input.mediaUrl, mediaMimeType: input.mediaMimeType, responseFormat: outputSchema });
   return normalizeAnalysis(JSON.parse(raw));

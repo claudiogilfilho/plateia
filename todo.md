@@ -21,3 +21,10 @@
 - [x] Corrigir o loading explícito do histórico no painel e remover controles interativos aninhados.
 - [x] Validar o histórico e os estados do relatório em viewport mobile, incluindo foco, contraste e legibilidade.
 - [x] Exibir imediatamente o estado de relatório não encontrado, sem tentativas repetidas de carregamento.
+- [x] Aceitar link público de post, vídeo ou arquivo em nuvem como alternativa ao upload direto.
+- [x] Validar URLs HTTPS públicas, orientar sobre links diretos de mídia e impedir o envio sem material ou link.
+- [x] Persistir o link de origem da análise e encaminhar links compatíveis ao motor de IA.
+- [x] Testar o envio por link e revisar a experiência em desktop e mobile.
+- [x] Validar visualmente o modo de link selecionado em desktop e mobile, incluindo orientações de mídia direta e post publicado.
+- [x] Permitir abrir diretamente a prévia do submodo de mídia direta para revisar seus controles.
+- [x] Exibir no relatório o link de origem público quando houver uma avaliação enviada por URL.
