@@ -63,4 +63,18 @@ describe("analyses.create integration", () => {
     expect(mocks.resolveInstagramMaterial).toHaveBeenCalledWith("https://www.instagram.com/reel/C1Example/");
     expect(mocks.evaluateContent).toHaveBeenCalledWith(expect.objectContaining({ contentType: "reel", text: "Legenda pública", mediaUrl: "https://cdn.instagram.example/preview.jpg", mediaMimeType: "image/jpeg" }));
   });
+
+  it("does not fail when Instagram hides the preview: it requests a caption when none was provided", async () => {
+    mocks.resolveInstagramMaterial.mockResolvedValue(null);
+    await expect(caller().create({ contentType: "reel", contentText: "", product: "", objective: "", targetAudience: "", source: { url: "https://www.instagram.com/reel/C1Example/", kind: "published_post" } })).resolves.toEqual({ id: 42, status: "needs_content" });
+    expect(mocks.evaluateContent).not.toHaveBeenCalled();
+    expect(mocks.updateAnalysisResult).toHaveBeenCalledWith(42, "needs_content", expect.objectContaining({ coverage: expect.objectContaining({ level: "requires_complement" }) }));
+  });
+
+  it("continues with a partial text reading when Instagram hides the preview but the user supplied a caption", async () => {
+    mocks.resolveInstagramMaterial.mockResolvedValue(null);
+    await expect(caller().create({ contentType: "reel", contentText: "Legenda fornecida pelo usuário.", product: "", objective: "", targetAudience: "", source: { url: "https://www.instagram.com/reel/C1Example/", kind: "published_post" } })).resolves.toEqual({ id: 42, status: "completed" });
+    expect(mocks.evaluateContent).toHaveBeenCalledWith(expect.objectContaining({ text: "Legenda fornecida pelo usuário.", mediaUrl: null }));
+    expect(mocks.updateAnalysisResult).toHaveBeenCalledWith(42, "completed", expect.objectContaining({ coverage: expect.objectContaining({ level: "partial" }) }));
+  });
 });

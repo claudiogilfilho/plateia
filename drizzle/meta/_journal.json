@@ -22,6 +22,13 @@
       "when": 1786958861922,
       "tag": "0002_workable_ulik",
       "breakpoints": true
+    },
+    {
+      "idx": 3,
+      "version": "5",
+      "when": 1787006760294,
+      "tag": "0003_noisy_inertia",
+      "breakpoints": true
     }
   ]
 }

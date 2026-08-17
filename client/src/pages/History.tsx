@@ -3,7 +3,7 @@ import { trpc } from "@/lib/trpc";
 import { ArrowRight, Clock3, Plus } from "lucide-react";
 import { Link } from "wouter";
 
-const statusMap = { completed: { label: "Concluída", className: "bg-emerald-50 text-emerald-700 border-emerald-100" }, processing: { label: "Em avaliação", className: "bg-amber-50 text-amber-700 border-amber-100" }, failed: { label: "Não concluída", className: "bg-rose-50 text-rose-700 border-rose-100" } } as const;
+const statusMap = { completed: { label: "Concluída", className: "bg-emerald-50 text-emerald-700 border-emerald-100" }, processing: { label: "Em avaliação", className: "bg-amber-50 text-amber-700 border-amber-100" }, needs_content: { label: "Complemento necessário", className: "bg-amber-50 text-amber-800 border-amber-200" }, failed: { label: "Não concluída", className: "bg-rose-50 text-rose-700 border-rose-100" } } as const;
 
 export default function History() {
   const { data: analyses = [], isLoading, error } = trpc.analyses.list.useQuery();

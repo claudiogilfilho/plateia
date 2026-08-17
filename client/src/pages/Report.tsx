@@ -9,6 +9,7 @@ type Criterion = (typeof criteria)[number];
 type ReportData = {
   consumers: Array<{ name: string; overallScore: number; reaction: string; criteria: Record<Criterion, number>; mainObjection: string }>;
   synthesis: { overallScore: number; weightedAverage: number; divergence: number; strengths: string[]; risks: string[]; recommendations: [string, string, string] };
+  coverage?: { level: "complete" | "partial" | "requires_complement"; title: string; description: string };
 };
 
 export default function Report() {
@@ -20,6 +21,7 @@ export default function Report() {
   if (error) return <div role="alert" className="mx-auto mt-16 max-w-xl rounded-2xl border border-rose-100 bg-rose-50 p-6 text-center text-rose-700">Não foi possível carregar este relatório agora. Volte ao histórico e tente novamente.</div>;
   if (!analysis) return <div className="p-8 text-slate-600">Avaliação não encontrada.</div>;
   if (analysis.status === "failed") return <FailedReport />;
+  if (analysis.status === "needs_content") return <NeedsContentReport contentType={analysis.contentType} sourceUrl={analysis.sourceUrl} reportJson={analysis.reportJson} />;
   if (!analysis.reportJson) return <div className="mx-auto max-w-xl pt-16 text-center"><Loader2 className="mx-auto mb-4 h-9 w-9 animate-spin text-violet-600" /><h1 className="font-display text-3xl font-extrabold text-[#2b1058]">A Platéia está lendo seu material.</h1><p className="mt-2 text-slate-600">O relatório aparecerá aqui assim que a avaliação for concluída.</p></div>;
 
   const report = JSON.parse(analysis.reportJson) as ReportData;
@@ -33,7 +35,7 @@ export default function Report() {
       <div className="absolute -right-14 -top-14 h-56 w-56 rounded-full bg-[#ff6f61]/30 blur-3xl" />
       <div className="relative grid gap-8 md:grid-cols-[1fr_auto] md:items-center">
         <div>
-          <Badge className="border-violet-400/25 bg-white/10 text-violet-100 hover:bg-white/10">Relatório de avaliação</Badge>
+          <Badge className="border-violet-400/25 bg-white/10 text-violet-100 hover:bg-white/10">Relatório de avaliação</Badge>{report.coverage?.level === "partial" && <Badge className="ml-2 border-amber-200/30 bg-amber-300/15 text-amber-100 hover:bg-amber-300/15">Leitura parcial</Badge>}
           <h1 className="mt-4 font-display text-4xl font-extrabold tracking-[-0.06em] sm:text-5xl">{reportTitle}</h1>
           {reportContext && <p className="mt-3 max-w-2xl text-sm leading-6 text-violet-100">{reportContext}</p>}
           {analysis.sourceUrl && <a href={analysis.sourceUrl} target="_blank" rel="noreferrer" className="mt-4 inline-flex items-center gap-2 rounded-md border border-white/20 bg-white/10 px-3 py-2 text-xs font-bold text-white transition-colors hover:bg-white/15 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-white"><ExternalLink className="h-3.5 w-3.5" /> Abrir material de origem</a>}
@@ -44,6 +46,7 @@ export default function Report() {
         </div>
       </div>
     </section>
+    {report.coverage?.level === "partial" && <div className="mt-6 flex gap-3 rounded-2xl border border-amber-200 bg-amber-50 px-5 py-4 text-amber-950"><CircleAlert className="mt-0.5 h-5 w-5 shrink-0 text-amber-700" /><div><p className="text-sm font-bold">{report.coverage.title}</p><p className="mt-1 text-sm leading-6 text-amber-900">{report.coverage.description}</p></div></div>}
     <section className="mt-6 grid gap-6 xl:grid-cols-[1.2fr_0.8fr]">
       <div className="space-y-6">
         <div className="plateia-card p-6 sm:p-7">
@@ -67,6 +70,12 @@ export default function Report() {
 
 function FailedReport() {
   return <div className="mx-auto max-w-xl pt-16 text-center"><CircleAlert className="mx-auto mb-4 h-10 w-10 text-rose-500" /><h1 className="font-display text-3xl font-extrabold text-[#2b1058]">Essa leitura não foi concluída.</h1><p className="mt-2 text-slate-600">Tente enviar o material novamente. Nenhum relatório parcial foi salvo.</p><Link href="/avaliar" className="mt-6 inline-flex h-10 items-center rounded-md bg-[#2b1058] px-4 text-sm font-semibold text-white focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-violet-500">Nova avaliação</Link></div>;
+}
+
+function NeedsContentReport({ contentType, sourceUrl, reportJson }: { contentType: string; sourceUrl: string | null; reportJson: string | null }) {
+  const coverage = reportJson ? (JSON.parse(reportJson) as Pick<ReportData, "coverage">).coverage : undefined;
+  const href = `/avaliar?envio=link&tipo=${contentType}&complemento=legenda${sourceUrl ? `&link=${encodeURIComponent(sourceUrl)}` : ""}`;
+  return <div className="mx-auto max-w-xl pt-16 text-center"><CircleAlert className="mx-auto mb-4 h-10 w-10 text-amber-500" /><h1 className="font-display text-3xl font-extrabold text-[#2b1058]">Falta só a legenda.</h1><p className="mt-2 text-slate-600">{coverage?.description || "Cole a legenda ou a copy para que a Platéia consiga iniciar a leitura textual."}</p><Link href={href} className="mt-6 inline-flex h-10 items-center rounded-md bg-[#2b1058] px-4 text-sm font-semibold text-white focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-violet-500">Adicionar legenda</Link></div>;
 }
 
 function ConsumerCard({ consumer }: { consumer: ReportData["consumers"][number] }) {

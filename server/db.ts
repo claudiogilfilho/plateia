@@ -96,7 +96,7 @@ export async function createAnalysis(analysis: Omit<InsertAnalysis, "id" | "stat
   return { id: Number(result[0].insertId) };
 }
 
-export async function updateAnalysisResult(id: number, status: "completed" | "failed", report: unknown) {
+export async function updateAnalysisResult(id: number, status: "completed" | "needs_content" | "failed", report: unknown) {
   const db = await getDb();
   if (!db) throw new Error("Banco de dados indisponível.");
   await db.update(analyses).set({ status, reportJson: report ? JSON.stringify(report) : null }).where(eq(analyses.id, id));

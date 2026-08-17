@@ -33,13 +33,15 @@ export const createAnalysisInputSchema = z.object({
   media: uploadSchema.optional(),
   source: remoteSourceSchema.optional(),
 }).superRefine((input, ctx) => {
-  if (input.contentType === "copy" && !input.contentText) {
-    ctx.addIssue({ code: z.ZodIssueCode.custom, path: ["contentText"], message: "Para avaliar uma copy, cole o texto do conteúdo." });
-  }
-  if (input.contentType !== "copy" && !input.media && !input.source) {
-    ctx.addIssue({ code: z.ZodIssueCode.custom, path: ["media"], message: "Para post, carrossel ou Reel, envie um arquivo ou informe um link público do material." });
-  }
+  if (input.contentType === "copy" && !input.contentText) ctx.addIssue({ code: z.ZodIssueCode.custom, path: ["contentText"], message: "Para avaliar uma copy, cole o texto do conteúdo." });
+  if (input.contentType !== "copy" && !input.media && !input.source) ctx.addIssue({ code: z.ZodIssueCode.custom, path: ["media"], message: "Para post, carrossel ou Reel, envie um arquivo ou informe um link público do material." });
 });
+
+type ReadingCoverage = {
+  level: "complete" | "partial" | "requires_complement";
+  title: string;
+  description: string;
+};
 
 function safeFileName(fileName: string) {
   return fileName.toLowerCase().replace(/[^a-z0-9._-]/g, "-").replace(/-+/g, "-");
@@ -62,6 +64,11 @@ export const analysesRouter = router({
     const sourceUrl = input.source?.url ?? null;
     const sourceKind = input.source?.kind ?? null;
     const sourceMediaMimeType = input.source?.mimeType ?? null;
+    let coverage: ReadingCoverage = {
+      level: "complete",
+      title: "Leitura completa",
+      description: input.contentType === "copy" ? "A Platéia avaliou o texto enviado." : "A Platéia avaliou o material visual enviado.",
+    };
 
     if (input.media) {
       const payload = input.media.base64.includes(",") ? input.media.base64.split(",")[1] : input.media.base64;
@@ -79,21 +86,33 @@ export const analysesRouter = router({
     }
 
     if (!mediaUrl && input.source?.kind === "published_post") {
-      if (!isInstagramPublicationUrl(input.source.url)) {
-        throw new TRPCError({ code: "BAD_REQUEST", message: "Por enquanto, links de posts publicados são suportados no Instagram. Para outras redes, envie o arquivo ou use um link direto da mídia." });
-      }
+      if (!isInstagramPublicationUrl(input.source.url)) throw new TRPCError({ code: "BAD_REQUEST", message: "Por enquanto, links de posts publicados são suportados no Instagram. Para outras redes, envie o arquivo ou use um link direto da mídia." });
       const instagram = await resolveInstagramMaterial(input.source.url);
-      if (!instagram) {
-        throw new TRPCError({ code: "BAD_REQUEST", message: "Não foi possível abrir a prévia pública desse conteúdo no Instagram. Confirme se o post é público ou envie o vídeo/imagem diretamente." });
+      coverage = {
+        level: "partial",
+        title: "Leitura parcial do Instagram",
+        description: "A Platéia considera apenas a capa e a legenda pública disponíveis. Para analisar cenas, ritmo e áudio do Reel, envie o MP4.",
+      };
+      if (instagram) {
+        mediaUrl = instagram.mediaUrl;
+        mediaMimeType = instagram.mediaMimeType;
+        if (!contentText && instagram.caption) contentText = instagram.caption;
+      } else if (!contentText) {
+        coverage = {
+          level: "requires_complement",
+          title: "Legenda ou arquivo necessário",
+          description: "O Instagram não liberou uma prévia deste link. Cole a legenda ou a copy do post para a Platéia fazer uma leitura textual.",
+        };
+      } else {
+        coverage = {
+          level: "partial",
+          title: "Leitura parcial pela legenda",
+          description: "O Instagram não liberou a prévia visual; a Platéia avaliou somente o texto informado. Envie o MP4 para uma leitura visual completa.",
+        };
       }
-      mediaUrl = instagram.mediaUrl;
-      mediaMimeType = instagram.mediaMimeType;
-      if (!contentText && instagram.caption) contentText = instagram.caption;
     }
 
-    if (input.contentType !== "copy" && !mediaUrl) {
-      throw new TRPCError({ code: "BAD_REQUEST", message: "A Platéia precisa de uma imagem, vídeo, carrossel ou link público que possa ser aberto para avaliar esse conteúdo." });
-    }
+    if (input.contentType !== "copy" && !mediaUrl && !contentText && coverage.level !== "requires_complement") throw new TRPCError({ code: "BAD_REQUEST", message: "A Platéia precisa de uma imagem, vídeo, carrossel ou texto de complemento para avaliar esse conteúdo." });
 
     const created = await createAnalysis({
       userId: ctx.user.id,
@@ -110,6 +129,11 @@ export const analysesRouter = router({
       sourceMediaMimeType,
     });
 
+    if (coverage.level === "requires_complement") {
+      await updateAnalysisResult(created.id, "needs_content", { coverage });
+      return { id: created.id, status: "needs_content" as const };
+    }
+
     try {
       const evaluation = await evaluateContent({
         contentType: input.contentType,
@@ -121,7 +145,7 @@ export const analysesRouter = router({
         mediaMimeType,
         sourceUrl,
       });
-      await updateAnalysisResult(created.id, "completed", evaluation);
+      await updateAnalysisResult(created.id, "completed", { ...evaluation, coverage });
       return { id: created.id, status: "completed" as const };
     } catch (error) {
       await updateAnalysisResult(created.id, "failed", null);

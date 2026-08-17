@@ -37,3 +37,17 @@
 - [x] Cobrir por teste de integração a aceitação de copy isolada e de conteúdo visual enviado apenas por arquivo ou link público.
 - [x] Revisar visualmente o modo copy, confirmando que somente o texto é obrigatório.
 - [x] Adicionar teste de integração do procedimento analyses.create para copy isolada, arquivo visual e link público do Instagram.
+- [ ] Verificar a disponibilidade de integração autenticada com o Instagram para leitura de links públicos.
+- [ ] Substituir a dependência de prévia anônima por um fluxo de obtenção de mídia compatível ou informar uma limitação verificável.
+- [ ] Ajustar as mensagens de erro e as orientações de envio de conteúdo do Instagram.
+- [ ] Testar o novo fluxo de links do Instagram e sincronizar a correção no GitHub.
+- [ ] Modelar uma conexão individual de Instagram profissional para cada usuário autenticado da Platéia.
+- [ ] Permitir avaliação de mídia pertencente à conta profissional conectada e manter upload/URL direta para conteúdo de terceiros.
+- [ ] Implementar consentimento, revogação e exclusão segura de tokens por usuário.
+- [x] Não bloquear a criação de avaliação quando um link público do Instagram não liberar prévia visual.
+- [x] Registrar o nível de cobertura da leitura como completa, parcial ou requer complemento.
+- [x] Solicitar apenas legenda/copy complementar quando não houver mídia nem texto público acessível.
+- [ ] Exibir no relatório os limites de uma leitura parcial e testar esse fluxo no MVP.
+- [x] Ajustar o estado de complemento para orientar exclusivamente a inclusão de legenda/copy nesse caminho de link público.
+- [x] Criar um modo explícito de complemento textual que preserve o link e o tipo de conteúdo, ocultando o requisito visual.
+- [x] Encaminhar explicitamente o CTA de complemento para o modo textual-only, preservando tipo e link do Instagram.

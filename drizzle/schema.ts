@@ -39,7 +39,7 @@ export const analyses = mysqlTable("analyses", {
   sourceUrl: text("sourceUrl"),
   sourceKind: mysqlEnum("sourceKind", ["direct_media", "published_post"]),
   sourceMediaMimeType: varchar("sourceMediaMimeType", { length: 120 }),
-  status: mysqlEnum("status", ["processing", "completed", "failed"]).default("processing").notNull(),
+  status: mysqlEnum("status", ["processing", "completed", "needs_content", "failed"]).default("processing").notNull(),
   reportJson: text("reportJson"),
   createdAt: timestamp("createdAt").defaultNow().notNull(),
   updatedAt: timestamp("updatedAt").defaultNow().onUpdateNow().notNull(),
