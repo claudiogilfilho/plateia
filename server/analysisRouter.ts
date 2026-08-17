@@ -4,9 +4,11 @@ import { createAnalysis, getAnalysisByIdForUser, listAnalysesForUser, updateAnal
 import { evaluateContent } from "./contentAnalysis";
 import { protectedProcedure, router } from "./_core/trpc";
 import { storagePut } from "./storage";
-import { isAllowedPublicHttpsUrl, publicLinkMessage } from "./publicLinks";
+import { isAllowedPublicHttpsUrl, isInstagramPublicationUrl, publicLinkMessage, resolveInstagramMaterial } from "./publicLinks";
 
 const contentTypeSchema = z.enum(["post", "carrossel", "reel", "copy"]);
+const mediaMimeSchema = z.enum(["image/jpeg", "image/png", "image/webp", "video/mp4"]);
+const optionalText = (max: number) => z.string().max(max).optional().transform(value => value?.trim() ?? "");
 
 const uploadSchema = z.object({
   fileName: z.string().min(1).max(160),
@@ -17,24 +19,25 @@ const uploadSchema = z.object({
 const remoteSourceSchema = z.object({
   url: z.string().trim().max(2048).url().refine(isAllowedPublicHttpsUrl, publicLinkMessage),
   kind: z.enum(["direct_media", "published_post"]),
-  mimeType: z.enum(["image/jpeg", "image/png", "image/webp", "video/mp4"]).optional(),
+  mimeType: mediaMimeSchema.optional(),
 }).superRefine((source, ctx) => {
-  if (source.kind === "direct_media" && !source.mimeType) {
-    ctx.addIssue({ code: z.ZodIssueCode.custom, path: ["mimeType"], message: "Informe se o link direto aponta para imagem ou vídeo." });
-  }
+  if (source.kind === "direct_media" && !source.mimeType) ctx.addIssue({ code: z.ZodIssueCode.custom, path: ["mimeType"], message: "Informe se o link direto aponta para imagem ou vídeo." });
 });
 
-const createSchema = z.object({
+export const createAnalysisInputSchema = z.object({
   contentType: contentTypeSchema,
-  contentText: z.string().max(10000).default(""),
-  product: z.string().min(2).max(300),
-  objective: z.string().min(2).max(300),
-  targetAudience: z.string().min(2).max(600),
+  contentText: optionalText(10_000),
+  product: optionalText(300),
+  objective: optionalText(300),
+  targetAudience: optionalText(600),
   media: uploadSchema.optional(),
   source: remoteSourceSchema.optional(),
 }).superRefine((input, ctx) => {
-  if (!input.media && !input.source && !input.contentText.trim()) {
-    ctx.addIssue({ code: z.ZodIssueCode.custom, path: ["contentText"], message: "Envie um arquivo, informe um link público ou adicione o texto do conteúdo." });
+  if (input.contentType === "copy" && !input.contentText) {
+    ctx.addIssue({ code: z.ZodIssueCode.custom, path: ["contentText"], message: "Para avaliar uma copy, cole o texto do conteúdo." });
+  }
+  if (input.contentType !== "copy" && !input.media && !input.source) {
+    ctx.addIssue({ code: z.ZodIssueCode.custom, path: ["media"], message: "Para post, carrossel ou Reel, envie um arquivo ou informe um link público do material." });
   }
 });
 
@@ -51,10 +54,11 @@ export const analysesRouter = router({
     return analysis;
   }),
 
-  create: protectedProcedure.input(createSchema).mutation(async ({ ctx, input }) => {
+  create: protectedProcedure.input(createAnalysisInputSchema).mutation(async ({ ctx, input }) => {
     let mediaUrl: string | null = null;
     let mediaKey: string | null = null;
     let mediaMimeType: string | null = null;
+    let contentText = input.contentText;
     const sourceUrl = input.source?.url ?? null;
     const sourceKind = input.source?.kind ?? null;
     const sourceMediaMimeType = input.source?.mimeType ?? null;
@@ -62,11 +66,8 @@ export const analysesRouter = router({
     if (input.media) {
       const payload = input.media.base64.includes(",") ? input.media.base64.split(",")[1] : input.media.base64;
       const buffer = Buffer.from(payload, "base64");
-      if (buffer.byteLength > 12 * 1024 * 1024) {
-        throw new TRPCError({ code: "PAYLOAD_TOO_LARGE", message: "Envie arquivos de até 12 MB nesta versão inicial." });
-      }
-      const key = `plateia/${ctx.user.id}/${Date.now()}-${safeFileName(input.media.fileName)}`;
-      const stored = await storagePut(key, buffer, input.media.mimeType);
+      if (buffer.byteLength > 12 * 1024 * 1024) throw new TRPCError({ code: "PAYLOAD_TOO_LARGE", message: "Envie arquivos de até 12 MB nesta versão inicial." });
+      const stored = await storagePut(`plateia/${ctx.user.id}/${Date.now()}-${safeFileName(input.media.fileName)}`, buffer, input.media.mimeType);
       mediaUrl = stored.url;
       mediaKey = stored.key;
       mediaMimeType = input.media.mimeType;
@@ -77,10 +78,27 @@ export const analysesRouter = router({
       mediaMimeType = input.source.mimeType ?? null;
     }
 
+    if (!mediaUrl && input.source?.kind === "published_post") {
+      if (!isInstagramPublicationUrl(input.source.url)) {
+        throw new TRPCError({ code: "BAD_REQUEST", message: "Por enquanto, links de posts publicados são suportados no Instagram. Para outras redes, envie o arquivo ou use um link direto da mídia." });
+      }
+      const instagram = await resolveInstagramMaterial(input.source.url);
+      if (!instagram) {
+        throw new TRPCError({ code: "BAD_REQUEST", message: "Não foi possível abrir a prévia pública desse conteúdo no Instagram. Confirme se o post é público ou envie o vídeo/imagem diretamente." });
+      }
+      mediaUrl = instagram.mediaUrl;
+      mediaMimeType = instagram.mediaMimeType;
+      if (!contentText && instagram.caption) contentText = instagram.caption;
+    }
+
+    if (input.contentType !== "copy" && !mediaUrl) {
+      throw new TRPCError({ code: "BAD_REQUEST", message: "A Platéia precisa de uma imagem, vídeo, carrossel ou link público que possa ser aberto para avaliar esse conteúdo." });
+    }
+
     const created = await createAnalysis({
       userId: ctx.user.id,
       contentType: input.contentType,
-      contentText: input.contentText,
+      contentText,
       product: input.product,
       objective: input.objective,
       targetAudience: input.targetAudience,
@@ -95,7 +113,7 @@ export const analysesRouter = router({
     try {
       const evaluation = await evaluateContent({
         contentType: input.contentType,
-        text: input.contentText,
+        text: contentText,
         product: input.product,
         objective: input.objective,
         targetAudience: input.targetAudience,
@@ -108,7 +126,7 @@ export const analysesRouter = router({
     } catch (error) {
       await updateAnalysisResult(created.id, "failed", null);
       console.error("[Platéia] Falha na avaliação:", error);
-      throw new TRPCError({ code: "INTERNAL_SERVER_ERROR", message: "Não foi possível concluir a avaliação agora. Tente novamente em instantes." });
+      throw new TRPCError({ code: "INTERNAL_SERVER_ERROR", message: "A Platéia não conseguiu finalizar a leitura agora. Tente novamente em instantes." });
     }
   }),
 });

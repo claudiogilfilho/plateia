@@ -1,0 +1,66 @@
+import { beforeEach, describe, expect, it, vi } from "vitest";
+
+const mocks = vi.hoisted(() => ({
+  createAnalysis: vi.fn(),
+  updateAnalysisResult: vi.fn(),
+  storagePut: vi.fn(),
+  evaluateContent: vi.fn(),
+  resolveInstagramMaterial: vi.fn(),
+}));
+
+vi.mock("./db", () => ({
+  createAnalysis: mocks.createAnalysis,
+  getAnalysisByIdForUser: vi.fn(),
+  listAnalysesForUser: vi.fn(),
+  updateAnalysisResult: mocks.updateAnalysisResult,
+}));
+vi.mock("./storage", () => ({ storagePut: mocks.storagePut }));
+vi.mock("./contentAnalysis", () => ({ evaluateContent: mocks.evaluateContent }));
+vi.mock("./publicLinks", () => ({
+  isAllowedPublicHttpsUrl: () => true,
+  isInstagramPublicationUrl: (url: string) => url.includes("instagram.com/reel/"),
+  resolveInstagramMaterial: mocks.resolveInstagramMaterial,
+  publicLinkMessage: "Link inválido",
+}));
+
+import { analysesRouter } from "./analysisRouter";
+
+const report = {
+  consumers: [],
+  synthesis: { overallScore: 70, weightedAverage: 70, divergence: 10, strengths: ["A"], risks: ["B"], recommendations: ["1", "2", "3"] },
+};
+
+const caller = () => analysesRouter.createCaller({
+  user: { id: 7, openId: "test-user", name: "Teste", email: "teste@plateia.com", loginMethod: "test", role: "user", createdAt: new Date(), updatedAt: new Date(), lastSignedIn: new Date() },
+  req: {} as never,
+  res: {} as never,
+});
+
+describe("analyses.create integration", () => {
+  beforeEach(() => {
+    vi.clearAllMocks();
+    mocks.createAnalysis.mockResolvedValue({ id: 42 });
+    mocks.updateAnalysisResult.mockResolvedValue(undefined);
+    mocks.storagePut.mockResolvedValue({ key: "plateia/test.png", url: "https://storage.example/test.png" });
+    mocks.evaluateContent.mockResolvedValue(report);
+    mocks.resolveInstagramMaterial.mockResolvedValue({ mediaUrl: "https://cdn.instagram.example/preview.jpg", mediaMimeType: "image/jpeg", caption: "Legenda pública" });
+  });
+
+  it("creates a copy evaluation with text only and optional context omitted", async () => {
+    await expect(caller().create({ contentType: "copy", contentText: "Uma copy curta para avaliar.", product: "", objective: "", targetAudience: "" })).resolves.toEqual({ id: 42, status: "completed" });
+    expect(mocks.createAnalysis).toHaveBeenCalledWith(expect.objectContaining({ contentType: "copy", contentText: "Uma copy curta para avaliar.", product: "", mediaUrl: null }));
+    expect(mocks.evaluateContent).toHaveBeenCalledWith(expect.objectContaining({ contentType: "copy", text: "Uma copy curta para avaliar." }));
+  });
+
+  it("creates a visual evaluation with an uploaded image and no contextual fields", async () => {
+    await expect(caller().create({ contentType: "post", contentText: "", product: "", objective: "", targetAudience: "", media: { fileName: "post.png", mimeType: "image/png", base64: "a".repeat(24) } })).resolves.toEqual({ id: 42, status: "completed" });
+    expect(mocks.storagePut).toHaveBeenCalled();
+    expect(mocks.evaluateContent).toHaveBeenCalledWith(expect.objectContaining({ contentType: "post", mediaUrl: "https://storage.example/test.png", mediaMimeType: "image/png" }));
+  });
+
+  it("creates an Instagram Reel evaluation from the public preview and caption", async () => {
+    await expect(caller().create({ contentType: "reel", contentText: "", product: "", objective: "", targetAudience: "", source: { url: "https://www.instagram.com/reel/C1Example/", kind: "published_post" } })).resolves.toEqual({ id: 42, status: "completed" });
+    expect(mocks.resolveInstagramMaterial).toHaveBeenCalledWith("https://www.instagram.com/reel/C1Example/");
+    expect(mocks.evaluateContent).toHaveBeenCalledWith(expect.objectContaining({ contentType: "reel", text: "Legenda pública", mediaUrl: "https://cdn.instagram.example/preview.jpg", mediaMimeType: "image/jpeg" }));
+  });
+});

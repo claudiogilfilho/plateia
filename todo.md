@@ -30,3 +30,10 @@
 - [x] Exibir no relatório o link de origem público quando houver uma avaliação enviada por URL.
 - [x] Exportar o checkpoint atual da Platéia para o repositório GitHub confirmado pelo usuário.
 - [x] Criar exclusivamente o repositório privado claudiogilfilho/plateia, sem alterar o projeto auto.
+- [x] Corrigir o envio de links de vídeos do Instagram e apresentar orientação clara quando a mídia não puder ser obtida.
+- [x] Tornar produto, objetivo, público-alvo e legenda campos facultativos no formulário e no backend.
+- [x] Exigir somente material principal: copy preenchida para avaliação textual, ou imagem, vídeo, carrossel ou link de mídia pública para conteúdo visual.
+- [x] Testar o envio por link do Instagram e os caminhos com conteúdo mínimo em desktop e mobile.
+- [x] Cobrir por teste de integração a aceitação de copy isolada e de conteúdo visual enviado apenas por arquivo ou link público.
+- [x] Revisar visualmente o modo copy, confirmando que somente o texto é obrigatório.
+- [x] Adicionar teste de integração do procedimento analyses.create para copy isolada, arquivo visual e link público do Instagram.

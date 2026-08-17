@@ -23,6 +23,8 @@ export default function Report() {
   if (!analysis.reportJson) return <div className="mx-auto max-w-xl pt-16 text-center"><Loader2 className="mx-auto mb-4 h-9 w-9 animate-spin text-violet-600" /><h1 className="font-display text-3xl font-extrabold text-[#2b1058]">A Platéia está lendo seu material.</h1><p className="mt-2 text-slate-600">O relatório aparecerá aqui assim que a avaliação for concluída.</p></div>;
 
   const report = JSON.parse(analysis.reportJson) as ReportData;
+  const reportTitle = analysis.product || `Avaliação de ${analysis.contentType}`;
+  const reportContext = [analysis.objective && `Objetivo: ${analysis.objective}`, analysis.targetAudience && `Público: ${analysis.targetAudience}`].filter(Boolean).join(" · ");
   const avgByCriterion = Object.fromEntries(criteria.map(key => [key, Math.round(report.consumers.reduce((sum, consumer) => sum + consumer.criteria[key], 0) / report.consumers.length)])) as Record<Criterion, number>;
 
   return <div className="mx-auto max-w-7xl pb-12">
@@ -32,8 +34,8 @@ export default function Report() {
       <div className="relative grid gap-8 md:grid-cols-[1fr_auto] md:items-center">
         <div>
           <Badge className="border-violet-400/25 bg-white/10 text-violet-100 hover:bg-white/10">Relatório de avaliação</Badge>
-          <h1 className="mt-4 font-display text-4xl font-extrabold tracking-[-0.06em] sm:text-5xl">{analysis.product}</h1>
-          <p className="mt-3 max-w-2xl text-sm leading-6 text-violet-100">{analysis.objective} · Público: {analysis.targetAudience}</p>
+          <h1 className="mt-4 font-display text-4xl font-extrabold tracking-[-0.06em] sm:text-5xl">{reportTitle}</h1>
+          {reportContext && <p className="mt-3 max-w-2xl text-sm leading-6 text-violet-100">{reportContext}</p>}
           {analysis.sourceUrl && <a href={analysis.sourceUrl} target="_blank" rel="noreferrer" className="mt-4 inline-flex items-center gap-2 rounded-md border border-white/20 bg-white/10 px-3 py-2 text-xs font-bold text-white transition-colors hover:bg-white/15 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-white"><ExternalLink className="h-3.5 w-3.5" /> Abrir material de origem</a>}
         </div>
         <div className="flex items-center gap-4">

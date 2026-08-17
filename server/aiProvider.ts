@@ -36,6 +36,7 @@ export const builtInEvaluationProvider: EvaluationProvider = {
         { role: "user", content: content as never },
       ],
       response_format: request.responseFormat as never,
+      max_tokens: 6000,
     });
     const raw = response.choices[0]?.message?.content;
     if (!raw || typeof raw !== "string") throw new Error("A IA não retornou uma avaliação válida.");
