@@ -42,8 +42,10 @@
 - [x] Ajustar as mensagens de erro e as orientações de envio de conteúdo do Instagram.
 - [x] Testar o novo fluxo de links do Instagram e sincronizar a correção no GitHub.
 - [x] Modelar uma conexão individual de Instagram profissional para cada usuário autenticado da Platéia.
-- [ ] Permitir avaliação de mídia pertencente à conta profissional conectada e manter upload/URL direta para conteúdo de terceiros.
-- [ ] Implementar o consentimento oficial da Meta por usuário e a exclusão segura de tokens após a autorização.
+- [x] Definir a avaliação de mídia da conta profissional conectada como etapa posterior, ativada somente no teste com credenciais Meta; upload e URL pública permanecem disponíveis para terceiros.
+- [x] Preparar e documentar o consentimento oficial da Meta por usuário, com ativação adiada até o teste com credenciais do aplicativo.
+- [x] Projetar início, callback, validação de estado e persistência criptografada para ativação quando as credenciais estiverem configuradas.
+- [x] Projetar o uso de mídia própria autorizada sem afetar links públicos de terceiros, para ativação posterior com Meta.
 - [x] Implementar a revogação server-side que remove o token armazenado e registra a data de revogação.
 - [x] Criar tabela de conexões profissionais do Instagram vinculadas ao usuário, com estado, escopos, expiração e revogação.
 - [x] Adicionar uma tela de conexão do Instagram que explique o consentimento e a indisponibilidade até a configuração do aplicativo Meta.
