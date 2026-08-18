@@ -47,3 +47,23 @@ export const analyses = mysqlTable("analyses", {
 
 export type Analysis = typeof analyses.$inferSelect;
 export type InsertAnalysis = typeof analyses.$inferInsert;
+
+export const instagramConnections = mysqlTable("instagramConnections", {
+  id: int("id").autoincrement().primaryKey(),
+  userId: int("userId").notNull(),
+  instagramUserId: varchar("instagramUserId", { length: 80 }),
+  username: varchar("username", { length: 120 }),
+  accountType: mysqlEnum("accountType", ["business", "creator"]).default("business").notNull(),
+  status: mysqlEnum("status", ["ready", "connected", "expired", "revoked", "error"]).default("ready").notNull(),
+  grantedScopes: text("grantedScopes"),
+  accessTokenEncrypted: text("accessTokenEncrypted"),
+  tokenExpiresAt: timestamp("tokenExpiresAt"),
+  consentVersion: varchar("consentVersion", { length: 32 }),
+  connectedAt: timestamp("connectedAt"),
+  revokedAt: timestamp("revokedAt"),
+  createdAt: timestamp("createdAt").defaultNow().notNull(),
+  updatedAt: timestamp("updatedAt").defaultNow().onUpdateNow().notNull(),
+});
+
+export type InstagramConnection = typeof instagramConnections.$inferSelect;
+export type InsertInstagramConnection = typeof instagramConnections.$inferInsert;

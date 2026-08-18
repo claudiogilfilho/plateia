@@ -1,7 +1,8 @@
 import { desc, eq, and } from "drizzle-orm";
 import { drizzle } from "drizzle-orm/mysql2";
-import { Analysis, InsertAnalysis, InsertUser, analyses, users } from "../drizzle/schema";
+import { Analysis, InsertAnalysis, InsertUser, InstagramConnection, analyses, instagramConnections, users } from "../drizzle/schema";
 import { ENV } from './_core/env';
+import { buildRevokedInstagramConnectionPatch } from "./instagramIntegration";
 
 let _db: ReturnType<typeof drizzle> | null = null;
 
@@ -113,4 +114,17 @@ export async function getAnalysisByIdForUser(id: number, userId: number): Promis
   if (!db) return undefined;
   const result = await db.select().from(analyses).where(and(eq(analyses.id, id), eq(analyses.userId, userId))).limit(1);
   return result[0];
+}
+
+export async function getInstagramConnectionForUser(userId: number): Promise<InstagramConnection | undefined> {
+  const db = await getDb();
+  if (!db) return undefined;
+  const result = await db.select().from(instagramConnections).where(eq(instagramConnections.userId, userId)).orderBy(desc(instagramConnections.updatedAt)).limit(1);
+  return result[0];
+}
+
+export async function revokeInstagramConnectionForUser(userId: number) {
+  const db = await getDb();
+  if (!db) throw new Error("Banco de dados indisponível.");
+  await db.update(instagramConnections).set(buildRevokedInstagramConnectionPatch()).where(eq(instagramConnections.userId, userId));
 }

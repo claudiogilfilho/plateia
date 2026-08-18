@@ -41,9 +41,16 @@
 - [x] Substituir a dependência de prévia anônima por um fluxo de obtenção de mídia compatível ou informar uma limitação verificável.
 - [x] Ajustar as mensagens de erro e as orientações de envio de conteúdo do Instagram.
 - [x] Testar o novo fluxo de links do Instagram e sincronizar a correção no GitHub.
-- [ ] Modelar uma conexão individual de Instagram profissional para cada usuário autenticado da Platéia.
+- [x] Modelar uma conexão individual de Instagram profissional para cada usuário autenticado da Platéia.
 - [ ] Permitir avaliação de mídia pertencente à conta profissional conectada e manter upload/URL direta para conteúdo de terceiros.
-- [ ] Implementar consentimento, revogação e exclusão segura de tokens por usuário.
+- [ ] Implementar o consentimento oficial da Meta por usuário e a exclusão segura de tokens após a autorização.
+- [x] Implementar a revogação server-side que remove o token armazenado e registra a data de revogação.
+- [x] Criar tabela de conexões profissionais do Instagram vinculadas ao usuário, com estado, escopos, expiração e revogação.
+- [x] Adicionar uma tela de conexão do Instagram que explique o consentimento e a indisponibilidade até a configuração do aplicativo Meta.
+- [x] Cobrir o modelo de conexão e o estado de integração não configurada com testes automatizados.
+- [x] Apresentar links públicos como método padrão de avaliação e a conexão Meta como recurso profissional opcional.
+- [x] Explicar na interface que a conexão Meta será ativada quando as credenciais forem configuradas para análise de conteúdo próprio.
+- [x] Documentar a ativação futura da conexão Meta, sem armazenar credenciais no aplicativo.
 - [x] Não bloquear a criação de avaliação quando um link público do Instagram não liberar prévia visual.
 - [x] Registrar o nível de cobertura da leitura como completa, parcial ou requer complemento.
 - [x] Solicitar apenas legenda/copy complementar quando não houver mídia nem texto público acessível.

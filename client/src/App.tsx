@@ -9,6 +9,7 @@ import { ThemeProvider } from "./contexts/ThemeContext";
 import Dashboard from "./pages/Dashboard";
 import History from "./pages/History";
 import Home from "./pages/Home";
+import InstagramConnection from "./pages/InstagramConnection";
 import NewEvaluation from "./pages/NewEvaluation";
 import Report from "./pages/Report";
 
@@ -23,6 +24,7 @@ function Router() {
       <Route path="/app"><AppShell><Dashboard /></AppShell></Route>
       <Route path="/avaliar"><AppShell><NewEvaluation /></AppShell></Route>
       <Route path="/historico"><AppShell><History /></AppShell></Route>
+      <Route path="/instagram"><AppShell><InstagramConnection /></AppShell></Route>
       <Route path="/analises/:id"><AppShell><Report /></AppShell></Route>
       <Route path="/404" component={NotFound} />
       <Route component={NotFound} />

@@ -21,7 +21,7 @@ import {
 } from "@/components/ui/sidebar";
 import { startLogin } from "@/const";
 import { useIsMobile } from "@/hooks/useMobile";
-import { ClipboardCheck, History, LayoutDashboard, LogOut, PanelLeft, PlusCircle } from "lucide-react";
+import { ClipboardCheck, History, Instagram, LayoutDashboard, LogOut, PanelLeft, PlusCircle } from "lucide-react";
 import { CSSProperties, useEffect, useRef, useState } from "react";
 import { useLocation } from "wouter";
 import { DashboardLayoutSkeleton } from './DashboardLayoutSkeleton';
@@ -32,6 +32,7 @@ const menuItems = [
   { icon: LayoutDashboard, label: "Visão geral", path: "/app" },
   { icon: PlusCircle, label: "Nova avaliação", path: "/avaliar" },
   { icon: History, label: "Histórico", path: "/historico" },
+  { icon: Instagram, label: "Instagram", path: "/instagram" },
 ];
 
 const SIDEBAR_WIDTH_KEY = "sidebar-width";
