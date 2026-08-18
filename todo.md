@@ -65,3 +65,8 @@
 - [x] Testar o fluxo de continuidade sem legenda e sincronizar a atualização no GitHub.
 - [x] Recalcular notas individuais, nota geral, média ponderada e divergência com base apenas nos critérios visuais avaliados.
 - [x] Descartar a legenda fornecida quando a pessoa selecionar explicitamente a leitura somente visual.
+- [x] Mostrar `needs_content` apenas como solicitação de arquivo visual quando não houver prévia pública, sem exigir legenda.
+- [x] Cobrir por teste de integração o Reel sem dados públicos com `skipCaption` ativado.
+- [x] Validar visualmente que a escolha somente visual direciona ao envio de arquivo, não ao complemento de legenda.
+- [x] Solicitar arquivo visual quando a leitura somente visual não recebe prévia pública do Instagram, sem exigir legenda.
+- [x] Cobrir o CTA de complemento para confirmar que o estado visual direciona ao envio de arquivo, não à legenda.

@@ -72,6 +72,13 @@ describe("analyses.create integration", () => {
     expect(mocks.updateAnalysisResult).toHaveBeenCalledWith(42, "needs_content", expect.objectContaining({ coverage: expect.objectContaining({ level: "requires_complement" }) }));
   });
 
+  it("requests a visual file instead of a caption when visual-only was chosen and Instagram exposes no preview", async () => {
+    mocks.resolveInstagramMaterial.mockResolvedValue(null);
+    await expect(caller().create({ contentType: "reel", contentText: "", product: "", objective: "", targetAudience: "", skipCaption: true, source: { url: "https://www.instagram.com/reel/C1Example/", kind: "published_post" } })).resolves.toEqual({ id: 42, status: "needs_content" });
+    expect(mocks.evaluateContent).not.toHaveBeenCalled();
+    expect(mocks.updateAnalysisResult).toHaveBeenCalledWith(42, "needs_content", expect.objectContaining({ coverage: expect.objectContaining({ mode: "requires_visual", title: "Material visual necessário" }) }));
+  });
+
   it("continues with a partial text reading when Instagram hides the preview but the user supplied a caption", async () => {
     mocks.resolveInstagramMaterial.mockResolvedValue(null);
     await expect(caller().create({ contentType: "reel", contentText: "Legenda fornecida pelo usuário.", product: "", objective: "", targetAudience: "", source: { url: "https://www.instagram.com/reel/C1Example/", kind: "published_post" } })).resolves.toEqual({ id: 42, status: "completed" });

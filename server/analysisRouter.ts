@@ -43,7 +43,7 @@ type ReadingCoverage = {
   level: "complete" | "partial" | "requires_complement";
   title: string;
   description: string;
-  mode?: "visual_only";
+  mode?: "visual_only" | "requires_visual";
   excludedCriteria?: readonly (typeof visualOnlyExcludedCriteria)[number][];
 };
 
@@ -112,7 +112,12 @@ export const analysesRouter = router({
         mediaMimeType = instagram.mediaMimeType;
         if (!input.skipCaption && !contentText && instagram.caption) contentText = instagram.caption;
       } else if (!contentText) {
-        coverage = {
+        coverage = input.skipCaption ? {
+          level: "requires_complement",
+          mode: "requires_visual",
+          title: "Material visual necessário",
+          description: "Você escolheu uma leitura somente visual, mas o Instagram não disponibilizou capa, imagem ou vídeo público para este link. Envie o arquivo original para continuar sem legenda.",
+        } : {
           level: "requires_complement",
           title: "Legenda ou arquivo necessário",
           description: "O Instagram não disponibilizou capa nem legenda pública para este link. Cole a legenda ou a copy do post para a Platéia fazer uma leitura textual.",

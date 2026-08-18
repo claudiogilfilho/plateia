@@ -1,7 +1,7 @@
 import { renderToStaticMarkup } from "react-dom/server";
 import React from "react";
 import { describe, expect, it } from "vitest";
-import { CoverageNotice } from "./Report";
+import { CoverageNotice, getComplementAction, NeedsContentReport } from "./Report";
 
 describe("CoverageNotice", () => {
   it("shows the coverage title and description for a partial reading", () => {
@@ -13,5 +13,16 @@ describe("CoverageNotice", () => {
   it("does not show a notice for a complete reading", () => {
     const html = renderToStaticMarkup(<CoverageNotice coverage={{ level: "complete", title: "Leitura completa", description: "Todos os materiais disponíveis foram considerados." }} />);
     expect(html).toBe("");
+  });
+
+  it("directs a visual-only reading without preview to file upload, not caption entry", () => {
+    expect(getComplementAction({ level: "requires_complement", mode: "requires_visual", title: "Material visual necessário", description: "Envie o arquivo." }, "reel", "https://instagram.com/reel/exemplo/")).toEqual({ heading: "Falta o material visual.", label: "Enviar arquivo", href: "/avaliar?envio=upload&tipo=reel" });
+  });
+
+  it("renders the visual-material action instead of a caption request", () => {
+    const html = renderToStaticMarkup(<NeedsContentReport contentType="reel" sourceUrl="https://instagram.com/reel/exemplo/" reportJson={JSON.stringify({ coverage: { level: "requires_complement", mode: "requires_visual", title: "Material visual necessário", description: "Envie o arquivo original." } })} />);
+    expect(html).toContain("Falta o material visual.");
+    expect(html).toContain("Enviar arquivo");
+    expect(html).not.toContain("Adicionar legenda");
   });
 });
