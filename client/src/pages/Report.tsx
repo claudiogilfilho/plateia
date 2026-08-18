@@ -1,6 +1,6 @@
 import { Badge } from "@/components/ui/badge";
 import { trpc } from "@/lib/trpc";
-import { AlertTriangle, ArrowLeft, CheckCircle2, CircleAlert, ExternalLink, Lightbulb, Loader2, Target } from "lucide-react";
+import { AlertTriangle, ArrowLeft, CheckCircle2, CircleAlert, ExternalLink, Lightbulb, Link2, Loader2, Target, UploadCloud } from "lucide-react";
 import React, { type CSSProperties } from "react";
 import { Link, useRoute, useSearch } from "wouter";
 
@@ -84,12 +84,18 @@ function FailedReport() {
 export function NeedsContentReport({ contentType, sourceUrl, reportJson }: { contentType: string; sourceUrl: string | null; reportJson: string | null }) {
   const coverage = reportJson ? (JSON.parse(reportJson) as Pick<ReportData, "coverage">).coverage : undefined;
   const action = getComplementAction(coverage, contentType, sourceUrl);
-  return <div className="mx-auto max-w-xl pt-16 text-center"><CircleAlert className="mx-auto mb-4 h-10 w-10 text-amber-500" /><h1 className="font-display text-3xl font-extrabold text-[#2b1058]">{action.heading}</h1><p className="mt-2 text-slate-600">{coverage?.description || "A Platéia precisa do arquivo visual para avaliar este conteúdo. A legenda permanece opcional."}</p><a href={action.href} className="mt-6 inline-flex h-10 items-center rounded-md bg-[#2b1058] px-4 text-sm font-semibold text-white focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-violet-500">{action.label}</a></div>;
+  return <section className="mx-auto max-w-2xl py-3 sm:py-12"><div className="rounded-[1.75rem] border border-violet-100 bg-white px-6 py-8 text-center shadow-[0_20px_45px_-36px_rgba(43,16,88,0.45)] sm:px-10 sm:py-10"><div className="mx-auto grid h-14 w-14 place-items-center rounded-2xl bg-amber-50 text-amber-500"><CircleAlert className="h-7 w-7" /></div><p className="mt-5 text-xs font-bold uppercase tracking-[0.16em] text-violet-500">Link público indisponível</p><h1 className="mt-2 font-display text-3xl font-extrabold tracking-[-0.055em] text-[#2b1058] sm:text-4xl">{action.heading}</h1><p className="mx-auto mt-4 max-w-lg text-base leading-7 text-slate-600">{coverage?.description || "O Instagram não disponibilizou a prévia deste conteúdo. Para continuar agora, envie o arquivo original; a legenda permanece opcional."}</p><div className="mx-auto mt-6 max-w-md rounded-2xl border border-violet-100 bg-violet-50/65 p-4 text-left"><div className="flex gap-3"><UploadCloud className="mt-0.5 h-5 w-5 shrink-0 text-violet-700" /><div><p className="text-sm font-bold text-[#2b1058]">Você não precisa recomeçar.</p><p className="mt-1 text-xs leading-5 text-slate-600">Abra o vídeo ou a imagem original no celular e envie-o na próxima tela. MP4, JPG, PNG ou WEBP de até 12 MB.</p></div></div></div><a href={action.href} className="mt-6 inline-flex min-h-12 w-full items-center justify-center gap-2 rounded-xl bg-[#2b1058] px-5 text-base font-bold text-white shadow-[0_14px_28px_-18px_rgba(43,16,88,0.85)] transition-transform hover:bg-[#401d7b] active:scale-[0.97] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-violet-500 sm:w-auto"><UploadCloud className="h-5 w-5" />{action.label}</a>{sourceUrl && <a href={getRetryLink(contentType, sourceUrl)} className="mt-4 inline-flex items-center gap-2 text-sm font-bold text-violet-700 hover:text-violet-900 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-violet-500"><Link2 className="h-4 w-4" />Tentar outro link público</a>}</div></section>;
 }
 
 export function getComplementAction(coverage: ReadingCoverage | undefined, contentType: string, sourceUrl: string | null) {
-  if (coverage?.mode === "requires_visual") return { heading: "Falta o material visual.", label: "Enviar arquivo", href: `/avaliar?envio=upload&tipo=${contentType}` };
-  return { heading: "Falta o material visual.", label: "Enviar arquivo", href: `/avaliar?envio=upload&tipo=${contentType}` };
+  const params = new URLSearchParams({ envio: "upload", tipo: contentType, retorno: "instagram" });
+  if (sourceUrl) params.set("link", sourceUrl);
+  if (coverage?.mode === "requires_visual") return { heading: "O Instagram não liberou esse material.", label: "Escolher arquivo original", href: `/avaliar?${params.toString()}` };
+  return { heading: "O material visual não está disponível.", label: "Escolher arquivo original", href: `/avaliar?${params.toString()}` };
+}
+
+function getRetryLink(contentType: string, sourceUrl: string) {
+  return `/avaliar?${new URLSearchParams({ envio: "link", tipo: contentType, link: sourceUrl, "tipo-link": "post-publicado" }).toString()}`;
 }
 
 export function CoverageNotice({ coverage }: { coverage?: ReadingCoverage }) {

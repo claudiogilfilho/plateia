@@ -16,18 +16,19 @@ describe("CoverageNotice", () => {
   });
 
   it("directs a visual-only reading without preview to file upload, not caption entry", () => {
-    expect(getComplementAction({ level: "requires_complement", mode: "requires_visual", title: "Material visual necessário", description: "Envie o arquivo." }, "reel", "https://instagram.com/reel/exemplo/")).toEqual({ heading: "Falta o material visual.", label: "Enviar arquivo", href: "/avaliar?envio=upload&tipo=reel" });
+    expect(getComplementAction({ level: "requires_complement", mode: "requires_visual", title: "Material visual necessário", description: "Envie o arquivo." }, "reel", "https://instagram.com/reel/exemplo/")).toEqual({ heading: "O Instagram não liberou esse material.", label: "Escolher arquivo original", href: "/avaliar?envio=upload&tipo=reel&retorno=instagram&link=https%3A%2F%2Finstagram.com%2Freel%2Fexemplo%2F" });
   });
 
   it("renders the visual-material action instead of a caption request", () => {
     const html = renderToStaticMarkup(<NeedsContentReport contentType="reel" sourceUrl="https://instagram.com/reel/exemplo/" reportJson={JSON.stringify({ coverage: { level: "requires_complement", mode: "requires_visual", title: "Material visual necessário", description: "Envie o arquivo original." } })} />);
-    expect(html).toContain("Falta o material visual.");
-    expect(html).toContain("Enviar arquivo");
+    expect(html).toContain("O Instagram não liberou esse material.");
+    expect(html).toContain("Escolher arquivo original");
+    expect(html).toContain("Tentar outro link público");
     expect(html).not.toContain("Adicionar legenda");
   });
 
   it("never treats an absent caption as a required action", () => {
     const action = getComplementAction(undefined, "reel", "https://www.instagram.com/reel/exemplo/");
-    expect(action).toEqual({ heading: "Falta o material visual.", label: "Enviar arquivo", href: "/avaliar?envio=upload&tipo=reel" });
+    expect(action).toEqual({ heading: "O material visual não está disponível.", label: "Escolher arquivo original", href: "/avaliar?envio=upload&tipo=reel&retorno=instagram&link=https%3A%2F%2Fwww.instagram.com%2Freel%2Fexemplo%2F" });
   });
 });

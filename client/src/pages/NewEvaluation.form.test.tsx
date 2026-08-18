@@ -40,4 +40,14 @@ describe("NewEvaluation public-link form", () => {
     await submitPublicLink("Legenda complementar.");
     await waitFor(() => expect(mocks.mutate).toHaveBeenCalledWith(expect.objectContaining({ contentText: "Legenda complementar.", source: { url: "https://www.instagram.com/reel/exemplo/", kind: "published_post" } })));
   });
+
+  it("orients the user to upload the original file after an Instagram link without preview", () => {
+    window.history.replaceState({}, "", "/avaliar?envio=upload&tipo=reel&retorno=instagram&link=https%3A%2F%2Fwww.instagram.com%2Freel%2Fexemplo%2F");
+    render(<NewEvaluation />);
+
+    expect(screen.getByText("Continuação do Reel")).not.toBeNull();
+    expect(screen.getByRole("heading", { name: "Envie o arquivo original." })).not.toBeNull();
+    expect(screen.getByText(/a legenda continua opcional/i)).not.toBeNull();
+    expect(screen.getByRole("button", { name: /enviar arquivo/i }).getAttribute("aria-pressed")).toBe("true");
+  });
 });

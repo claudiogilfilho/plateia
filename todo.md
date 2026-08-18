@@ -88,3 +88,5 @@
 - [x] Verificar em integração que `sourceUrl` seja persistido para todos os cenários de link sem legenda.
 - [x] Cobrir o formulário de link público com legenda vazia e preenchida, confirmando que ambas as submissões são válidas.
 - [x] Adicionar campo de legenda explicitamente opcional no fluxo de link público e testar sua preservação.
+- [x] Simplificar no celular o estado de link do Instagram sem mídia pública, deixando evidente como continuar pelo envio do arquivo original.
+- [x] Cobrir e validar a nova continuidade visual em viewport móvel, sem tornar a legenda obrigatória.

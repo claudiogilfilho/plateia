@@ -49,6 +49,7 @@ export default function NewEvaluation() {
   const [, setLocation] = useLocation();
   const query = new URLSearchParams(window.location.search);
   const captionSuggestion = query.get("complemento") === "legenda";
+  const returningFromInstagram = query.get("retorno") === "instagram";
   const initialType = query.get("tipo");
   const [contentType, setContentType] = useState<ContentType>(() => types.some(type => type.value === initialType) ? initialType as ContentType : "post");
   const [contentText, setContentText] = useState("");
@@ -102,7 +103,7 @@ export default function NewEvaluation() {
 
   return <div className="mx-auto max-w-5xl pb-10">
     <button onClick={() => setLocation("/app")} className="mb-6 inline-flex items-center gap-2 rounded-md px-1 py-1 text-sm font-semibold text-violet-700 hover:text-violet-900 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-violet-500"><ArrowLeft className="h-4 w-4" /> Voltar ao painel</button>
-    <div className="mb-8"><p className="text-xs font-bold uppercase tracking-[0.16em] text-violet-500">{captionSuggestion ? "Complemento opcional" : "Nova leitura"}</p><h1 className="mt-1 font-display text-4xl font-extrabold tracking-[-0.06em] text-[#2b1058]">{captionSuggestion ? "A legenda pode enriquecer a leitura." : "Entregue o material à sua Platéia."}</h1><p className="mt-3 max-w-2xl text-sm leading-6 text-slate-600">{captionSuggestion ? "Se quiser, adicione a legenda. Ela é opcional e não bloqueia a avaliação visual do material." : materialInstruction}</p></div>
+    <div className="mb-8"><p className="text-xs font-bold uppercase tracking-[0.16em] text-violet-500">{captionSuggestion ? "Complemento opcional" : returningFromInstagram ? "Continuação do Reel" : "Nova leitura"}</p><h1 className="mt-1 font-display text-4xl font-extrabold tracking-[-0.06em] text-[#2b1058]">{captionSuggestion ? "A legenda pode enriquecer a leitura." : returningFromInstagram ? "Envie o arquivo original." : "Entregue o material à sua Platéia."}</h1><p className="mt-3 max-w-2xl text-sm leading-6 text-slate-600">{captionSuggestion ? "Se quiser, adicione a legenda. Ela é opcional e não bloqueia a avaliação visual do material." : returningFromInstagram ? "O Instagram não liberou a prévia deste link. Selecione o vídeo ou a imagem salva no seu dispositivo para seguir com a avaliação; a legenda continua opcional." : materialInstruction}</p></div>
     <form onSubmit={submit} className="grid gap-6 lg:grid-cols-[1.05fr_0.95fr]">
       <section className="space-y-6">
         <div className="plateia-card p-6"><Label className="mb-3 block text-sm font-bold text-[#2b1058]">Tipo de conteúdo</Label><div className="grid grid-cols-2 gap-3">{types.map(type => { const Icon = type.icon; const active = type.value === contentType; return <button aria-pressed={active} type="button" key={type.value} onClick={() => changeType(type.value)} className={`rounded-2xl border p-3 text-left transition-all ${active ? "border-violet-500 bg-violet-50 shadow-sm" : "border-violet-100 bg-white hover:border-violet-300"}`}><Icon className={`mb-3 h-5 w-5 ${active ? "text-violet-700" : "text-slate-400"}`} /><p className="text-sm font-bold text-[#2b1058]">{type.label}</p><p className="mt-0.5 text-xs text-slate-500">{type.description}</p></button>; })}</div></div>
