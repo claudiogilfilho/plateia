@@ -25,4 +25,9 @@ describe("CoverageNotice", () => {
     expect(html).toContain("Enviar arquivo");
     expect(html).not.toContain("Adicionar legenda");
   });
+
+  it("never treats an absent caption as a required action", () => {
+    const action = getComplementAction(undefined, "reel", "https://www.instagram.com/reel/exemplo/");
+    expect(action).toEqual({ heading: "Falta o material visual.", label: "Enviar arquivo", href: "/avaliar?envio=upload&tipo=reel" });
+  });
 });

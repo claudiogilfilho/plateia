@@ -77,3 +77,12 @@
 - [x] Validar visualmente que a escolha somente visual direciona ao envio de arquivo, não ao complemento de legenda.
 - [x] Solicitar arquivo visual quando a leitura somente visual não recebe prévia pública do Instagram, sem exigir legenda.
 - [x] Cobrir o CTA de complemento para confirmar que o estado visual direciona ao envio de arquivo, não à legenda.
+- [x] Adicionar o CTA “Continuar sem legenda” na tela que hoje pede complemento textual.
+- [x] Preservar o link e encaminhar a escolha sem legenda ao fluxo `skipCaption` da avaliação visual.
+- [x] Testar que a legenda não seja obrigatória em nenhum caminho de avaliação por link público.
+- [x] Cobrir a submissão sem legenda para Reel com prévia, Reel sem prévia e URL direta de mídia, preservando o link em cada caso.
+- [x] Remover a apresentação de “legenda não encontrada” como bloqueio e oferecer um campo opcional de legenda no próprio fluxo.
+- [x] Garantir que o relatório só peça arquivo quando não houver material visual, nunca legenda como requisito.
+- [x] Verificar em integração que `sourceUrl` seja persistido para todos os cenários de link sem legenda.
+- [x] Cobrir o formulário de link público com legenda vazia e preenchida, confirmando que ambas as submissões são válidas.
+- [x] Adicionar campo de legenda explicitamente opcional no fluxo de link público e testar sua preservação.

@@ -3,8 +3,9 @@ import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
 import { Textarea } from "@/components/ui/textarea";
 import { trpc } from "@/lib/trpc";
+import { validateEvaluationForm } from "@/lib/evaluationValidation";
 import { AlertCircle, ArrowLeft, FileText, Image, Instagram, Layers3, Link2, Loader2, UploadCloud, Video } from "lucide-react";
-import { ChangeEvent, FormEvent, useState } from "react";
+import React, { ChangeEvent, FormEvent, useState } from "react";
 import { useLocation } from "wouter";
 
 const types = [
@@ -19,10 +20,35 @@ type MediaInput = { fileName: string; mimeType: string; base64: string; preview:
 type SourceMode = "upload" | "link";
 type LinkKind = "direct_media" | "published_post";
 
+export function buildAnalysisPayload(input: {
+  contentType: ContentType;
+  contentText: string;
+  product: string;
+  objective: string;
+  targetAudience: string;
+  skipCaption: boolean;
+  sourceMode: SourceMode;
+  sourceUrl: string;
+  linkKind: LinkKind;
+  remoteMimeType: "image/jpeg" | "image/png" | "image/webp" | "video/mp4";
+  media: MediaInput | null;
+}) {
+  return {
+    contentType: input.contentType,
+    contentText: input.contentText,
+    product: input.product,
+    objective: input.objective,
+    targetAudience: input.targetAudience,
+    skipCaption: input.skipCaption,
+    ...(input.sourceMode === "upload" && input.media ? { media: { fileName: input.media.fileName, mimeType: input.media.mimeType, base64: input.media.base64 } } : {}),
+    ...(input.sourceMode === "link" ? { source: { url: input.sourceUrl.trim(), kind: input.linkKind, ...(input.linkKind === "direct_media" ? { mimeType: input.remoteMimeType } : {}) } } : {}),
+  };
+}
+
 export default function NewEvaluation() {
   const [, setLocation] = useLocation();
   const query = new URLSearchParams(window.location.search);
-  const textOnlyComplement = query.get("complemento") === "legenda";
+  const captionSuggestion = query.get("complemento") === "legenda";
   const initialType = query.get("tipo");
   const [contentType, setContentType] = useState<ContentType>(() => types.some(type => type.value === initialType) ? initialType as ContentType : "post");
   const [contentText, setContentText] = useState("");
@@ -30,7 +56,7 @@ export default function NewEvaluation() {
   const [objective, setObjective] = useState("");
   const [targetAudience, setTargetAudience] = useState("");
   const [media, setMedia] = useState<MediaInput | null>(null);
-  const [sourceMode, setSourceMode] = useState<SourceMode>(() => textOnlyComplement || query.get("envio") === "link" ? "link" : "upload");
+  const [sourceMode, setSourceMode] = useState<SourceMode>(() => captionSuggestion || query.get("envio") === "link" ? "link" : "upload");
   const [sourceUrl, setSourceUrl] = useState(() => query.get("link") ?? "");
   const [linkKind, setLinkKind] = useState<LinkKind>(() => query.get("tipo-link") === "midia-direta" ? "direct_media" : "published_post");
   const [remoteMimeType, setRemoteMimeType] = useState<"image/jpeg" | "image/png" | "image/webp" | "video/mp4">("video/mp4");
@@ -55,7 +81,6 @@ export default function NewEvaluation() {
   };
 
   const changeType = (type: ContentType) => {
-    if (textOnlyComplement) return;
     setContentType(type);
     setMaterialError("");
   };
@@ -66,48 +91,29 @@ export default function NewEvaluation() {
   };
   const submit = (event: FormEvent) => {
     event.preventDefault();
-    if ((contentType === "copy" || textOnlyComplement) && !contentText.trim()) return setMaterialError("Cole a legenda ou a copy para continuar.");
-    if (!textOnlyComplement && contentType !== "copy" && sourceMode === "upload" && !media) return setMaterialError("Para post, carrossel ou Reel, envie a imagem ou o vídeo do material.");
-    if (sourceMode === "link") {
-      try {
-        const parsed = new URL(sourceUrl);
-        if (parsed.protocol !== "https:") throw new Error();
-      } catch {
-        return setMaterialError("Informe um link HTTPS público e completo.");
-      }
-    }
-    create.mutate({
-      contentType,
-      contentText,
-      product,
-      objective,
-      targetAudience,
-      skipCaption,
-      ...(sourceMode === "upload" && media ? { media: { fileName: media.fileName, mimeType: media.mimeType, base64: media.base64 } } : {}),
-      ...(sourceMode === "link" ? { source: { url: sourceUrl.trim(), kind: linkKind, ...(linkKind === "direct_media" ? { mimeType: remoteMimeType } : {}) } } : {}),
-    });
+    const validationError = validateEvaluationForm({ contentType, sourceMode, hasMedia: Boolean(media), sourceUrl, contentText });
+    if (validationError) return setMaterialError(validationError);
+    create.mutate(buildAnalysisPayload({ contentType, contentText, product, objective, targetAudience, skipCaption, sourceMode, sourceUrl, linkKind, remoteMimeType, media }));
   };
 
-  const materialInstruction = textOnlyComplement
-    ? "O Instagram não disponibilizou capa nem legenda pública para este link. Cole somente a legenda ou a copy para receber uma leitura textual do conteúdo."
-    : contentType === "copy"
+  const materialInstruction = contentType === "copy"
       ? "Para uma copy, cole o texto no campo ao lado. Os demais campos são opcionais."
       : "Para post, carrossel ou Reel, a imagem, o vídeo ou um link público do material é obrigatório. Os demais campos são opcionais.";
 
   return <div className="mx-auto max-w-5xl pb-10">
     <button onClick={() => setLocation("/app")} className="mb-6 inline-flex items-center gap-2 rounded-md px-1 py-1 text-sm font-semibold text-violet-700 hover:text-violet-900 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-violet-500"><ArrowLeft className="h-4 w-4" /> Voltar ao painel</button>
-    <div className="mb-8"><p className="text-xs font-bold uppercase tracking-[0.16em] text-violet-500">{textOnlyComplement ? "Complemento de leitura" : "Nova leitura"}</p><h1 className="mt-1 font-display text-4xl font-extrabold tracking-[-0.06em] text-[#2b1058]">{textOnlyComplement ? "Falta só a legenda." : "Entregue o material à sua Platéia."}</h1><p className="mt-3 max-w-2xl text-sm leading-6 text-slate-600">{materialInstruction}</p></div>
+    <div className="mb-8"><p className="text-xs font-bold uppercase tracking-[0.16em] text-violet-500">{captionSuggestion ? "Complemento opcional" : "Nova leitura"}</p><h1 className="mt-1 font-display text-4xl font-extrabold tracking-[-0.06em] text-[#2b1058]">{captionSuggestion ? "A legenda pode enriquecer a leitura." : "Entregue o material à sua Platéia."}</h1><p className="mt-3 max-w-2xl text-sm leading-6 text-slate-600">{captionSuggestion ? "Se quiser, adicione a legenda. Ela é opcional e não bloqueia a avaliação visual do material." : materialInstruction}</p></div>
     <form onSubmit={submit} className="grid gap-6 lg:grid-cols-[1.05fr_0.95fr]">
       <section className="space-y-6">
-        {!textOnlyComplement && <div className="plateia-card p-6"><Label className="mb-3 block text-sm font-bold text-[#2b1058]">Tipo de conteúdo</Label><div className="grid grid-cols-2 gap-3">{types.map(type => { const Icon = type.icon; const active = type.value === contentType; return <button aria-pressed={active} type="button" key={type.value} onClick={() => changeType(type.value)} className={`rounded-2xl border p-3 text-left transition-all ${active ? "border-violet-500 bg-violet-50 shadow-sm" : "border-violet-100 bg-white hover:border-violet-300"}`}><Icon className={`mb-3 h-5 w-5 ${active ? "text-violet-700" : "text-slate-400"}`} /><p className="text-sm font-bold text-[#2b1058]">{type.label}</p><p className="mt-0.5 text-xs text-slate-500">{type.description}</p></button>; })}</div></div>}
-        {textOnlyComplement ? <div className="rounded-2xl border border-amber-200 bg-amber-50 p-5"><div className="flex gap-3"><Instagram className="mt-0.5 h-5 w-5 shrink-0 text-amber-700" /><div><p className="text-sm font-bold text-amber-950">Link preservado</p><p className="mt-1 break-all text-xs leading-5 text-amber-900">{sourceUrl}</p><p className="mt-3 text-xs leading-5 text-amber-900">Neste passo, a Platéia solicitará somente o texto da legenda ou a copy. O material visual não é exigido.</p></div></div></div> : contentType !== "copy" && <VisualSourcePanel sourceMode={sourceMode} chooseSource={chooseSource} media={media} setMedia={setMedia} onFile={onFile} sourceUrl={sourceUrl} setSourceUrl={setSourceUrl} linkKind={linkKind} setLinkKind={setLinkKind} remoteMimeType={remoteMimeType} setRemoteMimeType={setRemoteMimeType} skipCaption={skipCaption} setSkipCaption={setSkipCaption} />}
+        <div className="plateia-card p-6"><Label className="mb-3 block text-sm font-bold text-[#2b1058]">Tipo de conteúdo</Label><div className="grid grid-cols-2 gap-3">{types.map(type => { const Icon = type.icon; const active = type.value === contentType; return <button aria-pressed={active} type="button" key={type.value} onClick={() => changeType(type.value)} className={`rounded-2xl border p-3 text-left transition-all ${active ? "border-violet-500 bg-violet-50 shadow-sm" : "border-violet-100 bg-white hover:border-violet-300"}`}><Icon className={`mb-3 h-5 w-5 ${active ? "text-violet-700" : "text-slate-400"}`} /><p className="text-sm font-bold text-[#2b1058]">{type.label}</p><p className="mt-0.5 text-xs text-slate-500">{type.description}</p></button>; })}</div></div>
+        {contentType !== "copy" && <VisualSourcePanel sourceMode={sourceMode} chooseSource={chooseSource} media={media} setMedia={setMedia} onFile={onFile} sourceUrl={sourceUrl} setSourceUrl={setSourceUrl} linkKind={linkKind} setLinkKind={setLinkKind} remoteMimeType={remoteMimeType} setRemoteMimeType={setRemoteMimeType} skipCaption={skipCaption} setSkipCaption={setSkipCaption} />}
         {materialError && <p role="alert" className="flex items-center gap-1.5 text-xs font-medium text-rose-600"><AlertCircle className="h-3.5 w-3.5" />{materialError}</p>}
       </section>
       <section className="space-y-6">
-        {!textOnlyComplement && <div className="plateia-card p-6"><p className="mb-4 text-xs font-semibold leading-5 text-slate-500">Contexto opcional: quanto mais informação você fornecer, mais específica poderá ser a leitura.</p><ContextFields product={product} setProduct={setProduct} objective={objective} setObjective={setObjective} targetAudience={targetAudience} setTargetAudience={setTargetAudience} /></div>}
-        {skipCaption && !textOnlyComplement ? <div className="rounded-2xl border border-violet-200 bg-violet-50 p-5"><p className="text-sm font-bold text-[#2b1058]">Leitura somente visual</p><p className="mt-1 text-xs leading-5 text-slate-600">A Platéia ignorará a legenda e não pontuará clareza textual, ação ou objeções ligadas à copy.</p></div> : <div className="plateia-card p-6"><Label htmlFor="content">Texto ou legenda {(contentType === "copy" || textOnlyComplement) ? <span className="text-rose-600">(obrigatório)</span> : <span className="font-normal text-slate-400">(opcional)</span>}</Label><Textarea id="content" value={contentText} onChange={event => { setContentText(event.target.value); setMaterialError(""); }} placeholder={textOnlyComplement ? "Cole a legenda ou a copy do post." : contentType === "copy" ? "Cole a copy que deseja avaliar." : "Cole o texto, roteiro ou legenda, se houver."} className="mt-2 min-h-44 border-violet-100 focus-visible:ring-violet-500" /></div>}
+        <div className="plateia-card p-6"><p className="mb-4 text-xs font-semibold leading-5 text-slate-500">Contexto opcional: quanto mais informação você fornecer, mais específica poderá ser a leitura.</p><ContextFields product={product} setProduct={setProduct} objective={objective} setObjective={setObjective} targetAudience={targetAudience} setTargetAudience={setTargetAudience} /></div>
+        {skipCaption && contentType !== "copy" ? <div className="rounded-2xl border border-violet-200 bg-violet-50 p-5"><p className="text-sm font-bold text-[#2b1058]">Leitura somente visual</p><p className="mt-1 text-xs leading-5 text-slate-600">A Platéia ignorará a legenda e não pontuará clareza textual, ação ou objeções ligadas à copy.</p></div> : <div className="plateia-card p-6"><Label htmlFor="content">Texto ou legenda {contentType === "copy" ? <span className="text-rose-600">(obrigatório)</span> : <span className="font-normal text-slate-400">(opcional)</span>}</Label><Textarea id="content" value={contentText} onChange={event => { setContentText(event.target.value); setMaterialError(""); }} placeholder={contentType === "copy" ? "Cole a copy que deseja avaliar." : "Cole o texto, roteiro ou legenda, se houver."} className="mt-2 min-h-44 border-violet-100 focus-visible:ring-violet-500" /></div>}
         <div className="rounded-2xl border border-[#ffdbd7] bg-[#fff7f5] p-4"><div className="flex gap-3"><Instagram className="mt-0.5 h-5 w-5 shrink-0 text-[#f15d50]" /><p className="text-xs leading-5 text-slate-600">A Platéia usa cinco lentes comportamentais para encontrar pontos fortes, riscos e recomendações de criação. A leitura é uma ferramenta de decisão, não uma previsão de resultado de mídia.</p></div></div>
-        <Button type="submit" disabled={create.isPending} className="h-12 w-full bg-[#ff6f61] text-base font-bold text-white shadow-[0_12px_24px_-12px_rgba(255,111,97,0.75)] hover:bg-[#ee5e51]">{create.isPending ? <><Loader2 className="mr-2 h-4 w-4 animate-spin" /> Sua Platéia está lendo…</> : <>{textOnlyComplement ? "Avaliar legenda" : "Iniciar avaliação"} <SparklesIcon /></>}</Button>
+        <Button type="submit" disabled={create.isPending} className="h-12 w-full bg-[#ff6f61] text-base font-bold text-white shadow-[0_12px_24px_-12px_rgba(255,111,97,0.75)] hover:bg-[#ee5e51]">{create.isPending ? <><Loader2 className="mr-2 h-4 w-4 animate-spin" /> Sua Platéia está lendo…</> : <>Iniciar avaliação <SparklesIcon /></>}</Button>
         {submitted && create.isPending && <p role="status" className="rounded-xl bg-violet-50 px-3 py-2 text-sm text-violet-700">Material recebido. A Platéia está preparando seu relatório.</p>}
         {create.error && <p role="alert" className="rounded-xl bg-rose-50 px-3 py-2 text-sm text-rose-700">{create.error.message}</p>}
       </section>

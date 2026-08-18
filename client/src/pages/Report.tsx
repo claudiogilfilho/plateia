@@ -19,8 +19,10 @@ export default function Report() {
   const search = useSearch();
   const { data: analysis, isLoading, error } = trpc.analyses.get.useQuery({ id }, { enabled: Number.isFinite(id), retry: false });
   const previewRequiresVisual = import.meta.env.DEV && new URLSearchParams(search).get("preview") === "requires_visual";
+  const previewCaptionMissing = import.meta.env.DEV && new URLSearchParams(search).get("preview") === "caption_missing";
 
   if (previewRequiresVisual) return <NeedsContentReport contentType="reel" sourceUrl="https://www.instagram.com/reel/exemplo/" reportJson={JSON.stringify({ coverage: { level: "requires_complement", mode: "requires_visual", title: "Material visual necessário", description: "Você escolheu uma leitura somente visual, mas o Instagram não disponibilizou capa, imagem ou vídeo público para este link. Envie o arquivo original para continuar sem legenda." } })} />;
+  if (previewCaptionMissing) return <NeedsContentReport contentType="reel" sourceUrl="https://www.instagram.com/reel/exemplo/" reportJson={JSON.stringify({ coverage: { level: "requires_complement", mode: "requires_visual", title: "Material visual necessário", description: "O Instagram não disponibilizou imagem ou vídeo público para este link. Envie o arquivo para a Platéia avaliar o conteúdo visual; a legenda é opcional." } })} />;
 
   if (isLoading) return <div className="grid min-h-[55vh] place-items-center"><Loader2 className="h-7 w-7 animate-spin text-violet-600" /></div>;
   if (error) return <div role="alert" className="mx-auto mt-16 max-w-xl rounded-2xl border border-rose-100 bg-rose-50 p-6 text-center text-rose-700">Não foi possível carregar este relatório agora. Volte ao histórico e tente novamente.</div>;
@@ -82,12 +84,12 @@ function FailedReport() {
 export function NeedsContentReport({ contentType, sourceUrl, reportJson }: { contentType: string; sourceUrl: string | null; reportJson: string | null }) {
   const coverage = reportJson ? (JSON.parse(reportJson) as Pick<ReportData, "coverage">).coverage : undefined;
   const action = getComplementAction(coverage, contentType, sourceUrl);
-  return <div className="mx-auto max-w-xl pt-16 text-center"><CircleAlert className="mx-auto mb-4 h-10 w-10 text-amber-500" /><h1 className="font-display text-3xl font-extrabold text-[#2b1058]">{action.heading}</h1><p className="mt-2 text-slate-600">{coverage?.description || "Cole a legenda ou a copy para que a Platéia consiga iniciar a leitura textual."}</p><a href={action.href} className="mt-6 inline-flex h-10 items-center rounded-md bg-[#2b1058] px-4 text-sm font-semibold text-white focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-violet-500">{action.label}</a></div>;
+  return <div className="mx-auto max-w-xl pt-16 text-center"><CircleAlert className="mx-auto mb-4 h-10 w-10 text-amber-500" /><h1 className="font-display text-3xl font-extrabold text-[#2b1058]">{action.heading}</h1><p className="mt-2 text-slate-600">{coverage?.description || "A Platéia precisa do arquivo visual para avaliar este conteúdo. A legenda permanece opcional."}</p><a href={action.href} className="mt-6 inline-flex h-10 items-center rounded-md bg-[#2b1058] px-4 text-sm font-semibold text-white focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-violet-500">{action.label}</a></div>;
 }
 
 export function getComplementAction(coverage: ReadingCoverage | undefined, contentType: string, sourceUrl: string | null) {
   if (coverage?.mode === "requires_visual") return { heading: "Falta o material visual.", label: "Enviar arquivo", href: `/avaliar?envio=upload&tipo=${contentType}` };
-  return { heading: "Falta só a legenda.", label: "Adicionar legenda", href: `/avaliar?envio=link&tipo=${contentType}&complemento=legenda${sourceUrl ? `&link=${encodeURIComponent(sourceUrl)}` : ""}` };
+  return { heading: "Falta o material visual.", label: "Enviar arquivo", href: `/avaliar?envio=upload&tipo=${contentType}` };
 }
 
 export function CoverageNotice({ coverage }: { coverage?: ReadingCoverage }) {

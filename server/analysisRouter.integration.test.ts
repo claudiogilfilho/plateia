@@ -63,13 +63,22 @@ describe("analyses.create integration", () => {
     await expect(caller().create({ contentType: "reel", contentText: "", product: "", objective: "", targetAudience: "", source: { url: "https://www.instagram.com/reel/C1Example/", kind: "published_post" } })).resolves.toEqual({ id: 42, status: "completed" });
     expect(mocks.resolveInstagramMaterial).toHaveBeenCalledWith("https://www.instagram.com/reel/C1Example/");
     expect(mocks.evaluateContent).toHaveBeenCalledWith(expect.objectContaining({ contentType: "reel", text: "Legenda pública", mediaUrl: "https://cdn.instagram.example/preview.jpg", mediaMimeType: "image/jpeg" }));
+    expect(mocks.createAnalysis).toHaveBeenCalledWith(expect.objectContaining({ sourceUrl: "https://www.instagram.com/reel/C1Example/" }));
   });
 
-  it("does not fail when Instagram hides the preview: it requests a caption when none was provided", async () => {
+  it("continues visually when an Instagram preview exists but no public caption is available", async () => {
+    mocks.resolveInstagramMaterial.mockResolvedValue({ mediaUrl: "https://cdn.instagram.example/preview.jpg", mediaMimeType: "image/jpeg", caption: null });
+    await expect(caller().create({ contentType: "reel", contentText: "", product: "", objective: "", targetAudience: "", source: { url: "https://www.instagram.com/reel/C1Example/", kind: "published_post" } })).resolves.toEqual({ id: 42, status: "completed" });
+    expect(mocks.evaluateContent).toHaveBeenCalledWith(expect.objectContaining({ text: "", analysisScope: "visual_only", mediaUrl: "https://cdn.instagram.example/preview.jpg" }));
+    expect(mocks.createAnalysis).toHaveBeenCalledWith(expect.objectContaining({ sourceUrl: "https://www.instagram.com/reel/C1Example/" }));
+  });
+
+  it("requests a visual file, not a caption, when Instagram hides the public preview", async () => {
     mocks.resolveInstagramMaterial.mockResolvedValue(null);
     await expect(caller().create({ contentType: "reel", contentText: "", product: "", objective: "", targetAudience: "", source: { url: "https://www.instagram.com/reel/C1Example/", kind: "published_post" } })).resolves.toEqual({ id: 42, status: "needs_content" });
     expect(mocks.evaluateContent).not.toHaveBeenCalled();
-    expect(mocks.updateAnalysisResult).toHaveBeenCalledWith(42, "needs_content", expect.objectContaining({ coverage: expect.objectContaining({ level: "requires_complement" }) }));
+    expect(mocks.updateAnalysisResult).toHaveBeenCalledWith(42, "needs_content", expect.objectContaining({ coverage: expect.objectContaining({ level: "requires_complement", mode: "requires_visual", title: "Material visual necessário" }) }));
+    expect(mocks.createAnalysis).toHaveBeenCalledWith(expect.objectContaining({ sourceUrl: "https://www.instagram.com/reel/C1Example/" }));
   });
 
   it("requests a visual file instead of a caption when visual-only was chosen and Instagram exposes no preview", async () => {
@@ -103,5 +112,12 @@ describe("analyses.create integration", () => {
   it("discards user-provided text when the user explicitly selects visual-only reading", async () => {
     await expect(caller().create({ contentType: "post", contentText: "Legenda que não deve entrar na análise.", product: "", objective: "", targetAudience: "", skipCaption: true, media: { fileName: "post.png", mimeType: "image/png", base64: "a".repeat(24) } })).resolves.toEqual({ id: 42, status: "completed" });
     expect(mocks.evaluateContent).toHaveBeenCalledWith(expect.objectContaining({ text: "", analysisScope: "visual_only" }));
+  });
+
+  it("creates a visual-only reading for a direct media URL without requiring any caption", async () => {
+    await expect(caller().create({ contentType: "reel", contentText: "", product: "", objective: "", targetAudience: "", skipCaption: true, source: { url: "https://cdn.example/video.mp4", kind: "direct_media", mimeType: "video/mp4" } })).resolves.toEqual({ id: 42, status: "completed" });
+    expect(mocks.evaluateContent).toHaveBeenCalledWith(expect.objectContaining({ text: "", analysisScope: "visual_only", mediaUrl: "https://cdn.example/video.mp4", mediaMimeType: "video/mp4" }));
+    expect(mocks.updateAnalysisResult).toHaveBeenCalledWith(42, "completed", expect.objectContaining({ coverage: expect.objectContaining({ mode: "visual_only" }) }));
+    expect(mocks.createAnalysis).toHaveBeenCalledWith(expect.objectContaining({ sourceUrl: "https://cdn.example/video.mp4" }));
   });
 });
