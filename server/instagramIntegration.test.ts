@@ -1,5 +1,5 @@
 import { describe, expect, it } from "vitest";
-import { buildInstagramConnectionState, buildRevokedInstagramConnectionPatch, isMetaInstagramConfigured } from "./instagramIntegration";
+import { buildInstagramConnectionState, buildRevokedInstagramConnectionPatch, isMetaInstagramConfigured, validateMetaAppCredentials } from "./instagramIntegration";
 
 describe("instagram integration preparation", () => {
   it("requires both Meta app credentials before enabling a connection", () => {
@@ -18,4 +18,10 @@ describe("instagram integration preparation", () => {
     expect(patch.tokenExpiresAt).toBeNull();
     expect(patch.revokedAt).toBeInstanceOf(Date);
   });
+
+  const hasSuppliedMetaCredentials = isMetaInstagramConfigured();
+  it.skipIf(!hasSuppliedMetaCredentials)("validates the supplied Instagram App credentials with a discarded OAuth authorization-code probe", async () => {
+    const result = await validateMetaAppCredentials();
+    expect(result.valid).toBe(true);
+  }, 15_000);
 });

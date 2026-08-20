@@ -1,6 +1,6 @@
 import { desc, eq, and } from "drizzle-orm";
 import { drizzle } from "drizzle-orm/mysql2";
-import { Analysis, InsertAnalysis, InsertUser, InstagramConnection, analyses, instagramConnections, users } from "../drizzle/schema";
+import { Analysis, InsertAnalysis, InsertInstagramConnection, InsertUser, InstagramConnection, analyses, instagramConnections, users } from "../drizzle/schema";
 import { ENV } from './_core/env';
 import { buildRevokedInstagramConnectionPatch } from "./instagramIntegration";
 
@@ -127,4 +127,21 @@ export async function revokeInstagramConnectionForUser(userId: number) {
   const db = await getDb();
   if (!db) throw new Error("Banco de dados indisponível.");
   await db.update(instagramConnections).set(buildRevokedInstagramConnectionPatch()).where(eq(instagramConnections.userId, userId));
+}
+
+export async function saveInstagramConnectionForUser(userId: number, connection: Omit<InsertInstagramConnection, "id" | "userId" | "createdAt" | "updatedAt">) {
+  const db = await getDb();
+  if (!db) throw new Error("Banco de dados indisponível.");
+  const existing = await getInstagramConnectionForUser(userId);
+  if (existing) {
+    await db.update(instagramConnections).set(connection).where(eq(instagramConnections.id, existing.id));
+    return;
+  }
+  await db.insert(instagramConnections).values({ ...connection, userId });
+}
+
+export async function updateInstagramConnectionStatus(userId: number, status: "ready" | "connected" | "expired" | "revoked" | "error") {
+  const db = await getDb();
+  if (!db) throw new Error("Banco de dados indisponível.");
+  await db.update(instagramConnections).set({ status }).where(eq(instagramConnections.userId, userId));
 }

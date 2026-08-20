@@ -90,3 +90,13 @@
 - [x] Adicionar campo de legenda explicitamente opcional no fluxo de link público e testar sua preservação.
 - [x] Simplificar no celular o estado de link do Instagram sem mídia pública, deixando evidente como continuar pelo envio do arquivo original.
 - [x] Cobrir e validar a nova continuidade visual em viewport móvel, sem tornar a legenda obrigatória.
+- [ ] Avaliar os acessos oficiais e autorizações Meta necessários para um piloto controlado de análise de vídeos do Instagram, sem iniciar coleta automática.
+- [ ] Definir uma biblioteca de casos com vídeos autorizados, metadados e resultados agregados para calibração futura da Platéia.
+- [ ] Criar e configurar um aplicativo Meta exclusivo para a Platéia, separado do aplicativo de Marketing API do Oráculo Duconde.
+- [ ] Armazenar de forma segura as credenciais do aplicativo Meta exclusivo da Platéia e validar o escopo mínimo de leitura autorizado.
+- [ ] Implementar o callback de autorização da conta profissional e a leitura controlada de mídias próprias para o piloto.
+- [ ] Cobrir a autorização Meta com testes de URL, proteção de token e leitura de mídia própria antes da ativação do piloto.
+- [ ] Corrigir o uso do Instagram App ID específico no consentimento Meta, eliminando o erro “Invalid platform app”.
+- [ ] Atribuir a conta profissional usada no piloto como testadora do Instagram App e confirmar o convite antes de repetir a autorização.
+- [ ] Salvar a versão atual da Platéia no repositório GitHub privado com o nome do projeto e confirmar a sincronização.
+- [ ] Validar, por teste de integração leve, as credenciais Meta cadastradas antes de habilitar o fluxo oficial de autorização.
