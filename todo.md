@@ -98,5 +98,5 @@
 - [ ] Cobrir a autorização Meta com testes de URL, proteção de token e leitura de mídia própria antes da ativação do piloto.
 - [ ] Corrigir o uso do Instagram App ID específico no consentimento Meta, eliminando o erro “Invalid platform app”.
 - [ ] Atribuir a conta profissional usada no piloto como testadora do Instagram App e confirmar o convite antes de repetir a autorização.
-- [ ] Salvar a versão atual da Platéia no repositório GitHub privado com o nome do projeto e confirmar a sincronização.
+- [x] Salvar a versão atual da Platéia no repositório GitHub privado com o nome do projeto e confirmar a sincronização.
 - [ ] Validar, por teste de integração leve, as credenciais Meta cadastradas antes de habilitar o fluxo oficial de autorização.
