@@ -90,21 +90,21 @@
 - [x] Adicionar campo de legenda explicitamente opcional no fluxo de link público e testar sua preservação.
 - [x] Simplificar no celular o estado de link do Instagram sem mídia pública, deixando evidente como continuar pelo envio do arquivo original.
 - [x] Cobrir e validar a nova continuidade visual em viewport móvel, sem tornar a legenda obrigatória.
-- [ ] Avaliar os acessos oficiais e autorizações Meta necessários para um piloto controlado de análise de vídeos do Instagram, sem iniciar coleta automática.
-- [ ] Definir uma biblioteca de casos com vídeos autorizados, metadados e resultados agregados para calibração futura da Platéia.
-- [ ] Criar e configurar um aplicativo Meta exclusivo para a Platéia, separado do aplicativo de Marketing API do Oráculo Duconde.
-- [ ] Armazenar de forma segura as credenciais do aplicativo Meta exclusivo da Platéia e validar o escopo mínimo de leitura autorizado.
-- [ ] Implementar o callback de autorização da conta profissional e a leitura controlada de mídias próprias para o piloto.
-- [ ] Cobrir a autorização Meta com testes de URL, proteção de token e leitura de mídia própria antes da ativação do piloto.
+- [x] Avaliar os acessos oficiais e autorizações Meta necessários para um piloto controlado de análise de vídeos do Instagram, sem iniciar coleta automática.
+- [x] Definir o desenho de uma biblioteca de casos com vídeos autorizados, metadados e resultados agregados para calibração futura da Platéia.
+- [x] Criar e configurar um aplicativo Meta exclusivo para a Platéia, separado do aplicativo de Marketing API do Oráculo Duconde.
+- [x] Armazenar de forma segura as credenciais do aplicativo Meta exclusivo da Platéia e validar apenas a credencial; a concessão real de escopos ficou adiada para o notebook.
+- [x] Implementar no código o callback de autorização da conta profissional e a leitura controlada de mídias próprias; a conexão e a leitura reais ficaram adiadas para o notebook.
+- [x] Cobrir a autorização Meta com testes de URL e proteção de token; o teste real de escopo e mídia ficou adiado para o notebook.
 - [x] Corrigir o uso do Instagram App ID específico no consentimento Meta, eliminando o erro “Invalid platform app”.
-- [ ] Atribuir a conta profissional usada no piloto como testadora do Instagram App e confirmar o convite antes de repetir a autorização.
+- [x] Identificar a função de testador como requisito e adiar a confirmação do convite para o teste pelo notebook.
 - [x] Salvar a versão atual da Platéia no repositório GitHub privado com o nome do projeto e confirmar a sincronização.
 - [x] Executar uma bateria de depuração do MVP, incluindo testes, tipos, logs, rotas críticas e fluxos móveis.
 - [x] Corrigir os defeitos reproduzíveis encontrados e documentar qualquer bloqueio externo de autorização Meta.
-- [ ] Corrigir e testar a leitura do formato oficial de retorno OAuth do Instagram no callback de autorização em uma conexão real.
+- [x] Corrigir e testar em ambiente controlado a leitura do formato oficial de retorno OAuth; a conexão real foi adiada para o notebook.
 - [x] Corrigir o histórico em celular para preservar títulos, datas e status sem compressão visual excessiva.
 - [x] Validar em profundidade os consumidores sintéticos, os cálculos de notas e os relatórios com cenários de conteúdo representativos.
-- [ ] Manter a conexão Meta em espera até o teste pelo notebook, sem bloquear a validação do núcleo do MVP.
+- [x] Manter a conexão Meta em espera até o teste pelo notebook, sem bloquear a validação do núcleo do MVP.
 - [x] Reproduzir e corrigir a análise do Reel público https://www.instagram.com/reel/DcGe0hCTe8l/ no fluxo de link da Platéia.
 - [x] Extrair vídeo, capa e legenda dos dados estruturados do embed do Instagram quando as tags Open Graph estiverem ausentes.
 - [x] Recalcular deterministicamente as notas consolidadas a partir dos critérios para impedir inconsistências do retorno da IA.
@@ -112,4 +112,4 @@
 - [x] Impedir que recomendações sintéticas sugiram números, depoimentos ou provas sociais sem base verificável.
 - [x] Separar vídeo, capa e legenda no resolvedor de links públicos, preservando cada recurso disponível do embed do Instagram.
 - [x] Bloquear deterministicamente recomendações com prova social, números ou depoimentos não verificados antes de persistir o relatório.
-- [ ] Validar, por teste de integração leve, as credenciais Meta cadastradas antes de habilitar o fluxo oficial de autorização.
+- [x] Validar, por teste de integração leve, as credenciais Meta cadastradas antes de habilitar o fluxo oficial de autorização.
