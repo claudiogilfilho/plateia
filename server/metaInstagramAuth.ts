@@ -10,13 +10,13 @@ const META_STATE_MAX_AGE_MS = 10 * 60 * 1000;
 const CONSENT_VERSION = "2026-08-v1";
 const INSTAGRAM_SCOPE = "instagram_business_basic";
 
-type TokenExchangeResponse = { data?: Array<{ access_token?: string; user_id?: string; permissions?: string }> };
+type TokenExchangeResponse = { access_token?: string; user_id?: string; permissions?: string };
 type LongLivedTokenResponse = { access_token?: string; expires_in?: number };
-type InstagramIdentityResponse = { data?: Array<{ user_id?: string; username?: string; account_type?: string }> };
+type InstagramIdentityResponse = { user_id?: string; username?: string; account_type?: string };
 
-function getRequiredMetaCredentials() {
-  const appId = process.env.META_INSTAGRAM_APP_ID?.trim();
-  const appSecret = process.env.META_INSTAGRAM_APP_SECRET?.trim();
+function getRequiredMetaCredentials(environment: Record<string, string | undefined> = process.env) {
+  const appId = environment.META_INSTAGRAM_APP_ID?.trim();
+  const appSecret = environment.META_INSTAGRAM_APP_SECRET?.trim();
   if (!appId || !appSecret) throw new Error("Meta Instagram não está configurado.");
   return { appId, appSecret };
 }
@@ -80,20 +80,25 @@ function redirectWithError(req: Request, res: Response) {
   res.redirect(302, getClientRedirectPath("error"));
 }
 
-async function exchangeAuthorizationCode(code: string, redirectUri: string) {
-  const { appId, appSecret } = getRequiredMetaCredentials();
+export async function exchangeInstagramAuthorizationCode(
+  code: string,
+  redirectUri: string,
+  environment: Record<string, string | undefined> = process.env,
+  request: typeof fetch = fetch,
+) {
+  const { appId, appSecret } = getRequiredMetaCredentials(environment);
   const exchangeBody = new URLSearchParams({ client_id: appId, client_secret: appSecret, grant_type: "authorization_code", redirect_uri: redirectUri, code });
-  const exchangeResponse = await fetch("https://api.instagram.com/oauth/access_token", { method: "POST", body: exchangeBody });
+  const exchangeResponse = await request("https://api.instagram.com/oauth/access_token", { method: "POST", body: exchangeBody });
   if (!exchangeResponse.ok) throw new Error("Não foi possível trocar o código Meta.");
   const exchanged = (await exchangeResponse.json()) as TokenExchangeResponse;
-  const shortLivedToken = exchanged.data?.[0]?.access_token;
+  const shortLivedToken = exchanged.access_token;
   if (!shortLivedToken) throw new Error("A Meta não retornou um token de autorização.");
 
   const longTokenUrl = new URL("https://graph.instagram.com/access_token");
   longTokenUrl.searchParams.set("grant_type", "ig_exchange_token");
   longTokenUrl.searchParams.set("client_secret", appSecret);
   longTokenUrl.searchParams.set("access_token", shortLivedToken);
-  const longTokenResponse = await fetch(longTokenUrl);
+  const longTokenResponse = await request(longTokenUrl);
   if (!longTokenResponse.ok) throw new Error("Não foi possível estender o token Meta.");
   const longLived = (await longTokenResponse.json()) as LongLivedTokenResponse;
   if (!longLived.access_token || !longLived.expires_in) throw new Error("A Meta não retornou um token de longa duração.");
@@ -101,13 +106,12 @@ async function exchangeAuthorizationCode(code: string, redirectUri: string) {
   const meUrl = new URL("https://graph.instagram.com/v26.0/me");
   meUrl.searchParams.set("fields", "user_id,username,account_type");
   meUrl.searchParams.set("access_token", longLived.access_token);
-  const identityResponse = await fetch(meUrl);
+  const identityResponse = await request(meUrl);
   if (!identityResponse.ok) throw new Error("Não foi possível ler a conta profissional autorizada.");
   const identity = (await identityResponse.json()) as InstagramIdentityResponse;
-  const profile = identity.data?.[0];
-  if (!profile?.user_id || !profile.username) throw new Error("A Meta não retornou a identidade da conta profissional.");
+  if (!identity.user_id || !identity.username) throw new Error("A Meta não retornou a identidade da conta profissional.");
 
-  return { accessToken: longLived.access_token, expiresIn: longLived.expires_in, instagramUserId: profile.user_id, username: profile.username, accountType: profile.account_type === "Media_Creator" ? "creator" as const : "business" as const, grantedScopes: INSTAGRAM_SCOPE };
+  return { accessToken: longLived.access_token, expiresIn: longLived.expires_in, instagramUserId: identity.user_id, username: identity.username, accountType: identity.account_type?.toUpperCase() === "MEDIA_CREATOR" ? "creator" as const : "business" as const, grantedScopes: INSTAGRAM_SCOPE };
 }
 
 export function registerMetaInstagramRoutes(app: Express) {
@@ -132,7 +136,7 @@ export function registerMetaInstagramRoutes(app: Express) {
 
     if (!user || !code || !state || state !== expectedState || req.query.error) return redirectWithError(req, res);
     try {
-      const connection = await exchangeAuthorizationCode(code, getRedirectUri(req));
+      const connection = await exchangeInstagramAuthorizationCode(code, getRedirectUri(req));
       await saveInstagramConnectionForUser(user.id, {
         instagramUserId: connection.instagramUserId,
         username: connection.username,

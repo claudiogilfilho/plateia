@@ -42,10 +42,38 @@ export function validateAnalysisShape(analysis: ContentAnalysis): ContentAnalysi
   return analysis;
 }
 
+export function recalculateSynthesisScores(
+  analysis: ContentAnalysis,
+  assessedCriteria: readonly (typeof CRITERIA)[number][] = CRITERIA,
+): ContentAnalysis {
+  if (assessedCriteria.length === 0) throw new Error("A Platéia precisa de ao menos um critério avaliado.");
+  const consumers = analysis.consumers.map(consumer => ({
+    ...consumer,
+    overallScore: Math.round(assessedCriteria.reduce((sum, criterion) => sum + consumer.criteria[criterion], 0) / assessedCriteria.length),
+  }));
+  const overallScore = Math.round(consumers.reduce((sum, consumer) => sum + consumer.overallScore, 0) / consumers.length);
+  const divergence = Math.max(...consumers.map(consumer => consumer.overallScore)) - Math.min(...consumers.map(consumer => consumer.overallScore));
+  return { consumers, synthesis: { ...analysis.synthesis, overallScore, weightedAverage: overallScore, divergence } };
+}
+
 function recordOf(value: unknown, field: string): Record<string, unknown> { if (!value || typeof value !== "object" || Array.isArray(value)) throw new Error(`${field} inválido na resposta da IA.`); return value as Record<string, unknown>; }
 function textOf(value: unknown, field: string) { if (typeof value !== "string" || !value.trim()) throw new Error(`${field} inválido na resposta da IA.`); return value.trim(); }
 function scoreOf(value: unknown, field: string) { const score = Number(value); if (!Number.isFinite(score)) throw new Error(`${field} precisa ser uma nota numérica.`); return Math.round(Math.max(0, Math.min(100, score))); }
 function listOf(value: unknown, field: string, min: number, max: number) { if (!Array.isArray(value) || value.length < min || value.length > max) throw new Error(`${field} possui quantidade inválida de itens.`); return value.map((item, index) => textOf(item, `${field} ${index + 1}`)); }
+
+const safeRecommendations = [
+  "Torne o benefício principal mais específico e visível nos primeiros segundos.",
+  "Apresente somente evidências reais e verificáveis que a marca já possua, como demonstração, processo ou informação de produto.",
+  "Conclua com uma chamada para ação simples e coerente com o objetivo da publicação.",
+] as const;
+
+function usesUnverifiedSocialProof(recommendation: string) {
+  return /\d|\b(depoimentos?|testemunhos?|avalia[cç][õo]es?|reviews?|selos?|premiad[oa]s?|mais de|milhares de|prova social|clientes?)\b/i.test(recommendation);
+}
+
+export function sanitizeRecommendations(recommendations: string[]): [string, string, string] {
+  return recommendations.map((recommendation, index) => usesUnverifiedSocialProof(recommendation) ? safeRecommendations[index] : recommendation) as [string, string, string];
+}
 
 export function normalizeAnalysis(input: unknown): ContentAnalysis {
   const raw = recordOf(input, "Avaliação");
@@ -60,18 +88,15 @@ export function normalizeAnalysis(input: unknown): ContentAnalysis {
     return { name, overallScore: scoreOf(consumer.overallScore, `Nota geral de ${name}`), reaction: textOf(consumer.reaction, `Reação de ${name}`), criteria: Object.fromEntries(CRITERIA.map(criterion => [criterion, scoreOf(rawCriteria[criterion], `${criterion} de ${name}`)])) as Record<(typeof CRITERIA)[number], number>, mainObjection: textOf(consumer.mainObjection, `Objeção de ${name}`) };
   });
   const rawSynthesis = recordOf(raw.synthesis, "Síntese");
-  return validateAnalysisShape({ consumers, synthesis: { overallScore: scoreOf(rawSynthesis.overallScore, "Nota geral"), weightedAverage: scoreOf(rawSynthesis.weightedAverage, "Média ponderada"), divergence: scoreOf(rawSynthesis.divergence, "Divergência"), strengths: listOf(rawSynthesis.strengths, "Pontos fortes", 2, 4), risks: listOf(rawSynthesis.risks, "Riscos", 2, 4), recommendations: listOf(rawSynthesis.recommendations, "Recomendações", 3, 3) as [string, string, string] } });
+  scoreOf(rawSynthesis.overallScore, "Nota geral");
+  scoreOf(rawSynthesis.weightedAverage, "Média ponderada");
+  scoreOf(rawSynthesis.divergence, "Divergência");
+  return validateAnalysisShape(recalculateSynthesisScores({ consumers, synthesis: { overallScore: 0, weightedAverage: 0, divergence: 0, strengths: listOf(rawSynthesis.strengths, "Pontos fortes", 2, 4), risks: listOf(rawSynthesis.risks, "Riscos", 2, 4), recommendations: sanitizeRecommendations(listOf(rawSynthesis.recommendations, "Recomendações", 3, 3)) } }));
 }
 
 export function applyVisualOnlyScope(analysis: ContentAnalysis): ContentAnalysis {
   const visualCriteria = CRITERIA.filter(criterion => !VISUAL_ONLY_EXCLUDED_CRITERIA.includes(criterion as (typeof VISUAL_ONLY_EXCLUDED_CRITERIA)[number]));
-  const consumers = analysis.consumers.map(consumer => ({
-    ...consumer,
-    overallScore: Math.round(visualCriteria.reduce((sum, criterion) => sum + consumer.criteria[criterion], 0) / visualCriteria.length),
-  }));
-  const overallScore = Math.round(consumers.reduce((sum, consumer) => sum + consumer.overallScore, 0) / consumers.length);
-  const divergence = Math.max(...consumers.map(consumer => consumer.overallScore)) - Math.min(...consumers.map(consumer => consumer.overallScore));
-  return { consumers, synthesis: { ...analysis.synthesis, overallScore, weightedAverage: overallScore, divergence } };
+  return recalculateSynthesisScores(analysis, visualCriteria);
 }
 
 export function parseStructuredEvaluation(raw: string) {
@@ -105,7 +130,7 @@ Regras:
 2. Avalie exatamente estes critérios: ${CRITERIA.join(", ")}.
 3. Recomendações deve conter exatamente três sugestões, em ordem de prioridade e acionáveis.
 4. Identifique pontos fortes e riscos concretos do material.
-5. Não invente depoimentos, resultados, clientes, dados de performance ou provas sociais.
+5. Não invente depoimentos, resultados, clientes, dados de performance ou provas sociais. Nas recomendações, nunca sugira inserir números, avaliações, depoimentos ou selos inexistentes; oriente a usar apenas evidências reais e verificáveis que a marca já possua.
 6. Se houver somente um link de origem sem mídia anexada, trate-o apenas como referência e avalie somente o texto e o contexto fornecidos; não invente o conteúdo do link.
 7. Quando o escopo for somente visual, baseie-se apenas no material visual. Não invente ou suponha CTA, promessa, preço, legenda ou qualquer texto que não esteja visível.
 8. Seja conciso: reações e objeções com até 180 caracteres; itens de síntese com até 160 caracteres.`;

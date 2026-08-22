@@ -60,7 +60,72 @@ function captionFromHtml(html: string) {
   return candidates.map(decodeHtml).find((caption): caption is string => Boolean(caption)) ?? null;
 }
 
-export type InstagramMaterial = { mediaUrl: string | null; mediaMimeType: "image/jpeg" | null; caption: string | null };
+function jsonObjectAfterKey(html: string, key: string) {
+  const marker = `"${key}":`;
+  const markerIndex = html.indexOf(marker);
+  if (markerIndex < 0) return null;
+  const start = html.indexOf("{", markerIndex + marker.length);
+  if (start < 0) return null;
+
+  let depth = 0;
+  let quoted = false;
+  let escaped = false;
+  for (let index = start; index < html.length; index += 1) {
+    const character = html[index];
+    if (escaped) {
+      escaped = false;
+      continue;
+    }
+    if (character === "\\") {
+      escaped = true;
+      continue;
+    }
+    if (character === '"') {
+      quoted = !quoted;
+      continue;
+    }
+    if (quoted) continue;
+    if (character === "{") depth += 1;
+    if (character === "}") depth -= 1;
+    if (depth === 0) {
+      try {
+        return JSON.parse(html.slice(start, index + 1)) as Record<string, unknown>;
+      } catch {
+        return null;
+      }
+    }
+  }
+  return null;
+}
+
+function contextJsonMedia(html: string) {
+  const match = html.match(/"contextJSON":"((?:\\.|[^"\\])*)"/);
+  if (!match) return null;
+  try {
+    const contextJson = JSON.parse(`"${match[1]}"`) as string;
+    const parsed = JSON.parse(contextJson) as { gql_data?: { shortcode_media?: Record<string, unknown> } };
+    return parsed.gql_data?.shortcode_media ?? null;
+  } catch {
+    return null;
+  }
+}
+
+function structuredInstagramMaterial(html: string) {
+  const media = jsonObjectAfterKey(html, "shortcode_media") ?? contextJsonMedia(html);
+  if (!media) return null;
+  const videoCandidate = typeof media.video_url === "string" ? decodeHtml(media.video_url) : null;
+  const coverCandidate = typeof media.display_url === "string" ? decodeHtml(media.display_url) : typeof media.thumbnail_src === "string" ? decodeHtml(media.thumbnail_src) : null;
+  const videoUrl = videoCandidate && isAllowedPublicHttpsUrl(videoCandidate) ? videoCandidate : null;
+  const coverImageUrl = coverCandidate && isAllowedPublicHttpsUrl(coverCandidate) ? coverCandidate : null;
+  const mediaUrl = videoUrl ?? coverImageUrl;
+  const edgeCaption = media.edge_media_to_caption as { edges?: Array<{ node?: { text?: unknown } }> } | undefined;
+  const structuredCaption = edgeCaption?.edges?.find(edge => typeof edge.node?.text === "string")?.node?.text;
+  const caption = typeof structuredCaption === "string" && structuredCaption.trim() ? structuredCaption.trim() : null;
+  if (!mediaUrl && !caption) return null;
+  return { mediaUrl, mediaMimeType: videoUrl ? "video/mp4" as const : coverImageUrl ? "image/jpeg" as const : null, videoUrl, coverImageUrl, caption };
+}
+
+export type InstagramMaterial = { mediaUrl: string | null; mediaMimeType: "image/jpeg" | "video/mp4" | null; videoUrl: string | null; coverImageUrl: string | null; caption: string | null };
 
 export async function resolveInstagramMaterial(sourceUrl: string): Promise<InstagramMaterial | null> {
   if (!isInstagramPublicationUrl(sourceUrl)) return null;
@@ -78,11 +143,14 @@ export async function resolveInstagramMaterial(sourceUrl: string): Promise<Insta
     });
     if (!response.ok) return null;
     const html = await response.text();
+    const structured = structuredInstagramMaterial(html);
     const candidateMediaUrl = decodeHtml(metaContent(html, "og:image"));
-    const mediaUrl = candidateMediaUrl && isAllowedPublicHttpsUrl(candidateMediaUrl) ? candidateMediaUrl : null;
-    const caption = captionFromHtml(html);
+    const coverImageUrl = structured?.coverImageUrl ?? (candidateMediaUrl && isAllowedPublicHttpsUrl(candidateMediaUrl) ? candidateMediaUrl : null);
+    const videoUrl = structured?.videoUrl ?? null;
+    const mediaUrl = videoUrl ?? coverImageUrl;
+    const caption = structured?.caption ?? captionFromHtml(html);
     if (!mediaUrl && !caption) return null;
-    return { mediaUrl, mediaMimeType: mediaUrl ? "image/jpeg" : null, caption };
+    return { mediaUrl, mediaMimeType: videoUrl ? "video/mp4" : coverImageUrl ? "image/jpeg" : null, videoUrl, coverImageUrl, caption };
   } catch {
     return null;
   } finally {
