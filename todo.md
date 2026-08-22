@@ -113,4 +113,4 @@
 - [x] Separar vídeo, capa e legenda no resolvedor de links públicos, preservando cada recurso disponível do embed do Instagram.
 - [x] Bloquear deterministicamente recomendações com prova social, números ou depoimentos não verificados antes de persistir o relatório.
 - [x] Validar, por teste de integração leve, as credenciais Meta cadastradas antes de habilitar o fluxo oficial de autorização.
-- [ ] Sincronizar a versão atual da Platéia no GitHub e tornar o repositório claudiogilfilho/plateia público por solicitação do usuário.
+- [x] Sincronizar a versão atual da Platéia no GitHub e tornar o repositório claudiogilfilho/plateia público por solicitação do usuário.
