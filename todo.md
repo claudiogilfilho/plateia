@@ -114,3 +114,7 @@
 - [x] Bloquear deterministicamente recomendações com prova social, números ou depoimentos não verificados antes de persistir o relatório.
 - [x] Validar, por teste de integração leve, as credenciais Meta cadastradas antes de habilitar o fluxo oficial de autorização.
 - [x] Sincronizar a versão atual da Platéia no GitHub e tornar o repositório claudiogilfilho/plateia público por solicitação do usuário.
+- [x] Separar o método Platéia do motor de IA e oferecer modos embutido, OpenAI-compatible e ponte neutra.
+- [x] Criar um Agent Skill portátil com protocolo, taxonomias, contrato de relatório, extração de quadros e memória JSON.
+- [x] Disponibilizar um prompt de sistema independente para ambientes sem suporte a skills.
+- [x] Impedir que adaptadores sem transporte multimodal configurado afirmem ter assistido a vídeos.

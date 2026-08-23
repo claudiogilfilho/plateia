@@ -1,5 +1,6 @@
 import { TRPCError } from "@trpc/server";
 import { z } from "zod";
+import { getEvaluationProviderStatus } from "./aiProvider";
 import { createObservatoryReference, getObservatoryReferenceById, listActiveObservatoryPatterns, listObservatoryReferences, recordObservatoryHypotheses, updateObservatoryReferenceResult } from "./db";
 import { analyzeObservatoryReference, buildObservatoryContext, type ObservatoryMaterialInput } from "./observatory";
 import { isAllowedPublicHttpsUrl, isInstagramPublicationUrl, publicLinkMessage, resolveInstagramMaterial } from "./publicLinks";
@@ -54,6 +55,7 @@ function safeFileName(fileName: string) {
 }
 
 export const observatoryRouter = router({
+  providerStatus: adminProcedure.query(() => getEvaluationProviderStatus()),
   list: adminProcedure.query(() => listObservatoryReferences()),
   patterns: adminProcedure.query(() => listActiveObservatoryPatterns()),
   get: adminProcedure.input(z.object({ id: z.number().int().positive() })).query(async ({ input }) => {
