@@ -7,6 +7,7 @@ const mocks = vi.hoisted(() => ({
   evaluateContent: vi.fn(),
   applyVisualOnlyScope: vi.fn((value: unknown) => value),
   resolveInstagramMaterial: vi.fn(),
+  buildObservatoryContext: vi.fn(),
 }));
 
 vi.mock("./db", () => ({
@@ -17,6 +18,7 @@ vi.mock("./db", () => ({
 }));
 vi.mock("./storage", () => ({ storagePut: mocks.storagePut }));
 vi.mock("./contentAnalysis", () => ({ evaluateContent: mocks.evaluateContent, applyVisualOnlyScope: mocks.applyVisualOnlyScope }));
+vi.mock("./observatory", () => ({ buildObservatoryContext: mocks.buildObservatoryContext }));
 vi.mock("./publicLinks", () => ({
   isAllowedPublicHttpsUrl: () => true,
   isInstagramPublicationUrl: (url: string) => url.includes("instagram.com/reel/"),
@@ -45,6 +47,7 @@ describe("analyses.create integration", () => {
     mocks.storagePut.mockResolvedValue({ key: "plateia/test.png", url: "https://storage.example/test.png" });
     mocks.evaluateContent.mockResolvedValue(report);
     mocks.resolveInstagramMaterial.mockResolvedValue({ mediaUrl: "https://cdn.instagram.example/preview.jpg", mediaMimeType: "image/jpeg", caption: "Legenda pública" });
+    mocks.buildObservatoryContext.mockRejectedValue(new Error("Observatório indisponível no teste legado"));
   });
 
   it("creates a copy evaluation with text only and optional context omitted", async () => {

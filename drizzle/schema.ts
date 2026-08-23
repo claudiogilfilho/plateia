@@ -1,4 +1,4 @@
-import { int, mysqlEnum, mysqlTable, text, timestamp, varchar } from "drizzle-orm/mysql-core";
+import { index, int, mysqlEnum, mysqlTable, text, timestamp, varchar } from "drizzle-orm/mysql-core";
 
 /**
  * Core user table backing auth flow.
@@ -67,3 +67,65 @@ export const instagramConnections = mysqlTable("instagramConnections", {
 
 export type InstagramConnection = typeof instagramConnections.$inferSelect;
 export type InsertInstagramConnection = typeof instagramConnections.$inferInsert;
+
+/**
+ * Internal, admin-curated material used by the Observatório Platéia.
+ * This knowledge base is intentionally separate from end-user analyses and
+ * from any future behavioural evidence produced by Freud.
+ */
+export const observatoryReferences = mysqlTable("observatoryReferences", {
+  id: int("id").autoincrement().primaryKey(),
+  createdByUserId: int("createdByUserId").notNull(),
+  title: varchar("title", { length: 240 }).notNull(),
+  creator: varchar("creator", { length: 160 }).notNull(),
+  contentType: mysqlEnum("contentType", ["post", "carrossel", "reel", "copy"]).notNull(),
+  sourceKind: mysqlEnum("sourceKind", ["upload", "direct_media", "published_post", "copy"]).notNull(),
+  sourceUrl: text("sourceUrl"),
+  contentText: text("contentText").notNull(),
+  mediaUrl: text("mediaUrl"),
+  mediaKey: varchar("mediaKey", { length: 1024 }),
+  mediaMimeType: varchar("mediaMimeType", { length: 120 }),
+  segmentHint: varchar("segmentHint", { length: 240 }).notNull(),
+  objectiveHint: varchar("objectiveHint", { length: 240 }).notNull(),
+  metricsJson: text("metricsJson"),
+  status: mysqlEnum("status", ["processing", "analyzed", "needs_content", "failed"]).default("processing").notNull(),
+  classificationJson: text("classificationJson"),
+  analysisJson: text("analysisJson"),
+  promptVersion: varchar("promptVersion", { length: 32 }).default("2.0").notNull(),
+  createdAt: timestamp("createdAt").defaultNow().notNull(),
+  updatedAt: timestamp("updatedAt").defaultNow().onUpdateNow().notNull(),
+}, table => ({
+  createdAtIdx: index("observatoryReferences_createdAt_idx").on(table.createdAt),
+  statusIdx: index("observatoryReferences_status_idx").on(table.status),
+  contentTypeIdx: index("observatoryReferences_contentType_idx").on(table.contentType),
+}));
+
+export type ObservatoryReference = typeof observatoryReferences.$inferSelect;
+export type InsertObservatoryReference = typeof observatoryReferences.$inferInsert;
+
+/**
+ * Versioned hypotheses and patterns promoted from multiple comparable
+ * references. One observation is never enough to create a validated pattern.
+ */
+export const observatoryPatterns = mysqlTable("observatoryPatterns", {
+  id: int("id").autoincrement().primaryKey(),
+  name: varchar("name", { length: 180 }).notNull(),
+  stage: mysqlEnum("stage", ["observation", "hypothesis", "provisional", "validated", "contradicted", "obsolete"]).default("hypothesis").notNull(),
+  creativeFamily: varchar("creativeFamily", { length: 120 }).notNull(),
+  objective: varchar("objective", { length: 160 }).notNull(),
+  segment: varchar("segment", { length: 160 }).notNull(),
+  mechanism: text("mechanism").notNull(),
+  conditionsJson: text("conditionsJson"),
+  evidenceJson: text("evidenceJson"),
+  supportingCount: int("supportingCount").default(0).notNull(),
+  counterexampleCount: int("counterexampleCount").default(0).notNull(),
+  confidence: mysqlEnum("confidence", ["low", "medium", "high"]).default("low").notNull(),
+  createdAt: timestamp("createdAt").defaultNow().notNull(),
+  updatedAt: timestamp("updatedAt").defaultNow().onUpdateNow().notNull(),
+}, table => ({
+  stageIdx: index("observatoryPatterns_stage_idx").on(table.stage),
+  familyIdx: index("observatoryPatterns_family_idx").on(table.creativeFamily),
+}));
+
+export type ObservatoryPattern = typeof observatoryPatterns.$inferSelect;
+export type InsertObservatoryPattern = typeof observatoryPatterns.$inferInsert;

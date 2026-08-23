@@ -5,6 +5,7 @@ import { applyVisualOnlyScope, evaluateContent } from "./contentAnalysis";
 import { protectedProcedure, router } from "./_core/trpc";
 import { storagePut } from "./storage";
 import { isAllowedPublicHttpsUrl, isInstagramPublicationUrl, publicLinkMessage, resolveInstagramMaterial } from "./publicLinks";
+import { buildObservatoryContext, type ObservatoryContext } from "./observatory";
 
 const contentTypeSchema = z.enum(["post", "carrossel", "reel", "copy"]);
 const mediaMimeSchema = z.enum(["image/jpeg", "image/png", "image/webp", "video/mp4"]);
@@ -153,6 +154,21 @@ export const analysesRouter = router({
     }
 
     try {
+      let observatoryContext: ObservatoryContext | null = null;
+      try {
+        observatoryContext = await buildObservatoryContext({
+          contentType: input.contentType,
+          text: contentText,
+          segmentHint: input.product,
+          objectiveHint: input.objective,
+          sourceUrl,
+          mediaUrl,
+          mediaMimeType,
+          metrics: null,
+        });
+      } catch (observatoryError) {
+        console.warn("[Platéia] Observatório indisponível; seguindo com avaliação estrutural:", observatoryError instanceof Error ? observatoryError.message : "erro desconhecido");
+      }
       const evaluation = await evaluateContent({
         contentType: input.contentType,
         text: contentText,
@@ -163,9 +179,12 @@ export const analysesRouter = router({
         mediaMimeType,
         sourceUrl,
         analysisScope: coverage.mode === "visual_only" ? "visual_only" : "standard",
+        observatoryContext,
       });
-      const scopedEvaluation = coverage.mode === "visual_only" ? applyVisualOnlyScope(evaluation) : evaluation;
-      await updateAnalysisResult(created.id, "completed", { ...scopedEvaluation, coverage });
+      const scopedEvaluation = coverage.mode === "visual_only"
+        ? observatoryContext ? applyVisualOnlyScope(evaluation, observatoryContext.classification) : applyVisualOnlyScope(evaluation)
+        : evaluation;
+      await updateAnalysisResult(created.id, "completed", { ...scopedEvaluation, coverage, observatory: observatoryContext });
       return { id: created.id, status: "completed" as const };
     } catch (error) {
       await updateAnalysisResult(created.id, "failed", null);
