@@ -225,6 +225,47 @@ export function evaluateWithProvider(request: StructuredEvaluationRequest) {
 }
 
 export function getEvaluationProviderStatus(environment: ProviderEnvironment = process.env) {
-  const provider = createEvaluationProviderFromEnv(environment);
-  return { provider: provider.id ?? "custom", portableProtocol: "plateia-evaluation/1.0" };
+  const kind = (environment.PLATEIA_AI_PROVIDER || "builtin").trim().toLowerCase();
+  if (kind === "builtin") {
+    const configured = Boolean(environment.BUILT_IN_FORGE_API_URL && environment.BUILT_IN_FORGE_API_KEY);
+    return {
+      provider: "builtin",
+      configured,
+      supportsImage: configured,
+      supportsVideo: configured,
+      portableProtocol: "plateia-evaluation/1.0",
+      message: configured ? "Motor de IA embutido pronto." : "Configure um motor de IA para iniciar avaliações.",
+    } as const;
+  }
+  if (kind === "openai-compatible") {
+    const configured = Boolean(environment.PLATEIA_AI_BASE_URL && environment.PLATEIA_AI_MODEL);
+    const supportsVideo = configured && ["file_url", "video_url"].includes(environment.PLATEIA_AI_VIDEO_PART || "");
+    return {
+      provider: "openai-compatible",
+      configured,
+      supportsImage: configured,
+      supportsVideo,
+      portableProtocol: "plateia-evaluation/1.0",
+      message: configured ? supportsVideo ? "Motor compatível pronto para imagem e vídeo." : "Motor pronto para texto e imagem; vídeo exige transporte multimodal." : "Informe a URL e o modelo do provedor compatível.",
+    } as const;
+  }
+  if (kind === "bridge") {
+    const configured = Boolean(environment.PLATEIA_AI_BRIDGE_URL);
+    return {
+      provider: "bridge",
+      configured,
+      supportsImage: configured,
+      supportsVideo: configured,
+      portableProtocol: "plateia-evaluation/1.0",
+      message: configured ? "Ponte multimodal pronta." : "Informe o endereço da ponte de IA.",
+    } as const;
+  }
+  return {
+    provider: kind,
+    configured: false,
+    supportsImage: false,
+    supportsVideo: false,
+    portableProtocol: "plateia-evaluation/1.0",
+    message: "O provedor de IA configurado não é reconhecido.",
+  } as const;
 }

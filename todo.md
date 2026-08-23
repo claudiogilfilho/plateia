@@ -118,3 +118,6 @@
 - [x] Criar um Agent Skill portátil com protocolo, taxonomias, contrato de relatório, extração de quadros e memória JSON.
 - [x] Disponibilizar um prompt de sistema independente para ambientes sem suporte a skills.
 - [x] Impedir que adaptadores sem transporte multimodal configurado afirmem ter assistido a vídeos.
+- [x] Transformar o projeto em MVP autônomo com acesso visitante, histórico em memória e upload inline como fallbacks controlados.
+- [x] Exibir na interface a prontidão do motor de IA e impedir relatórios fictícios quando nenhum adaptador estiver configurado.
+- [x] Documentar o fluxo essencial, a configuração mínima e os limites de produção do MVP.

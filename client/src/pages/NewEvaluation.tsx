@@ -3,6 +3,7 @@ import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
 import { Textarea } from "@/components/ui/textarea";
 import { trpc } from "@/lib/trpc";
+import { RuntimeStatus, useMvpStatus } from "@/components/RuntimeStatus";
 import { validateEvaluationForm } from "@/lib/evaluationValidation";
 import { AlertCircle, ArrowLeft, FileText, Image, Instagram, Layers3, Link2, Loader2, UploadCloud, Video } from "lucide-react";
 import React, { ChangeEvent, FormEvent, useState } from "react";
@@ -64,6 +65,7 @@ export default function NewEvaluation() {
   const [skipCaption, setSkipCaption] = useState(() => query.get("sem-legenda") === "1");
   const [materialError, setMaterialError] = useState("");
   const [submitted, setSubmitted] = useState(false);
+  const runtime = useMvpStatus();
   const create = trpc.analyses.create.useMutation({
     onMutate: () => setSubmitted(true),
     onSuccess: ({ id }) => setLocation(`/analises/${id}`),
@@ -92,6 +94,7 @@ export default function NewEvaluation() {
   };
   const submit = (event: FormEvent) => {
     event.preventDefault();
+    if (runtime.data && !runtime.data.ready) return setMaterialError("Conecte um motor de IA antes de iniciar a avaliação.");
     const validationError = validateEvaluationForm({ contentType, sourceMode, hasMedia: Boolean(media), sourceUrl, contentText });
     if (validationError) return setMaterialError(validationError);
     create.mutate(buildAnalysisPayload({ contentType, contentText, product, objective, targetAudience, skipCaption, sourceMode, sourceUrl, linkKind, remoteMimeType, media }));
@@ -104,7 +107,8 @@ export default function NewEvaluation() {
   return <div className="mx-auto max-w-5xl pb-10">
     <button onClick={() => setLocation("/app")} className="mb-6 inline-flex items-center gap-2 rounded-md px-1 py-1 text-sm font-semibold text-violet-700 hover:text-violet-900 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-violet-500"><ArrowLeft className="h-4 w-4" /> Voltar ao painel</button>
     <div className="mb-8"><p className="text-xs font-bold uppercase tracking-[0.16em] text-violet-500">{captionSuggestion ? "Complemento opcional" : returningFromInstagram ? "Continuação do Reel" : "Nova leitura"}</p><h1 className="mt-1 font-display text-4xl font-extrabold tracking-[-0.06em] text-[#2b1058]">{captionSuggestion ? "A legenda pode enriquecer a leitura." : returningFromInstagram ? "Envie o arquivo original." : "Entregue o material à sua Platéia."}</h1><p className="mt-3 max-w-2xl text-sm leading-6 text-slate-600">{captionSuggestion ? "Se quiser, adicione a legenda. Ela é opcional e não bloqueia a avaliação visual do material." : returningFromInstagram ? "O Instagram não liberou a prévia deste link. Selecione o vídeo ou a imagem salva no seu dispositivo para seguir com a avaliação; a legenda continua opcional." : materialInstruction}</p></div>
-    <form onSubmit={submit} className="grid gap-6 lg:grid-cols-[1.05fr_0.95fr]">
+    <RuntimeStatus compact />
+    <form onSubmit={submit} className="mt-6 grid gap-6 lg:grid-cols-[1.05fr_0.95fr]">
       <section className="space-y-6">
         <div className="plateia-card p-6"><Label className="mb-3 block text-sm font-bold text-[#2b1058]">Tipo de conteúdo</Label><div className="grid grid-cols-2 gap-3">{types.map(type => { const Icon = type.icon; const active = type.value === contentType; return <button aria-pressed={active} type="button" key={type.value} onClick={() => changeType(type.value)} className={`rounded-2xl border p-3 text-left transition-all ${active ? "border-violet-500 bg-violet-50 shadow-sm" : "border-violet-100 bg-white hover:border-violet-300"}`}><Icon className={`mb-3 h-5 w-5 ${active ? "text-violet-700" : "text-slate-400"}`} /><p className="text-sm font-bold text-[#2b1058]">{type.label}</p><p className="mt-0.5 text-xs text-slate-500">{type.description}</p></button>; })}</div></div>
         {contentType !== "copy" && <VisualSourcePanel sourceMode={sourceMode} chooseSource={chooseSource} media={media} setMedia={setMedia} onFile={onFile} sourceUrl={sourceUrl} setSourceUrl={setSourceUrl} linkKind={linkKind} setLinkKind={setLinkKind} remoteMimeType={remoteMimeType} setRemoteMimeType={setRemoteMimeType} skipCaption={skipCaption} setSkipCaption={setSkipCaption} />}
@@ -114,7 +118,7 @@ export default function NewEvaluation() {
         <div className="plateia-card p-6"><p className="mb-4 text-xs font-semibold leading-5 text-slate-500">Contexto opcional: quanto mais informação você fornecer, mais específica poderá ser a leitura.</p><ContextFields product={product} setProduct={setProduct} objective={objective} setObjective={setObjective} targetAudience={targetAudience} setTargetAudience={setTargetAudience} /></div>
         {skipCaption && contentType !== "copy" ? <div className="rounded-2xl border border-violet-200 bg-violet-50 p-5"><p className="text-sm font-bold text-[#2b1058]">Leitura somente visual</p><p className="mt-1 text-xs leading-5 text-slate-600">A Platéia ignorará a legenda e não pontuará clareza textual, ação ou objeções ligadas à copy.</p></div> : <div className="plateia-card p-6"><Label htmlFor="content">Texto ou legenda {contentType === "copy" ? <span className="text-rose-600">(obrigatório)</span> : <span className="font-normal text-slate-400">(opcional)</span>}</Label><Textarea id="content" value={contentText} onChange={event => { setContentText(event.target.value); setMaterialError(""); }} placeholder={contentType === "copy" ? "Cole a copy que deseja avaliar." : "Cole o texto, roteiro ou legenda, se houver."} className="mt-2 min-h-44 border-violet-100 focus-visible:ring-violet-500" /></div>}
         <div className="rounded-2xl border border-[#ffdbd7] bg-[#fff7f5] p-4"><div className="flex gap-3"><Instagram className="mt-0.5 h-5 w-5 shrink-0 text-[#f15d50]" /><p className="text-xs leading-5 text-slate-600">A Platéia usa cinco lentes comportamentais para encontrar pontos fortes, riscos e recomendações de criação. A leitura é uma ferramenta de decisão, não uma previsão de resultado de mídia.</p></div></div>
-        <Button type="submit" disabled={create.isPending} className="h-12 w-full bg-[#ff6f61] text-base font-bold text-white shadow-[0_12px_24px_-12px_rgba(255,111,97,0.75)] hover:bg-[#ee5e51]">{create.isPending ? <><Loader2 className="mr-2 h-4 w-4 animate-spin" /> Sua Platéia está lendo…</> : <>Iniciar avaliação <SparklesIcon /></>}</Button>
+        <Button type="submit" disabled={create.isPending || runtime.data?.ready === false} className="h-12 w-full bg-[#ff6f61] text-base font-bold text-white shadow-[0_12px_24px_-12px_rgba(255,111,97,0.75)] hover:bg-[#ee5e51]">{create.isPending ? <><Loader2 className="mr-2 h-4 w-4 animate-spin" /> Sua Platéia está lendo…</> : runtime.data?.ready === false ? <>Motor de IA necessário</> : <>Iniciar avaliação <SparklesIcon /></>}</Button>
         {submitted && create.isPending && <p role="status" className="rounded-xl bg-violet-50 px-3 py-2 text-sm text-violet-700">Material recebido. A Platéia está preparando seu relatório.</p>}
         {create.error && <p role="alert" className="rounded-xl bg-rose-50 px-3 py-2 text-sm text-rose-700">{create.error.message}</p>}
       </section>

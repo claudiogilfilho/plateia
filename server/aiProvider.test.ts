@@ -1,5 +1,5 @@
 import { afterEach, describe, expect, it, vi } from "vitest";
-import { createBridgeProvider, createEvaluationProviderFromEnv, createOpenAICompatibleProvider, resetEvaluationProvider } from "./aiProvider";
+import { createBridgeProvider, createEvaluationProviderFromEnv, createOpenAICompatibleProvider, getEvaluationProviderStatus, resetEvaluationProvider } from "./aiProvider";
 
 afterEach(() => resetEvaluationProvider());
 
@@ -8,6 +8,12 @@ const request = { prompt: "Avalie esta copy.", responseFormat: { type: "json_sch
 describe("provedores portáteis do Plateia", () => {
   it("configura o provedor embutido por padrão", () => {
     expect(createEvaluationProviderFromEnv({}).id).toBe("builtin");
+    expect(getEvaluationProviderStatus({})).toMatchObject({ provider: "builtin", configured: false });
+  });
+
+  it("expõe capacidade de vídeo somente quando o transporte foi configurado", () => {
+    expect(getEvaluationProviderStatus({ PLATEIA_AI_PROVIDER: "openai-compatible", PLATEIA_AI_BASE_URL: "https://ia.exemplo", PLATEIA_AI_MODEL: "modelo" })).toMatchObject({ configured: true, supportsImage: true, supportsVideo: false });
+    expect(getEvaluationProviderStatus({ PLATEIA_AI_PROVIDER: "openai-compatible", PLATEIA_AI_BASE_URL: "https://ia.exemplo", PLATEIA_AI_MODEL: "modelo", PLATEIA_AI_VIDEO_PART: "video_url" })).toMatchObject({ supportsVideo: true });
   });
 
   it("envia o contrato OpenAI-compatible sem depender de um SDK específico", async () => {

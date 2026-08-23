@@ -3,6 +3,23 @@ import { drizzle } from "drizzle-orm/mysql2";
 import { Analysis, InsertAnalysis, InsertInstagramConnection, InsertObservatoryReference, InsertUser, InstagramConnection, ObservatoryReference, analyses, instagramConnections, observatoryPatterns, observatoryReferences, users } from "../drizzle/schema";
 import { ENV } from './_core/env';
 import { buildRevokedInstagramConnectionPatch } from "./instagramIntegration";
+import {
+  memoryCreateAnalysis,
+  memoryCreateObservatoryReference,
+  memoryGetAnalysis,
+  memoryGetInstagramConnection,
+  memoryGetObservatoryReference,
+  memoryGetUser,
+  memoryListActivePatterns,
+  memoryListAnalyses,
+  memoryListObservatoryReferences,
+  memoryRecordObservatoryHypotheses,
+  memorySaveInstagramConnection,
+  memoryUpdateAnalysisResult,
+  memoryUpdateInstagramConnectionStatus,
+  memoryUpdateObservatoryReference,
+  memoryUpsertUser,
+} from "./memoryRepository";
 
 let _db: ReturnType<typeof drizzle> | null = null;
 
@@ -26,7 +43,7 @@ export async function upsertUser(user: InsertUser): Promise<void> {
 
   const db = await getDb();
   if (!db) {
-    console.warn("[Database] Cannot upsert user: database not available");
+    memoryUpsertUser(user);
     return;
   }
 
@@ -81,8 +98,7 @@ export async function upsertUser(user: InsertUser): Promise<void> {
 export async function getUserByOpenId(openId: string) {
   const db = await getDb();
   if (!db) {
-    console.warn("[Database] Cannot get user: database not available");
-    return undefined;
+    return memoryGetUser(openId);
   }
 
   const result = await db.select().from(users).where(eq(users.openId, openId)).limit(1);
@@ -92,46 +108,46 @@ export async function getUserByOpenId(openId: string) {
 
 export async function createAnalysis(analysis: Omit<InsertAnalysis, "id" | "status" | "reportJson" | "createdAt" | "updatedAt">) {
   const db = await getDb();
-  if (!db) throw new Error("Banco de dados indisponível.");
+  if (!db) return memoryCreateAnalysis(analysis);
   const result = await db.insert(analyses).values(analysis);
   return { id: Number(result[0].insertId) };
 }
 
 export async function updateAnalysisResult(id: number, status: "completed" | "needs_content" | "failed", report: unknown) {
   const db = await getDb();
-  if (!db) throw new Error("Banco de dados indisponível.");
+  if (!db) return memoryUpdateAnalysisResult(id, status, report);
   await db.update(analyses).set({ status, reportJson: report ? JSON.stringify(report) : null }).where(eq(analyses.id, id));
 }
 
 export async function listAnalysesForUser(userId: number): Promise<Analysis[]> {
   const db = await getDb();
-  if (!db) return [];
+  if (!db) return memoryListAnalyses(userId);
   return db.select().from(analyses).where(eq(analyses.userId, userId)).orderBy(desc(analyses.createdAt));
 }
 
 export async function getAnalysisByIdForUser(id: number, userId: number): Promise<Analysis | undefined> {
   const db = await getDb();
-  if (!db) return undefined;
+  if (!db) return memoryGetAnalysis(id, userId);
   const result = await db.select().from(analyses).where(and(eq(analyses.id, id), eq(analyses.userId, userId))).limit(1);
   return result[0];
 }
 
 export async function getInstagramConnectionForUser(userId: number): Promise<InstagramConnection | undefined> {
   const db = await getDb();
-  if (!db) return undefined;
+  if (!db) return memoryGetInstagramConnection(userId);
   const result = await db.select().from(instagramConnections).where(eq(instagramConnections.userId, userId)).orderBy(desc(instagramConnections.updatedAt)).limit(1);
   return result[0];
 }
 
 export async function revokeInstagramConnectionForUser(userId: number) {
   const db = await getDb();
-  if (!db) throw new Error("Banco de dados indisponível.");
+  if (!db) return memoryUpdateInstagramConnectionStatus(userId, "revoked");
   await db.update(instagramConnections).set(buildRevokedInstagramConnectionPatch()).where(eq(instagramConnections.userId, userId));
 }
 
 export async function saveInstagramConnectionForUser(userId: number, connection: Omit<InsertInstagramConnection, "id" | "userId" | "createdAt" | "updatedAt">) {
   const db = await getDb();
-  if (!db) throw new Error("Banco de dados indisponível.");
+  if (!db) return memorySaveInstagramConnection(userId, connection);
   const existing = await getInstagramConnectionForUser(userId);
   if (existing) {
     await db.update(instagramConnections).set(connection).where(eq(instagramConnections.id, existing.id));
@@ -142,13 +158,13 @@ export async function saveInstagramConnectionForUser(userId: number, connection:
 
 export async function updateInstagramConnectionStatus(userId: number, status: "ready" | "connected" | "expired" | "revoked" | "error") {
   const db = await getDb();
-  if (!db) throw new Error("Banco de dados indisponível.");
+  if (!db) return memoryUpdateInstagramConnectionStatus(userId, status);
   await db.update(instagramConnections).set({ status }).where(eq(instagramConnections.userId, userId));
 }
 
 export async function createObservatoryReference(reference: Omit<InsertObservatoryReference, "id" | "status" | "classificationJson" | "analysisJson" | "promptVersion" | "createdAt" | "updatedAt">) {
   const db = await getDb();
-  if (!db) throw new Error("Banco de dados indisponível.");
+  if (!db) return memoryCreateObservatoryReference(reference);
   const result = await db.insert(observatoryReferences).values(reference);
   return { id: Number(result[0].insertId) };
 }
@@ -160,7 +176,7 @@ export async function updateObservatoryReferenceResult(
   analysis: unknown,
 ) {
   const db = await getDb();
-  if (!db) throw new Error("Banco de dados indisponível.");
+  if (!db) return memoryUpdateObservatoryReference(id, status, classification, analysis);
   await db.update(observatoryReferences).set({
     status,
     classificationJson: classification ? JSON.stringify(classification) : null,
@@ -170,13 +186,13 @@ export async function updateObservatoryReferenceResult(
 
 export async function listObservatoryReferences(): Promise<ObservatoryReference[]> {
   const db = await getDb();
-  if (!db) return [];
+  if (!db) return memoryListObservatoryReferences();
   return db.select().from(observatoryReferences).orderBy(desc(observatoryReferences.createdAt));
 }
 
 export async function listAnalyzedObservatoryReferences(): Promise<ObservatoryReference[]> {
   const db = await getDb();
-  if (!db) return [];
+  if (!db) return memoryListObservatoryReferences(true);
   return db.select().from(observatoryReferences)
     .where(eq(observatoryReferences.status, "analyzed"))
     .orderBy(desc(observatoryReferences.createdAt));
@@ -184,14 +200,14 @@ export async function listAnalyzedObservatoryReferences(): Promise<ObservatoryRe
 
 export async function getObservatoryReferenceById(id: number): Promise<ObservatoryReference | undefined> {
   const db = await getDb();
-  if (!db) return undefined;
+  if (!db) return memoryGetObservatoryReference(id);
   const result = await db.select().from(observatoryReferences).where(eq(observatoryReferences.id, id)).limit(1);
   return result[0];
 }
 
 export async function listActiveObservatoryPatterns() {
   const db = await getDb();
-  if (!db) return [];
+  if (!db) return memoryListActivePatterns();
   return db.select().from(observatoryPatterns)
     .where(inArray(observatoryPatterns.stage, ["provisional", "validated"]))
     .orderBy(desc(observatoryPatterns.updatedAt));
@@ -223,7 +239,8 @@ export async function recordObservatoryHypotheses(
   hypotheses: ObservatoryHypothesisInput[],
 ) {
   const db = await getDb();
-  if (!db || hypotheses.length === 0) return;
+  if (hypotheses.length === 0) return;
+  if (!db) return memoryRecordObservatoryHypotheses(referenceId, classification, hypotheses);
   const existingPatterns = await db.select().from(observatoryPatterns);
   const processed = new Set<string>();
   for (const hypothesis of hypotheses.slice(0, 5)) {

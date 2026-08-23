@@ -4,6 +4,7 @@ import { trpc } from "@/lib/trpc";
 import { getReportScore } from "@/lib/reportParsing";
 import { ArrowRight, BarChart3, Clock3, FileCheck2, Plus, Sparkles } from "lucide-react";
 import { Link } from "wouter";
+import { RuntimeStatus } from "@/components/RuntimeStatus";
 
 const statusMap = {
   completed: { label: "Concluída", className: "bg-emerald-50 text-emerald-700 border-emerald-100" },
@@ -38,6 +39,8 @@ export default function Dashboard() {
           </div>
         </div>
       </section>
+
+      <RuntimeStatus />
 
       <section className="grid gap-4 md:grid-cols-3">
         <MetricCard icon={FileCheck2} label="Avaliações concluídas" value={isLoading ? "—" : String(completed)} accent="bg-violet-100 text-violet-700" />
