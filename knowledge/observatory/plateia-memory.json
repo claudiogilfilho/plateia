@@ -1,6 +1,6 @@
 {
   "protocol": "plateia-memory/1.0",
-  "updatedAt": "2026-08-24T00:25:19Z",
+  "updatedAt": "2026-08-24T03:05:00Z",
   "references": [
     {
       "id": "obs-20260823-001",
@@ -1753,6 +1753,1793 @@
         "notRecommended": [],
         "hypotheses": []
       }
+    },
+    {
+      "id": "obs-20260824-016",
+      "title": "DADO VOADOR? Você está sendo enganado! #Shorts",
+      "creator": "Manual do Mundo",
+      "country": "BR",
+      "url": "https://www.youtube.com/watch?v=N_oB7RQhn60",
+      "sourceEvidence": [
+        "https://www.blogolista.com/videotube/topVideos?canal=&cat=23&filtro=&pag=109"
+      ],
+      "publishedAt": "2021-10-03",
+      "duration": "short_vertical_exact_unknown",
+      "coverage": {
+        "level": "partial",
+        "accessible": [
+          "título",
+          "descrição",
+          "data",
+          "formato Shorts",
+          "visualizações públicas"
+        ],
+        "missing": [
+          "vídeo reproduzível",
+          "áudio",
+          "transcrição integral",
+          "comentários",
+          "curva de retenção"
+        ]
+      },
+      "publicMetrics": {
+        "viewsObserved": "576 mil",
+        "likesObserved": null,
+        "observedAt": "2026-08-24",
+        "sourceType": "youtube_public_dom",
+        "causality": "not_inferred"
+      },
+      "classification": {
+        "materialFormat": "short_vertical",
+        "presentationFormats": [
+          "demonstracao",
+          "curiosidade"
+        ],
+        "primaryFamily": "educativo",
+        "secondaryFamilies": [
+          "demonstracao",
+          "curiosidade"
+        ],
+        "objectives": [
+          "educar",
+          "retencao",
+          "compartilhamento"
+        ],
+        "segment": "ciência e ilusão visual",
+        "probableAudience": "público geral interessado em curiosidades",
+        "awarenessStage": "inconsciente",
+        "productionLevel": "intermediate",
+        "durationBand": "short_exact_unknown",
+        "pace": "not_assessed",
+        "mechanisms": [
+          "curiosidade",
+          "surpresa",
+          "recompensa"
+        ],
+        "confidence": "medium"
+      },
+      "comparison": {
+        "level": 2,
+        "group": "short-knowledge-literal-hook",
+        "referenceIds": [
+          "obs-20260824-017",
+          "obs-20260824-018"
+        ]
+      },
+      "observations": [
+        "O título formula uma pergunta sobre um objeto concreto e imediatamente contesta a primeira impressão.",
+        "A descrição disponível usa uma instrução curta para olhar novamente, sem antecipar a explicação."
+      ],
+      "interpretations": [
+        "Pergunta e contradição podem acelerar a identificação do fenômeno.",
+        "A promessa depende de uma demonstração perceptível; sem o vídeo, a entrega não foi verificada."
+      ],
+      "scores": {
+        "gancho": 89,
+        "clareza": 88,
+        "relevancia": 72,
+        "desejo": "not_assessed",
+        "confianca": "not_assessed",
+        "acao": "not_assessed",
+        "objecoes": "not_assessed",
+        "retencao": "not_assessed"
+      },
+      "fiveLenses": {
+        "apressado": "O título permite reconhecer rapidamente o assunto ou a pergunta central.",
+        "analitico": "Precisa de explicação, contexto e fonte; esses elementos não puderam ser auditados integralmente.",
+        "aspiracional": "A recompensa provável é compreender ou aplicar uma ideia em pouco tempo.",
+        "comunidade": "O tema pode gerar compartilhamento quando resolve uma dúvida reconhecível.",
+        "cetico": "Exige que a entrega sustente o título e não transforme curiosidade em exagero."
+      },
+      "replicable": [
+        "Nomear o objeto e a anomalia no próprio título.",
+        "Usar contradição somente quando a demonstração puder resolvê-la."
+      ],
+      "limitations": [
+        "Sem reprodução confiável, não foram avaliados áudio, cenas, montagem, ritmo, retenção ou causalidade do desempenho."
+      ],
+      "provenance": [
+        "public_content",
+        "public_metric",
+        "observatory_inference"
+      ],
+      "training": {
+        "replicable": [
+          "Nomear o objeto e a anomalia no próprio título.",
+          "Usar contradição somente quando a demonstração puder resolvê-la."
+        ],
+        "contingent": [],
+        "notRecommended": [],
+        "hypotheses": []
+      },
+      "createdAt": "2026-08-24T01:13:46.208904+00:00"
+    },
+    {
+      "id": "obs-20260824-017",
+      "title": "o que acontece se você TOCAR no SOL?",
+      "creator": "Ciência Todo Dia",
+      "country": "BR",
+      "url": "https://www.youtube.com/watch?v=Oma5vz_RchU",
+      "sourceEvidence": [
+        "youtube_public_search"
+      ],
+      "publishedAt": null,
+      "duration": "short_vertical_exact_unknown",
+      "coverage": {
+        "level": "partial",
+        "accessible": [
+          "título",
+          "canal",
+          "formato Shorts",
+          "visualizações públicas"
+        ],
+        "missing": [
+          "vídeo reproduzível",
+          "áudio",
+          "transcrição integral",
+          "comentários",
+          "curva de retenção"
+        ]
+      },
+      "publicMetrics": {
+        "viewsObserved": "2,5 mi",
+        "likesObserved": null,
+        "observedAt": "2026-08-24",
+        "sourceType": "youtube_public_search",
+        "causality": "not_inferred"
+      },
+      "classification": {
+        "materialFormat": "short_vertical",
+        "presentationFormats": [
+          "explicativo",
+          "curiosidade"
+        ],
+        "primaryFamily": "educativo",
+        "secondaryFamilies": [
+          "explicativo",
+          "curiosidade"
+        ],
+        "objectives": [
+          "educar",
+          "retencao"
+        ],
+        "segment": "ciência e astronomia",
+        "probableAudience": "público geral interessado em ciência",
+        "awarenessStage": "inconsciente",
+        "productionLevel": "intermediate",
+        "durationBand": "short_exact_unknown",
+        "pace": "not_assessed",
+        "mechanisms": [
+          "curiosidade",
+          "vigilancia",
+          "recompensa"
+        ],
+        "confidence": "medium"
+      },
+      "comparison": {
+        "level": 2,
+        "group": "short-knowledge-literal-hook",
+        "referenceIds": [
+          "obs-20260824-016",
+          "obs-20260824-018"
+        ]
+      },
+      "observations": [
+        "O título é uma pergunta literal, extrema e facilmente visualizável.",
+        "O assunto central, o Sol, é compreendido antes da reprodução."
+      ],
+      "interpretations": [
+        "A situação impossível cria uma lacuna de curiosidade com baixo custo de compreensão.",
+        "Sem descrição ou mídia, não se sabe se a explicação equilibra precisão e espetáculo."
+      ],
+      "scores": {
+        "gancho": 91,
+        "clareza": 92,
+        "relevancia": 75,
+        "desejo": "not_assessed",
+        "confianca": "not_assessed",
+        "acao": "not_assessed",
+        "objecoes": "not_assessed",
+        "retencao": "not_assessed"
+      },
+      "fiveLenses": {
+        "apressado": "O título permite reconhecer rapidamente o assunto ou a pergunta central.",
+        "analitico": "Precisa de explicação, contexto e fonte; esses elementos não puderam ser auditados integralmente.",
+        "aspiracional": "A recompensa provável é compreender ou aplicar uma ideia em pouco tempo.",
+        "comunidade": "O tema pode gerar compartilhamento quando resolve uma dúvida reconhecível.",
+        "cetico": "Exige que a entrega sustente o título e não transforme curiosidade em exagero."
+      },
+      "replicable": [
+        "Transformar um conceito abstrato em uma pergunta concreta.",
+        "Preservar precisão científica mesmo quando a situação é hipotética."
+      ],
+      "limitations": [
+        "Descrição, data exata e transcrição não ficaram acessíveis.",
+        "Sem reprodução confiável, não foram avaliados áudio, cenas, montagem, ritmo, retenção ou causalidade do desempenho."
+      ],
+      "provenance": [
+        "public_content",
+        "public_metric",
+        "observatory_inference"
+      ],
+      "training": {
+        "replicable": [
+          "Transformar um conceito abstrato em uma pergunta concreta.",
+          "Preservar precisão científica mesmo quando a situação é hipotética."
+        ],
+        "contingent": [],
+        "notRecommended": [],
+        "hypotheses": []
+      },
+      "createdAt": "2026-08-24T01:13:46.245547+00:00"
+    },
+    {
+      "id": "obs-20260824-018",
+      "title": "O que é Fake News? | Nerdologia SHORTS",
+      "creator": "Nerdologia",
+      "country": "BR",
+      "url": "https://www.youtube.com/watch?v=9lwJJYQbwzA",
+      "sourceEvidence": [
+        "https://glasp.co/youtube/9lwJJYQbwzA"
+      ],
+      "publishedAt": "2022-11-02",
+      "duration": "short_vertical_exact_unknown",
+      "coverage": {
+        "level": "partial",
+        "accessible": [
+          "título",
+          "canal",
+          "data",
+          "formato Shorts",
+          "visualizações em fonte secundária"
+        ],
+        "missing": [
+          "vídeo reproduzível",
+          "áudio",
+          "transcrição integral",
+          "comentários",
+          "curva de retenção"
+        ]
+      },
+      "publicMetrics": {
+        "viewsObserved": "14 mil",
+        "likesObserved": null,
+        "observedAt": "2026-08-24",
+        "sourceType": "secondary_indexed_source",
+        "causality": "not_inferred"
+      },
+      "classification": {
+        "materialFormat": "short_vertical",
+        "presentationFormats": [
+          "explicativo"
+        ],
+        "primaryFamily": "educativo",
+        "secondaryFamilies": [
+          "conscientizacao"
+        ],
+        "objectives": [
+          "educar",
+          "consciencia_problema"
+        ],
+        "segment": "mídia, sociedade e desinformação",
+        "probableAudience": "público geral e estudantes",
+        "awarenessStage": "consciente_problema",
+        "productionLevel": "intermediate",
+        "durationBand": "short_exact_unknown",
+        "pace": "not_assessed",
+        "mechanisms": [
+          "curiosidade",
+          "vigilancia",
+          "confiança"
+        ],
+        "confidence": "medium"
+      },
+      "comparison": {
+        "level": 2,
+        "group": "short-knowledge-literal-hook",
+        "referenceIds": [
+          "obs-20260824-016",
+          "obs-20260824-017"
+        ]
+      },
+      "observations": [
+        "O título pergunta diretamente pela definição do conceito.",
+        "A marca editorial e a palavra SHORTS delimitam o formato e a expectativa de síntese."
+      ],
+      "interpretations": [
+        "A literalidade favorece busca e compreensão imediata, mas oferece menos tensão que uma consequência concreta.",
+        "A autoridade de marca pode elevar confiança, sem substituir fontes."
+      ],
+      "scores": {
+        "gancho": 74,
+        "clareza": 96,
+        "relevancia": 85,
+        "desejo": "not_assessed",
+        "confianca": "not_assessed",
+        "acao": "not_assessed",
+        "objecoes": "not_assessed",
+        "retencao": "not_assessed"
+      },
+      "fiveLenses": {
+        "apressado": "O título permite reconhecer rapidamente o assunto ou a pergunta central.",
+        "analitico": "Precisa de explicação, contexto e fonte; esses elementos não puderam ser auditados integralmente.",
+        "aspiracional": "A recompensa provável é compreender ou aplicar uma ideia em pouco tempo.",
+        "comunidade": "O tema pode gerar compartilhamento quando resolve uma dúvida reconhecível.",
+        "cetico": "Exige que a entrega sustente o título e não transforme curiosidade em exagero."
+      },
+      "replicable": [
+        "Quando a intenção é definição, declarar o conceito sem rodeios.",
+        "Adicionar consequência prática para aumentar relevância sem sensacionalismo."
+      ],
+      "limitations": [
+        "Sem reprodução confiável, não foram avaliados áudio, cenas, montagem, ritmo, retenção ou causalidade do desempenho."
+      ],
+      "provenance": [
+        "public_content",
+        "public_metric",
+        "observatory_inference"
+      ],
+      "training": {
+        "replicable": [
+          "Quando a intenção é definição, declarar o conceito sem rodeios.",
+          "Adicionar consequência prática para aumentar relevância sem sensacionalismo."
+        ],
+        "contingent": [],
+        "notRecommended": [],
+        "hypotheses": []
+      },
+      "createdAt": "2026-08-24T01:13:46.278734+00:00"
+    },
+    {
+      "id": "obs-20260824-019",
+      "title": "50 x 30 x 20 - Você conhece essa técnica? Nath te explica! #shorts #mepoupe",
+      "creator": "Me Poupe!",
+      "country": "BR",
+      "url": "https://www.youtube.com/watch?v=hUkxp03r7_A",
+      "sourceEvidence": [
+        "youtube_public_search"
+      ],
+      "publishedAt": null,
+      "duration": "short_vertical_exact_unknown",
+      "coverage": {
+        "level": "partial",
+        "accessible": [
+          "título",
+          "canal",
+          "formato Shorts",
+          "visualizações públicas"
+        ],
+        "missing": [
+          "vídeo reproduzível",
+          "áudio",
+          "transcrição integral",
+          "comentários",
+          "curva de retenção"
+        ]
+      },
+      "publicMetrics": {
+        "viewsObserved": "192 mil",
+        "likesObserved": null,
+        "observedAt": "2026-08-24",
+        "sourceType": "youtube_public_search",
+        "causality": "not_inferred"
+      },
+      "classification": {
+        "materialFormat": "short_vertical",
+        "presentationFormats": [
+          "explicativo",
+          "camera_direta"
+        ],
+        "primaryFamily": "educativo",
+        "secondaryFamilies": [
+          "tutorial"
+        ],
+        "objectives": [
+          "educar",
+          "salvamento",
+          "consciencia_solucao"
+        ],
+        "segment": "finanças pessoais para iniciantes",
+        "probableAudience": "adultos organizando orçamento",
+        "awarenessStage": "consciente_solucao",
+        "productionLevel": "simple",
+        "durationBand": "short_exact_unknown",
+        "pace": "not_assessed",
+        "mechanisms": [
+          "curiosidade",
+          "aproximacao",
+          "recompensa"
+        ],
+        "confidence": "medium"
+      },
+      "comparison": {
+        "level": 3,
+        "group": "short-personal-finance-explainer",
+        "referenceIds": []
+      },
+      "observations": [
+        "O título apresenta uma fórmula numérica, pergunta por familiaridade e promete explicação identificando a apresentadora.",
+        "A sequência numérica cria expectativa de decomposição em partes."
+      ],
+      "interpretations": [
+        "A notação pode funcionar como código memorável para quem já busca organização financeira.",
+        "Para público frio, a pergunta pode precisar de benefício explícito para explicar por que a técnica importa."
+      ],
+      "scores": {
+        "gancho": 81,
+        "clareza": 82,
+        "relevancia": 86,
+        "desejo": "not_assessed",
+        "confianca": "not_assessed",
+        "acao": "not_assessed",
+        "objecoes": "not_assessed",
+        "retencao": "not_assessed"
+      },
+      "fiveLenses": {
+        "apressado": "O título permite reconhecer rapidamente o assunto ou a pergunta central.",
+        "analitico": "Precisa de explicação, contexto e fonte; esses elementos não puderam ser auditados integralmente.",
+        "aspiracional": "A recompensa provável é compreender ou aplicar uma ideia em pouco tempo.",
+        "comunidade": "O tema pode gerar compartilhamento quando resolve uma dúvida reconhecível.",
+        "cetico": "Exige que a entrega sustente o título e não transforme curiosidade em exagero."
+      },
+      "replicable": [
+        "Nomear uma estrutura memorável e prometer sua decodificação.",
+        "Explicitar o benefício quando o método ainda não é conhecido pelo público."
+      ],
+      "limitations": [
+        "Sem reprodução confiável, não foram avaliados áudio, cenas, montagem, ritmo, retenção ou causalidade do desempenho."
+      ],
+      "provenance": [
+        "public_content",
+        "public_metric",
+        "observatory_inference"
+      ],
+      "training": {
+        "replicable": [
+          "Nomear uma estrutura memorável e prometer sua decodificação.",
+          "Explicitar o benefício quando o método ainda não é conhecido pelo público."
+        ],
+        "contingent": [],
+        "notRecommended": [],
+        "hypotheses": []
+      },
+      "createdAt": "2026-08-24T01:13:46.313151+00:00"
+    },
+    {
+      "id": "obs-20260824-020",
+      "title": "Mais de 30% da população mundial sofre com dor crônica #Shorts",
+      "creator": "Drauzio Varella",
+      "country": "BR",
+      "url": "https://drauziovarella.uol.com.br/videos/mais-de-30-da-populacao-mundial-sofre-com-dor-cronica-shorts/",
+      "sourceEvidence": [
+        "https://drauziovarella.uol.com.br/videos/mais-de-30-da-populacao-mundial-sofre-com-dor-cronica-shorts/"
+      ],
+      "publishedAt": "2024-08-29",
+      "duration": "short_vertical_exact_unknown",
+      "coverage": {
+        "level": "partial",
+        "accessible": [
+          "título",
+          "resumo oficial",
+          "data",
+          "capa",
+          "definição",
+          "aviso médico"
+        ],
+        "missing": [
+          "vídeo reproduzível",
+          "áudio",
+          "transcrição integral",
+          "comentários",
+          "curva de retenção"
+        ]
+      },
+      "publicMetrics": {
+        "viewsObserved": null,
+        "likesObserved": null,
+        "observedAt": "2026-08-24",
+        "sourceType": "not_available",
+        "causality": "not_inferred"
+      },
+      "classification": {
+        "materialFormat": "short_vertical",
+        "presentationFormats": [
+          "camera_direta",
+          "explicativo"
+        ],
+        "primaryFamily": "educativo",
+        "secondaryFamilies": [
+          "conscientizacao",
+          "autoridade_opiniao"
+        ],
+        "objectives": [
+          "educar",
+          "consciencia_problema",
+          "confianca"
+        ],
+        "segment": "saúde e dor crônica",
+        "probableAudience": "adultos com dor persistente e familiares",
+        "awarenessStage": "consciente_problema",
+        "productionLevel": "simple",
+        "durationBand": "short_exact_unknown",
+        "pace": "not_assessed",
+        "mechanisms": [
+          "vigilancia",
+          "identificacao",
+          "confiança"
+        ],
+        "confidence": "high"
+      },
+      "comparison": {
+        "level": 2,
+        "group": "health-explainer",
+        "referenceIds": [
+          "obs-20260823-004",
+          "obs-20260823-005",
+          "obs-20260823-006"
+        ]
+      },
+      "observations": [
+        "O título quantifica a escala do problema e nomeia a condição.",
+        "O resumo oficial define dor crônica como duração superior a três meses ou recorrência associada a doença crônica.",
+        "A página informa atualização dos dados e inclui aviso para buscar autoridades médicas."
+      ],
+      "interpretations": [
+        "A prevalência amplia relevância e possibilidade de identificação.",
+        "Definição e aviso médico ajudam a conter interpretação diagnóstica indevida."
+      ],
+      "scores": {
+        "gancho": 82,
+        "clareza": 91,
+        "relevancia": 92,
+        "desejo": "not_assessed",
+        "confianca": 92,
+        "acao": "not_assessed",
+        "objecoes": 88,
+        "retencao": "not_assessed"
+      },
+      "fiveLenses": {
+        "apressado": "O título permite reconhecer rapidamente o assunto ou a pergunta central.",
+        "analitico": "Precisa de explicação, contexto e fonte; esses elementos não puderam ser auditados integralmente.",
+        "aspiracional": "A recompensa provável é compreender ou aplicar uma ideia em pouco tempo.",
+        "comunidade": "O tema pode gerar compartilhamento quando resolve uma dúvida reconhecível.",
+        "cetico": "Exige que a entrega sustente o título e não transforme curiosidade em exagero."
+      },
+      "replicable": [
+        "Combinar número de escala com definição operacional.",
+        "Incluir limite de escopo e orientação responsável em conteúdo de saúde."
+      ],
+      "limitations": [
+        "Sem reprodução confiável, não foram avaliados áudio, cenas, montagem, ritmo, retenção ou causalidade do desempenho."
+      ],
+      "provenance": [
+        "public_content",
+        "public_metric",
+        "observatory_inference"
+      ],
+      "training": {
+        "replicable": [
+          "Combinar número de escala com definição operacional.",
+          "Incluir limite de escopo e orientação responsável em conteúdo de saúde."
+        ],
+        "contingent": [],
+        "notRecommended": [],
+        "hypotheses": []
+      },
+      "createdAt": "2026-08-24T01:13:46.346579+00:00"
+    },
+    {
+      "id": "obs-20260824-021",
+      "title": "Truque incrível no Canva: transição combinar",
+      "creator": "Vitoria Arduin",
+      "country": "BR",
+      "url": "https://www.youtube.com/watch?v=DxPPyffpcqE",
+      "sourceEvidence": [
+        "youtube_public_search"
+      ],
+      "publishedAt": null,
+      "duration": "short_vertical_exact_unknown",
+      "coverage": {
+        "level": "partial",
+        "accessible": [
+          "título",
+          "canal",
+          "formato Shorts",
+          "visualizações públicas"
+        ],
+        "missing": [
+          "vídeo reproduzível",
+          "áudio",
+          "transcrição integral",
+          "comentários",
+          "curva de retenção"
+        ]
+      },
+      "publicMetrics": {
+        "viewsObserved": "283 mil",
+        "likesObserved": null,
+        "observedAt": "2026-08-24",
+        "sourceType": "youtube_public_search",
+        "causality": "not_inferred"
+      },
+      "classification": {
+        "materialFormat": "short_vertical",
+        "presentationFormats": [
+          "tutorial",
+          "demonstracao"
+        ],
+        "primaryFamily": "demonstracao",
+        "secondaryFamilies": [
+          "educativo",
+          "ugc"
+        ],
+        "objectives": [
+          "educar",
+          "salvamento",
+          "autoridade"
+        ],
+        "segment": "Canva e design para redes sociais",
+        "probableAudience": "criadores e pequenos negócios",
+        "awarenessStage": "consciente_solucao",
+        "productionLevel": "simple",
+        "durationBand": "short_exact_unknown",
+        "pace": "not_assessed",
+        "mechanisms": [
+          "recompensa",
+          "surpresa",
+          "desejo"
+        ],
+        "confidence": "medium"
+      },
+      "comparison": {
+        "level": 1,
+        "group": "canva-microtutorial-short",
+        "referenceIds": [
+          "obs-20260824-022",
+          "obs-20260824-023"
+        ]
+      },
+      "observations": [
+        "O título nomeia a ferramenta e uma transição específica.",
+        "A palavra “truque” sinaliza caminho curto; a demonstração não ficou acessível."
+      ],
+      "interpretations": [
+        "Ferramenta mais microresultado reduz ambiguidade da promessa.",
+        "“Incrível” aumenta expectativa visual e custo de prova."
+      ],
+      "scores": {
+        "gancho": 84,
+        "clareza": 88,
+        "relevancia": 84,
+        "desejo": 82,
+        "confianca": "not_assessed",
+        "acao": "not_assessed",
+        "objecoes": "not_assessed",
+        "retencao": "not_assessed"
+      },
+      "fiveLenses": {
+        "apressado": "Ferramenta ou produto e microbenefício aparecem já no título.",
+        "analitico": "Precisa ver etapas, condições e limitações, indisponíveis na cobertura atual.",
+        "aspiracional": "Projeta um resultado visual, funcional ou de domínio da ferramenta.",
+        "comunidade": "Dica curta favorece salvamento, envio e reprodução por outros usuários.",
+        "cetico": "Expressões superlativas aumentam a necessidade de demonstração real."
+      },
+      "replicable": [
+        "Nomear a ferramenta e um único efeito reproduzível.",
+        "Trocar adjetivo amplo por antes/depois observável sempre que possível."
+      ],
+      "limitations": [
+        "Sem reprodução confiável, não foram avaliados áudio, cenas, montagem, ritmo, retenção ou causalidade do desempenho."
+      ],
+      "provenance": [
+        "public_content",
+        "public_metric",
+        "observatory_inference"
+      ],
+      "training": {
+        "replicable": [
+          "Nomear a ferramenta e um único efeito reproduzível.",
+          "Trocar adjetivo amplo por antes/depois observável sempre que possível."
+        ],
+        "contingent": [],
+        "notRecommended": [],
+        "hypotheses": []
+      },
+      "createdAt": "2026-08-24T01:13:46.382844+00:00"
+    },
+    {
+      "id": "obs-20260824-022",
+      "title": "Efeito Incrível no Canva",
+      "creator": "Vítor Pudim",
+      "country": "BR",
+      "url": "https://www.youtube.com/watch?v=mBT71xDozNo",
+      "sourceEvidence": [
+        "youtube_public_search"
+      ],
+      "publishedAt": null,
+      "duration": "short_vertical_exact_unknown",
+      "coverage": {
+        "level": "partial",
+        "accessible": [
+          "título",
+          "canal",
+          "formato Shorts",
+          "visualizações públicas"
+        ],
+        "missing": [
+          "vídeo reproduzível",
+          "áudio",
+          "transcrição integral",
+          "comentários",
+          "curva de retenção"
+        ]
+      },
+      "publicMetrics": {
+        "viewsObserved": "9,7 mi",
+        "likesObserved": null,
+        "observedAt": "2026-08-24",
+        "sourceType": "youtube_public_search",
+        "causality": "not_inferred"
+      },
+      "classification": {
+        "materialFormat": "short_vertical",
+        "presentationFormats": [
+          "tutorial",
+          "demonstracao"
+        ],
+        "primaryFamily": "demonstracao",
+        "secondaryFamilies": [
+          "educativo",
+          "ugc"
+        ],
+        "objectives": [
+          "educar",
+          "salvamento",
+          "autoridade"
+        ],
+        "segment": "Canva e design para redes sociais",
+        "probableAudience": "criadores e usuários de Canva",
+        "awarenessStage": "consciente_solucao",
+        "productionLevel": "simple",
+        "durationBand": "short_exact_unknown",
+        "pace": "not_assessed",
+        "mechanisms": [
+          "recompensa",
+          "surpresa",
+          "desejo"
+        ],
+        "confidence": "medium"
+      },
+      "comparison": {
+        "level": 1,
+        "group": "canva-microtutorial-short",
+        "referenceIds": [
+          "obs-20260824-021",
+          "obs-20260824-023"
+        ]
+      },
+      "observations": [
+        "O título apresenta ferramenta conhecida e promete um efeito, sem especificá-lo.",
+        "A visualização pública é alta, mas não demonstra que o adjetivo causou o desempenho."
+      ],
+      "interpretations": [
+        "A brevidade pode favorecer curiosidade, mas reduz a pré-qualificação do público.",
+        "A entrega visual precisa aparecer cedo para compensar a promessa genérica."
+      ],
+      "scores": {
+        "gancho": 82,
+        "clareza": 70,
+        "relevancia": 76,
+        "desejo": 86,
+        "confianca": "not_assessed",
+        "acao": "not_assessed",
+        "objecoes": "not_assessed",
+        "retencao": "not_assessed"
+      },
+      "fiveLenses": {
+        "apressado": "Ferramenta ou produto e microbenefício aparecem já no título.",
+        "analitico": "Precisa ver etapas, condições e limitações, indisponíveis na cobertura atual.",
+        "aspiracional": "Projeta um resultado visual, funcional ou de domínio da ferramenta.",
+        "comunidade": "Dica curta favorece salvamento, envio e reprodução por outros usuários.",
+        "cetico": "Expressões superlativas aumentam a necessidade de demonstração real."
+      },
+      "replicable": [
+        "Usar promessa de microtransformação visual em tutorial curto."
+      ],
+      "limitations": [
+        "Sem reprodução confiável, não foram avaliados áudio, cenas, montagem, ritmo, retenção ou causalidade do desempenho."
+      ],
+      "provenance": [
+        "public_content",
+        "public_metric",
+        "observatory_inference"
+      ],
+      "training": {
+        "replicable": [
+          "Usar promessa de microtransformação visual em tutorial curto."
+        ],
+        "contingent": [],
+        "notRecommended": [
+          "Copiar adjetivo superlativo sem mostrar imediatamente o resultado."
+        ],
+        "hypotheses": []
+      },
+      "createdAt": "2026-08-24T01:13:46.424783+00:00"
+    },
+    {
+      "id": "obs-20260824-023",
+      "title": "FREE: Canva Hidden elements | Shorts with Diana Muñoz",
+      "creator": "Design with Canva",
+      "country": "US",
+      "url": "https://www.youtube.com/watch?v=1y0eLXP-UF4",
+      "sourceEvidence": [
+        "https://glasp.co/youtube/1y0eLXP-UF4"
+      ],
+      "publishedAt": "2021-07-15",
+      "duration": "short_vertical_exact_unknown",
+      "coverage": {
+        "level": "partial",
+        "accessible": [
+          "título",
+          "canal",
+          "data",
+          "formato Shorts",
+          "visualizações em fonte secundária"
+        ],
+        "missing": [
+          "vídeo reproduzível",
+          "áudio",
+          "transcrição integral",
+          "comentários",
+          "curva de retenção"
+        ]
+      },
+      "publicMetrics": {
+        "viewsObserved": "23,5 mil",
+        "likesObserved": null,
+        "observedAt": "2026-08-24",
+        "sourceType": "secondary_indexed_source",
+        "causality": "not_inferred"
+      },
+      "classification": {
+        "materialFormat": "short_vertical",
+        "presentationFormats": [
+          "tutorial",
+          "demonstracao"
+        ],
+        "primaryFamily": "demonstracao",
+        "secondaryFamilies": [
+          "educativo",
+          "ugc"
+        ],
+        "objectives": [
+          "educar",
+          "salvamento",
+          "autoridade"
+        ],
+        "segment": "Canva e design para redes sociais",
+        "probableAudience": "usuários iniciantes de Canva",
+        "awarenessStage": "consciente_solucao",
+        "productionLevel": "simple",
+        "durationBand": "short_exact_unknown",
+        "pace": "not_assessed",
+        "mechanisms": [
+          "recompensa",
+          "descoberta",
+          "desejo"
+        ],
+        "confidence": "medium"
+      },
+      "comparison": {
+        "level": 1,
+        "group": "canva-microtutorial-short",
+        "referenceIds": [
+          "obs-20260824-021",
+          "obs-20260824-022"
+        ]
+      },
+      "observations": [
+        "O título combina gratuidade, ferramenta e descoberta de elementos ocultos.",
+        "A fonte secundária não disponibilizou transcrição."
+      ],
+      "interpretations": [
+        "“Grátis” reduz objeção de custo e “ocultos” cria descoberta.",
+        "A utilidade real depende de mostrar como localizar e aplicar os elementos."
+      ],
+      "scores": {
+        "gancho": 84,
+        "clareza": 87,
+        "relevancia": 83,
+        "desejo": 79,
+        "confianca": "not_assessed",
+        "acao": "not_assessed",
+        "objecoes": 78,
+        "retencao": "not_assessed"
+      },
+      "fiveLenses": {
+        "apressado": "Ferramenta ou produto e microbenefício aparecem já no título.",
+        "analitico": "Precisa ver etapas, condições e limitações, indisponíveis na cobertura atual.",
+        "aspiracional": "Projeta um resultado visual, funcional ou de domínio da ferramenta.",
+        "comunidade": "Dica curta favorece salvamento, envio e reprodução por outros usuários.",
+        "cetico": "Expressões superlativas aumentam a necessidade de demonstração real."
+      },
+      "replicable": [
+        "Tratar custo e descoberta no título quando ambos forem centrais.",
+        "Entregar localização e aplicação, não apenas revelar a existência do recurso."
+      ],
+      "limitations": [
+        "Sem reprodução confiável, não foram avaliados áudio, cenas, montagem, ritmo, retenção ou causalidade do desempenho."
+      ],
+      "provenance": [
+        "public_content",
+        "public_metric",
+        "observatory_inference"
+      ],
+      "training": {
+        "replicable": [
+          "Tratar custo e descoberta no título quando ambos forem centrais.",
+          "Entregar localização e aplicação, não apenas revelar a existência do recurso."
+        ],
+        "contingent": [],
+        "notRecommended": [],
+        "hypotheses": []
+      },
+      "createdAt": "2026-08-24T01:13:46.463330+00:00"
+    },
+    {
+      "id": "obs-20260824-024",
+      "title": "Should you upgrade to the iPhone 14? 📱 #shorts",
+      "creator": "Ali Abdaal",
+      "country": "UK",
+      "url": "https://www.youtube.com/watch?v=A4ya80m9L6M",
+      "sourceEvidence": [
+        "https://glasp.co/youtube/A4ya80m9L6M"
+      ],
+      "publishedAt": "2022-11-03",
+      "duration": "short_vertical_exact_unknown",
+      "coverage": {
+        "level": "partial",
+        "accessible": [
+          "título",
+          "canal",
+          "data",
+          "formato Shorts",
+          "visualizações em fonte secundária"
+        ],
+        "missing": [
+          "vídeo reproduzível",
+          "áudio",
+          "transcrição integral",
+          "comentários",
+          "curva de retenção"
+        ]
+      },
+      "publicMetrics": {
+        "viewsObserved": "86,8 mil",
+        "likesObserved": null,
+        "observedAt": "2026-08-24",
+        "sourceType": "secondary_indexed_source",
+        "causality": "not_inferred"
+      },
+      "classification": {
+        "materialFormat": "short_vertical",
+        "presentationFormats": [
+          "review",
+          "camera_direta"
+        ],
+        "primaryFamily": "autoridade_opiniao",
+        "secondaryFamilies": [
+          "demonstracao",
+          "comparacao"
+        ],
+        "objectives": [
+          "educar",
+          "decisao_compra",
+          "autoridade"
+        ],
+        "segment": "smartphones e tecnologia de consumo",
+        "probableAudience": "usuários considerando trocar de iPhone",
+        "awarenessStage": "consciente_produto",
+        "productionLevel": "intermediate",
+        "durationBand": "short_exact_unknown",
+        "pace": "not_assessed",
+        "mechanisms": [
+          "vigilancia",
+          "desejo",
+          "confiança"
+        ],
+        "confidence": "medium"
+      },
+      "comparison": {
+        "level": 2,
+        "group": "consumer-tech-short",
+        "referenceIds": [
+          "obs-20260824-025"
+        ]
+      },
+      "observations": [
+        "O título formula diretamente uma decisão de compra e nomeia o produto.",
+        "Não foi possível verificar os critérios usados na recomendação."
+      ],
+      "interpretations": [
+        "Pergunta de decisão qualifica o público por intenção e reduz ambiguidade.",
+        "A confiança depende de critérios, alternativas e reconhecimento de trade-offs."
+      ],
+      "scores": {
+        "gancho": 78,
+        "clareza": 94,
+        "relevancia": 91,
+        "desejo": "not_assessed",
+        "confianca": 70,
+        "acao": "not_assessed",
+        "objecoes": 72,
+        "retencao": "not_assessed"
+      },
+      "fiveLenses": {
+        "apressado": "Ferramenta ou produto e microbenefício aparecem já no título.",
+        "analitico": "Precisa ver etapas, condições e limitações, indisponíveis na cobertura atual.",
+        "aspiracional": "Projeta um resultado visual, funcional ou de domínio da ferramenta.",
+        "comunidade": "Dica curta favorece salvamento, envio e reprodução por outros usuários.",
+        "cetico": "Expressões superlativas aumentam a necessidade de demonstração real."
+      },
+      "replicable": [
+        "Abrir review curto com a decisão real do público.",
+        "Organizar a resposta por critérios e perfil de usuário."
+      ],
+      "limitations": [
+        "Sem reprodução confiável, não foram avaliados áudio, cenas, montagem, ritmo, retenção ou causalidade do desempenho."
+      ],
+      "provenance": [
+        "public_content",
+        "public_metric",
+        "observatory_inference"
+      ],
+      "training": {
+        "replicable": [
+          "Abrir review curto com a decisão real do público.",
+          "Organizar a resposta por critérios e perfil de usuário."
+        ],
+        "contingent": [],
+        "notRecommended": [],
+        "hypotheses": []
+      },
+      "createdAt": "2026-08-24T01:13:46.500159+00:00"
+    },
+    {
+      "id": "obs-20260824-025",
+      "title": "New Smartphone Trick #shorts",
+      "creator": "Hey Runi love",
+      "country": "IN",
+      "url": "https://www.youtube.com/watch?v=fHLmqEcbm6A",
+      "sourceEvidence": [
+        "https://glasp.co/youtube/fHLmqEcbm6A"
+      ],
+      "publishedAt": "2025-08-03",
+      "duration": "short_vertical_exact_unknown",
+      "coverage": {
+        "level": "partial",
+        "accessible": [
+          "título",
+          "canal",
+          "data",
+          "formato Shorts",
+          "visualizações em fonte secundária"
+        ],
+        "missing": [
+          "vídeo reproduzível",
+          "áudio",
+          "transcrição integral",
+          "comentários",
+          "curva de retenção"
+        ]
+      },
+      "publicMetrics": {
+        "viewsObserved": "10,9 mi",
+        "likesObserved": null,
+        "observedAt": "2026-08-24",
+        "sourceType": "secondary_indexed_source",
+        "causality": "not_inferred"
+      },
+      "classification": {
+        "materialFormat": "short_vertical",
+        "presentationFormats": [
+          "demonstracao",
+          "tutorial"
+        ],
+        "primaryFamily": "demonstracao",
+        "secondaryFamilies": [
+          "ugc",
+          "educativo"
+        ],
+        "objectives": [
+          "educar",
+          "compartilhamento",
+          "salvamento"
+        ],
+        "segment": "smartphones e truques de uso",
+        "probableAudience": "usuários de smartphone",
+        "awarenessStage": "consciente_solucao",
+        "productionLevel": "simple",
+        "durationBand": "short_exact_unknown",
+        "pace": "not_assessed",
+        "mechanisms": [
+          "curiosidade",
+          "surpresa",
+          "recompensa"
+        ],
+        "confidence": "low"
+      },
+      "comparison": {
+        "level": 2,
+        "group": "consumer-tech-short",
+        "referenceIds": [
+          "obs-20260824-024"
+        ]
+      },
+      "observations": [
+        "O título promete um truque novo de smartphone e usa marcadores de tendência.",
+        "A fonte não disponibilizou transcrição nem descrição do truque."
+      ],
+      "interpretations": [
+        "A promessa é de compreensão rápida, mas pouco específica.",
+        "A visualização elevada pode refletir distribuição, tendência ou outros fatores não observados."
+      ],
+      "scores": {
+        "gancho": 76,
+        "clareza": 61,
+        "relevancia": 73,
+        "desejo": 75,
+        "confianca": "not_assessed",
+        "acao": "not_assessed",
+        "objecoes": "not_assessed",
+        "retencao": "not_assessed"
+      },
+      "fiveLenses": {
+        "apressado": "Ferramenta ou produto e microbenefício aparecem já no título.",
+        "analitico": "Precisa ver etapas, condições e limitações, indisponíveis na cobertura atual.",
+        "aspiracional": "Projeta um resultado visual, funcional ou de domínio da ferramenta.",
+        "comunidade": "Dica curta favorece salvamento, envio e reprodução por outros usuários.",
+        "cetico": "Expressões superlativas aumentam a necessidade de demonstração real."
+      },
+      "replicable": [
+        "Mostrar o resultado do truque e o dispositivo compatível antes das etapas."
+      ],
+      "limitations": [
+        "País inferido pelo contexto público do canal; não usado como evidência criativa.",
+        "Sem reprodução confiável, não foram avaliados áudio, cenas, montagem, ritmo, retenção ou causalidade do desempenho."
+      ],
+      "provenance": [
+        "public_content",
+        "public_metric",
+        "observatory_inference"
+      ],
+      "training": {
+        "replicable": [
+          "Mostrar o resultado do truque e o dispositivo compatível antes das etapas."
+        ],
+        "contingent": [],
+        "notRecommended": [
+          "Inferir qualidade ou causalidade a partir da visualização isolada."
+        ],
+        "hypotheses": []
+      },
+      "createdAt": "2026-08-24T01:13:46.558408+00:00"
+    },
+    {
+      "id": "obs-20260824-026",
+      "title": "O CUSTO DE VIDA TÁ UM ABSURDO, VOU TER QUE VIRAR CACHORRO – #Shorts",
+      "creator": "Porta dos Fundos",
+      "country": "BR",
+      "url": "https://www.youtube.com/watch?v=ap3irAhnW_Q",
+      "sourceEvidence": [
+        "https://www.vivoriso.com/porta-dos-fundos/o-custo-de-vida-ta-um-absurdo-vou-ter-que-virar-cachorro-shorts/"
+      ],
+      "publishedAt": "2024-03-26",
+      "duration": "short_vertical_exact_unknown",
+      "coverage": {
+        "level": "partial",
+        "accessible": [
+          "título",
+          "canal",
+          "data",
+          "formato Shorts"
+        ],
+        "missing": [
+          "vídeo reproduzível",
+          "áudio",
+          "transcrição integral",
+          "comentários",
+          "curva de retenção"
+        ]
+      },
+      "publicMetrics": {
+        "viewsObserved": null,
+        "likesObserved": null,
+        "observedAt": "2026-08-24",
+        "sourceType": "not_available",
+        "causality": "not_inferred"
+      },
+      "classification": {
+        "materialFormat": "short_vertical",
+        "presentationFormats": [
+          "sketch",
+          "dialogo"
+        ],
+        "primaryFamily": "humor",
+        "secondaryFamilies": [
+          "storytelling",
+          "critica_social"
+        ],
+        "objectives": [
+          "entreter",
+          "compartilhamento",
+          "retencao"
+        ],
+        "segment": "humor de situação e custo de vida",
+        "probableAudience": "adultos familiarizados com pressão financeira",
+        "awarenessStage": "consciente_problema",
+        "productionLevel": "intermediate",
+        "durationBand": "short_exact_unknown",
+        "pace": "not_assessed",
+        "mechanisms": [
+          "identificacao",
+          "surpresa",
+          "tensao"
+        ],
+        "confidence": "medium"
+      },
+      "comparison": {
+        "level": 2,
+        "group": "social-situation-comedy-short",
+        "referenceIds": [
+          "obs-20260824-027",
+          "obs-20260824-028"
+        ]
+      },
+      "observations": [
+        "O título parte de um problema cotidiano e salta para uma solução absurda.",
+        "A página confirma canal, formato e data, mas não expõe a cena."
+      ],
+      "interpretations": [
+        "Reconhecimento seguido de absurdo cria uma premissa cômica de compreensão rápida.",
+        "A eficácia depende de progressão e payoff não auditados."
+      ],
+      "scores": {
+        "gancho": 89,
+        "clareza": 86,
+        "relevancia": 88,
+        "desejo": 72,
+        "confianca": "not_assessed",
+        "acao": "not_assessed",
+        "objecoes": "not_assessed",
+        "retencao": "not_assessed"
+      },
+      "fiveLenses": {
+        "apressado": "A premissa ou anomalia é entendida de forma rápida pelo título.",
+        "analitico": "A coerência do payoff não pôde ser verificada sem reprodução integral.",
+        "aspiracional": "A experiência promete surpresa, identificação ou espetáculo.",
+        "comunidade": "Situações sociais reconhecíveis favorecem reação e conversa.",
+        "cetico": "Precisa receber uma recompensa compatível com a expectativa criada."
+      },
+      "replicable": [
+        "Ancorar absurdo em tensão cotidiana reconhecível.",
+        "Fazer a escalada extrema permanecer coerente com a premissa."
+      ],
+      "limitations": [
+        "Sem reprodução confiável, não foram avaliados áudio, cenas, montagem, ritmo, retenção ou causalidade do desempenho."
+      ],
+      "provenance": [
+        "public_content",
+        "public_metric",
+        "observatory_inference"
+      ],
+      "training": {
+        "replicable": [
+          "Ancorar absurdo em tensão cotidiana reconhecível.",
+          "Fazer a escalada extrema permanecer coerente com a premissa."
+        ],
+        "contingent": [],
+        "notRecommended": [],
+        "hypotheses": []
+      },
+      "createdAt": "2026-08-24T01:13:46.601777+00:00"
+    },
+    {
+      "id": "obs-20260824-027",
+      "title": "ERA APENAS UMA FEIJOADA E OLHA NO QUE DEU – #Shorts",
+      "creator": "Porta dos Fundos",
+      "country": "BR",
+      "url": "https://www.youtube.com/watch?v=wc-NBwVjC1M",
+      "sourceEvidence": [
+        "https://www.vivoriso.com/porta-dos-fundos/era-apenas-uma-feijoada-e-olha-no-que-deu-shorts/"
+      ],
+      "publishedAt": "2023-11-08",
+      "duration": "short_vertical_exact_unknown",
+      "coverage": {
+        "level": "partial",
+        "accessible": [
+          "título",
+          "canal",
+          "data",
+          "formato Shorts"
+        ],
+        "missing": [
+          "vídeo reproduzível",
+          "áudio",
+          "transcrição integral",
+          "comentários",
+          "curva de retenção"
+        ]
+      },
+      "publicMetrics": {
+        "viewsObserved": null,
+        "likesObserved": null,
+        "observedAt": "2026-08-24",
+        "sourceType": "not_available",
+        "causality": "not_inferred"
+      },
+      "classification": {
+        "materialFormat": "short_vertical",
+        "presentationFormats": [
+          "sketch",
+          "storytelling"
+        ],
+        "primaryFamily": "humor",
+        "secondaryFamilies": [
+          "storytelling"
+        ],
+        "objectives": [
+          "entreter",
+          "retencao",
+          "compartilhamento"
+        ],
+        "segment": "humor de situação cotidiana",
+        "probableAudience": "público geral adulto",
+        "awarenessStage": "inconsciente",
+        "productionLevel": "intermediate",
+        "durationBand": "short_exact_unknown",
+        "pace": "not_assessed",
+        "mechanisms": [
+          "curiosidade",
+          "surpresa",
+          "tensao"
+        ],
+        "confidence": "medium"
+      },
+      "comparison": {
+        "level": 2,
+        "group": "social-situation-comedy-short",
+        "referenceIds": [
+          "obs-20260824-026",
+          "obs-20260824-028"
+        ]
+      },
+      "observations": [
+        "O título contrasta uma causa banal com consequência não revelada.",
+        "A frase “olha no que deu” retém a informação do desfecho."
+      ],
+      "interpretations": [
+        "A omissão do resultado cria curiosidade, mas oferece menos especificidade.",
+        "O payoff precisa justificar a retenção da informação para não parecer clickbait."
+      ],
+      "scores": {
+        "gancho": 82,
+        "clareza": 72,
+        "relevancia": 77,
+        "desejo": "not_assessed",
+        "confianca": "not_assessed",
+        "acao": "not_assessed",
+        "objecoes": "not_assessed",
+        "retencao": "not_assessed"
+      },
+      "fiveLenses": {
+        "apressado": "A premissa ou anomalia é entendida de forma rápida pelo título.",
+        "analitico": "A coerência do payoff não pôde ser verificada sem reprodução integral.",
+        "aspiracional": "A experiência promete surpresa, identificação ou espetáculo.",
+        "comunidade": "Situações sociais reconhecíveis favorecem reação e conversa.",
+        "cetico": "Precisa receber uma recompensa compatível com a expectativa criada."
+      },
+      "replicable": [
+        "Usar causa cotidiana e consequência escalada quando o payoff for forte."
+      ],
+      "limitations": [
+        "Sem reprodução confiável, não foram avaliados áudio, cenas, montagem, ritmo, retenção ou causalidade do desempenho."
+      ],
+      "provenance": [
+        "public_content",
+        "public_metric",
+        "observatory_inference"
+      ],
+      "training": {
+        "replicable": [
+          "Usar causa cotidiana e consequência escalada quando o payoff for forte."
+        ],
+        "contingent": [],
+        "notRecommended": [
+          "Ocultar todo o desfecho quando a abertura não oferece outra recompensa."
+        ],
+        "hypotheses": []
+      },
+      "createdAt": "2026-08-24T01:13:46.651923+00:00"
+    },
+    {
+      "id": "obs-20260824-028",
+      "title": "Gkay PEDE REMÉDIO para Tatá Werneck! | Lady Night | Humor Multishow | #Shorts",
+      "creator": "Multishow / Lady Night",
+      "country": "BR",
+      "url": "https://tracklist.com.br/fabio-porchat-gkay/",
+      "sourceEvidence": [
+        "https://tracklist.com.br/fabio-porchat-gkay/"
+      ],
+      "publishedAt": null,
+      "duration": "short_vertical_exact_unknown",
+      "coverage": {
+        "level": "partial",
+        "accessible": [
+          "título indexado",
+          "contexto editorial secundário",
+          "formato Shorts"
+        ],
+        "missing": [
+          "vídeo reproduzível",
+          "áudio",
+          "transcrição integral",
+          "comentários",
+          "curva de retenção"
+        ]
+      },
+      "publicMetrics": {
+        "viewsObserved": null,
+        "likesObserved": null,
+        "observedAt": "2026-08-24",
+        "sourceType": "not_available",
+        "causality": "not_inferred"
+      },
+      "classification": {
+        "materialFormat": "short_vertical",
+        "presentationFormats": [
+          "recorte_entrevista",
+          "dialogo",
+          "humor"
+        ],
+        "primaryFamily": "humor",
+        "secondaryFamilies": [
+          "entretenimento",
+          "celebridades"
+        ],
+        "objectives": [
+          "entreter",
+          "compartilhamento"
+        ],
+        "segment": "entrevista de celebridades e humor",
+        "probableAudience": "público de entretenimento e cultura pop",
+        "awarenessStage": "consciente_produto",
+        "productionLevel": "advanced",
+        "durationBand": "short_exact_unknown",
+        "pace": "not_assessed",
+        "mechanisms": [
+          "curiosidade",
+          "identificacao",
+          "comunidade"
+        ],
+        "confidence": "low"
+      },
+      "comparison": {
+        "level": 2,
+        "group": "social-situation-comedy-short",
+        "referenceIds": [
+          "obs-20260824-026",
+          "obs-20260824-027"
+        ]
+      },
+      "observations": [
+        "O título identifica duas figuras conhecidas, uma ação concreta e o programa de origem.",
+        "A fonte secundária contextualiza o trecho, mas não disponibiliza a transcrição completa do Short."
+      ],
+      "interpretations": [
+        "Nomes conhecidos reduzem o tempo de contexto para fãs, mas tornam o formato menos transferível a criadores sem celebridade.",
+        "A ação incomum cria curiosidade dependente de contexto prévio."
+      ],
+      "scores": {
+        "gancho": 84,
+        "clareza": 83,
+        "relevancia": 72,
+        "desejo": "not_assessed",
+        "confianca": "not_assessed",
+        "acao": "not_assessed",
+        "objecoes": "not_assessed",
+        "retencao": "not_assessed"
+      },
+      "fiveLenses": {
+        "apressado": "A premissa ou anomalia é entendida de forma rápida pelo título.",
+        "analitico": "A coerência do payoff não pôde ser verificada sem reprodução integral.",
+        "aspiracional": "A experiência promete surpresa, identificação ou espetáculo.",
+        "comunidade": "Situações sociais reconhecíveis favorecem reação e conversa.",
+        "cetico": "Precisa receber uma recompensa compatível com a expectativa criada."
+      },
+      "replicable": [
+        "Em recortes, nomear ação e relação entre participantes."
+      ],
+      "limitations": [
+        "Sem reprodução confiável, não foram avaliados áudio, cenas, montagem, ritmo, retenção ou causalidade do desempenho."
+      ],
+      "provenance": [
+        "public_content",
+        "public_metric",
+        "observatory_inference"
+      ],
+      "training": {
+        "replicable": [
+          "Em recortes, nomear ação e relação entre participantes."
+        ],
+        "contingent": [
+          "O poder dos nomes depende de reconhecimento prévio e não deve ser confundido com qualidade estrutural."
+        ],
+        "notRecommended": [],
+        "hypotheses": []
+      },
+      "createdAt": "2026-08-24T01:13:46.691782+00:00"
+    },
+    {
+      "id": "obs-20260824-029",
+      "title": "Blogueirinha marca presença na Farofa da Gkay",
+      "creator": "Portal Eldo Gomes",
+      "country": "BR",
+      "url": "https://www.youtube.com/shorts/TT90aRgR3ho",
+      "sourceEvidence": [
+        "https://www.eldogomes.com.br/em-alta-influenciadora-blogueirinha-marca-presenca-na-farofa-da-gkay/"
+      ],
+      "publishedAt": "2023-12-05",
+      "duration": "short_vertical_exact_unknown",
+      "coverage": {
+        "level": "partial",
+        "accessible": [
+          "título",
+          "URL pública do Short",
+          "data",
+          "resumo editorial",
+          "imagem"
+        ],
+        "missing": [
+          "vídeo reproduzível",
+          "áudio",
+          "transcrição integral",
+          "comentários",
+          "curva de retenção"
+        ]
+      },
+      "publicMetrics": {
+        "viewsObserved": null,
+        "likesObserved": null,
+        "observedAt": "2026-08-24",
+        "sourceType": "not_available",
+        "causality": "not_inferred"
+      },
+      "classification": {
+        "materialFormat": "short_vertical",
+        "presentationFormats": [
+          "cobertura_evento",
+          "celebridades"
+        ],
+        "primaryFamily": "entretenimento",
+        "secondaryFamilies": [
+          "atualidade",
+          "humor"
+        ],
+        "objectives": [
+          "entreter",
+          "comunidade",
+          "atualidade"
+        ],
+        "segment": "celebridades e evento de influenciadores",
+        "probableAudience": "seguidores de cultura de internet",
+        "awarenessStage": "consciente_produto",
+        "productionLevel": "simple",
+        "durationBand": "short_exact_unknown",
+        "pace": "not_assessed",
+        "mechanisms": [
+          "comunidade",
+          "identificacao",
+          "curiosidade"
+        ],
+        "confidence": "low"
+      },
+      "comparison": {
+        "level": 3,
+        "group": "celebrity-event-short",
+        "referenceIds": []
+      },
+      "observations": [
+        "O título informa pessoa e evento sem esconder o assunto.",
+        "O resumo editorial associa a personagem a humor ácido, polêmica e forte reconhecimento prévio."
+      ],
+      "interpretations": [
+        "O valor provável está no acesso e no reconhecimento de nomes, não em uma promessa transferível por si só.",
+        "Para criadores menores, contexto e ponto de vista precisariam substituir fama."
+      ],
+      "scores": {
+        "gancho": 61,
+        "clareza": 91,
+        "relevancia": 64,
+        "desejo": "not_assessed",
+        "confianca": "not_assessed",
+        "acao": "not_assessed",
+        "objecoes": "not_assessed",
+        "retencao": "not_assessed"
+      },
+      "fiveLenses": {
+        "apressado": "A premissa ou anomalia é entendida de forma rápida pelo título.",
+        "analitico": "A coerência do payoff não pôde ser verificada sem reprodução integral.",
+        "aspiracional": "A experiência promete surpresa, identificação ou espetáculo.",
+        "comunidade": "Situações sociais reconhecíveis favorecem reação e conversa.",
+        "cetico": "Precisa receber uma recompensa compatível com a expectativa criada."
+      },
+      "replicable": [
+        "Quando o acesso ao evento é a entrega, explicitar pessoa, lugar e ponto de vista."
+      ],
+      "limitations": [
+        "Sem reprodução confiável, não foram avaliados áudio, cenas, montagem, ritmo, retenção ou causalidade do desempenho."
+      ],
+      "provenance": [
+        "public_content",
+        "public_metric",
+        "observatory_inference"
+      ],
+      "training": {
+        "replicable": [
+          "Quando o acesso ao evento é a entrega, explicitar pessoa, lugar e ponto de vista."
+        ],
+        "contingent": [],
+        "notRecommended": [
+          "Confundir presença de celebridade com força criativa replicável."
+        ],
+        "hypotheses": []
+      },
+      "createdAt": "2026-08-24T01:13:46.733368+00:00"
+    },
+    {
+      "id": "obs-20260824-030",
+      "title": "Would You Fly To Paris For A Baguette?",
+      "creator": "MrBeast",
+      "country": "US",
+      "url": "https://www.youtube.com/watch?v=se50viFJ0AQ",
+      "sourceEvidence": [
+        "https://www.exonia.com/blog/25-most-viewed-viral-youtube-shorts-in-2022",
+        "https://podscript.ai/podcasts/lex-fridman-podcast/351-mrbeast-future-of-youtube-twitter-tiktok-and-instagram/"
+      ],
+      "publishedAt": "2022-12-08",
+      "duration": "PT47S",
+      "coverage": {
+        "level": "partial",
+        "accessible": [
+          "título",
+          "descrição da premissa",
+          "data",
+          "duração",
+          "visualizações e curtidas em fontes secundárias"
+        ],
+        "missing": [
+          "vídeo reproduzível",
+          "áudio",
+          "transcrição integral",
+          "comentários",
+          "curva de retenção"
+        ]
+      },
+      "publicMetrics": {
+        "viewsObserved": "mais de 1,5 bi (fonte secundária, 2025)",
+        "likesObserved": "56 mi (fonte secundária, 2025)",
+        "observedAt": "2026-08-24",
+        "sourceType": "secondary_indexed_source",
+        "causality": "not_inferred"
+      },
+      "classification": {
+        "materialFormat": "short_vertical",
+        "presentationFormats": [
+          "desafio",
+          "storytelling",
+          "rua"
+        ],
+        "primaryFamily": "entretenimento",
+        "secondaryFamilies": [
+          "storytelling",
+          "experimento_social"
+        ],
+        "objectives": [
+          "entreter",
+          "retencao",
+          "compartilhamento"
+        ],
+        "segment": "desafio de alto investimento",
+        "probableAudience": "público global de entretenimento",
+        "awarenessStage": "inconsciente",
+        "productionLevel": "advanced",
+        "durationBand": "30-60s",
+        "pace": "not_assessed",
+        "mechanisms": [
+          "surpresa",
+          "tensao",
+          "recompensa",
+          "desejo"
+        ],
+        "confidence": "high"
+      },
+      "comparison": {
+        "level": 3,
+        "group": "high-budget-challenge-short",
+        "referenceIds": []
+      },
+      "observations": [
+        "A premissa oferece dinheiro para uma pessoa viajar a Paris e retornar com uma baguete.",
+        "Fonte secundária registra duração de 47 segundos e o próprio criador descreveu a sequência: oferta, aceite inesperado, viagem, retorno e recompensa."
+      ],
+      "interpretations": [
+        "Objetivo simples, prazo implícito e deslocamento extremo criam progressão compreensível.",
+        "Escala, verba, distribuição e fama tornam o caso pouco comparável a pequenos criadores."
+      ],
+      "scores": {
+        "gancho": 94,
+        "clareza": 95,
+        "relevancia": 70,
+        "desejo": 91,
+        "confianca": 74,
+        "acao": "not_assessed",
+        "objecoes": 72,
+        "retencao": "not_assessed"
+      },
+      "fiveLenses": {
+        "apressado": "A premissa ou anomalia é entendida de forma rápida pelo título.",
+        "analitico": "A coerência do payoff não pôde ser verificada sem reprodução integral.",
+        "aspiracional": "A experiência promete surpresa, identificação ou espetáculo.",
+        "comunidade": "Situações sociais reconhecíveis favorecem reação e conversa.",
+        "cetico": "Precisa receber uma recompensa compatível com a expectativa criada."
+      },
+      "replicable": [
+        "Reduzir desafio a objetivo, obstáculo e recompensa fáceis de explicar.",
+        "Preservar uma progressão com mudança concreta de estado."
+      ],
+      "limitations": [
+        "Sem reprodução confiável, não foram avaliados áudio, cenas, montagem, ritmo, retenção ou causalidade do desempenho."
+      ],
+      "provenance": [
+        "public_content",
+        "public_metric",
+        "observatory_inference"
+      ],
+      "training": {
+        "replicable": [
+          "Reduzir desafio a objetivo, obstáculo e recompensa fáceis de explicar.",
+          "Preservar uma progressão com mudança concreta de estado."
+        ],
+        "contingent": [
+          "Viagem internacional, dinheiro, edição e distribuição do maior criador não são replicáveis para a maioria."
+        ],
+        "notRecommended": [
+          "Tratar a escala de visualizações como prova causal do mecanismo."
+        ],
+        "hypotheses": []
+      },
+      "createdAt": "2026-08-24T01:13:46.772596+00:00"
     }
   ],
   "patterns": [
@@ -1831,15 +3618,17 @@
       "supportReferenceIds": [
         "obs-20260823-004",
         "obs-20260823-005",
-        "obs-20260823-006"
+        "obs-20260823-006",
+        "obs-20260824-020"
       ],
-      "comparableSupportCount": 3,
+      "comparableSupportCount": 4,
       "comparisonLevel": 2,
       "confidence": "medium",
       "limitations": [
         "Duas referências vêm do mesmo ecossistema editorial.",
         "Sem experimento de confiança ou comportamento.",
-        "Parceria comercial pode alterar percepção."
+        "Parceria comercial pode alterar percepção.",
+        "O novo apoio é Short e amplia a variação de duração, sem demonstrar equivalência de retenção."
       ],
       "validation": "requires_human_or_experimental_evidence",
       "stage": "provisional",
@@ -1847,7 +3636,7 @@
       "creativeFamily": "conteúdo de saúde",
       "objective": "objetivo educativo ou conscientização",
       "segment": "fonte ou autoridade demonstrada",
-      "supportingCount": 3,
+      "supportingCount": 4,
       "counterexampleCount": 0,
       "evidence": [
         {
@@ -1867,6 +3656,14 @@
           "observation": "apoio comparável desta rodada",
           "evidence": "ver ficha individual",
           "limitations": []
+        },
+        {
+          "referenceId": "obs-20260824-020",
+          "observation": "Escala numérica, definição operacional e limite de escopo em Short oficial de saúde.",
+          "evidence": "Título e resumo oficial do Portal Drauzio Varella.",
+          "limitations": [
+            "Sem reprodução audiovisual ou experimento causal."
+          ]
         }
       ]
     },
@@ -1932,6 +3729,130 @@
           "limitations": []
         }
       ]
+    },
+    {
+      "id": "pat-20260824-004",
+      "status": "provisional",
+      "stage": "provisional",
+      "statement": "Em Shorts educativos de ciência ou conhecimento, uma pergunta literal ou contradição que nomeia o fenômeno permite ao público identificar o assunto antes da reprodução; o efeito sobre retenção permanece não demonstrado.",
+      "name": "Pergunta literal ou contradição específica em Shorts educativos",
+      "creativeFamily": "educativo",
+      "objective": "educar",
+      "segment": "ciência e conhecimento em Shorts",
+      "mechanism": [
+        "curiosidade",
+        "vigilancia",
+        "recompensa"
+      ],
+      "conditions": [
+        "formato vertical curto",
+        "tema explícito no título",
+        "promessa compatível com a explicação"
+      ],
+      "supportReferenceIds": [
+        "obs-20260824-016",
+        "obs-20260824-017",
+        "obs-20260824-018"
+      ],
+      "comparableSupportCount": 3,
+      "supportingCount": 3,
+      "counterexampleCount": 0,
+      "comparisonLevel": 2,
+      "confidence": "medium",
+      "evidence": [
+        {
+          "referenceId": "obs-20260824-016",
+          "observation": "Pergunta sobre objeto e contradição explícita.",
+          "evidence": "Título e descrição indexada.",
+          "limitations": [
+            "Sem mídia."
+          ]
+        },
+        {
+          "referenceId": "obs-20260824-017",
+          "observation": "Pergunta hipotética com fenômeno nomeado.",
+          "evidence": "Título público.",
+          "limitations": [
+            "Sem descrição ou mídia."
+          ]
+        },
+        {
+          "referenceId": "obs-20260824-018",
+          "observation": "Pergunta definicional com conceito nomeado.",
+          "evidence": "Título e metadados indexados.",
+          "limitations": [
+            "Sem transcrição."
+          ]
+        }
+      ],
+      "limitations": [
+        "Evidência restrita a clareza semântica do título.",
+        "Não há curva de retenção, replay, comentários ou teste causal.",
+        "Segmentos científicos distintos."
+      ],
+      "validation": "requires_human_or_experimental_evidence"
+    },
+    {
+      "id": "pat-20260824-005",
+      "status": "provisional",
+      "stage": "provisional",
+      "statement": "Em microtutoriais de Canva, nomear a ferramenta e um recurso ou microresultado no título torna a promessa semanticamente rápida; adjetivos superlativos sem especificidade elevam o custo de prova.",
+      "name": "Ferramenta mais microresultado em microtutorial de Canva",
+      "creativeFamily": "demonstracao",
+      "objective": "educar",
+      "segment": "Canva e design para redes sociais",
+      "mechanism": [
+        "recompensa",
+        "descoberta",
+        "desejo"
+      ],
+      "conditions": [
+        "tutorial vertical curto",
+        "ferramenta nomeada",
+        "um recurso ou efeito central"
+      ],
+      "supportReferenceIds": [
+        "obs-20260824-021",
+        "obs-20260824-022",
+        "obs-20260824-023"
+      ],
+      "comparableSupportCount": 3,
+      "supportingCount": 3,
+      "counterexampleCount": 0,
+      "comparisonLevel": 1,
+      "confidence": "medium",
+      "evidence": [
+        {
+          "referenceId": "obs-20260824-021",
+          "observation": "Ferramenta e transição específica no título.",
+          "evidence": "Título público.",
+          "limitations": [
+            "Sem demonstração acessível."
+          ]
+        },
+        {
+          "referenceId": "obs-20260824-022",
+          "observation": "Ferramenta explícita, efeito genérico.",
+          "evidence": "Título e métrica pública.",
+          "limitations": [
+            "Sem demonstração acessível."
+          ]
+        },
+        {
+          "referenceId": "obs-20260824-023",
+          "observation": "Ferramenta, gratuidade e recurso oculto.",
+          "evidence": "Título e metadados indexados.",
+          "limitations": [
+            "Sem transcrição."
+          ]
+        }
+      ],
+      "limitations": [
+        "O padrão descreve clareza de promessa, não desempenho.",
+        "Nenhuma demonstração foi auditada integralmente.",
+        "Visualizações variam muito e não provam causalidade."
+      ],
+      "validation": "requires_human_or_experimental_evidence"
     }
   ],
   "hypotheses": [
@@ -1986,6 +3907,44 @@
         "obs-20260823-003"
       ],
       "reasonNotPromoted": "Uma única referência."
+    },
+    {
+      "id": "hyp-20260824-006",
+      "status": "observed_not_promoted",
+      "statement": "Em Shorts de decisão de compra, formular a pergunta que o público já faria pode qualificar intenção e acelerar relevância.",
+      "supportReferenceIds": [
+        "obs-20260824-024"
+      ],
+      "reasonNotPromoted": "Um único apoio com cobertura parcial."
+    },
+    {
+      "id": "hyp-20260824-007",
+      "status": "observed_not_promoted",
+      "statement": "Em humor curto, partir de uma tensão cotidiana e escalá-la para uma consequência absurda pode criar premissa rápida.",
+      "supportReferenceIds": [
+        "obs-20260824-026",
+        "obs-20260824-027"
+      ],
+      "reasonNotPromoted": "Dois apoios do mesmo criador e sem reprodução do payoff."
+    },
+    {
+      "id": "hyp-20260824-008",
+      "status": "observed_not_promoted",
+      "statement": "Em desafios curtos, objetivo, obstáculo e recompensa concretos podem criar progressão compreensível mesmo com pouco tempo.",
+      "supportReferenceIds": [
+        "obs-20260824-030"
+      ],
+      "reasonNotPromoted": "Um caso de escala excepcional e pouco comparável."
+    },
+    {
+      "id": "hyp-20260824-009",
+      "status": "observed_not_promoted",
+      "statement": "Em conteúdo baseado em celebridade, reconhecimento prévio pode substituir contexto, mas reduz transferibilidade para criadores menores.",
+      "supportReferenceIds": [
+        "obs-20260824-028",
+        "obs-20260824-029"
+      ],
+      "reasonNotPromoted": "Dois casos com dependência de fama e cobertura parcial."
     }
   ],
   "contradictions": [
@@ -2018,6 +3977,28 @@
       "statement": "Falha visível pode reduzir polimento e simultaneamente aumentar autenticidade e curiosidade.",
       "evidence": [
         "obs-20260823-003"
+      ]
+    },
+    {
+      "statement": "Mais visualizações não correspondem necessariamente a maior especificidade do título.",
+      "evidence": [
+        "obs-20260824-021",
+        "obs-20260824-022",
+        "obs-20260824-023"
+      ]
+    },
+    {
+      "statement": "Clareza pode vir de revelar a pergunta ou de ocultar a consequência; a melhor escolha depende da família e da recompensa.",
+      "evidence": [
+        "obs-20260824-018",
+        "obs-20260824-027"
+      ]
+    },
+    {
+      "statement": "Produção simples e produção avançada aparecem em Shorts de alto alcance; o lote não isola o efeito da produção.",
+      "evidence": [
+        "obs-20260824-022",
+        "obs-20260824-030"
       ]
     }
   ],
@@ -2089,6 +4070,87 @@
         "Áudio, edição e cenas integrais não ficaram acessíveis de forma confiável.",
         "Métricas públicas são fotografias do momento e não prova causal.",
         "Parte dos resumos e trechos de transcrição veio de indexação secundária e foi marcada como tal."
+      ]
+    },
+    {
+      "id": "run-20260824-supervised-002",
+      "executedAt": "2026-08-24T03:05:00Z",
+      "requestedBatchSize": 15,
+      "candidatesFound": 21,
+      "discarded": [
+        {
+          "title": "Nubank Shorts institucionais",
+          "reason": "Resultados públicos não expuseram URL e metadados suficientes de uma peça específica."
+        },
+        {
+          "title": "Duolingo Brasil Shorts",
+          "reason": "Busca pública não retornou uma referência individual verificável com cobertura mínima."
+        },
+        {
+          "title": "Magalu Shorts de produto",
+          "reason": "Resultados não permitiram confirmar peça individual, duração e autoria."
+        },
+        {
+          "title": "Natura Brasil Shorts",
+          "reason": "Resultados públicos não expuseram material individual suficiente."
+        },
+        {
+          "title": "Conteúdos de T3ddy em Shorts",
+          "reason": "Métricas de canal apareceram, mas não uma ficha individual com URL e contexto verificáveis."
+        },
+        {
+          "title": "Conteúdos da Blogueirinha no próprio canal",
+          "reason": "Resultados trouxeram métricas de canal e notícias, mas não uma peça comparável; substituído por referência pública com URL explícita."
+        }
+      ],
+      "analyzed": 15,
+      "brazilianReferences": 11,
+      "internationalReferences": 4,
+      "coverageSummary": {
+        "complete": 0,
+        "partial": 15,
+        "insufficient": 0
+      },
+      "familiesCovered": [
+        "educativo",
+        "demonstracao",
+        "autoridade_opiniao",
+        "humor",
+        "entretenimento",
+        "storytelling"
+      ],
+      "segmentsCovered": [
+        "ciência",
+        "astronomia",
+        "desinformação",
+        "finanças pessoais",
+        "saúde",
+        "Canva",
+        "smartphones",
+        "humor de situação",
+        "celebridades",
+        "desafio"
+      ],
+      "patternsCreated": [
+        "pat-20260824-004",
+        "pat-20260824-005"
+      ],
+      "patternsStrengthened": [
+        "pat-20260823-002"
+      ],
+      "hypothesesCreated": [
+        "hyp-20260824-006",
+        "hyp-20260824-007",
+        "hyp-20260824-008",
+        "hyp-20260824-009"
+      ],
+      "validatedPatternsCreated": 0,
+      "limitations": [
+        "A reprodução audiovisual do YouTube não ficou disponível no ambiente.",
+        "Todas as fichas são parciais; áudio, montagem, cenas, ritmo e retenção não foram avaliados.",
+        "Algumas métricas vieram de indexação secundária e carregam a data observada da fonte.",
+        "Duração exata ficou indisponível para 14 referências; elas foram classificadas como Shorts verticais com duração exata desconhecida.",
+        "Visualizações, curtidas e comentários não foram usados como prova causal."
       ]
     }
   ],
