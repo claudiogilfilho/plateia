@@ -91,7 +91,7 @@ export const observatoryReferences = mysqlTable("observatoryReferences", {
   status: mysqlEnum("status", ["processing", "analyzed", "needs_content", "failed"]).default("processing").notNull(),
   classificationJson: text("classificationJson"),
   analysisJson: text("analysisJson"),
-  promptVersion: varchar("promptVersion", { length: 32 }).default("2.0").notNull(),
+  promptVersion: varchar("promptVersion", { length: 32 }).default("3.0").notNull(),
   createdAt: timestamp("createdAt").defaultNow().notNull(),
   updatedAt: timestamp("updatedAt").defaultNow().onUpdateNow().notNull(),
 }, table => ({
@@ -105,12 +105,13 @@ export type InsertObservatoryReference = typeof observatoryReferences.$inferInse
 
 /**
  * Versioned hypotheses and patterns promoted from multiple comparable
- * references. One observation is never enough to create a validated pattern.
+ * references. Validação exige revisão humana ou evidência experimental.
  */
 export const observatoryPatterns = mysqlTable("observatoryPatterns", {
   id: int("id").autoincrement().primaryKey(),
   name: varchar("name", { length: 180 }).notNull(),
-  stage: mysqlEnum("stage", ["observation", "hypothesis", "provisional", "validated", "contradicted", "obsolete"]).default("hypothesis").notNull(),
+  patternType: varchar("patternType", { length: 80 }).default("outro").notNull(),
+  stage: mysqlEnum("stage", ["observation", "hypothesis", "supported_hypothesis", "provisional", "experimentally_validated", "contradicted", "inconclusive", "archived"]).default("hypothesis").notNull(),
   creativeFamily: varchar("creativeFamily", { length: 120 }).notNull(),
   objective: varchar("objective", { length: 160 }).notNull(),
   segment: varchar("segment", { length: 160 }).notNull(),

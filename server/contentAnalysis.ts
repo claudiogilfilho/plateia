@@ -6,8 +6,8 @@ export const CRITERIA = ["gancho", "clareza", "relevância", "desejo", "confian�
 export const VISUAL_ONLY_EXCLUDED_CRITERIA = ["clareza", "ação", "objeções"] as const;
 
 export type ContentAnalysis = {
-  consumers: Array<{ name: (typeof CONSUMERS)[number]; overallScore: number; reaction: string; criteria: Record<(typeof CRITERIA)[number], number>; mainObjection: string }>;
-  synthesis: { overallScore: number; weightedAverage: number; divergence: number; strengths: string[]; risks: string[]; recommendations: [string, string, string] };
+  consumers: Array<{ name: (typeof CONSUMERS)[number]; overallScore: number; reaction: string; criteria: Record<(typeof CRITERIA)[number], number | null>; mainObjection: string }>;
+  synthesis: { overallScore: number; weightedAverage: number; divergence: number; strengths: string[]; risks: string[]; recommendations: [string, string, string]; unassessedCriteria?: (typeof CRITERIA)[number][] };
 };
 
 const consumerContext = {
@@ -26,8 +26,8 @@ const outputSchema = {
     schema: {
       type: "object",
       properties: {
-        consumers: { type: "array", minItems: 5, maxItems: 5, items: { type: "object", properties: { name: { type: "string", enum: [...CONSUMERS] }, overallScore: { type: "integer", minimum: 0, maximum: 100 }, reaction: { type: "string" }, criteria: { type: "object", properties: { gancho: { type: "integer", minimum: 0, maximum: 100 }, clareza: { type: "integer", minimum: 0, maximum: 100 }, relevância: { type: "integer", minimum: 0, maximum: 100 }, desejo: { type: "integer", minimum: 0, maximum: 100 }, confiança: { type: "integer", minimum: 0, maximum: 100 }, retenção: { type: "integer", minimum: 0, maximum: 100 }, ação: { type: "integer", minimum: 0, maximum: 100 }, objeções: { type: "integer", minimum: 0, maximum: 100 } }, required: [...CRITERIA], additionalProperties: false }, mainObjection: { type: "string" } }, required: ["name", "overallScore", "reaction", "criteria", "mainObjection"], additionalProperties: false } },
-        synthesis: { type: "object", properties: { overallScore: { type: "integer", minimum: 0, maximum: 100 }, weightedAverage: { type: "integer", minimum: 0, maximum: 100 }, divergence: { type: "integer", minimum: 0, maximum: 100 }, strengths: { type: "array", items: { type: "string" }, minItems: 2, maxItems: 4 }, risks: { type: "array", items: { type: "string" }, minItems: 2, maxItems: 4 }, recommendations: { type: "array", items: { type: "string" }, minItems: 3, maxItems: 3 } }, required: ["overallScore", "weightedAverage", "divergence", "strengths", "risks", "recommendations"], additionalProperties: false },
+        consumers: { type: "array", minItems: 5, maxItems: 5, items: { type: "object", properties: { name: { type: "string", enum: [...CONSUMERS] }, overallScore: { type: "integer", minimum: 0, maximum: 100 }, reaction: { type: "string" }, criteria: { type: "object", properties: Object.fromEntries(CRITERIA.map(criterion => [criterion, { anyOf: [{ type: "integer", minimum: 0, maximum: 100 }, { type: "null" }] }])), required: [...CRITERIA], additionalProperties: false }, mainObjection: { type: "string" } }, required: ["name", "overallScore", "reaction", "criteria", "mainObjection"], additionalProperties: false } },
+        synthesis: { type: "object", properties: { overallScore: { type: "integer", minimum: 0, maximum: 100 }, weightedAverage: { type: "integer", minimum: 0, maximum: 100 }, divergence: { type: "integer", minimum: 0, maximum: 100 }, strengths: { type: "array", items: { type: "string" }, minItems: 2, maxItems: 4 }, risks: { type: "array", items: { type: "string" }, minItems: 2, maxItems: 4 }, recommendations: { type: "array", items: { type: "string" }, minItems: 3, maxItems: 3 }, unassessedCriteria: { type: "array", items: { type: "string", enum: [...CRITERIA] }, maxItems: 8 } }, required: ["overallScore", "weightedAverage", "divergence", "strengths", "risks", "recommendations", "unassessedCriteria"], additionalProperties: false },
       },
       required: ["consumers", "synthesis"],
       additionalProperties: false,
@@ -51,7 +51,7 @@ export function recalculateSynthesisScores(
   if (assessedCriteria.length === 0) throw new Error("A Platéia precisa de ao menos um critério avaliado.");
   const consumers = analysis.consumers.map(consumer => ({
     ...consumer,
-    overallScore: weightedConsumerScore(consumer.name, consumer.criteria, assessedCriteria, classification),
+    overallScore: weightedConsumerScore(consumer.name, consumer.criteria, assessedCriteria.filter(criterion => consumer.criteria[criterion] !== null), classification),
   }));
   const overallScore = Math.round(consumers.reduce((sum, consumer) => sum + consumer.overallScore, 0) / consumers.length);
   const divergence = Math.max(...consumers.map(consumer => consumer.overallScore)) - Math.min(...consumers.map(consumer => consumer.overallScore));
@@ -83,17 +83,18 @@ const familyBoosts: Partial<Record<ObservatoryClassification["primaryFamily"], P
 
 function weightedConsumerScore(
   name: (typeof CONSUMERS)[number],
-  scores: Record<(typeof CRITERIA)[number], number>,
+  scores: Record<(typeof CRITERIA)[number], number | null>,
   assessedCriteria: readonly (typeof CRITERIA)[number][],
   classification?: ObservatoryClassification | null,
 ) {
-  if (!classification) return Math.round(assessedCriteria.reduce((sum, criterion) => sum + scores[criterion], 0) / assessedCriteria.length);
+  if (!assessedCriteria.length) throw new Error("Nenhum critério mensurável foi retornado.");
+  if (!classification) return Math.round(assessedCriteria.reduce((sum, criterion) => sum + (scores[criterion] ?? 0), 0) / assessedCriteria.length);
   const boosts = familyBoosts[classification.primaryFamily] ?? {};
   let weightedTotal = 0;
   let totalWeight = 0;
   for (const criterion of assessedCriteria) {
     const weight = (consumerWeights[name][criterion] ?? 1) + (boosts[criterion] ?? 0);
-    weightedTotal += scores[criterion] * weight;
+    weightedTotal += (scores[criterion] ?? 0) * weight;
     totalWeight += weight;
   }
   return Math.round(weightedTotal / totalWeight);
@@ -102,7 +103,8 @@ function weightedConsumerScore(
 function recordOf(value: unknown, field: string): Record<string, unknown> { if (!value || typeof value !== "object" || Array.isArray(value)) throw new Error(`${field} inválido na resposta da IA.`); return value as Record<string, unknown>; }
 function textOf(value: unknown, field: string) { if (typeof value !== "string" || !value.trim()) throw new Error(`${field} inválido na resposta da IA.`); return value.trim(); }
 function scoreOf(value: unknown, field: string) { const score = Number(value); if (!Number.isFinite(score)) throw new Error(`${field} precisa ser uma nota numérica.`); return Math.round(Math.max(0, Math.min(100, score))); }
-function listOf(value: unknown, field: string, min: number, max: number) { if (!Array.isArray(value) || value.length < min || value.length > max) throw new Error(`${field} possui quantidade inválida de itens.`); return value.map((item, index) => textOf(item, `${field} ${index + 1}`)); }
+function nullableScoreOf(value: unknown, field: string) { return value === null ? null : scoreOf(value, field); }
+function listOf(value: unknown, field: string, min: number, max: number) { if (value === undefined && min === 0) return []; if (!Array.isArray(value) || value.length < min || value.length > max) throw new Error(`${field} possui quantidade inválida de itens.`); return value.map((item, index) => textOf(item, `${field} ${index + 1}`)); }
 
 const safeRecommendations = [
   "Torne o benefício principal mais específico e visível nos primeiros segundos.",
@@ -128,18 +130,22 @@ export function normalizeAnalysis(input: unknown, classification?: ObservatoryCl
     const consumer = rawConsumers.find(item => item.name === name);
     if (!consumer) throw new Error("Consumidor ausente na resposta da IA.");
     const rawCriteria = recordOf(consumer.criteria, `Critérios de ${name}`);
-    return { name, overallScore: scoreOf(consumer.overallScore, `Nota geral de ${name}`), reaction: textOf(consumer.reaction, `Reação de ${name}`), criteria: Object.fromEntries(CRITERIA.map(criterion => [criterion, scoreOf(rawCriteria[criterion], `${criterion} de ${name}`)])) as Record<(typeof CRITERIA)[number], number>, mainObjection: textOf(consumer.mainObjection, `Objeção de ${name}`) };
+    return { name, overallScore: scoreOf(consumer.overallScore, `Nota geral de ${name}`), reaction: textOf(consumer.reaction, `Reação de ${name}`), criteria: Object.fromEntries(CRITERIA.map(criterion => [criterion, nullableScoreOf(rawCriteria[criterion], `${criterion} de ${name}`)])) as Record<(typeof CRITERIA)[number], number | null>, mainObjection: textOf(consumer.mainObjection, `Objeção de ${name}`) };
   });
   const rawSynthesis = recordOf(raw.synthesis, "Síntese");
   scoreOf(rawSynthesis.overallScore, "Nota geral");
   scoreOf(rawSynthesis.weightedAverage, "Média ponderada");
   scoreOf(rawSynthesis.divergence, "Divergência");
-  return validateAnalysisShape(recalculateSynthesisScores({ consumers, synthesis: { overallScore: 0, weightedAverage: 0, divergence: 0, strengths: listOf(rawSynthesis.strengths, "Pontos fortes", 2, 4), risks: listOf(rawSynthesis.risks, "Riscos", 2, 4), recommendations: sanitizeRecommendations(listOf(rawSynthesis.recommendations, "Recomendações", 3, 3)) } }, CRITERIA, classification));
+  const declaredUnassessed = listOf(rawSynthesis.unassessedCriteria, "Critérios não avaliados", 0, 8).filter((item): item is (typeof CRITERIA)[number] => (CRITERIA as readonly string[]).includes(item));
+  const unassessedCriteria = Array.from(new Set([...declaredUnassessed, ...CRITERIA.filter(criterion => consumers.some(consumer => consumer.criteria[criterion] === null))]));
+  const assessedCriteria = CRITERIA.filter(criterion => !unassessedCriteria.includes(criterion));
+  return validateAnalysisShape(recalculateSynthesisScores({ consumers, synthesis: { overallScore: 0, weightedAverage: 0, divergence: 0, strengths: listOf(rawSynthesis.strengths, "Pontos fortes", 2, 4), risks: listOf(rawSynthesis.risks, "Riscos", 2, 4), recommendations: sanitizeRecommendations(listOf(rawSynthesis.recommendations, "Recomendações", 3, 3)), unassessedCriteria } }, assessedCriteria, classification));
 }
 
 export function applyVisualOnlyScope(analysis: ContentAnalysis, classification?: ObservatoryClassification | null): ContentAnalysis {
   const visualCriteria = CRITERIA.filter(criterion => !VISUAL_ONLY_EXCLUDED_CRITERIA.includes(criterion as (typeof VISUAL_ONLY_EXCLUDED_CRITERIA)[number]));
-  return recalculateSynthesisScores(analysis, visualCriteria, classification);
+  const consumers = analysis.consumers.map(consumer => ({ ...consumer, criteria: Object.fromEntries(CRITERIA.map(criterion => [criterion, visualCriteria.includes(criterion) ? consumer.criteria[criterion] : null])) as ContentAnalysis["consumers"][number]["criteria"] }));
+  return recalculateSynthesisScores({ ...analysis, consumers, synthesis: { ...analysis.synthesis, unassessedCriteria: Array.from(new Set([...(analysis.synthesis.unassessedCriteria ?? []), ...VISUAL_ONLY_EXCLUDED_CRITERIA])) } }, visualCriteria, classification);
 }
 
 export function parseStructuredEvaluation(raw: string) {
@@ -158,7 +164,7 @@ export async function evaluateContent(input: { contentType: "post" | "carrossel"
     : "\nO Observatório ainda não forneceu classificação ou referências comparáveis. Não invente benchmark.";
   const prompt = `Você é o motor de avaliação da Platéia, uma plataforma brasileira de pré-avaliação de conteúdo para redes sociais.
 
-Avalie o material abaixo sem afirmar que ele prevê vendas. Simule lentes comportamentais para os cinco consumidores obrigatórios e avalie todos os oito critérios obrigatórios. Notas mais altas em “objeções” significam menor barreira percebida; notas baixas significam maior resistência ou risco. Seja específico, prático, respeitoso e escreva em português do Brasil.
+Avalie o material abaixo sem afirmar que ele prevê vendas. Simule lentes comportamentais para os cinco consumidores obrigatórios. Considere os oito critérios, mas atribua nota somente quando houver material acessível para mensurá-los. Para qualquer critério incompatível ou inacessível, retorne null para todos os consumidores e inclua seu nome em synthesis.unassessedCriteria; ausência nunca é zero. Notas mais altas em “objeções” significam menor barreira percebida; notas baixas significam maior resistência ou risco. Seja específico, prático, respeitoso e escreva em português do Brasil.
 
 Conteúdo: ${input.contentType}
 Produto relacionado: ${input.product || "Não informado"}

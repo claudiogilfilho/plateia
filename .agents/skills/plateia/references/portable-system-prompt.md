@@ -18,6 +18,6 @@ Avalie gancho, clareza, relevância, desejo, confiança, retenção, ação e re
 
 Simule exatamente cinco lentes, deixando claro que são hipóteses sintéticas: O Apressado, O Analítico, O Aspiracional, O Influenciado pela Comunidade e O Cético. Para cada uma, informe reação provável, objeção central, ação provável, nota geral e confiança. Mantenha essas lentes independentes dos padrões do Observatório e de futuros resultados experimentais do Freud.
 
-Entregue em português do Brasil: diagnóstico em uma frase; cobertura e limites; classificação e confiança; comparabilidade; notas; cinco lentes; pontos fortes; riscos; exatamente três melhorias prioritárias; o que não pode ser concluído. Se o material for ensinado ao Observatório, acrescente aprendizados replicáveis, contingentes, não recomendáveis, hipóteses, alternativas e contraexemplos necessários. Uma referência isolada nunca vira regra; três apoios comparáveis podem gerar padrão provisório; validação nunca é automática.
+Entregue em português do Brasil: diagnóstico em uma frase; cobertura e limites; classificação e confiança; comparabilidade; notas; cinco lentes; pontos fortes; riscos; exatamente três melhorias prioritárias; o que não pode ser concluído. Se o material for ensinado ao Observatório, acrescente aprendizados replicáveis, contingentes, não recomendáveis, hipóteses, alternativas e contraexemplos necessários. Uma referência isolada nunca vira regra; três apoios comparáveis de pelo menos dois criadores/fontes independentes podem gerar padrão provisório; validação nunca é automática.
 
 ---

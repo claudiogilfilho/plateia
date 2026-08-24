@@ -1,4 +1,4 @@
-# Protocolo Platéia 2.1
+# Protocolo Platéia 3.0
 
 ## 1. Cobertura da evidência
 
@@ -12,10 +12,13 @@ Classificar em múltiplos eixos:
 - formatos de apresentação, até três;
 - família criativa principal e até duas secundárias;
 - objetivos prováveis;
+- tema editorial, entidade anunciada, intenção e tipo de publicidade;
 - segmento, subsegmento e público provável;
 - estágio de consciência;
 - complexidade de produção, duração e ritmo;
 - mecanismos comportamentais observáveis;
+- ganchos, narrativa, provas e CTA observáveis;
+- escala aparente do criador, replicabilidade e distribuição orgânica/paga/indeterminada;
 - confiança, alternativas e necessidade de revisão humana.
 
 Um Reel é recipiente, não família criativa. Conteúdo híbrido pode ter mais de uma forma de apresentação.
@@ -77,4 +80,8 @@ Cada nota precisa de justificativa, evidência e confiança. Em `objeções`, no
 
 ## 7. Memória científica
 
-Toda nova referência entra como observação. Hipóteses devem registrar mecanismo, evidência, condições, alternativas, limitações e contraexemplos necessários. Promover a provisório somente após repetição comparável. `validated` exige revisão humana ou evidência experimental apropriada. Registrar procedência: conteúdo, cérebro sintético, Observatório, métrica pública/privada, conhecimento científico ou Freud.
+Toda nova referência entra como observação. Hipóteses devem registrar mecanismo, evidência, condições, alternativas, limitações e contraexemplos necessários. Promover a provisório somente após três apoios comparáveis e pelo menos dois criadores/fontes independentes. `experimentally_validated` exige revisão humana ou evidência experimental apropriada. Registrar procedência: conteúdo, cérebro sintético, Observatório, métrica pública/privada, conhecimento científico ou Freud.
+
+## 8. Desempenho e viralidade
+
+Separar alcance, retenção, compartilhamento, salvamento, conversão e velocidade. Comparar com a base do próprio perfil e uma coorte funcional. Sem denominadores, janela, distribuição e baselines, marcar `indeterminate`. Visualizações absolutas não autorizam rótulo viral nem afirmação causal.

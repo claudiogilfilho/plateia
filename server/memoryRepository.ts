@@ -10,6 +10,7 @@ import type {
   User,
 } from "../drizzle/schema";
 import type { ObservatoryHypothesisInput } from "./db";
+import { decidePatternStage } from "./patternEvidence";
 
 let analysisId = 1;
 let instagramConnectionId = 1;
@@ -139,7 +140,7 @@ export function memoryCreateObservatoryReference(input: Omit<InsertObservatoryRe
     status: "processing",
     classificationJson: null,
     analysisJson: null,
-    promptVersion: "2.0",
+    promptVersion: "3.0",
     createdAt: now,
     updatedAt: now,
   };
@@ -168,7 +169,7 @@ export function memoryGetObservatoryReference(id: number) {
 
 export function memoryListActivePatterns() {
   return patterns
-    .filter(item => item.stage === "provisional" || item.stage === "validated")
+    .filter(item => item.stage === "provisional" || item.stage === "experimentally_validated")
     .sort((a, b) => b.updatedAt.getTime() - a.updatedAt.getTime());
 }
 
@@ -195,11 +196,11 @@ export function memoryRecordObservatoryHypotheses(
     if (!name || processed.has(fingerprint)) continue;
     processed.add(fingerprint);
     const current = patterns.find(item => normalize(item.name) === normalize(name) && item.creativeFamily === classification.primaryFamily && item.objective === objective && item.segment === segment);
-    const evidence = { referenceId: currentReferenceId, observation: hypothesis.observation, evidence: hypothesis.evidence, limitations: hypothesis.limitations };
+    const evidence = { referenceId: currentReferenceId, kind: hypothesis.stage === "contradicted" ? "counterexample" : "support", observation: hypothesis.observation, evidence: hypothesis.evidence, limitations: hypothesis.limitations };
     if (!current) {
       const now = new Date();
       patterns.push({
-        id: patternId++, name, stage: hypothesis.stage === "contradicted" ? "contradicted" : "observation",
+        id: patternId++, name, patternType: hypothesis.patternType, stage: hypothesis.stage === "contradicted" ? "contradicted" : "observation",
         creativeFamily: classification.primaryFamily, objective, segment, mechanism: hypothesis.mechanism,
         conditionsJson: JSON.stringify(hypothesis.conditions), evidenceJson: JSON.stringify([evidence]),
         supportingCount: hypothesis.stage === "contradicted" ? 0 : 1,
@@ -209,14 +210,18 @@ export function memoryRecordObservatoryHypotheses(
       continue;
     }
     const counterexample = hypothesis.stage === "contradicted";
-    const supportingCount = current.supportingCount + (counterexample ? 0 : 1);
-    const counterexampleCount = current.counterexampleCount + (counterexample ? 1 : 0);
-    const stage = counterexampleCount >= supportingCount && counterexampleCount >= 2 ? "contradicted" : current.stage === "validated" ? "validated" : supportingCount >= 3 ? "provisional" : "hypothesis";
+    const previousEvidence = readArray(current.evidenceJson) as Array<{ referenceId?: number; kind?: string }>;
+    const alreadyCounted = previousEvidence.some(item => item.referenceId === currentReferenceId);
+    const supportingCount = current.supportingCount + (!alreadyCounted && !counterexample ? 1 : 0);
+    const counterexampleCount = current.counterexampleCount + (!alreadyCounted && counterexample ? 1 : 0);
+    const evidenceItems = alreadyCounted ? previousEvidence : [...previousEvidence, evidence];
+    const supportingCreators = evidenceItems.filter(item => item.referenceId && item.kind !== "counterexample").map(item => references.find(reference => reference.id === item.referenceId)?.creator || "");
+    const { stage } = decidePatternStage({ supportingCount, counterexampleCount, supportingCreators, existingStage: current.stage });
     Object.assign(current, {
       stage, supportingCount, counterexampleCount,
-      confidence: stage === "validated" || (stage === "provisional" && supportingCount >= 5) ? "high" : stage === "provisional" ? "medium" : "low",
+      confidence: stage === "experimentally_validated" || (stage === "provisional" && supportingCount >= 5) ? "high" : stage === "provisional" ? "medium" : "low",
       conditionsJson: JSON.stringify(Array.from(new Set([...readArray(current.conditionsJson), ...hypothesis.conditions])).slice(0, 20)),
-      evidenceJson: JSON.stringify([...readArray(current.evidenceJson), evidence].slice(-20)),
+      evidenceJson: JSON.stringify(evidenceItems.slice(-20)),
       updatedAt: new Date(),
     });
   }

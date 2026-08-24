@@ -1,6 +1,6 @@
 import type { ComparableReferenceSummary, ObservatoryClassification, ObservatoryMaterialInput } from "./observatory";
 
-export const OBSERVATORY_MASTER_PROMPT_VERSION = "2.0";
+export const OBSERVATORY_MASTER_PROMPT_VERSION = "3.0";
 
 function list(values: string[]) {
   return values.length ? values.join(", ") : "não informado";
@@ -18,13 +18,15 @@ MATERIAL
 - Mídia acessível: ${input.mediaUrl ? `sim (${input.mediaMimeType || "formato desconhecido"})` : "não"}
 
 CLASSIFIQUE EM VÁRIOS EIXOS
-1. Formato material: Reel, vídeo curto, arte estática, carrossel, copy ou híbrido.
+1. Recipiente/plataforma e formato material: Reel, vídeo curto/longo, corte, arte estática, carrossel, copy ou híbrido.
 2. Formato de apresentação: câmera direta, corte de podcast, diálogo, dramatização, reação, narração, demonstração, tutorial, transformação, bastidores, depoimento, estudo de caso, reportagem, animação, tela gravada, montagem, trend, meme, UGC, produto, institucional ou outro.
 3. Família criativa principal e até duas secundárias.
-4. Objetivos prováveis, sem presumir venda quando não houver evidência.
-5. Segmento, subsegmento, público e estágio de consciência.
-6. Complexidade de produção, duração, ritmo e mecanismos comportamentais observáveis.
-7. Confiança da classificação, alternativas plausíveis, informações ausentes e necessidade de revisão humana.
+4. Objetivos prováveis, tipo de publicidade e intenção comercial. Separe tema editorial do produto/serviço anunciado; não presuma venda.
+5. Segmento, subsegmento, assunto, entidade anunciada, público e estágio de consciência. Use código IAB somente quando houver correspondência segura; senão deixe nulo.
+6. Complexidade de produção, escala aparente do criador, replicabilidade, duração, ritmo e contexto orgânico/pago. "Desconhecido" é preferível a adivinhação.
+7. Mecanismos, tipos de gancho, elementos narrativos, tipos de prova e CTA que estejam efetivamente observáveis.
+8. Em híbridos, informe a mistura funcional em percentuais; a soma deve ser 100.
+9. Confiança, evidências, alternativas, ausências e revisão humana. Uma pista fraca não autoriza classificação forte.
 
 Um Reel é apenas um recipiente. Não force conteúdos híbridos a uma categoria única. Retorne somente JSON compatível com o esquema.`;
 }
@@ -46,6 +48,7 @@ REGRAS INEGOCIÁVEIS
 - Separe fato observado, interpretação, hipótese, padrão, resultado mensurado e evidência experimental.
 - Nunca trate correlação como causalidade nem crie regra a partir de um único conteúdo.
 - Não presuma mídia paga, organicidade, alcance, retenção ou características do público.
+- Não chame um conteúdo de viral só por visualizações absolutas. Compare com a base histórica do perfil e coorte funcional; sem denominadores, janela temporal e distribuição, marque desempenho como indeterminado.
 - Informação ausente é "não mensurado", nunca nota zero.
 - Não compare apenas pelo recipiente. Use família, objetivo, segmento, apresentação, duração, público, consciência, produção e contexto.
 - Extraia princípios transferíveis; não copie expressão criativa, frase, roteiro, bordão ou personagem.
@@ -81,8 +84,8 @@ PROTOCOLO DE ANÁLISE
 11. Diferencie autoridade demonstrada, autoridade percebida e popularidade. Examine especificidade, prova, coerência, transparência, exagero, ambiguidade e distância promessa-recompensa.
 12. Avalie CTA, próximo passo, esforço, benefício, custo percebido, urgência, continuidade e potencial de comentário, salvamento, compartilhamento ou conversa.
 13. Dê notas apenas aos critérios mensuráveis: gancho, clareza, relevância, desejo, confiança, retenção, ação e redução de objeções. Justifique com evidência e grupo comparável.
-14. Se houver dados suficientes, avalie desempenho relativo ao próprio perfil e a pares comparáveis; nunca use visualização bruta isoladamente.
-15. Extraia replicáveis, dependentes de fama/contexto/orçamento, não recomendáveis, hipóteses, contraexemplos necessários e próximo teste.
+14. Se houver dados suficientes, avalie desempenho relativo ao próprio perfil e a pares comparáveis usando taxas com denominadores verificáveis (retenção, conclusão, compartilhamento, salvamento, comentário, clique ou conversão). Separe alcance, engajamento, retenção, conversão e velocidade. Nunca use visualização bruta isoladamente nem atribua causalidade.
+15. Extraia replicáveis, dependentes de fama/contexto/orçamento, não recomendáveis, hipóteses, contraexemplos necessários e próximo teste. Classifique cada hipótese como padrão de gancho, atenção, compreensão, curiosidade, narrativa, retenção, emoção, identidade, confiança, prova, objeção, ação, CTA, conversão, comunidade, distribuição, produção, replicabilidade ou outro.
 16. Simule Apressado, Analítico, Aspiracional, Influenciado pela Comunidade e Cético, deixando claro que são hipóteses sintéticas.
 17. Toda conclusão deve indicar origem: conteúdo, cérebro sintético, padrão do Observatório, métrica pública, métrica privada, conhecimento científico ou futuro experimento Freud.
 
@@ -92,5 +95,5 @@ COMPARABILIDADE
 - Nível 3: apenas mecanismo, narrativa, recompensa ou retenção semelhante.
 - Nível 4: sem comparação adequada; não use benchmark numérico nem altere padrão.
 
-Não esconda divergências. Uma análise individual deve ser armazenada como observação e não pode, sozinha, criar ou modificar regra. Retorne somente JSON compatível com o esquema.`;
+Não esconda divergências. Uma análise individual deve ser armazenada como observação e não pode, sozinha, criar ou modificar regra. Três apoios comparáveis só formam padrão provisório quando incluem ao menos dois criadores/fontes independentes. Validação exige revisão humana ou experimento. Retorne somente JSON compatível com o esquema.`;
 }

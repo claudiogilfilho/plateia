@@ -9,14 +9,14 @@ const criteria = ["gancho", "clareza", "relevância", "desejo", "confiança", "r
 type Criterion = (typeof criteria)[number];
 export type ReadingCoverage = { level: "complete" | "partial" | "requires_complement"; title: string; description: string; mode?: "visual_only" | "requires_visual"; excludedCriteria?: Criterion[] };
 type ReportData = {
-  consumers: Array<{ name: string; overallScore: number; reaction: string; criteria: Record<Criterion, number>; mainObjection: string }>;
-  synthesis: { overallScore: number; weightedAverage: number; divergence: number; strengths: string[]; risks: string[]; recommendations: [string, string, string] };
+  consumers: Array<{ name: string; overallScore: number; reaction: string; criteria: Record<Criterion, number | null>; mainObjection: string }>;
+  synthesis: { overallScore: number; weightedAverage: number; divergence: number; strengths: string[]; risks: string[]; recommendations: [string, string, string]; unassessedCriteria?: Criterion[] };
   coverage?: ReadingCoverage;
   observatory?: {
     promptVersion: string;
-    classification: { materialFormat: string; primaryFamily: string; objectives: string[]; segment: string; confidence: "low" | "medium" | "high"; needsHumanReview: boolean };
-    comparisons: Array<{ id: number; title: string; creator: string; similarity: number; comparisonLevel: 1 | 2 | 3 | 4; primaryFamily: string; segment: string }>;
-    patterns: Array<{ id: number; name: string; stage: "provisional" | "validated"; supportingCount: number; counterexampleCount: number; confidence: "low" | "medium" | "high"; mechanism: string }>;
+    classification: { materialFormat: string; primaryFamily: string; objectives: string[]; advertisingType?: string; commercialIntent?: string; mechanisms?: string[]; segment: string; confidence: "low" | "medium" | "high"; needsHumanReview: boolean };
+    comparisons: Array<{ id: string | number; title: string; creator: string; similarity: number; comparisonLevel: 1 | 2 | 3 | 4; primaryFamily: string; segment: string }>;
+    patterns: Array<{ id: string | number; name: string; stage: string; supportingCount: number; counterexampleCount: number; confidence: "low" | "medium" | "high"; mechanism: string }>;
     comparisonLevel: 1 | 2 | 3 | 4;
     benchmarkConfidence: "low" | "medium" | "high";
   } | null;
@@ -48,9 +48,12 @@ export default function Report() {
   if (!isCompleteReport(report)) return <InvalidReport />;
   const reportTitle = analysis.product || `Avaliação de ${analysis.contentType}`;
   const reportContext = [analysis.objective && `Objetivo: ${analysis.objective}`, analysis.targetAudience && `Público: ${analysis.targetAudience}`].filter(Boolean).join(" · ");
-  const excludedCriteria = report.coverage?.excludedCriteria ?? [];
+  const excludedCriteria = Array.from(new Set([...(report.coverage?.excludedCriteria ?? []), ...(report.synthesis.unassessedCriteria ?? [])]));
   const assessedCriteria = criteria.filter(key => !excludedCriteria.includes(key));
-  const avgByCriterion = Object.fromEntries(assessedCriteria.map(key => [key, Math.round(report.consumers.reduce((sum, consumer) => sum + consumer.criteria[key], 0) / report.consumers.length)])) as Partial<Record<Criterion, number>>;
+  const avgByCriterion = Object.fromEntries(assessedCriteria.flatMap(key => {
+    const scores = report.consumers.map(consumer => consumer.criteria[key]).filter((score): score is number => score !== null);
+    return scores.length ? [[key, Math.round(scores.reduce((sum, score) => sum + score, 0) / scores.length)]] : [];
+  })) as Partial<Record<Criterion, number>>;
 
   return <div className="mx-auto max-w-7xl pb-12">
     <Link href="/historico" className="mb-6 inline-flex items-center gap-2 rounded-md px-1 py-1 text-sm font-semibold text-violet-700 hover:text-violet-900 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-violet-500"><ArrowLeft className="h-4 w-4" /> Voltar ao histórico</Link>
@@ -115,7 +118,7 @@ function ObservatoryNotice({ observatory }: { observatory?: ReportData["observat
   const { classification, comparisons, patterns = [] } = observatory;
   const levelLabels = { 1: "mesma família, objetivo e segmento", 2: "mesma família e objetivo", 3: "mecanismo semelhante", 4: "sem equivalente confiável" } as const;
   const confidenceLabels = { low: "baixa", medium: "média", high: "alta" } as const;
-  return <section className="mt-6 rounded-2xl border border-violet-100 bg-violet-50/55 p-5 sm:p-6"><div className="flex items-start gap-3"><div className="grid h-10 w-10 shrink-0 place-items-center rounded-xl bg-[#2b1058] text-white"><BrainCircuit className="h-5 w-5" /></div><div className="min-w-0 flex-1"><div className="flex flex-wrap items-center gap-2"><p className="text-xs font-bold uppercase tracking-[0.16em] text-violet-600">Contexto do Observatório</p><Badge variant="outline" className="border-violet-200 bg-white text-violet-700">Confiança {confidenceLabels[observatory.benchmarkConfidence]}</Badge></div><h2 className="mt-1 font-display text-xl font-extrabold text-[#2b1058] capitalize">{humanize(classification.primaryFamily)} · {classification.segment}</h2><p className="mt-2 text-sm leading-6 text-slate-600">A avaliação identificou este material como <strong>{humanize(classification.materialFormat)}</strong>, com objetivo provável de <strong>{classification.objectives.map(humanize).join(", ")}</strong>. A comparação usada foi de nível {observatory.comparisonLevel}: {levelLabels[observatory.comparisonLevel]}.</p>{comparisons.length ? <p className="mt-2 text-xs leading-5 text-slate-500">Base comparável: {comparisons.length} {comparisons.length === 1 ? "referência curada" : "referências curadas"}; {patterns.length} {patterns.length === 1 ? "padrão provisório/validado relevante" : "padrões provisórios/validados relevantes"}. O Observatório informa contexto; os cinco cérebros sintéticos continuam independentes.</p> : <p className="mt-2 text-xs leading-5 text-amber-700">Ainda não há referência suficientemente semelhante. A nota foi calculada pelos critérios estruturais e não foi tratada como benchmark de categoria.</p>}</div></div></section>;
+  return <section className="mt-6 rounded-2xl border border-violet-100 bg-violet-50/55 p-5 sm:p-6"><div className="flex items-start gap-3"><div className="grid h-10 w-10 shrink-0 place-items-center rounded-xl bg-[#2b1058] text-white"><BrainCircuit className="h-5 w-5" /></div><div className="min-w-0 flex-1"><div className="flex flex-wrap items-center gap-2"><p className="text-xs font-bold uppercase tracking-[0.16em] text-violet-600">Contexto do Observatório</p><Badge variant="outline" className="border-violet-200 bg-white text-violet-700">Confiança {confidenceLabels[observatory.benchmarkConfidence]}</Badge></div><h2 className="mt-1 font-display text-xl font-extrabold text-[#2b1058] capitalize">{humanize(classification.primaryFamily)} · {classification.segment}</h2><p className="mt-2 text-sm leading-6 text-slate-600">A avaliação identificou este material como <strong>{humanize(classification.materialFormat)}</strong>, com objetivo provável de <strong>{classification.objectives.map(humanize).join(", ")}</strong>{classification.advertisingType ? <> e publicidade <strong>{humanize(classification.advertisingType)}</strong></> : null}. A comparação usada foi de nível {observatory.comparisonLevel}: {levelLabels[observatory.comparisonLevel]}.</p>{comparisons.length ? <><p className="mt-2 text-xs leading-5 text-slate-500">Base comparável: {comparisons.length} {comparisons.length === 1 ? "referência curada" : "referências curadas"}; {patterns.length} {patterns.length === 1 ? "padrão provisório relevante" : "padrões provisórios relevantes"}. O Observatório informa contexto; os cinco cérebros sintéticos continuam independentes.</p><p className="mt-2 text-xs leading-5 text-slate-500"><strong>Referências que influenciaram a comparação:</strong> {comparisons.slice(0, 3).map(item => `${item.title} — ${item.creator}`).join("; ")}.</p>{patterns.length ? <p className="mt-1 text-xs leading-5 text-slate-500"><strong>Padrões usados:</strong> {patterns.slice(0, 3).map(item => item.name).join("; ")}.</p> : null}</> : <p className="mt-2 text-xs leading-5 text-amber-700">Ainda não há referência suficientemente semelhante. A nota foi calculada pelos critérios estruturais e não foi tratada como benchmark de categoria.</p>}</div></div></section>;
 }
 
 export function getComplementAction(coverage: ReadingCoverage | undefined, contentType: string, sourceUrl: string | null) {

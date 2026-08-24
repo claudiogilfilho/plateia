@@ -3,6 +3,7 @@ import { builtInEvaluationProvider, setEvaluationProvider } from "./aiProvider";
 import { applyVisualOnlyScope, CONSUMERS, CRITERIA, evaluateContent, normalizeAnalysis, parseStructuredEvaluation, recalculateSynthesisScores, validateAnalysisShape } from "./contentAnalysis";
 import { createAnalysisInputSchema } from "./analysisRouter";
 import { isAllowedPublicHttpsUrl, isInstagramPublicationUrl, resolveInstagramMaterial } from "./publicLinks";
+import { normalizeClassification } from "./observatory";
 
 const criteria = Object.fromEntries(CRITERIA.map(key => [key, 70])) as Record<(typeof CRITERIA)[number], number>;
 
@@ -68,9 +69,9 @@ describe("validateAnalysisShape", () => {
     const result = recalculateSynthesisScores({
       consumers: CONSUMERS.map(name => ({ name, overallScore: 0, reaction: "Reação objetiva.", criteria: { gancho: 95, clareza: 30, relevância: 60, desejo: 40, confiança: 25, retenção: 90, ação: 20, objeções: 20 }, mainObjection: "Sem objeção crítica." })),
       synthesis: { overallScore: 0, weightedAverage: 0, divergence: 0, strengths: ["Mensagem clara.", "Chamada visível."], risks: ["Prova limitada.", "Ritmo lento."], recommendations: ["Melhorar o gancho.", "Adicionar prova.", "Reduzir texto."] },
-    }, CRITERIA, {
+    }, CRITERIA, normalizeClassification({
       materialFormat: "reel", presentationFormats: ["camera_direta"], primaryFamily: "entretenimento", secondaryFamilies: [], objectives: ["retencao"], segment: "geral", subsegment: "geral", probableAudience: "geral", awarenessStage: "indeterminado", productionLevel: "simple", durationBand: "16_to_30s", pace: "fast", mechanisms: ["curiosidade"], confidence: "medium", evidence: [], alternativeClassifications: [], missingInformation: [], needsHumanReview: false,
-    });
+    }));
     expect(result.consumers[0].overallScore).toBeGreaterThan(result.consumers[4].overallScore);
     expect(result.synthesis.divergence).toBeGreaterThan(0);
   });

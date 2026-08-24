@@ -1,14 +1,17 @@
 import type { ObservatoryReference } from "../drizzle/schema";
+import {
+  ADVERTISING_TYPES, AWARENESS_STAGES, COMMERCIAL_INTENTS, CONTAINERS, CREATIVE_FAMILIES,
+  CTA_TYPES, DURATION_BANDS, HOOK_TYPES, MATERIAL_FORMATS, MECHANISMS, NARRATIVE_ELEMENTS,
+  OBJECTIVES, PACES, PLATEIA_TAXONOMY_VERSION, PRESENTATION_FORMATS, PRODUCTION_LEVELS,
+  PROOF_TYPES, PATTERN_TYPES, TAXONOMY_ALIASES, type ObservatoryClassification,
+} from "../shared/plateiaTaxonomy";
 import { evaluateWithProvider } from "./aiProvider";
 import { listActiveObservatoryPatterns, listAnalyzedObservatoryReferences } from "./db";
 import { buildClassificationPrompt, buildObservatoryCuratorPrompt } from "./observatoryPrompt";
+import { listPortablePatterns, listPortableReferences } from "./portableObservatoryMemory";
+import { canonicalPublicUrl } from "./publicUrlIdentity";
 
-export const MATERIAL_FORMATS = ["video_curto", "video_longo", "reel", "corte", "arte_estatica", "fotografia", "carrossel", "copy", "hibrido", "outro"] as const;
-export const PRESENTATION_FORMATS = ["camera_direta", "podcast_entrevista", "dialogo", "dramatizacao", "esquete", "reacao", "comentario", "narracao_imagens", "demonstracao", "tutorial", "transformacao", "bastidores", "depoimento", "estudo_caso", "reportagem", "animacao", "tela_gravada", "montagem", "trend", "meme", "ugc", "produto", "institucional", "manifesto", "outro"] as const;
-export const CREATIVE_FAMILIES = ["educativo", "explicativo", "autoridade_opiniao", "noticia_atualidade", "storytelling", "entretenimento", "humor", "curiosidade", "demonstracao", "transformacao", "inspiracao", "identificacao", "comunidade", "polemica", "conscientizacao", "oferta_direta", "venda_indireta", "prova_estudo_caso", "depoimento", "institucional", "posicionamento_marca", "comparacao", "reacao", "hibrido"] as const;
-export const OBJECTIVES = ["interromper_rolagem", "alcance", "visualizacao", "retencao", "educar", "consciencia_problema", "apresentar_solucao", "autoridade", "confianca", "identificacao", "compartilhamento", "salvamento", "comentario", "comunidade", "seguidores", "lead", "conversa", "venda", "trafego", "marca", "outro"] as const;
-export const AWARENESS_STAGES = ["inconsciente", "consciente_problema", "consciente_solucao", "consciente_produto", "preparado_agir", "indeterminado"] as const;
-export const MECHANISMS = ["curiosidade", "surpresa", "aproximacao", "desejo", "aversao_perda", "medo", "indignacao", "humor", "admiracao", "identificacao", "pertencimento", "confianca", "vigilancia", "urgencia", "alivio", "recompensa"] as const;
+export { MATERIAL_FORMATS, PRESENTATION_FORMATS, CREATIVE_FAMILIES, OBJECTIVES, AWARENESS_STAGES, MECHANISMS };
 
 export type ObservatoryMaterialInput = {
   contentType: "post" | "carrossel" | "reel" | "copy";
@@ -21,31 +24,13 @@ export type ObservatoryMaterialInput = {
   metrics?: Record<string, number | string | null> | null;
 };
 
-export type ObservatoryClassification = {
-  materialFormat: (typeof MATERIAL_FORMATS)[number];
-  presentationFormats: (typeof PRESENTATION_FORMATS)[number][];
-  primaryFamily: (typeof CREATIVE_FAMILIES)[number];
-  secondaryFamilies: (typeof CREATIVE_FAMILIES)[number][];
-  objectives: (typeof OBJECTIVES)[number][];
-  segment: string;
-  subsegment: string;
-  probableAudience: string;
-  awarenessStage: (typeof AWARENESS_STAGES)[number];
-  productionLevel: "simple" | "intermediate" | "complex" | "unknown";
-  durationBand: "up_to_15s" | "16_to_30s" | "31_to_60s" | "over_60s" | "not_applicable" | "unknown";
-  pace: "slow" | "moderate" | "fast" | "not_applicable" | "unknown";
-  mechanisms: (typeof MECHANISMS)[number][];
-  confidence: "low" | "medium" | "high";
-  evidence: string[];
-  alternativeClassifications: string[];
-  missingInformation: string[];
-  needsHumanReview: boolean;
-};
+export type { ObservatoryClassification };
 
 export type ComparableReferenceSummary = {
-  id: number;
+  id: string | number;
   title: string;
   creator: string;
+  sourceUrl?: string | null;
   similarity: number;
   comparisonLevel: 1 | 2 | 3 | 4;
   primaryFamily: string;
@@ -54,10 +39,10 @@ export type ComparableReferenceSummary = {
 };
 
 export type ObservatoryContext = {
-  promptVersion: "2.0";
+  promptVersion: "3.0";
   classification: ObservatoryClassification;
   comparisons: ComparableReferenceSummary[];
-  patterns: Array<{ id: number; name: string; stage: "provisional" | "validated"; supportingCount: number; counterexampleCount: number; confidence: "low" | "medium" | "high"; mechanism: string }>;
+  patterns: Array<{ id: string | number; name: string; stage: string; supportingCount: number; counterexampleCount: number; confidence: "low" | "medium" | "high"; mechanism: string; source: "database" | "portable_memory" }>;
   comparisonLevel: 1 | 2 | 3 | 4;
   benchmarkConfidence: "low" | "medium" | "high";
 };
@@ -70,26 +55,40 @@ const classificationSchema = {
     schema: {
       type: "object",
       properties: {
+        taxonomyVersion: { type: "string", enum: [PLATEIA_TAXONOMY_VERSION] },
+        container: { type: "string", enum: [...CONTAINERS] },
         materialFormat: { type: "string", enum: [...MATERIAL_FORMATS] },
         presentationFormats: { type: "array", minItems: 1, maxItems: 3, items: { type: "string", enum: [...PRESENTATION_FORMATS] } },
         primaryFamily: { type: "string", enum: [...CREATIVE_FAMILIES] },
         secondaryFamilies: { type: "array", maxItems: 2, items: { type: "string", enum: [...CREATIVE_FAMILIES] } },
         objectives: { type: "array", minItems: 1, maxItems: 4, items: { type: "string", enum: [...OBJECTIVES] } },
+        functionalMix: { type: "array", maxItems: 3, items: { type: "object", properties: { family: { type: "string", enum: [...CREATIVE_FAMILIES] }, percentage: { type: "integer", minimum: 1, maximum: 100 } }, required: ["family", "percentage"], additionalProperties: false } },
+        advertisingType: { type: "string", enum: [...ADVERTISING_TYPES] },
+        commercialIntent: { type: "string", enum: [...COMMERCIAL_INTENTS] },
+        advertisedEntity: { type: "object", properties: { kind: { type: "string", enum: ["produto", "servico", "marca", "causa", "pessoa", "nenhuma", "indeterminado"] }, name: { type: "string" }, confidence: { type: "string", enum: ["low", "medium", "high"] } }, required: ["kind", "name", "confidence"], additionalProperties: false },
+        contentTopic: { type: "object", properties: { label: { type: "string" }, iabCode: { anyOf: [{ type: "string" }, { type: "null" }] } }, required: ["label", "iabCode"], additionalProperties: false },
         segment: { type: "string" },
         subsegment: { type: "string" },
         probableAudience: { type: "string" },
         awarenessStage: { type: "string", enum: [...AWARENESS_STAGES] },
         productionLevel: { type: "string", enum: ["simple", "intermediate", "complex", "unknown"] },
+        creatorScale: { type: "string", enum: ["small", "medium", "large", "unknown"] },
+        replicability: { type: "string", enum: ["high", "medium", "low", "unknown"] },
         durationBand: { type: "string", enum: ["up_to_15s", "16_to_30s", "31_to_60s", "over_60s", "not_applicable", "unknown"] },
         pace: { type: "string", enum: ["slow", "moderate", "fast", "not_applicable", "unknown"] },
         mechanisms: { type: "array", maxItems: 6, items: { type: "string", enum: [...MECHANISMS] } },
+        hookTypes: { type: "array", maxItems: 5, items: { type: "string", enum: [...HOOK_TYPES] } },
+        narrativeElements: { type: "array", maxItems: 10, items: { type: "string", enum: [...NARRATIVE_ELEMENTS] } },
+        proofTypes: { type: "array", maxItems: 6, items: { type: "string", enum: [...PROOF_TYPES] } },
+        ctaTypes: { type: "array", maxItems: 4, items: { type: "string", enum: [...CTA_TYPES] } },
+        distributionContext: { type: "object", properties: { organicPaid: { type: "string", enum: ["organic", "paid", "mixed", "unknown"] }, trendDependency: { type: "string", enum: ["none", "low", "high", "unknown"] } }, required: ["organicPaid", "trendDependency"], additionalProperties: false },
         confidence: { type: "string", enum: ["low", "medium", "high"] },
         evidence: { type: "array", maxItems: 8, items: { type: "string" } },
         alternativeClassifications: { type: "array", maxItems: 4, items: { type: "string" } },
         missingInformation: { type: "array", maxItems: 8, items: { type: "string" } },
         needsHumanReview: { type: "boolean" },
       },
-      required: ["materialFormat", "presentationFormats", "primaryFamily", "secondaryFamilies", "objectives", "segment", "subsegment", "probableAudience", "awarenessStage", "productionLevel", "durationBand", "pace", "mechanisms", "confidence", "evidence", "alternativeClassifications", "missingInformation", "needsHumanReview"],
+      required: ["taxonomyVersion", "container", "materialFormat", "presentationFormats", "primaryFamily", "secondaryFamilies", "functionalMix", "objectives", "advertisingType", "commercialIntent", "advertisedEntity", "contentTopic", "segment", "subsegment", "probableAudience", "awarenessStage", "productionLevel", "creatorScale", "replicability", "durationBand", "pace", "mechanisms", "hookTypes", "narrativeElements", "proofTypes", "ctaTypes", "distributionContext", "confidence", "evidence", "alternativeClassifications", "missingInformation", "needsHumanReview"],
       additionalProperties: false,
     },
   },
@@ -99,7 +98,7 @@ const criterionSchema = {
   type: "object",
   properties: {
     assessed: { type: "boolean" },
-    score: { type: "integer", minimum: 0, maximum: 100 },
+    score: { anyOf: [{ type: "integer", minimum: 0, maximum: 100 }, { type: "null" }] },
     justification: { type: "string" },
     evidence: { type: "string" },
     confidence: { type: "string", enum: ["low", "medium", "high"] },
@@ -123,7 +122,7 @@ const curatorSchema = {
         syntheticBrains: { type: "array", minItems: 5, maxItems: 5, items: { type: "object", properties: { name: { type: "string", enum: ["O Apressado", "O Analítico", "O Aspiracional", "O Influenciado pela Comunidade", "O Cético"] }, firstReaction: { type: "string" }, probableAbandonment: { type: "string" }, mainInterest: { type: "string" }, mainObjection: { type: "string" }, probableAction: { type: "string" }, confidence: { type: "string", enum: ["low", "medium", "high"] } }, required: ["name", "firstReaction", "probableAbandonment", "mainInterest", "mainObjection", "probableAction", "confidence"], additionalProperties: false } },
         relativePerformance: { type: "object", properties: { classification: { type: "string", enum: ["far_below", "below", "near_baseline", "above", "exceptional", "indeterminate"] }, reasoning: { type: "string" }, comparisonLevel: { type: "integer", minimum: 1, maximum: 4 }, confidence: { type: "string", enum: ["low", "medium", "high"] } }, required: ["classification", "reasoning", "comparisonLevel", "confidence"], additionalProperties: false },
         learning: { type: "object", properties: { replicable: { type: "array", maxItems: 8, items: { type: "string" } }, contingent: { type: "array", maxItems: 8, items: { type: "string" } }, notRecommended: { type: "array", maxItems: 8, items: { type: "string" } }, nextComparableContent: { type: "string" } }, required: ["replicable", "contingent", "notRecommended", "nextComparableContent"], additionalProperties: false },
-        hypotheses: { type: "array", maxItems: 5, items: { type: "object", properties: { name: { type: "string" }, observation: { type: "string" }, mechanism: { type: "string" }, evidence: { type: "string" }, alternativeExplanations: { type: "array", items: { type: "string" } }, conditions: { type: "array", items: { type: "string" } }, limitations: { type: "array", items: { type: "string" } }, confidence: { type: "string", enum: ["low", "medium", "high"] }, stage: { type: "string", enum: ["observation", "hypothesis", "provisional", "validated", "contradicted", "obsolete"] } }, required: ["name", "observation", "mechanism", "evidence", "alternativeExplanations", "conditions", "limitations", "confidence", "stage"], additionalProperties: false } },
+        hypotheses: { type: "array", maxItems: 5, items: { type: "object", properties: { name: { type: "string" }, patternType: { type: "string", enum: [...PATTERN_TYPES] }, observation: { type: "string" }, mechanism: { type: "string" }, evidence: { type: "string" }, alternativeExplanations: { type: "array", items: { type: "string" } }, conditions: { type: "array", items: { type: "string" } }, limitations: { type: "array", items: { type: "string" } }, confidence: { type: "string", enum: ["low", "medium", "high"] }, stage: { type: "string", enum: ["observation", "hypothesis", "contradicted", "inconclusive"] } }, required: ["name", "patternType", "observation", "mechanism", "evidence", "alternativeExplanations", "conditions", "limitations", "confidence", "stage"], additionalProperties: false } },
         conclusion: { type: "object", properties: { contentTypeAnswer: { type: "string" }, comparisonAnswer: { type: "string" }, comparabilityAnswer: { type: "string" }, lesson: { type: "string" }, cannotConclude: { type: "string" }, nextContent: { type: "string" }, memoryDecision: { type: "string" }, overallConfidence: { type: "string", enum: ["low", "medium", "high"] } }, required: ["contentTypeAnswer", "comparisonAnswer", "comparabilityAnswer", "lesson", "cannotConclude", "nextContent", "memoryDecision", "overallConfidence"], additionalProperties: false },
       },
       required: ["access", "timeline", "structuralAnalysis", "scores", "syntheticBrains", "relativePerformance", "learning", "hypotheses", "conclusion"],
@@ -147,31 +146,68 @@ function oneOf<T extends readonly string[]>(value: unknown, allowed: T, fallback
   return typeof value === "string" && (allowed as readonly string[]).includes(value) ? value as T[number] : fallback;
 }
 
+function aliased(value: unknown, aliases: Record<string, string>) {
+  return typeof value === "string" ? aliases[value] ?? value : value;
+}
+
+function listOfKnown<T extends readonly string[]>(value: unknown, allowed: T, aliases: Record<string, string> = {}, max = 8): T[number][] {
+  return strings(value, max).map(item => aliases[item] ?? item).filter(item => (allowed as readonly string[]).includes(item)) as T[number][];
+}
+
 export function normalizeClassification(raw: unknown): ObservatoryClassification {
   const value = raw && typeof raw === "object" && !Array.isArray(raw) ? raw as Record<string, unknown> : {};
-  const presentations = strings(value.presentationFormats, 3).filter(item => (PRESENTATION_FORMATS as readonly string[]).includes(item)) as ObservatoryClassification["presentationFormats"];
-  const secondary = strings(value.secondaryFamilies, 2).filter(item => (CREATIVE_FAMILIES as readonly string[]).includes(item)) as ObservatoryClassification["secondaryFamilies"];
-  const objectives = strings(value.objectives, 4).filter(item => (OBJECTIVES as readonly string[]).includes(item)) as ObservatoryClassification["objectives"];
-  const mechanisms = strings(value.mechanisms, 6).filter(item => (MECHANISMS as readonly string[]).includes(item)) as ObservatoryClassification["mechanisms"];
+  const presentations = listOfKnown(value.presentationFormats, PRESENTATION_FORMATS, TAXONOMY_ALIASES.presentationFormat, 3);
+  const secondary = listOfKnown(value.secondaryFamilies, CREATIVE_FAMILIES, {}, 2);
+  const objectives = listOfKnown(value.objectives, OBJECTIVES, TAXONOMY_ALIASES.objective, 4);
+  const mechanisms = listOfKnown(value.mechanisms, MECHANISMS, TAXONOMY_ALIASES.mechanism, 8);
+  const entity = value.advertisedEntity && typeof value.advertisedEntity === "object" && !Array.isArray(value.advertisedEntity) ? value.advertisedEntity as Record<string, unknown> : {};
+  const topic = value.contentTopic && typeof value.contentTopic === "object" && !Array.isArray(value.contentTopic) ? value.contentTopic as Record<string, unknown> : {};
+  const distribution = value.distributionContext && typeof value.distributionContext === "object" && !Array.isArray(value.distributionContext) ? value.distributionContext as Record<string, unknown> : {};
+  const rawFunctionalMix = Array.isArray(value.functionalMix) ? value.functionalMix.flatMap(item => {
+    if (!item || typeof item !== "object" || Array.isArray(item)) return [];
+    const mix = item as Record<string, unknown>;
+    const family = oneOf(mix.family, CREATIVE_FAMILIES, "indeterminado");
+    const percentage = Math.max(1, Math.min(100, Math.round(Number(mix.percentage) || 0)));
+    return percentage ? [{ family, percentage }] : [];
+  }).slice(0, 3) : [];
+  const rawMixTotal = rawFunctionalMix.reduce((sum, item) => sum + item.percentage, 0);
+  const functionalMix = rawFunctionalMix.length && rawMixTotal > 0
+    ? rawFunctionalMix.map((item, index) => ({ ...item, percentage: index === rawFunctionalMix.length - 1 ? 100 - rawFunctionalMix.slice(0, -1).reduce((sum, previous) => sum + Math.round(previous.percentage * 100 / rawMixTotal), 0) : Math.round(item.percentage * 100 / rawMixTotal) }))
+    : [];
+  const primaryFamily = oneOf(value.primaryFamily, CREATIVE_FAMILIES, "indeterminado");
   return {
-    materialFormat: oneOf(value.materialFormat, MATERIAL_FORMATS, "outro"),
-    presentationFormats: presentations.length ? presentations : ["outro"],
-    primaryFamily: oneOf(value.primaryFamily, CREATIVE_FAMILIES, "hibrido"),
+    taxonomyVersion: PLATEIA_TAXONOMY_VERSION,
+    container: oneOf(value.container, CONTAINERS, "indeterminado"),
+    materialFormat: oneOf(aliased(value.materialFormat, TAXONOMY_ALIASES.materialFormat), MATERIAL_FORMATS, "indeterminado"),
+    presentationFormats: presentations.length ? presentations : ["indeterminado"],
+    primaryFamily,
     secondaryFamilies: secondary,
-    objectives: objectives.length ? objectives : ["outro"],
+    functionalMix: functionalMix.length ? functionalMix : [{ family: primaryFamily, percentage: 100 }],
+    objectives: objectives.length ? objectives : ["indeterminado"],
+    advertisingType: oneOf(value.advertisingType, ADVERTISING_TYPES, "indeterminado"),
+    commercialIntent: oneOf(value.commercialIntent, COMMERCIAL_INTENTS, "indeterminada"),
+    advertisedEntity: { kind: oneOf(entity.kind, ["produto", "servico", "marca", "causa", "pessoa", "nenhuma", "indeterminado"] as const, "indeterminado"), name: typeof entity.name === "string" ? entity.name.trim() : "", confidence: oneOf(entity.confidence, ["low", "medium", "high"] as const, "low") },
+    contentTopic: { label: typeof topic.label === "string" && topic.label.trim() ? topic.label.trim() : "indeterminado", iabCode: typeof topic.iabCode === "string" ? topic.iabCode : null },
     segment: typeof value.segment === "string" && value.segment.trim() ? value.segment.trim() : "indeterminado",
     subsegment: typeof value.subsegment === "string" && value.subsegment.trim() ? value.subsegment.trim() : "indeterminado",
     probableAudience: typeof value.probableAudience === "string" && value.probableAudience.trim() ? value.probableAudience.trim() : "indeterminado",
     awarenessStage: oneOf(value.awarenessStage, AWARENESS_STAGES, "indeterminado"),
-    productionLevel: oneOf(value.productionLevel, ["simple", "intermediate", "complex", "unknown"] as const, "unknown"),
-    durationBand: oneOf(value.durationBand, ["up_to_15s", "16_to_30s", "31_to_60s", "over_60s", "not_applicable", "unknown"] as const, "unknown"),
-    pace: oneOf(value.pace, ["slow", "moderate", "fast", "not_applicable", "unknown"] as const, "unknown"),
+    productionLevel: oneOf(value.productionLevel, PRODUCTION_LEVELS, "unknown"),
+    creatorScale: oneOf(value.creatorScale, ["small", "medium", "large", "unknown"] as const, "unknown"),
+    replicability: oneOf(value.replicability, ["high", "medium", "low", "unknown"] as const, "unknown"),
+    durationBand: oneOf(value.durationBand, DURATION_BANDS, "unknown"),
+    pace: oneOf(value.pace, PACES, "unknown"),
     mechanisms,
+    hookTypes: listOfKnown(value.hookTypes, HOOK_TYPES, {}, 5),
+    narrativeElements: listOfKnown(value.narrativeElements, NARRATIVE_ELEMENTS, {}, 10),
+    proofTypes: listOfKnown(value.proofTypes, PROOF_TYPES, {}, 6),
+    ctaTypes: listOfKnown(value.ctaTypes, CTA_TYPES, {}, 4),
+    distributionContext: { organicPaid: oneOf(distribution.organicPaid, ["organic", "paid", "mixed", "unknown"] as const, "unknown"), trendDependency: oneOf(distribution.trendDependency, ["none", "low", "high", "unknown"] as const, "unknown") },
     confidence: oneOf(value.confidence, ["low", "medium", "high"] as const, "low"),
     evidence: strings(value.evidence),
     alternativeClassifications: strings(value.alternativeClassifications, 4),
     missingInformation: strings(value.missingInformation),
-    needsHumanReview: value.needsHumanReview !== false,
+    needsHumanReview: value.needsHumanReview !== false || primaryFamily === "indeterminado" || (rawFunctionalMix.length > 0 && rawMixTotal !== 100),
   };
 }
 
@@ -190,30 +226,39 @@ function normalized(value: string) {
 }
 
 function overlaps(left: string[], right: string[]) {
-  const rightSet = new Set(right);
-  return left.some(item => rightSet.has(item));
+  const unknown = new Set(["indeterminado", "indeterminada", "unknown", "not_applicable"]);
+  const rightSet = new Set(right.filter(item => !unknown.has(item)));
+  return left.some(item => !unknown.has(item) && rightSet.has(item));
 }
+
+function known(value: string) { return !["indeterminado", "indeterminada", "unknown", "not_applicable"].includes(value); }
 
 export function scoreClassificationSimilarity(target: ObservatoryClassification, candidate: ObservatoryClassification) {
   let score = 0;
-  if (target.primaryFamily === candidate.primaryFamily) score += 30;
+  if (known(target.primaryFamily) && target.primaryFamily === candidate.primaryFamily) score += 30;
   if (overlaps([target.primaryFamily, ...target.secondaryFamilies], [candidate.primaryFamily, ...candidate.secondaryFamilies])) score += 10;
   if (overlaps(target.objectives, candidate.objectives)) score += 18;
-  if (normalized(target.segment) === normalized(candidate.segment)) score += 15;
+  if (known(target.segment) && normalized(target.segment) === normalized(candidate.segment)) score += 15;
   if (overlaps(target.presentationFormats, candidate.presentationFormats)) score += 8;
-  if (target.materialFormat === candidate.materialFormat) score += 6;
-  if (target.awarenessStage === candidate.awarenessStage) score += 4;
-  if (target.productionLevel === candidate.productionLevel) score += 3;
-  if (target.durationBand === candidate.durationBand) score += 3;
-  if (target.pace === candidate.pace) score += 3;
+  if (known(target.materialFormat) && target.materialFormat === candidate.materialFormat) score += 6;
+  if (known(target.awarenessStage) && target.awarenessStage === candidate.awarenessStage) score += 4;
+  if (known(target.productionLevel) && target.productionLevel === candidate.productionLevel) score += 3;
+  if (known(target.durationBand) && target.durationBand === candidate.durationBand) score += 3;
+  if (known(target.pace) && target.pace === candidate.pace) score += 3;
   if (overlaps(target.mechanisms, candidate.mechanisms)) score += 10;
-  return Math.min(100, score);
+  if (target.advertisingType === candidate.advertisingType && target.advertisingType !== "indeterminado") score += 10;
+  if (target.commercialIntent === candidate.commercialIntent && target.commercialIntent !== "indeterminada") score += 5;
+  if (overlaps(target.hookTypes, candidate.hookTypes)) score += 5;
+  if (overlaps(target.proofTypes, candidate.proofTypes)) score += 4;
+  if (overlaps(target.ctaTypes, candidate.ctaTypes)) score += 4;
+  if (target.creatorScale === "small" && candidate.creatorScale === "large" && candidate.replicability === "low") score -= 12;
+  return Math.max(0, Math.min(100, score));
 }
 
 export function comparisonLevel(target: ObservatoryClassification, candidate: ObservatoryClassification, score: number): 1 | 2 | 3 | 4 {
-  const sameFamily = target.primaryFamily === candidate.primaryFamily;
+  const sameFamily = known(target.primaryFamily) && target.primaryFamily === candidate.primaryFamily;
   const sameObjective = overlaps(target.objectives, candidate.objectives);
-  const sameSegment = normalized(target.segment) === normalized(candidate.segment);
+  const sameSegment = known(target.segment) && normalized(target.segment) === normalized(candidate.segment);
   if (sameFamily && sameObjective && sameSegment && score >= 65) return 1;
   if (sameFamily && sameObjective && score >= 48) return 2;
   if (overlaps(target.mechanisms, candidate.mechanisms) && score >= 25) return 3;
@@ -241,21 +286,43 @@ export function rankComparableReferences(target: ObservatoryClassification, refe
     const similarity = scoreClassificationSimilarity(target, classification);
     const level = comparisonLevel(target, classification, similarity);
     if (level === 4) return [];
-    return [{ id: reference.id, title: reference.title, creator: reference.creator, similarity, comparisonLevel: level, primaryFamily: classification.primaryFamily, segment: classification.segment, learning: referenceLearning(reference) } satisfies ComparableReferenceSummary];
+    return [{ id: reference.id, title: reference.title, creator: reference.creator, sourceUrl: reference.sourceUrl, similarity, comparisonLevel: level, primaryFamily: classification.primaryFamily, segment: classification.segment, learning: referenceLearning(reference) } satisfies ComparableReferenceSummary];
   }).sort((a, b) => a.comparisonLevel - b.comparisonLevel || b.similarity - a.similarity).slice(0, 8);
+}
+
+export function rankPortableReferences(target: ObservatoryClassification) {
+  return listPortableReferences().flatMap(reference => {
+    const classification = normalizeClassification(reference.classification);
+    const similarity = scoreClassificationSimilarity(target, classification);
+    const level = comparisonLevel(target, classification, similarity);
+    if (level === 4) return [];
+    return [{ id: reference.id, title: reference.title, creator: reference.creator, sourceUrl: reference.sourceUrl, similarity, comparisonLevel: level, primaryFamily: classification.primaryFamily, segment: classification.segment, learning: reference.learning } satisfies ComparableReferenceSummary];
+  }).sort((a, b) => a.comparisonLevel - b.comparisonLevel || b.similarity - a.similarity).slice(0, 12);
 }
 
 export async function buildObservatoryContext(input: ObservatoryMaterialInput, excludeId?: number): Promise<ObservatoryContext> {
   const classification = await classifyObservatoryMaterial(input);
   const [references, activePatterns] = await Promise.all([listAnalyzedObservatoryReferences(), listActiveObservatoryPatterns()]);
-  const comparisons = rankComparableReferences(classification, references, excludeId);
-  const patterns = activePatterns.filter(pattern =>
+  const databaseComparisons = rankComparableReferences(classification, references, excludeId);
+  const comparisons = [...databaseComparisons, ...rankPortableReferences(classification)]
+    .sort((a, b) => a.comparisonLevel - b.comparisonLevel || b.similarity - a.similarity)
+    .filter((reference, index, all) => {
+      const key = reference.sourceUrl ? canonicalPublicUrl(reference.sourceUrl) : `${reference.title}|${reference.creator}`.toLocaleLowerCase("pt-BR");
+      return all.findIndex(candidate => (candidate.sourceUrl ? canonicalPublicUrl(candidate.sourceUrl) : `${candidate.title}|${candidate.creator}`.toLocaleLowerCase("pt-BR")) === key) === index;
+    })
+    .slice(0, 8);
+  const databasePatterns = activePatterns.filter(pattern =>
     pattern.creativeFamily === classification.primaryFamily &&
     (normalized(pattern.segment) === normalized(classification.segment) || classification.objectives.includes(pattern.objective as ObservatoryClassification["objectives"][number]))
-  ).slice(0, 8).map(pattern => ({ id: pattern.id, name: pattern.name, stage: pattern.stage as "provisional" | "validated", supportingCount: pattern.supportingCount, counterexampleCount: pattern.counterexampleCount, confidence: pattern.confidence, mechanism: pattern.mechanism }));
+  ).map(pattern => ({ id: pattern.id, name: pattern.name, stage: pattern.stage, supportingCount: pattern.supportingCount, counterexampleCount: pattern.counterexampleCount, confidence: pattern.confidence, mechanism: pattern.mechanism, source: "database" as const }));
+  const portablePatterns = listPortablePatterns().filter(pattern =>
+    pattern.creativeFamily === classification.primaryFamily &&
+    (normalized(pattern.segment) === normalized(classification.segment) || classification.objectives.includes(pattern.objective as ObservatoryClassification["objectives"][number]))
+  );
+  const patterns = [...databasePatterns, ...portablePatterns].filter(pattern => ["provisional", "experimentally_validated", "validated"].includes(pattern.stage)).slice(0, 8);
   const bestLevel = comparisons[0]?.comparisonLevel ?? 4;
   return {
-    promptVersion: "2.0",
+    promptVersion: "3.0",
     classification,
     comparisons,
     patterns,

@@ -5,6 +5,8 @@ import { createObservatoryReference, getObservatoryReferenceById, listActiveObse
 import { analyzeObservatoryReference, buildObservatoryContext, type ObservatoryMaterialInput } from "./observatory";
 import { isAllowedPublicHttpsUrl, isInstagramPublicationUrl, publicLinkMessage, resolveInstagramMaterial } from "./publicLinks";
 import { storagePut } from "./storage";
+import { assessViralityEvidence } from "./virality";
+import { PATTERN_TYPES } from "../shared/plateiaTaxonomy";
 import { adminProcedure, router } from "./_core/trpc";
 
 const contentTypeSchema = z.enum(["post", "carrossel", "reel", "copy"]);
@@ -12,13 +14,14 @@ const mediaMimeSchema = z.enum(["image/jpeg", "image/png", "image/webp", "video/
 const optionalText = (max: number) => z.string().max(max).optional().transform(value => value?.trim() ?? "");
 const observatoryHypothesisSchema = z.object({
   name: z.string().trim().min(1).max(180),
+  patternType: z.enum(PATTERN_TYPES),
   observation: z.string(),
   mechanism: z.string(),
   evidence: z.string(),
   conditions: z.array(z.string()).default([]),
   limitations: z.array(z.string()).default([]),
   confidence: z.enum(["low", "medium", "high"]),
-  stage: z.enum(["observation", "hypothesis", "provisional", "validated", "contradicted", "obsolete"]),
+  stage: z.enum(["observation", "hypothesis", "contradicted", "inconclusive"]),
 });
 
 const uploadSchema = z.object({
@@ -132,7 +135,7 @@ export const observatoryRouter = router({
     try {
       const context = await buildObservatoryContext(materialInput, created.id);
       const analysis = await analyzeObservatoryReference(materialInput, context);
-      await updateObservatoryReferenceResult(created.id, "analyzed", context.classification, { ...analysis, comparison: context });
+      await updateObservatoryReferenceResult(created.id, "analyzed", context.classification, { ...analysis, comparison: context, viralityEvidence: assessViralityEvidence(input.metrics) });
       const hypotheses = z.array(observatoryHypothesisSchema).safeParse(analysis.hypotheses);
       if (hypotheses.success) {
         try {

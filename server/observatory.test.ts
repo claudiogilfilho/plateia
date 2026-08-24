@@ -3,7 +3,7 @@ import type { ObservatoryReference } from "../drizzle/schema";
 import { comparisonLevel, normalizeClassification, rankComparableReferences, scoreClassificationSimilarity, type ObservatoryClassification } from "./observatory";
 import { createObservatoryReferenceInputSchema } from "./observatoryRouter";
 
-const target: ObservatoryClassification = {
+const target: ObservatoryClassification = normalizeClassification({
   materialFormat: "reel",
   presentationFormats: ["camera_direta"],
   primaryFamily: "educativo",
@@ -22,7 +22,7 @@ const target: ObservatoryClassification = {
   alternativeClassifications: [],
   missingInformation: [],
   needsHumanReview: false,
-};
+});
 
 function reference(id: number, title: string, classification: ObservatoryClassification): ObservatoryReference {
   return {
@@ -31,14 +31,14 @@ function reference(id: number, title: string, classification: ObservatoryClassif
     mediaMimeType: null, segmentHint: "", objectiveHint: "", metricsJson: null, status: "analyzed",
     classificationJson: JSON.stringify(classification),
     analysisJson: JSON.stringify({ learning: { replicable: ["Abra com uma pergunta específica."] } }),
-    promptVersion: "2.0", createdAt: new Date(), updatedAt: new Date(),
+    promptVersion: "3.0", createdAt: new Date(), updatedAt: new Date(),
   };
 }
 
 describe("Observatório Platéia", () => {
   it("normaliza a resposta do classificador e pede revisão quando faltam dados", () => {
     const result = normalizeClassification({ primaryFamily: "valor_inventado", presentationFormats: ["camera_direta", "inválido"] });
-    expect(result.primaryFamily).toBe("hibrido");
+    expect(result.primaryFamily).toBe("indeterminado");
     expect(result.presentationFormats).toEqual(["camera_direta"]);
     expect(result.segment).toBe("indeterminado");
     expect(result.needsHumanReview).toBe(true);

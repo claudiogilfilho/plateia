@@ -43,6 +43,13 @@
       "when": 1787529600000,
       "tag": "0005_observatory_plateia",
       "breakpoints": true
+    },
+    {
+      "idx": 6,
+      "version": "5",
+      "when": 1787572800000,
+      "tag": "0006_observatory_taxonomy_v3",
+      "breakpoints": true
     }
   ]
 }

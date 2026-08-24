@@ -25,7 +25,7 @@ Executar o método independentemente do modelo hospedeiro. Tratar a IA como moto
 - Não dar nota zero a algo inacessível; marcar como não avaliado.
 - Comparar pela família, objetivo, segmento, apresentação, duração, público, consciência, produção e mecanismo — nunca apenas por ser Reel ou post.
 - Manter independentes: cinco cérebros sintéticos, padrões do Observatório e futuros resultados experimentais do Freud.
-- Uma referência isolada gera observação ou hipótese. Três apoios comparáveis podem gerar padrão provisório. Nunca validar automaticamente.
+- Uma referência isolada gera observação ou hipótese. Três apoios comparáveis e pelo menos dois criadores/fontes independentes podem gerar padrão provisório. Nunca validar automaticamente.
 - Extrair princípios transferíveis; não copiar frase, personagem, bordão ou roteiro de terceiros.
 
 ## Cinco lentes
