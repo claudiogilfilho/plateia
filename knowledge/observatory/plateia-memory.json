@@ -1,0 +1,15 @@
+{
+  "protocol": "plateia-memory/1.0",
+  "updatedAt": "2026-08-23T23:00:00Z",
+  "references": [],
+  "patterns": [],
+  "policy": {
+    "individualReferenceCreatesRule": false,
+    "provisionalMinimumComparableSupport": 3,
+    "validatedRequiresHumanOrExperimentalEvidence": true,
+    "missingIsNotZero": true,
+    "publicMetricsDoNotProveCausality": true,
+    "syntheticBrainsAreSeparate": true,
+    "freudEvidenceIsSeparate": true
+  }
+}
