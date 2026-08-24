@@ -3,13 +3,18 @@ import { normalizeClassification, rankPortableReferences } from "./observatory";
 import { decidePatternStage } from "./patternEvidence";
 import { listPortableReferences, PORTABLE_MEMORY_STATS } from "./portableObservatoryMemory";
 import { assessViralityEvidence, safeRate } from "./virality";
+import { auditObservatoryMemory } from "./observatoryMemoryAudit";
 
 describe("Observatório Platéia v3", () => {
-  it("carrega as 35 referências portáteis sem URL duplicada", () => {
+  it("preserva o corpus treinado e mantém contagens e URLs consistentes", () => {
     const references = listPortableReferences();
-    expect(PORTABLE_MEMORY_STATS.referenceCount).toBe(35);
-    expect(references).toHaveLength(35);
-    expect(new Set(references.map(reference => reference.sourceUrl.toLowerCase())).size).toBe(35);
+    expect(PORTABLE_MEMORY_STATS.referenceCount).toBeGreaterThanOrEqual(35);
+    expect(references).toHaveLength(PORTABLE_MEMORY_STATS.referenceCount);
+    expect(new Set(references.map(reference => reference.sourceUrl.toLowerCase())).size).toBe(references.length);
+  });
+
+  it("audita a taxonomia bruta, cardinalidades e apoios dos padrões", () => {
+    expect(auditObservatoryMemory()).toMatchObject({ issues: [], referenceCount: PORTABLE_MEMORY_STATS.referenceCount });
   });
 
   it("migra aliases legados sem transformar ambiguidade em certeza", () => {

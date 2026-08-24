@@ -12,6 +12,7 @@
     "test": "vitest run",
     "observatory:migrate:v3": "node scripts/migrate-observatory-taxonomy-v3.mjs --write",
     "observatory:migrate:v3:check": "node scripts/migrate-observatory-taxonomy-v3.mjs",
+    "observatory:repair:v3": "node scripts/repair-observatory-v3.mjs",
     "observatory:verify:v3": "tsx scripts/verify-observatory-v3.ts",
     "db:push": "drizzle-kit generate && drizzle-kit migrate"
   },

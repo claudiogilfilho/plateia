@@ -121,3 +121,16 @@
 - [x] Transformar o projeto em MVP autônomo com acesso visitante, histórico em memória e upload inline como fallbacks controlados.
 - [x] Exibir na interface a prontidão do motor de IA e impedir relatórios fictícios quando nenhum adaptador estiver configurado.
 - [x] Documentar o fluxo essencial, a configuração mínima e os limites de produção do MVP.
+- [x] Corrigir o verificador do Observatório para acompanhar o crescimento do corpus sem depender de uma contagem fixa de 35 referências.
+- [x] Auditar e normalizar os valores brutos dos lotes 004 e 005 contra a taxonomia v3, preservando incertezas e sem remover referências.
+- [x] Revisar as 27 ambiguidades históricas da migração, separando família criativa de formato de apresentação e usando `indeterminado` quando a mídia não sustenta classificação específica.
+- [x] Recalcular apoio, contagem e diversidade de criadores dos cinco padrões a partir das referências preservadas.
+- [x] Adicionar auditoria automatizada de enums, cardinalidades, URLs, functionalMix e integridade dos padrões ao CI.
+
+## Pendências externas e de produção
+
+- [ ] Executar autorização real da conta profissional Meta/Instagram no notebook e confirmar os escopos concedidos.
+- [ ] Configurar banco, OAuth e armazenamento persistentes antes de habilitar uso multiusuário em produção.
+- [ ] Configurar um motor de IA real no ambiente publicado e executar uma avaliação multimodal ponta a ponta.
+- [ ] Manter revisão humana das referências parciais e não promover padrões a validados sem evidência humana ou experimental apropriada.
+- [ ] Integrar futuramente o Platéia à AGENSSIA como auditor em modo de observação, sem ativar publicação ou mídia automaticamente.

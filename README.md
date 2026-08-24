@@ -29,3 +29,11 @@ Preencha no `.env` um dos três adaptadores descritos em [docs/plateia-portable.
 - Vídeo só é considerado assistido quando o adaptador realmente suporta transporte multimodal.
 - Observatório, cinco cérebros sintéticos e futuros dados do Freud permanecem como fontes independentes.
 - Para produção multiusuário, configure OAuth, banco e armazenamento persistente.
+
+## Estado verificável do Observatório
+
+- Taxonomia atual: v3.0.
+- Corpus portátil: 45 referências públicas com URLs únicas.
+- Conhecimento consolidado: quatro padrões provisórios, uma hipótese apoiada e nenhum padrão validado automaticamente.
+- O comando `pnpm observatory:verify:v3` audita enums, cardinalidades, URLs, contagens, apoios e diversidade de criadores. O corpus pode crescer sem exigir a troca de um número fixo no verificador.
+- Referências com cobertura parcial continuam marcadas para revisão humana; ausência de mídia, áudio, transcrição ou métricas não é convertida em nota zero nem em certeza classificatória.
