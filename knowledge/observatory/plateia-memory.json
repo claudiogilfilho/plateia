@@ -1,6 +1,6 @@
 {
   "protocol": "plateia-memory/1.0",
-  "updatedAt": "2026-08-24T12:30:00.000Z",
+  "updatedAt": "2026-08-24T13:45:00.000Z",
   "references": [
     {
       "id": "obs-20260823-001",
@@ -8108,6 +8108,1590 @@
         ]
       },
       "createdAt": "2026-08-24T12:30:00.000Z"
+    },
+    {
+      "id": "obs-20260824-041",
+      "title": "Como a ADVBOX está transformando o Marketing Jurídico através da Internet",
+      "creator": "RD Station e ADVBOX",
+      "country": "BR",
+      "url": "https://www.youtube.com/watch?v=dudm5Fc3GQg",
+      "sourceEvidence": [
+        "https://www.youtube.com/watch?v=dudm5Fc3GQg",
+        "https://www.rdstation.com/historias-de-sucesso/advbox/"
+      ],
+      "publishedAt": null,
+      "duration": "não acessível",
+      "coverage": {
+        "level": "partial",
+        "accessible": [
+          "título do vídeo incorporado",
+          "identidade das marcas",
+          "página oficial do caso",
+          "desafio",
+          "solução",
+          "resultados declarados",
+          "voz identificada do cliente",
+          "CTA comercial da página"
+        ],
+        "missing": [
+          "vídeo reproduzível",
+          "áudio efetivamente ouvido",
+          "transcrição",
+          "data do vídeo",
+          "duração",
+          "texto na tela",
+          "comentários do vídeo",
+          "métricas do vídeo",
+          "curva de retenção",
+          "conversões atribuíveis ao conteúdo"
+        ]
+      },
+      "publicMetrics": {
+        "viewsObserved": null,
+        "likesObserved": null,
+        "commentsObserved": null,
+        "observedAt": "2026-08-24",
+        "sourceType": "not_accessible",
+        "causality": "not_inferred"
+      },
+      "viralAssessment": {
+        "status": "indeterminate",
+        "observedSignal": "resultado empresarial declarado na página; nenhuma métrica pública do vídeo",
+        "missingForRelativeAssessment": [
+          "baseline do canal na época",
+          "impressões",
+          "velocidade inicial",
+          "compartilhamentos",
+          "retenção",
+          "conversão"
+        ],
+        "causalClaimAllowed": false,
+        "confounders": [
+          "seleção editorial do fornecedor",
+          "autodeclaração do caso",
+          "força das marcas RD Station e ADVBOX",
+          "período de mensuração não detalhado no vídeo acessível"
+        ]
+      },
+      "classification": {
+        "taxonomyVersion": "3.0",
+        "container": "youtube_video",
+        "materialFormat": "video_longo",
+        "presentationFormats": [
+          "estudo_caso",
+          "depoimento",
+          "institucional"
+        ],
+        "primaryFamily": "prova_estudo_caso",
+        "secondaryFamilies": [
+          "depoimento",
+          "venda_indireta",
+          "educativo"
+        ],
+        "functionalMix": [
+          {
+            "family": "prova_estudo_caso",
+            "percentage": 55
+          },
+          {
+            "family": "depoimento",
+            "percentage": 20
+          },
+          {
+            "family": "venda_indireta",
+            "percentage": 20
+          },
+          {
+            "family": "educativo",
+            "percentage": 5
+          }
+        ],
+        "objectives": [
+          "confianca",
+          "apresentar_solucao",
+          "autoridade",
+          "lead",
+          "venda"
+        ],
+        "advertisingType": "venda_indireta",
+        "commercialIntent": "explicita",
+        "advertisedEntity": {
+          "kind": "software",
+          "name": "RD Station Marketing",
+          "confidence": "high"
+        },
+        "contentTopic": {
+          "label": "marketing jurídico, conteúdo, SEO e automação",
+          "iabCode": null
+        },
+        "segment": "marketing digital B2B",
+        "subsegment": "marketing jurídico",
+        "probableAudience": "agências, escritórios de advocacia e responsáveis por marketing B2B que buscam aquisição digital",
+        "awarenessStage": "consciente_solucao",
+        "productionLevel": "medium",
+        "creatorScale": "large",
+        "replicability": "high",
+        "durationBand": "unknown",
+        "pace": "unknown",
+        "mechanisms": [
+          "confianca",
+          "desejo",
+          "alivio",
+          "identificacao"
+        ],
+        "hookTypes": [
+          "resultado_especifico",
+          "transformacao",
+          "prova"
+        ],
+        "narrativeElements": [
+          "problema",
+          "mecanismo",
+          "resultado",
+          "depoimento",
+          "cta"
+        ],
+        "proofTypes": [
+          "resultado_quantificado",
+          "voz_identificada_cliente",
+          "mecanismo_explicado",
+          "contexto_anterior"
+        ],
+        "ctaTypes": [
+          "teste_gratis",
+          "conversa"
+        ],
+        "distributionContext": {
+          "organicPaid": "unknown",
+          "trendDependency": "none"
+        },
+        "confidence": "high",
+        "evidence": [
+          "A página oficial nomeia o salto de 4.000 para 55.000 acessos mensais e +1.375%.",
+          "O caso é organizado em Desafio, Solução e Resultados, com conteúdo especializado, SEO e funil como mecanismos.",
+          "Eduardo Koetz é identificado como CEO da ADVBOX e a página termina com convite para testar o produto."
+        ],
+        "alternativeClassifications": [
+          "depoimento como família principal"
+        ],
+        "missingInformation": [
+          "execução audiovisual",
+          "ordem das falas",
+          "ritmo",
+          "edição",
+          "comentários",
+          "retenção",
+          "auditoria independente do resultado"
+        ],
+        "needsHumanReview": true
+      },
+      "comparison": {
+        "level": 2,
+        "group": "estudo-de-caso-b2b-com-resultado-quantificado-e-voz-do-cliente",
+        "referenceIds": [
+          "obs-20260824-042"
+        ]
+      },
+      "observations": [
+        "O título e a página ancoram a promessa em transformação empresarial específica.",
+        "O material explicita um estado anterior, uma restrição setorial, o mecanismo usado e resultados numéricos.",
+        "A página declara crescimento de 4.000 para 55.000 acessos mensais, triplicação da equipe em menos de um ano e atuação em mais de 20 estados.",
+        "A voz do cliente é atribuída nominalmente ao CEO e o CTA oferece teste do produto."
+      ],
+      "interpretations": [
+        "A cadeia problema-mecanismo-resultado reduz ambiguidade sobre o que teria mudado.",
+        "A especificidade numérica aumenta verificabilidade percebida, mas não comprova atribuição causal nem auditoria independente.",
+        "A prova funciona também como venda indireta porque o produto aparece ligado ao mecanismo do caso."
+      ],
+      "hypotheses": [
+        "Em conteúdo de prova comercial, organizar estado anterior, mecanismo adotado, resultado quantificado e voz identificável do cliente pode aumentar verificabilidade percebida."
+      ],
+      "scores": {
+        "gancho": 92,
+        "clareza": 95,
+        "relevancia": 92,
+        "desejo": 87,
+        "confianca": 86,
+        "acao": 91,
+        "objecoes": 84,
+        "retencao": "not_assessed"
+      },
+      "criterionAssessments": {
+        "hook": {
+          "assessed": true,
+          "score": 92,
+          "evidence": [
+            "Título e página apresentam transformação e número específico."
+          ],
+          "limitations": [
+            "Sem imagem ou áudio da abertura."
+          ]
+        },
+        "comprehensionSpeed": {
+          "assessed": true,
+          "score": 93,
+          "evidence": [
+            "Caso, empresa, solução e principal resultado são nomeados no topo da página."
+          ],
+          "limitations": []
+        },
+        "centralPromise": {
+          "assessed": true,
+          "score": 95,
+          "evidence": [
+            "Explicar como a ADVBOX estruturou aquisição digital e cresceu usando a solução."
+          ],
+          "limitations": []
+        },
+        "clarity": {
+          "assessed": true,
+          "score": 95,
+          "evidence": [
+            "Desafio, solução, mecanismo e resultados aparecem separados e nomeados."
+          ],
+          "limitations": []
+        },
+        "credibility": {
+          "assessed": true,
+          "score": 86,
+          "evidence": [
+            "Cliente e porta-voz identificados; números e mecanismos específicos."
+          ],
+          "limitations": [
+            "Caso publicado pelo fornecedor e sem auditoria independente acessível."
+          ]
+        },
+        "action": {
+          "assessed": true,
+          "score": 91,
+          "evidence": [
+            "CTA específico de teste gratuito após a prova."
+          ],
+          "limitations": [
+            "Conversão não observada."
+          ]
+        },
+        "objections": {
+          "assessed": true,
+          "score": 84,
+          "evidence": [
+            "A página trata restrições da OAB e explica uma alternativa baseada em conteúdo e SEO."
+          ],
+          "limitations": [
+            "Tratamento audiovisual não acessível."
+          ]
+        },
+        "retention": {
+          "assessed": false,
+          "score": null,
+          "evidence": [],
+          "limitations": [
+            "Sem reprodução do vídeo ou curva de retenção."
+          ]
+        }
+      },
+      "fiveLenses": {
+        "apressado": "Encontra rapidamente o número principal e a transformação prometida.",
+        "analitico": "Recebe estado anterior, mecanismo e resultados, mas precisa de período, base, metodologia e auditoria.",
+        "aspiracional": "A expansão nacional e da equipe projeta uma trajetória de crescimento possível.",
+        "comunidade": "A fala do cliente e a atuação em múltiplas áreas do direito oferecem identificação setorial.",
+        "cetico": "Pode reconhecer a especificidade, mas deve descontar viés de seleção do fornecedor e ausência de causalidade demonstrada."
+      },
+      "replicable": [
+        "Estruturar caso em antes, restrição, mecanismo, resultado e voz identificável do cliente.",
+        "Separar métrica do negócio de métrica do conteúdo.",
+        "Colocar um CTA coerente depois da prova, sem alegar que a prova garante o mesmo resultado."
+      ],
+      "limitations": [
+        "O vídeo incorporado não foi reproduzido e não houve acesso a áudio ou transcrição.",
+        "Os resultados vêm de uma página oficial do fornecedor e não foram auditados independentemente.",
+        "Nenhuma métrica de distribuição, retenção ou conversão do vídeo ficou acessível."
+      ],
+      "provenance": [
+        "public_content",
+        "official_case_page",
+        "declared_business_metric",
+        "observatory_inference"
+      ],
+      "training": {
+        "replicable": [
+          "Antes mais mecanismo mais resultado mais voz identificável torna a prova semanticamente auditável."
+        ],
+        "contingent": [
+          "Marca do fornecedor, seleção editorial do cliente, maturidade da empresa e contexto regulatório do setor."
+        ],
+        "notRecommended": [
+          "Tratar resultado declarado como causalidade; copiar a história; confundir desempenho empresarial com viralidade do vídeo."
+        ],
+        "hypotheses": [
+          "Casos comerciais podem ganhar confiança quando explicitam a cadeia causal alegada e deixam seus limites visíveis."
+        ]
+      },
+      "createdAt": "2026-08-24T13:45:00.000Z"
+    },
+    {
+      "id": "obs-20260824-042",
+      "title": "EM SEU PRIMEIRO ANO COM A SEGURALTA, ELE ATINGIU R$ 1 MILHÃO DE COMISSÃO! | ZANON CAST (Ep 84)",
+      "creator": "Reinaldo Zanon / Zanon Cast",
+      "country": "BR",
+      "url": "https://www.youtube.com/watch?v=qAt41WS-Xds",
+      "sourceEvidence": [
+        "https://www.youtube.com/watch?v=qAt41WS-Xds",
+        "https://glasp.co/youtube/qAt41WS-Xds"
+      ],
+      "publishedAt": "2025-01-07",
+      "duration": "não acessível",
+      "coverage": {
+        "level": "partial",
+        "accessible": [
+          "título",
+          "criador",
+          "data",
+          "visualizações em cache secundário",
+          "resumo secundário",
+          "trecho inicial de transcrição",
+          "pontos-chave do depoimento"
+        ],
+        "missing": [
+          "vídeo reproduzível",
+          "áudio efetivamente ouvido",
+          "transcrição completa",
+          "duração",
+          "texto na tela",
+          "comentários",
+          "curva de retenção",
+          "dados de comissão auditados",
+          "conversões"
+        ]
+      },
+      "publicMetrics": {
+        "viewsObserved": "620 (cache de fonte secundária)",
+        "likesObserved": null,
+        "commentsObserved": null,
+        "observedAt": "2026-08-24",
+        "sourceType": "secondary_indexed_source",
+        "causality": "not_inferred"
+      },
+      "viralAssessment": {
+        "status": "indeterminate",
+        "observedSignal": "620 visualizações em cache secundário; resultado financeiro autodeclarado no título e no depoimento",
+        "missingForRelativeAssessment": [
+          "baseline do canal na época",
+          "impressões",
+          "velocidade inicial",
+          "compartilhamentos",
+          "retenção",
+          "conversão"
+        ],
+        "causalClaimAllowed": false,
+        "confounders": [
+          "resultado autodeclarado",
+          "seleção de franqueado bem-sucedido",
+          "distribuição do podcast",
+          "tamanho do canal",
+          "marca da franquia"
+        ]
+      },
+      "classification": {
+        "taxonomyVersion": "3.0",
+        "container": "youtube_video",
+        "materialFormat": "video_longo",
+        "presentationFormats": [
+          "podcast_entrevista",
+          "depoimento",
+          "estudo_caso"
+        ],
+        "primaryFamily": "depoimento",
+        "secondaryFamilies": [
+          "prova_estudo_caso",
+          "venda_indireta",
+          "autoridade_opiniao"
+        ],
+        "functionalMix": [
+          {
+            "family": "depoimento",
+            "percentage": 45
+          },
+          {
+            "family": "prova_estudo_caso",
+            "percentage": 30
+          },
+          {
+            "family": "venda_indireta",
+            "percentage": 20
+          },
+          {
+            "family": "autoridade_opiniao",
+            "percentage": 5
+          }
+        ],
+        "objectives": [
+          "confianca",
+          "apresentar_solucao",
+          "identificacao",
+          "lead",
+          "conversa"
+        ],
+        "advertisingType": "venda_indireta",
+        "commercialIntent": "explicita",
+        "advertisedEntity": {
+          "kind": "franquia",
+          "name": "Seguralta",
+          "confidence": "high"
+        },
+        "contentTopic": {
+          "label": "transição para empreendedorismo e franquia de seguros",
+          "iabCode": null
+        },
+        "segment": "franquias e seguros",
+        "subsegment": "franquia de corretora de seguros",
+        "probableAudience": "profissionais considerando empreender, especialmente por meio de franquia no setor de seguros",
+        "awarenessStage": "consciente_produto",
+        "productionLevel": "medium",
+        "creatorScale": "small",
+        "replicability": "high",
+        "durationBand": "over_60s",
+        "pace": "unknown",
+        "mechanisms": [
+          "desejo",
+          "confianca",
+          "identificacao",
+          "admiracao"
+        ],
+        "hookTypes": [
+          "numero_especifico",
+          "transformacao",
+          "depoimento"
+        ],
+        "narrativeElements": [
+          "antes",
+          "decisao",
+          "mecanismo",
+          "resultado",
+          "conselho"
+        ],
+        "proofTypes": [
+          "depoimento_identificado",
+          "resultado_quantificado_autodeclarado",
+          "detalhes_de_processo"
+        ],
+        "ctaTypes": [
+          "conversa",
+          "pesquisa_adicional"
+        ],
+        "distributionContext": {
+          "organicPaid": "unknown",
+          "trendDependency": "none"
+        },
+        "confidence": "high",
+        "evidence": [
+          "O título liga marca, prazo e resultado financeiro específico.",
+          "O resumo e a transcrição parcial identificam Joubler Vilela, a mudança de empregado para empreendedor, apoio da franquia e estudo de produtos.",
+          "O convidado recomenda conversar com franqueados bem-sucedidos antes da decisão."
+        ],
+        "alternativeClassifications": [
+          "prova_estudo_caso como família principal"
+        ],
+        "missingInformation": [
+          "prova documental da comissão",
+          "roteiro completo",
+          "ritmo",
+          "edição",
+          "comentários",
+          "retenção",
+          "origem das visualizações"
+        ],
+        "needsHumanReview": true
+      },
+      "comparison": {
+        "level": 2,
+        "group": "estudo-de-caso-b2b-com-resultado-quantificado-e-voz-do-cliente",
+        "referenceIds": [
+          "obs-20260824-041"
+        ]
+      },
+      "observations": [
+        "O título combina prazo, marca e um resultado financeiro de alta especificidade.",
+        "O relato acessível inclui transição profissional, suporte da franquia, dedicação e estudo de produto como mecanismos alegados.",
+        "O convidado associa o resultado a mudanças de vida concretas e aconselha validação por conversa com outros franqueados.",
+        "A audiência pública observada em cache é pequena em termos absolutos e não sustenta classificação de viralidade."
+      ],
+      "interpretations": [
+        "A combinação de número, prazo e pessoa identificável aumenta o poder de atenção e de prova percebida.",
+        "Detalhes de esforço e suporte reduzem parcialmente a impressão de resultado instantâneo.",
+        "Por ser relato selecionado e autodeclarado, a evidência exige documentação e amostra mais ampla antes de generalização."
+      ],
+      "hypotheses": [
+        "Em conteúdo de prova comercial, organizar estado anterior, mecanismo adotado, resultado quantificado e voz identificável do cliente pode aumentar verificabilidade percebida."
+      ],
+      "scores": {
+        "gancho": 94,
+        "clareza": 88,
+        "relevancia": 91,
+        "desejo": 92,
+        "confianca": 77,
+        "acao": 75,
+        "objecoes": 76,
+        "retencao": "not_assessed"
+      },
+      "criterionAssessments": {
+        "hook": {
+          "assessed": true,
+          "score": 94,
+          "evidence": [
+            "Número, prazo e marca formam uma promessa específica no título."
+          ],
+          "limitations": [
+            "Execução audiovisual da abertura não acessível."
+          ]
+        },
+        "comprehensionSpeed": {
+          "assessed": true,
+          "score": 91,
+          "evidence": [
+            "O assunto e o resultado são compreensíveis pelo título."
+          ],
+          "limitations": []
+        },
+        "centralPromise": {
+          "assessed": true,
+          "score": 93,
+          "evidence": [
+            "Entender como um franqueado alcançou R$ 1 milhão de comissão no primeiro ano."
+          ],
+          "limitations": []
+        },
+        "clarity": {
+          "assessed": true,
+          "score": 88,
+          "evidence": [
+            "O resumo acessível liga transição, suporte, estudo e resultado."
+          ],
+          "limitations": [
+            "Transcrição incompleta."
+          ]
+        },
+        "credibility": {
+          "assessed": true,
+          "score": 77,
+          "evidence": [
+            "Pessoa, marca, prazo e mecanismos são identificados."
+          ],
+          "limitations": [
+            "Resultado financeiro não auditado; seleção de caso favorável."
+          ]
+        },
+        "action": {
+          "assessed": true,
+          "score": 75,
+          "evidence": [
+            "O conselho de conversar com franqueados bem-sucedidos oferece próximo passo prudente."
+          ],
+          "limitations": [
+            "CTA comercial completo não acessível."
+          ]
+        },
+        "objections": {
+          "assessed": true,
+          "score": 76,
+          "evidence": [
+            "O relato aborda insegurança da transição e importância de suporte e preparo."
+          ],
+          "limitations": [
+            "Condições financeiras e casos malsucedidos não acessíveis."
+          ]
+        },
+        "retention": {
+          "assessed": false,
+          "score": null,
+          "evidence": [],
+          "limitations": [
+            "Sem reprodução ou curva de retenção."
+          ]
+        }
+      },
+      "fiveLenses": {
+        "apressado": "Capta imediatamente resultado e prazo, mas pode superestimar representatividade.",
+        "analitico": "Quer documentos, definição de comissão, custos, base de comparação e distribuição dos resultados entre franqueados.",
+        "aspiracional": "Mudança de vida e autonomia tornam a transformação desejável.",
+        "comunidade": "A recomendação de falar com outros franqueados cria uma ponte de validação social.",
+        "cetico": "Reconhece a especificidade, mas exige prova independente e exposição de casos não selecionados."
+      },
+      "replicable": [
+        "Nomear pessoa, ponto de partida, prazo, mecanismo e resultado em um depoimento.",
+        "Incluir limites, esforço e próximos passos de verificação junto à prova aspiracional.",
+        "Não usar poucas visualizações para invalidar valor semântico nem usar o resultado do cliente para provar desempenho do conteúdo."
+      ],
+      "limitations": [
+        "O vídeo e o áudio não foram reproduzidos; a transcrição é parcial.",
+        "A comissão e as mudanças de vida são autodeclaradas e não auditadas.",
+        "Comentários, retenção, duração e conversões não ficaram acessíveis."
+      ],
+      "provenance": [
+        "public_content",
+        "public_metric",
+        "secondary_transcript",
+        "secondary_summary",
+        "self_reported_result",
+        "observatory_inference"
+      ],
+      "training": {
+        "replicable": [
+          "Depoimento forte identifica protagonista, ponto de partida, mecanismo, prazo e resultado."
+        ],
+        "contingent": [
+          "Economia da franquia, perfil do franqueado, investimento, território e seleção editorial."
+        ],
+        "notRecommended": [
+          "Prometer replicabilidade financeira; omitir custos; tratar um vencedor como distribuição típica."
+        ],
+        "hypotheses": [
+          "Prova comercial ganha verificabilidade percebida quando a transformação é específica e o processo é nomeado."
+        ]
+      },
+      "createdAt": "2026-08-24T13:45:00.000Z"
+    },
+    {
+      "id": "obs-20260824-043",
+      "title": "Como criar funis de vendas diários eficazes?",
+      "creator": "Ícaro de Carvalho",
+      "country": "BR",
+      "url": "https://www.youtube.com/watch?v=3a8hrOHf23U",
+      "sourceEvidence": [
+        "https://www.youtube.com/watch?v=3a8hrOHf23U",
+        "https://glasp.co/youtube/3a8hrOHf23U"
+      ],
+      "publishedAt": "2025-07-30",
+      "duration": "não acessível",
+      "coverage": {
+        "level": "partial",
+        "accessible": [
+          "título",
+          "criador",
+          "data",
+          "visualizações em cache secundário",
+          "resumo secundário",
+          "trecho inicial de transcrição",
+          "três modelos de funil nomeados"
+        ],
+        "missing": [
+          "vídeo reproduzível",
+          "áudio efetivamente ouvido",
+          "transcrição completa",
+          "duração",
+          "texto na tela",
+          "comentários",
+          "curva de retenção",
+          "CTA completo",
+          "conversões"
+        ]
+      },
+      "publicMetrics": {
+        "viewsObserved": "16,0 mil (cache de fonte secundária)",
+        "likesObserved": null,
+        "commentsObserved": null,
+        "observedAt": "2026-08-24",
+        "sourceType": "secondary_indexed_source",
+        "causality": "not_inferred"
+      },
+      "viralAssessment": {
+        "status": "indeterminate",
+        "observedSignal": "16,0 mil visualizações em cache secundário",
+        "missingForRelativeAssessment": [
+          "baseline do canal na época",
+          "impressões",
+          "velocidade inicial",
+          "compartilhamentos",
+          "retenção",
+          "conversão"
+        ],
+        "causalClaimAllowed": false,
+        "confounders": [
+          "marca pessoal consolidada",
+          "audiência prévia",
+          "distribuição do canal",
+          "tema de alta intenção comercial",
+          "idade da publicação"
+        ]
+      },
+      "classification": {
+        "taxonomyVersion": "3.0",
+        "container": "youtube_video",
+        "materialFormat": "video_longo",
+        "presentationFormats": [
+          "camera_direta",
+          "comentario"
+        ],
+        "primaryFamily": "educativo",
+        "secondaryFamilies": [
+          "autoridade_opiniao",
+          "venda_indireta"
+        ],
+        "functionalMix": [
+          {
+            "family": "educativo",
+            "percentage": 65
+          },
+          {
+            "family": "autoridade_opiniao",
+            "percentage": 25
+          },
+          {
+            "family": "venda_indireta",
+            "percentage": 10
+          }
+        ],
+        "objectives": [
+          "educar",
+          "autoridade",
+          "confianca",
+          "visualizacao"
+        ],
+        "advertisingType": "venda_indireta",
+        "commercialIntent": "implicita",
+        "advertisedEntity": {
+          "kind": "marca_pessoal",
+          "name": "Ícaro de Carvalho",
+          "confidence": "medium"
+        },
+        "contentTopic": {
+          "label": "funis de venda contínuos por webinar, desafio e consultoria",
+          "iabCode": null
+        },
+        "segment": "marketing e vendas",
+        "subsegment": "funis de vendas diários",
+        "probableAudience": "empreendedores, infoprodutores e profissionais de marketing que buscam vendas contínuas, inclusive com audiência pequena",
+        "awarenessStage": "consciente_solucao",
+        "productionLevel": "simple",
+        "creatorScale": "large",
+        "replicability": "high",
+        "durationBand": "over_60s",
+        "pace": "unknown",
+        "mechanisms": [
+          "curiosidade",
+          "confianca",
+          "recompensa",
+          "alivio"
+        ],
+        "hookTypes": [
+          "pergunta",
+          "promessa_pratica",
+          "mapa_finito"
+        ],
+        "narrativeElements": [
+          "problema",
+          "promessa",
+          "lista_de_modelos",
+          "explicacao"
+        ],
+        "proofTypes": [
+          "autoridade_demonstrada",
+          "mecanismo_explicado"
+        ],
+        "ctaTypes": [],
+        "distributionContext": {
+          "organicPaid": "unknown",
+          "trendDependency": "none"
+        },
+        "confidence": "high",
+        "evidence": [
+          "O título apresenta uma pergunta prática e um resultado recorrente.",
+          "O resumo acessível nomeia três modelos: webinar, desafio e consultoria, inclusive para audiências pequenas.",
+          "O trecho inicial contém saudação, apresentação e contexto pessoal antes do desenvolvimento principal."
+        ],
+        "alternativeClassifications": [
+          "autoridade_opiniao como família principal"
+        ],
+        "missingInformation": [
+          "ordem e profundidade de cada modelo",
+          "provas",
+          "CTA",
+          "ritmo",
+          "edição",
+          "comentários",
+          "retenção",
+          "conversão"
+        ],
+        "needsHumanReview": true
+      },
+      "comparison": {
+        "level": 3,
+        "group": "aula-de-marketing-com-framework-finito",
+        "referenceIds": []
+      },
+      "observations": [
+        "O título formula uma pergunta prática sobre funis diários.",
+        "O resumo acessível organiza a resposta em três modelos: webinar, desafio e consultoria.",
+        "O trecho inicial inclui saudação, apresentação do autor e comentário sobre cansaço após evento antes do primeiro princípio substantivo.",
+        "O material secundário afirma aplicabilidade a audiências pequenas, mas exemplos e resultados completos não ficaram acessíveis."
+      ],
+      "interpretations": [
+        "Anunciar um mapa finito de opções pode reduzir incerteza e orientar a atenção.",
+        "Contexto pessoal antes do primeiro princípio pode atrasar a recompensa para quem chega pelo problema, mas retenção não foi observada.",
+        "A promessa ganha utilidade ao incluir pequenos públicos, desde que as condições de aplicação sejam explicitadas."
+      ],
+      "hypotheses": [
+        "Em aula de marketing, anunciar cedo um mapa finito de opções pode orientar a audiência; saudações e contexto pessoal antes do primeiro princípio podem atrasar a recompensa."
+      ],
+      "scores": {
+        "gancho": 84,
+        "clareza": 89,
+        "relevancia": 91,
+        "desejo": 84,
+        "confianca": 78,
+        "acao": 72,
+        "objecoes": "not_assessed",
+        "retencao": "not_assessed"
+      },
+      "criterionAssessments": {
+        "hook": {
+          "assessed": true,
+          "score": 84,
+          "evidence": [
+            "Pergunta prática e promessa de eficácia no título."
+          ],
+          "limitations": [
+            "Abertura audiovisual não observada."
+          ]
+        },
+        "comprehensionSpeed": {
+          "assessed": true,
+          "score": 87,
+          "evidence": [
+            "O problema é imediatamente identificável; os três modelos aparecem no resumo."
+          ],
+          "limitations": [
+            "O trecho inicial posterga o primeiro princípio."
+          ]
+        },
+        "centralPromise": {
+          "assessed": true,
+          "score": 91,
+          "evidence": [
+            "Mostrar formas de criar funis de vendas diários eficazes."
+          ],
+          "limitations": []
+        },
+        "clarity": {
+          "assessed": true,
+          "score": 89,
+          "evidence": [
+            "Framework de três modelos torna o mapa semântico claro."
+          ],
+          "limitations": [
+            "Desenvolvimento completo não acessível."
+          ]
+        },
+        "credibility": {
+          "assessed": true,
+          "score": 78,
+          "evidence": [
+            "Autor identificado e mecanismos nomeados."
+          ],
+          "limitations": [
+            "Exemplos, dados e resultados não auditados nesta cobertura."
+          ]
+        },
+        "action": {
+          "assessed": true,
+          "score": 72,
+          "evidence": [
+            "Os três modelos oferecem alternativas de aplicação."
+          ],
+          "limitations": [
+            "Passos e CTA completos não acessíveis."
+          ]
+        },
+        "objections": {
+          "assessed": false,
+          "score": null,
+          "evidence": [],
+          "limitations": [
+            "Tratamento completo de objeções não acessível."
+          ]
+        },
+        "retention": {
+          "assessed": false,
+          "score": null,
+          "evidence": [],
+          "limitations": [
+            "Sem reprodução ou curva de retenção; não é possível ligar a introdução a abandono."
+          ]
+        }
+      },
+      "fiveLenses": {
+        "apressado": "Entende o problema e recebe três caminhos, mas pode impacientar-se com a introdução pessoal.",
+        "analitico": "Quer critérios para escolher entre webinar, desafio e consultoria, além de números e condições.",
+        "aspiracional": "A ideia de vendas diárias oferece previsibilidade e crescimento.",
+        "comunidade": "A fala direta e a referência à rotina do autor podem reforçar proximidade com seguidores existentes.",
+        "cetico": "Exige exemplos, custos, taxas e falhas antes de aceitar eficácia."
+      },
+      "replicable": [
+        "Abrir uma aula com problema e mapa finito de alternativas.",
+        "Mover saudação e contexto pessoal para depois da primeira recompensa quando a audiência chega por busca.",
+        "Declarar para quem cada modelo serve e quais condições limitam sua aplicação."
+      ],
+      "limitations": [
+        "Transcrição e resumo são parciais; vídeo e áudio não foram reproduzidos.",
+        "Não há acesso a exemplos completos, comentários, retenção ou conversão.",
+        "A observação sobre possível atraso de recompensa é hipótese, não efeito medido."
+      ],
+      "provenance": [
+        "public_content",
+        "public_metric",
+        "secondary_transcript",
+        "secondary_summary",
+        "observatory_inference"
+      ],
+      "training": {
+        "replicable": [
+          "Problema claro mais mapa finito ajuda a audiência a construir um modelo mental da aula."
+        ],
+        "contingent": [
+          "Marca pessoal, audiência prévia e familiaridade da comunidade com o estilo do autor."
+        ],
+        "notRecommended": [
+          "Inferir queda de retenção sem dados; copiar modelos sem condições; prometer eficácia universal."
+        ],
+        "hypotheses": [
+          "Introduções pessoais antes do primeiro princípio podem ter custo maior para tráfego frio do que para comunidade recorrente."
+        ]
+      },
+      "createdAt": "2026-08-24T13:45:00.000Z"
+    },
+    {
+      "id": "obs-20260824-044",
+      "title": "BLOGUEIRINHA, ME AJUDA!!!",
+      "creator": "Blogueirinha",
+      "country": "BR",
+      "url": "https://www.youtube.com/watch?v=j4GuEDp1UGM",
+      "sourceEvidence": [
+        "https://www.youtube.com/watch?v=j4GuEDp1UGM",
+        "https://glasp.co/youtube/j4GuEDp1UGM"
+      ],
+      "publishedAt": "2020-10-22",
+      "duration": "não acessível",
+      "coverage": {
+        "level": "partial",
+        "accessible": [
+          "título",
+          "criadora/persona",
+          "data",
+          "visualizações em cache secundário",
+          "resumo secundário",
+          "trecho de transcrição",
+          "perguntas e temas enviados pela audiência"
+        ],
+        "missing": [
+          "vídeo reproduzível",
+          "áudio efetivamente ouvido",
+          "transcrição completa",
+          "duração",
+          "texto na tela",
+          "comentários",
+          "curva de retenção",
+          "compartilhamentos"
+        ]
+      },
+      "publicMetrics": {
+        "viewsObserved": "83,3 mil (cache de fonte secundária)",
+        "likesObserved": null,
+        "commentsObserved": null,
+        "observedAt": "2026-08-24",
+        "sourceType": "secondary_indexed_source",
+        "causality": "not_inferred"
+      },
+      "viralAssessment": {
+        "status": "indeterminate",
+        "observedSignal": "83,3 mil visualizações em cache secundário",
+        "missingForRelativeAssessment": [
+          "baseline do canal na época",
+          "impressões",
+          "velocidade inicial",
+          "compartilhamentos",
+          "retenção",
+          "conversão"
+        ],
+        "causalClaimAllowed": false,
+        "confounders": [
+          "persona e audiência prévias",
+          "distribuição do canal",
+          "série recorrente",
+          "força posterior da marca",
+          "idade da publicação"
+        ]
+      },
+      "classification": {
+        "taxonomyVersion": "3.0",
+        "container": "youtube_video",
+        "materialFormat": "video_longo",
+        "presentationFormats": [
+          "camera_direta",
+          "comentario",
+          "dialogo"
+        ],
+        "primaryFamily": "humor",
+        "secondaryFamilies": [
+          "comunidade",
+          "identificacao",
+          "entretenimento"
+        ],
+        "functionalMix": [
+          {
+            "family": "humor",
+            "percentage": 45
+          },
+          {
+            "family": "comunidade",
+            "percentage": 30
+          },
+          {
+            "family": "identificacao",
+            "percentage": 15
+          },
+          {
+            "family": "entretenimento",
+            "percentage": 10
+          }
+        ],
+        "objectives": [
+          "comunidade",
+          "comentario",
+          "identificacao",
+          "visualizacao",
+          "retencao"
+        ],
+        "advertisingType": "nao_publicitario",
+        "commercialIntent": "ausente",
+        "advertisedEntity": {
+          "kind": "nenhum",
+          "name": null,
+          "confidence": "high"
+        },
+        "contentTopic": {
+          "label": "conselhos satíricos sobre autoestima e relacionamentos a partir de perguntas da audiência",
+          "iabCode": null
+        },
+        "segment": "humor e entretenimento",
+        "subsegment": "conselhos satíricos e participação da audiência",
+        "probableAudience": "seguidores da persona interessados em humor, relacionamentos e participação comunitária",
+        "awarenessStage": "indeterminado",
+        "productionLevel": "simple",
+        "creatorScale": "medium",
+        "replicability": "high",
+        "durationBand": "over_60s",
+        "pace": "unknown",
+        "mechanisms": [
+          "humor",
+          "identificacao",
+          "pertencimento",
+          "curiosidade"
+        ],
+        "hookTypes": [
+          "pedido_de_ajuda",
+          "identificacao",
+          "persona"
+        ],
+        "narrativeElements": [
+          "pergunta_da_audiencia",
+          "resposta_da_persona",
+          "exagero",
+          "comentario_social"
+        ],
+        "proofTypes": [],
+        "ctaTypes": [
+          "enviar_pergunta",
+          "comentar",
+          "outro_conteudo"
+        ],
+        "distributionContext": {
+          "organicPaid": "unknown",
+          "trendDependency": "low"
+        },
+        "confidence": "high",
+        "evidence": [
+          "Título formula um pedido de ajuda dirigido à persona.",
+          "Resumo e transcrição parcial registram respostas a perguntas de seguidores sobre autoestima e relacionamentos.",
+          "A interação com o público é tratada como matéria-prima do episódio, filtrada pela linguagem satírica da personagem."
+        ],
+        "alternativeClassifications": [
+          "comunidade como família principal"
+        ],
+        "missingInformation": [
+          "execução cômica",
+          "timing",
+          "expressão visual",
+          "edição",
+          "comentários",
+          "retenção",
+          "origem das visualizações"
+        ],
+        "needsHumanReview": true
+      },
+      "comparison": {
+        "level": 1,
+        "group": "serie-de-humor-com-perguntas-da-audiencia-e-persona-consistente",
+        "referenceIds": [
+          "obs-20260824-038"
+        ]
+      },
+      "observations": [
+        "O episódio usa problemas enviados pela audiência como pauta.",
+        "As perguntas acessíveis tratam de autoestima e relacionamentos, temas com alto potencial de identificação.",
+        "As respostas são descritas como satíricas, exageradas e coerentes com a persona.",
+        "A publicação reforça um formato de série já observado no mesmo canal."
+      ],
+      "interpretations": [
+        "A audiência participa tanto como fonte de pauta quanto como público de identificação.",
+        "A persona consistente permite transformar problemas cotidianos em respostas reconhecíveis sem copiar um roteiro fixo.",
+        "O segundo apoio ainda pertence ao mesmo criador, portanto não prova transferibilidade para outros perfis."
+      ],
+      "hypotheses": [
+        "Em humor comunitário, problemas reais enviados pela audiência e filtrados por uma persona consistente podem formar um ciclo de pauta, identificação e retorno do público."
+      ],
+      "scores": {
+        "gancho": 87,
+        "clareza": 85,
+        "relevancia": 88,
+        "desejo": 80,
+        "confianca": 70,
+        "acao": 84,
+        "objecoes": "not_assessed",
+        "retencao": "not_assessed"
+      },
+      "criterionAssessments": {
+        "hook": {
+          "assessed": true,
+          "score": 87,
+          "evidence": [
+            "Pedido de ajuda direto e reconhecimento da persona no título."
+          ],
+          "limitations": [
+            "Sem execução audiovisual."
+          ]
+        },
+        "comprehensionSpeed": {
+          "assessed": true,
+          "score": 85,
+          "evidence": [
+            "O formato de conselho e participação é reconhecível pelo título e resumo."
+          ],
+          "limitations": []
+        },
+        "centralPromise": {
+          "assessed": true,
+          "score": 84,
+          "evidence": [
+            "Receber respostas da persona para problemas reais do público."
+          ],
+          "limitations": [
+            "Promessa é implícita na série."
+          ]
+        },
+        "clarity": {
+          "assessed": true,
+          "score": 85,
+          "evidence": [
+            "Pergunta-resposta fornece estrutura semântica simples."
+          ],
+          "limitations": [
+            "Transcrição incompleta."
+          ]
+        },
+        "credibility": {
+          "assessed": true,
+          "score": 70,
+          "evidence": [
+            "Problemas vêm da audiência e são concretos."
+          ],
+          "limitations": [
+            "Conteúdo é satírico, não aconselhamento factual."
+          ]
+        },
+        "action": {
+          "assessed": true,
+          "score": 84,
+          "evidence": [
+            "O mecanismo de envio de problemas oferece continuidade comunitária."
+          ],
+          "limitations": [
+            "CTA exato e posição no vídeo não acessíveis."
+          ]
+        },
+        "objections": {
+          "assessed": false,
+          "score": null,
+          "evidence": [],
+          "limitations": [
+            "Não aplicável como prova comercial e sem desenvolvimento completo."
+          ]
+        },
+        "retention": {
+          "assessed": false,
+          "score": null,
+          "evidence": [],
+          "limitations": [
+            "Sem vídeo, áudio ou curva de retenção; timing cômico não mensurado."
+          ]
+        }
+      },
+      "fiveLenses": {
+        "apressado": "Reconhece imediatamente a promessa de ajuda e a personagem.",
+        "analitico": "Entende a estrutura pergunta-resposta, mas não deve interpretar sátira como orientação factual.",
+        "aspiracional": "Pode buscar validação, autoestima ou sensação de pertencer ao repertório da personagem.",
+        "comunidade": "Vê a própria linguagem e problemas transformados em pauta, fortalecendo participação.",
+        "cetico": "Pode rejeitar exageros se não reconhecer o contrato satírico."
+      },
+      "replicable": [
+        "Coletar problemas reais do público e classificá-los por tema antes de responder.",
+        "Manter regras de voz e de perspectiva consistentes sem copiar bordões ou personagem.",
+        "Fechar o ciclo com convite claro para novas perguntas e com limites quando o tema exigir orientação profissional."
+      ],
+      "limitations": [
+        "O vídeo e o áudio não foram reproduzidos; timing, ritmo e performance não foram avaliados.",
+        "Comentários e retenção não ficaram acessíveis.",
+        "Os dois apoios da hipótese vêm da mesma série e do mesmo criador."
+      ],
+      "provenance": [
+        "public_content",
+        "public_metric",
+        "secondary_transcript",
+        "secondary_summary",
+        "observatory_inference"
+      ],
+      "training": {
+        "replicable": [
+          "Problema real da audiência mais lente consistente de resposta pode formar motor de pauta comunitária."
+        ],
+        "contingent": [
+          "Força da persona, histórico da série e familiaridade do público com o contrato satírico."
+        ],
+        "notRecommended": [
+          "Copiar bordões ou personagem; tratar sátira como aconselhamento; inferir retenção por views."
+        ],
+        "hypotheses": [
+          "O ciclo de perguntas pode transferir-se para outros nichos se a lente editorial for consistente e distinta."
+        ]
+      },
+      "createdAt": "2026-08-24T13:45:00.000Z"
+    },
+    {
+      "id": "obs-20260824-045",
+      "title": "Making Customer Stories Profitable: A Proven Framework",
+      "creator": "Social Media Examiner",
+      "country": "US",
+      "url": "https://www.youtube.com/watch?v=pWkRCJoqkpM",
+      "sourceEvidence": [
+        "https://www.youtube.com/watch?v=pWkRCJoqkpM",
+        "https://glasp.co/youtube/pWkRCJoqkpM"
+      ],
+      "publishedAt": "2025-07-10",
+      "duration": "não acessível",
+      "coverage": {
+        "level": "partial",
+        "accessible": [
+          "título",
+          "criador",
+          "data",
+          "visualizações em cache secundário",
+          "trecho inicial de transcrição",
+          "resumo e perguntas e respostas secundários",
+          "frameworks e tipos de história nomeados"
+        ],
+        "missing": [
+          "vídeo reproduzível",
+          "áudio efetivamente ouvido",
+          "transcrição completa",
+          "duração",
+          "texto na tela",
+          "comentários",
+          "curva de retenção",
+          "CTA real do episódio",
+          "conversões"
+        ]
+      },
+      "publicMetrics": {
+        "viewsObserved": "769 (cache de fonte secundária)",
+        "likesObserved": null,
+        "commentsObserved": null,
+        "observedAt": "2026-08-24",
+        "sourceType": "secondary_indexed_source",
+        "causality": "not_inferred"
+      },
+      "viralAssessment": {
+        "status": "indeterminate",
+        "observedSignal": "769 visualizações em cache secundário",
+        "missingForRelativeAssessment": [
+          "baseline do canal na época",
+          "impressões",
+          "velocidade inicial",
+          "compartilhamentos",
+          "retenção",
+          "conversão"
+        ],
+        "causalClaimAllowed": false,
+        "confounders": [
+          "marca editorial especializada",
+          "audiência B2B de nicho",
+          "distribuição do canal",
+          "entrevista com especialista",
+          "idade da publicação"
+        ]
+      },
+      "classification": {
+        "taxonomyVersion": "3.0",
+        "container": "youtube_video",
+        "materialFormat": "video_longo",
+        "presentationFormats": [
+          "podcast_entrevista",
+          "camera_direta",
+          "comentario"
+        ],
+        "primaryFamily": "educativo",
+        "secondaryFamilies": [
+          "autoridade_opiniao",
+          "prova_estudo_caso",
+          "venda_indireta"
+        ],
+        "functionalMix": [
+          {
+            "family": "educativo",
+            "percentage": 55
+          },
+          {
+            "family": "autoridade_opiniao",
+            "percentage": 25
+          },
+          {
+            "family": "prova_estudo_caso",
+            "percentage": 15
+          },
+          {
+            "family": "venda_indireta",
+            "percentage": 5
+          }
+        ],
+        "objectives": [
+          "educar",
+          "autoridade",
+          "confianca",
+          "salvamento",
+          "lead"
+        ],
+        "advertisingType": "venda_indireta",
+        "commercialIntent": "implicita",
+        "advertisedEntity": {
+          "kind": "marca_editorial",
+          "name": "Social Media Examiner",
+          "confidence": "medium"
+        },
+        "contentTopic": {
+          "label": "criação, classificação e distribuição de histórias de clientes",
+          "iabCode": null
+        },
+        "segment": "marketing B2B e copywriting",
+        "subsegment": "customer stories e prova social",
+        "probableAudience": "profissionais de marketing, copywriters e empresas B2B que produzem estudos de caso",
+        "awarenessStage": "consciente_solucao",
+        "productionLevel": "medium",
+        "creatorScale": "large",
+        "replicability": "high",
+        "durationBand": "over_60s",
+        "pace": "unknown",
+        "mechanisms": [
+          "confianca",
+          "recompensa",
+          "curiosidade",
+          "aproximacao"
+        ],
+        "hookTypes": [
+          "framework",
+          "resultado_comercial",
+          "promessa_pratica"
+        ],
+        "narrativeElements": [
+          "problema",
+          "framework",
+          "tipologia",
+          "processo",
+          "cta_recomendado"
+        ],
+        "proofTypes": [
+          "autoridade_demonstrada",
+          "mecanismo_explicado",
+          "tipologia"
+        ],
+        "ctaTypes": [],
+        "distributionContext": {
+          "organicPaid": "unknown",
+          "trendDependency": "none"
+        },
+        "confidence": "high",
+        "evidence": [
+          "Título promete um framework para tornar histórias de clientes comercialmente úteis.",
+          "A transcrição parcial apresenta níveis de profundidade chamados nibble, bite, snack, meal e buffet.",
+          "O resumo distingue histórias de troca, desambiguação, onboarding e upgrade e recomenda problema, solução, resultados e CTA."
+        ],
+        "alternativeClassifications": [
+          "autoridade_opiniao como família principal"
+        ],
+        "missingInformation": [
+          "execução completa",
+          "exemplos integrais",
+          "CTA do episódio",
+          "ritmo",
+          "edição",
+          "comentários",
+          "retenção",
+          "conversão"
+        ],
+        "needsHumanReview": true
+      },
+      "comparison": {
+        "level": 3,
+        "group": "aula-b2b-sobre-arquitetura-de-customer-stories",
+        "referenceIds": []
+      },
+      "observations": [
+        "A abertura transcrita enquadra uma única história como matéria-prima para versões de profundidade diferentes.",
+        "O conteúdo distingue tipos de história por função: troca de fornecedor, desambiguação, onboarding e upgrade.",
+        "O resumo recomenda começar por audiência, KPI e objeção e estruturar problema, solução, resultados e CTA.",
+        "O material também recomenda obter aprovação do cliente e transformar a publicação em evento de celebração e distribuição."
+      ],
+      "interpretations": [
+        "Classificar histórias pela objeção e estágio da jornada evita usar qualquer depoimento para qualquer público.",
+        "Variações de profundidade podem ampliar distribuição sem alterar o núcleo factual.",
+        "O conteúdo é orientação de especialista, não evidência experimental de que o framework aumenta conversão."
+      ],
+      "hypotheses": [
+        "Uma história de cliente verificável pode ser distribuída em versões de profundidade diferentes sem mudar o núcleo factual, desde que audiência, objeção e CTA sejam redefinidos."
+      ],
+      "scores": {
+        "gancho": 89,
+        "clareza": 93,
+        "relevancia": 92,
+        "desejo": 84,
+        "confianca": 83,
+        "acao": 79,
+        "objecoes": 88,
+        "retencao": "not_assessed"
+      },
+      "criterionAssessments": {
+        "hook": {
+          "assessed": true,
+          "score": 89,
+          "evidence": [
+            "Título combina objeto, resultado e promessa de framework."
+          ],
+          "limitations": [
+            "Sem execução audiovisual da abertura."
+          ]
+        },
+        "comprehensionSpeed": {
+          "assessed": true,
+          "score": 90,
+          "evidence": [
+            "A primeira frase transcrita apresenta a lógica de diferentes profundidades informacionais."
+          ],
+          "limitations": []
+        },
+        "centralPromise": {
+          "assessed": true,
+          "score": 92,
+          "evidence": [
+            "Transformar histórias de clientes em ativos de marketing adequados a objetivos e públicos distintos."
+          ],
+          "limitations": []
+        },
+        "clarity": {
+          "assessed": true,
+          "score": 93,
+          "evidence": [
+            "Tipologia de profundidade e tipos de caso são nomeados explicitamente."
+          ],
+          "limitations": [
+            "Transcrição completa não acessível."
+          ]
+        },
+        "credibility": {
+          "assessed": true,
+          "score": 83,
+          "evidence": [
+            "Especialista, processo e categorias específicos."
+          ],
+          "limitations": [
+            "Sem experimento ou resultados auditados do framework."
+          ]
+        },
+        "action": {
+          "assessed": true,
+          "score": 79,
+          "evidence": [
+            "O resumo oferece critérios e uma estrutura aplicável."
+          ],
+          "limitations": [
+            "CTA real do episódio e conversão não acessíveis."
+          ]
+        },
+        "objections": {
+          "assessed": true,
+          "score": 88,
+          "evidence": [
+            "Histórias são selecionadas conforme audiência, estágio e objeção."
+          ],
+          "limitations": [
+            "Exemplos completos não acessíveis."
+          ]
+        },
+        "retention": {
+          "assessed": false,
+          "score": null,
+          "evidence": [],
+          "limitations": [
+            "Sem reprodução ou curva de retenção."
+          ]
+        }
+      },
+      "fiveLenses": {
+        "apressado": "Recebe rapidamente uma promessa prática e versões curtas possíveis.",
+        "analitico": "Encontra tipologia, KPI, audiência e objeção, mas quer exemplos e evidência de resultado.",
+        "aspiracional": "Vê a possibilidade de transformar uma prova difícil de produzir em campanha duradoura.",
+        "comunidade": "A celebração do cliente distribui reconhecimento entre marca e participante.",
+        "cetico": "Distingue framework de evidência e exige validação de conversão em cada contexto."
+      },
+      "replicable": [
+        "Classificar a história pela função, público, objeção e estágio antes de roteirizar.",
+        "Preservar fatos e adaptar somente profundidade, enquadramento e CTA.",
+        "Obter aprovação do cliente e separar resultado declarado de causalidade demonstrada."
+      ],
+      "limitations": [
+        "Vídeo e áudio não foram reproduzidos; transcrição e resumo são parciais.",
+        "O episódio ensina um framework, mas não oferece nesta cobertura um teste causal do desempenho.",
+        "Comentários, retenção, duração e conversão não ficaram acessíveis."
+      ],
+      "provenance": [
+        "public_content",
+        "public_metric",
+        "secondary_transcript",
+        "secondary_summary",
+        "expert_framework",
+        "observatory_inference"
+      ],
+      "training": {
+        "replicable": [
+          "Uma prova pode ter versões por profundidade, desde que fatos, público, objeção e CTA permaneçam controlados."
+        ],
+        "contingent": [
+          "Maturidade de conteúdo, autorização do cliente, qualidade da prova e capacidade de distribuição."
+        ],
+        "notRecommended": [
+          "Fragmentar até perder contexto; inventar causalidade; usar a mesma história para todas as objeções."
+        ],
+        "hypotheses": [
+          "Arquitetura de profundidade pode ampliar uso da prova sem sacrificar consistência factual."
+        ]
+      },
+      "createdAt": "2026-08-24T13:45:00.000Z"
     }
   ],
   "patterns": [
@@ -8602,9 +10186,10 @@
       "status": "observed_not_promoted",
       "statement": "Em humor comunitário, problemas reais enviados pela audiência e filtrados por uma persona consistente podem formar um ciclo de pauta, identificação e retorno do público.",
       "supportReferenceIds": [
-        "obs-20260824-038"
+        "obs-20260824-038",
+        "obs-20260824-044"
       ],
-      "reasonNotPromoted": "Uma única referência, forte dependência de persona e ausência de comentários, retenção e reprodução audiovisual."
+      "reasonNotPromoted": "Dois apoios comparáveis, porém ambos pertencem à mesma série e ao mesmo criador; comentários, retenção e reprodução audiovisual continuaram inacessíveis."
     },
     {
       "id": "hyp-20260824-014",
@@ -8623,6 +10208,34 @@
         "obs-20260824-040"
       ],
       "reasonNotPromoted": "Uma única referência sem transcrição completa, comentários, retenção, leads ou conversão."
+    },
+    {
+      "id": "hyp-20260824-016",
+      "status": "observed_not_promoted",
+      "statement": "Em conteúdo de prova comercial, organizar estado anterior, mecanismo adotado, resultado quantificado e voz identificável do cliente pode aumentar verificabilidade percebida.",
+      "supportReferenceIds": [
+        "obs-20260824-041",
+        "obs-20260824-042"
+      ],
+      "reasonNotPromoted": "Apenas dois apoios comparáveis; ambos são casos selecionados com resultados declarados, sem auditoria independente, retenção ou conversão do conteúdo."
+    },
+    {
+      "id": "hyp-20260824-017",
+      "status": "observed_not_promoted",
+      "statement": "Em aula de marketing, anunciar cedo um mapa finito de opções pode orientar a audiência; saudações e contexto pessoal antes do primeiro princípio podem atrasar a recompensa.",
+      "supportReferenceIds": [
+        "obs-20260824-043"
+      ],
+      "reasonNotPromoted": "Uma única transcrição parcial e ausência de curva de retenção; o possível atraso de recompensa não foi medido."
+    },
+    {
+      "id": "hyp-20260824-018",
+      "status": "observed_not_promoted",
+      "statement": "Uma história de cliente verificável pode ser distribuída em versões de profundidade diferentes sem mudar o núcleo factual, desde que audiência, objeção e CTA sejam redefinidos.",
+      "supportReferenceIds": [
+        "obs-20260824-045"
+      ],
+      "reasonNotPromoted": "Uma única referência de orientação especializada, sem experimento comparativo nem dados de conversão."
     }
   ],
   "contradictions": [
@@ -8952,6 +10565,68 @@
         "Visualizações vieram de cache secundário e não foram tratadas como classificação de viralidade nem prova causal.",
         "Manual do Mundo, Blogueirinha e Canal Nostalgia carregam audiência, marca e distribuição prévias.",
         "Os dois padrões ganharam apoio sem serem promovidos a validados; as três novas hipóteses permanecem isoladas."
+      ]
+    },
+    {
+      "id": "run-20260824-supervised-005",
+      "executedAt": "2026-08-24T13:45:00.000Z",
+      "requestedBatchSize": 5,
+      "candidatesFound": 5,
+      "discarded": [],
+      "analyzed": 5,
+      "brazilianReferences": 4,
+      "internationalReferences": 1,
+      "replicableReferences": 5,
+      "coverageSummary": {
+        "complete": 0,
+        "partial": 5,
+        "insufficient": 0
+      },
+      "familiesCovered": [
+        "prova_estudo_caso",
+        "depoimento",
+        "venda_indireta",
+        "educativo",
+        "autoridade_opiniao",
+        "humor",
+        "comunidade",
+        "identificacao"
+      ],
+      "segmentsCovered": [
+        "marketing digital B2B e marketing jurídico",
+        "franquias e seguros",
+        "marketing e vendas",
+        "humor e entretenimento",
+        "marketing B2B e copywriting"
+      ],
+      "sourcesUsed": [
+        "https://www.rdstation.com/historias-de-sucesso/advbox/",
+        "https://www.youtube.com/watch?v=dudm5Fc3GQg",
+        "https://glasp.co/youtube/qAt41WS-Xds",
+        "https://glasp.co/youtube/3a8hrOHf23U",
+        "https://glasp.co/youtube/j4GuEDp1UGM",
+        "https://glasp.co/youtube/pWkRCJoqkpM"
+      ],
+      "patternsCreated": [],
+      "patternsStrengthened": [],
+      "hypothesesCreated": [
+        "hyp-20260824-016",
+        "hyp-20260824-017",
+        "hyp-20260824-018"
+      ],
+      "hypothesesStrengthened": [
+        "hyp-20260824-013"
+      ],
+      "validatedPatternsCreated": 0,
+      "contradictionsFound": [],
+      "nextTarget": "vídeo curto brasileiro de prova social ou anúncio de pequeno/médio criador, com reprodução audiovisual ou transcrição integral, CTA, comentários, métricas relativas e contexto de distribuição acessíveis",
+      "limitations": [
+        "Nenhuma das cinco referências permitiu reprodução audiovisual integral no ambiente.",
+        "As fichas são parciais; áudio, montagem, texto na tela, timing, ritmo e retenção não foram pontuados.",
+        "ADVBOX e Seguralta usam resultados declarados e seleção editorial favorável; não houve auditoria independente.",
+        "Visualizações em cache secundário não foram tratadas como viralidade nem como prova causal.",
+        "A hipótese de humor ganhou segundo apoio, mas ambos vêm da mesma série e do mesmo criador.",
+        "Nenhum padrão novo foi promovido porque não houve três apoios realmente comparáveis."
       ]
     }
   ],
