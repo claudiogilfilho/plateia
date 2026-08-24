@@ -1,6 +1,6 @@
 {
   "protocol": "plateia-memory/1.0",
-  "updatedAt": "2026-08-24T03:05:00Z",
+  "updatedAt": "2026-08-24T11:24:37.353Z",
   "references": [
     {
       "id": "obs-20260823-001",
@@ -3540,6 +3540,672 @@
         "hypotheses": []
       },
       "createdAt": "2026-08-24T01:13:46.772596+00:00"
+    },
+    {
+      "id": "obs-20260824-031",
+      "title": "O mito do MOTOR INFINITO #Shorts",
+      "creator": "Manual do Mundo",
+      "country": "BR",
+      "url": "https://www.youtube.com/watch?v=kd8pX98m7dA",
+      "sourceEvidence": [
+        "https://glasp.co/youtube/kd8pX98m7dA",
+        "https://ar.pinterest.com/pin/manual-do-mundo-on-instagram-como-esse-motor-gira-no-ar-sem-se-alimentar-de-nenhum-tipo-de-energia-conhea-o-mito-do-motor-infinito-manualdomundo-curio--556898310184448485/"
+      ],
+      "publishedAt": "2022-01-03",
+      "duration": "short_vertical_exact_unknown",
+      "coverage": {
+        "level": "partial",
+        "accessible": [
+          "título",
+          "canal",
+          "data",
+          "formato Shorts",
+          "descrição/caption indexada",
+          "visualizações em fonte secundária"
+        ],
+        "missing": [
+          "vídeo reproduzível",
+          "áudio",
+          "transcrição",
+          "texto na tela",
+          "comentários",
+          "duração exata",
+          "curva de retenção"
+        ]
+      },
+      "publicMetrics": {
+        "viewsObserved": "372,4 mil (fonte secundária indexada)",
+        "likesObserved": null,
+        "observedAt": "2026-08-24",
+        "sourceType": "secondary_indexed_source",
+        "causality": "not_inferred"
+      },
+      "classification": {
+        "materialFormat": "short_vertical",
+        "presentationFormats": [
+          "explicativo",
+          "curiosidade"
+        ],
+        "primaryFamily": "educativo",
+        "secondaryFamilies": [
+          "demonstracao",
+          "curiosidade"
+        ],
+        "objectives": [
+          "educar",
+          "retencao",
+          "compartilhamento"
+        ],
+        "segment": "ciência, física e mitos",
+        "probableAudience": "público geral interessado em curiosidades científicas",
+        "awarenessStage": "inconsciente",
+        "productionLevel": "intermediate",
+        "durationBand": "short_exact_unknown",
+        "pace": "not_assessed",
+        "mechanisms": [
+          "curiosidade",
+          "surpresa",
+          "recompensa"
+        ],
+        "confidence": "medium"
+      },
+      "comparison": {
+        "level": 2,
+        "group": "short-knowledge-literal-hook",
+        "referenceIds": [
+          "obs-20260824-016",
+          "obs-20260824-017",
+          "obs-20260824-018"
+        ]
+      },
+      "observations": [
+        "O título nomeia um objeto concreto e enquadra a alegação como mito.",
+        "A descrição indexada pergunta como o motor poderia girar sem receber energia, expondo a contradição central antes da reprodução."
+      ],
+      "interpretations": [
+        "Objeto concreto mais impossibilidade explícita reduz o tempo necessário para entender a pergunta.",
+        "A palavra 'mito' antecipa que haverá correção, mas a demonstração e a precisão da explicação não puderam ser verificadas."
+      ],
+      "scores": {
+        "gancho": 90,
+        "clareza": 90,
+        "relevancia": 76,
+        "desejo": "not_assessed",
+        "confianca": "not_assessed",
+        "acao": "not_assessed",
+        "objecoes": "not_assessed",
+        "retencao": "not_assessed"
+      },
+      "fiveLenses": {
+        "apressado": "Reconhece imediatamente o objeto e a contradição.",
+        "analitico": "Precisa da explicação física e da demonstração, que não ficaram acessíveis.",
+        "aspiracional": "A recompensa provável é compreender um fenômeno que parece impossível.",
+        "comunidade": "O paradoxo é fácil de levar a uma conversa, mas o compartilhamento não foi medido.",
+        "cetico": "O enquadramento como mito ajuda, desde que a entrega mostre por que a alegação falha."
+      },
+      "replicable": [
+        "Nomear o objeto e a contradição específica antes da explicação.",
+        "Usar o enquadramento de mito apenas quando houver mecanismo demonstrável para corrigi-lo."
+      ],
+      "limitations": [
+        "A reprodução audiovisual não ficou acessível; cenas, fala, som, texto na tela, ritmo, payoff e retenção não foram avaliados.",
+        "A métrica veio de indexação secundária e não prova causalidade."
+      ],
+      "provenance": [
+        "public_content",
+        "public_metric",
+        "observatory_inference"
+      ],
+      "training": {
+        "replicable": [
+          "Nomear o objeto e a contradição específica antes da explicação.",
+          "Usar o enquadramento de mito apenas quando houver mecanismo demonstrável para corrigi-lo."
+        ],
+        "contingent": [
+          "A força da marca Manual do Mundo e sua distribuição prévia podem afetar o alcance."
+        ],
+        "notRecommended": [
+          "Tratar a visualização pública como prova de que a fórmula do título causou desempenho."
+        ],
+        "hypotheses": []
+      },
+      "createdAt": "2026-08-24T11:24:37.353Z"
+    },
+    {
+      "id": "obs-20260824-032",
+      "title": "É normal falar sozinho?",
+      "creator": "Drauzio Varella",
+      "country": "BR",
+      "url": "https://drauziovarella.uol.com.br/videos/e-normal-falar-sozinho/",
+      "sourceEvidence": [
+        "https://drauziovarella.uol.com.br/videos/e-normal-falar-sozinho/"
+      ],
+      "publishedAt": "2023-01-23",
+      "duration": "short_vertical_exact_unknown",
+      "coverage": {
+        "level": "partial",
+        "accessible": [
+          "título",
+          "autor",
+          "data",
+          "resumo oficial",
+          "capa",
+          "formato Shorts",
+          "descrição dos contextos e sinais de atenção"
+        ],
+        "missing": [
+          "vídeo reproduzível",
+          "áudio",
+          "transcrição integral",
+          "texto na tela",
+          "métricas públicas",
+          "comentários",
+          "duração exata",
+          "curva de retenção"
+        ]
+      },
+      "publicMetrics": {
+        "viewsObserved": null,
+        "likesObserved": null,
+        "observedAt": "2026-08-24",
+        "sourceType": "not_available",
+        "causality": "not_inferred"
+      },
+      "classification": {
+        "materialFormat": "short_vertical",
+        "presentationFormats": [
+          "explicativo"
+        ],
+        "primaryFamily": "educativo",
+        "secondaryFamilies": [
+          "conscientizacao",
+          "autoridade_opiniao"
+        ],
+        "objectives": [
+          "educar",
+          "consciencia_problema",
+          "confianca"
+        ],
+        "segment": "saúde mental e comportamento cotidiano",
+        "probableAudience": "adultos que falam sozinhos ou convivem com alguém que apresenta esse comportamento",
+        "awarenessStage": "consciente_problema",
+        "productionLevel": "simple",
+        "durationBand": "short_exact_unknown",
+        "pace": "not_assessed",
+        "mechanisms": [
+          "identificacao",
+          "vigilancia",
+          "alivio",
+          "confiança"
+        ],
+        "confidence": "high"
+      },
+      "comparison": {
+        "level": 2,
+        "group": "health-explainer",
+        "referenceIds": [
+          "obs-20260823-004",
+          "obs-20260823-005",
+          "obs-20260823-006",
+          "obs-20260824-020"
+        ]
+      },
+      "observations": [
+        "O título reproduz uma dúvida cotidiana em forma de pergunta direta.",
+        "O resumo oficial afirma que falar sozinho pode ocorrer em situações comuns e diferencia isso de casos com constrangimento ou vozes percebidas como reais.",
+        "A página identifica o autor e delimita o conteúdo como Short."
+      ],
+      "interpretations": [
+        "Começar pelo comportamento reconhecível favorece identificação e alívio.",
+        "Separar o comum de sinais que merecem atenção evita uma resposta binária e aumenta utilidade percebida."
+      ],
+      "scores": {
+        "gancho": 84,
+        "clareza": 94,
+        "relevancia": 91,
+        "desejo": "not_assessed",
+        "confianca": 91,
+        "acao": "not_assessed",
+        "objecoes": 88,
+        "retencao": "not_assessed"
+      },
+      "fiveLenses": {
+        "apressado": "A dúvida é entendida sem contexto adicional.",
+        "analitico": "Recebe uma distinção operacional entre costume comum e sinais de atenção, embora não uma transcrição completa.",
+        "aspiracional": "Pode buscar compreensão e tranquilidade sobre o próprio comportamento.",
+        "comunidade": "O tema cotidiano favorece identificação, mas comentários não ficaram acessíveis.",
+        "cetico": "A resposta evita normalizar todos os casos e apresenta limites claros."
+      },
+      "replicable": [
+        "Formular a pergunta exatamente como ela aparece na vida cotidiana do público.",
+        "Responder com uma distinção prática entre situação comum e sinal de atenção."
+      ],
+      "limitations": [
+        "Sem reprodução, não foram avaliados tom de voz, sequência, edição, CTA, ritmo ou retenção.",
+        "A ficha não substitui orientação profissional nem permite inferir efeito clínico."
+      ],
+      "provenance": [
+        "public_content",
+        "observatory_inference"
+      ],
+      "training": {
+        "replicable": [
+          "Formular a pergunta exatamente como ela aparece na vida cotidiana do público.",
+          "Responder com uma distinção prática entre situação comum e sinal de atenção."
+        ],
+        "contingent": [
+          "A autoridade pública do apresentador eleva confiança prévia e não é transferível por simples imitação."
+        ],
+        "notRecommended": [
+          "Converter uma pergunta de saúde em diagnóstico individual ou promessa absoluta."
+        ],
+        "hypotheses": []
+      },
+      "createdAt": "2026-08-24T11:24:37.353Z"
+    },
+    {
+      "id": "obs-20260824-033",
+      "title": "Demorei mas cheguei! Comenta pra parte 2!",
+      "creator": "Duolingo Brasil",
+      "country": "BR",
+      "url": "https://www.tiktok.com/@duolingobrasil/video/7147349589169917190",
+      "sourceEvidence": [
+        "https://gkpb.com.br/104249/duolingo-tiktok-brasil/",
+        "https://www.tiktok.com/@duolingobrasil/video/7147349589169917190"
+      ],
+      "publishedAt": null,
+      "duration": "short_vertical_exact_unknown",
+      "coverage": {
+        "level": "partial",
+        "accessible": [
+          "URL individual",
+          "criador",
+          "legenda/caption",
+          "hashtags",
+          "crédito do som",
+          "contexto editorial da série",
+          "data da matéria secundária"
+        ],
+        "missing": [
+          "vídeo reproduzível",
+          "cenas verificáveis da publicação individual",
+          "áudio",
+          "transcrição",
+          "texto na tela",
+          "data exata da publicação",
+          "métricas públicas",
+          "comentários",
+          "duração exata",
+          "curva de retenção"
+        ]
+      },
+      "publicMetrics": {
+        "viewsObserved": null,
+        "likesObserved": null,
+        "observedAt": "2026-08-24",
+        "sourceType": "not_available",
+        "causality": "not_inferred"
+      },
+      "classification": {
+        "materialFormat": "short_vertical",
+        "presentationFormats": [
+          "personagem_de_marca",
+          "storytelling",
+          "serial"
+        ],
+        "primaryFamily": "humor",
+        "secondaryFamilies": [
+          "posicionamento_marca",
+          "storytelling",
+          "comunidade"
+        ],
+        "objectives": [
+          "posicionamento_marca",
+          "comunidade",
+          "retencao",
+          "comentario"
+        ],
+        "segment": "aplicativo de idiomas e comunicação de marca",
+        "probableAudience": "brasileiros interessados em idiomas e público jovem de redes sociais",
+        "awarenessStage": "consciente_produto",
+        "productionLevel": "intermediate",
+        "durationBand": "short_exact_unknown",
+        "pace": "not_assessed",
+        "mechanisms": [
+          "identificacao",
+          "pertencimento",
+          "humor",
+          "curiosidade"
+        ],
+        "confidence": "medium"
+      },
+      "comparison": {
+        "level": 4,
+        "group": "localized-brand-character-serial-short",
+        "referenceIds": []
+      },
+      "observations": [
+        "A legenda pública anuncia chegada e pede comentário para uma segunda parte.",
+        "A matéria secundária situa a publicação numa série de lançamento do perfil brasileiro, com adaptação regional do personagem e do tom de voz.",
+        "O TikTok bloqueou a reprodução no ambiente, portanto a descrição da série não confirma cada cena da publicação individual."
+      ],
+      "interpretations": [
+        "O convite para uma parte seguinte pode converter a apresentação do personagem em continuidade participativa.",
+        "Regionalizar a situação e a voz de um personagem de marca pode aproximar a marca, mas depende de consistência prévia do personagem."
+      ],
+      "scores": {
+        "gancho": 78,
+        "clareza": 74,
+        "relevancia": "not_assessed",
+        "desejo": "not_assessed",
+        "confianca": "not_assessed",
+        "acao": 92,
+        "objecoes": "not_assessed",
+        "retencao": "not_assessed"
+      },
+      "fiveLenses": {
+        "apressado": "A legenda comunica chegada e continuidade, mas a premissa visual não pôde ser confirmada.",
+        "analitico": "Carece de cenas, transcrição e resultado público verificável.",
+        "aspiracional": "Pode desejar acompanhar a aventura e se aproximar da comunidade da marca.",
+        "comunidade": "O pedido de comentário para a parte seguinte é explícito e participativo.",
+        "cetico": "Sem o vídeo, não é possível saber se a regionalização passa de decoração ou integra a narrativa."
+      },
+      "replicable": [
+        "Apresentar uma persona de marca por meio de uma situação local reconhecível.",
+        "Usar CTA de continuidade quando a próxima parte estiver narrativamente justificada."
+      ],
+      "limitations": [
+        "A cobertura da publicação individual ficou restrita à legenda e ao contexto secundário da série.",
+        "Fama do mascote, investimento e distribuição da marca são variáveis externas."
+      ],
+      "provenance": [
+        "public_content",
+        "secondary_context",
+        "observatory_inference"
+      ],
+      "training": {
+        "replicable": [
+          "Apresentar uma persona de marca por meio de uma situação local reconhecível.",
+          "Usar CTA de continuidade quando a próxima parte estiver narrativamente justificada."
+        ],
+        "contingent": [
+          "Mascote conhecido, equipe de marca e repertório prévio de memes não são automaticamente replicáveis."
+        ],
+        "notRecommended": [
+          "Copiar personagem, bordões, cenas ou humor específico do Duolingo."
+        ],
+        "hypotheses": [
+          "Uma situação de chegada localizada somada a CTA de continuação pode transformar apresentação de marca em participação comunitária."
+        ]
+      },
+      "createdAt": "2026-08-24T11:24:37.353Z"
+    },
+    {
+      "id": "obs-20260824-034",
+      "title": "PREPARANDO UMA RECEITA EM 3 MINUTOS",
+      "creator": "Tastemade Brasil",
+      "country": "BR",
+      "url": "https://www.tastemade.com.br/videos/mid-contra-o-relogio/",
+      "sourceEvidence": [
+        "https://www.tastemade.com.br/videos/mid-contra-o-relogio/"
+      ],
+      "publishedAt": null,
+      "duration": "video_exact_duration_unknown",
+      "coverage": {
+        "level": "partial",
+        "accessible": [
+          "título",
+          "descrição oficial",
+          "produto integrado",
+          "regra temporal do desafio",
+          "restrição física do desafio",
+          "pergunta de desfecho"
+        ],
+        "missing": [
+          "vídeo reproduzível",
+          "imagem/capa verificável",
+          "áudio",
+          "transcrição",
+          "texto na tela",
+          "data",
+          "métricas públicas",
+          "comentários",
+          "duração do vídeo",
+          "curva de retenção"
+        ]
+      },
+      "publicMetrics": {
+        "viewsObserved": null,
+        "likesObserved": null,
+        "observedAt": "2026-08-24",
+        "sourceType": "not_available",
+        "causality": "not_inferred"
+      },
+      "classification": {
+        "materialFormat": "video_exact_duration_unknown",
+        "presentationFormats": [
+          "desafio",
+          "demonstracao",
+          "branded_content"
+        ],
+        "primaryFamily": "venda_indireta",
+        "secondaryFamilies": [
+          "entretenimento",
+          "demonstracao"
+        ],
+        "objectives": [
+          "apresentar_solucao",
+          "posicionamento_marca",
+          "retencao"
+        ],
+        "segment": "alimentos, bebidas e conteúdo culinário patrocinado",
+        "probableAudience": "público interessado em receitas rápidas e entretenimento culinário",
+        "awarenessStage": "consciente_solucao",
+        "productionLevel": "intermediate",
+        "durationBand": "exact_unknown",
+        "pace": "not_assessed",
+        "mechanisms": [
+          "tensao",
+          "curiosidade",
+          "recompensa",
+          "desejo"
+        ],
+        "confidence": "medium"
+      },
+      "comparison": {
+        "level": 4,
+        "group": "branded-cooking-constraint-challenge",
+        "referenceIds": []
+      },
+      "observations": [
+        "O título declara o limite de três minutos.",
+        "A descrição oficial acrescenta duas regras: usar MID ou MID Zero e preparar com uma mão só.",
+        "A descrição encerra perguntando se os participantes conseguirão, mantendo o resultado em aberto."
+      ],
+      "interpretations": [
+        "Tempo, restrição física e resultado binário tornam a tarefa fácil de compreender antes da reprodução.",
+        "Quando o produto é requisito da tarefa, sua presença pode ser funcional em vez de uma interrupção; a naturalidade real não foi verificada."
+      ],
+      "scores": {
+        "gancho": 86,
+        "clareza": 93,
+        "relevancia": 78,
+        "desejo": 80,
+        "confianca": "not_assessed",
+        "acao": "not_assessed",
+        "objecoes": "not_assessed",
+        "retencao": "not_assessed"
+      },
+      "fiveLenses": {
+        "apressado": "Entende tempo, tarefa e obstáculo pela chamada.",
+        "analitico": "As regras são explícitas, mas execução, segurança e resultado não foram auditados.",
+        "aspiracional": "Pode visualizar uma receita rápida e uma habilidade sob pressão.",
+        "comunidade": "O desafio favorece torcida e comparação, embora comentários não estejam acessíveis.",
+        "cetico": "Precisa verificar se o produto é realmente funcional à receita e se o desfecho entrega a promessa."
+      },
+      "replicable": [
+        "Converter a integração de produto em regra funcional de uma tarefa.",
+        "Combinar limite de tempo, uma restrição simples e um desfecho observável."
+      ],
+      "limitations": [
+        "O título de três minutos descreve a regra do desafio, não a duração do vídeo.",
+        "Sem mídia, não foram avaliados ritmo, clareza visual, naturalidade da marca ou retenção."
+      ],
+      "provenance": [
+        "public_content",
+        "observatory_inference"
+      ],
+      "training": {
+        "replicable": [
+          "Converter a integração de produto em regra funcional de uma tarefa.",
+          "Combinar limite de tempo, uma restrição simples e um desfecho observável."
+        ],
+        "contingent": [
+          "Elenco, cozinha, captação e contrato publicitário podem elevar custo."
+        ],
+        "notRecommended": [
+          "Inserir o produto como obstáculo artificial sem relação verdadeira com a tarefa."
+        ],
+        "hypotheses": [
+          "Em conteúdo culinário de marca, uma regra temporal e uma restrição física podem integrar produto e tensão numa mesma ação."
+        ]
+      },
+      "createdAt": "2026-08-24T11:24:37.353Z"
+    },
+    {
+      "id": "obs-20260824-035",
+      "title": "I Visited 50 States in 50 Days - Day 17",
+      "creator": "Ryan Trahan",
+      "country": "US",
+      "url": "https://www.youtube.com/watch?v=T9Kh19VN1B0",
+      "sourceEvidence": [
+        "https://glasp.co/youtube/T9Kh19VN1B0"
+      ],
+      "publishedAt": "2025-06-26",
+      "duration": "video_long_exact_duration_unknown",
+      "coverage": {
+        "level": "partial",
+        "accessible": [
+          "título",
+          "criador",
+          "data",
+          "capa indexada",
+          "visualizações em fonte secundária",
+          "trecho inicial de transcrição"
+        ],
+        "missing": [
+          "vídeo reproduzível",
+          "áudio",
+          "transcrição completa",
+          "texto na tela",
+          "descrição integral",
+          "comentários",
+          "duração exata",
+          "curva de retenção"
+        ]
+      },
+      "publicMetrics": {
+        "viewsObserved": "4,1 mi (fonte secundária indexada)",
+        "likesObserved": null,
+        "observedAt": "2026-08-24",
+        "sourceType": "secondary_indexed_source",
+        "causality": "not_inferred"
+      },
+      "classification": {
+        "materialFormat": "video_longo",
+        "presentationFormats": [
+          "camera_direta",
+          "storytelling",
+          "desafio_serial"
+        ],
+        "primaryFamily": "storytelling",
+        "secondaryFamilies": [
+          "entretenimento",
+          "desafio",
+          "comunidade"
+        ],
+        "objectives": [
+          "entreter",
+          "retencao",
+          "comunidade"
+        ],
+        "segment": "viagem, desafio seriado e entretenimento",
+        "probableAudience": "público geral que acompanha desafios e séries de viagem",
+        "awarenessStage": "consciente_produto",
+        "productionLevel": "advanced",
+        "durationBand": "long_exact_unknown",
+        "pace": "not_assessed",
+        "mechanisms": [
+          "tensao",
+          "curiosidade",
+          "recompensa",
+          "pertencimento"
+        ],
+        "confidence": "medium"
+      },
+      "comparison": {
+        "level": 3,
+        "group": "challenge-story-series",
+        "referenceIds": [
+          "obs-20260824-030"
+        ]
+      },
+      "observations": [
+        "O título informa a meta global, o prazo global e o número do episódio.",
+        "O trecho inicial de transcrição reorienta o público para o dia 17 e o estado atual, menciona que a Geórgia foi pulada com um plano e abre uma nova complicação ligada a uma roda.",
+        "A fonte secundária registra 4,1 milhões de visualizações, sem dados de retenção ou distribuição."
+      ],
+      "interpretations": [
+        "Meta global mais posição atual pode permitir entrada no episódio sem recontar toda a série.",
+        "Uma quebra de rota e uma complicação nova podem reabrir tensão depois do resumo, mas o desenvolvimento e o payoff não foram verificados."
+      ],
+      "scores": {
+        "gancho": 88,
+        "clareza": 93,
+        "relevancia": 77,
+        "desejo": 82,
+        "confianca": "not_assessed",
+        "acao": "not_assessed",
+        "objecoes": "not_assessed",
+        "retencao": "not_assessed"
+      },
+      "fiveLenses": {
+        "apressado": "O título apresenta escala, prazo e posição na série de forma imediata.",
+        "analitico": "Entende o estado do desafio, mas não recebeu regras completas nem desfecho verificável.",
+        "aspiracional": "A viagem e a meta extensa oferecem aventura e progresso.",
+        "comunidade": "O número do dia favorece acompanhamento recorrente, embora comentários não estejam acessíveis.",
+        "cetico": "Escala, audiência prévia e produção avançada impedem atribuir desempenho somente à estrutura narrativa."
+      },
+      "replicable": [
+        "Em série, recapitular meta global e posição atual em uma frase.",
+        "Depois do resumo, abrir uma mudança de rota ou complicação específica que pertença ao episódio."
+      ],
+      "limitations": [
+        "A transcrição acessível termina antes do desenvolvimento da complicação e do desfecho.",
+        "Visualizações, marca do criador, produção e distribuição não provam causalidade criativa."
+      ],
+      "provenance": [
+        "public_content",
+        "public_metric",
+        "secondary_transcript",
+        "observatory_inference"
+      ],
+      "training": {
+        "replicable": [
+          "Em série, recapitular meta global e posição atual em uma frase.",
+          "Depois do resumo, abrir uma mudança de rota ou complicação específica que pertença ao episódio."
+        ],
+        "contingent": [
+          "Logística nacional, equipe, orçamento e audiência serial prévia são pouco replicáveis."
+        ],
+        "notRecommended": [
+          "Copiar escala geográfica ou tratar alcance como validação causal do roteiro."
+        ],
+        "hypotheses": [
+          "Em storytelling seriado, meta global mais posição atual e nova complicação podem combinar orientação e reabertura de tensão."
+        ]
+      },
+      "createdAt": "2026-08-24T11:24:37.353Z"
     }
   ],
   "patterns": [
@@ -3619,9 +4285,10 @@
         "obs-20260823-004",
         "obs-20260823-005",
         "obs-20260823-006",
-        "obs-20260824-020"
+        "obs-20260824-020",
+        "obs-20260824-032"
       ],
-      "comparableSupportCount": 4,
+      "comparableSupportCount": 5,
       "comparisonLevel": 2,
       "confidence": "medium",
       "limitations": [
@@ -3636,7 +4303,7 @@
       "creativeFamily": "conteúdo de saúde",
       "objective": "objetivo educativo ou conscientização",
       "segment": "fonte ou autoridade demonstrada",
-      "supportingCount": 4,
+      "supportingCount": 5,
       "counterexampleCount": 0,
       "evidence": [
         {
@@ -3663,6 +4330,14 @@
           "evidence": "Título e resumo oficial do Portal Drauzio Varella.",
           "limitations": [
             "Sem reprodução audiovisual ou experimento causal."
+          ]
+        },
+        {
+          "referenceId": "obs-20260824-032",
+          "observation": "Pergunta cotidiana seguida de distinção entre contexto comum e sinais de atenção em resumo oficial de saúde.",
+          "evidence": "Título, autoria, data e resumo oficial do Portal Drauzio Varella.",
+          "limitations": [
+            "Sem reprodução audiovisual, transcrição integral ou evidência experimental."
           ]
         }
       ]
@@ -3752,10 +4427,11 @@
       "supportReferenceIds": [
         "obs-20260824-016",
         "obs-20260824-017",
-        "obs-20260824-018"
+        "obs-20260824-018",
+        "obs-20260824-031"
       ],
-      "comparableSupportCount": 3,
-      "supportingCount": 3,
+      "comparableSupportCount": 4,
+      "supportingCount": 4,
       "counterexampleCount": 0,
       "comparisonLevel": 2,
       "confidence": "medium",
@@ -3782,6 +4458,14 @@
           "evidence": "Título e metadados indexados.",
           "limitations": [
             "Sem transcrição."
+          ]
+        },
+        {
+          "referenceId": "obs-20260824-031",
+          "observation": "Objeto concreto, mito nomeado e impossibilidade física explícita no título e na descrição indexada.",
+          "evidence": "Título, data e descrição/caption pública indexada.",
+          "limitations": [
+            "Sem reprodução audiovisual, transcrição, comentários ou retenção."
           ]
         }
       ],
@@ -3945,6 +4629,33 @@
         "obs-20260824-029"
       ],
       "reasonNotPromoted": "Dois casos com dependência de fama e cobertura parcial."
+    },
+    {
+      "id": "hyp-20260824-010",
+      "status": "observed_not_promoted",
+      "statement": "Em lançamento regional de uma persona de marca, uma situação local reconhecível combinada a CTA de continuação pode transformar apresentação em participação comunitária.",
+      "supportReferenceIds": [
+        "obs-20260824-033"
+      ],
+      "reasonNotPromoted": "Uma única referência, cobertura restrita à legenda e ao contexto editorial da série, com forte dependência de mascote e marca prévios."
+    },
+    {
+      "id": "hyp-20260824-011",
+      "status": "observed_not_promoted",
+      "statement": "Em conteúdo culinário de marca, integrar o produto à regra de um desafio com tempo e restrição física pode tornar a presença comercial funcional à ação.",
+      "supportReferenceIds": [
+        "obs-20260824-034"
+      ],
+      "reasonNotPromoted": "Uma única referência sem reprodução audiovisual, métricas, comentários ou verificação da naturalidade da integração."
+    },
+    {
+      "id": "hyp-20260824-012",
+      "status": "observed_not_promoted",
+      "statement": "Em storytelling seriado de desafio, recapitular meta global e posição atual antes de abrir uma complicação específica pode combinar orientação para novos espectadores e tensão para recorrentes.",
+      "supportReferenceIds": [
+        "obs-20260824-035"
+      ],
+      "reasonNotPromoted": "Um único episódio, transcrição inicial incompleta e produção de escala excepcional."
     }
   ],
   "contradictions": [
@@ -4151,6 +4862,65 @@
         "Algumas métricas vieram de indexação secundária e carregam a data observada da fonte.",
         "Duração exata ficou indisponível para 14 referências; elas foram classificadas como Shorts verticais com duração exata desconhecida.",
         "Visualizações, curtidas e comentários não foram usados como prova causal."
+      ]
+    },
+    {
+      "id": "run-20260824-supervised-003",
+      "executedAt": "2026-08-24T11:24:37.353Z",
+      "requestedBatchSize": 5,
+      "candidatesFound": 5,
+      "discarded": [],
+      "analyzed": 5,
+      "brazilianReferences": 4,
+      "internationalReferences": 1,
+      "replicableReferences": 4,
+      "coverageSummary": {
+        "complete": 0,
+        "partial": 5,
+        "insufficient": 0
+      },
+      "familiesCovered": [
+        "educativo",
+        "conscientizacao",
+        "humor",
+        "posicionamento_marca",
+        "venda_indireta",
+        "storytelling",
+        "entretenimento"
+      ],
+      "segmentsCovered": [
+        "ciência e física",
+        "saúde mental",
+        "aplicativo de idiomas",
+        "alimentos e bebidas",
+        "viagem e desafio seriado"
+      ],
+      "sourcesUsed": [
+        "https://glasp.co/youtube/kd8pX98m7dA",
+        "https://drauziovarella.uol.com.br/videos/e-normal-falar-sozinho/",
+        "https://gkpb.com.br/104249/duolingo-tiktok-brasil/",
+        "https://www.tastemade.com.br/videos/mid-contra-o-relogio/",
+        "https://glasp.co/youtube/T9Kh19VN1B0"
+      ],
+      "patternsCreated": [],
+      "patternsStrengthened": [
+        "pat-20260824-004",
+        "pat-20260823-002"
+      ],
+      "hypothesesCreated": [
+        "hyp-20260824-010",
+        "hyp-20260824-011",
+        "hyp-20260824-012"
+      ],
+      "validatedPatternsCreated": 0,
+      "contradictionsFound": [],
+      "nextTarget": "oferta ou conversão brasileira de pequeno/médio criador, com vídeo ou transcrição acessível, CTA observável e comentários públicos",
+      "limitations": [
+        "Nenhuma das cinco páginas permitiu reprodução audiovisual integral no ambiente.",
+        "Todas as fichas são parciais; ritmo, montagem, relação imagem-fala-som, payoff audiovisual e retenção não foram pontuados.",
+        "As métricas disponíveis vieram de indexação secundária e não foram usadas como prova causal.",
+        "Duolingo, Ryan Trahan e marcas estabelecidas carregam fama, distribuição, orçamento ou personagem prévio.",
+        "Os dois padrões ganharam apoio sem serem promovidos a validados."
       ]
     }
   ],
