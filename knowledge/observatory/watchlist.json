@@ -1,0 +1,321 @@
+{
+  "protocol": "plateia-watchlist/1.0",
+  "status": "active",
+  "createdAt": "2026-08-23T23:00:00Z",
+  "dailyTarget": 5,
+  "selectionPolicy": {
+    "brazilianShareTarget": 0.7,
+    "accessibleProductionShareTarget": 0.7,
+    "familiesPerBatchMinimum": 3,
+    "avoidDuplicateUrl": true,
+    "preferRecentDays": 120,
+    "requirePublicSource": true,
+    "requireProvenance": true,
+    "doNotSelectByViewsAlone": true,
+    "rule": "Classificar antes de comparar; popularidade, fama, mídia paga e produção cara são contexto, não qualidade causal."
+  },
+  "batchMix": [
+    {
+      "lane": "educacao_demonstracao",
+      "quota": 1
+    },
+    {
+      "lane": "autoridade_explicacao",
+      "quota": 1
+    },
+    {
+      "lane": "humor_comunidade",
+      "quota": 1
+    },
+    {
+      "lane": "storytelling_retencao",
+      "quota": 1
+    },
+    {
+      "lane": "oferta_conversao_ou_marca",
+      "quota": 1
+    }
+  ],
+  "sources": [
+    {
+      "id": "manual-do-mundo",
+      "name": "Manual do Mundo",
+      "region": "BR",
+      "priority": 1,
+      "profiles": [
+        {
+          "platform": "instagram",
+          "url": "https://www.instagram.com/manualdomundo/"
+        },
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/@manualdomundo/shorts"
+        }
+      ],
+      "lanes": [
+        "educacao_demonstracao",
+        "curiosidade",
+        "retencao"
+      ],
+      "productionClass": "simple_to_intermediate",
+      "intendedUse": "Estudar explicação visual, demonstração e recompensa compreensível.",
+      "comparabilityGuard": "Priorizar referências replicáveis por criadores e pequenas marcas."
+    },
+    {
+      "id": "portal-drauzio-varella",
+      "name": "Portal Drauzio Varella",
+      "region": "BR",
+      "priority": 1,
+      "profiles": [
+        {
+          "platform": "instagram",
+          "url": "https://www.instagram.com/sitedrauziovarella/"
+        },
+        {
+          "platform": "tiktok",
+          "url": "https://www.tiktok.com/@portaldrauziovarella"
+        },
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/drdrauziovarella"
+        }
+      ],
+      "lanes": [
+        "autoridade_explicacao",
+        "confianca",
+        "objecoes"
+      ],
+      "productionClass": "simple_to_intermediate",
+      "intendedUse": "Estudar autoridade demonstrada, linguagem acessível e confiança sem sensacionalismo.",
+      "comparabilityGuard": "Não transferir autoridade médica ou fama pessoal para segmentos sem credenciais equivalentes."
+    },
+    {
+      "id": "nathalia-arcuri-me-poupe",
+      "name": "Nathalia Arcuri / Me Poupe!",
+      "region": "BR",
+      "priority": 1,
+      "profiles": [
+        {
+          "platform": "instagram",
+          "url": "https://www.instagram.com/nathaliaarcuri/"
+        },
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/mepoupenaweb"
+        }
+      ],
+      "lanes": [
+        "educacao_demonstracao",
+        "humor_comunidade",
+        "oferta_conversao_ou_marca"
+      ],
+      "productionClass": "intermediate",
+      "intendedUse": "Estudar simplificação de finanças, energia de apresentação, humor e chamada para ação.",
+      "comparabilityGuard": "Separar personalidade, base de seguidores e prova real dos mecanismos replicáveis."
+    },
+    {
+      "id": "duolingo-brasil",
+      "name": "Duolingo Brasil",
+      "region": "BR",
+      "priority": 1,
+      "profiles": [
+        {
+          "platform": "instagram",
+          "url": "https://www.instagram.com/duolingobrasil/"
+        },
+        {
+          "platform": "tiktok",
+          "url": "https://www.tiktok.com/@duolingobrasil"
+        }
+      ],
+      "lanes": [
+        "humor_comunidade",
+        "identificacao",
+        "marca"
+      ],
+      "productionClass": "intermediate",
+      "intendedUse": "Estudar voz de marca, trend, personagem e cocriação com a comunidade.",
+      "comparabilityGuard": "Mascote, equipe dedicada e mídia paga impedem comparação direta com um criador comum; usar por mecanismo."
+    },
+    {
+      "id": "nubank",
+      "name": "Nubank",
+      "region": "BR",
+      "priority": 2,
+      "profiles": [
+        {
+          "platform": "instagram",
+          "url": "https://www.instagram.com/nubank/"
+        },
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/@Nubank"
+        }
+      ],
+      "lanes": [
+        "autoridade_explicacao",
+        "comunidade",
+        "marca"
+      ],
+      "productionClass": "intermediate_to_complex",
+      "intendedUse": "Estudar clareza de produto, confiança e educação de serviço financeiro.",
+      "comparabilityGuard": "Marca consolidada e orçamento superior; comparar diretamente apenas com marcas equivalentes."
+    },
+    {
+      "id": "netflix-brasil",
+      "name": "Netflix Brasil",
+      "region": "BR",
+      "priority": 2,
+      "profiles": [
+        {
+          "platform": "instagram",
+          "url": "https://www.instagram.com/netflixbrasil/"
+        },
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/@NetflixBrasil"
+        }
+      ],
+      "lanes": [
+        "humor_comunidade",
+        "storytelling_retencao",
+        "marca"
+      ],
+      "productionClass": "complex",
+      "intendedUse": "Estudar comentário cultural, timing, fandom e reaproveitamento narrativo.",
+      "comparabilityGuard": "Não usar cenas, celebridades ou propriedade intelectual como vantagem replicável; extrair somente mecanismo."
+    },
+    {
+      "id": "tastemade-brasil",
+      "name": "Tastemade Brasil",
+      "region": "BR",
+      "priority": 2,
+      "profiles": [
+        {
+          "platform": "instagram",
+          "url": "https://www.instagram.com/tastemadebr/"
+        },
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/@TastemadeBrasil"
+        }
+      ],
+      "lanes": [
+        "educacao_demonstracao",
+        "retencao",
+        "recompensa"
+      ],
+      "productionClass": "simple_to_intermediate",
+      "intendedUse": "Estudar demonstração, progressão visual, antecipação e recompensa.",
+      "comparabilityGuard": "Separar qualidade de captação do mecanismo narrativo e da clareza da demonstração."
+    },
+    {
+      "id": "canva",
+      "name": "Canva",
+      "region": "GLOBAL",
+      "priority": 2,
+      "profiles": [
+        {
+          "platform": "instagram",
+          "url": "https://www.instagram.com/canva/"
+        },
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/@canva/shorts"
+        }
+      ],
+      "lanes": [
+        "educacao_demonstracao",
+        "oferta_conversao_ou_marca",
+        "ugc"
+      ],
+      "productionClass": "simple_to_intermediate",
+      "intendedUse": "Estudar tutoriais rápidos, demonstração de produto e conteúdo replicável por pequenos negócios.",
+      "comparabilityGuard": "Distinguir tutorial útil de publicidade de produto."
+    },
+    {
+      "id": "ryan-trahan",
+      "name": "Ryan Trahan",
+      "region": "GLOBAL",
+      "priority": 3,
+      "profiles": [
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/@ryan/shorts"
+        }
+      ],
+      "lanes": [
+        "storytelling_retencao",
+        "curiosidade",
+        "recompensa"
+      ],
+      "productionClass": "intermediate",
+      "intendedUse": "Estudar abertura de tensão, progressão, regras narrativas e recompensa.",
+      "comparabilityGuard": "Usar como referência narrativa; não presumir que escala de audiência é replicável."
+    },
+    {
+      "id": "mrbeast",
+      "name": "MrBeast",
+      "region": "GLOBAL",
+      "priority": 3,
+      "profiles": [
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/@MrBeast/shorts"
+        }
+      ],
+      "lanes": [
+        "storytelling_retencao",
+        "curiosidade",
+        "recompensa"
+      ],
+      "productionClass": "complex",
+      "intendedUse": "Estudar mecanismos de promessa, escalada e recompensa.",
+      "comparabilityGuard": "Nunca comparar diretamente com produção comum; usar somente no nível 3, por mecanismo."
+    },
+    {
+      "id": "nike",
+      "name": "Nike",
+      "region": "GLOBAL",
+      "priority": 3,
+      "profiles": [
+        {
+          "platform": "instagram",
+          "url": "https://www.instagram.com/nike/"
+        },
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/@nike"
+        }
+      ],
+      "lanes": [
+        "storytelling_retencao",
+        "aspiracao",
+        "marca"
+      ],
+      "productionClass": "complex",
+      "intendedUse": "Estudar transformação aspiracional, manifesto e síntese de marca.",
+      "comparabilityGuard": "Celebridades e alto orçamento são fatores contingentes; não viram recomendação para usuários comuns."
+    },
+    {
+      "id": "tiktok-business-awards-br",
+      "name": "TikTok For Business — casos premiados no Brasil",
+      "region": "BR",
+      "priority": 1,
+      "profiles": [
+        {
+          "platform": "web",
+          "url": "https://ads.tiktok.com/business/pt-BR/blog"
+        }
+      ],
+      "lanes": [
+        "evidencia_publica",
+        "campanhas",
+        "metricas"
+      ],
+      "productionClass": "mixed",
+      "intendedUse": "Confirmar métricas públicas, contexto de campanha e casos premiados por fonte primária.",
+      "comparabilityGuard": "Caso de campanha não é referência individual de vídeo e não entra em benchmark direto."
+    }
+  ]
+}
