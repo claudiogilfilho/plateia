@@ -1,6 +1,6 @@
 {
   "protocol": "plateia-memory/1.0",
-  "updatedAt": "2026-08-24T11:24:37.353Z",
+  "updatedAt": "2026-08-24T12:00:00.000Z",
   "references": [
     {
       "id": "obs-20260823-001",
@@ -35,6 +35,8 @@
         "causality": "not_inferred"
       },
       "classification": {
+        "taxonomyVersion": "3.0",
+        "container": "youtube_video",
         "materialFormat": "video_longo",
         "presentationFormats": [
           "tutorial",
@@ -46,22 +48,55 @@
           "educativo",
           "entretenimento"
         ],
+        "functionalMix": [
+          {
+            "family": "demonstracao",
+            "percentage": 100
+          }
+        ],
         "objectives": [
           "educar",
           "retencao",
           "compartilhamento"
         ],
+        "advertisingType": "indeterminado",
+        "commercialIntent": "indeterminada",
+        "advertisedEntity": {
+          "kind": "indeterminado",
+          "name": "",
+          "confidence": "low"
+        },
+        "contentTopic": {
+          "label": "ciência e experimentos",
+          "iabCode": null
+        },
         "segment": "ciência e experimentos",
+        "subsegment": "indeterminado",
         "probableAudience": "público geral, jovens e famílias",
         "awarenessStage": "consciente_solucao",
         "productionLevel": "intermediate",
-        "durationBand": "10-20min",
+        "creatorScale": "unknown",
+        "replicability": "medium",
+        "durationBand": "over_60s",
+        "pace": "unknown",
         "mechanisms": [
           "curiosidade",
           "surpresa",
           "recompensa"
         ],
-        "confidence": "high"
+        "hookTypes": [],
+        "narrativeElements": [],
+        "proofTypes": [],
+        "ctaTypes": [],
+        "distributionContext": {
+          "organicPaid": "unknown",
+          "trendDependency": "unknown"
+        },
+        "confidence": "high",
+        "evidence": [],
+        "alternativeClassifications": [],
+        "missingInformation": [],
+        "needsHumanReview": false
       },
       "comparison": {
         "level": 1,
@@ -117,6 +152,39 @@
         "contingent": [],
         "notRecommended": [],
         "hypotheses": []
+      },
+      "migration": {
+        "id": "taxonomy-v3-2026-08-24",
+        "legacyClassification": {
+          "materialFormat": "video_longo",
+          "presentationFormats": [
+            "tutorial",
+            "demonstracao",
+            "dialogo"
+          ],
+          "primaryFamily": "demonstracao",
+          "secondaryFamilies": [
+            "educativo",
+            "entretenimento"
+          ],
+          "objectives": [
+            "educar",
+            "retencao",
+            "compartilhamento"
+          ],
+          "segment": "ciência e experimentos",
+          "probableAudience": "público geral, jovens e famílias",
+          "awarenessStage": "consciente_solucao",
+          "productionLevel": "intermediate",
+          "durationBand": "10-20min",
+          "mechanisms": [
+            "curiosidade",
+            "surpresa",
+            "recompensa"
+          ],
+          "confidence": "high"
+        },
+        "reversibleViaGit": true
       }
     },
     {
@@ -152,6 +220,8 @@
         "causality": "not_inferred"
       },
       "classification": {
+        "taxonomyVersion": "3.0",
+        "container": "youtube_video",
         "materialFormat": "video_longo",
         "presentationFormats": [
           "demonstracao",
@@ -163,22 +233,55 @@
           "educativo",
           "curiosidade"
         ],
+        "functionalMix": [
+          {
+            "family": "demonstracao",
+            "percentage": 100
+          }
+        ],
         "objectives": [
           "educar",
           "salvamento",
           "retencao"
         ],
+        "advertisingType": "indeterminado",
+        "commercialIntent": "indeterminada",
+        "advertisedEntity": {
+          "kind": "indeterminado",
+          "name": "",
+          "confidence": "low"
+        },
+        "contentTopic": {
+          "label": "ciência e experimentos",
+          "iabCode": null
+        },
         "segment": "ciência e experimentos",
+        "subsegment": "indeterminado",
         "probableAudience": "estudantes, famílias e educadores",
         "awarenessStage": "consciente_solucao",
         "productionLevel": "intermediate",
-        "durationBand": "10-20min",
+        "creatorScale": "unknown",
+        "replicability": "medium",
+        "durationBand": "over_60s",
+        "pace": "unknown",
         "mechanisms": [
           "curiosidade",
           "surpresa",
           "recompensa"
         ],
-        "confidence": "high"
+        "hookTypes": [],
+        "narrativeElements": [],
+        "proofTypes": [],
+        "ctaTypes": [],
+        "distributionContext": {
+          "organicPaid": "unknown",
+          "trendDependency": "unknown"
+        },
+        "confidence": "high",
+        "evidence": [],
+        "alternativeClassifications": [],
+        "missingInformation": [],
+        "needsHumanReview": false
       },
       "comparison": {
         "level": 1,
@@ -234,6 +337,39 @@
         "contingent": [],
         "notRecommended": [],
         "hypotheses": []
+      },
+      "migration": {
+        "id": "taxonomy-v3-2026-08-24",
+        "legacyClassification": {
+          "materialFormat": "video_longo",
+          "presentationFormats": [
+            "demonstracao",
+            "tutorial",
+            "camera_direta"
+          ],
+          "primaryFamily": "demonstracao",
+          "secondaryFamilies": [
+            "educativo",
+            "curiosidade"
+          ],
+          "objectives": [
+            "educar",
+            "salvamento",
+            "retencao"
+          ],
+          "segment": "ciência e experimentos",
+          "probableAudience": "estudantes, famílias e educadores",
+          "awarenessStage": "consciente_solucao",
+          "productionLevel": "intermediate",
+          "durationBand": "10-20min",
+          "mechanisms": [
+            "curiosidade",
+            "surpresa",
+            "recompensa"
+          ],
+          "confidence": "high"
+        },
+        "reversibleViaGit": true
       }
     },
     {
@@ -269,6 +405,8 @@
         "causality": "not_inferred"
       },
       "classification": {
+        "taxonomyVersion": "3.0",
+        "container": "youtube_video",
         "materialFormat": "video_longo",
         "presentationFormats": [
           "demonstracao",
@@ -280,23 +418,56 @@
           "curiosidade",
           "educativo"
         ],
+        "functionalMix": [
+          {
+            "family": "demonstracao",
+            "percentage": 100
+          }
+        ],
         "objectives": [
           "retencao",
           "educar",
           "compartilhamento"
         ],
+        "advertisingType": "indeterminado",
+        "commercialIntent": "indeterminada",
+        "advertisedEntity": {
+          "kind": "indeterminado",
+          "name": "",
+          "confidence": "low"
+        },
+        "contentTopic": {
+          "label": "ciência e experimentos",
+          "iabCode": null
+        },
         "segment": "ciência e experimentos",
+        "subsegment": "indeterminado",
         "probableAudience": "público geral interessado em ciência visual",
         "awarenessStage": "inconsciente",
         "productionLevel": "intermediate",
-        "durationBand": "10-20min",
+        "creatorScale": "unknown",
+        "replicability": "medium",
+        "durationBand": "over_60s",
+        "pace": "unknown",
         "mechanisms": [
           "surpresa",
           "curiosidade",
           "recompensa",
-          "confiança"
+          "confianca"
         ],
-        "confidence": "high"
+        "hookTypes": [],
+        "narrativeElements": [],
+        "proofTypes": [],
+        "ctaTypes": [],
+        "distributionContext": {
+          "organicPaid": "unknown",
+          "trendDependency": "unknown"
+        },
+        "confidence": "high",
+        "evidence": [],
+        "alternativeClassifications": [],
+        "missingInformation": [],
+        "needsHumanReview": false
       },
       "comparison": {
         "level": 1,
@@ -352,6 +523,40 @@
         "contingent": [],
         "notRecommended": [],
         "hypotheses": []
+      },
+      "migration": {
+        "id": "taxonomy-v3-2026-08-24",
+        "legacyClassification": {
+          "materialFormat": "video_longo",
+          "presentationFormats": [
+            "demonstracao",
+            "bastidores",
+            "camera_direta"
+          ],
+          "primaryFamily": "demonstracao",
+          "secondaryFamilies": [
+            "curiosidade",
+            "educativo"
+          ],
+          "objectives": [
+            "retencao",
+            "educar",
+            "compartilhamento"
+          ],
+          "segment": "ciência e experimentos",
+          "probableAudience": "público geral interessado em ciência visual",
+          "awarenessStage": "inconsciente",
+          "productionLevel": "intermediate",
+          "durationBand": "10-20min",
+          "mechanisms": [
+            "surpresa",
+            "curiosidade",
+            "recompensa",
+            "confiança"
+          ],
+          "confidence": "high"
+        },
+        "reversibleViaGit": true
       }
     },
     {
@@ -386,34 +591,71 @@
         "causality": "not_inferred"
       },
       "classification": {
+        "taxonomyVersion": "3.0",
+        "container": "youtube_video",
         "materialFormat": "video_longo",
         "presentationFormats": [
           "dialogo",
           "camera_direta",
-          "explicativo"
+          "outro"
         ],
         "primaryFamily": "explicativo",
         "secondaryFamilies": [
           "conscientizacao",
           "autoridade_opiniao"
         ],
+        "functionalMix": [
+          {
+            "family": "explicativo",
+            "percentage": 100
+          }
+        ],
         "objectives": [
           "educar",
           "confianca",
           "consciencia_problema"
         ],
+        "advertisingType": "indeterminado",
+        "commercialIntent": "indeterminada",
+        "advertisedEntity": {
+          "kind": "indeterminado",
+          "name": "",
+          "confidence": "low"
+        },
+        "contentTopic": {
+          "label": "saúde e ciência",
+          "iabCode": null
+        },
         "segment": "saúde e ciência",
+        "subsegment": "indeterminado",
         "probableAudience": "público geral exposto a mitos de saúde",
         "awarenessStage": "consciente_problema",
         "productionLevel": "intermediate",
-        "durationBand": "10-20min",
+        "creatorScale": "unknown",
+        "replicability": "medium",
+        "durationBand": "over_60s",
+        "pace": "unknown",
         "mechanisms": [
           "curiosidade",
           "vigilancia",
-          "confiança",
+          "confianca",
           "alivio"
         ],
-        "confidence": "high"
+        "hookTypes": [],
+        "narrativeElements": [],
+        "proofTypes": [],
+        "ctaTypes": [],
+        "distributionContext": {
+          "organicPaid": "unknown",
+          "trendDependency": "unknown"
+        },
+        "confidence": "high",
+        "evidence": [],
+        "alternativeClassifications": [],
+        "missingInformation": [
+          "classificação legada ambígua requer revisão humana"
+        ],
+        "needsHumanReview": true
       },
       "comparison": {
         "level": 2,
@@ -469,6 +711,40 @@
         "contingent": [],
         "notRecommended": [],
         "hypotheses": []
+      },
+      "migration": {
+        "id": "taxonomy-v3-2026-08-24",
+        "legacyClassification": {
+          "materialFormat": "video_longo",
+          "presentationFormats": [
+            "dialogo",
+            "camera_direta",
+            "explicativo"
+          ],
+          "primaryFamily": "explicativo",
+          "secondaryFamilies": [
+            "conscientizacao",
+            "autoridade_opiniao"
+          ],
+          "objectives": [
+            "educar",
+            "confianca",
+            "consciencia_problema"
+          ],
+          "segment": "saúde e ciência",
+          "probableAudience": "público geral exposto a mitos de saúde",
+          "awarenessStage": "consciente_problema",
+          "productionLevel": "intermediate",
+          "durationBand": "10-20min",
+          "mechanisms": [
+            "curiosidade",
+            "vigilancia",
+            "confiança",
+            "alivio"
+          ],
+          "confidence": "high"
+        },
+        "reversibleViaGit": true
       }
     },
     {
@@ -504,32 +780,69 @@
         "causality": "not_inferred"
       },
       "classification": {
+        "taxonomyVersion": "3.0",
+        "container": "youtube_video",
         "materialFormat": "video_curto",
         "presentationFormats": [
           "camera_direta",
-          "explicativo"
+          "outro"
         ],
         "primaryFamily": "educativo",
         "secondaryFamilies": [
           "conscientizacao",
           "inspiracao"
         ],
+        "functionalMix": [
+          {
+            "family": "educativo",
+            "percentage": 100
+          }
+        ],
         "objectives": [
           "educar",
           "salvamento",
           "consciencia_problema"
         ],
+        "advertisingType": "indeterminado",
+        "commercialIntent": "indeterminada",
+        "advertisedEntity": {
+          "kind": "indeterminado",
+          "name": "",
+          "confidence": "low"
+        },
+        "contentTopic": {
+          "label": "saúde preventiva e longevidade",
+          "iabCode": null
+        },
         "segment": "saúde preventiva e longevidade",
+        "subsegment": "indeterminado",
         "probableAudience": "adultos interessados em envelhecimento saudável",
         "awarenessStage": "consciente_solucao",
         "productionLevel": "simple",
-        "durationBand": "3-5min",
+        "creatorScale": "unknown",
+        "replicability": "medium",
+        "durationBand": "over_60s",
+        "pace": "unknown",
         "mechanisms": [
           "desejo",
           "alivio",
-          "confiança"
+          "confianca"
         ],
-        "confidence": "medium"
+        "hookTypes": [],
+        "narrativeElements": [],
+        "proofTypes": [],
+        "ctaTypes": [],
+        "distributionContext": {
+          "organicPaid": "unknown",
+          "trendDependency": "unknown"
+        },
+        "confidence": "medium",
+        "evidence": [],
+        "alternativeClassifications": [],
+        "missingInformation": [
+          "classificação legada ambígua requer revisão humana"
+        ],
+        "needsHumanReview": true
       },
       "comparison": {
         "level": 2,
@@ -584,6 +897,38 @@
         "contingent": [],
         "notRecommended": [],
         "hypotheses": []
+      },
+      "migration": {
+        "id": "taxonomy-v3-2026-08-24",
+        "legacyClassification": {
+          "materialFormat": "video_curto",
+          "presentationFormats": [
+            "camera_direta",
+            "explicativo"
+          ],
+          "primaryFamily": "educativo",
+          "secondaryFamilies": [
+            "conscientizacao",
+            "inspiracao"
+          ],
+          "objectives": [
+            "educar",
+            "salvamento",
+            "consciencia_problema"
+          ],
+          "segment": "saúde preventiva e longevidade",
+          "probableAudience": "adultos interessados em envelhecimento saudável",
+          "awarenessStage": "consciente_solucao",
+          "productionLevel": "simple",
+          "durationBand": "3-5min",
+          "mechanisms": [
+            "desejo",
+            "alivio",
+            "confiança"
+          ],
+          "confidence": "medium"
+        },
+        "reversibleViaGit": true
       }
     },
     {
@@ -620,10 +965,12 @@
         "causality": "not_inferred"
       },
       "classification": {
+        "taxonomyVersion": "3.0",
+        "container": "youtube_video",
         "materialFormat": "video_curto",
         "presentationFormats": [
           "camera_direta",
-          "explicativo",
+          "outro",
           "institucional"
         ],
         "primaryFamily": "conscientizacao",
@@ -631,22 +978,57 @@
           "educativo",
           "venda_indireta"
         ],
+        "functionalMix": [
+          {
+            "family": "conscientizacao",
+            "percentage": 100
+          }
+        ],
         "objectives": [
           "consciencia_problema",
           "educar",
           "confianca"
         ],
+        "advertisingType": "indeterminado",
+        "commercialIntent": "indeterminada",
+        "advertisedEntity": {
+          "kind": "indeterminado",
+          "name": "",
+          "confidence": "low"
+        },
+        "contentTopic": {
+          "label": "saúde preventiva",
+          "iabCode": null
+        },
         "segment": "saúde preventiva",
+        "subsegment": "indeterminado",
         "probableAudience": "adultos brasileiros que não realizam acompanhamento preventivo",
         "awarenessStage": "consciente_problema",
         "productionLevel": "intermediate",
-        "durationBand": "1-3min",
+        "creatorScale": "unknown",
+        "replicability": "medium",
+        "durationBand": "over_60s",
+        "pace": "unknown",
         "mechanisms": [
           "aversao_perda",
           "vigilancia",
-          "confiança"
+          "confianca"
         ],
-        "confidence": "high"
+        "hookTypes": [],
+        "narrativeElements": [],
+        "proofTypes": [],
+        "ctaTypes": [],
+        "distributionContext": {
+          "organicPaid": "unknown",
+          "trendDependency": "unknown"
+        },
+        "confidence": "high",
+        "evidence": [],
+        "alternativeClassifications": [],
+        "missingInformation": [
+          "classificação legada ambígua requer revisão humana"
+        ],
+        "needsHumanReview": true
       },
       "comparison": {
         "level": 2,
@@ -702,6 +1084,39 @@
         "contingent": [],
         "notRecommended": [],
         "hypotheses": []
+      },
+      "migration": {
+        "id": "taxonomy-v3-2026-08-24",
+        "legacyClassification": {
+          "materialFormat": "video_curto",
+          "presentationFormats": [
+            "camera_direta",
+            "explicativo",
+            "institucional"
+          ],
+          "primaryFamily": "conscientizacao",
+          "secondaryFamilies": [
+            "educativo",
+            "venda_indireta"
+          ],
+          "objectives": [
+            "consciencia_problema",
+            "educar",
+            "confianca"
+          ],
+          "segment": "saúde preventiva",
+          "probableAudience": "adultos brasileiros que não realizam acompanhamento preventivo",
+          "awarenessStage": "consciente_problema",
+          "productionLevel": "intermediate",
+          "durationBand": "1-3min",
+          "mechanisms": [
+            "aversao_perda",
+            "vigilancia",
+            "confiança"
+          ],
+          "confidence": "high"
+        },
+        "reversibleViaGit": true
       }
     },
     {
@@ -736,10 +1151,12 @@
         "causality": "not_inferred"
       },
       "classification": {
+        "taxonomyVersion": "3.0",
+        "container": "webpage",
         "materialFormat": "video_longo",
         "presentationFormats": [
           "depoimento",
-          "storytelling",
+          "outro",
           "camera_direta"
         ],
         "primaryFamily": "depoimento",
@@ -747,25 +1164,60 @@
           "storytelling",
           "conscientizacao"
         ],
+        "functionalMix": [
+          {
+            "family": "depoimento",
+            "percentage": 100
+          }
+        ],
         "objectives": [
           "identificacao",
           "confianca",
           "consciencia_problema",
-          "acao"
+          "outro"
         ],
+        "advertisingType": "indeterminado",
+        "commercialIntent": "indeterminada",
+        "advertisedEntity": {
+          "kind": "indeterminado",
+          "name": "",
+          "confidence": "low"
+        },
+        "contentTopic": {
+          "label": "saúde da mulher e oncologia",
+          "iabCode": null
+        },
         "segment": "saúde da mulher e oncologia",
+        "subsegment": "indeterminado",
         "probableAudience": "mulheres, pacientes e familiares",
         "awarenessStage": "consciente_problema",
         "productionLevel": "unknown",
+        "creatorScale": "unknown",
+        "replicability": "medium",
         "durationBand": "unknown",
+        "pace": "unknown",
         "mechanisms": [
           "identificacao",
           "medo",
           "alivio",
-          "confiança",
+          "confianca",
           "desejo"
         ],
-        "confidence": "high"
+        "hookTypes": [],
+        "narrativeElements": [],
+        "proofTypes": [],
+        "ctaTypes": [],
+        "distributionContext": {
+          "organicPaid": "unknown",
+          "trendDependency": "unknown"
+        },
+        "confidence": "high",
+        "evidence": [],
+        "alternativeClassifications": [],
+        "missingInformation": [
+          "classificação legada ambígua requer revisão humana"
+        ],
+        "needsHumanReview": true
       },
       "comparison": {
         "level": 3,
@@ -821,6 +1273,42 @@
         "contingent": [],
         "notRecommended": [],
         "hypotheses": []
+      },
+      "migration": {
+        "id": "taxonomy-v3-2026-08-24",
+        "legacyClassification": {
+          "materialFormat": "video_longo",
+          "presentationFormats": [
+            "depoimento",
+            "storytelling",
+            "camera_direta"
+          ],
+          "primaryFamily": "depoimento",
+          "secondaryFamilies": [
+            "storytelling",
+            "conscientizacao"
+          ],
+          "objectives": [
+            "identificacao",
+            "confianca",
+            "consciencia_problema",
+            "acao"
+          ],
+          "segment": "saúde da mulher e oncologia",
+          "probableAudience": "mulheres, pacientes e familiares",
+          "awarenessStage": "consciente_problema",
+          "productionLevel": "unknown",
+          "durationBand": "unknown",
+          "mechanisms": [
+            "identificacao",
+            "medo",
+            "alivio",
+            "confiança",
+            "desejo"
+          ],
+          "confidence": "high"
+        },
+        "reversibleViaGit": true
       }
     },
     {
@@ -856,6 +1344,8 @@
         "causality": "not_inferred"
       },
       "classification": {
+        "taxonomyVersion": "3.0",
+        "container": "youtube_video",
         "materialFormat": "video_longo",
         "presentationFormats": [
           "comentario",
@@ -867,22 +1357,55 @@
           "autoridade_opiniao",
           "conscientizacao"
         ],
+        "functionalMix": [
+          {
+            "family": "noticia_atualidade",
+            "percentage": 100
+          }
+        ],
         "objectives": [
           "consciencia_problema",
           "comentario",
           "compartilhamento"
         ],
+        "advertisingType": "indeterminado",
+        "commercialIntent": "indeterminada",
+        "advertisedEntity": {
+          "kind": "indeterminado",
+          "name": "",
+          "confidence": "low"
+        },
+        "contentTopic": {
+          "label": "tecnologia, mídia e saúde",
+          "iabCode": null
+        },
         "segment": "tecnologia, mídia e saúde",
+        "subsegment": "indeterminado",
         "probableAudience": "adultos interessados em notícias e crítica de plataformas",
         "awarenessStage": "consciente_problema",
         "productionLevel": "intermediate",
-        "durationBand": "10-20min",
+        "creatorScale": "unknown",
+        "replicability": "medium",
+        "durationBand": "over_60s",
+        "pace": "unknown",
         "mechanisms": [
           "indignacao",
           "vigilancia",
           "medo"
         ],
-        "confidence": "high"
+        "hookTypes": [],
+        "narrativeElements": [],
+        "proofTypes": [],
+        "ctaTypes": [],
+        "distributionContext": {
+          "organicPaid": "unknown",
+          "trendDependency": "unknown"
+        },
+        "confidence": "high",
+        "evidence": [],
+        "alternativeClassifications": [],
+        "missingInformation": [],
+        "needsHumanReview": false
       },
       "comparison": {
         "level": 4,
@@ -935,6 +1458,39 @@
         "contingent": [],
         "notRecommended": [],
         "hypotheses": []
+      },
+      "migration": {
+        "id": "taxonomy-v3-2026-08-24",
+        "legacyClassification": {
+          "materialFormat": "video_longo",
+          "presentationFormats": [
+            "comentario",
+            "reportagem",
+            "narracao_imagens"
+          ],
+          "primaryFamily": "noticia_atualidade",
+          "secondaryFamilies": [
+            "autoridade_opiniao",
+            "conscientizacao"
+          ],
+          "objectives": [
+            "consciencia_problema",
+            "comentario",
+            "compartilhamento"
+          ],
+          "segment": "tecnologia, mídia e saúde",
+          "probableAudience": "adultos interessados em notícias e crítica de plataformas",
+          "awarenessStage": "consciente_problema",
+          "productionLevel": "intermediate",
+          "durationBand": "10-20min",
+          "mechanisms": [
+            "indignacao",
+            "vigilancia",
+            "medo"
+          ],
+          "confidence": "high"
+        },
+        "reversibleViaGit": true
       }
     },
     {
@@ -969,6 +1525,8 @@
         "causality": "not_inferred"
       },
       "classification": {
+        "taxonomyVersion": "3.0",
+        "container": "youtube_video",
         "materialFormat": "video_curto",
         "presentationFormats": [
           "dramatizacao",
@@ -980,23 +1538,56 @@
           "polemica",
           "posicionamento_marca"
         ],
+        "functionalMix": [
+          {
+            "family": "humor",
+            "percentage": 100
+          }
+        ],
         "objectives": [
-          "entretenimento",
+          "visualizacao",
           "compartilhamento",
           "marca"
         ],
+        "advertisingType": "conteudo_de_marca",
+        "commercialIntent": "implicita",
+        "advertisedEntity": {
+          "kind": "indeterminado",
+          "name": "",
+          "confidence": "low"
+        },
+        "contentTopic": {
+          "label": "humor e crítica cultural",
+          "iabCode": null
+        },
         "segment": "humor e crítica cultural",
+        "subsegment": "indeterminado",
         "probableAudience": "adultos familiarizados com coaching e palestras motivacionais",
         "awarenessStage": "indeterminado",
         "productionLevel": "complex",
-        "durationBand": "5-10min",
+        "creatorScale": "unknown",
+        "replicability": "medium",
+        "durationBand": "over_60s",
+        "pace": "unknown",
         "mechanisms": [
           "humor",
           "surpresa",
           "identificacao",
           "indignacao"
         ],
-        "confidence": "high"
+        "hookTypes": [],
+        "narrativeElements": [],
+        "proofTypes": [],
+        "ctaTypes": [],
+        "distributionContext": {
+          "organicPaid": "unknown",
+          "trendDependency": "unknown"
+        },
+        "confidence": "high",
+        "evidence": [],
+        "alternativeClassifications": [],
+        "missingInformation": [],
+        "needsHumanReview": false
       },
       "comparison": {
         "level": 4,
@@ -1050,6 +1641,40 @@
         "contingent": [],
         "notRecommended": [],
         "hypotheses": []
+      },
+      "migration": {
+        "id": "taxonomy-v3-2026-08-24",
+        "legacyClassification": {
+          "materialFormat": "video_curto",
+          "presentationFormats": [
+            "dramatizacao",
+            "esquete",
+            "manifesto"
+          ],
+          "primaryFamily": "humor",
+          "secondaryFamilies": [
+            "polemica",
+            "posicionamento_marca"
+          ],
+          "objectives": [
+            "entretenimento",
+            "compartilhamento",
+            "marca"
+          ],
+          "segment": "humor e crítica cultural",
+          "probableAudience": "adultos familiarizados com coaching e palestras motivacionais",
+          "awarenessStage": "indeterminado",
+          "productionLevel": "complex",
+          "durationBand": "5-10min",
+          "mechanisms": [
+            "humor",
+            "surpresa",
+            "identificacao",
+            "indignacao"
+          ],
+          "confidence": "high"
+        },
+        "reversibleViaGit": true
       }
     },
     {
@@ -1084,10 +1709,12 @@
         "causality": "not_inferred"
       },
       "classification": {
+        "taxonomyVersion": "3.0",
+        "container": "youtube_video",
         "materialFormat": "video_longo",
         "presentationFormats": [
           "podcast_entrevista",
-          "explicativo",
+          "outro",
           "camera_direta"
         ],
         "primaryFamily": "educativo",
@@ -1095,22 +1722,57 @@
           "autoridade_opiniao",
           "comparacao"
         ],
+        "functionalMix": [
+          {
+            "family": "educativo",
+            "percentage": 100
+          }
+        ],
         "objectives": [
           "educar",
           "confianca",
           "salvamento"
         ],
+        "advertisingType": "indeterminado",
+        "commercialIntent": "indeterminada",
+        "advertisedEntity": {
+          "kind": "indeterminado",
+          "name": "",
+          "confidence": "low"
+        },
+        "contentTopic": {
+          "label": "finanças pessoais",
+          "iabCode": null
+        },
         "segment": "finanças pessoais",
+        "subsegment": "indeterminado",
         "probableAudience": "iniciantes com pouco capital ou dívidas",
         "awarenessStage": "consciente_solucao",
         "productionLevel": "simple",
-        "durationBand": "20-40min",
+        "creatorScale": "unknown",
+        "replicability": "medium",
+        "durationBand": "over_60s",
+        "pace": "unknown",
         "mechanisms": [
           "aproximacao",
           "alivio",
-          "confiança"
+          "confianca"
         ],
-        "confidence": "high"
+        "hookTypes": [],
+        "narrativeElements": [],
+        "proofTypes": [],
+        "ctaTypes": [],
+        "distributionContext": {
+          "organicPaid": "unknown",
+          "trendDependency": "unknown"
+        },
+        "confidence": "high",
+        "evidence": [],
+        "alternativeClassifications": [],
+        "missingInformation": [
+          "classificação legada ambígua requer revisão humana"
+        ],
+        "needsHumanReview": true
       },
       "comparison": {
         "level": 2,
@@ -1167,6 +1829,39 @@
         "contingent": [],
         "notRecommended": [],
         "hypotheses": []
+      },
+      "migration": {
+        "id": "taxonomy-v3-2026-08-24",
+        "legacyClassification": {
+          "materialFormat": "video_longo",
+          "presentationFormats": [
+            "podcast_entrevista",
+            "explicativo",
+            "camera_direta"
+          ],
+          "primaryFamily": "educativo",
+          "secondaryFamilies": [
+            "autoridade_opiniao",
+            "comparacao"
+          ],
+          "objectives": [
+            "educar",
+            "confianca",
+            "salvamento"
+          ],
+          "segment": "finanças pessoais",
+          "probableAudience": "iniciantes com pouco capital ou dívidas",
+          "awarenessStage": "consciente_solucao",
+          "productionLevel": "simple",
+          "durationBand": "20-40min",
+          "mechanisms": [
+            "aproximacao",
+            "alivio",
+            "confiança"
+          ],
+          "confidence": "high"
+        },
+        "reversibleViaGit": true
       }
     },
     {
@@ -1201,34 +1896,71 @@
         "causality": "not_inferred"
       },
       "classification": {
+        "taxonomyVersion": "3.0",
+        "container": "youtube_video",
         "materialFormat": "video_longo",
         "presentationFormats": [
           "podcast_entrevista",
           "dialogo",
-          "humor"
+          "outro"
         ],
         "primaryFamily": "entretenimento",
         "secondaryFamilies": [
           "identificacao",
           "humor"
         ],
+        "functionalMix": [
+          {
+            "family": "entretenimento",
+            "percentage": 100
+          }
+        ],
         "objectives": [
-          "entretenimento",
+          "visualizacao",
           "comunidade",
           "retencao"
         ],
+        "advertisingType": "indeterminado",
+        "commercialIntent": "indeterminada",
+        "advertisedEntity": {
+          "kind": "indeterminado",
+          "name": "",
+          "confidence": "low"
+        },
+        "contentTopic": {
+          "label": "celebridades e cultura pop",
+          "iabCode": null
+        },
         "segment": "celebridades e cultura pop",
+        "subsegment": "indeterminado",
         "probableAudience": "fãs da apresentadora, do convidado e de cultura pop",
         "awarenessStage": "indeterminado",
         "productionLevel": "complex",
-        "durationBand": "60min+",
+        "creatorScale": "unknown",
+        "replicability": "medium",
+        "durationBand": "over_60s",
+        "pace": "unknown",
         "mechanisms": [
           "humor",
           "identificacao",
           "pertencimento",
           "curiosidade"
         ],
-        "confidence": "high"
+        "hookTypes": [],
+        "narrativeElements": [],
+        "proofTypes": [],
+        "ctaTypes": [],
+        "distributionContext": {
+          "organicPaid": "unknown",
+          "trendDependency": "unknown"
+        },
+        "confidence": "high",
+        "evidence": [],
+        "alternativeClassifications": [],
+        "missingInformation": [
+          "classificação legada ambígua requer revisão humana"
+        ],
+        "needsHumanReview": true
       },
       "comparison": {
         "level": 3,
@@ -1284,6 +2016,40 @@
         "contingent": [],
         "notRecommended": [],
         "hypotheses": []
+      },
+      "migration": {
+        "id": "taxonomy-v3-2026-08-24",
+        "legacyClassification": {
+          "materialFormat": "video_longo",
+          "presentationFormats": [
+            "podcast_entrevista",
+            "dialogo",
+            "humor"
+          ],
+          "primaryFamily": "entretenimento",
+          "secondaryFamilies": [
+            "identificacao",
+            "humor"
+          ],
+          "objectives": [
+            "entretenimento",
+            "comunidade",
+            "retencao"
+          ],
+          "segment": "celebridades e cultura pop",
+          "probableAudience": "fãs da apresentadora, do convidado e de cultura pop",
+          "awarenessStage": "indeterminado",
+          "productionLevel": "complex",
+          "durationBand": "60min+",
+          "mechanisms": [
+            "humor",
+            "identificacao",
+            "pertencimento",
+            "curiosidade"
+          ],
+          "confidence": "high"
+        },
+        "reversibleViaGit": true
       }
     },
     {
@@ -1318,33 +2084,70 @@
         "causality": "not_inferred"
       },
       "classification": {
+        "taxonomyVersion": "3.0",
+        "container": "youtube_video",
         "materialFormat": "video_longo",
         "presentationFormats": [
           "podcast_entrevista",
           "estudo_caso",
-          "storytelling"
+          "outro"
         ],
         "primaryFamily": "storytelling",
         "secondaryFamilies": [
           "prova_estudo_caso",
           "institucional"
         ],
+        "functionalMix": [
+          {
+            "family": "storytelling",
+            "percentage": 100
+          }
+        ],
         "objectives": [
           "marca",
           "autoridade",
           "confianca"
         ],
+        "advertisingType": "conteudo_de_marca",
+        "commercialIntent": "implicita",
+        "advertisedEntity": {
+          "kind": "indeterminado",
+          "name": "",
+          "confidence": "low"
+        },
+        "contentTopic": {
+          "label": "negócios, fintech e capital de risco",
+          "iabCode": null
+        },
         "segment": "negócios, fintech e capital de risco",
+        "subsegment": "indeterminado",
         "probableAudience": "empreendedores, investidores e profissionais de tecnologia",
         "awarenessStage": "consciente_produto",
         "productionLevel": "complex",
-        "durationBand": "40-60min",
+        "creatorScale": "unknown",
+        "replicability": "medium",
+        "durationBand": "over_60s",
+        "pace": "unknown",
         "mechanisms": [
           "admiracao",
-          "confiança",
+          "confianca",
           "curiosidade"
         ],
-        "confidence": "high"
+        "hookTypes": [],
+        "narrativeElements": [],
+        "proofTypes": [],
+        "ctaTypes": [],
+        "distributionContext": {
+          "organicPaid": "unknown",
+          "trendDependency": "unknown"
+        },
+        "confidence": "high",
+        "evidence": [],
+        "alternativeClassifications": [],
+        "missingInformation": [
+          "classificação legada ambígua requer revisão humana"
+        ],
+        "needsHumanReview": true
       },
       "comparison": {
         "level": 3,
@@ -1400,6 +2203,39 @@
         "contingent": [],
         "notRecommended": [],
         "hypotheses": []
+      },
+      "migration": {
+        "id": "taxonomy-v3-2026-08-24",
+        "legacyClassification": {
+          "materialFormat": "video_longo",
+          "presentationFormats": [
+            "podcast_entrevista",
+            "estudo_caso",
+            "storytelling"
+          ],
+          "primaryFamily": "storytelling",
+          "secondaryFamilies": [
+            "prova_estudo_caso",
+            "institucional"
+          ],
+          "objectives": [
+            "marca",
+            "autoridade",
+            "confianca"
+          ],
+          "segment": "negócios, fintech e capital de risco",
+          "probableAudience": "empreendedores, investidores e profissionais de tecnologia",
+          "awarenessStage": "consciente_produto",
+          "productionLevel": "complex",
+          "durationBand": "40-60min",
+          "mechanisms": [
+            "admiracao",
+            "confiança",
+            "curiosidade"
+          ],
+          "confidence": "high"
+        },
+        "reversibleViaGit": true
       }
     },
     {
@@ -1434,6 +2270,8 @@
         "causality": "not_inferred"
       },
       "classification": {
+        "taxonomyVersion": "3.0",
+        "container": "youtube_video",
         "materialFormat": "video_longo",
         "presentationFormats": [
           "camera_direta",
@@ -1445,22 +2283,55 @@
           "transformacao",
           "autoridade_opiniao"
         ],
+        "functionalMix": [
+          {
+            "family": "educativo",
+            "percentage": 100
+          }
+        ],
         "objectives": [
           "educar",
           "lead",
           "autoridade"
         ],
+        "advertisingType": "indeterminado",
+        "commercialIntent": "indeterminada",
+        "advertisedEntity": {
+          "kind": "indeterminado",
+          "name": "",
+          "confidence": "low"
+        },
+        "contentTopic": {
+          "label": "finanças pessoais e comportamento",
+          "iabCode": null
+        },
         "segment": "finanças pessoais e comportamento",
+        "subsegment": "indeterminado",
         "probableAudience": "adultos com ansiedade ou desorganização financeira",
         "awarenessStage": "consciente_problema",
         "productionLevel": "intermediate",
-        "durationBand": "10-20min",
+        "creatorScale": "unknown",
+        "replicability": "medium",
+        "durationBand": "over_60s",
+        "pace": "unknown",
         "mechanisms": [
           "alivio",
           "desejo",
-          "confiança"
+          "confianca"
         ],
-        "confidence": "high"
+        "hookTypes": [],
+        "narrativeElements": [],
+        "proofTypes": [],
+        "ctaTypes": [],
+        "distributionContext": {
+          "organicPaid": "unknown",
+          "trendDependency": "unknown"
+        },
+        "confidence": "high",
+        "evidence": [],
+        "alternativeClassifications": [],
+        "missingInformation": [],
+        "needsHumanReview": false
       },
       "comparison": {
         "level": 2,
@@ -1517,6 +2388,39 @@
         "contingent": [],
         "notRecommended": [],
         "hypotheses": []
+      },
+      "migration": {
+        "id": "taxonomy-v3-2026-08-24",
+        "legacyClassification": {
+          "materialFormat": "video_longo",
+          "presentationFormats": [
+            "camera_direta",
+            "tutorial",
+            "depoimento"
+          ],
+          "primaryFamily": "educativo",
+          "secondaryFamilies": [
+            "transformacao",
+            "autoridade_opiniao"
+          ],
+          "objectives": [
+            "educar",
+            "lead",
+            "autoridade"
+          ],
+          "segment": "finanças pessoais e comportamento",
+          "probableAudience": "adultos com ansiedade ou desorganização financeira",
+          "awarenessStage": "consciente_problema",
+          "productionLevel": "intermediate",
+          "durationBand": "10-20min",
+          "mechanisms": [
+            "alivio",
+            "desejo",
+            "confiança"
+          ],
+          "confidence": "high"
+        },
+        "reversibleViaGit": true
       }
     },
     {
@@ -1552,33 +2456,70 @@
         "causality": "not_inferred"
       },
       "classification": {
+        "taxonomyVersion": "3.0",
+        "container": "youtube_video",
         "materialFormat": "video_longo",
         "presentationFormats": [
           "camera_direta",
           "depoimento",
-          "storytelling"
+          "outro"
         ],
         "primaryFamily": "inspiracao",
         "secondaryFamilies": [
           "autoridade_opiniao",
           "transformacao"
         ],
+        "functionalMix": [
+          {
+            "family": "inspiracao",
+            "percentage": 100
+          }
+        ],
         "objectives": [
           "autoridade",
           "lead",
-          "venda_indireta"
+          "venda"
         ],
+        "advertisingType": "indeterminado",
+        "commercialIntent": "indeterminada",
+        "advertisedEntity": {
+          "kind": "indeterminado",
+          "name": "",
+          "confidence": "low"
+        },
+        "contentTopic": {
+          "label": "empreendedorismo e mentalidade financeira",
+          "iabCode": null
+        },
         "segment": "empreendedorismo e mentalidade financeira",
+        "subsegment": "indeterminado",
         "probableAudience": "jovens aspirando independência financeira",
         "awarenessStage": "consciente_solucao",
         "productionLevel": "intermediate",
-        "durationBand": "10-20min",
+        "creatorScale": "unknown",
+        "replicability": "medium",
+        "durationBand": "over_60s",
+        "pace": "unknown",
         "mechanisms": [
           "desejo",
           "admiracao",
           "curiosidade"
         ],
-        "confidence": "high"
+        "hookTypes": [],
+        "narrativeElements": [],
+        "proofTypes": [],
+        "ctaTypes": [],
+        "distributionContext": {
+          "organicPaid": "unknown",
+          "trendDependency": "unknown"
+        },
+        "confidence": "high",
+        "evidence": [],
+        "alternativeClassifications": [],
+        "missingInformation": [
+          "classificação legada ambígua requer revisão humana"
+        ],
+        "needsHumanReview": true
       },
       "comparison": {
         "level": 2,
@@ -1636,6 +2577,39 @@
         "contingent": [],
         "notRecommended": [],
         "hypotheses": []
+      },
+      "migration": {
+        "id": "taxonomy-v3-2026-08-24",
+        "legacyClassification": {
+          "materialFormat": "video_longo",
+          "presentationFormats": [
+            "camera_direta",
+            "depoimento",
+            "storytelling"
+          ],
+          "primaryFamily": "inspiracao",
+          "secondaryFamilies": [
+            "autoridade_opiniao",
+            "transformacao"
+          ],
+          "objectives": [
+            "autoridade",
+            "lead",
+            "venda_indireta"
+          ],
+          "segment": "empreendedorismo e mentalidade financeira",
+          "probableAudience": "jovens aspirando independência financeira",
+          "awarenessStage": "consciente_solucao",
+          "productionLevel": "intermediate",
+          "durationBand": "10-20min",
+          "mechanisms": [
+            "desejo",
+            "admiracao",
+            "curiosidade"
+          ],
+          "confidence": "high"
+        },
+        "reversibleViaGit": true
       }
     },
     {
@@ -1669,6 +2643,8 @@
         "causality": "not_inferred"
       },
       "classification": {
+        "taxonomyVersion": "3.0",
+        "container": "youtube_video",
         "materialFormat": "video_longo",
         "presentationFormats": [
           "camera_direta",
@@ -1680,22 +2656,55 @@
           "inspiracao",
           "autoridade_opiniao"
         ],
+        "functionalMix": [
+          {
+            "family": "educativo",
+            "percentage": 100
+          }
+        ],
         "objectives": [
           "educar",
           "autoridade",
           "salvamento"
         ],
+        "advertisingType": "indeterminado",
+        "commercialIntent": "indeterminada",
+        "advertisedEntity": {
+          "kind": "indeterminado",
+          "name": "",
+          "confidence": "low"
+        },
+        "contentTopic": {
+          "label": "carreira digital e renda online",
+          "iabCode": null
+        },
         "segment": "carreira digital e renda online",
+        "subsegment": "indeterminado",
         "probableAudience": "iniciantes buscando trabalho remoto ou carreira online",
         "awarenessStage": "consciente_solucao",
         "productionLevel": "intermediate",
-        "durationBand": "10-20min",
+        "creatorScale": "unknown",
+        "replicability": "medium",
+        "durationBand": "over_60s",
+        "pace": "unknown",
         "mechanisms": [
           "desejo",
           "aproximacao",
-          "confiança"
+          "confianca"
         ],
-        "confidence": "high"
+        "hookTypes": [],
+        "narrativeElements": [],
+        "proofTypes": [],
+        "ctaTypes": [],
+        "distributionContext": {
+          "organicPaid": "unknown",
+          "trendDependency": "unknown"
+        },
+        "confidence": "high",
+        "evidence": [],
+        "alternativeClassifications": [],
+        "missingInformation": [],
+        "needsHumanReview": false
       },
       "comparison": {
         "level": 2,
@@ -1752,6 +2761,39 @@
         "contingent": [],
         "notRecommended": [],
         "hypotheses": []
+      },
+      "migration": {
+        "id": "taxonomy-v3-2026-08-24",
+        "legacyClassification": {
+          "materialFormat": "video_longo",
+          "presentationFormats": [
+            "camera_direta",
+            "tutorial",
+            "estudo_caso"
+          ],
+          "primaryFamily": "educativo",
+          "secondaryFamilies": [
+            "inspiracao",
+            "autoridade_opiniao"
+          ],
+          "objectives": [
+            "educar",
+            "autoridade",
+            "salvamento"
+          ],
+          "segment": "carreira digital e renda online",
+          "probableAudience": "iniciantes buscando trabalho remoto ou carreira online",
+          "awarenessStage": "consciente_solucao",
+          "productionLevel": "intermediate",
+          "durationBand": "10-20min",
+          "mechanisms": [
+            "desejo",
+            "aproximacao",
+            "confiança"
+          ],
+          "confidence": "high"
+        },
+        "reversibleViaGit": true
       }
     },
     {
@@ -1790,33 +2832,69 @@
         "causality": "not_inferred"
       },
       "classification": {
-        "materialFormat": "short_vertical",
+        "taxonomyVersion": "3.0",
+        "container": "youtube_video",
+        "materialFormat": "video_curto",
         "presentationFormats": [
           "demonstracao",
-          "curiosidade"
+          "outro"
         ],
         "primaryFamily": "educativo",
         "secondaryFamilies": [
           "demonstracao",
           "curiosidade"
         ],
+        "functionalMix": [
+          {
+            "family": "educativo",
+            "percentage": 100
+          }
+        ],
         "objectives": [
           "educar",
           "retencao",
           "compartilhamento"
         ],
+        "advertisingType": "indeterminado",
+        "commercialIntent": "indeterminada",
+        "advertisedEntity": {
+          "kind": "indeterminado",
+          "name": "",
+          "confidence": "low"
+        },
+        "contentTopic": {
+          "label": "ciência e ilusão visual",
+          "iabCode": null
+        },
         "segment": "ciência e ilusão visual",
+        "subsegment": "indeterminado",
         "probableAudience": "público geral interessado em curiosidades",
         "awarenessStage": "inconsciente",
         "productionLevel": "intermediate",
-        "durationBand": "short_exact_unknown",
+        "creatorScale": "unknown",
+        "replicability": "medium",
+        "durationBand": "unknown",
         "pace": "not_assessed",
         "mechanisms": [
           "curiosidade",
           "surpresa",
           "recompensa"
         ],
-        "confidence": "medium"
+        "hookTypes": [],
+        "narrativeElements": [],
+        "proofTypes": [],
+        "ctaTypes": [],
+        "distributionContext": {
+          "organicPaid": "unknown",
+          "trendDependency": "unknown"
+        },
+        "confidence": "medium",
+        "evidence": [],
+        "alternativeClassifications": [],
+        "missingInformation": [
+          "classificação legada ambígua requer revisão humana"
+        ],
+        "needsHumanReview": true
       },
       "comparison": {
         "level": 2,
@@ -1872,7 +2950,40 @@
         "notRecommended": [],
         "hypotheses": []
       },
-      "createdAt": "2026-08-24T01:13:46.208904+00:00"
+      "createdAt": "2026-08-24T01:13:46.208904+00:00",
+      "migration": {
+        "id": "taxonomy-v3-2026-08-24",
+        "legacyClassification": {
+          "materialFormat": "short_vertical",
+          "presentationFormats": [
+            "demonstracao",
+            "curiosidade"
+          ],
+          "primaryFamily": "educativo",
+          "secondaryFamilies": [
+            "demonstracao",
+            "curiosidade"
+          ],
+          "objectives": [
+            "educar",
+            "retencao",
+            "compartilhamento"
+          ],
+          "segment": "ciência e ilusão visual",
+          "probableAudience": "público geral interessado em curiosidades",
+          "awarenessStage": "inconsciente",
+          "productionLevel": "intermediate",
+          "durationBand": "short_exact_unknown",
+          "pace": "not_assessed",
+          "mechanisms": [
+            "curiosidade",
+            "surpresa",
+            "recompensa"
+          ],
+          "confidence": "medium"
+        },
+        "reversibleViaGit": true
+      }
     },
     {
       "id": "obs-20260824-017",
@@ -1909,32 +3020,67 @@
         "causality": "not_inferred"
       },
       "classification": {
-        "materialFormat": "short_vertical",
+        "taxonomyVersion": "3.0",
+        "container": "youtube_video",
+        "materialFormat": "video_curto",
         "presentationFormats": [
-          "explicativo",
-          "curiosidade"
+          "outro"
         ],
         "primaryFamily": "educativo",
         "secondaryFamilies": [
           "explicativo",
           "curiosidade"
         ],
+        "functionalMix": [
+          {
+            "family": "educativo",
+            "percentage": 100
+          }
+        ],
         "objectives": [
           "educar",
           "retencao"
         ],
+        "advertisingType": "indeterminado",
+        "commercialIntent": "indeterminada",
+        "advertisedEntity": {
+          "kind": "indeterminado",
+          "name": "",
+          "confidence": "low"
+        },
+        "contentTopic": {
+          "label": "ciência e astronomia",
+          "iabCode": null
+        },
         "segment": "ciência e astronomia",
+        "subsegment": "indeterminado",
         "probableAudience": "público geral interessado em ciência",
         "awarenessStage": "inconsciente",
         "productionLevel": "intermediate",
-        "durationBand": "short_exact_unknown",
+        "creatorScale": "unknown",
+        "replicability": "medium",
+        "durationBand": "unknown",
         "pace": "not_assessed",
         "mechanisms": [
           "curiosidade",
           "vigilancia",
           "recompensa"
         ],
-        "confidence": "medium"
+        "hookTypes": [],
+        "narrativeElements": [],
+        "proofTypes": [],
+        "ctaTypes": [],
+        "distributionContext": {
+          "organicPaid": "unknown",
+          "trendDependency": "unknown"
+        },
+        "confidence": "medium",
+        "evidence": [],
+        "alternativeClassifications": [],
+        "missingInformation": [
+          "classificação legada ambígua requer revisão humana"
+        ],
+        "needsHumanReview": true
       },
       "comparison": {
         "level": 2,
@@ -1991,7 +3137,39 @@
         "notRecommended": [],
         "hypotheses": []
       },
-      "createdAt": "2026-08-24T01:13:46.245547+00:00"
+      "createdAt": "2026-08-24T01:13:46.245547+00:00",
+      "migration": {
+        "id": "taxonomy-v3-2026-08-24",
+        "legacyClassification": {
+          "materialFormat": "short_vertical",
+          "presentationFormats": [
+            "explicativo",
+            "curiosidade"
+          ],
+          "primaryFamily": "educativo",
+          "secondaryFamilies": [
+            "explicativo",
+            "curiosidade"
+          ],
+          "objectives": [
+            "educar",
+            "retencao"
+          ],
+          "segment": "ciência e astronomia",
+          "probableAudience": "público geral interessado em ciência",
+          "awarenessStage": "inconsciente",
+          "productionLevel": "intermediate",
+          "durationBand": "short_exact_unknown",
+          "pace": "not_assessed",
+          "mechanisms": [
+            "curiosidade",
+            "vigilancia",
+            "recompensa"
+          ],
+          "confidence": "medium"
+        },
+        "reversibleViaGit": true
+      }
     },
     {
       "id": "obs-20260824-018",
@@ -2029,30 +3207,66 @@
         "causality": "not_inferred"
       },
       "classification": {
-        "materialFormat": "short_vertical",
+        "taxonomyVersion": "3.0",
+        "container": "youtube_video",
+        "materialFormat": "video_curto",
         "presentationFormats": [
-          "explicativo"
+          "outro"
         ],
         "primaryFamily": "educativo",
         "secondaryFamilies": [
           "conscientizacao"
         ],
+        "functionalMix": [
+          {
+            "family": "educativo",
+            "percentage": 100
+          }
+        ],
         "objectives": [
           "educar",
           "consciencia_problema"
         ],
+        "advertisingType": "indeterminado",
+        "commercialIntent": "indeterminada",
+        "advertisedEntity": {
+          "kind": "indeterminado",
+          "name": "",
+          "confidence": "low"
+        },
+        "contentTopic": {
+          "label": "mídia, sociedade e desinformação",
+          "iabCode": null
+        },
         "segment": "mídia, sociedade e desinformação",
+        "subsegment": "indeterminado",
         "probableAudience": "público geral e estudantes",
         "awarenessStage": "consciente_problema",
         "productionLevel": "intermediate",
-        "durationBand": "short_exact_unknown",
+        "creatorScale": "unknown",
+        "replicability": "medium",
+        "durationBand": "unknown",
         "pace": "not_assessed",
         "mechanisms": [
           "curiosidade",
           "vigilancia",
-          "confiança"
+          "confianca"
         ],
-        "confidence": "medium"
+        "hookTypes": [],
+        "narrativeElements": [],
+        "proofTypes": [],
+        "ctaTypes": [],
+        "distributionContext": {
+          "organicPaid": "unknown",
+          "trendDependency": "unknown"
+        },
+        "confidence": "medium",
+        "evidence": [],
+        "alternativeClassifications": [],
+        "missingInformation": [
+          "classificação legada ambígua requer revisão humana"
+        ],
+        "needsHumanReview": true
       },
       "comparison": {
         "level": 2,
@@ -2108,7 +3322,37 @@
         "notRecommended": [],
         "hypotheses": []
       },
-      "createdAt": "2026-08-24T01:13:46.278734+00:00"
+      "createdAt": "2026-08-24T01:13:46.278734+00:00",
+      "migration": {
+        "id": "taxonomy-v3-2026-08-24",
+        "legacyClassification": {
+          "materialFormat": "short_vertical",
+          "presentationFormats": [
+            "explicativo"
+          ],
+          "primaryFamily": "educativo",
+          "secondaryFamilies": [
+            "conscientizacao"
+          ],
+          "objectives": [
+            "educar",
+            "consciencia_problema"
+          ],
+          "segment": "mídia, sociedade e desinformação",
+          "probableAudience": "público geral e estudantes",
+          "awarenessStage": "consciente_problema",
+          "productionLevel": "intermediate",
+          "durationBand": "short_exact_unknown",
+          "pace": "not_assessed",
+          "mechanisms": [
+            "curiosidade",
+            "vigilancia",
+            "confiança"
+          ],
+          "confidence": "medium"
+        },
+        "reversibleViaGit": true
+      }
     },
     {
       "id": "obs-20260824-019",
@@ -2145,32 +3389,68 @@
         "causality": "not_inferred"
       },
       "classification": {
-        "materialFormat": "short_vertical",
+        "taxonomyVersion": "3.0",
+        "container": "youtube_video",
+        "materialFormat": "video_curto",
         "presentationFormats": [
-          "explicativo",
+          "outro",
           "camera_direta"
         ],
         "primaryFamily": "educativo",
         "secondaryFamilies": [
           "tutorial"
         ],
+        "functionalMix": [
+          {
+            "family": "educativo",
+            "percentage": 100
+          }
+        ],
         "objectives": [
           "educar",
           "salvamento",
-          "consciencia_solucao"
+          "apresentar_solucao"
         ],
+        "advertisingType": "indeterminado",
+        "commercialIntent": "indeterminada",
+        "advertisedEntity": {
+          "kind": "indeterminado",
+          "name": "",
+          "confidence": "low"
+        },
+        "contentTopic": {
+          "label": "finanças pessoais para iniciantes",
+          "iabCode": null
+        },
         "segment": "finanças pessoais para iniciantes",
+        "subsegment": "indeterminado",
         "probableAudience": "adultos organizando orçamento",
         "awarenessStage": "consciente_solucao",
         "productionLevel": "simple",
-        "durationBand": "short_exact_unknown",
+        "creatorScale": "unknown",
+        "replicability": "medium",
+        "durationBand": "unknown",
         "pace": "not_assessed",
         "mechanisms": [
           "curiosidade",
           "aproximacao",
           "recompensa"
         ],
-        "confidence": "medium"
+        "hookTypes": [],
+        "narrativeElements": [],
+        "proofTypes": [],
+        "ctaTypes": [],
+        "distributionContext": {
+          "organicPaid": "unknown",
+          "trendDependency": "unknown"
+        },
+        "confidence": "medium",
+        "evidence": [],
+        "alternativeClassifications": [],
+        "missingInformation": [
+          "classificação legada ambígua requer revisão humana"
+        ],
+        "needsHumanReview": true
       },
       "comparison": {
         "level": 3,
@@ -2223,7 +3503,39 @@
         "notRecommended": [],
         "hypotheses": []
       },
-      "createdAt": "2026-08-24T01:13:46.313151+00:00"
+      "createdAt": "2026-08-24T01:13:46.313151+00:00",
+      "migration": {
+        "id": "taxonomy-v3-2026-08-24",
+        "legacyClassification": {
+          "materialFormat": "short_vertical",
+          "presentationFormats": [
+            "explicativo",
+            "camera_direta"
+          ],
+          "primaryFamily": "educativo",
+          "secondaryFamilies": [
+            "tutorial"
+          ],
+          "objectives": [
+            "educar",
+            "salvamento",
+            "consciencia_solucao"
+          ],
+          "segment": "finanças pessoais para iniciantes",
+          "probableAudience": "adultos organizando orçamento",
+          "awarenessStage": "consciente_solucao",
+          "productionLevel": "simple",
+          "durationBand": "short_exact_unknown",
+          "pace": "not_assessed",
+          "mechanisms": [
+            "curiosidade",
+            "aproximacao",
+            "recompensa"
+          ],
+          "confidence": "medium"
+        },
+        "reversibleViaGit": true
+      }
     },
     {
       "id": "obs-20260824-020",
@@ -2262,33 +3574,69 @@
         "causality": "not_inferred"
       },
       "classification": {
-        "materialFormat": "short_vertical",
+        "taxonomyVersion": "3.0",
+        "container": "webpage",
+        "materialFormat": "video_curto",
         "presentationFormats": [
           "camera_direta",
-          "explicativo"
+          "outro"
         ],
         "primaryFamily": "educativo",
         "secondaryFamilies": [
           "conscientizacao",
           "autoridade_opiniao"
         ],
+        "functionalMix": [
+          {
+            "family": "educativo",
+            "percentage": 100
+          }
+        ],
         "objectives": [
           "educar",
           "consciencia_problema",
           "confianca"
         ],
+        "advertisingType": "indeterminado",
+        "commercialIntent": "indeterminada",
+        "advertisedEntity": {
+          "kind": "indeterminado",
+          "name": "",
+          "confidence": "low"
+        },
+        "contentTopic": {
+          "label": "saúde e dor crônica",
+          "iabCode": null
+        },
         "segment": "saúde e dor crônica",
+        "subsegment": "indeterminado",
         "probableAudience": "adultos com dor persistente e familiares",
         "awarenessStage": "consciente_problema",
         "productionLevel": "simple",
-        "durationBand": "short_exact_unknown",
+        "creatorScale": "unknown",
+        "replicability": "medium",
+        "durationBand": "unknown",
         "pace": "not_assessed",
         "mechanisms": [
           "vigilancia",
           "identificacao",
-          "confiança"
+          "confianca"
         ],
-        "confidence": "high"
+        "hookTypes": [],
+        "narrativeElements": [],
+        "proofTypes": [],
+        "ctaTypes": [],
+        "distributionContext": {
+          "organicPaid": "unknown",
+          "trendDependency": "unknown"
+        },
+        "confidence": "high",
+        "evidence": [],
+        "alternativeClassifications": [],
+        "missingInformation": [
+          "classificação legada ambígua requer revisão humana"
+        ],
+        "needsHumanReview": true
       },
       "comparison": {
         "level": 2,
@@ -2346,7 +3694,40 @@
         "notRecommended": [],
         "hypotheses": []
       },
-      "createdAt": "2026-08-24T01:13:46.346579+00:00"
+      "createdAt": "2026-08-24T01:13:46.346579+00:00",
+      "migration": {
+        "id": "taxonomy-v3-2026-08-24",
+        "legacyClassification": {
+          "materialFormat": "short_vertical",
+          "presentationFormats": [
+            "camera_direta",
+            "explicativo"
+          ],
+          "primaryFamily": "educativo",
+          "secondaryFamilies": [
+            "conscientizacao",
+            "autoridade_opiniao"
+          ],
+          "objectives": [
+            "educar",
+            "consciencia_problema",
+            "confianca"
+          ],
+          "segment": "saúde e dor crônica",
+          "probableAudience": "adultos com dor persistente e familiares",
+          "awarenessStage": "consciente_problema",
+          "productionLevel": "simple",
+          "durationBand": "short_exact_unknown",
+          "pace": "not_assessed",
+          "mechanisms": [
+            "vigilancia",
+            "identificacao",
+            "confiança"
+          ],
+          "confidence": "high"
+        },
+        "reversibleViaGit": true
+      }
     },
     {
       "id": "obs-20260824-021",
@@ -2383,7 +3764,9 @@
         "causality": "not_inferred"
       },
       "classification": {
-        "materialFormat": "short_vertical",
+        "taxonomyVersion": "3.0",
+        "container": "youtube_video",
+        "materialFormat": "video_curto",
         "presentationFormats": [
           "tutorial",
           "demonstracao"
@@ -2393,23 +3776,55 @@
           "educativo",
           "ugc"
         ],
+        "functionalMix": [
+          {
+            "family": "demonstracao",
+            "percentage": 100
+          }
+        ],
         "objectives": [
           "educar",
           "salvamento",
           "autoridade"
         ],
+        "advertisingType": "indeterminado",
+        "commercialIntent": "indeterminada",
+        "advertisedEntity": {
+          "kind": "indeterminado",
+          "name": "",
+          "confidence": "low"
+        },
+        "contentTopic": {
+          "label": "Canva e design para redes sociais",
+          "iabCode": null
+        },
         "segment": "Canva e design para redes sociais",
+        "subsegment": "indeterminado",
         "probableAudience": "criadores e pequenos negócios",
         "awarenessStage": "consciente_solucao",
         "productionLevel": "simple",
-        "durationBand": "short_exact_unknown",
+        "creatorScale": "unknown",
+        "replicability": "medium",
+        "durationBand": "unknown",
         "pace": "not_assessed",
         "mechanisms": [
           "recompensa",
           "surpresa",
           "desejo"
         ],
-        "confidence": "medium"
+        "hookTypes": [],
+        "narrativeElements": [],
+        "proofTypes": [],
+        "ctaTypes": [],
+        "distributionContext": {
+          "organicPaid": "unknown",
+          "trendDependency": "unknown"
+        },
+        "confidence": "medium",
+        "evidence": [],
+        "alternativeClassifications": [],
+        "missingInformation": [],
+        "needsHumanReview": false
       },
       "comparison": {
         "level": 1,
@@ -2465,7 +3880,40 @@
         "notRecommended": [],
         "hypotheses": []
       },
-      "createdAt": "2026-08-24T01:13:46.382844+00:00"
+      "createdAt": "2026-08-24T01:13:46.382844+00:00",
+      "migration": {
+        "id": "taxonomy-v3-2026-08-24",
+        "legacyClassification": {
+          "materialFormat": "short_vertical",
+          "presentationFormats": [
+            "tutorial",
+            "demonstracao"
+          ],
+          "primaryFamily": "demonstracao",
+          "secondaryFamilies": [
+            "educativo",
+            "ugc"
+          ],
+          "objectives": [
+            "educar",
+            "salvamento",
+            "autoridade"
+          ],
+          "segment": "Canva e design para redes sociais",
+          "probableAudience": "criadores e pequenos negócios",
+          "awarenessStage": "consciente_solucao",
+          "productionLevel": "simple",
+          "durationBand": "short_exact_unknown",
+          "pace": "not_assessed",
+          "mechanisms": [
+            "recompensa",
+            "surpresa",
+            "desejo"
+          ],
+          "confidence": "medium"
+        },
+        "reversibleViaGit": true
+      }
     },
     {
       "id": "obs-20260824-022",
@@ -2502,7 +3950,9 @@
         "causality": "not_inferred"
       },
       "classification": {
-        "materialFormat": "short_vertical",
+        "taxonomyVersion": "3.0",
+        "container": "youtube_video",
+        "materialFormat": "video_curto",
         "presentationFormats": [
           "tutorial",
           "demonstracao"
@@ -2512,23 +3962,55 @@
           "educativo",
           "ugc"
         ],
+        "functionalMix": [
+          {
+            "family": "demonstracao",
+            "percentage": 100
+          }
+        ],
         "objectives": [
           "educar",
           "salvamento",
           "autoridade"
         ],
+        "advertisingType": "indeterminado",
+        "commercialIntent": "indeterminada",
+        "advertisedEntity": {
+          "kind": "indeterminado",
+          "name": "",
+          "confidence": "low"
+        },
+        "contentTopic": {
+          "label": "Canva e design para redes sociais",
+          "iabCode": null
+        },
         "segment": "Canva e design para redes sociais",
+        "subsegment": "indeterminado",
         "probableAudience": "criadores e usuários de Canva",
         "awarenessStage": "consciente_solucao",
         "productionLevel": "simple",
-        "durationBand": "short_exact_unknown",
+        "creatorScale": "unknown",
+        "replicability": "medium",
+        "durationBand": "unknown",
         "pace": "not_assessed",
         "mechanisms": [
           "recompensa",
           "surpresa",
           "desejo"
         ],
-        "confidence": "medium"
+        "hookTypes": [],
+        "narrativeElements": [],
+        "proofTypes": [],
+        "ctaTypes": [],
+        "distributionContext": {
+          "organicPaid": "unknown",
+          "trendDependency": "unknown"
+        },
+        "confidence": "medium",
+        "evidence": [],
+        "alternativeClassifications": [],
+        "missingInformation": [],
+        "needsHumanReview": false
       },
       "comparison": {
         "level": 1,
@@ -2584,7 +4066,40 @@
         ],
         "hypotheses": []
       },
-      "createdAt": "2026-08-24T01:13:46.424783+00:00"
+      "createdAt": "2026-08-24T01:13:46.424783+00:00",
+      "migration": {
+        "id": "taxonomy-v3-2026-08-24",
+        "legacyClassification": {
+          "materialFormat": "short_vertical",
+          "presentationFormats": [
+            "tutorial",
+            "demonstracao"
+          ],
+          "primaryFamily": "demonstracao",
+          "secondaryFamilies": [
+            "educativo",
+            "ugc"
+          ],
+          "objectives": [
+            "educar",
+            "salvamento",
+            "autoridade"
+          ],
+          "segment": "Canva e design para redes sociais",
+          "probableAudience": "criadores e usuários de Canva",
+          "awarenessStage": "consciente_solucao",
+          "productionLevel": "simple",
+          "durationBand": "short_exact_unknown",
+          "pace": "not_assessed",
+          "mechanisms": [
+            "recompensa",
+            "surpresa",
+            "desejo"
+          ],
+          "confidence": "medium"
+        },
+        "reversibleViaGit": true
+      }
     },
     {
       "id": "obs-20260824-023",
@@ -2622,7 +4137,9 @@
         "causality": "not_inferred"
       },
       "classification": {
-        "materialFormat": "short_vertical",
+        "taxonomyVersion": "3.0",
+        "container": "youtube_video",
+        "materialFormat": "video_curto",
         "presentationFormats": [
           "tutorial",
           "demonstracao"
@@ -2632,23 +4149,55 @@
           "educativo",
           "ugc"
         ],
+        "functionalMix": [
+          {
+            "family": "demonstracao",
+            "percentage": 100
+          }
+        ],
         "objectives": [
           "educar",
           "salvamento",
           "autoridade"
         ],
+        "advertisingType": "indeterminado",
+        "commercialIntent": "indeterminada",
+        "advertisedEntity": {
+          "kind": "indeterminado",
+          "name": "",
+          "confidence": "low"
+        },
+        "contentTopic": {
+          "label": "Canva e design para redes sociais",
+          "iabCode": null
+        },
         "segment": "Canva e design para redes sociais",
+        "subsegment": "indeterminado",
         "probableAudience": "usuários iniciantes de Canva",
         "awarenessStage": "consciente_solucao",
         "productionLevel": "simple",
-        "durationBand": "short_exact_unknown",
+        "creatorScale": "unknown",
+        "replicability": "medium",
+        "durationBand": "unknown",
         "pace": "not_assessed",
         "mechanisms": [
           "recompensa",
-          "descoberta",
+          "curiosidade",
           "desejo"
         ],
-        "confidence": "medium"
+        "hookTypes": [],
+        "narrativeElements": [],
+        "proofTypes": [],
+        "ctaTypes": [],
+        "distributionContext": {
+          "organicPaid": "unknown",
+          "trendDependency": "unknown"
+        },
+        "confidence": "medium",
+        "evidence": [],
+        "alternativeClassifications": [],
+        "missingInformation": [],
+        "needsHumanReview": false
       },
       "comparison": {
         "level": 1,
@@ -2704,7 +4253,40 @@
         "notRecommended": [],
         "hypotheses": []
       },
-      "createdAt": "2026-08-24T01:13:46.463330+00:00"
+      "createdAt": "2026-08-24T01:13:46.463330+00:00",
+      "migration": {
+        "id": "taxonomy-v3-2026-08-24",
+        "legacyClassification": {
+          "materialFormat": "short_vertical",
+          "presentationFormats": [
+            "tutorial",
+            "demonstracao"
+          ],
+          "primaryFamily": "demonstracao",
+          "secondaryFamilies": [
+            "educativo",
+            "ugc"
+          ],
+          "objectives": [
+            "educar",
+            "salvamento",
+            "autoridade"
+          ],
+          "segment": "Canva e design para redes sociais",
+          "probableAudience": "usuários iniciantes de Canva",
+          "awarenessStage": "consciente_solucao",
+          "productionLevel": "simple",
+          "durationBand": "short_exact_unknown",
+          "pace": "not_assessed",
+          "mechanisms": [
+            "recompensa",
+            "descoberta",
+            "desejo"
+          ],
+          "confidence": "medium"
+        },
+        "reversibleViaGit": true
+      }
     },
     {
       "id": "obs-20260824-024",
@@ -2742,9 +4324,11 @@
         "causality": "not_inferred"
       },
       "classification": {
-        "materialFormat": "short_vertical",
+        "taxonomyVersion": "3.0",
+        "container": "youtube_video",
+        "materialFormat": "video_curto",
         "presentationFormats": [
-          "review",
+          "comentario",
           "camera_direta"
         ],
         "primaryFamily": "autoridade_opiniao",
@@ -2752,23 +4336,55 @@
           "demonstracao",
           "comparacao"
         ],
+        "functionalMix": [
+          {
+            "family": "autoridade_opiniao",
+            "percentage": 100
+          }
+        ],
         "objectives": [
           "educar",
-          "decisao_compra",
+          "venda",
           "autoridade"
         ],
+        "advertisingType": "indeterminado",
+        "commercialIntent": "indeterminada",
+        "advertisedEntity": {
+          "kind": "indeterminado",
+          "name": "",
+          "confidence": "low"
+        },
+        "contentTopic": {
+          "label": "smartphones e tecnologia de consumo",
+          "iabCode": null
+        },
         "segment": "smartphones e tecnologia de consumo",
+        "subsegment": "indeterminado",
         "probableAudience": "usuários considerando trocar de iPhone",
         "awarenessStage": "consciente_produto",
         "productionLevel": "intermediate",
-        "durationBand": "short_exact_unknown",
+        "creatorScale": "unknown",
+        "replicability": "medium",
+        "durationBand": "unknown",
         "pace": "not_assessed",
         "mechanisms": [
           "vigilancia",
           "desejo",
-          "confiança"
+          "confianca"
         ],
-        "confidence": "medium"
+        "hookTypes": [],
+        "narrativeElements": [],
+        "proofTypes": [],
+        "ctaTypes": [],
+        "distributionContext": {
+          "organicPaid": "unknown",
+          "trendDependency": "unknown"
+        },
+        "confidence": "medium",
+        "evidence": [],
+        "alternativeClassifications": [],
+        "missingInformation": [],
+        "needsHumanReview": false
       },
       "comparison": {
         "level": 2,
@@ -2823,7 +4439,40 @@
         "notRecommended": [],
         "hypotheses": []
       },
-      "createdAt": "2026-08-24T01:13:46.500159+00:00"
+      "createdAt": "2026-08-24T01:13:46.500159+00:00",
+      "migration": {
+        "id": "taxonomy-v3-2026-08-24",
+        "legacyClassification": {
+          "materialFormat": "short_vertical",
+          "presentationFormats": [
+            "review",
+            "camera_direta"
+          ],
+          "primaryFamily": "autoridade_opiniao",
+          "secondaryFamilies": [
+            "demonstracao",
+            "comparacao"
+          ],
+          "objectives": [
+            "educar",
+            "decisao_compra",
+            "autoridade"
+          ],
+          "segment": "smartphones e tecnologia de consumo",
+          "probableAudience": "usuários considerando trocar de iPhone",
+          "awarenessStage": "consciente_produto",
+          "productionLevel": "intermediate",
+          "durationBand": "short_exact_unknown",
+          "pace": "not_assessed",
+          "mechanisms": [
+            "vigilancia",
+            "desejo",
+            "confiança"
+          ],
+          "confidence": "medium"
+        },
+        "reversibleViaGit": true
+      }
     },
     {
       "id": "obs-20260824-025",
@@ -2861,7 +4510,9 @@
         "causality": "not_inferred"
       },
       "classification": {
-        "materialFormat": "short_vertical",
+        "taxonomyVersion": "3.0",
+        "container": "youtube_video",
+        "materialFormat": "video_curto",
         "presentationFormats": [
           "demonstracao",
           "tutorial"
@@ -2871,23 +4522,55 @@
           "ugc",
           "educativo"
         ],
+        "functionalMix": [
+          {
+            "family": "demonstracao",
+            "percentage": 100
+          }
+        ],
         "objectives": [
           "educar",
           "compartilhamento",
           "salvamento"
         ],
+        "advertisingType": "indeterminado",
+        "commercialIntent": "indeterminada",
+        "advertisedEntity": {
+          "kind": "indeterminado",
+          "name": "",
+          "confidence": "low"
+        },
+        "contentTopic": {
+          "label": "smartphones e truques de uso",
+          "iabCode": null
+        },
         "segment": "smartphones e truques de uso",
+        "subsegment": "indeterminado",
         "probableAudience": "usuários de smartphone",
         "awarenessStage": "consciente_solucao",
         "productionLevel": "simple",
-        "durationBand": "short_exact_unknown",
+        "creatorScale": "unknown",
+        "replicability": "medium",
+        "durationBand": "unknown",
         "pace": "not_assessed",
         "mechanisms": [
           "curiosidade",
           "surpresa",
           "recompensa"
         ],
-        "confidence": "low"
+        "hookTypes": [],
+        "narrativeElements": [],
+        "proofTypes": [],
+        "ctaTypes": [],
+        "distributionContext": {
+          "organicPaid": "unknown",
+          "trendDependency": "unknown"
+        },
+        "confidence": "low",
+        "evidence": [],
+        "alternativeClassifications": [],
+        "missingInformation": [],
+        "needsHumanReview": false
       },
       "comparison": {
         "level": 2,
@@ -2943,7 +4626,40 @@
         ],
         "hypotheses": []
       },
-      "createdAt": "2026-08-24T01:13:46.558408+00:00"
+      "createdAt": "2026-08-24T01:13:46.558408+00:00",
+      "migration": {
+        "id": "taxonomy-v3-2026-08-24",
+        "legacyClassification": {
+          "materialFormat": "short_vertical",
+          "presentationFormats": [
+            "demonstracao",
+            "tutorial"
+          ],
+          "primaryFamily": "demonstracao",
+          "secondaryFamilies": [
+            "ugc",
+            "educativo"
+          ],
+          "objectives": [
+            "educar",
+            "compartilhamento",
+            "salvamento"
+          ],
+          "segment": "smartphones e truques de uso",
+          "probableAudience": "usuários de smartphone",
+          "awarenessStage": "consciente_solucao",
+          "productionLevel": "simple",
+          "durationBand": "short_exact_unknown",
+          "pace": "not_assessed",
+          "mechanisms": [
+            "curiosidade",
+            "surpresa",
+            "recompensa"
+          ],
+          "confidence": "low"
+        },
+        "reversibleViaGit": true
+      }
     },
     {
       "id": "obs-20260824-026",
@@ -2980,9 +4696,11 @@
         "causality": "not_inferred"
       },
       "classification": {
-        "materialFormat": "short_vertical",
+        "taxonomyVersion": "3.0",
+        "container": "youtube_video",
+        "materialFormat": "video_curto",
         "presentationFormats": [
-          "sketch",
+          "esquete",
           "dialogo"
         ],
         "primaryFamily": "humor",
@@ -2990,23 +4708,55 @@
           "storytelling",
           "critica_social"
         ],
+        "functionalMix": [
+          {
+            "family": "humor",
+            "percentage": 100
+          }
+        ],
         "objectives": [
-          "entreter",
+          "visualizacao",
           "compartilhamento",
           "retencao"
         ],
+        "advertisingType": "indeterminado",
+        "commercialIntent": "indeterminada",
+        "advertisedEntity": {
+          "kind": "indeterminado",
+          "name": "",
+          "confidence": "low"
+        },
+        "contentTopic": {
+          "label": "humor de situação e custo de vida",
+          "iabCode": null
+        },
         "segment": "humor de situação e custo de vida",
+        "subsegment": "indeterminado",
         "probableAudience": "adultos familiarizados com pressão financeira",
         "awarenessStage": "consciente_problema",
         "productionLevel": "intermediate",
-        "durationBand": "short_exact_unknown",
+        "creatorScale": "unknown",
+        "replicability": "medium",
+        "durationBand": "unknown",
         "pace": "not_assessed",
         "mechanisms": [
           "identificacao",
           "surpresa",
           "tensao"
         ],
-        "confidence": "medium"
+        "hookTypes": [],
+        "narrativeElements": [],
+        "proofTypes": [],
+        "ctaTypes": [],
+        "distributionContext": {
+          "organicPaid": "unknown",
+          "trendDependency": "unknown"
+        },
+        "confidence": "medium",
+        "evidence": [],
+        "alternativeClassifications": [],
+        "missingInformation": [],
+        "needsHumanReview": false
       },
       "comparison": {
         "level": 2,
@@ -3062,7 +4812,40 @@
         "notRecommended": [],
         "hypotheses": []
       },
-      "createdAt": "2026-08-24T01:13:46.601777+00:00"
+      "createdAt": "2026-08-24T01:13:46.601777+00:00",
+      "migration": {
+        "id": "taxonomy-v3-2026-08-24",
+        "legacyClassification": {
+          "materialFormat": "short_vertical",
+          "presentationFormats": [
+            "sketch",
+            "dialogo"
+          ],
+          "primaryFamily": "humor",
+          "secondaryFamilies": [
+            "storytelling",
+            "critica_social"
+          ],
+          "objectives": [
+            "entreter",
+            "compartilhamento",
+            "retencao"
+          ],
+          "segment": "humor de situação e custo de vida",
+          "probableAudience": "adultos familiarizados com pressão financeira",
+          "awarenessStage": "consciente_problema",
+          "productionLevel": "intermediate",
+          "durationBand": "short_exact_unknown",
+          "pace": "not_assessed",
+          "mechanisms": [
+            "identificacao",
+            "surpresa",
+            "tensao"
+          ],
+          "confidence": "medium"
+        },
+        "reversibleViaGit": true
+      }
     },
     {
       "id": "obs-20260824-027",
@@ -3099,32 +4882,68 @@
         "causality": "not_inferred"
       },
       "classification": {
-        "materialFormat": "short_vertical",
+        "taxonomyVersion": "3.0",
+        "container": "youtube_video",
+        "materialFormat": "video_curto",
         "presentationFormats": [
-          "sketch",
-          "storytelling"
+          "esquete",
+          "outro"
         ],
         "primaryFamily": "humor",
         "secondaryFamilies": [
           "storytelling"
         ],
+        "functionalMix": [
+          {
+            "family": "humor",
+            "percentage": 100
+          }
+        ],
         "objectives": [
-          "entreter",
+          "visualizacao",
           "retencao",
           "compartilhamento"
         ],
+        "advertisingType": "indeterminado",
+        "commercialIntent": "indeterminada",
+        "advertisedEntity": {
+          "kind": "indeterminado",
+          "name": "",
+          "confidence": "low"
+        },
+        "contentTopic": {
+          "label": "humor de situação cotidiana",
+          "iabCode": null
+        },
         "segment": "humor de situação cotidiana",
+        "subsegment": "indeterminado",
         "probableAudience": "público geral adulto",
         "awarenessStage": "inconsciente",
         "productionLevel": "intermediate",
-        "durationBand": "short_exact_unknown",
+        "creatorScale": "unknown",
+        "replicability": "medium",
+        "durationBand": "unknown",
         "pace": "not_assessed",
         "mechanisms": [
           "curiosidade",
           "surpresa",
           "tensao"
         ],
-        "confidence": "medium"
+        "hookTypes": [],
+        "narrativeElements": [],
+        "proofTypes": [],
+        "ctaTypes": [],
+        "distributionContext": {
+          "organicPaid": "unknown",
+          "trendDependency": "unknown"
+        },
+        "confidence": "medium",
+        "evidence": [],
+        "alternativeClassifications": [],
+        "missingInformation": [
+          "classificação legada ambígua requer revisão humana"
+        ],
+        "needsHumanReview": true
       },
       "comparison": {
         "level": 2,
@@ -3180,7 +4999,39 @@
         ],
         "hypotheses": []
       },
-      "createdAt": "2026-08-24T01:13:46.651923+00:00"
+      "createdAt": "2026-08-24T01:13:46.651923+00:00",
+      "migration": {
+        "id": "taxonomy-v3-2026-08-24",
+        "legacyClassification": {
+          "materialFormat": "short_vertical",
+          "presentationFormats": [
+            "sketch",
+            "storytelling"
+          ],
+          "primaryFamily": "humor",
+          "secondaryFamilies": [
+            "storytelling"
+          ],
+          "objectives": [
+            "entreter",
+            "retencao",
+            "compartilhamento"
+          ],
+          "segment": "humor de situação cotidiana",
+          "probableAudience": "público geral adulto",
+          "awarenessStage": "inconsciente",
+          "productionLevel": "intermediate",
+          "durationBand": "short_exact_unknown",
+          "pace": "not_assessed",
+          "mechanisms": [
+            "curiosidade",
+            "surpresa",
+            "tensao"
+          ],
+          "confidence": "medium"
+        },
+        "reversibleViaGit": true
+      }
     },
     {
       "id": "obs-20260824-028",
@@ -3216,33 +5067,69 @@
         "causality": "not_inferred"
       },
       "classification": {
-        "materialFormat": "short_vertical",
+        "taxonomyVersion": "3.0",
+        "container": "webpage",
+        "materialFormat": "video_curto",
         "presentationFormats": [
-          "recorte_entrevista",
+          "podcast_entrevista",
           "dialogo",
-          "humor"
+          "outro"
         ],
         "primaryFamily": "humor",
         "secondaryFamilies": [
           "entretenimento",
           "celebridades"
         ],
+        "functionalMix": [
+          {
+            "family": "humor",
+            "percentage": 100
+          }
+        ],
         "objectives": [
-          "entreter",
+          "visualizacao",
           "compartilhamento"
         ],
+        "advertisingType": "indeterminado",
+        "commercialIntent": "indeterminada",
+        "advertisedEntity": {
+          "kind": "indeterminado",
+          "name": "",
+          "confidence": "low"
+        },
+        "contentTopic": {
+          "label": "entrevista de celebridades e humor",
+          "iabCode": null
+        },
         "segment": "entrevista de celebridades e humor",
+        "subsegment": "indeterminado",
         "probableAudience": "público de entretenimento e cultura pop",
         "awarenessStage": "consciente_produto",
         "productionLevel": "advanced",
-        "durationBand": "short_exact_unknown",
+        "creatorScale": "unknown",
+        "replicability": "medium",
+        "durationBand": "unknown",
         "pace": "not_assessed",
         "mechanisms": [
           "curiosidade",
           "identificacao",
-          "comunidade"
+          "pertencimento"
         ],
-        "confidence": "low"
+        "hookTypes": [],
+        "narrativeElements": [],
+        "proofTypes": [],
+        "ctaTypes": [],
+        "distributionContext": {
+          "organicPaid": "unknown",
+          "trendDependency": "unknown"
+        },
+        "confidence": "low",
+        "evidence": [],
+        "alternativeClassifications": [],
+        "missingInformation": [
+          "classificação legada ambígua requer revisão humana"
+        ],
+        "needsHumanReview": true
       },
       "comparison": {
         "level": 2,
@@ -3298,7 +5185,40 @@
         "notRecommended": [],
         "hypotheses": []
       },
-      "createdAt": "2026-08-24T01:13:46.691782+00:00"
+      "createdAt": "2026-08-24T01:13:46.691782+00:00",
+      "migration": {
+        "id": "taxonomy-v3-2026-08-24",
+        "legacyClassification": {
+          "materialFormat": "short_vertical",
+          "presentationFormats": [
+            "recorte_entrevista",
+            "dialogo",
+            "humor"
+          ],
+          "primaryFamily": "humor",
+          "secondaryFamilies": [
+            "entretenimento",
+            "celebridades"
+          ],
+          "objectives": [
+            "entreter",
+            "compartilhamento"
+          ],
+          "segment": "entrevista de celebridades e humor",
+          "probableAudience": "público de entretenimento e cultura pop",
+          "awarenessStage": "consciente_produto",
+          "productionLevel": "advanced",
+          "durationBand": "short_exact_unknown",
+          "pace": "not_assessed",
+          "mechanisms": [
+            "curiosidade",
+            "identificacao",
+            "comunidade"
+          ],
+          "confidence": "low"
+        },
+        "reversibleViaGit": true
+      }
     },
     {
       "id": "obs-20260824-029",
@@ -3336,33 +5256,69 @@
         "causality": "not_inferred"
       },
       "classification": {
-        "materialFormat": "short_vertical",
+        "taxonomyVersion": "3.0",
+        "container": "youtube_short",
+        "materialFormat": "video_curto",
         "presentationFormats": [
-          "cobertura_evento",
-          "celebridades"
+          "reportagem",
+          "outro"
         ],
         "primaryFamily": "entretenimento",
         "secondaryFamilies": [
           "atualidade",
           "humor"
         ],
-        "objectives": [
-          "entreter",
-          "comunidade",
-          "atualidade"
+        "functionalMix": [
+          {
+            "family": "entretenimento",
+            "percentage": 100
+          }
         ],
+        "objectives": [
+          "visualizacao",
+          "comunidade",
+          "alcance"
+        ],
+        "advertisingType": "indeterminado",
+        "commercialIntent": "indeterminada",
+        "advertisedEntity": {
+          "kind": "indeterminado",
+          "name": "",
+          "confidence": "low"
+        },
+        "contentTopic": {
+          "label": "celebridades e evento de influenciadores",
+          "iabCode": null
+        },
         "segment": "celebridades e evento de influenciadores",
+        "subsegment": "indeterminado",
         "probableAudience": "seguidores de cultura de internet",
         "awarenessStage": "consciente_produto",
         "productionLevel": "simple",
-        "durationBand": "short_exact_unknown",
+        "creatorScale": "unknown",
+        "replicability": "medium",
+        "durationBand": "unknown",
         "pace": "not_assessed",
         "mechanisms": [
-          "comunidade",
+          "pertencimento",
           "identificacao",
           "curiosidade"
         ],
-        "confidence": "low"
+        "hookTypes": [],
+        "narrativeElements": [],
+        "proofTypes": [],
+        "ctaTypes": [],
+        "distributionContext": {
+          "organicPaid": "unknown",
+          "trendDependency": "unknown"
+        },
+        "confidence": "low",
+        "evidence": [],
+        "alternativeClassifications": [],
+        "missingInformation": [
+          "classificação legada ambígua requer revisão humana"
+        ],
+        "needsHumanReview": true
       },
       "comparison": {
         "level": 3,
@@ -3415,7 +5371,40 @@
         ],
         "hypotheses": []
       },
-      "createdAt": "2026-08-24T01:13:46.733368+00:00"
+      "createdAt": "2026-08-24T01:13:46.733368+00:00",
+      "migration": {
+        "id": "taxonomy-v3-2026-08-24",
+        "legacyClassification": {
+          "materialFormat": "short_vertical",
+          "presentationFormats": [
+            "cobertura_evento",
+            "celebridades"
+          ],
+          "primaryFamily": "entretenimento",
+          "secondaryFamilies": [
+            "atualidade",
+            "humor"
+          ],
+          "objectives": [
+            "entreter",
+            "comunidade",
+            "atualidade"
+          ],
+          "segment": "celebridades e evento de influenciadores",
+          "probableAudience": "seguidores de cultura de internet",
+          "awarenessStage": "consciente_produto",
+          "productionLevel": "simple",
+          "durationBand": "short_exact_unknown",
+          "pace": "not_assessed",
+          "mechanisms": [
+            "comunidade",
+            "identificacao",
+            "curiosidade"
+          ],
+          "confidence": "low"
+        },
+        "reversibleViaGit": true
+      }
     },
     {
       "id": "obs-20260824-030",
@@ -3454,27 +5443,48 @@
         "causality": "not_inferred"
       },
       "classification": {
-        "materialFormat": "short_vertical",
+        "taxonomyVersion": "3.0",
+        "container": "youtube_video",
+        "materialFormat": "video_curto",
         "presentationFormats": [
           "desafio",
-          "storytelling",
-          "rua"
+          "outro"
         ],
         "primaryFamily": "entretenimento",
         "secondaryFamilies": [
           "storytelling",
           "experimento_social"
         ],
+        "functionalMix": [
+          {
+            "family": "entretenimento",
+            "percentage": 100
+          }
+        ],
         "objectives": [
-          "entreter",
+          "visualizacao",
           "retencao",
           "compartilhamento"
         ],
+        "advertisingType": "indeterminado",
+        "commercialIntent": "indeterminada",
+        "advertisedEntity": {
+          "kind": "indeterminado",
+          "name": "",
+          "confidence": "low"
+        },
+        "contentTopic": {
+          "label": "desafio de alto investimento",
+          "iabCode": null
+        },
         "segment": "desafio de alto investimento",
+        "subsegment": "indeterminado",
         "probableAudience": "público global de entretenimento",
         "awarenessStage": "inconsciente",
         "productionLevel": "advanced",
-        "durationBand": "30-60s",
+        "creatorScale": "unknown",
+        "replicability": "medium",
+        "durationBand": "31_to_60s",
         "pace": "not_assessed",
         "mechanisms": [
           "surpresa",
@@ -3482,7 +5492,21 @@
           "recompensa",
           "desejo"
         ],
-        "confidence": "high"
+        "hookTypes": [],
+        "narrativeElements": [],
+        "proofTypes": [],
+        "ctaTypes": [],
+        "distributionContext": {
+          "organicPaid": "unknown",
+          "trendDependency": "unknown"
+        },
+        "confidence": "high",
+        "evidence": [],
+        "alternativeClassifications": [],
+        "missingInformation": [
+          "classificação legada ambígua requer revisão humana"
+        ],
+        "needsHumanReview": true
       },
       "comparison": {
         "level": 3,
@@ -3539,7 +5563,42 @@
         ],
         "hypotheses": []
       },
-      "createdAt": "2026-08-24T01:13:46.772596+00:00"
+      "createdAt": "2026-08-24T01:13:46.772596+00:00",
+      "migration": {
+        "id": "taxonomy-v3-2026-08-24",
+        "legacyClassification": {
+          "materialFormat": "short_vertical",
+          "presentationFormats": [
+            "desafio",
+            "storytelling",
+            "rua"
+          ],
+          "primaryFamily": "entretenimento",
+          "secondaryFamilies": [
+            "storytelling",
+            "experimento_social"
+          ],
+          "objectives": [
+            "entreter",
+            "retencao",
+            "compartilhamento"
+          ],
+          "segment": "desafio de alto investimento",
+          "probableAudience": "público global de entretenimento",
+          "awarenessStage": "inconsciente",
+          "productionLevel": "advanced",
+          "durationBand": "30-60s",
+          "pace": "not_assessed",
+          "mechanisms": [
+            "surpresa",
+            "tensao",
+            "recompensa",
+            "desejo"
+          ],
+          "confidence": "high"
+        },
+        "reversibleViaGit": true
+      }
     },
     {
       "id": "obs-20260824-031",
@@ -3581,33 +5640,68 @@
         "causality": "not_inferred"
       },
       "classification": {
-        "materialFormat": "short_vertical",
+        "taxonomyVersion": "3.0",
+        "container": "youtube_video",
+        "materialFormat": "video_curto",
         "presentationFormats": [
-          "explicativo",
-          "curiosidade"
+          "outro"
         ],
         "primaryFamily": "educativo",
         "secondaryFamilies": [
           "demonstracao",
           "curiosidade"
         ],
+        "functionalMix": [
+          {
+            "family": "educativo",
+            "percentage": 100
+          }
+        ],
         "objectives": [
           "educar",
           "retencao",
           "compartilhamento"
         ],
+        "advertisingType": "indeterminado",
+        "commercialIntent": "indeterminada",
+        "advertisedEntity": {
+          "kind": "indeterminado",
+          "name": "",
+          "confidence": "low"
+        },
+        "contentTopic": {
+          "label": "ciência, física e mitos",
+          "iabCode": null
+        },
         "segment": "ciência, física e mitos",
+        "subsegment": "indeterminado",
         "probableAudience": "público geral interessado em curiosidades científicas",
         "awarenessStage": "inconsciente",
         "productionLevel": "intermediate",
-        "durationBand": "short_exact_unknown",
+        "creatorScale": "unknown",
+        "replicability": "medium",
+        "durationBand": "unknown",
         "pace": "not_assessed",
         "mechanisms": [
           "curiosidade",
           "surpresa",
           "recompensa"
         ],
-        "confidence": "medium"
+        "hookTypes": [],
+        "narrativeElements": [],
+        "proofTypes": [],
+        "ctaTypes": [],
+        "distributionContext": {
+          "organicPaid": "unknown",
+          "trendDependency": "unknown"
+        },
+        "confidence": "medium",
+        "evidence": [],
+        "alternativeClassifications": [],
+        "missingInformation": [
+          "classificação legada ambígua requer revisão humana"
+        ],
+        "needsHumanReview": true
       },
       "comparison": {
         "level": 2,
@@ -3669,7 +5763,40 @@
         ],
         "hypotheses": []
       },
-      "createdAt": "2026-08-24T11:24:37.353Z"
+      "createdAt": "2026-08-24T11:24:37.353Z",
+      "migration": {
+        "id": "taxonomy-v3-2026-08-24",
+        "legacyClassification": {
+          "materialFormat": "short_vertical",
+          "presentationFormats": [
+            "explicativo",
+            "curiosidade"
+          ],
+          "primaryFamily": "educativo",
+          "secondaryFamilies": [
+            "demonstracao",
+            "curiosidade"
+          ],
+          "objectives": [
+            "educar",
+            "retencao",
+            "compartilhamento"
+          ],
+          "segment": "ciência, física e mitos",
+          "probableAudience": "público geral interessado em curiosidades científicas",
+          "awarenessStage": "inconsciente",
+          "productionLevel": "intermediate",
+          "durationBand": "short_exact_unknown",
+          "pace": "not_assessed",
+          "mechanisms": [
+            "curiosidade",
+            "surpresa",
+            "recompensa"
+          ],
+          "confidence": "medium"
+        },
+        "reversibleViaGit": true
+      }
     },
     {
       "id": "obs-20260824-032",
@@ -3712,33 +5839,69 @@
         "causality": "not_inferred"
       },
       "classification": {
-        "materialFormat": "short_vertical",
+        "taxonomyVersion": "3.0",
+        "container": "webpage",
+        "materialFormat": "video_curto",
         "presentationFormats": [
-          "explicativo"
+          "outro"
         ],
         "primaryFamily": "educativo",
         "secondaryFamilies": [
           "conscientizacao",
           "autoridade_opiniao"
         ],
+        "functionalMix": [
+          {
+            "family": "educativo",
+            "percentage": 100
+          }
+        ],
         "objectives": [
           "educar",
           "consciencia_problema",
           "confianca"
         ],
+        "advertisingType": "indeterminado",
+        "commercialIntent": "indeterminada",
+        "advertisedEntity": {
+          "kind": "indeterminado",
+          "name": "",
+          "confidence": "low"
+        },
+        "contentTopic": {
+          "label": "saúde mental e comportamento cotidiano",
+          "iabCode": null
+        },
         "segment": "saúde mental e comportamento cotidiano",
+        "subsegment": "indeterminado",
         "probableAudience": "adultos que falam sozinhos ou convivem com alguém que apresenta esse comportamento",
         "awarenessStage": "consciente_problema",
         "productionLevel": "simple",
-        "durationBand": "short_exact_unknown",
+        "creatorScale": "unknown",
+        "replicability": "medium",
+        "durationBand": "unknown",
         "pace": "not_assessed",
         "mechanisms": [
           "identificacao",
           "vigilancia",
           "alivio",
-          "confiança"
+          "confianca"
         ],
-        "confidence": "high"
+        "hookTypes": [],
+        "narrativeElements": [],
+        "proofTypes": [],
+        "ctaTypes": [],
+        "distributionContext": {
+          "organicPaid": "unknown",
+          "trendDependency": "unknown"
+        },
+        "confidence": "high",
+        "evidence": [],
+        "alternativeClassifications": [],
+        "missingInformation": [
+          "classificação legada ambígua requer revisão humana"
+        ],
+        "needsHumanReview": true
       },
       "comparison": {
         "level": 2,
@@ -3801,7 +5964,40 @@
         ],
         "hypotheses": []
       },
-      "createdAt": "2026-08-24T11:24:37.353Z"
+      "createdAt": "2026-08-24T11:24:37.353Z",
+      "migration": {
+        "id": "taxonomy-v3-2026-08-24",
+        "legacyClassification": {
+          "materialFormat": "short_vertical",
+          "presentationFormats": [
+            "explicativo"
+          ],
+          "primaryFamily": "educativo",
+          "secondaryFamilies": [
+            "conscientizacao",
+            "autoridade_opiniao"
+          ],
+          "objectives": [
+            "educar",
+            "consciencia_problema",
+            "confianca"
+          ],
+          "segment": "saúde mental e comportamento cotidiano",
+          "probableAudience": "adultos que falam sozinhos ou convivem com alguém que apresenta esse comportamento",
+          "awarenessStage": "consciente_problema",
+          "productionLevel": "simple",
+          "durationBand": "short_exact_unknown",
+          "pace": "not_assessed",
+          "mechanisms": [
+            "identificacao",
+            "vigilancia",
+            "alivio",
+            "confiança"
+          ],
+          "confidence": "high"
+        },
+        "reversibleViaGit": true
+      }
     },
     {
       "id": "obs-20260824-033",
@@ -3847,11 +6043,12 @@
         "causality": "not_inferred"
       },
       "classification": {
-        "materialFormat": "short_vertical",
+        "taxonomyVersion": "3.0",
+        "container": "tiktok",
+        "materialFormat": "video_curto",
         "presentationFormats": [
-          "personagem_de_marca",
-          "storytelling",
-          "serial"
+          "personagem_marca",
+          "outro"
         ],
         "primaryFamily": "humor",
         "secondaryFamilies": [
@@ -3859,17 +6056,37 @@
           "storytelling",
           "comunidade"
         ],
+        "functionalMix": [
+          {
+            "family": "humor",
+            "percentage": 100
+          }
+        ],
         "objectives": [
-          "posicionamento_marca",
+          "marca",
           "comunidade",
           "retencao",
           "comentario"
         ],
+        "advertisingType": "conteudo_de_marca",
+        "commercialIntent": "implicita",
+        "advertisedEntity": {
+          "kind": "indeterminado",
+          "name": "",
+          "confidence": "low"
+        },
+        "contentTopic": {
+          "label": "aplicativo de idiomas e comunicação de marca",
+          "iabCode": null
+        },
         "segment": "aplicativo de idiomas e comunicação de marca",
+        "subsegment": "indeterminado",
         "probableAudience": "brasileiros interessados em idiomas e público jovem de redes sociais",
         "awarenessStage": "consciente_produto",
         "productionLevel": "intermediate",
-        "durationBand": "short_exact_unknown",
+        "creatorScale": "unknown",
+        "replicability": "medium",
+        "durationBand": "unknown",
         "pace": "not_assessed",
         "mechanisms": [
           "identificacao",
@@ -3877,7 +6094,21 @@
           "humor",
           "curiosidade"
         ],
-        "confidence": "medium"
+        "hookTypes": [],
+        "narrativeElements": [],
+        "proofTypes": [],
+        "ctaTypes": [],
+        "distributionContext": {
+          "organicPaid": "unknown",
+          "trendDependency": "unknown"
+        },
+        "confidence": "medium",
+        "evidence": [],
+        "alternativeClassifications": [],
+        "missingInformation": [
+          "classificação legada ambígua requer revisão humana"
+        ],
+        "needsHumanReview": true
       },
       "comparison": {
         "level": 4,
@@ -3938,7 +6169,44 @@
           "Uma situação de chegada localizada somada a CTA de continuação pode transformar apresentação de marca em participação comunitária."
         ]
       },
-      "createdAt": "2026-08-24T11:24:37.353Z"
+      "createdAt": "2026-08-24T11:24:37.353Z",
+      "migration": {
+        "id": "taxonomy-v3-2026-08-24",
+        "legacyClassification": {
+          "materialFormat": "short_vertical",
+          "presentationFormats": [
+            "personagem_de_marca",
+            "storytelling",
+            "serial"
+          ],
+          "primaryFamily": "humor",
+          "secondaryFamilies": [
+            "posicionamento_marca",
+            "storytelling",
+            "comunidade"
+          ],
+          "objectives": [
+            "posicionamento_marca",
+            "comunidade",
+            "retencao",
+            "comentario"
+          ],
+          "segment": "aplicativo de idiomas e comunicação de marca",
+          "probableAudience": "brasileiros interessados em idiomas e público jovem de redes sociais",
+          "awarenessStage": "consciente_produto",
+          "productionLevel": "intermediate",
+          "durationBand": "short_exact_unknown",
+          "pace": "not_assessed",
+          "mechanisms": [
+            "identificacao",
+            "pertencimento",
+            "humor",
+            "curiosidade"
+          ],
+          "confidence": "medium"
+        },
+        "reversibleViaGit": true
+      }
     },
     {
       "id": "obs-20260824-034",
@@ -3982,27 +6250,49 @@
         "causality": "not_inferred"
       },
       "classification": {
-        "materialFormat": "video_exact_duration_unknown",
+        "taxonomyVersion": "3.0",
+        "container": "webpage",
+        "materialFormat": "outro",
         "presentationFormats": [
           "desafio",
           "demonstracao",
-          "branded_content"
+          "produto"
         ],
         "primaryFamily": "venda_indireta",
         "secondaryFamilies": [
           "entretenimento",
           "demonstracao"
         ],
+        "functionalMix": [
+          {
+            "family": "venda_indireta",
+            "percentage": 100
+          }
+        ],
         "objectives": [
           "apresentar_solucao",
-          "posicionamento_marca",
+          "marca",
           "retencao"
         ],
+        "advertisingType": "produto",
+        "commercialIntent": "implicita",
+        "advertisedEntity": {
+          "kind": "indeterminado",
+          "name": "",
+          "confidence": "low"
+        },
+        "contentTopic": {
+          "label": "alimentos, bebidas e conteúdo culinário patrocinado",
+          "iabCode": null
+        },
         "segment": "alimentos, bebidas e conteúdo culinário patrocinado",
+        "subsegment": "indeterminado",
         "probableAudience": "público interessado em receitas rápidas e entretenimento culinário",
         "awarenessStage": "consciente_solucao",
         "productionLevel": "intermediate",
-        "durationBand": "exact_unknown",
+        "creatorScale": "unknown",
+        "replicability": "medium",
+        "durationBand": "unknown",
         "pace": "not_assessed",
         "mechanisms": [
           "tensao",
@@ -4010,7 +6300,21 @@
           "recompensa",
           "desejo"
         ],
-        "confidence": "medium"
+        "hookTypes": [],
+        "narrativeElements": [],
+        "proofTypes": [],
+        "ctaTypes": [],
+        "distributionContext": {
+          "organicPaid": "unknown",
+          "trendDependency": "unknown"
+        },
+        "confidence": "medium",
+        "evidence": [],
+        "alternativeClassifications": [],
+        "missingInformation": [
+          "classificação legada ambígua requer revisão humana"
+        ],
+        "needsHumanReview": true
       },
       "comparison": {
         "level": 4,
@@ -4070,7 +6374,42 @@
           "Em conteúdo culinário de marca, uma regra temporal e uma restrição física podem integrar produto e tensão numa mesma ação."
         ]
       },
-      "createdAt": "2026-08-24T11:24:37.353Z"
+      "createdAt": "2026-08-24T11:24:37.353Z",
+      "migration": {
+        "id": "taxonomy-v3-2026-08-24",
+        "legacyClassification": {
+          "materialFormat": "video_exact_duration_unknown",
+          "presentationFormats": [
+            "desafio",
+            "demonstracao",
+            "branded_content"
+          ],
+          "primaryFamily": "venda_indireta",
+          "secondaryFamilies": [
+            "entretenimento",
+            "demonstracao"
+          ],
+          "objectives": [
+            "apresentar_solucao",
+            "posicionamento_marca",
+            "retencao"
+          ],
+          "segment": "alimentos, bebidas e conteúdo culinário patrocinado",
+          "probableAudience": "público interessado em receitas rápidas e entretenimento culinário",
+          "awarenessStage": "consciente_solucao",
+          "productionLevel": "intermediate",
+          "durationBand": "exact_unknown",
+          "pace": "not_assessed",
+          "mechanisms": [
+            "tensao",
+            "curiosidade",
+            "recompensa",
+            "desejo"
+          ],
+          "confidence": "medium"
+        },
+        "reversibleViaGit": true
+      }
     },
     {
       "id": "obs-20260824-035",
@@ -4112,11 +6451,13 @@
         "causality": "not_inferred"
       },
       "classification": {
+        "taxonomyVersion": "3.0",
+        "container": "youtube_video",
         "materialFormat": "video_longo",
         "presentationFormats": [
           "camera_direta",
-          "storytelling",
-          "desafio_serial"
+          "outro",
+          "desafio"
         ],
         "primaryFamily": "storytelling",
         "secondaryFamilies": [
@@ -4124,16 +6465,36 @@
           "desafio",
           "comunidade"
         ],
+        "functionalMix": [
+          {
+            "family": "storytelling",
+            "percentage": 100
+          }
+        ],
         "objectives": [
-          "entreter",
+          "visualizacao",
           "retencao",
           "comunidade"
         ],
+        "advertisingType": "indeterminado",
+        "commercialIntent": "indeterminada",
+        "advertisedEntity": {
+          "kind": "indeterminado",
+          "name": "",
+          "confidence": "low"
+        },
+        "contentTopic": {
+          "label": "viagem, desafio seriado e entretenimento",
+          "iabCode": null
+        },
         "segment": "viagem, desafio seriado e entretenimento",
+        "subsegment": "indeterminado",
         "probableAudience": "público geral que acompanha desafios e séries de viagem",
         "awarenessStage": "consciente_produto",
         "productionLevel": "advanced",
-        "durationBand": "long_exact_unknown",
+        "creatorScale": "unknown",
+        "replicability": "medium",
+        "durationBand": "unknown",
         "pace": "not_assessed",
         "mechanisms": [
           "tensao",
@@ -4141,7 +6502,21 @@
           "recompensa",
           "pertencimento"
         ],
-        "confidence": "medium"
+        "hookTypes": [],
+        "narrativeElements": [],
+        "proofTypes": [],
+        "ctaTypes": [],
+        "distributionContext": {
+          "organicPaid": "unknown",
+          "trendDependency": "unknown"
+        },
+        "confidence": "medium",
+        "evidence": [],
+        "alternativeClassifications": [],
+        "missingInformation": [
+          "classificação legada ambígua requer revisão humana"
+        ],
+        "needsHumanReview": true
       },
       "comparison": {
         "level": 3,
@@ -4205,13 +6580,49 @@
           "Em storytelling seriado, meta global mais posição atual e nova complicação podem combinar orientação e reabertura de tensão."
         ]
       },
-      "createdAt": "2026-08-24T11:24:37.353Z"
+      "createdAt": "2026-08-24T11:24:37.353Z",
+      "migration": {
+        "id": "taxonomy-v3-2026-08-24",
+        "legacyClassification": {
+          "materialFormat": "video_longo",
+          "presentationFormats": [
+            "camera_direta",
+            "storytelling",
+            "desafio_serial"
+          ],
+          "primaryFamily": "storytelling",
+          "secondaryFamilies": [
+            "entretenimento",
+            "desafio",
+            "comunidade"
+          ],
+          "objectives": [
+            "entreter",
+            "retencao",
+            "comunidade"
+          ],
+          "segment": "viagem, desafio seriado e entretenimento",
+          "probableAudience": "público geral que acompanha desafios e séries de viagem",
+          "awarenessStage": "consciente_produto",
+          "productionLevel": "advanced",
+          "durationBand": "long_exact_unknown",
+          "pace": "not_assessed",
+          "mechanisms": [
+            "tensao",
+            "curiosidade",
+            "recompensa",
+            "pertencimento"
+          ],
+          "confidence": "medium"
+        },
+        "reversibleViaGit": true
+      }
     }
   ],
   "patterns": [
     {
       "id": "pat-20260823-001",
-      "status": "provisional",
+      "status": "supported_hypothesis",
       "statement": "Em vídeos educativos de demonstração científica, anunciar um fenômeno ou resultado observável antes do passo a passo, e entregar progressão até a demonstração, tende a reduzir o tempo de compreensão e sustentar curiosidade.",
       "mechanism": [
         "curiosidade",
@@ -4238,7 +6649,7 @@
         "Não validado para outros segmentos."
       ],
       "validation": "requires_human_or_experimental_evidence",
-      "stage": "provisional",
+      "stage": "supported_hypothesis",
       "name": "Em vídeos educativos de demonstração científica, anunciar um fenômeno ou resultado observável antes do passo a passo, e entregar progressão até a demonstração, tende a reduzir o tempo de compreensão e sustentar curiosidade.",
       "creativeFamily": "família demonstracao",
       "objective": "objetivo educar ou reter",
@@ -4264,7 +6675,11 @@
           "evidence": "ver ficha individual",
           "limitations": []
         }
-      ]
+      ],
+      "taxonomyVersion": "3.0",
+      "creatorDiversityCount": 1,
+      "sourceDiversityCount": 1,
+      "patternType": "retencao"
     },
     {
       "id": "pat-20260823-002",
@@ -4340,7 +6755,11 @@
             "Sem reprodução audiovisual, transcrição integral ou evidência experimental."
           ]
         }
-      ]
+      ],
+      "taxonomyVersion": "3.0",
+      "creatorDiversityCount": 2,
+      "sourceDiversityCount": 2,
+      "patternType": "prova"
     },
     {
       "id": "pat-20260823-003",
@@ -4403,7 +6822,11 @@
           "evidence": "ver ficha individual",
           "limitations": []
         }
-      ]
+      ],
+      "taxonomyVersion": "3.0",
+      "creatorDiversityCount": 4,
+      "sourceDiversityCount": 4,
+      "patternType": "prova"
     },
     {
       "id": "pat-20260824-004",
@@ -4474,7 +6897,11 @@
         "Não há curva de retenção, replay, comentários ou teste causal.",
         "Segmentos científicos distintos."
       ],
-      "validation": "requires_human_or_experimental_evidence"
+      "validation": "requires_human_or_experimental_evidence",
+      "taxonomyVersion": "3.0",
+      "creatorDiversityCount": 3,
+      "sourceDiversityCount": 3,
+      "patternType": "curiosidade"
     },
     {
       "id": "pat-20260824-005",
@@ -4536,7 +6963,11 @@
         "Nenhuma demonstração foi auditada integralmente.",
         "Visualizações variam muito e não provam causalidade."
       ],
-      "validation": "requires_human_or_experimental_evidence"
+      "validation": "requires_human_or_experimental_evidence",
+      "taxonomyVersion": "3.0",
+      "creatorDiversityCount": 3,
+      "sourceDiversityCount": 3,
+      "patternType": "outro"
     }
   ],
   "hypotheses": [
@@ -4931,6 +7362,19 @@
     "missingIsNotZero": true,
     "publicMetricsDoNotProveCausality": true,
     "syntheticBrainsAreSeparate": true,
-    "freudEvidenceIsSeparate": true
-  }
+    "freudEvidenceIsSeparate": true,
+    "provisionalMinimumIndependentCreators": 2,
+    "absoluteViewsDoNotDefineVirality": true,
+    "viralityRequiresRelativeBaseline": true
+  },
+  "taxonomyVersion": "3.0",
+  "migrationHistory": [
+    {
+      "id": "taxonomy-v3-2026-08-24",
+      "migratedAt": "2026-08-24T12:00:00.000Z",
+      "referenceCount": 35,
+      "reversibleViaGit": true,
+      "legacySnapshot": "reference.migration.legacyClassification"
+    }
+  ]
 }
