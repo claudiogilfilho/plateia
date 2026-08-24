@@ -10,17 +10,114 @@
       "url": "https://www.youtube.com/watch?v=0K4HRsoxxr8",
       "publishedAt": "2017-07-08",
       "duration": "PT15M27S",
-      "coverage": {"level": "partial", "accessible": ["título", "descrição", "capa", "duração", "visualizações", "curtidas", "resumo e trecho de transcrição"], "missing": ["vídeo integral verificável quadro a quadro", "áudio integral", "comentários", "curva de retenção"]},
-      "publicMetrics": {"viewsObserved": "3,1 mi", "likesObserved": "192.262", "observedAt": "2026-08-23", "causality": "not_inferred"},
-      "classification": {"materialFormat": "video_longo", "presentationFormats": ["tutorial", "demonstracao", "dialogo"], "primaryFamily": "demonstracao", "secondaryFamilies": ["educativo", "entretenimento"], "objectives": ["educar", "retencao", "compartilhamento"], "segment": "ciência e faça-você-mesmo", "probableAudience": "público geral, jovens e famílias", "awarenessStage": "consciente_solucao", "productionLevel": "intermediate", "durationBand": "10-20min", "mechanisms": ["curiosidade", "surpresa", "recompensa"], "confidence": "high"},
-      "comparison": {"level": 1, "group": "science-demonstration-long", "referenceIds": ["obs-20260823-002", "obs-20260823-003"]},
-      "observations": ["O título nomeia o objeto, o material, o segredo e a quantidade de números.", "A abertura promete mostrar a construção e o mecanismo.", "O resumo registra passo a passo, materiais simples e um desafio final com convidada."],
-      "interpretations": ["A combinação de resultado concreto e mistério reduz o tempo para entender o benefício.", "O desafio adiciona uma segunda recompensa além do tutorial."],
-      "scores": {"gancho": 90, "clareza": 93, "relevancia": 84, "desejo": 79, "confianca": 82, "acao": 84, "objecoes": 86, "retencao": "not_assessed"},
-      "fiveLenses": {"apressado": "Entende imediatamente o que será construído e qual é o mistério.", "analitico": "Recebe mecanismo, materiais e etapas; pode cobrar medidas completas.", "aspiracional": "Visualiza um projeto engenhoso que consegue reproduzir.", "comunidade": "A convidada e o desafio favorecem conversa e compartilhamento.", "cetico": "A ressalva de que não é um cofre de segurança reduz exagero."},
-      "replicable": ["Mostrar o resultado e nomear o mecanismo antes do passo a passo.", "Adicionar uma prova ou desafio final ligado ao que foi ensinado."],
-      "limitations": ["Não há acesso à retenção por trecho nem ao vídeo integral para avaliar ritmo e montagem."],
-      "provenance": ["public_content", "public_metric", "observatory_inference"]
+      "coverage": {
+        "level": "partial",
+        "accessible": [
+          "título",
+          "descrição",
+          "capa",
+          "duração",
+          "visualizações",
+          "curtidas",
+          "resumo e trecho de transcrição"
+        ],
+        "missing": [
+          "vídeo integral verificável quadro a quadro",
+          "áudio integral",
+          "comentários",
+          "curva de retenção"
+        ]
+      },
+      "publicMetrics": {
+        "viewsObserved": "3,1 mi",
+        "likesObserved": "192.262",
+        "observedAt": "2026-08-23",
+        "causality": "not_inferred"
+      },
+      "classification": {
+        "materialFormat": "video_longo",
+        "presentationFormats": [
+          "tutorial",
+          "demonstracao",
+          "dialogo"
+        ],
+        "primaryFamily": "demonstracao",
+        "secondaryFamilies": [
+          "educativo",
+          "entretenimento"
+        ],
+        "objectives": [
+          "educar",
+          "retencao",
+          "compartilhamento"
+        ],
+        "segment": "ciência e experimentos",
+        "probableAudience": "público geral, jovens e famílias",
+        "awarenessStage": "consciente_solucao",
+        "productionLevel": "intermediate",
+        "durationBand": "10-20min",
+        "mechanisms": [
+          "curiosidade",
+          "surpresa",
+          "recompensa"
+        ],
+        "confidence": "high"
+      },
+      "comparison": {
+        "level": 1,
+        "group": "science-demonstration-long",
+        "referenceIds": [
+          "obs-20260823-002",
+          "obs-20260823-003"
+        ]
+      },
+      "observations": [
+        "O título nomeia o objeto, o material, o segredo e a quantidade de números.",
+        "A abertura promete mostrar a construção e o mecanismo.",
+        "O resumo registra passo a passo, materiais simples e um desafio final com convidada."
+      ],
+      "interpretations": [
+        "A combinação de resultado concreto e mistério reduz o tempo para entender o benefício.",
+        "O desafio adiciona uma segunda recompensa além do tutorial."
+      ],
+      "scores": {
+        "gancho": 90,
+        "clareza": 93,
+        "relevancia": 84,
+        "desejo": 79,
+        "confianca": 82,
+        "acao": 84,
+        "objecoes": 86,
+        "retencao": "not_assessed"
+      },
+      "fiveLenses": {
+        "apressado": "Entende imediatamente o que será construído e qual é o mistério.",
+        "analitico": "Recebe mecanismo, materiais e etapas; pode cobrar medidas completas.",
+        "aspiracional": "Visualiza um projeto engenhoso que consegue reproduzir.",
+        "comunidade": "A convidada e o desafio favorecem conversa e compartilhamento.",
+        "cetico": "A ressalva de que não é um cofre de segurança reduz exagero."
+      },
+      "replicable": [
+        "Mostrar o resultado e nomear o mecanismo antes do passo a passo.",
+        "Adicionar uma prova ou desafio final ligado ao que foi ensinado."
+      ],
+      "limitations": [
+        "Não há acesso à retenção por trecho nem ao vídeo integral para avaliar ritmo e montagem."
+      ],
+      "provenance": [
+        "public_content",
+        "public_metric",
+        "observatory_inference"
+      ],
+      "training": {
+        "replicable": [
+          "Mostrar o resultado e nomear o mecanismo antes do passo a passo.",
+          "Adicionar uma prova ou desafio final ligado ao que foi ensinado."
+        ],
+        "contingent": [],
+        "notRecommended": [],
+        "hypotheses": []
+      }
     },
     {
       "id": "obs-20260823-002",
@@ -30,17 +127,114 @@
       "url": "https://www.youtube.com/watch?v=hEYkVbx7cmY",
       "publishedAt": "2019-10-15",
       "duration": "PT13M17S",
-      "coverage": {"level": "partial", "accessible": ["título", "descrição", "capa", "duração", "visualizações", "curtidas", "resumo e trecho de transcrição"], "missing": ["vídeo integral verificável", "áudio integral", "comentários", "curva de retenção"]},
-      "publicMetrics": {"viewsObserved": "828 mil", "likesObserved": "67.016", "observedAt": "2026-08-23", "causality": "not_inferred"},
-      "classification": {"materialFormat": "video_longo", "presentationFormats": ["demonstracao", "tutorial", "camera_direta"], "primaryFamily": "demonstracao", "secondaryFamilies": ["educativo", "curiosidade"], "objectives": ["educar", "salvamento", "retencao"], "segment": "ciência e experimentos", "probableAudience": "estudantes, famílias e educadores", "awarenessStage": "consciente_solucao", "productionLevel": "intermediate", "durationBand": "10-20min", "mechanisms": ["curiosidade", "surpresa", "recompensa"], "confidence": "high"},
-      "comparison": {"level": 1, "group": "science-demonstration-long", "referenceIds": ["obs-20260823-001", "obs-20260823-003"]},
-      "observations": ["Título usa ação imediata, número e fenômeno científico específico.", "A abertura promete descobrir como o ar exerce pressão.", "O conteúdo agrupa cinco demonstrações sob um único conceito."],
-      "interpretations": ["A lista cria marcos de progressão e múltiplas recompensas.", "O fenômeno invisível ganha concretude por demonstrações observáveis."],
-      "scores": {"gancho": 88, "clareza": 91, "relevancia": 86, "desejo": 76, "confianca": 86, "acao": 88, "objecoes": 82, "retencao": "not_assessed"},
-      "fiveLenses": {"apressado": "Número e experimento tornam a promessa rápida de entender.", "analitico": "Valoriza conceito explicado por demonstrações repetidas.", "aspiracional": "Enxerga experiências que pode reproduzir ou ensinar.", "comunidade": "Formato favorece uso com filhos, alunos e amigos.", "cetico": "Precisa de explicações corretas e alertas de segurança."},
-      "replicable": ["Converter conceito abstrato em fenômenos visíveis.", "Usar uma sequência numerada como progressão, não como lista solta."],
-      "limitations": ["Não foi possível medir quais experiências concentraram abandono ou replay."],
-      "provenance": ["public_content", "public_metric", "observatory_inference"]
+      "coverage": {
+        "level": "partial",
+        "accessible": [
+          "título",
+          "descrição",
+          "capa",
+          "duração",
+          "visualizações",
+          "curtidas",
+          "resumo e trecho de transcrição"
+        ],
+        "missing": [
+          "vídeo integral verificável",
+          "áudio integral",
+          "comentários",
+          "curva de retenção"
+        ]
+      },
+      "publicMetrics": {
+        "viewsObserved": "828 mil",
+        "likesObserved": "67.016",
+        "observedAt": "2026-08-23",
+        "causality": "not_inferred"
+      },
+      "classification": {
+        "materialFormat": "video_longo",
+        "presentationFormats": [
+          "demonstracao",
+          "tutorial",
+          "camera_direta"
+        ],
+        "primaryFamily": "demonstracao",
+        "secondaryFamilies": [
+          "educativo",
+          "curiosidade"
+        ],
+        "objectives": [
+          "educar",
+          "salvamento",
+          "retencao"
+        ],
+        "segment": "ciência e experimentos",
+        "probableAudience": "estudantes, famílias e educadores",
+        "awarenessStage": "consciente_solucao",
+        "productionLevel": "intermediate",
+        "durationBand": "10-20min",
+        "mechanisms": [
+          "curiosidade",
+          "surpresa",
+          "recompensa"
+        ],
+        "confidence": "high"
+      },
+      "comparison": {
+        "level": 1,
+        "group": "science-demonstration-long",
+        "referenceIds": [
+          "obs-20260823-001",
+          "obs-20260823-003"
+        ]
+      },
+      "observations": [
+        "Título usa ação imediata, número e fenômeno científico específico.",
+        "A abertura promete descobrir como o ar exerce pressão.",
+        "O conteúdo agrupa cinco demonstrações sob um único conceito."
+      ],
+      "interpretations": [
+        "A lista cria marcos de progressão e múltiplas recompensas.",
+        "O fenômeno invisível ganha concretude por demonstrações observáveis."
+      ],
+      "scores": {
+        "gancho": 88,
+        "clareza": 91,
+        "relevancia": 86,
+        "desejo": 76,
+        "confianca": 86,
+        "acao": 88,
+        "objecoes": 82,
+        "retencao": "not_assessed"
+      },
+      "fiveLenses": {
+        "apressado": "Número e experimento tornam a promessa rápida de entender.",
+        "analitico": "Valoriza conceito explicado por demonstrações repetidas.",
+        "aspiracional": "Enxerga experiências que pode reproduzir ou ensinar.",
+        "comunidade": "Formato favorece uso com filhos, alunos e amigos.",
+        "cetico": "Precisa de explicações corretas e alertas de segurança."
+      },
+      "replicable": [
+        "Converter conceito abstrato em fenômenos visíveis.",
+        "Usar uma sequência numerada como progressão, não como lista solta."
+      ],
+      "limitations": [
+        "Não foi possível medir quais experiências concentraram abandono ou replay."
+      ],
+      "provenance": [
+        "public_content",
+        "public_metric",
+        "observatory_inference"
+      ],
+      "training": {
+        "replicable": [
+          "Converter conceito abstrato em fenômenos visíveis.",
+          "Usar uma sequência numerada como progressão, não como lista solta."
+        ],
+        "contingent": [],
+        "notRecommended": [],
+        "hypotheses": []
+      }
     },
     {
       "id": "obs-20260823-003",
@@ -50,17 +244,115 @@
       "url": "https://www.youtube.com/watch?v=MYL64Le3DUs",
       "publishedAt": "2020-11-10",
       "duration": "PT11M14S",
-      "coverage": {"level": "partial", "accessible": ["título", "descrição", "capa", "duração", "visualizações", "curtidas", "resumo e trecho de transcrição"], "missing": ["vídeo integral verificável", "áudio integral", "comentários", "curva de retenção"]},
-      "publicMetrics": {"viewsObserved": "1,3 mi", "likesObserved": "182.919", "observedAt": "2026-08-23", "causality": "not_inferred"},
-      "classification": {"materialFormat": "video_longo", "presentationFormats": ["demonstracao", "bastidores", "camera_direta"], "primaryFamily": "demonstracao", "secondaryFamilies": ["curiosidade", "educativo"], "objectives": ["retencao", "educar", "compartilhamento"], "segment": "ciência e experimentos", "probableAudience": "público geral interessado em ciência visual", "awarenessStage": "inconsciente", "productionLevel": "intermediate", "durationBand": "10-20min", "mechanisms": ["surpresa", "curiosidade", "recompensa", "confiança"], "confidence": "high"},
-      "comparison": {"level": 1, "group": "science-demonstration-long", "referenceIds": ["obs-20260823-001", "obs-20260823-002"]},
-      "observations": ["Título descreve um resultado contraintuitivo.", "O resumo registra tentativas, erros, ajustes e resultado experimental.", "Há alertas de segurança ao lidar com fogo e pressão."],
-      "interpretations": ["Falhas visíveis podem sustentar curiosidade quando fazem parte da busca pelo resultado.", "Mostrar ajuste de hipótese pode reforçar autenticidade e confiança."],
-      "scores": {"gancho": 92, "clareza": 82, "relevancia": 80, "desejo": 73, "confianca": 88, "acao": 68, "objecoes": 83, "retencao": "not_assessed"},
-      "fiveLenses": {"apressado": "É interrompido pela imagem mental impossível da água implodindo.", "analitico": "Valoriza erros e ajustes, mas exige explicação causal precisa.", "aspiracional": "Deseja presenciar ou reproduzir um efeito extraordinário.", "comunidade": "Fenômeno favorece compartilhamento e conversa.", "cetico": "Os fracassos e cuidados reduzem aparência de truque, se bem mostrados."},
-      "replicable": ["Usar uma pergunta experimental genuína com resultado observável.", "Preservar tentativas e correções quando aumentarem compreensão e autenticidade."],
-      "limitations": ["O título isolado pode parecer impossível; a explicação integral não foi auditada."],
-      "provenance": ["public_content", "public_metric", "observatory_inference"]
+      "coverage": {
+        "level": "partial",
+        "accessible": [
+          "título",
+          "descrição",
+          "capa",
+          "duração",
+          "visualizações",
+          "curtidas",
+          "resumo e trecho de transcrição"
+        ],
+        "missing": [
+          "vídeo integral verificável",
+          "áudio integral",
+          "comentários",
+          "curva de retenção"
+        ]
+      },
+      "publicMetrics": {
+        "viewsObserved": "1,3 mi",
+        "likesObserved": "182.919",
+        "observedAt": "2026-08-23",
+        "causality": "not_inferred"
+      },
+      "classification": {
+        "materialFormat": "video_longo",
+        "presentationFormats": [
+          "demonstracao",
+          "bastidores",
+          "camera_direta"
+        ],
+        "primaryFamily": "demonstracao",
+        "secondaryFamilies": [
+          "curiosidade",
+          "educativo"
+        ],
+        "objectives": [
+          "retencao",
+          "educar",
+          "compartilhamento"
+        ],
+        "segment": "ciência e experimentos",
+        "probableAudience": "público geral interessado em ciência visual",
+        "awarenessStage": "inconsciente",
+        "productionLevel": "intermediate",
+        "durationBand": "10-20min",
+        "mechanisms": [
+          "surpresa",
+          "curiosidade",
+          "recompensa",
+          "confiança"
+        ],
+        "confidence": "high"
+      },
+      "comparison": {
+        "level": 1,
+        "group": "science-demonstration-long",
+        "referenceIds": [
+          "obs-20260823-001",
+          "obs-20260823-002"
+        ]
+      },
+      "observations": [
+        "Título descreve um resultado contraintuitivo.",
+        "O resumo registra tentativas, erros, ajustes e resultado experimental.",
+        "Há alertas de segurança ao lidar com fogo e pressão."
+      ],
+      "interpretations": [
+        "Falhas visíveis podem sustentar curiosidade quando fazem parte da busca pelo resultado.",
+        "Mostrar ajuste de hipótese pode reforçar autenticidade e confiança."
+      ],
+      "scores": {
+        "gancho": 92,
+        "clareza": 82,
+        "relevancia": 80,
+        "desejo": 73,
+        "confianca": 88,
+        "acao": 68,
+        "objecoes": 83,
+        "retencao": "not_assessed"
+      },
+      "fiveLenses": {
+        "apressado": "É interrompido pela imagem mental impossível da água implodindo.",
+        "analitico": "Valoriza erros e ajustes, mas exige explicação causal precisa.",
+        "aspiracional": "Deseja presenciar ou reproduzir um efeito extraordinário.",
+        "comunidade": "Fenômeno favorece compartilhamento e conversa.",
+        "cetico": "Os fracassos e cuidados reduzem aparência de truque, se bem mostrados."
+      },
+      "replicable": [
+        "Usar uma pergunta experimental genuína com resultado observável.",
+        "Preservar tentativas e correções quando aumentarem compreensão e autenticidade."
+      ],
+      "limitations": [
+        "O título isolado pode parecer impossível; a explicação integral não foi auditada."
+      ],
+      "provenance": [
+        "public_content",
+        "public_metric",
+        "observatory_inference"
+      ],
+      "training": {
+        "replicable": [
+          "Usar uma pergunta experimental genuína com resultado observável.",
+          "Preservar tentativas e correções quando aumentarem compreensão e autenticidade."
+        ],
+        "contingent": [],
+        "notRecommended": [],
+        "hypotheses": []
+      }
     },
     {
       "id": "obs-20260823-004",
@@ -70,17 +362,114 @@
       "url": "https://www.youtube.com/watch?v=E4v2Om5GR6s",
       "publishedAt": "2016-10-13",
       "duration": "PT16M13S",
-      "coverage": {"level": "partial", "accessible": ["título", "descrição", "capa", "duração", "visualizações", "curtidas", "resumo e trecho de transcrição"], "missing": ["vídeo e áudio integrais", "comentários", "retenção"]},
-      "publicMetrics": {"viewsObserved": "1,1 mi", "likesObserved": "87.482", "observedAt": "2026-08-23", "causality": "not_inferred"},
-      "classification": {"materialFormat": "video_longo", "presentationFormats": ["dialogo", "camera_direta", "explicativo"], "primaryFamily": "explicativo", "secondaryFamilies": ["conscientizacao", "autoridade_opiniao"], "objectives": ["educar", "confianca", "consciencia_problema"], "segment": "saúde e ciência", "probableAudience": "público geral exposto a mitos de saúde", "awarenessStage": "consciente_problema", "productionLevel": "intermediate", "durationBand": "10-20min", "mechanisms": ["curiosidade", "vigilancia", "confiança", "alivio"], "confidence": "high"},
-      "comparison": {"level": 2, "group": "health-explainer", "referenceIds": ["obs-20260823-005", "obs-20260823-006"]},
-      "observations": ["Título formula uma dúvida popular em linguagem direta.", "A presença de especialista é identificada no próprio título.", "O resumo distingue mitos de fatores reais de risco."],
-      "interpretations": ["Pergunta conhecida mais autoridade explícita promete alívio de incerteza.", "Contrastar mito e risco real ajuda a organizar a recompensa."],
-      "scores": {"gancho": 88, "clareza": 90, "relevancia": 90, "desejo": 65, "confianca": 92, "acao": 70, "objecoes": 90, "retencao": "not_assessed"},
-      "fiveLenses": {"apressado": "Entende a dúvida imediatamente.", "analitico": "Busca distinção entre evidência e boato.", "aspiracional": "Vê benefício em tomar decisões de saúde mais informadas.", "comunidade": "Tema popular facilita marcar e enviar a outras pessoas.", "cetico": "A autoridade ajuda, mas ainda exige fonte para números e causalidade."},
-      "replicable": ["Nomear a dúvida real do público sem esconder o tema.", "Usar autoridade demonstrada para explicar, não apenas como ornamento."],
-      "limitations": ["Não foi auditada a apresentação visual das evidências citadas."],
-      "provenance": ["public_content", "public_metric", "observatory_inference"]
+      "coverage": {
+        "level": "partial",
+        "accessible": [
+          "título",
+          "descrição",
+          "capa",
+          "duração",
+          "visualizações",
+          "curtidas",
+          "resumo e trecho de transcrição"
+        ],
+        "missing": [
+          "vídeo e áudio integrais",
+          "comentários",
+          "retenção"
+        ]
+      },
+      "publicMetrics": {
+        "viewsObserved": "1,1 mi",
+        "likesObserved": "87.482",
+        "observedAt": "2026-08-23",
+        "causality": "not_inferred"
+      },
+      "classification": {
+        "materialFormat": "video_longo",
+        "presentationFormats": [
+          "dialogo",
+          "camera_direta",
+          "explicativo"
+        ],
+        "primaryFamily": "explicativo",
+        "secondaryFamilies": [
+          "conscientizacao",
+          "autoridade_opiniao"
+        ],
+        "objectives": [
+          "educar",
+          "confianca",
+          "consciencia_problema"
+        ],
+        "segment": "saúde e ciência",
+        "probableAudience": "público geral exposto a mitos de saúde",
+        "awarenessStage": "consciente_problema",
+        "productionLevel": "intermediate",
+        "durationBand": "10-20min",
+        "mechanisms": [
+          "curiosidade",
+          "vigilancia",
+          "confiança",
+          "alivio"
+        ],
+        "confidence": "high"
+      },
+      "comparison": {
+        "level": 2,
+        "group": "health-explainer",
+        "referenceIds": [
+          "obs-20260823-005",
+          "obs-20260823-006"
+        ]
+      },
+      "observations": [
+        "Título formula uma dúvida popular em linguagem direta.",
+        "A presença de especialista é identificada no próprio título.",
+        "O resumo distingue mitos de fatores reais de risco."
+      ],
+      "interpretations": [
+        "Pergunta conhecida mais autoridade explícita promete alívio de incerteza.",
+        "Contrastar mito e risco real ajuda a organizar a recompensa."
+      ],
+      "scores": {
+        "gancho": 88,
+        "clareza": 90,
+        "relevancia": 90,
+        "desejo": 65,
+        "confianca": 92,
+        "acao": 70,
+        "objecoes": 90,
+        "retencao": "not_assessed"
+      },
+      "fiveLenses": {
+        "apressado": "Entende a dúvida imediatamente.",
+        "analitico": "Busca distinção entre evidência e boato.",
+        "aspiracional": "Vê benefício em tomar decisões de saúde mais informadas.",
+        "comunidade": "Tema popular facilita marcar e enviar a outras pessoas.",
+        "cetico": "A autoridade ajuda, mas ainda exige fonte para números e causalidade."
+      },
+      "replicable": [
+        "Nomear a dúvida real do público sem esconder o tema.",
+        "Usar autoridade demonstrada para explicar, não apenas como ornamento."
+      ],
+      "limitations": [
+        "Não foi auditada a apresentação visual das evidências citadas."
+      ],
+      "provenance": [
+        "public_content",
+        "public_metric",
+        "observatory_inference"
+      ],
+      "training": {
+        "replicable": [
+          "Nomear a dúvida real do público sem esconder o tema.",
+          "Usar autoridade demonstrada para explicar, não apenas como ornamento."
+        ],
+        "contingent": [],
+        "notRecommended": [],
+        "hypotheses": []
+      }
     },
     {
       "id": "obs-20260823-005",
@@ -90,17 +479,112 @@
       "url": "https://www.youtube.com/watch?v=OwaEsagax50",
       "publishedAt": "2023-10-23",
       "duration": "PT4M53S",
-      "coverage": {"level": "partial", "accessible": ["título", "descrição", "capa", "duração", "visualizações", "curtidas", "resumo oficial"], "missing": ["transcrição integral", "vídeo e áudio integrais", "comentários", "retenção"]},
-      "publicMetrics": {"viewsObserved": "348 mil", "likesObserved": "13.906", "observedAt": "2026-08-23", "causality": "not_inferred"},
-      "classification": {"materialFormat": "video_curto", "presentationFormats": ["camera_direta", "explicativo"], "primaryFamily": "educativo", "secondaryFamilies": ["conscientizacao", "inspiracao"], "objectives": ["educar", "salvamento", "consciencia_problema"], "segment": "saúde preventiva e longevidade", "probableAudience": "adultos interessados em envelhecimento saudável", "awarenessStage": "consciente_solucao", "productionLevel": "simple", "durationBand": "3-5min", "mechanisms": ["desejo", "alivio", "confiança"], "confidence": "medium"},
-      "comparison": {"level": 2, "group": "health-explainer", "referenceIds": ["obs-20260823-004", "obs-20260823-006"]},
-      "observations": ["Título combina número, benefício duradouro e linguagem prudente: 'podem'.", "O resumo oficial reconhece dificuldade de mudar hábitos e recomenda começar aos poucos."],
-      "interpretations": ["A promessa é aspiracional, mas a linguagem condicional reduz exagero.", "Reconhecer a dificuldade antecipa uma objeção comportamental."],
-      "scores": {"gancho": 80, "clareza": 92, "relevancia": 90, "desejo": 86, "confianca": 91, "acao": 79, "objecoes": 88, "retencao": "not_assessed"},
-      "fiveLenses": {"apressado": "Número e benefício são compreendidos rapidamente.", "analitico": "Aprecia a cautela verbal, mas quer evidências para cada hábito.", "aspiracional": "A longevidade saudável oferece transformação desejável.", "comunidade": "Lista de hábitos é fácil de salvar e compartilhar.", "cetico": "O verbo 'podem' e o reconhecimento da dificuldade reduzem promessa absoluta."},
-      "replicable": ["Combinar benefício desejado com linguagem proporcional à evidência.", "Antecipar a dificuldade prática antes de recomendar ação."],
-      "limitations": ["Itens, ordem e exemplos do vídeo não ficaram integralmente acessíveis."],
-      "provenance": ["public_content", "public_metric", "observatory_inference"]
+      "coverage": {
+        "level": "partial",
+        "accessible": [
+          "título",
+          "descrição",
+          "capa",
+          "duração",
+          "visualizações",
+          "curtidas",
+          "resumo oficial"
+        ],
+        "missing": [
+          "transcrição integral",
+          "vídeo e áudio integrais",
+          "comentários",
+          "retenção"
+        ]
+      },
+      "publicMetrics": {
+        "viewsObserved": "348 mil",
+        "likesObserved": "13.906",
+        "observedAt": "2026-08-23",
+        "causality": "not_inferred"
+      },
+      "classification": {
+        "materialFormat": "video_curto",
+        "presentationFormats": [
+          "camera_direta",
+          "explicativo"
+        ],
+        "primaryFamily": "educativo",
+        "secondaryFamilies": [
+          "conscientizacao",
+          "inspiracao"
+        ],
+        "objectives": [
+          "educar",
+          "salvamento",
+          "consciencia_problema"
+        ],
+        "segment": "saúde preventiva e longevidade",
+        "probableAudience": "adultos interessados em envelhecimento saudável",
+        "awarenessStage": "consciente_solucao",
+        "productionLevel": "simple",
+        "durationBand": "3-5min",
+        "mechanisms": [
+          "desejo",
+          "alivio",
+          "confiança"
+        ],
+        "confidence": "medium"
+      },
+      "comparison": {
+        "level": 2,
+        "group": "health-explainer",
+        "referenceIds": [
+          "obs-20260823-004",
+          "obs-20260823-006"
+        ]
+      },
+      "observations": [
+        "Título combina número, benefício duradouro e linguagem prudente: 'podem'.",
+        "O resumo oficial reconhece dificuldade de mudar hábitos e recomenda começar aos poucos."
+      ],
+      "interpretations": [
+        "A promessa é aspiracional, mas a linguagem condicional reduz exagero.",
+        "Reconhecer a dificuldade antecipa uma objeção comportamental."
+      ],
+      "scores": {
+        "gancho": 80,
+        "clareza": 92,
+        "relevancia": 90,
+        "desejo": 86,
+        "confianca": 91,
+        "acao": 79,
+        "objecoes": 88,
+        "retencao": "not_assessed"
+      },
+      "fiveLenses": {
+        "apressado": "Número e benefício são compreendidos rapidamente.",
+        "analitico": "Aprecia a cautela verbal, mas quer evidências para cada hábito.",
+        "aspiracional": "A longevidade saudável oferece transformação desejável.",
+        "comunidade": "Lista de hábitos é fácil de salvar e compartilhar.",
+        "cetico": "O verbo 'podem' e o reconhecimento da dificuldade reduzem promessa absoluta."
+      },
+      "replicable": [
+        "Combinar benefício desejado com linguagem proporcional à evidência.",
+        "Antecipar a dificuldade prática antes de recomendar ação."
+      ],
+      "limitations": [
+        "Itens, ordem e exemplos do vídeo não ficaram integralmente acessíveis."
+      ],
+      "provenance": [
+        "public_content",
+        "public_metric",
+        "observatory_inference"
+      ],
+      "training": {
+        "replicable": [
+          "Combinar benefício desejado com linguagem proporcional à evidência.",
+          "Antecipar a dificuldade prática antes de recomendar ação."
+        ],
+        "contingent": [],
+        "notRecommended": [],
+        "hypotheses": []
+      }
     },
     {
       "id": "obs-20260823-006",
@@ -110,17 +594,115 @@
       "url": "https://www.youtube.com/watch?v=KSfzJPWB30E",
       "publishedAt": "2025-06-23",
       "duration": "PT2M24S",
-      "coverage": {"level": "partial", "accessible": ["título", "descrição", "capa", "duração", "visualizações", "curtidas", "resumo oficial", "contexto de parceria"], "missing": ["transcrição integral", "vídeo e áudio integrais", "comentários", "retenção"]},
-      "publicMetrics": {"viewsObserved": "528 mil", "likesObserved": "2.076", "observedAt": "2026-08-23", "causality": "not_inferred"},
-      "classification": {"materialFormat": "video_curto", "presentationFormats": ["camera_direta", "explicativo", "institucional"], "primaryFamily": "conscientizacao", "secondaryFamilies": ["educativo", "venda_indireta"], "objectives": ["consciencia_problema", "educar", "confianca"], "segment": "saúde preventiva", "probableAudience": "adultos brasileiros que não realizam acompanhamento preventivo", "awarenessStage": "consciente_problema", "productionLevel": "intermediate", "durationBand": "1-3min", "mechanisms": ["aversao_perda", "vigilancia", "confiança"], "confidence": "high"},
-      "comparison": {"level": 2, "group": "health-explainer", "referenceIds": ["obs-20260823-004", "obs-20260823-005"]},
-      "observations": ["Título usa uma proibição preventiva e torna a consequência implícita.", "A descrição apresenta dado atribuído ao IBGE e defende check-up individualizado.", "A página declara parceria com RD Saúde, Drogasil e Raia."],
-      "interpretations": ["Aversão à perda cria urgência sem esconder o assunto.", "A atribuição da fonte e a individualização reduzem generalização; a parceria precisa permanecer transparente."],
-      "scores": {"gancho": 84, "clareza": 90, "relevancia": 92, "desejo": 62, "confianca": 86, "acao": 82, "objecoes": 84, "retencao": "not_assessed"},
-      "fiveLenses": {"apressado": "Entende o alerta preventivo em uma frase.", "analitico": "Valoriza fonte e individualização, mas verifica desenho da pesquisa.", "aspiracional": "Associa prevenção a controle da própria saúde.", "comunidade": "Pode encaminhar a familiares que adiam exames.", "cetico": "Pode questionar interesse comercial; transparência da parceria é essencial."},
-      "replicable": ["Ligar alerta a uma ação específica e individualizada.", "Declarar fonte e parceria sem esconder conflito potencial."],
-      "limitations": ["Não foi verificada a exposição do dado dentro do vídeo nem a formulação exata do CTA."],
-      "provenance": ["public_content", "public_metric", "observatory_inference"]
+      "coverage": {
+        "level": "partial",
+        "accessible": [
+          "título",
+          "descrição",
+          "capa",
+          "duração",
+          "visualizações",
+          "curtidas",
+          "resumo oficial",
+          "contexto de parceria"
+        ],
+        "missing": [
+          "transcrição integral",
+          "vídeo e áudio integrais",
+          "comentários",
+          "retenção"
+        ]
+      },
+      "publicMetrics": {
+        "viewsObserved": "528 mil",
+        "likesObserved": "2.076",
+        "observedAt": "2026-08-23",
+        "causality": "not_inferred"
+      },
+      "classification": {
+        "materialFormat": "video_curto",
+        "presentationFormats": [
+          "camera_direta",
+          "explicativo",
+          "institucional"
+        ],
+        "primaryFamily": "conscientizacao",
+        "secondaryFamilies": [
+          "educativo",
+          "venda_indireta"
+        ],
+        "objectives": [
+          "consciencia_problema",
+          "educar",
+          "confianca"
+        ],
+        "segment": "saúde preventiva",
+        "probableAudience": "adultos brasileiros que não realizam acompanhamento preventivo",
+        "awarenessStage": "consciente_problema",
+        "productionLevel": "intermediate",
+        "durationBand": "1-3min",
+        "mechanisms": [
+          "aversao_perda",
+          "vigilancia",
+          "confiança"
+        ],
+        "confidence": "high"
+      },
+      "comparison": {
+        "level": 2,
+        "group": "health-explainer",
+        "referenceIds": [
+          "obs-20260823-004",
+          "obs-20260823-005"
+        ]
+      },
+      "observations": [
+        "Título usa uma proibição preventiva e torna a consequência implícita.",
+        "A descrição apresenta dado atribuído ao IBGE e defende check-up individualizado.",
+        "A página declara parceria com RD Saúde, Drogasil e Raia."
+      ],
+      "interpretations": [
+        "Aversão à perda cria urgência sem esconder o assunto.",
+        "A atribuição da fonte e a individualização reduzem generalização; a parceria precisa permanecer transparente."
+      ],
+      "scores": {
+        "gancho": 84,
+        "clareza": 90,
+        "relevancia": 92,
+        "desejo": 62,
+        "confianca": 86,
+        "acao": 82,
+        "objecoes": 84,
+        "retencao": "not_assessed"
+      },
+      "fiveLenses": {
+        "apressado": "Entende o alerta preventivo em uma frase.",
+        "analitico": "Valoriza fonte e individualização, mas verifica desenho da pesquisa.",
+        "aspiracional": "Associa prevenção a controle da própria saúde.",
+        "comunidade": "Pode encaminhar a familiares que adiam exames.",
+        "cetico": "Pode questionar interesse comercial; transparência da parceria é essencial."
+      },
+      "replicable": [
+        "Ligar alerta a uma ação específica e individualizada.",
+        "Declarar fonte e parceria sem esconder conflito potencial."
+      ],
+      "limitations": [
+        "Não foi verificada a exposição do dado dentro do vídeo nem a formulação exata do CTA."
+      ],
+      "provenance": [
+        "public_content",
+        "public_metric",
+        "observatory_inference"
+      ],
+      "training": {
+        "replicable": [
+          "Ligar alerta a uma ação específica e individualizada.",
+          "Declarar fonte e parceria sem esconder conflito potencial."
+        ],
+        "contingent": [],
+        "notRecommended": [],
+        "hypotheses": []
+      }
     },
     {
       "id": "obs-20260823-007",
@@ -130,17 +712,116 @@
       "url": "https://drauziovarella.uol.com.br/videos/como-e-ter-cancer-durante-a-gravidez-bia-frecceiro/",
       "publishedAt": "2022-10-20",
       "duration": "unknown",
-      "coverage": {"level": "partial", "accessible": ["título", "resumo editorial", "transcrição integral publicada", "capa"], "missing": ["vídeo reproduzível", "áudio", "duração confiável", "métricas públicas do vídeo", "comentários", "retenção"]},
-      "publicMetrics": {"viewsObserved": null, "likesObserved": null, "observedAt": "2026-08-23", "causality": "not_inferred"},
-      "classification": {"materialFormat": "video_longo", "presentationFormats": ["depoimento", "storytelling", "camera_direta"], "primaryFamily": "depoimento", "secondaryFamilies": ["storytelling", "conscientizacao"], "objectives": ["identificacao", "confianca", "consciencia_problema", "acao"], "segment": "saúde da mulher e oncologia", "probableAudience": "mulheres, pacientes e familiares", "awarenessStage": "consciente_problema", "productionLevel": "unknown", "durationBand": "unknown", "mechanisms": ["identificacao", "medo", "alivio", "confiança", "desejo"], "confidence": "high"},
-      "comparison": {"level": 3, "group": "first-person-transformation-story", "referenceIds": ["obs-20260823-012", "obs-20260823-014"]},
-      "observations": ["A narradora se identifica e apresenta imediatamente o conflito: câncer de mama durante a gravidez.", "A transcrição traz datas, idades, decisões, onze cirurgias, recaídas emocionais, reconstrução da vida e diagnóstico precoce.", "A conclusão transforma a história em orientação concreta para procurar diagnóstico rapidamente."],
-      "interpretations": ["A sequência de riscos e reviravoltas cria tensão sustentada por detalhes específicos.", "A ação final é coerente com a experiência narrada, não um CTA desconectado."],
-      "scores": {"gancho": 94, "clareza": 90, "relevancia": 95, "desejo": 84, "confianca": 94, "acao": 91, "objecoes": 88, "retencao": 89},
-      "fiveLenses": {"apressado": "Conflito extremo é compreendido nos primeiros enunciados.", "analitico": "Recebe cronologia e especificidade; deve separar experiência pessoal de recomendação universal.", "aspiracional": "A reconstrução da vida oferece esperança concreta.", "comunidade": "Alto potencial de identificação entre pacientes e familiares.", "cetico": "Confia na autenticidade, mas não deve generalizar desfecho médico individual."},
-      "replicable": ["Abrir depoimento com identidade, contexto e conflito específico.", "Usar detalhes verificáveis e concluir com uma ação coerente com a história."],
-      "limitations": ["História individual não prova eficácia de conduta médica universal.", "Sem vídeo, não foram avaliados expressão, imagens, trilha ou edição."],
-      "provenance": ["public_content", "observatory_inference"]
+      "coverage": {
+        "level": "partial",
+        "accessible": [
+          "título",
+          "resumo editorial",
+          "transcrição integral publicada",
+          "capa"
+        ],
+        "missing": [
+          "vídeo reproduzível",
+          "áudio",
+          "duração confiável",
+          "métricas públicas do vídeo",
+          "comentários",
+          "retenção"
+        ]
+      },
+      "publicMetrics": {
+        "viewsObserved": null,
+        "likesObserved": null,
+        "observedAt": "2026-08-23",
+        "causality": "not_inferred"
+      },
+      "classification": {
+        "materialFormat": "video_longo",
+        "presentationFormats": [
+          "depoimento",
+          "storytelling",
+          "camera_direta"
+        ],
+        "primaryFamily": "depoimento",
+        "secondaryFamilies": [
+          "storytelling",
+          "conscientizacao"
+        ],
+        "objectives": [
+          "identificacao",
+          "confianca",
+          "consciencia_problema",
+          "acao"
+        ],
+        "segment": "saúde da mulher e oncologia",
+        "probableAudience": "mulheres, pacientes e familiares",
+        "awarenessStage": "consciente_problema",
+        "productionLevel": "unknown",
+        "durationBand": "unknown",
+        "mechanisms": [
+          "identificacao",
+          "medo",
+          "alivio",
+          "confiança",
+          "desejo"
+        ],
+        "confidence": "high"
+      },
+      "comparison": {
+        "level": 3,
+        "group": "first-person-transformation-story",
+        "referenceIds": [
+          "obs-20260823-012",
+          "obs-20260823-014"
+        ]
+      },
+      "observations": [
+        "A narradora se identifica e apresenta imediatamente o conflito: câncer de mama durante a gravidez.",
+        "A transcrição traz datas, idades, decisões, onze cirurgias, recaídas emocionais, reconstrução da vida e diagnóstico precoce.",
+        "A conclusão transforma a história em orientação concreta para procurar diagnóstico rapidamente."
+      ],
+      "interpretations": [
+        "A sequência de riscos e reviravoltas cria tensão sustentada por detalhes específicos.",
+        "A ação final é coerente com a experiência narrada, não um CTA desconectado."
+      ],
+      "scores": {
+        "gancho": 94,
+        "clareza": 90,
+        "relevancia": 95,
+        "desejo": 84,
+        "confianca": 94,
+        "acao": 91,
+        "objecoes": 88,
+        "retencao": 89
+      },
+      "fiveLenses": {
+        "apressado": "Conflito extremo é compreendido nos primeiros enunciados.",
+        "analitico": "Recebe cronologia e especificidade; deve separar experiência pessoal de recomendação universal.",
+        "aspiracional": "A reconstrução da vida oferece esperança concreta.",
+        "comunidade": "Alto potencial de identificação entre pacientes e familiares.",
+        "cetico": "Confia na autenticidade, mas não deve generalizar desfecho médico individual."
+      },
+      "replicable": [
+        "Abrir depoimento com identidade, contexto e conflito específico.",
+        "Usar detalhes verificáveis e concluir com uma ação coerente com a história."
+      ],
+      "limitations": [
+        "História individual não prova eficácia de conduta médica universal.",
+        "Sem vídeo, não foram avaliados expressão, imagens, trilha ou edição."
+      ],
+      "provenance": [
+        "public_content",
+        "observatory_inference"
+      ],
+      "training": {
+        "replicable": [
+          "Abrir depoimento com identidade, contexto e conflito específico.",
+          "Usar detalhes verificáveis e concluir com uma ação coerente com a história."
+        ],
+        "contingent": [],
+        "notRecommended": [],
+        "hypotheses": []
+      }
     },
     {
       "id": "obs-20260823-008",
@@ -150,17 +831,111 @@
       "url": "https://www.youtube.com/watch?v=M44nMf6Bp0g",
       "publishedAt": "2024-10-10",
       "duration": "PT14M45S",
-      "coverage": {"level": "partial", "accessible": ["título", "descrição", "capa", "duração", "visualizações", "curtidas", "resumo e trecho de transcrição"], "missing": ["vídeo e áudio integrais", "fontes exibidas quadro a quadro", "comentários", "retenção"]},
-      "publicMetrics": {"viewsObserved": "9,3 mil", "likesObserved": "1.409", "observedAt": "2026-08-23", "causality": "not_inferred"},
-      "classification": {"materialFormat": "video_longo", "presentationFormats": ["comentario", "reportagem", "narracao_imagens"], "primaryFamily": "noticia_atualidade", "secondaryFamilies": ["autoridade_opiniao", "conscientizacao"], "objectives": ["consciencia_problema", "comentario", "compartilhamento"], "segment": "tecnologia, mídia e saúde", "probableAudience": "adultos interessados em notícias e crítica de plataformas", "awarenessStage": "consciente_problema", "productionLevel": "intermediate", "durationBand": "10-20min", "mechanisms": ["indignacao", "vigilancia", "medo"], "confidence": "high"},
-      "comparison": {"level": 4, "group": "none", "referenceIds": []},
-      "observations": ["Título entrega ator, ação, plataforma e dano alegado.", "A abertura explicita perigo para imagem e para pessoas vulneráveis.", "O resumo menciona deepfakes, tratamentos falsos e responsabilidade das plataformas."],
-      "interpretations": ["Especificidade acelera compreensão e ativa vigilância.", "Tom indignado pode aumentar participação, mas exige rigor para não contaminar distinção entre fato e opinião."],
-      "scores": {"gancho": 88, "clareza": 91, "relevancia": 87, "desejo": 40, "confianca": 74, "acao": 61, "objecoes": 65, "retencao": "not_assessed"},
-      "fiveLenses": {"apressado": "Compreende a controvérsia pelo título.", "analitico": "Exige fontes primárias e distinção entre alegação e decisão judicial.", "aspiracional": "Baixa transformação pessoal; maior foco em proteção coletiva.", "comunidade": "Indignação favorece comentários e pertencimento moral.", "cetico": "Pode rejeitar linguagem editorial se fatos e opinião não estiverem separados."},
-      "replicable": ["Resumir notícia com sujeito, ação, conflito e consequência.", "Separar informação verificada de comentário editorial."],
-      "limitations": ["Não foi feita auditoria factual do processo; a ficha avalia estrutura de conteúdo, não mérito jurídico."],
-      "provenance": ["public_content", "public_metric", "observatory_inference"]
+      "coverage": {
+        "level": "partial",
+        "accessible": [
+          "título",
+          "descrição",
+          "capa",
+          "duração",
+          "visualizações",
+          "curtidas",
+          "resumo e trecho de transcrição"
+        ],
+        "missing": [
+          "vídeo e áudio integrais",
+          "fontes exibidas quadro a quadro",
+          "comentários",
+          "retenção"
+        ]
+      },
+      "publicMetrics": {
+        "viewsObserved": "9,3 mil",
+        "likesObserved": "1.409",
+        "observedAt": "2026-08-23",
+        "causality": "not_inferred"
+      },
+      "classification": {
+        "materialFormat": "video_longo",
+        "presentationFormats": [
+          "comentario",
+          "reportagem",
+          "narracao_imagens"
+        ],
+        "primaryFamily": "noticia_atualidade",
+        "secondaryFamilies": [
+          "autoridade_opiniao",
+          "conscientizacao"
+        ],
+        "objectives": [
+          "consciencia_problema",
+          "comentario",
+          "compartilhamento"
+        ],
+        "segment": "tecnologia, mídia e saúde",
+        "probableAudience": "adultos interessados em notícias e crítica de plataformas",
+        "awarenessStage": "consciente_problema",
+        "productionLevel": "intermediate",
+        "durationBand": "10-20min",
+        "mechanisms": [
+          "indignacao",
+          "vigilancia",
+          "medo"
+        ],
+        "confidence": "high"
+      },
+      "comparison": {
+        "level": 4,
+        "group": "none",
+        "referenceIds": []
+      },
+      "observations": [
+        "Título entrega ator, ação, plataforma e dano alegado.",
+        "A abertura explicita perigo para imagem e para pessoas vulneráveis.",
+        "O resumo menciona deepfakes, tratamentos falsos e responsabilidade das plataformas."
+      ],
+      "interpretations": [
+        "Especificidade acelera compreensão e ativa vigilância.",
+        "Tom indignado pode aumentar participação, mas exige rigor para não contaminar distinção entre fato e opinião."
+      ],
+      "scores": {
+        "gancho": 88,
+        "clareza": 91,
+        "relevancia": 87,
+        "desejo": 40,
+        "confianca": 74,
+        "acao": 61,
+        "objecoes": 65,
+        "retencao": "not_assessed"
+      },
+      "fiveLenses": {
+        "apressado": "Compreende a controvérsia pelo título.",
+        "analitico": "Exige fontes primárias e distinção entre alegação e decisão judicial.",
+        "aspiracional": "Baixa transformação pessoal; maior foco em proteção coletiva.",
+        "comunidade": "Indignação favorece comentários e pertencimento moral.",
+        "cetico": "Pode rejeitar linguagem editorial se fatos e opinião não estiverem separados."
+      },
+      "replicable": [
+        "Resumir notícia com sujeito, ação, conflito e consequência.",
+        "Separar informação verificada de comentário editorial."
+      ],
+      "limitations": [
+        "Não foi feita auditoria factual do processo; a ficha avalia estrutura de conteúdo, não mérito jurídico."
+      ],
+      "provenance": [
+        "public_content",
+        "public_metric",
+        "observatory_inference"
+      ],
+      "training": {
+        "replicable": [
+          "Resumir notícia com sujeito, ação, conflito e consequência.",
+          "Separar informação verificada de comentário editorial."
+        ],
+        "contingent": [],
+        "notRecommended": [],
+        "hypotheses": []
+      }
     },
     {
       "id": "obs-20260823-009",
@@ -170,17 +945,112 @@
       "url": "https://www.youtube.com/watch?v=9Z-MgUDvD6g",
       "publishedAt": "2019-01-17",
       "duration": "PT5M19S",
-      "coverage": {"level": "partial", "accessible": ["título", "descrição", "capa", "duração", "visualizações", "curtidas", "trecho de transcrição"], "missing": ["vídeo e áudio integrais", "comentários", "retenção"]},
-      "publicMetrics": {"viewsObserved": "3,6 mi", "likesObserved": "216.980", "observedAt": "2026-08-23", "causality": "not_inferred"},
-      "classification": {"materialFormat": "video_curto", "presentationFormats": ["dramatizacao", "esquete", "manifesto"], "primaryFamily": "humor", "secondaryFamilies": ["polemica", "posicionamento_marca"], "objectives": ["entretenimento", "compartilhamento", "marca"], "segment": "humor e crítica cultural", "probableAudience": "adultos familiarizados com coaching e palestras motivacionais", "awarenessStage": "indeterminado", "productionLevel": "complex", "durationBand": "5-10min", "mechanisms": ["humor", "surpresa", "identificacao", "indignacao"], "confidence": "high"},
-      "comparison": {"level": 4, "group": "none", "referenceIds": []},
-      "observations": ["Título minimalista depende do repertório do formato TED.", "A descrição revela sátira a empreendedorismo e carreira de sucesso.", "O trecho de abertura parte de crise nacional e imediatamente introduz uma solução oportunista absurda."],
-      "interpretations": ["A incongruência entre solenidade e absurdo cria o mecanismo de humor.", "O repertório cultural é condição de compreensão; fora dele, o título informa pouco."],
-      "scores": {"gancho": 82, "clareza": 62, "relevancia": 78, "desejo": 48, "confianca": "not_assessed", "acao": "not_assessed", "objecoes": "not_assessed", "retencao": "not_assessed"},
-      "fiveLenses": {"apressado": "Pode ser capturado pelo absurdo, mas o título sozinho é opaco.", "analitico": "Percebe crítica por acumulação de contradições.", "aspiracional": "A aspiração é subvertida, não prometida.", "comunidade": "Repertório compartilhado é central para a graça.", "cetico": "Não deve avaliar sátira como promessa factual."},
-      "replicable": ["Criar incongruência reconhecível entre formato sério e conteúdo absurdo.", "Entregar rapidamente um sinal de que se trata de sátira."],
-      "limitations": ["Humor depende de atuação, timing e edição não integralmente acessíveis.", "Métricas não autorizam transplantar mecanismo para conteúdo educativo ou comercial."],
-      "provenance": ["public_content", "public_metric", "observatory_inference"]
+      "coverage": {
+        "level": "partial",
+        "accessible": [
+          "título",
+          "descrição",
+          "capa",
+          "duração",
+          "visualizações",
+          "curtidas",
+          "trecho de transcrição"
+        ],
+        "missing": [
+          "vídeo e áudio integrais",
+          "comentários",
+          "retenção"
+        ]
+      },
+      "publicMetrics": {
+        "viewsObserved": "3,6 mi",
+        "likesObserved": "216.980",
+        "observedAt": "2026-08-23",
+        "causality": "not_inferred"
+      },
+      "classification": {
+        "materialFormat": "video_curto",
+        "presentationFormats": [
+          "dramatizacao",
+          "esquete",
+          "manifesto"
+        ],
+        "primaryFamily": "humor",
+        "secondaryFamilies": [
+          "polemica",
+          "posicionamento_marca"
+        ],
+        "objectives": [
+          "entretenimento",
+          "compartilhamento",
+          "marca"
+        ],
+        "segment": "humor e crítica cultural",
+        "probableAudience": "adultos familiarizados com coaching e palestras motivacionais",
+        "awarenessStage": "indeterminado",
+        "productionLevel": "complex",
+        "durationBand": "5-10min",
+        "mechanisms": [
+          "humor",
+          "surpresa",
+          "identificacao",
+          "indignacao"
+        ],
+        "confidence": "high"
+      },
+      "comparison": {
+        "level": 4,
+        "group": "none",
+        "referenceIds": []
+      },
+      "observations": [
+        "Título minimalista depende do repertório do formato TED.",
+        "A descrição revela sátira a empreendedorismo e carreira de sucesso.",
+        "O trecho de abertura parte de crise nacional e imediatamente introduz uma solução oportunista absurda."
+      ],
+      "interpretations": [
+        "A incongruência entre solenidade e absurdo cria o mecanismo de humor.",
+        "O repertório cultural é condição de compreensão; fora dele, o título informa pouco."
+      ],
+      "scores": {
+        "gancho": 82,
+        "clareza": 62,
+        "relevancia": 78,
+        "desejo": 48,
+        "confianca": "not_assessed",
+        "acao": "not_assessed",
+        "objecoes": "not_assessed",
+        "retencao": "not_assessed"
+      },
+      "fiveLenses": {
+        "apressado": "Pode ser capturado pelo absurdo, mas o título sozinho é opaco.",
+        "analitico": "Percebe crítica por acumulação de contradições.",
+        "aspiracional": "A aspiração é subvertida, não prometida.",
+        "comunidade": "Repertório compartilhado é central para a graça.",
+        "cetico": "Não deve avaliar sátira como promessa factual."
+      },
+      "replicable": [
+        "Criar incongruência reconhecível entre formato sério e conteúdo absurdo.",
+        "Entregar rapidamente um sinal de que se trata de sátira."
+      ],
+      "limitations": [
+        "Humor depende de atuação, timing e edição não integralmente acessíveis.",
+        "Métricas não autorizam transplantar mecanismo para conteúdo educativo ou comercial."
+      ],
+      "provenance": [
+        "public_content",
+        "public_metric",
+        "observatory_inference"
+      ],
+      "training": {
+        "replicable": [
+          "Criar incongruência reconhecível entre formato sério e conteúdo absurdo.",
+          "Entregar rapidamente um sinal de que se trata de sátira."
+        ],
+        "contingent": [],
+        "notRecommended": [],
+        "hypotheses": []
+      }
     },
     {
       "id": "obs-20260823-010",
@@ -190,17 +1060,114 @@
       "url": "https://www.youtube.com/watch?v=5kkzU81WtsE",
       "publishedAt": "2013-04-04",
       "duration": "PT26M17S",
-      "coverage": {"level": "partial", "accessible": ["título", "descrição", "capa", "duração", "visualizações", "curtidas", "resumo e trecho de transcrição"], "missing": ["vídeo e áudio integrais", "comentários", "retenção"]},
-      "publicMetrics": {"viewsObserved": "644 mil", "likesObserved": "9.648", "observedAt": "2026-08-23", "causality": "not_inferred"},
-      "classification": {"materialFormat": "video_longo", "presentationFormats": ["podcast_entrevista", "explicativo", "camera_direta"], "primaryFamily": "educativo", "secondaryFamilies": ["autoridade_opiniao", "comparacao"], "objectives": ["educar", "confianca", "salvamento"], "segment": "finanças pessoais", "probableAudience": "iniciantes com pouco capital ou dívidas", "awarenessStage": "consciente_solucao", "productionLevel": "simple", "durationBand": "20-40min", "mechanisms": ["aproximacao", "alivio", "confiança"], "confidence": "high"},
-      "comparison": {"level": 2, "group": "personal-finance-explainer", "referenceIds": ["obs-20260823-013", "obs-20260823-014", "obs-20260823-015"]},
-      "observations": ["Título formula uma dúvida concreta sem prometer enriquecimento rápido.", "A abertura explicita subproblemas: estudante sem renda, dívidas, perfil e alocação.", "O resumo diferencia prioridade conforme estágio financeiro."],
-      "interpretations": ["A segmentação de casos aumenta utilidade e confiança.", "Baixa hipérbole favorece o cético, mas pode gerar menos interrupção inicial."],
-      "scores": {"gancho": 72, "clareza": 91, "relevancia": 94, "desejo": 74, "confianca": 90, "acao": 83, "objecoes": 91, "retencao": "not_assessed"},
-      "fiveLenses": {"apressado": "Entende o problema, mas pode achar a duração alta.", "analitico": "Valoriza distinção entre dívida, reserva e investimento.", "aspiracional": "Vê começo possível, não transformação instantânea.", "comunidade": "Perguntas comuns geram identificação ampla.", "cetico": "A ausência de promessa milagrosa aumenta confiança."},
-      "replicable": ["Abrir com a pergunta literal do iniciante.", "Separar recomendações por condição e estágio do público."],
-      "limitations": ["Recomendações financeiras antigas não devem ser reutilizadas sem atualização; o aprendizado é estrutural."],
-      "provenance": ["public_content", "public_metric", "observatory_inference"]
+      "coverage": {
+        "level": "partial",
+        "accessible": [
+          "título",
+          "descrição",
+          "capa",
+          "duração",
+          "visualizações",
+          "curtidas",
+          "resumo e trecho de transcrição"
+        ],
+        "missing": [
+          "vídeo e áudio integrais",
+          "comentários",
+          "retenção"
+        ]
+      },
+      "publicMetrics": {
+        "viewsObserved": "644 mil",
+        "likesObserved": "9.648",
+        "observedAt": "2026-08-23",
+        "causality": "not_inferred"
+      },
+      "classification": {
+        "materialFormat": "video_longo",
+        "presentationFormats": [
+          "podcast_entrevista",
+          "explicativo",
+          "camera_direta"
+        ],
+        "primaryFamily": "educativo",
+        "secondaryFamilies": [
+          "autoridade_opiniao",
+          "comparacao"
+        ],
+        "objectives": [
+          "educar",
+          "confianca",
+          "salvamento"
+        ],
+        "segment": "finanças pessoais",
+        "probableAudience": "iniciantes com pouco capital ou dívidas",
+        "awarenessStage": "consciente_solucao",
+        "productionLevel": "simple",
+        "durationBand": "20-40min",
+        "mechanisms": [
+          "aproximacao",
+          "alivio",
+          "confiança"
+        ],
+        "confidence": "high"
+      },
+      "comparison": {
+        "level": 2,
+        "group": "personal-finance-explainer",
+        "referenceIds": [
+          "obs-20260823-013",
+          "obs-20260823-014",
+          "obs-20260823-015"
+        ]
+      },
+      "observations": [
+        "Título formula uma dúvida concreta sem prometer enriquecimento rápido.",
+        "A abertura explicita subproblemas: estudante sem renda, dívidas, perfil e alocação.",
+        "O resumo diferencia prioridade conforme estágio financeiro."
+      ],
+      "interpretations": [
+        "A segmentação de casos aumenta utilidade e confiança.",
+        "Baixa hipérbole favorece o cético, mas pode gerar menos interrupção inicial."
+      ],
+      "scores": {
+        "gancho": 72,
+        "clareza": 91,
+        "relevancia": 94,
+        "desejo": 74,
+        "confianca": 90,
+        "acao": 83,
+        "objecoes": 91,
+        "retencao": "not_assessed"
+      },
+      "fiveLenses": {
+        "apressado": "Entende o problema, mas pode achar a duração alta.",
+        "analitico": "Valoriza distinção entre dívida, reserva e investimento.",
+        "aspiracional": "Vê começo possível, não transformação instantânea.",
+        "comunidade": "Perguntas comuns geram identificação ampla.",
+        "cetico": "A ausência de promessa milagrosa aumenta confiança."
+      },
+      "replicable": [
+        "Abrir com a pergunta literal do iniciante.",
+        "Separar recomendações por condição e estágio do público."
+      ],
+      "limitations": [
+        "Recomendações financeiras antigas não devem ser reutilizadas sem atualização; o aprendizado é estrutural."
+      ],
+      "provenance": [
+        "public_content",
+        "public_metric",
+        "observatory_inference"
+      ],
+      "training": {
+        "replicable": [
+          "Abrir com a pergunta literal do iniciante.",
+          "Separar recomendações por condição e estágio do público."
+        ],
+        "contingent": [],
+        "notRecommended": [],
+        "hypotheses": []
+      }
     },
     {
       "id": "obs-20260823-011",
@@ -210,17 +1177,114 @@
       "url": "https://www.youtube.com/watch?v=e0yNVVR3XJI",
       "publishedAt": "2024-10-14",
       "duration": "PT92M0S",
-      "coverage": {"level": "partial", "accessible": ["título", "descrição", "capa", "duração", "visualizações", "curtidas", "resumo e trecho de transcrição"], "missing": ["programa integral verificável", "comentários", "retenção"]},
-      "publicMetrics": {"viewsObserved": "698 mil", "likesObserved": "32.686", "observedAt": "2026-08-23", "causality": "not_inferred"},
-      "classification": {"materialFormat": "video_longo", "presentationFormats": ["podcast_entrevista", "dialogo", "humor"], "primaryFamily": "entretenimento", "secondaryFamilies": ["identificacao", "humor"], "objectives": ["entretenimento", "comunidade", "retencao"], "segment": "celebridades e cultura pop", "probableAudience": "fãs da apresentadora, do convidado e de cultura pop", "awarenessStage": "indeterminado", "productionLevel": "complex", "durationBand": "60min+", "mechanisms": ["humor", "identificacao", "pertencimento", "curiosidade"], "confidence": "high"},
-      "comparison": {"level": 3, "group": "long-form-interview", "referenceIds": ["obs-20260823-012"]},
-      "observations": ["A abertura registrada inclui música, aplausos, patrocinadores e apresentação do programa antes da conversa.", "O resumo destaca vulnerabilidade do convidado, carreira e relacionamentos.", "A marca da apresentadora fornece contexto e expectativa de humor."],
-      "interpretations": ["A fidelidade ao formato pode tolerar uma introdução longa entre fãs, mas cria custo alto para público frio.", "Vulnerabilidade do convidado amplia identificação além da celebridade."],
-      "scores": {"gancho": 64, "clareza": 79, "relevancia": 76, "desejo": 67, "confianca": 78, "acao": "not_assessed", "objecoes": 66, "retencao": "not_assessed"},
-      "fiveLenses": {"apressado": "Pode abandonar durante vinheta e patrocinadores se não for fã.", "analitico": "Encontra valor na trajetória, mas a estrutura é difusa.", "aspiracional": "A proximidade com celebridade alimenta curiosidade e identidade.", "comunidade": "Repertório e bordões criam forte pertencimento.", "cetico": "Pode perceber excesso de embalagem antes do conteúdo."},
-      "replicable": ["Em entrevista, antecipar uma revelação ou tensão antes da apresentação longa.", "Usar vulnerabilidade específica para humanizar figura conhecida."],
-      "limitations": ["Formato de 92 minutos não é benchmark para vídeo curto.", "A força da marca pessoal e do convidado é fator externo relevante."],
-      "provenance": ["public_content", "public_metric", "observatory_inference"]
+      "coverage": {
+        "level": "partial",
+        "accessible": [
+          "título",
+          "descrição",
+          "capa",
+          "duração",
+          "visualizações",
+          "curtidas",
+          "resumo e trecho de transcrição"
+        ],
+        "missing": [
+          "programa integral verificável",
+          "comentários",
+          "retenção"
+        ]
+      },
+      "publicMetrics": {
+        "viewsObserved": "698 mil",
+        "likesObserved": "32.686",
+        "observedAt": "2026-08-23",
+        "causality": "not_inferred"
+      },
+      "classification": {
+        "materialFormat": "video_longo",
+        "presentationFormats": [
+          "podcast_entrevista",
+          "dialogo",
+          "humor"
+        ],
+        "primaryFamily": "entretenimento",
+        "secondaryFamilies": [
+          "identificacao",
+          "humor"
+        ],
+        "objectives": [
+          "entretenimento",
+          "comunidade",
+          "retencao"
+        ],
+        "segment": "celebridades e cultura pop",
+        "probableAudience": "fãs da apresentadora, do convidado e de cultura pop",
+        "awarenessStage": "indeterminado",
+        "productionLevel": "complex",
+        "durationBand": "60min+",
+        "mechanisms": [
+          "humor",
+          "identificacao",
+          "pertencimento",
+          "curiosidade"
+        ],
+        "confidence": "high"
+      },
+      "comparison": {
+        "level": 3,
+        "group": "long-form-interview",
+        "referenceIds": [
+          "obs-20260823-012"
+        ]
+      },
+      "observations": [
+        "A abertura registrada inclui música, aplausos, patrocinadores e apresentação do programa antes da conversa.",
+        "O resumo destaca vulnerabilidade do convidado, carreira e relacionamentos.",
+        "A marca da apresentadora fornece contexto e expectativa de humor."
+      ],
+      "interpretations": [
+        "A fidelidade ao formato pode tolerar uma introdução longa entre fãs, mas cria custo alto para público frio.",
+        "Vulnerabilidade do convidado amplia identificação além da celebridade."
+      ],
+      "scores": {
+        "gancho": 64,
+        "clareza": 79,
+        "relevancia": 76,
+        "desejo": 67,
+        "confianca": 78,
+        "acao": "not_assessed",
+        "objecoes": 66,
+        "retencao": "not_assessed"
+      },
+      "fiveLenses": {
+        "apressado": "Pode abandonar durante vinheta e patrocinadores se não for fã.",
+        "analitico": "Encontra valor na trajetória, mas a estrutura é difusa.",
+        "aspiracional": "A proximidade com celebridade alimenta curiosidade e identidade.",
+        "comunidade": "Repertório e bordões criam forte pertencimento.",
+        "cetico": "Pode perceber excesso de embalagem antes do conteúdo."
+      },
+      "replicable": [
+        "Em entrevista, antecipar uma revelação ou tensão antes da apresentação longa.",
+        "Usar vulnerabilidade específica para humanizar figura conhecida."
+      ],
+      "limitations": [
+        "Formato de 92 minutos não é benchmark para vídeo curto.",
+        "A força da marca pessoal e do convidado é fator externo relevante."
+      ],
+      "provenance": [
+        "public_content",
+        "public_metric",
+        "observatory_inference"
+      ],
+      "training": {
+        "replicable": [
+          "Em entrevista, antecipar uma revelação ou tensão antes da apresentação longa.",
+          "Usar vulnerabilidade específica para humanizar figura conhecida."
+        ],
+        "contingent": [],
+        "notRecommended": [],
+        "hypotheses": []
+      }
     },
     {
       "id": "obs-20260823-012",
@@ -230,17 +1294,113 @@
       "url": "https://www.youtube.com/watch?v=ZfyzMsVKwXU",
       "publishedAt": "2025-01-23",
       "duration": "PT49M35S",
-      "coverage": {"level": "partial", "accessible": ["título", "descrição", "capa", "duração", "visualizações", "curtidas", "resumo e trecho de transcrição"], "missing": ["vídeo e áudio integrais", "comentários", "retenção"]},
-      "publicMetrics": {"viewsObserved": "10 mil", "likesObserved": "304", "observedAt": "2026-08-23", "causality": "not_inferred"},
-      "classification": {"materialFormat": "video_longo", "presentationFormats": ["podcast_entrevista", "estudo_caso", "storytelling"], "primaryFamily": "storytelling", "secondaryFamilies": ["prova_estudo_caso", "institucional"], "objectives": ["marca", "autoridade", "confianca"], "segment": "negócios, fintech e capital de risco", "probableAudience": "empreendedores, investidores e profissionais de tecnologia", "awarenessStage": "consciente_produto", "productionLevel": "complex", "durationBand": "40-60min", "mechanisms": ["admiracao", "confiança", "curiosidade"], "confidence": "high"},
-      "comparison": {"level": 3, "group": "long-form-interview", "referenceIds": ["obs-20260823-011"]},
-      "observations": ["O título enquadra o fundador como outsider que altera um sistema bancário concentrado.", "A abertura disponível começa em uma celebração interna e em uma decisão de transparência durante crise.", "O resumo organiza origem, obstáculo regulatório, foco inicial e crescimento."],
-      "interpretations": ["Começar por uma cena de risco humano antes da cronologia cria tensão.", "O arquétipo do outsider torna a narrativa empresarial mais memorável."],
-      "scores": {"gancho": 83, "clareza": 85, "relevancia": 82, "desejo": 82, "confianca": 90, "acao": 52, "objecoes": 78, "retencao": "not_assessed"},
-      "fiveLenses": {"apressado": "O título comunica transformação, mas a duração limita consumo rápido.", "analitico": "Aprecia obstáculos, estratégia e cronologia.", "aspiracional": "O outsider vencedor oferece identidade empreendedora.", "comunidade": "Cultura de transparência cria pertencimento interno.", "cetico": "Pode perceber viés institucional da investidora; requer fontes externas para desempenho."},
-      "replicable": ["Abrir estudo de caso com uma decisão sob risco, não com biografia genérica.", "Usar arquétipo apenas quando sustentado por fatos específicos."],
-      "limitations": ["Conteúdo institucional pode selecionar fatos favoráveis.", "Produção, marca e relevância do caso não são replicáveis por qualquer criador."],
-      "provenance": ["public_content", "public_metric", "observatory_inference"]
+      "coverage": {
+        "level": "partial",
+        "accessible": [
+          "título",
+          "descrição",
+          "capa",
+          "duração",
+          "visualizações",
+          "curtidas",
+          "resumo e trecho de transcrição"
+        ],
+        "missing": [
+          "vídeo e áudio integrais",
+          "comentários",
+          "retenção"
+        ]
+      },
+      "publicMetrics": {
+        "viewsObserved": "10 mil",
+        "likesObserved": "304",
+        "observedAt": "2026-08-23",
+        "causality": "not_inferred"
+      },
+      "classification": {
+        "materialFormat": "video_longo",
+        "presentationFormats": [
+          "podcast_entrevista",
+          "estudo_caso",
+          "storytelling"
+        ],
+        "primaryFamily": "storytelling",
+        "secondaryFamilies": [
+          "prova_estudo_caso",
+          "institucional"
+        ],
+        "objectives": [
+          "marca",
+          "autoridade",
+          "confianca"
+        ],
+        "segment": "negócios, fintech e capital de risco",
+        "probableAudience": "empreendedores, investidores e profissionais de tecnologia",
+        "awarenessStage": "consciente_produto",
+        "productionLevel": "complex",
+        "durationBand": "40-60min",
+        "mechanisms": [
+          "admiracao",
+          "confiança",
+          "curiosidade"
+        ],
+        "confidence": "high"
+      },
+      "comparison": {
+        "level": 3,
+        "group": "long-form-interview",
+        "referenceIds": [
+          "obs-20260823-011"
+        ]
+      },
+      "observations": [
+        "O título enquadra o fundador como outsider que altera um sistema bancário concentrado.",
+        "A abertura disponível começa em uma celebração interna e em uma decisão de transparência durante crise.",
+        "O resumo organiza origem, obstáculo regulatório, foco inicial e crescimento."
+      ],
+      "interpretations": [
+        "Começar por uma cena de risco humano antes da cronologia cria tensão.",
+        "O arquétipo do outsider torna a narrativa empresarial mais memorável."
+      ],
+      "scores": {
+        "gancho": 83,
+        "clareza": 85,
+        "relevancia": 82,
+        "desejo": 82,
+        "confianca": 90,
+        "acao": 52,
+        "objecoes": 78,
+        "retencao": "not_assessed"
+      },
+      "fiveLenses": {
+        "apressado": "O título comunica transformação, mas a duração limita consumo rápido.",
+        "analitico": "Aprecia obstáculos, estratégia e cronologia.",
+        "aspiracional": "O outsider vencedor oferece identidade empreendedora.",
+        "comunidade": "Cultura de transparência cria pertencimento interno.",
+        "cetico": "Pode perceber viés institucional da investidora; requer fontes externas para desempenho."
+      },
+      "replicable": [
+        "Abrir estudo de caso com uma decisão sob risco, não com biografia genérica.",
+        "Usar arquétipo apenas quando sustentado por fatos específicos."
+      ],
+      "limitations": [
+        "Conteúdo institucional pode selecionar fatos favoráveis.",
+        "Produção, marca e relevância do caso não são replicáveis por qualquer criador."
+      ],
+      "provenance": [
+        "public_content",
+        "public_metric",
+        "observatory_inference"
+      ],
+      "training": {
+        "replicable": [
+          "Abrir estudo de caso com uma decisão sob risco, não com biografia genérica.",
+          "Usar arquétipo apenas quando sustentado por fatos específicos."
+        ],
+        "contingent": [],
+        "notRecommended": [],
+        "hypotheses": []
+      }
     },
     {
       "id": "obs-20260823-013",
@@ -250,17 +1410,114 @@
       "url": "https://www.youtube.com/watch?v=OSDN_3emW8Y",
       "publishedAt": "2025-12-24",
       "duration": "PT14M45S",
-      "coverage": {"level": "partial", "accessible": ["título", "descrição", "capa", "duração", "visualizações", "curtidas", "trecho de transcrição"], "missing": ["vídeo e áudio integrais", "comentários", "retenção"]},
-      "publicMetrics": {"viewsObserved": "356 mil", "likesObserved": "19.495", "observedAt": "2026-08-23", "causality": "not_inferred"},
-      "classification": {"materialFormat": "video_longo", "presentationFormats": ["camera_direta", "tutorial", "depoimento"], "primaryFamily": "educativo", "secondaryFamilies": ["transformacao", "autoridade_opiniao"], "objectives": ["educar", "lead", "autoridade"], "segment": "finanças pessoais e comportamento", "probableAudience": "adultos com ansiedade ou desorganização financeira", "awarenessStage": "consciente_problema", "productionLevel": "intermediate", "durationBand": "10-20min", "mechanisms": ["alivio", "desejo", "confiança"], "confidence": "high"},
-      "comparison": {"level": 2, "group": "personal-finance-explainer", "referenceIds": ["obs-20260823-010", "obs-20260823-014", "obs-20260823-015"]},
-      "observations": ["Título promete transformação ampla dentro de tempo específico.", "A abertura contrasta solução rápida com anos de terapia e apresenta história de dívida de seis dígitos.", "A descrição oferece material gratuito, indicando objetivo de lead."],
-      "interpretations": ["Prazo concreto reduz custo percebido e a história pessoal oferece autoridade narrativa.", "A amplitude da promessa pode gerar desconfiança se a recompensa for apenas introdutória."],
-      "scores": {"gancho": 91, "clareza": 86, "relevancia": 90, "desejo": 92, "confianca": 72, "acao": 88, "objecoes": 66, "retencao": "not_assessed"},
-      "fiveLenses": {"apressado": "Prazo de 14 minutos torna o custo imediatamente aceitável.", "analitico": "Busca método concreto além da autobiografia.", "aspiracional": "Promessa de mudança identitária é forte.", "comunidade": "Dívida e ansiedade favorecem identificação.", "cetico": "Questiona se relação complexa com dinheiro pode ser 'consertada' em 14 minutos."},
-      "replicable": ["Quantificar o esforço exigido quando for verdadeiro.", "Usar história pessoal como contexto antes do método."],
-      "limitations": ["Não copiar promessa absoluta; testar se a recompensa justifica a formulação."],
-      "provenance": ["public_content", "public_metric", "observatory_inference"]
+      "coverage": {
+        "level": "partial",
+        "accessible": [
+          "título",
+          "descrição",
+          "capa",
+          "duração",
+          "visualizações",
+          "curtidas",
+          "trecho de transcrição"
+        ],
+        "missing": [
+          "vídeo e áudio integrais",
+          "comentários",
+          "retenção"
+        ]
+      },
+      "publicMetrics": {
+        "viewsObserved": "356 mil",
+        "likesObserved": "19.495",
+        "observedAt": "2026-08-23",
+        "causality": "not_inferred"
+      },
+      "classification": {
+        "materialFormat": "video_longo",
+        "presentationFormats": [
+          "camera_direta",
+          "tutorial",
+          "depoimento"
+        ],
+        "primaryFamily": "educativo",
+        "secondaryFamilies": [
+          "transformacao",
+          "autoridade_opiniao"
+        ],
+        "objectives": [
+          "educar",
+          "lead",
+          "autoridade"
+        ],
+        "segment": "finanças pessoais e comportamento",
+        "probableAudience": "adultos com ansiedade ou desorganização financeira",
+        "awarenessStage": "consciente_problema",
+        "productionLevel": "intermediate",
+        "durationBand": "10-20min",
+        "mechanisms": [
+          "alivio",
+          "desejo",
+          "confiança"
+        ],
+        "confidence": "high"
+      },
+      "comparison": {
+        "level": 2,
+        "group": "personal-finance-explainer",
+        "referenceIds": [
+          "obs-20260823-010",
+          "obs-20260823-014",
+          "obs-20260823-015"
+        ]
+      },
+      "observations": [
+        "Título promete transformação ampla dentro de tempo específico.",
+        "A abertura contrasta solução rápida com anos de terapia e apresenta história de dívida de seis dígitos.",
+        "A descrição oferece material gratuito, indicando objetivo de lead."
+      ],
+      "interpretations": [
+        "Prazo concreto reduz custo percebido e a história pessoal oferece autoridade narrativa.",
+        "A amplitude da promessa pode gerar desconfiança se a recompensa for apenas introdutória."
+      ],
+      "scores": {
+        "gancho": 91,
+        "clareza": 86,
+        "relevancia": 90,
+        "desejo": 92,
+        "confianca": 72,
+        "acao": 88,
+        "objecoes": 66,
+        "retencao": "not_assessed"
+      },
+      "fiveLenses": {
+        "apressado": "Prazo de 14 minutos torna o custo imediatamente aceitável.",
+        "analitico": "Busca método concreto além da autobiografia.",
+        "aspiracional": "Promessa de mudança identitária é forte.",
+        "comunidade": "Dívida e ansiedade favorecem identificação.",
+        "cetico": "Questiona se relação complexa com dinheiro pode ser 'consertada' em 14 minutos."
+      },
+      "replicable": [
+        "Quantificar o esforço exigido quando for verdadeiro.",
+        "Usar história pessoal como contexto antes do método."
+      ],
+      "limitations": [
+        "Não copiar promessa absoluta; testar se a recompensa justifica a formulação."
+      ],
+      "provenance": [
+        "public_content",
+        "public_metric",
+        "observatory_inference"
+      ],
+      "training": {
+        "replicable": [
+          "Quantificar o esforço exigido quando for verdadeiro.",
+          "Usar história pessoal como contexto antes do método."
+        ],
+        "contingent": [],
+        "notRecommended": [],
+        "hypotheses": []
+      }
     },
     {
       "id": "obs-20260823-014",
@@ -270,17 +1527,116 @@
       "url": "https://www.youtube.com/watch?v=U81bsDC8oP0",
       "publishedAt": "2025-09-13",
       "duration": "PT19M25S",
-      "coverage": {"level": "partial", "accessible": ["título", "descrição", "capa", "duração", "visualizações", "curtidas", "trecho de transcrição"], "missing": ["vídeo e áudio integrais", "comentários", "retenção", "verificação independente de renda"]},
-      "publicMetrics": {"viewsObserved": "1 mi", "likesObserved": "59.286", "observedAt": "2026-08-23", "causality": "not_inferred"},
-      "classification": {"materialFormat": "video_longo", "presentationFormats": ["camera_direta", "depoimento", "storytelling"], "primaryFamily": "inspiracao", "secondaryFamilies": ["autoridade_opiniao", "transformacao"], "objectives": ["autoridade", "lead", "venda_indireta"], "segment": "empreendedorismo e mentalidade financeira", "probableAudience": "jovens aspirando independência financeira", "awarenessStage": "consciente_solucao", "productionLevel": "intermediate", "durationBand": "10-20min", "mechanisms": ["desejo", "admiracao", "curiosidade"], "confidence": "high"},
-      "comparison": {"level": 2, "group": "personal-finance-explainer", "referenceIds": ["obs-20260823-010", "obs-20260823-013", "obs-20260823-015"]},
-      "observations": ["Título reúne verbo extremo, transformação financeira e idade muito jovem.", "A abertura apresenta origem com poucos recursos e metáfora de sistema operacional financeiro.", "A descrição promove marca e masterclass."],
-      "interpretations": ["A combinação de contraste biográfico, idade e resultado maximiza desejo e curiosidade.", "O verbo extremo e a alegação de riqueza aumentam a carga de prova para o cético."],
-      "scores": {"gancho": 95, "clareza": 86, "relevancia": 84, "desejo": 96, "confianca": 58, "acao": 89, "objecoes": 49, "retencao": "not_assessed"},
-      "fiveLenses": {"apressado": "Resultado e idade são processados instantaneamente.", "analitico": "Exige método, evidência de resultado e separação entre mentalidade e causalidade.", "aspiracional": "Identidade de jovem milionária é altamente desejável para o público-alvo.", "comunidade": "Origem humilde pode criar forte identificação.", "cetico": "Pode rejeitar linguagem de 'brainwashing' e alegações não verificadas."},
-      "replicable": ["Usar contraste entre ponto de partida e resultado quando documentado.", "Transformar conceito abstrato em metáfora compreensível."],
-      "limitations": ["Não reutilizar alegação financeira sem prova verificável.", "Alto desempenho público não demonstra que a hipérbole causou o resultado."],
-      "provenance": ["public_content", "public_metric", "observatory_inference"]
+      "coverage": {
+        "level": "partial",
+        "accessible": [
+          "título",
+          "descrição",
+          "capa",
+          "duração",
+          "visualizações",
+          "curtidas",
+          "trecho de transcrição"
+        ],
+        "missing": [
+          "vídeo e áudio integrais",
+          "comentários",
+          "retenção",
+          "verificação independente de renda"
+        ]
+      },
+      "publicMetrics": {
+        "viewsObserved": "1 mi",
+        "likesObserved": "59.286",
+        "observedAt": "2026-08-23",
+        "causality": "not_inferred"
+      },
+      "classification": {
+        "materialFormat": "video_longo",
+        "presentationFormats": [
+          "camera_direta",
+          "depoimento",
+          "storytelling"
+        ],
+        "primaryFamily": "inspiracao",
+        "secondaryFamilies": [
+          "autoridade_opiniao",
+          "transformacao"
+        ],
+        "objectives": [
+          "autoridade",
+          "lead",
+          "venda_indireta"
+        ],
+        "segment": "empreendedorismo e mentalidade financeira",
+        "probableAudience": "jovens aspirando independência financeira",
+        "awarenessStage": "consciente_solucao",
+        "productionLevel": "intermediate",
+        "durationBand": "10-20min",
+        "mechanisms": [
+          "desejo",
+          "admiracao",
+          "curiosidade"
+        ],
+        "confidence": "high"
+      },
+      "comparison": {
+        "level": 2,
+        "group": "personal-finance-explainer",
+        "referenceIds": [
+          "obs-20260823-010",
+          "obs-20260823-013",
+          "obs-20260823-015"
+        ]
+      },
+      "observations": [
+        "Título reúne verbo extremo, transformação financeira e idade muito jovem.",
+        "A abertura apresenta origem com poucos recursos e metáfora de sistema operacional financeiro.",
+        "A descrição promove marca e masterclass."
+      ],
+      "interpretations": [
+        "A combinação de contraste biográfico, idade e resultado maximiza desejo e curiosidade.",
+        "O verbo extremo e a alegação de riqueza aumentam a carga de prova para o cético."
+      ],
+      "scores": {
+        "gancho": 95,
+        "clareza": 86,
+        "relevancia": 84,
+        "desejo": 96,
+        "confianca": 58,
+        "acao": 89,
+        "objecoes": 49,
+        "retencao": "not_assessed"
+      },
+      "fiveLenses": {
+        "apressado": "Resultado e idade são processados instantaneamente.",
+        "analitico": "Exige método, evidência de resultado e separação entre mentalidade e causalidade.",
+        "aspiracional": "Identidade de jovem milionária é altamente desejável para o público-alvo.",
+        "comunidade": "Origem humilde pode criar forte identificação.",
+        "cetico": "Pode rejeitar linguagem de 'brainwashing' e alegações não verificadas."
+      },
+      "replicable": [
+        "Usar contraste entre ponto de partida e resultado quando documentado.",
+        "Transformar conceito abstrato em metáfora compreensível."
+      ],
+      "limitations": [
+        "Não reutilizar alegação financeira sem prova verificável.",
+        "Alto desempenho público não demonstra que a hipérbole causou o resultado."
+      ],
+      "provenance": [
+        "public_content",
+        "public_metric",
+        "observatory_inference"
+      ],
+      "training": {
+        "replicable": [
+          "Usar contraste entre ponto de partida e resultado quando documentado.",
+          "Transformar conceito abstrato em metáfora compreensível."
+        ],
+        "contingent": [],
+        "notRecommended": [],
+        "hypotheses": []
+      }
     },
     {
       "id": "obs-20260823-015",
@@ -290,17 +1646,113 @@
       "url": "https://www.youtube.com/watch?v=IuTv5qu7A0Q",
       "publishedAt": "2019-07-13",
       "duration": "PT16M12S",
-      "coverage": {"level": "partial", "accessible": ["título", "descrição", "capa", "duração", "resumo e trecho de transcrição"], "missing": ["métricas confiáveis na verificação direta", "vídeo e áudio integrais", "comentários", "retenção"]},
-      "publicMetrics": {"viewsObservedSecondarySource": "815,3 mil", "likesObserved": null, "observedAt": "2026-08-23", "causality": "not_inferred"},
-      "classification": {"materialFormat": "video_longo", "presentationFormats": ["camera_direta", "tutorial", "estudo_caso"], "primaryFamily": "educativo", "secondaryFamilies": ["inspiracao", "autoridade_opiniao"], "objectives": ["educar", "autoridade", "salvamento"], "segment": "carreira digital e renda online", "probableAudience": "iniciantes buscando trabalho remoto ou carreira online", "awarenessStage": "consciente_solucao", "productionLevel": "intermediate", "durationBand": "10-20min", "mechanisms": ["desejo", "aproximacao", "confiança"], "confidence": "high"},
-      "comparison": {"level": 2, "group": "personal-finance-explainer", "referenceIds": ["obs-20260823-010", "obs-20260823-013", "obs-20260823-014"]},
-      "observations": ["Título combina benefício financeiro e identidade de estilo de vida.", "A abertura declara experiência pessoal e limita autoridade: não se apresenta como especialista.", "O resumo organiza possibilidades, desafios e necessidade de consistência."],
-      "interpretations": ["A autolimitação de autoridade pode aumentar confiança.", "A promessa ampla ganha credibilidade ao incluir dificuldades e múltiplos caminhos."],
-      "scores": {"gancho": 82, "clareza": 90, "relevancia": 88, "desejo": 87, "confianca": 88, "acao": 80, "objecoes": 87, "retencao": "not_assessed"},
-      "fiveLenses": {"apressado": "Benefício e identidade são claros, embora amplos.", "analitico": "Valoriza a admissão de limites e a decomposição de opções.", "aspiracional": "Liberdade geográfica e financeira são centrais.", "comunidade": "Relato pessoal aproxima criador e iniciante.", "cetico": "A cautela verbal reduz aparência de fórmula milagrosa."},
-      "replicable": ["Declarar os limites da própria autoridade.", "Equilibrar aspiração com custos, riscos e caminhos concretos."],
-      "limitations": ["Condições do mercado de 2019 não devem ser tratadas como atuais; princípio é estrutural."],
-      "provenance": ["public_content", "public_metric", "observatory_inference"]
+      "coverage": {
+        "level": "partial",
+        "accessible": [
+          "título",
+          "descrição",
+          "capa",
+          "duração",
+          "resumo e trecho de transcrição"
+        ],
+        "missing": [
+          "métricas confiáveis na verificação direta",
+          "vídeo e áudio integrais",
+          "comentários",
+          "retenção"
+        ]
+      },
+      "publicMetrics": {
+        "viewsObservedSecondarySource": "815,3 mil",
+        "likesObserved": null,
+        "observedAt": "2026-08-23",
+        "causality": "not_inferred"
+      },
+      "classification": {
+        "materialFormat": "video_longo",
+        "presentationFormats": [
+          "camera_direta",
+          "tutorial",
+          "estudo_caso"
+        ],
+        "primaryFamily": "educativo",
+        "secondaryFamilies": [
+          "inspiracao",
+          "autoridade_opiniao"
+        ],
+        "objectives": [
+          "educar",
+          "autoridade",
+          "salvamento"
+        ],
+        "segment": "carreira digital e renda online",
+        "probableAudience": "iniciantes buscando trabalho remoto ou carreira online",
+        "awarenessStage": "consciente_solucao",
+        "productionLevel": "intermediate",
+        "durationBand": "10-20min",
+        "mechanisms": [
+          "desejo",
+          "aproximacao",
+          "confiança"
+        ],
+        "confidence": "high"
+      },
+      "comparison": {
+        "level": 2,
+        "group": "personal-finance-explainer",
+        "referenceIds": [
+          "obs-20260823-010",
+          "obs-20260823-013",
+          "obs-20260823-014"
+        ]
+      },
+      "observations": [
+        "Título combina benefício financeiro e identidade de estilo de vida.",
+        "A abertura declara experiência pessoal e limita autoridade: não se apresenta como especialista.",
+        "O resumo organiza possibilidades, desafios e necessidade de consistência."
+      ],
+      "interpretations": [
+        "A autolimitação de autoridade pode aumentar confiança.",
+        "A promessa ampla ganha credibilidade ao incluir dificuldades e múltiplos caminhos."
+      ],
+      "scores": {
+        "gancho": 82,
+        "clareza": 90,
+        "relevancia": 88,
+        "desejo": 87,
+        "confianca": 88,
+        "acao": 80,
+        "objecoes": 87,
+        "retencao": "not_assessed"
+      },
+      "fiveLenses": {
+        "apressado": "Benefício e identidade são claros, embora amplos.",
+        "analitico": "Valoriza a admissão de limites e a decomposição de opções.",
+        "aspiracional": "Liberdade geográfica e financeira são centrais.",
+        "comunidade": "Relato pessoal aproxima criador e iniciante.",
+        "cetico": "A cautela verbal reduz aparência de fórmula milagrosa."
+      },
+      "replicable": [
+        "Declarar os limites da própria autoridade.",
+        "Equilibrar aspiração com custos, riscos e caminhos concretos."
+      ],
+      "limitations": [
+        "Condições do mercado de 2019 não devem ser tratadas como atuais; princípio é estrutural."
+      ],
+      "provenance": [
+        "public_content",
+        "public_metric",
+        "observatory_inference"
+      ],
+      "training": {
+        "replicable": [
+          "Declarar os limites da própria autoridade.",
+          "Equilibrar aspiração com custos, riscos e caminhos concretos."
+        ],
+        "contingent": [],
+        "notRecommended": [],
+        "hypotheses": []
+      }
     }
   ],
   "patterns": [
@@ -308,54 +1760,266 @@
       "id": "pat-20260823-001",
       "status": "provisional",
       "statement": "Em vídeos educativos de demonstração científica, anunciar um fenômeno ou resultado observável antes do passo a passo, e entregar progressão até a demonstração, tende a reduzir o tempo de compreensão e sustentar curiosidade.",
-      "mechanism": ["curiosidade", "surpresa", "recompensa"],
-      "conditions": ["família demonstracao", "objetivo educar ou reter", "fenômeno visual verificável", "resultado compatível com a entrega"],
-      "supportReferenceIds": ["obs-20260823-001", "obs-20260823-002", "obs-20260823-003"],
+      "mechanism": [
+        "curiosidade",
+        "surpresa",
+        "recompensa"
+      ],
+      "conditions": [
+        "família demonstracao",
+        "objetivo educar ou reter",
+        "fenômeno visual verificável",
+        "resultado compatível com a entrega"
+      ],
+      "supportReferenceIds": [
+        "obs-20260823-001",
+        "obs-20260823-002",
+        "obs-20260823-003"
+      ],
       "comparableSupportCount": 3,
       "comparisonLevel": 1,
       "confidence": "medium",
-      "limitations": ["As três referências são do mesmo criador.", "Sem curvas de retenção ou experimento causal.", "Não validado para outros segmentos."],
-      "validation": "requires_human_or_experimental_evidence"
+      "limitations": [
+        "As três referências são do mesmo criador.",
+        "Sem curvas de retenção ou experimento causal.",
+        "Não validado para outros segmentos."
+      ],
+      "validation": "requires_human_or_experimental_evidence",
+      "stage": "provisional",
+      "name": "Em vídeos educativos de demonstração científica, anunciar um fenômeno ou resultado observável antes do passo a passo, e entregar progressão até a demonstração, tende a reduzir o tempo de compreensão e sustentar curiosidade.",
+      "creativeFamily": "família demonstracao",
+      "objective": "objetivo educar ou reter",
+      "segment": "fenômeno visual verificável",
+      "supportingCount": 3,
+      "counterexampleCount": 0,
+      "evidence": [
+        {
+          "referenceId": "obs-20260823-001",
+          "observation": "apoio comparável desta rodada",
+          "evidence": "ver ficha individual",
+          "limitations": []
+        },
+        {
+          "referenceId": "obs-20260823-002",
+          "observation": "apoio comparável desta rodada",
+          "evidence": "ver ficha individual",
+          "limitations": []
+        },
+        {
+          "referenceId": "obs-20260823-003",
+          "observation": "apoio comparável desta rodada",
+          "evidence": "ver ficha individual",
+          "limitations": []
+        }
+      ]
     },
     {
       "id": "pat-20260823-002",
       "status": "provisional",
       "statement": "Em explicadores de saúde, uma pergunta ou risco concreto combinado com autoridade identificável, linguagem proporcional à evidência e ação específica tende a elevar clareza e confiança percebida.",
-      "mechanism": ["vigilancia", "confiança", "alivio"],
-      "conditions": ["conteúdo de saúde", "objetivo educativo ou conscientização", "fonte ou autoridade demonstrada", "ausência de promessa médica absoluta"],
-      "supportReferenceIds": ["obs-20260823-004", "obs-20260823-005", "obs-20260823-006"],
+      "mechanism": [
+        "vigilancia",
+        "confiança",
+        "alivio"
+      ],
+      "conditions": [
+        "conteúdo de saúde",
+        "objetivo educativo ou conscientização",
+        "fonte ou autoridade demonstrada",
+        "ausência de promessa médica absoluta"
+      ],
+      "supportReferenceIds": [
+        "obs-20260823-004",
+        "obs-20260823-005",
+        "obs-20260823-006"
+      ],
       "comparableSupportCount": 3,
       "comparisonLevel": 2,
       "confidence": "medium",
-      "limitations": ["Duas referências vêm do mesmo ecossistema editorial.", "Sem experimento de confiança ou comportamento.", "Parceria comercial pode alterar percepção."],
-      "validation": "requires_human_or_experimental_evidence"
+      "limitations": [
+        "Duas referências vêm do mesmo ecossistema editorial.",
+        "Sem experimento de confiança ou comportamento.",
+        "Parceria comercial pode alterar percepção."
+      ],
+      "validation": "requires_human_or_experimental_evidence",
+      "stage": "provisional",
+      "name": "Em explicadores de saúde, uma pergunta ou risco concreto combinado com autoridade identificável, linguagem proporcional à evidência e ação específica tende a elevar clareza e confiança percebida.",
+      "creativeFamily": "conteúdo de saúde",
+      "objective": "objetivo educativo ou conscientização",
+      "segment": "fonte ou autoridade demonstrada",
+      "supportingCount": 3,
+      "counterexampleCount": 0,
+      "evidence": [
+        {
+          "referenceId": "obs-20260823-004",
+          "observation": "apoio comparável desta rodada",
+          "evidence": "ver ficha individual",
+          "limitations": []
+        },
+        {
+          "referenceId": "obs-20260823-005",
+          "observation": "apoio comparável desta rodada",
+          "evidence": "ver ficha individual",
+          "limitations": []
+        },
+        {
+          "referenceId": "obs-20260823-006",
+          "observation": "apoio comparável desta rodada",
+          "evidence": "ver ficha individual",
+          "limitations": []
+        }
+      ]
     },
     {
       "id": "pat-20260823-003",
       "status": "provisional",
       "statement": "Em educação financeira para iniciantes, explicitar o problema e oferecer um caminho organizado aumenta relevância percebida; promessas hiperbólicas podem elevar desejo, mas também aumentam objeções e custo de prova.",
-      "mechanism": ["desejo", "aproximacao", "confiança"],
-      "conditions": ["família educativo ou inspiracao financeira", "público iniciante", "formato explicativo de 10 a 30 minutos"],
-      "supportReferenceIds": ["obs-20260823-010", "obs-20260823-013", "obs-20260823-014", "obs-20260823-015"],
+      "mechanism": [
+        "desejo",
+        "aproximacao",
+        "confiança"
+      ],
+      "conditions": [
+        "família educativo ou inspiracao financeira",
+        "público iniciante",
+        "formato explicativo de 10 a 30 minutos"
+      ],
+      "supportReferenceIds": [
+        "obs-20260823-010",
+        "obs-20260823-013",
+        "obs-20260823-014",
+        "obs-20260823-015"
+      ],
       "comparableSupportCount": 4,
       "comparisonLevel": 2,
       "confidence": "medium",
-      "limitations": ["Países, épocas e ofertas diferentes.", "Sem verificação causal de título versus desempenho.", "Alegações de riqueza não foram auditadas."],
-      "validation": "requires_human_or_experimental_evidence"
+      "limitations": [
+        "Países, épocas e ofertas diferentes.",
+        "Sem verificação causal de título versus desempenho.",
+        "Alegações de riqueza não foram auditadas."
+      ],
+      "validation": "requires_human_or_experimental_evidence",
+      "stage": "provisional",
+      "name": "Em educação financeira para iniciantes, explicitar o problema e oferecer um caminho organizado aumenta relevância percebida; promessas hiperbólicas podem elevar desejo, mas também aumentam objeções e custo de prova.",
+      "creativeFamily": "família educativo ou inspiracao financeira",
+      "objective": "público iniciante",
+      "segment": "formato explicativo de 10 a 30 minutos",
+      "supportingCount": 4,
+      "counterexampleCount": 0,
+      "evidence": [
+        {
+          "referenceId": "obs-20260823-010",
+          "observation": "apoio comparável desta rodada",
+          "evidence": "ver ficha individual",
+          "limitations": []
+        },
+        {
+          "referenceId": "obs-20260823-013",
+          "observation": "apoio comparável desta rodada",
+          "evidence": "ver ficha individual",
+          "limitations": []
+        },
+        {
+          "referenceId": "obs-20260823-014",
+          "observation": "apoio comparável desta rodada",
+          "evidence": "ver ficha individual",
+          "limitations": []
+        },
+        {
+          "referenceId": "obs-20260823-015",
+          "observation": "apoio comparável desta rodada",
+          "evidence": "ver ficha individual",
+          "limitations": []
+        }
+      ]
     }
   ],
   "hypotheses": [
-    {"id": "hyp-20260823-001", "status": "observed_not_promoted", "statement": "Especificidade numérica no título pode acelerar compreensão e criar uma expectativa de progressão.", "supportReferenceIds": ["obs-20260823-001", "obs-20260823-002", "obs-20260823-005", "obs-20260823-013"], "reasonNotPromoted": "Apoios pertencem a famílias e objetivos distintos."},
-    {"id": "hyp-20260823-002", "status": "observed_not_promoted", "statement": "Perguntas literais sobre uma dúvida do público podem gerar curiosidade sem sacrificar clareza.", "supportReferenceIds": ["obs-20260823-004", "obs-20260823-007", "obs-20260823-010"], "reasonNotPromoted": "Segmentos e apresentações não são suficientemente comparáveis."},
-    {"id": "hyp-20260823-003", "status": "observed_not_promoted", "statement": "Abrir uma história com decisão irreversível, risco e detalhes concretos pode sustentar tensão melhor que começar por biografia genérica.", "supportReferenceIds": ["obs-20260823-007", "obs-20260823-012", "obs-20260823-014"], "reasonNotPromoted": "Depoimento, estudo de caso e conteúdo aspiracional têm objetivos diferentes."},
-    {"id": "hyp-20260823-004", "status": "observed_not_promoted", "statement": "Vinhetas, patrocinadores e apresentação antes da primeira recompensa elevam o risco de abandono do público frio.", "supportReferenceIds": ["obs-20260823-011"], "reasonNotPromoted": "Apenas um apoio com transcrição de abertura suficiente."},
-    {"id": "hyp-20260823-005", "status": "observed_not_promoted", "statement": "Mostrar erro e correção em demonstrações pode aumentar autenticidade quando o erro contribui para a compreensão.", "supportReferenceIds": ["obs-20260823-003"], "reasonNotPromoted": "Uma única referência."}
+    {
+      "id": "hyp-20260823-001",
+      "status": "observed_not_promoted",
+      "statement": "Especificidade numérica no título pode acelerar compreensão e criar uma expectativa de progressão.",
+      "supportReferenceIds": [
+        "obs-20260823-001",
+        "obs-20260823-002",
+        "obs-20260823-005",
+        "obs-20260823-013"
+      ],
+      "reasonNotPromoted": "Apoios pertencem a famílias e objetivos distintos."
+    },
+    {
+      "id": "hyp-20260823-002",
+      "status": "observed_not_promoted",
+      "statement": "Perguntas literais sobre uma dúvida do público podem gerar curiosidade sem sacrificar clareza.",
+      "supportReferenceIds": [
+        "obs-20260823-004",
+        "obs-20260823-007",
+        "obs-20260823-010"
+      ],
+      "reasonNotPromoted": "Segmentos e apresentações não são suficientemente comparáveis."
+    },
+    {
+      "id": "hyp-20260823-003",
+      "status": "observed_not_promoted",
+      "statement": "Abrir uma história com decisão irreversível, risco e detalhes concretos pode sustentar tensão melhor que começar por biografia genérica.",
+      "supportReferenceIds": [
+        "obs-20260823-007",
+        "obs-20260823-012",
+        "obs-20260823-014"
+      ],
+      "reasonNotPromoted": "Depoimento, estudo de caso e conteúdo aspiracional têm objetivos diferentes."
+    },
+    {
+      "id": "hyp-20260823-004",
+      "status": "observed_not_promoted",
+      "statement": "Vinhetas, patrocinadores e apresentação antes da primeira recompensa elevam o risco de abandono do público frio.",
+      "supportReferenceIds": [
+        "obs-20260823-011"
+      ],
+      "reasonNotPromoted": "Apenas um apoio com transcrição de abertura suficiente."
+    },
+    {
+      "id": "hyp-20260823-005",
+      "status": "observed_not_promoted",
+      "statement": "Mostrar erro e correção em demonstrações pode aumentar autenticidade quando o erro contribui para a compreensão.",
+      "supportReferenceIds": [
+        "obs-20260823-003"
+      ],
+      "reasonNotPromoted": "Uma única referência."
+    }
   ],
   "contradictions": [
-    {"statement": "Maior hipérbole não produz confiança maior.", "evidence": ["obs-20260823-010", "obs-20260823-013", "obs-20260823-014", "obs-20260823-015"]},
-    {"statement": "Visualizações altas aparecem em famílias incompatíveis e não permitem inferir um mecanismo causal comum.", "evidence": ["obs-20260823-001", "obs-20260823-009", "obs-20260823-014"]},
-    {"statement": "Duração longa não impede desempenho público, mas muda a intenção e o grupo comparável.", "evidence": ["obs-20260823-010", "obs-20260823-011", "obs-20260823-012"]},
-    {"statement": "Falha visível pode reduzir polimento e simultaneamente aumentar autenticidade e curiosidade.", "evidence": ["obs-20260823-003"]}
+    {
+      "statement": "Maior hipérbole não produz confiança maior.",
+      "evidence": [
+        "obs-20260823-010",
+        "obs-20260823-013",
+        "obs-20260823-014",
+        "obs-20260823-015"
+      ]
+    },
+    {
+      "statement": "Visualizações altas aparecem em famílias incompatíveis e não permitem inferir um mecanismo causal comum.",
+      "evidence": [
+        "obs-20260823-001",
+        "obs-20260823-009",
+        "obs-20260823-014"
+      ]
+    },
+    {
+      "statement": "Duração longa não impede desempenho público, mas muda a intenção e o grupo comparável.",
+      "evidence": [
+        "obs-20260823-010",
+        "obs-20260823-011",
+        "obs-20260823-012"
+      ]
+    },
+    {
+      "statement": "Falha visível pode reduzir polimento e simultaneamente aumentar autenticidade e curiosidade.",
+      "evidence": [
+        "obs-20260823-003"
+      ]
+    }
   ],
   "trainingRuns": [
     {
@@ -364,20 +2028,68 @@
       "requestedBatchSize": 15,
       "candidatesFound": 18,
       "discarded": [
-        {"title": "Sedentarismo pode ser tão ruim quanto o cigarro", "reason": "Resumo oficial acessível, mas sem transcrição ou mídia suficiente para acrescentar evidência além do grupo já coberto."},
-        {"title": "Minha receita do sucesso financeiro", "reason": "Página pública expôs apenas descrição curta e chamada para o vídeo, sem material suficiente para ficha comparável."},
-        {"title": "Nath me ajuda #25", "reason": "A página expôs teaser de perguntas, mas não transcrição, duração ou estrutura completa."}
+        {
+          "title": "Sedentarismo pode ser tão ruim quanto o cigarro",
+          "reason": "Resumo oficial acessível, mas sem transcrição ou mídia suficiente para acrescentar evidência além do grupo já coberto."
+        },
+        {
+          "title": "Minha receita do sucesso financeiro",
+          "reason": "Página pública expôs apenas descrição curta e chamada para o vídeo, sem material suficiente para ficha comparável."
+        },
+        {
+          "title": "Nath me ajuda #25",
+          "reason": "A página expôs teaser de perguntas, mas não transcrição, duração ou estrutura completa."
+        }
       ],
       "analyzed": 15,
       "brazilianReferences": 11,
       "internationalReferences": 4,
-      "coverageSummary": {"complete": 0, "partial": 15, "insufficient": 0},
-      "familiesCovered": ["demonstracao", "explicativo", "educativo", "conscientizacao", "depoimento", "noticia_atualidade", "humor", "entretenimento", "storytelling", "inspiracao"],
-      "segmentsCovered": ["ciência", "saúde", "finanças pessoais", "notícias e tecnologia", "humor", "celebridades", "negócios e fintech", "carreira digital"],
-      "patternsCreated": ["pat-20260823-001", "pat-20260823-002", "pat-20260823-003"],
-      "hypothesesCreated": ["hyp-20260823-001", "hyp-20260823-002", "hyp-20260823-003", "hyp-20260823-004", "hyp-20260823-005"],
+      "coverageSummary": {
+        "complete": 0,
+        "partial": 15,
+        "insufficient": 0
+      },
+      "familiesCovered": [
+        "demonstracao",
+        "explicativo",
+        "educativo",
+        "conscientizacao",
+        "depoimento",
+        "noticia_atualidade",
+        "humor",
+        "entretenimento",
+        "storytelling",
+        "inspiracao"
+      ],
+      "segmentsCovered": [
+        "ciência",
+        "saúde",
+        "finanças pessoais",
+        "notícias e tecnologia",
+        "humor",
+        "celebridades",
+        "negócios e fintech",
+        "carreira digital"
+      ],
+      "patternsCreated": [
+        "pat-20260823-001",
+        "pat-20260823-002",
+        "pat-20260823-003"
+      ],
+      "hypothesesCreated": [
+        "hyp-20260823-001",
+        "hyp-20260823-002",
+        "hyp-20260823-003",
+        "hyp-20260823-004",
+        "hyp-20260823-005"
+      ],
       "validatedPatternsCreated": 0,
-      "limitations": ["Nenhuma publicação forneceu curva de retenção ou dados privados.", "Áudio, edição e cenas integrais não ficaram acessíveis de forma confiável.", "Métricas públicas são fotografias do momento e não prova causal.", "Parte dos resumos e trechos de transcrição veio de indexação secundária e foi marcada como tal."]
+      "limitations": [
+        "Nenhuma publicação forneceu curva de retenção ou dados privados.",
+        "Áudio, edição e cenas integrais não ficaram acessíveis de forma confiável.",
+        "Métricas públicas são fotografias do momento e não prova causal.",
+        "Parte dos resumos e trechos de transcrição veio de indexação secundária e foi marcada como tal."
+      ]
     }
   ],
   "policy": {
