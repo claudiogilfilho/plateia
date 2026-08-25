@@ -136,6 +136,22 @@ describe("validateAnalysisShape", () => {
     fetchMock.mockRestore();
   });
 
+  it("extracts a public video from Open Graph metadata", async () => {
+    const html = '<meta property="og:video:secure_url" content="https://cdn.instagram.example/reel.mp4"><meta property="og:image" content="https://cdn.instagram.example/cover.jpg"><meta property="og:description" content="Legenda pública">';
+    const fetchMock = vi.spyOn(globalThis, "fetch").mockImplementation(async () => new Response(html, { status: 200 }));
+    const material = await resolveInstagramMaterial("https://www.instagram.com/reel/DcGe0hCTe8l/");
+    expect(material).toEqual({ mediaUrl: "https://cdn.instagram.example/reel.mp4", mediaMimeType: "video/mp4", videoUrl: "https://cdn.instagram.example/reel.mp4", coverImageUrl: "https://cdn.instagram.example/cover.jpg", caption: "Legenda pública" });
+    fetchMock.mockRestore();
+  });
+
+  it("falls back from a blocked captioned embed to the other public publication surfaces", async () => {
+    const fetchMock = vi.spyOn(globalThis, "fetch").mockResolvedValueOnce(new Response("bloqueado", { status: 403 })).mockResolvedValueOnce(new Response('<meta property="og:image" content="https://cdn.instagram.example/embed.jpg">', { status: 200 })).mockResolvedValueOnce(new Response('<meta property="og:video" content="https://cdn.instagram.example/direct.mp4">', { status: 200 }));
+    const material = await resolveInstagramMaterial("https://www.instagram.com/reel/DcGe0hCTe8l/");
+    expect(material).toEqual({ mediaUrl: "https://cdn.instagram.example/direct.mp4", mediaMimeType: "video/mp4", videoUrl: "https://cdn.instagram.example/direct.mp4", coverImageUrl: "https://cdn.instagram.example/embed.jpg", caption: null });
+    expect(fetchMock).toHaveBeenCalledTimes(3);
+    fetchMock.mockRestore();
+  });
+
   it("decodes shortcode media nested in the escaped contextJSON used by current embeds", async () => {
     const html = '<script>"contextJSON":"{\\"gql_data\\":{\\"shortcode_media\\":{\\"video_url\\":\\"https://cdn.instagram.example/context.mp4\\",\\"edge_media_to_caption\\":{\\"edges\\":[{\\"node\\":{\\"text\\":\\"Legenda do contextJSON\\"}}]}}}}"</script>';
     const fetchMock = vi.spyOn(globalThis, "fetch").mockResolvedValue(new Response(html, { status: 200 }));

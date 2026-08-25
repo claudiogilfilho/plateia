@@ -112,18 +112,13 @@ export const analysesRouter = router({
         mediaUrl = instagram.mediaUrl;
         mediaMimeType = instagram.mediaMimeType;
         if (!input.skipCaption && !contentText && instagram.caption) contentText = instagram.caption;
-      } else if (!contentText) {
+      }
+      if (!mediaUrl) {
         coverage = {
           level: "requires_complement",
           mode: "requires_visual",
           title: "Material visual necessário",
-          description: "O Instagram não disponibilizou capa, imagem ou vídeo público para este link. Envie o arquivo original para a Platéia avaliar o conteúdo visual; a legenda continua opcional.",
-        };
-      } else {
-        coverage = {
-          level: "partial",
-          title: "Leitura parcial pela legenda",
-          description: "O Instagram não liberou a prévia visual; a Platéia avaliou somente o texto informado. Envie o MP4 para uma leitura visual completa.",
+          description: contentText ? "A legenda ficou acessível, mas o Instagram não disponibilizou imagem ou vídeo público para este link. Ela não será pontuada sozinha: envie o arquivo original para a Platéia avaliar o conteúdo." : "O Instagram não disponibilizou capa, imagem ou vídeo público para este link. Envie o arquivo original para a Platéia avaliar o conteúdo visual; a legenda continua opcional.",
         };
       }
       if (mediaUrl && (input.skipCaption || !contentText)) coverage = visualOnlyCoverage();

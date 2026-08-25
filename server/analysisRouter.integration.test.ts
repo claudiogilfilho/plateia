@@ -91,17 +91,18 @@ describe("analyses.create integration", () => {
     expect(mocks.updateAnalysisResult).toHaveBeenCalledWith(42, "needs_content", expect.objectContaining({ coverage: expect.objectContaining({ mode: "requires_visual", title: "Material visual necessário" }) }));
   });
 
-  it("continues with a partial text reading when Instagram hides the preview but the user supplied a caption", async () => {
+  it("requests the visual file when Instagram hides the preview even if the user supplied a caption", async () => {
     mocks.resolveInstagramMaterial.mockResolvedValue(null);
-    await expect(caller().create({ contentType: "reel", contentText: "Legenda fornecida pelo usuário.", product: "", objective: "", targetAudience: "", source: { url: "https://www.instagram.com/reel/C1Example/", kind: "published_post" } })).resolves.toEqual({ id: 42, status: "completed" });
-    expect(mocks.evaluateContent).toHaveBeenCalledWith(expect.objectContaining({ text: "Legenda fornecida pelo usuário.", mediaUrl: null }));
-    expect(mocks.updateAnalysisResult).toHaveBeenCalledWith(42, "completed", expect.objectContaining({ coverage: expect.objectContaining({ level: "partial" }) }));
+    await expect(caller().create({ contentType: "reel", contentText: "Legenda fornecida pelo usuário.", product: "", objective: "", targetAudience: "", source: { url: "https://www.instagram.com/reel/C1Example/", kind: "published_post" } })).resolves.toEqual({ id: 42, status: "needs_content" });
+    expect(mocks.evaluateContent).not.toHaveBeenCalled();
+    expect(mocks.updateAnalysisResult).toHaveBeenCalledWith(42, "needs_content", expect.objectContaining({ coverage: expect.objectContaining({ level: "requires_complement", mode: "requires_visual" }) }));
   });
 
-  it("uses a caption captured from Instagram even when the visual preview is unavailable", async () => {
+  it("preserves a captured caption but still requires visual material", async () => {
     mocks.resolveInstagramMaterial.mockResolvedValue({ mediaUrl: null, mediaMimeType: null, caption: "Legenda captada do post" });
-    await expect(caller().create({ contentType: "reel", contentText: "", product: "", objective: "", targetAudience: "", source: { url: "https://www.instagram.com/reel/C1Example/", kind: "published_post" } })).resolves.toEqual({ id: 42, status: "completed" });
-    expect(mocks.evaluateContent).toHaveBeenCalledWith(expect.objectContaining({ text: "Legenda captada do post", mediaUrl: null }));
+    await expect(caller().create({ contentType: "reel", contentText: "", product: "", objective: "", targetAudience: "", source: { url: "https://www.instagram.com/reel/C1Example/", kind: "published_post" } })).resolves.toEqual({ id: 42, status: "needs_content" });
+    expect(mocks.createAnalysis).toHaveBeenCalledWith(expect.objectContaining({ contentText: "Legenda captada do post", mediaUrl: null }));
+    expect(mocks.evaluateContent).not.toHaveBeenCalled();
   });
 
   it("continues with a visual-only reading when the user chooses not to evaluate the caption", async () => {

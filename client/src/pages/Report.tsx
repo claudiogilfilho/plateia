@@ -41,7 +41,11 @@ export default function Report() {
   if (error) return <div role="alert" className="mx-auto mt-16 max-w-xl rounded-2xl border border-rose-100 bg-rose-50 p-6 text-center text-rose-700">Não foi possível carregar este relatório agora. Volte ao histórico e tente novamente.</div>;
   if (!analysis) return <div className="p-8 text-slate-600">Avaliação não encontrada.</div>;
   if (analysis.status === "failed") return <FailedReport />;
-  if (analysis.status === "needs_content") return <NeedsContentReport contentType={analysis.contentType} sourceUrl={analysis.sourceUrl} reportJson={analysis.reportJson} />;
+  const legacyInstagramWithoutMedia = requiresVisualComplement(analysis);
+  if (analysis.status === "needs_content" || legacyInstagramWithoutMedia) {
+    const reportJson = legacyInstagramWithoutMedia ? visualComplementReportJson(analysis.reportJson) : analysis.reportJson;
+    return <NeedsContentReport contentType={analysis.contentType} sourceUrl={analysis.sourceUrl} reportJson={reportJson} />;
+  }
   if (!analysis.reportJson) return <div className="mx-auto max-w-xl pt-16 text-center"><Loader2 className="mx-auto mb-4 h-9 w-9 animate-spin text-violet-600" /><h1 className="font-display text-3xl font-extrabold text-[#2b1058]">A Platéia está lendo seu material.</h1><p className="mt-2 text-slate-600">O relatório aparecerá aqui assim que a avaliação for concluída.</p></div>;
 
   const report = parseReportJson<ReportData>(analysis.reportJson);
@@ -93,6 +97,15 @@ export default function Report() {
       </aside>
     </section>
   </div>;
+}
+
+export function requiresVisualComplement(analysis: { contentType: string; sourceKind?: string | null; sourceUrl?: string | null; mediaUrl?: string | null }) {
+  return analysis.contentType !== "copy" && analysis.sourceKind === "published_post" && Boolean(analysis.sourceUrl?.includes("instagram.com/")) && !analysis.mediaUrl;
+}
+
+function visualComplementReportJson(reportJson: string | null) {
+  const existing = parseReportJson<{ coverage?: ReadingCoverage }>(reportJson);
+  return JSON.stringify({ ...(existing ?? {}), coverage: { level: "requires_complement", mode: "requires_visual", title: "Material visual necessário", description: "Esta avaliação antiga foi criada sem imagem ou vídeo acessível. Para evitar uma nota sem base visual, envie o arquivo original e continue a leitura." } });
 }
 
 function FailedReport() {
