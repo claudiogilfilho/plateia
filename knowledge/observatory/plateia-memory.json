@@ -1,6 +1,6 @@
 {
   "protocol": "plateia-memory/1.0",
-  "updatedAt": "2026-08-24T19:30:00.000Z",
+  "updatedAt": "2026-08-25T12:00:00.000Z",
   "references": [
     {
       "id": "obs-20260823-001",
@@ -9705,6 +9705,1600 @@
         ]
       },
       "createdAt": "2026-08-24T13:45:00.000Z"
+    },
+    {
+      "id": "obs-20260825-046",
+      "title": "Por que a gripe pode ser perigosa? | Desenrola",
+      "creator": "Portal Drauzio Varella",
+      "country": "BR",
+      "url": "https://drauziovarella.uol.com.br/videos/por-que-a-gripe-pode-ser-perigosa-desenrola/",
+      "sourceEvidence": [
+        "https://drauziovarella.uol.com.br/videos/por-que-a-gripe-pode-ser-perigosa-desenrola/"
+      ],
+      "publishedAt": "2025-06-10",
+      "duration": "não acessível",
+      "coverage": {
+        "level": "partial",
+        "accessible": [
+          "título",
+          "autoria",
+          "data de publicação e revisão",
+          "capa e texto alternativo",
+          "resumo oficial",
+          "riscos e públicos vulneráveis nomeados",
+          "disclosure de parceria",
+          "referências científicas da página",
+          "link de continuidade"
+        ],
+        "missing": [
+          "vídeo reproduzível",
+          "áudio efetivamente ouvido",
+          "transcrição completa",
+          "texto na tela",
+          "ritmo e montagem",
+          "curva de retenção",
+          "comentários",
+          "métricas públicas do vídeo",
+          "CTA falado",
+          "conversões"
+        ]
+      },
+      "publicMetrics": {
+        "viewsObserved": null,
+        "likesObserved": null,
+        "commentsObserved": null,
+        "observedAt": "2026-08-25",
+        "sourceType": "not_accessible",
+        "causality": "not_inferred"
+      },
+      "viralAssessment": {
+        "status": "indeterminate",
+        "observedSignal": "nenhuma métrica pública do vídeo acessível",
+        "missingForRelativeAssessment": [
+          "visualizações",
+          "baseline do perfil",
+          "impressões",
+          "velocidade",
+          "compartilhamentos",
+          "retenção"
+        ],
+        "causalClaimAllowed": false,
+        "confounders": [
+          "autoridade prévia de Drauzio Varella",
+          "distribuição do portal",
+          "parceria com a Sanofi",
+          "sazonalidade de doenças respiratórias"
+        ]
+      },
+      "classification": {
+        "taxonomyVersion": "3.0",
+        "container": "webpage",
+        "materialFormat": "video_curto",
+        "presentationFormats": [
+          "camera_direta",
+          "comentario",
+          "institucional"
+        ],
+        "primaryFamily": "explicativo",
+        "secondaryFamilies": [
+          "educativo",
+          "conscientizacao"
+        ],
+        "functionalMix": [
+          {
+            "family": "explicativo",
+            "percentage": 50
+          },
+          {
+            "family": "educativo",
+            "percentage": 30
+          },
+          {
+            "family": "conscientizacao",
+            "percentage": 20
+          }
+        ],
+        "objectives": [
+          "educar",
+          "consciencia_problema",
+          "confianca",
+          "compartilhamento"
+        ],
+        "advertisingType": "branded_content",
+        "commercialIntent": "explicita",
+        "advertisedEntity": {
+          "kind": "marca",
+          "name": "Sanofi",
+          "confidence": "high"
+        },
+        "contentTopic": {
+          "label": "complicações da gripe, grupos vulneráveis e prevenção",
+          "iabCode": null
+        },
+        "segment": "saúde e infectologia",
+        "subsegment": "influenza e prevenção",
+        "probableAudience": "adultos, idosos, pessoas com condições crônicas e familiares que subestimam a gripe",
+        "awarenessStage": "consciente_problema",
+        "productionLevel": "intermediate",
+        "creatorScale": "large",
+        "replicability": "high",
+        "durationBand": "unknown",
+        "pace": "unknown",
+        "mechanisms": [
+          "vigilancia",
+          "confianca",
+          "alivio"
+        ],
+        "hookTypes": [
+          "pergunta",
+          "problema",
+          "autoridade"
+        ],
+        "narrativeElements": [
+          "problema",
+          "mecanismo",
+          "conclusao",
+          "cta"
+        ],
+        "proofTypes": [
+          "resultado_verificavel",
+          "mecanismo_explicado"
+        ],
+        "ctaTypes": [
+          "outro_conteudo"
+        ],
+        "distributionContext": {
+          "organicPaid": "unknown",
+          "trendDependency": "seasonal"
+        },
+        "confidence": "high",
+        "evidence": [
+          "O título faz pergunta concreta e o texto corrige a percepção de que gripe é sempre simples.",
+          "A página nomeia pneumonia e problemas cardíacos, destaca idosos e pessoas com condições crônicas e oferece prevenção como recompensa.",
+          "A parceria com a Sanofi e o código do material são declarados; a página lista referências científicas."
+        ],
+        "alternativeClassifications": [
+          "conscientizacao como família principal",
+          "conteúdo de marca de saúde"
+        ],
+        "missingInformation": [
+          "fala exata",
+          "ordem audiovisual",
+          "duração",
+          "ritmo",
+          "edição",
+          "CTA no vídeo",
+          "comentários",
+          "retenção",
+          "mídia paga"
+        ],
+        "needsHumanReview": true
+      },
+      "comparison": {
+        "level": 2,
+        "confidence": "high",
+        "group": "explicadores-de-saude-com-risco-concreto-autoridade-e-acao",
+        "referenceIds": [
+          "obs-20260823-004",
+          "obs-20260823-005",
+          "obs-20260823-006",
+          "obs-20260824-020",
+          "obs-20260824-032"
+        ]
+      },
+      "observations": [
+        "O título usa uma dúvida concreta e já revela o tema.",
+        "O resumo oficial contrasta aparência de doença simples com risco de complicações e nomeia públicos vulneráveis.",
+        "A página declara a parceria comercial e apresenta referências científicas.",
+        "O link de continuidade aprofunda a importância da vacinação."
+      ],
+      "interpretations": [
+        "Risco proporcional, público específico e fontes visíveis aumentam auditabilidade sem exigir sensacionalismo.",
+        "O disclosure comercial reduz ambiguidade sobre interesse da marca, mas não elimina possível viés editorial.",
+        "A ação sugerida é coerente com o risco descrito; execução e eficácia do vídeo não foram observadas."
+      ],
+      "hypotheses": [
+        "Em explicadores de saúde, risco concreto, autoridade identificável, fonte visível, disclosure e ação específica podem elevar clareza e confiança percebida."
+      ],
+      "scores": {
+        "gancho": 88,
+        "clareza": 95,
+        "relevancia": 93,
+        "desejo": 76,
+        "confianca": 92,
+        "acao": 83,
+        "objecoes": 88,
+        "retencao": "not_assessed"
+      },
+      "criterionAssessments": {
+        "hook": {
+          "assessed": true,
+          "score": 88,
+          "evidence": [
+            "Pergunta concreta acompanhada de contradição à percepção de doença inofensiva."
+          ],
+          "limitations": [
+            "Sem imagem, voz ou primeiros segundos."
+          ]
+        },
+        "comprehensionSpeed": {
+          "assessed": true,
+          "score": 94,
+          "evidence": [
+            "Tema, risco e público vulnerável são identificáveis pelo título e resumo."
+          ],
+          "limitations": []
+        },
+        "centralPromise": {
+          "assessed": true,
+          "score": 94,
+          "evidence": [
+            "Explicar por que a gripe pode gerar complicações e como evitá-las."
+          ],
+          "limitations": []
+        },
+        "clarity": {
+          "assessed": true,
+          "score": 95,
+          "evidence": [
+            "Condição, complicações, grupos de risco e prevenção são nomeados."
+          ],
+          "limitations": []
+        },
+        "credibility": {
+          "assessed": true,
+          "score": 92,
+          "evidence": [
+            "Autoridade identificada, disclosure e referências científicas acessíveis."
+          ],
+          "limitations": [
+            "A cobertura não auditou a fala completa nem a seleção das evidências."
+          ]
+        },
+        "action": {
+          "assessed": true,
+          "score": 83,
+          "evidence": [
+            "A página direciona a conteúdo de vacinação e prevenção."
+          ],
+          "limitations": [
+            "CTA falado e adesão não acessíveis."
+          ]
+        },
+        "objections": {
+          "assessed": true,
+          "score": 88,
+          "evidence": [
+            "A objeção 'é só uma gripe' é tratada diretamente com complicações e grupos vulneráveis."
+          ],
+          "limitations": [
+            "Sem desenvolvimento completo."
+          ]
+        },
+        "retention": {
+          "assessed": false,
+          "score": null,
+          "evidence": [],
+          "limitations": [
+            "Sem reprodução ou curva de retenção."
+          ]
+        }
+      },
+      "fiveLenses": {
+        "apressado": "Entende rapidamente que gripe pode ser grave e quem precisa de atenção.",
+        "analitico": "Encontra referências, data, grupos de risco e disclosure; ainda precisa examinar o vídeo e os estudos.",
+        "aspiracional": "A prevenção oferece perspectiva de preservar autonomia e saúde.",
+        "comunidade": "Públicos vulneráveis e familiares encontram um motivo social para compartilhar.",
+        "cetico": "O disclosure e as fontes ajudam, mas a parceria farmacêutica exige leitura crítica da seleção editorial."
+      },
+      "replicable": [
+        "Pergunta concreta mais risco proporcional mais público específico.",
+        "Exibir fontes e parceria no mesmo nível de visibilidade da recomendação.",
+        "Fechar com ação compatível com a evidência, sem promessa absoluta."
+      ],
+      "limitations": [
+        "O vídeo não foi reproduzido; análise baseada em página oficial, capa, resumo e referências.",
+        "Não houve acesso a métricas, comentários, áudio, cenas ou retenção.",
+        "Parceria comercial é contexto e não prova de eficácia do conteúdo."
+      ],
+      "provenance": [
+        "public_content",
+        "official_creator_page",
+        "scientific_references",
+        "commercial_disclosure",
+        "observatory_inference"
+      ],
+      "training": {
+        "replicable": [
+          "Risco específico, autoridade, fonte e ação formam explicação de saúde semanticamente completa."
+        ],
+        "contingent": [
+          "Autoridade médica prévia, marca do portal, sazonalidade e parceria farmacêutica."
+        ],
+        "notRecommended": [
+          "Usar medo sem proporcionalidade; esconder patrocinador; transformar associação científica em promessa individual."
+        ],
+        "hypotheses": [
+          "Disclosure visível pode preservar confiança em conteúdo patrocinado quando a recomendação permanece proporcional às fontes."
+        ]
+      },
+      "createdAt": "2026-08-25T12:00:00.000Z"
+    },
+    {
+      "id": "obs-20260825-047",
+      "title": "Super Chay — Duolingo convida Chaiany para aprender espanhol sem medo de errar",
+      "creator": "Duolingo Brasil, Chaiany, Jotacom e ViU",
+      "country": "BR",
+      "url": "https://www.instagram.com/reels/DW60mZrAOd1/",
+      "sourceEvidence": [
+        "https://www.instagram.com/reels/DW60mZrAOd1/",
+        "https://abramark.com.br/destaques/duolingo-convida-chaiany-para-campanha-e-aposta-no-humor-para-promover-aprendizado-de-espanhol/"
+      ],
+      "publishedAt": "2026-04-10",
+      "duration": "não acessível",
+      "coverage": {
+        "level": "partial",
+        "accessible": [
+          "URL individual do Reel",
+          "identidade de marca e participante",
+          "data do contexto editorial",
+          "descrição detalhada da campanha",
+          "alter ego e repertório linguístico descritos",
+          "objetivo declarado",
+          "autoria da campanha"
+        ],
+        "missing": [
+          "vídeo reproduzível",
+          "áudio efetivamente ouvido",
+          "transcrição completa",
+          "texto na tela",
+          "ritmo e montagem",
+          "curva de retenção",
+          "legenda original do Reel",
+          "descrição original",
+          "comentários",
+          "métricas públicas",
+          "CTA exato",
+          "conversões"
+        ]
+      },
+      "publicMetrics": {
+        "viewsObserved": null,
+        "likesObserved": null,
+        "commentsObserved": null,
+        "observedAt": "2026-08-25",
+        "sourceType": "not_accessible",
+        "causality": "not_inferred"
+      },
+      "viralAssessment": {
+        "status": "indeterminate",
+        "observedSignal": "o contexto editorial relata que o momento anterior da participante ganhou tração, sem métricas do Reel",
+        "missingForRelativeAssessment": [
+          "métricas da publicação",
+          "baseline do perfil",
+          "velocidade",
+          "compartilhamentos",
+          "retenção",
+          "mídia paga"
+        ],
+        "causalClaimAllowed": false,
+        "confounders": [
+          "reality show em exibição",
+          "participante conhecida",
+          "momento viral anterior",
+          "marca e mascote consolidados",
+          "agilidade e distribuição de agência"
+        ]
+      },
+      "classification": {
+        "taxonomyVersion": "3.0",
+        "container": "instagram_reel",
+        "materialFormat": "reel",
+        "presentationFormats": [
+          "dramatizacao",
+          "produto",
+          "outro"
+        ],
+        "primaryFamily": "humor",
+        "secondaryFamilies": [
+          "posicionamento_marca",
+          "venda_indireta"
+        ],
+        "functionalMix": [
+          {
+            "family": "humor",
+            "percentage": 45
+          },
+          {
+            "family": "posicionamento_marca",
+            "percentage": 35
+          },
+          {
+            "family": "venda_indireta",
+            "percentage": 20
+          }
+        ],
+        "objectives": [
+          "marca",
+          "identificacao",
+          "apresentar_solucao",
+          "alcance"
+        ],
+        "advertisingType": "branded_content",
+        "commercialIntent": "explicita",
+        "advertisedEntity": {
+          "kind": "aplicativo",
+          "name": "Duolingo",
+          "confidence": "high"
+        },
+        "contentTopic": {
+          "label": "aprendizado de espanhol, erro como parte da aprendizagem e marketing de oportunidade",
+          "iabCode": null
+        },
+        "segment": "educação e aplicativos de idiomas",
+        "subsegment": "espanhol para falantes de português",
+        "probableAudience": "brasileiros familiarizados com o reality e interessados em idiomas ou humor de cultura pop",
+        "awarenessStage": "consciente_solucao",
+        "productionLevel": "intermediate",
+        "creatorScale": "large",
+        "replicability": "medium",
+        "durationBand": "unknown",
+        "pace": "unknown",
+        "mechanisms": [
+          "humor",
+          "identificacao",
+          "aproximacao",
+          "alivio"
+        ],
+        "hookTypes": [
+          "identificacao",
+          "autoridade",
+          "problema"
+        ],
+        "narrativeElements": [
+          "personagem",
+          "situacao",
+          "virada",
+          "mecanismo"
+        ],
+        "proofTypes": [
+          "nenhuma"
+        ],
+        "ctaTypes": [],
+        "distributionContext": {
+          "organicPaid": "unknown",
+          "trendDependency": "high"
+        },
+        "confidence": "medium",
+        "evidence": [
+          "A fonte identifica o Reel individual e descreve Chaiany como 'Super Chay', usando portunhol e expressões já reconhecidas pelo público.",
+          "O objetivo declarado é transformar o erro em aprendizado e posicionar o app como acessível e divertido.",
+          "A campanha foi criada rapidamente após repercussão espontânea e envolve Jotacom e ViU."
+        ],
+        "alternativeClassifications": [
+          "venda_indireta como família principal",
+          "marketing de oportunidade"
+        ],
+        "missingInformation": [
+          "abertura",
+          "fala exata",
+          "cenas",
+          "legenda original",
+          "ritmo",
+          "timing cômico",
+          "CTA",
+          "comentários",
+          "retenção",
+          "mídia paga"
+        ],
+        "needsHumanReview": true
+      },
+      "comparison": {
+        "level": 2,
+        "confidence": "medium",
+        "group": "humor-de-marca-com-persona-e-contexto-cultural",
+        "referenceIds": [
+          "obs-20260824-033",
+          "obs-20260823-009"
+        ]
+      },
+      "observations": [
+        "A campanha transforma um momento conhecido de portunhol em narrativa de aprendizagem.",
+        "A participante assume um alter ego coerente com expressões que o público já associava a ela.",
+        "Marca, agência e parceira de influência são identificadas, e a velocidade de resposta ao momento cultural é explicitada.",
+        "Nenhuma métrica do Reel, comentário ou execução audiovisual ficou acessível."
+      ],
+      "interpretations": [
+        "A marca conecta produto e cultura ao reenquadrar um erro público como ponto de partida legítimo.",
+        "O humor pode reduzir vergonha de começar, mas a transferência depende de consentimento, autenticidade e reconhecimento prévio.",
+        "Agilidade editorial e notoriedade da participante são contingentes e não devem ser tratadas como mecanismo replicável universal."
+      ],
+      "hypotheses": [
+        "Em marketing de oportunidade, transformar um erro culturalmente reconhecido em ponto de partida de aprendizagem pode alinhar humor, produto e redução de vergonha quando há consentimento e contexto legítimos."
+      ],
+      "scores": {
+        "gancho": "not_assessed",
+        "clareza": 86,
+        "relevancia": 91,
+        "desejo": 82,
+        "confianca": 78,
+        "acao": "not_assessed",
+        "objecoes": 84,
+        "retencao": "not_assessed"
+      },
+      "criterionAssessments": {
+        "hook": {
+          "assessed": false,
+          "score": null,
+          "evidence": [],
+          "limitations": [
+            "A abertura do Reel, sua capa e legenda original não ficaram acessíveis."
+          ]
+        },
+        "comprehensionSpeed": {
+          "assessed": true,
+          "score": 84,
+          "evidence": [
+            "A descrição editorial conecta participante, portunhol, espanhol e app."
+          ],
+          "limitations": [
+            "Tempo real para compreensão não medido."
+          ]
+        },
+        "centralPromise": {
+          "assessed": true,
+          "score": 87,
+          "evidence": [
+            "Aprender pode começar pelo erro, de maneira leve e progressiva."
+          ],
+          "limitations": [
+            "Promessa reconstruída da fonte editorial, não da fala integral."
+          ]
+        },
+        "clarity": {
+          "assessed": true,
+          "score": 86,
+          "evidence": [
+            "Produto, problema e posicionamento são explicitados pela campanha."
+          ],
+          "limitations": [
+            "Conteúdo original não reproduzido."
+          ]
+        },
+        "credibility": {
+          "assessed": true,
+          "score": 78,
+          "evidence": [
+            "Marca, participante, agências e intenção estão identificadas."
+          ],
+          "limitations": [
+            "Sem disclosure visível dentro do Reel nem métricas."
+          ]
+        },
+        "action": {
+          "assessed": false,
+          "score": null,
+          "evidence": [],
+          "limitations": [
+            "CTA exato e destino da publicação não ficaram acessíveis."
+          ]
+        },
+        "objections": {
+          "assessed": true,
+          "score": 84,
+          "evidence": [
+            "A objeção emocional 'medo de errar' é nomeada e reenquadrada."
+          ],
+          "limitations": [
+            "Não foi possível observar como isso foi dramatizado."
+          ]
+        },
+        "retention": {
+          "assessed": false,
+          "score": null,
+          "evidence": [],
+          "limitations": [
+            "Sem reprodução ou curva de retenção."
+          ]
+        }
+      },
+      "fiveLenses": {
+        "apressado": "Pode reconhecer rapidamente a participante e o choque divertido do portunhol, se já conhecer o contexto.",
+        "analitico": "Entende estratégia e objetivo, mas quer ver execução, disclosure, oferta e resultados.",
+        "aspiracional": "Recebe permissão simbólica para começar imperfeito e evoluir.",
+        "comunidade": "O repertório compartilhado do reality e da marca favorece reconhecimento coletivo.",
+        "cetico": "Pode interpretar a ação como exploração oportunista se consentimento, publicidade e valor educacional não estiverem claros."
+      },
+      "replicable": [
+        "Reenquadrar um erro real como começo de aprendizagem, com consentimento.",
+        "Ligar repertório cultural ao benefício do produto, não apenas à celebridade.",
+        "Separar velocidade de oportunidade da dependência de fama e mídia."
+      ],
+      "limitations": [
+        "O Reel não foi reproduzido e a legenda original não ficou acessível.",
+        "A análise depende de fonte editorial secundária e não contém métricas da publicação.",
+        "Timing cômico, CTA, comentários, distribuição e conversão não foram medidos."
+      ],
+      "provenance": [
+        "public_content_url",
+        "secondary_editorial_context",
+        "commercial_campaign",
+        "observatory_inference"
+      ],
+      "training": {
+        "replicable": [
+          "Erro reconhecível mais reenquadramento seguro mais solução coerente pode aproximar uma marca."
+        ],
+        "contingent": [
+          "Fama da participante, reality em exibição, repertório viral, agência e velocidade de veiculação."
+        ],
+        "notRecommended": [
+          "Copiar bordões; ridicularizar a pessoa; ocultar publicidade; perseguir trend sem relação com produto."
+        ],
+        "hypotheses": [
+          "Redução de vergonha pode ser mecanismo de consideração em educação quando o humor preserva dignidade."
+        ]
+      },
+      "createdAt": "2026-08-25T12:00:00.000Z"
+    },
+    {
+      "id": "obs-20260825-048",
+      "title": "Testamos a hidratação da nova Base Sérum Hidramatte da Avon",
+      "creator": "Avon Brasil",
+      "country": "BR",
+      "url": "https://www.tiktok.com/@avonbrasil/video/7543377989740891397",
+      "sourceEvidence": [
+        "https://www.tiktok.com/@avonbrasil/video/7543377989740891397",
+        "https://urlebird.com/video/testamos-a-hidrata%C3%A7%C3%A3o-da-nova-base-s%C3%A9rum-hidramatte-da-avon-fom-7543377989740891397/"
+      ],
+      "publishedAt": "2025-08-27",
+      "duration": "não acessível",
+      "coverage": {
+        "level": "partial",
+        "accessible": [
+          "URL individual do TikTok",
+          "criador",
+          "legenda pública em cache",
+          "som creditado",
+          "descrição do teste",
+          "instrumento e comparação antes/depois",
+          "CTA e destinos",
+          "visualizações, curtidas, comentários, compartilhamentos e seguidores em cache secundário",
+          "data derivada do identificador público"
+        ],
+        "missing": [
+          "vídeo reproduzível",
+          "áudio efetivamente ouvido",
+          "transcrição completa",
+          "texto na tela",
+          "ritmo e montagem",
+          "curva de retenção",
+          "valores antes e depois",
+          "protocolo completo do teste",
+          "comentários individuais",
+          "métrica oficial atual",
+          "conversões"
+        ]
+      },
+      "publicMetrics": {
+        "viewsObserved": "3,61 mil (cache secundário aberto em 25/08/2026)",
+        "likesObserved": "114",
+        "commentsObserved": "7",
+        "sharesObserved": "28",
+        "followersObserved": "1,3 milhão",
+        "observedAt": "2026-08-25",
+        "sourceType": "secondary_indexed_source",
+        "causality": "not_inferred"
+      },
+      "viralAssessment": {
+        "status": "indeterminate",
+        "observedSignal": "visualizações representam cerca de 0,28% da base de seguidores observada; o cache diverge de outro snapshot e não informa baseline por publicação",
+        "missingForRelativeAssessment": [
+          "média e mediana recentes do perfil",
+          "impressões",
+          "velocidade inicial",
+          "retenção",
+          "origem orgânica ou paga",
+          "conversão"
+        ],
+        "causalClaimAllowed": false,
+        "confounders": [
+          "marca de grande escala",
+          "possível mídia paga",
+          "campanha de produto",
+          "inconsistência entre snapshots do cache",
+          "tempo desde a publicação"
+        ]
+      },
+      "classification": {
+        "taxonomyVersion": "3.0",
+        "container": "tiktok",
+        "materialFormat": "video_curto",
+        "presentationFormats": [
+          "demonstracao",
+          "produto"
+        ],
+        "primaryFamily": "demonstracao",
+        "secondaryFamilies": [
+          "oferta_direta",
+          "educativo"
+        ],
+        "functionalMix": [
+          {
+            "family": "demonstracao",
+            "percentage": 55
+          },
+          {
+            "family": "oferta_direta",
+            "percentage": 30
+          },
+          {
+            "family": "educativo",
+            "percentage": 15
+          }
+        ],
+        "objectives": [
+          "apresentar_solucao",
+          "confianca",
+          "venda",
+          "trafego"
+        ],
+        "advertisingType": "produto",
+        "commercialIntent": "explicita",
+        "advertisedEntity": {
+          "kind": "produto",
+          "name": "Base Sérum Hidramatte Avon",
+          "confidence": "high"
+        },
+        "contentTopic": {
+          "label": "teste de hidratação da pele antes e depois da aplicação de base",
+          "iabCode": null
+        },
+        "segment": "beleza e cosméticos",
+        "subsegment": "base facial com promessa de hidratação",
+        "probableAudience": "consumidoras de maquiagem que buscam acabamento matte sem perda de hidratação",
+        "awarenessStage": "consciente_produto",
+        "productionLevel": "intermediate",
+        "creatorScale": "large",
+        "replicability": "high",
+        "durationBand": "unknown",
+        "pace": "unknown",
+        "mechanisms": [
+          "confianca",
+          "curiosidade",
+          "desejo",
+          "recompensa"
+        ],
+        "hookTypes": [
+          "demonstracao_antecipada",
+          "promessa",
+          "resultado_antecipado"
+        ],
+        "narrativeElements": [
+          "problema",
+          "mecanismo",
+          "prova",
+          "payoff",
+          "cta"
+        ],
+        "proofTypes": [
+          "mecanismo_explicado",
+          "alegacao_sem_prova"
+        ],
+        "ctaTypes": [
+          "clicar",
+          "conversar"
+        ],
+        "distributionContext": {
+          "organicPaid": "unknown",
+          "trendDependency": "low"
+        },
+        "confidence": "high",
+        "evidence": [
+          "A legenda afirma que o teste ocorreu no laboratório da Avon com hidrômetro para medir água na pele antes e depois.",
+          "O produto é nomeado e o CTA direciona para site, app ou consultora.",
+          "O cache secundário exibe métricas e tamanho do perfil, mas snapshots divergentes impedem inferência de desempenho."
+        ],
+        "alternativeClassifications": [
+          "oferta_direta como família principal",
+          "conteúdo de marca demonstrativo"
+        ],
+        "missingInformation": [
+          "resultado numérico",
+          "controle do teste",
+          "cenas",
+          "legibilidade",
+          "ritmo",
+          "comentários individuais",
+          "retenção",
+          "distribuição paga",
+          "conversão"
+        ],
+        "needsHumanReview": true
+      },
+      "comparison": {
+        "level": 3,
+        "confidence": "medium",
+        "group": "demonstracao-curta-com-pergunta-ou-teste-observavel",
+        "referenceIds": [
+          "obs-20260824-036",
+          "obs-20260824-021",
+          "obs-20260824-022"
+        ]
+      },
+      "observations": [
+        "A legenda nomeia produto, laboratório, instrumento, variável e comparação antes/depois.",
+        "O resultado é prometido, mas os valores medidos não ficaram acessíveis.",
+        "O CTA oferece três canais de compra.",
+        "As métricas secundárias são pequenas em relação à base observada e variam entre snapshots; não sustentam classificação de viralidade."
+      ],
+      "interpretations": [
+        "Instrumento e desenho antes/depois tornam a demonstração mais verificável do que uma alegação abstrata.",
+        "Sem valores, tempo de espera, condições e controle, a prova permanece incompleta.",
+        "O CTA é coerente com consciência de produto, mas não há evidência de conversão."
+      ],
+      "hypotheses": [
+        "Em demonstração comercial, instrumento nomeado, medição antes/depois e CTA coerente podem elevar verificabilidade percebida, desde que valores e protocolo fiquem visíveis."
+      ],
+      "scores": {
+        "gancho": 89,
+        "clareza": 92,
+        "relevancia": 91,
+        "desejo": 85,
+        "confianca": 76,
+        "acao": 91,
+        "objecoes": 74,
+        "retencao": "not_assessed"
+      },
+      "criterionAssessments": {
+        "hook": {
+          "assessed": true,
+          "score": 89,
+          "evidence": [
+            "Legenda promete teste e resultado observável do próprio produto."
+          ],
+          "limitations": [
+            "Primeiros segundos não acessíveis."
+          ]
+        },
+        "comprehensionSpeed": {
+          "assessed": true,
+          "score": 92,
+          "evidence": [
+            "Produto, variável, instrumento e antes/depois aparecem na legenda."
+          ],
+          "limitations": []
+        },
+        "centralPromise": {
+          "assessed": true,
+          "score": 91,
+          "evidence": [
+            "Verificar se a base preserva hidratação da pele."
+          ],
+          "limitations": []
+        },
+        "clarity": {
+          "assessed": true,
+          "score": 92,
+          "evidence": [
+            "O desenho do teste é compreensível semanticamente."
+          ],
+          "limitations": [
+            "Valores e protocolo não acessíveis."
+          ]
+        },
+        "credibility": {
+          "assessed": true,
+          "score": 76,
+          "evidence": [
+            "Laboratório e hidrômetro são nomeados."
+          ],
+          "limitations": [
+            "Teste conduzido pela própria marca; sem números, controle ou auditoria."
+          ]
+        },
+        "action": {
+          "assessed": true,
+          "score": 91,
+          "evidence": [
+            "Site, app e consultora são destinos claros."
+          ],
+          "limitations": [
+            "Conversão não observada."
+          ]
+        },
+        "objections": {
+          "assessed": true,
+          "score": 74,
+          "evidence": [
+            "O teste responde à tensão entre acabamento matte e hidratação."
+          ],
+          "limitations": [
+            "Durabilidade, amostra e comparação não acessíveis."
+          ]
+        },
+        "retention": {
+          "assessed": false,
+          "score": null,
+          "evidence": [],
+          "limitations": [
+            "Sem reprodução ou curva de retenção."
+          ]
+        }
+      },
+      "fiveLenses": {
+        "apressado": "Entende rapidamente produto, teste e onde comprar.",
+        "analitico": "Quer números, protocolo, intervalo entre medições, amostra e controle.",
+        "aspiracional": "Visualiza maquiagem matte com aparência hidratada.",
+        "comunidade": "Comentários poderiam validar experiências semelhantes, mas não foram lidos.",
+        "cetico": "Percebe que o laboratório e o instrumento pertencem à própria marca e exige prova completa."
+      },
+      "replicable": [
+        "Transformar promessa de produto em variável observável.",
+        "Nomear instrumento, ponto anterior, ponto posterior e condições.",
+        "Exibir resultado completo antes do CTA e declarar limitações."
+      ],
+      "limitations": [
+        "Vídeo, áudio e comentários individuais não foram acessados.",
+        "Valores medidos e protocolo completo não ficaram disponíveis.",
+        "Métricas vêm de cache secundário inconsistente e não provam viralidade ou vendas."
+      ],
+      "provenance": [
+        "public_content_url",
+        "secondary_caption",
+        "secondary_public_metrics",
+        "platform_id_date_derivation",
+        "observatory_inference"
+      ],
+      "training": {
+        "replicable": [
+          "Promessa abstrata ganha força quando vira teste observável com instrumento e comparação."
+        ],
+        "contingent": [
+          "Laboratório próprio, marca grande, distribuição e autoridade percebida do instrumento."
+        ],
+        "notRecommended": [
+          "Ocultar números; tratar demonstração interna como ensaio independente; inferir vendas por visualizações."
+        ],
+        "hypotheses": [
+          "Demonstração instrumentada pode reduzir objeção funcional quando o protocolo é suficientemente auditável."
+        ]
+      },
+      "createdAt": "2026-08-25T12:00:00.000Z"
+    },
+    {
+      "id": "obs-20260825-049",
+      "title": "Minha experiência depois de 1 ano alugando um iPhone 15 com a Allugator",
+      "creator": "Victor Borentinni",
+      "country": "BR",
+      "url": "https://www.tiktok.com/@victorborentinni/video/7567824830981033236",
+      "sourceEvidence": [
+        "https://www.tiktok.com/@victorborentinni/video/7567824830981033236",
+        "https://urlebird.com/video/minha-experi%C3%AAncia-depois-de-1-ano-alugando-um-iphone-15-com-a-al-7567824830981033236/"
+      ],
+      "publishedAt": "2025-11-01",
+      "duration": "não acessível",
+      "coverage": {
+        "level": "partial",
+        "accessible": [
+          "URL individual do TikTok",
+          "criador",
+          "legenda pública em cache",
+          "tempo de uso",
+          "marca e modelo",
+          "prazo do plano",
+          "valor total e parcelas",
+          "referência ao unboxing anterior",
+          "visualizações, curtidas, comentários, compartilhamentos e seguidores em cache",
+          "data derivada do identificador público"
+        ],
+        "missing": [
+          "vídeo reproduzível",
+          "áudio efetivamente ouvido",
+          "transcrição completa",
+          "texto na tela",
+          "ritmo e montagem",
+          "curva de retenção",
+          "avaliação completa do resultado",
+          "disclosure de parceria",
+          "CTA exato",
+          "comentários individuais",
+          "métrica oficial atual",
+          "conversões"
+        ]
+      },
+      "publicMetrics": {
+        "viewsObserved": "158,5 mil",
+        "likesObserved": "7,01 mil",
+        "commentsObserved": "146",
+        "sharesObserved": "168",
+        "followersObserved": "77,72 mil",
+        "observedAt": "2026-08-25",
+        "sourceType": "secondary_indexed_source",
+        "causality": "not_inferred"
+      },
+      "viralAssessment": {
+        "status": "indeterminate",
+        "observedSignal": "cerca de 2,04 visualizações por seguidor e aproximadamente 4,62% de interações observadas por visualização no snapshot",
+        "missingForRelativeAssessment": [
+          "média e mediana recentes do perfil",
+          "impressões",
+          "velocidade inicial",
+          "retenção",
+          "origem orgânica ou paga",
+          "conversão"
+        ],
+        "causalClaimAllowed": false,
+        "confounders": [
+          "interesse por iPhone",
+          "menção de marca",
+          "busca por aluguel versus compra",
+          "vídeo anterior de unboxing",
+          "possível parceria não esclarecida"
+        ]
+      },
+      "classification": {
+        "taxonomyVersion": "3.0",
+        "container": "tiktok",
+        "materialFormat": "video_curto",
+        "presentationFormats": [
+          "depoimento",
+          "camera_direta",
+          "produto"
+        ],
+        "primaryFamily": "depoimento",
+        "secondaryFamilies": [
+          "prova_estudo_caso",
+          "venda_indireta"
+        ],
+        "functionalMix": [
+          {
+            "family": "depoimento",
+            "percentage": 55
+          },
+          {
+            "family": "prova_estudo_caso",
+            "percentage": 25
+          },
+          {
+            "family": "venda_indireta",
+            "percentage": 20
+          }
+        ],
+        "objectives": [
+          "confianca",
+          "apresentar_solucao",
+          "comentario",
+          "visualizacao"
+        ],
+        "advertisingType": "consideracao",
+        "commercialIntent": "indeterminada",
+        "advertisedEntity": {
+          "kind": "servico",
+          "name": "Allugator",
+          "confidence": "medium"
+        },
+        "contentTopic": {
+          "label": "experiência de doze meses com assinatura de iPhone",
+          "iabCode": null
+        },
+        "segment": "tecnologia e assinatura de dispositivos",
+        "subsegment": "aluguel de smartphone",
+        "probableAudience": "consumidores comparando aluguel, assinatura e compra de iPhone",
+        "awarenessStage": "consciente_produto",
+        "productionLevel": "simple",
+        "creatorScale": "medium",
+        "replicability": "high",
+        "durationBand": "unknown",
+        "pace": "unknown",
+        "mechanisms": [
+          "confianca",
+          "identificacao",
+          "desejo",
+          "curiosidade"
+        ],
+        "hookTypes": [
+          "identificacao",
+          "numero",
+          "resultado_antecipado"
+        ],
+        "narrativeElements": [
+          "situacao",
+          "progressao",
+          "mecanismo",
+          "conclusao"
+        ],
+        "proofTypes": [
+          "depoimento",
+          "mecanismo_explicado"
+        ],
+        "ctaTypes": [
+          "outro_conteudo"
+        ],
+        "distributionContext": {
+          "organicPaid": "unknown",
+          "trendDependency": "low"
+        },
+        "confidence": "high",
+        "evidence": [
+          "A legenda enquadra o conteúdo como experiência após um ano, não primeira impressão.",
+          "Plano, aparelho, armazenamento, valor total e parcelas são especificados.",
+          "A legenda conecta o review ao vídeo anterior de unboxing, formando continuidade temporal."
+        ],
+        "alternativeClassifications": [
+          "review orgânico",
+          "venda indireta de serviço de assinatura"
+        ],
+        "missingInformation": [
+          "veredito completo",
+          "vantagens e problemas",
+          "estado do aparelho",
+          "disclosure",
+          "fala",
+          "cenas",
+          "CTA",
+          "comentários",
+          "retenção",
+          "conversão"
+        ],
+        "needsHumanReview": true
+      },
+      "comparison": {
+        "level": 2,
+        "confidence": "medium",
+        "group": "depoimento-com-prazo-mecanismo-e-condicoes-especificas",
+        "referenceIds": [
+          "obs-20260824-042"
+        ]
+      },
+      "observations": [
+        "A promessa é uma avaliação após doze meses, com continuidade desde o unboxing.",
+        "A legenda informa iPhone 15 de 128 GB, plano de 12 meses, valor total de R$ 2.612,40 e 12 parcelas de R$ 217,70.",
+        "O snapshot mostra alcance superior ao número de seguidores e interações observáveis, mas não fornece baseline nem origem da distribuição.",
+        "O resultado qualitativo da experiência e eventual relação comercial não ficaram acessíveis."
+      ],
+      "interpretations": [
+        "Tempo de uso e condições financeiras específicas tornam o review mais útil para consideração do que uma impressão inicial genérica.",
+        "Continuidade entre unboxing e pós-uso cria prova longitudinal percebida.",
+        "Sem veredito, problemas e disclosure, não é possível concluir independência ou qualidade do serviço."
+      ],
+      "hypotheses": [
+        "Em review pós-uso, declarar período, plano, modelo, preço total e parcelas pode reduzir ambiguidade e aumentar relevância para consideração, desde que resultado e disclosure estejam claros."
+      ],
+      "scores": {
+        "gancho": 89,
+        "clareza": 95,
+        "relevancia": 94,
+        "desejo": 81,
+        "confianca": 82,
+        "acao": 70,
+        "objecoes": 77,
+        "retencao": "not_assessed"
+      },
+      "criterionAssessments": {
+        "hook": {
+          "assessed": true,
+          "score": 89,
+          "evidence": [
+            "Tempo de uso de um ano e produto específico na legenda."
+          ],
+          "limitations": [
+            "Primeiros segundos não acessíveis."
+          ]
+        },
+        "comprehensionSpeed": {
+          "assessed": true,
+          "score": 94,
+          "evidence": [
+            "Serviço, aparelho, prazo e objetivo aparecem de imediato."
+          ],
+          "limitations": []
+        },
+        "centralPromise": {
+          "assessed": true,
+          "score": 92,
+          "evidence": [
+            "Relatar a experiência real após doze meses de assinatura."
+          ],
+          "limitations": [
+            "Veredito completo não acessível."
+          ]
+        },
+        "clarity": {
+          "assessed": true,
+          "score": 95,
+          "evidence": [
+            "Valor total, parcelas, prazo e modelo são explícitos."
+          ],
+          "limitations": []
+        },
+        "credibility": {
+          "assessed": true,
+          "score": 82,
+          "evidence": [
+            "Experiência longitudinal e condições específicas."
+          ],
+          "limitations": [
+            "Sem prova de pagamento, estado do aparelho ou disclosure."
+          ]
+        },
+        "action": {
+          "assessed": true,
+          "score": 70,
+          "evidence": [
+            "A referência ao unboxing oferece continuidade informacional."
+          ],
+          "limitations": [
+            "CTA e próximo passo comercial não acessíveis."
+          ]
+        },
+        "objections": {
+          "assessed": true,
+          "score": 77,
+          "evidence": [
+            "Preço e prazo ajudam a comparação."
+          ],
+          "limitations": [
+            "Devolução, seguro, avarias, renovação e atendimento não acessíveis."
+          ]
+        },
+        "retention": {
+          "assessed": false,
+          "score": null,
+          "evidence": [],
+          "limitations": [
+            "Sem reprodução ou curva de retenção."
+          ]
+        }
+      },
+      "fiveLenses": {
+        "apressado": "Vê rapidamente um review de longo prazo com preço e modelo.",
+        "analitico": "Recebe condições úteis, mas quer custo total comparado à compra, contrato, seguro e devolução.",
+        "aspiracional": "Acesso ao iPhone com parcela menor pode parecer alcançável.",
+        "comunidade": "Métricas sugerem interesse, mas comentários não foram lidos e não podem ser tratados como validação.",
+        "cetico": "Exige disclosure, comprovante, problemas encontrados e termos antes de confiar."
+      },
+      "replicable": [
+        "Revisitar o produto depois de um período relevante.",
+        "Expor preço total, parcelas, prazo e especificação, não só mensalidade.",
+        "Ligar unboxing, uso e pós-uso como série, declarando parceria ou independência."
+      ],
+      "limitations": [
+        "O vídeo e o áudio não foram reproduzidos; a legenda não contém o veredito completo.",
+        "Não foi possível verificar parceria, contrato, comentários ou conversão.",
+        "A razão views/seguidores é sinal relativo incompleto, não prova de viralidade."
+      ],
+      "provenance": [
+        "public_content_url",
+        "secondary_caption",
+        "secondary_public_metrics",
+        "platform_id_date_derivation",
+        "observatory_inference"
+      ],
+      "training": {
+        "replicable": [
+          "Review longitudinal mais condições exatas cria utilidade de decisão."
+        ],
+        "contingent": [
+          "Interesse por iPhone, marca Allugator, histórico do criador e distribuição."
+        ],
+        "notRecommended": [
+          "Destacar só a parcela; omitir custo total; esconder parceria; inferir satisfação sem veredito."
+        ],
+        "hypotheses": [
+          "Especificidade financeira pode reduzir objeções em serviços de assinatura quando acompanhada de experiência completa."
+        ]
+      },
+      "createdAt": "2026-08-25T12:00:00.000Z"
+    },
+    {
+      "id": "obs-20260825-050",
+      "title": "We Visited 50 States in 50 Days!",
+      "creator": "Ryan Trahan",
+      "country": "US",
+      "url": "https://www.youtube.com/watch?v=HJmXETKURqc",
+      "sourceEvidence": [
+        "https://www.youtube.com/watch?v=HJmXETKURqc",
+        "https://glasp.co/youtube/HJmXETKURqc"
+      ],
+      "publishedAt": "2025-07-29",
+      "duration": "não acessível",
+      "coverage": {
+        "level": "partial",
+        "accessible": [
+          "título",
+          "criador",
+          "data",
+          "visualizações em cache secundário",
+          "capa indexada",
+          "trecho inicial de transcrição",
+          "meta global",
+          "posição na série",
+          "recapitulação anterior",
+          "valor arrecadado declarado",
+          "próxima etapa"
+        ],
+        "missing": [
+          "vídeo reproduzível",
+          "áudio efetivamente ouvido",
+          "transcrição completa",
+          "duração exata",
+          "texto na tela",
+          "comentários",
+          "curva de retenção",
+          "CTA completo",
+          "auditoria do valor arrecadado"
+        ]
+      },
+      "publicMetrics": {
+        "viewsObserved": "6,9 milhões (cache secundário)",
+        "likesObserved": null,
+        "commentsObserved": null,
+        "observedAt": "2026-08-25",
+        "sourceType": "secondary_indexed_source",
+        "causality": "not_inferred"
+      },
+      "viralAssessment": {
+        "status": "indeterminate",
+        "observedSignal": "6,9 milhões de visualizações absolutas em cache secundário",
+        "missingForRelativeAssessment": [
+          "baseline do canal na época",
+          "impressões",
+          "velocidade",
+          "compartilhamentos",
+          "retenção",
+          "origem da distribuição"
+        ],
+        "causalClaimAllowed": false,
+        "confounders": [
+          "canal de grande escala",
+          "final de série",
+          "50 episódios de acúmulo",
+          "campanha beneficente",
+          "produção e distribuição excepcionais"
+        ]
+      },
+      "classification": {
+        "taxonomyVersion": "3.0",
+        "container": "youtube_video",
+        "materialFormat": "video_longo",
+        "presentationFormats": [
+          "camera_direta",
+          "montagem",
+          "bastidores"
+        ],
+        "primaryFamily": "storytelling",
+        "secondaryFamilies": [
+          "comunidade",
+          "entretenimento"
+        ],
+        "functionalMix": [
+          {
+            "family": "storytelling",
+            "percentage": 55
+          },
+          {
+            "family": "comunidade",
+            "percentage": 25
+          },
+          {
+            "family": "entretenimento",
+            "percentage": 20
+          }
+        ],
+        "objectives": [
+          "retencao",
+          "comunidade",
+          "visualizacao",
+          "conversa"
+        ],
+        "advertisingType": "sem_intencao_comercial",
+        "commercialIntent": "ausente",
+        "advertisedEntity": {
+          "kind": "nenhuma",
+          "name": "",
+          "confidence": "medium"
+        },
+        "contentTopic": {
+          "label": "conclusão de desafio de visitar cinquenta estados e arrecadação para St. Jude",
+          "iabCode": null
+        },
+        "segment": "viagem, desafio seriado e entretenimento",
+        "subsegment": "finale de série diária beneficente",
+        "probableAudience": "público geral e seguidores que acompanharam a série de viagem e arrecadação",
+        "awarenessStage": "consciente_produto",
+        "productionLevel": "complex",
+        "creatorScale": "large",
+        "replicability": "low",
+        "durationBand": "over_60s",
+        "pace": "unknown",
+        "mechanisms": [
+          "curiosidade",
+          "pertencimento",
+          "recompensa",
+          "admiracao"
+        ],
+        "hookTypes": [
+          "promessa",
+          "resultado_antecipado",
+          "numero"
+        ],
+        "narrativeElements": [
+          "continuidade_serial",
+          "progressao",
+          "payoff",
+          "conclusao"
+        ],
+        "proofTypes": [
+          "alegacao_sem_prova"
+        ],
+        "ctaTypes": [],
+        "distributionContext": {
+          "organicPaid": "unknown",
+          "trendDependency": "none"
+        },
+        "confidence": "high",
+        "evidence": [
+          "A transcrição abre no dia 50 de 50, informa o estado anterior, celebra US$ 9 milhões declarados e diz restar apenas um estado.",
+          "A frase recorrente de saudação marca continuidade para a comunidade.",
+          "O título converte a promessa futura da série em resultado concluído."
+        ],
+        "alternativeClassifications": [
+          "comunidade como família principal",
+          "conteúdo beneficente"
+        ],
+        "missingInformation": [
+          "desenvolvimento após a abertura",
+          "recompensa final",
+          "CTA",
+          "ritmo",
+          "montagem",
+          "comentários",
+          "retenção",
+          "auditoria da arrecadação"
+        ],
+        "needsHumanReview": true
+      },
+      "comparison": {
+        "level": 1,
+        "confidence": "high",
+        "group": "storytelling-seriado-de-desafio-com-meta-posicao-e-complicacao",
+        "referenceIds": [
+          "obs-20260824-035"
+        ]
+      },
+      "observations": [
+        "A abertura localiza o público no último dia, recapitula a hospedagem anterior e anuncia uma única etapa restante.",
+        "O valor de US$ 9 milhões arrecadados para St. Jude é declarado antes da nova ação.",
+        "O título muda de 'I Visited' diário para 'We Visited', sugerindo encerramento coletivo da série.",
+        "A execução posterior, o payoff e o CTA não ficaram acessíveis."
+      ],
+      "interpretations": [
+        "Meta global, posição atual e saldo restante orientam novos espectadores e recompensam recorrentes.",
+        "No finale, a recapitulação também converte progresso acumulado em pertencimento comunitário.",
+        "Escala, série diária, arrecadação e produção excepcional limitam comparação com criadores comuns."
+      ],
+      "hypotheses": [
+        "Em storytelling seriado de desafio, recapitular meta global, posição atual, progresso acumulado e uma etapa restante pode combinar orientação, tensão e recompensa comunitária."
+      ],
+      "scores": {
+        "gancho": 94,
+        "clareza": 95,
+        "relevancia": 90,
+        "desejo": 91,
+        "confianca": 80,
+        "acao": "not_assessed",
+        "objecoes": "not_assessed",
+        "retencao": "not_assessed"
+      },
+      "criterionAssessments": {
+        "hook": {
+          "assessed": true,
+          "score": 94,
+          "evidence": [
+            "Dia 50 de 50, uma etapa restante e valor acumulado aparecem na abertura transcrita."
+          ],
+          "limitations": [
+            "Sem imagem ou áudio."
+          ]
+        },
+        "comprehensionSpeed": {
+          "assessed": true,
+          "score": 96,
+          "evidence": [
+            "Meta, posição e etapa restante são compreendidas na primeira passagem."
+          ],
+          "limitations": []
+        },
+        "centralPromise": {
+          "assessed": true,
+          "score": 95,
+          "evidence": [
+            "Concluir a visita aos cinquenta estados e fechar a campanha."
+          ],
+          "limitations": []
+        },
+        "clarity": {
+          "assessed": true,
+          "score": 95,
+          "evidence": [
+            "Abertura separa recapitulação, progresso e próxima ação."
+          ],
+          "limitations": []
+        },
+        "credibility": {
+          "assessed": true,
+          "score": 80,
+          "evidence": [
+            "Estado da série e progresso são específicos."
+          ],
+          "limitations": [
+            "Valor arrecadado não auditado nesta rodada."
+          ]
+        },
+        "action": {
+          "assessed": false,
+          "score": null,
+          "evidence": [],
+          "limitations": [
+            "CTA e destino de doação não ficaram acessíveis no trecho."
+          ]
+        },
+        "objections": {
+          "assessed": false,
+          "score": null,
+          "evidence": [],
+          "limitations": [
+            "Sem desenvolvimento suficiente para avaliar tratamento de objeções."
+          ]
+        },
+        "retention": {
+          "assessed": false,
+          "score": null,
+          "evidence": [],
+          "limitations": [
+            "Sem reprodução ou curva de retenção; continuidade serial não prova retenção."
+          ]
+        }
+      },
+      "fiveLenses": {
+        "apressado": "Entende imediatamente que é o último dia e falta uma etapa.",
+        "analitico": "Recebe meta e progresso, mas quer rota, regras, auditoria e fechamento completo.",
+        "aspiracional": "A conclusão de uma jornada extensa e beneficente oferece grande recompensa simbólica.",
+        "comunidade": "Saudação recorrente, 'we' e valor acumulado reforçam participação coletiva.",
+        "cetico": "Desconta escala e produção e exige verificação da arrecadação antes de generalizar."
+      },
+      "replicable": [
+        "Recapitular meta, posição e saldo em uma frase.",
+        "Transformar progresso acumulado em recompensa para a comunidade.",
+        "No finale, conectar promessa original, resultado e próximo passo sem exigir orçamento excepcional."
+      ],
+      "limitations": [
+        "Somente a abertura transcrita foi acessada; vídeo e áudio não foram reproduzidos.",
+        "Payoff, CTA, comentários e retenção não ficaram acessíveis.",
+        "Escala do canal e produção tornam desempenho pouco transferível."
+      ],
+      "provenance": [
+        "public_content",
+        "public_metric",
+        "secondary_transcript",
+        "observatory_inference"
+      ],
+      "training": {
+        "replicable": [
+          "Meta mais posição mais progresso mais saldo orienta e tensiona o finale."
+        ],
+        "contingent": [
+          "Grande audiência, série diária, orçamento, equipe e campanha beneficente."
+        ],
+        "notRecommended": [
+          "Copiar escala; usar valor beneficente como espetáculo sem transparência; inferir retenção por views."
+        ],
+        "hypotheses": [
+          "Finales seriados podem ganhar força ao converter progresso acumulado em pertencimento coletivo."
+        ]
+      },
+      "createdAt": "2026-08-25T12:00:00.000Z"
     }
   ],
   "patterns": [
@@ -9789,16 +11383,17 @@
         "obs-20260823-005",
         "obs-20260823-006",
         "obs-20260824-020",
-        "obs-20260824-032"
+        "obs-20260824-032",
+        "obs-20260825-046"
       ],
-      "comparableSupportCount": 5,
+      "comparableSupportCount": 6,
       "comparisonLevel": 2,
       "confidence": "medium",
       "limitations": [
-        "Duas referências vêm do mesmo ecossistema editorial.",
-        "Sem experimento de confiança ou comportamento.",
-        "Parceria comercial pode alterar percepção.",
-        "O novo apoio é Short e amplia a variação de duração, sem demonstrar equivalência de retenção."
+        "Predomínio do mesmo ecossistema editorial e da mesma autoridade médica.",
+        "Sem experimento de confiança, compreensão ou comportamento.",
+        "Parcerias comerciais podem alterar percepção e exigem disclosure.",
+        "Variação de duração e apresentação não demonstra equivalência de retenção."
       ],
       "validation": "requires_human_or_experimental_evidence",
       "stage": "provisional",
@@ -9806,7 +11401,7 @@
       "creativeFamily": "conteúdo de saúde",
       "objective": "objetivo educativo ou conscientização",
       "segment": "fonte ou autoridade demonstrada",
-      "supportingCount": 5,
+      "supportingCount": 6,
       "counterexampleCount": 0,
       "evidence": [
         {
@@ -9841,6 +11436,14 @@
           "evidence": "Título, autoria, data e resumo oficial do Portal Drauzio Varella.",
           "limitations": [
             "Sem reprodução audiovisual, transcrição integral ou evidência experimental."
+          ]
+        },
+        {
+          "referenceId": "obs-20260825-046",
+          "observation": "Pergunta concreta, risco proporcional, grupos vulneráveis, autoridade, disclosure e ação preventiva em página oficial.",
+          "evidence": "Título, resumo oficial, declaração de parceria e referências científicas.",
+          "limitations": [
+            "Sem reprodução audiovisual, métricas, comentários ou evidência comportamental."
           ]
         }
       ],
@@ -10190,9 +11793,10 @@
       "status": "observed_not_promoted",
       "statement": "Em storytelling seriado de desafio, recapitular meta global e posição atual antes de abrir uma complicação específica pode combinar orientação para novos espectadores e tensão para recorrentes.",
       "supportReferenceIds": [
-        "obs-20260824-035"
+        "obs-20260824-035",
+        "obs-20260825-050"
       ],
-      "reasonNotPromoted": "Um único episódio, transcrição inicial incompleta e produção de escala excepcional."
+      "reasonNotPromoted": "Dois apoios de nível 1, porém da mesma série e do mesmo criador; apenas trechos iniciais de transcrição e nenhuma curva de retenção ou comparação experimental."
     },
     {
       "id": "hyp-20260824-013",
@@ -10249,6 +11853,36 @@
         "obs-20260824-045"
       ],
       "reasonNotPromoted": "Uma única referência de orientação especializada, sem experimento comparativo nem dados de conversão."
+    },
+    {
+      "id": "hyp-20260825-019",
+      "status": "observed_not_promoted",
+      "statement": "Em marketing de oportunidade, transformar um erro culturalmente reconhecido em ponto de partida de aprendizagem pode alinhar humor, produto e redução de vergonha quando há consentimento e contexto legítimos.",
+      "supportReferenceIds": [
+        "obs-20260825-047"
+      ],
+      "reasonNotPromoted": "Uma única campanha dependente de celebridade, reality, trend e fonte editorial secundária; Reel, métricas, retenção e conversão não acessíveis."
+    },
+    {
+      "id": "hyp-20260825-020",
+      "status": "observed_not_promoted",
+      "statement": "Em demonstração comercial, instrumento nomeado, medição antes/depois e CTA coerente podem elevar verificabilidade percebida, desde que valores e protocolo fiquem visíveis.",
+      "supportReferenceIds": [
+        "obs-20260825-048"
+      ],
+      "contextualCaseIds": [
+        "brae-teste-termico-2023"
+      ],
+      "reasonNotPromoted": "Uma única publicação individual; o caso Braé é apenas contexto agregado de campanha. Valores, protocolo, reprodução audiovisual, retenção e conversão não foram acessados."
+    },
+    {
+      "id": "hyp-20260825-021",
+      "status": "observed_not_promoted",
+      "statement": "Em review pós-uso, declarar período, plano, modelo, preço total e parcelas pode reduzir ambiguidade e aumentar relevância para consideração, desde que resultado e disclosure estejam claros.",
+      "supportReferenceIds": [
+        "obs-20260825-049"
+      ],
+      "reasonNotPromoted": "Uma única referência com legenda e métricas secundárias; veredito completo, disclosure, contrato, comentários, retenção e conversão não acessíveis."
     }
   ],
   "contradictions": [
@@ -10650,6 +12284,75 @@
       "referencesRemoved": 0,
       "urlsChanged": 0,
       "rulesValidatedAutomatically": 0
+    },
+    {
+      "id": "run-20260825-supervised-006",
+      "executedAt": "2026-08-25T12:00:00.000Z",
+      "requestedBatchSize": 5,
+      "candidatesFound": 5,
+      "discarded": [],
+      "analyzed": 5,
+      "brazilianReferences": 4,
+      "internationalReferences": 1,
+      "replicableReferences": 4,
+      "coverageSummary": {
+        "complete": 0,
+        "partial": 5,
+        "insufficient": 0
+      },
+      "familiesCovered": [
+        "explicativo",
+        "humor",
+        "posicionamento_marca",
+        "demonstracao",
+        "oferta_direta",
+        "depoimento",
+        "prova_estudo_caso",
+        "storytelling",
+        "comunidade"
+      ],
+      "segmentsCovered": [
+        "saúde e infectologia",
+        "educação e aplicativos de idiomas",
+        "beleza e cosméticos",
+        "tecnologia e assinatura de dispositivos",
+        "viagem, desafio seriado e entretenimento"
+      ],
+      "sourcesUsed": [
+        "https://drauziovarella.uol.com.br/videos/por-que-a-gripe-pode-ser-perigosa-desenrola/",
+        "https://www.instagram.com/reels/DW60mZrAOd1/",
+        "https://abramark.com.br/destaques/duolingo-convida-chaiany-para-campanha-e-aposta-no-humor-para-promover-aprendizado-de-espanhol/",
+        "https://www.tiktok.com/@avonbrasil/video/7543377989740891397",
+        "https://urlebird.com/video/testamos-a-hidrata%C3%A7%C3%A3o-da-nova-base-s%C3%A9rum-hidramatte-da-avon-fom-7543377989740891397/",
+        "https://www.tiktok.com/@victorborentinni/video/7567824830981033236",
+        "https://urlebird.com/video/minha-experi%C3%AAncia-depois-de-1-ano-alugando-um-iphone-15-com-a-al-7567824830981033236/",
+        "https://www.youtube.com/watch?v=HJmXETKURqc",
+        "https://glasp.co/youtube/HJmXETKURqc"
+      ],
+      "patternsCreated": [],
+      "patternsStrengthened": [
+        "pat-20260823-002"
+      ],
+      "hypothesesCreated": [
+        "hyp-20260825-019",
+        "hyp-20260825-020",
+        "hyp-20260825-021"
+      ],
+      "hypothesesStrengthened": [
+        "hyp-20260824-012"
+      ],
+      "validatedPatternsCreated": 0,
+      "contradictionsFound": [],
+      "nextTarget": "vídeo curto brasileiro de pequeno ou médio criador com reprodução audiovisual integral, disclosure de parceria, CTA verificável, comentários públicos e baseline recente do próprio perfil",
+      "limitations": [
+        "Nenhuma das cinco publicações permitiu reprodução audiovisual integral no ambiente.",
+        "Drauzio e Duolingo foram analisados por páginas oficiais ou editoriais; Avon e Victor por legendas e métricas em cache secundário; Ryan por trecho inicial de transcrição.",
+        "Métricas do cache da Avon divergiram entre snapshots e foram usadas apenas como limitação, não como desempenho causal.",
+        "Somente o caso de Victor permitiu um sinal relativo simples de views por seguidores; ainda faltam baseline, velocidade, retenção e origem da distribuição.",
+        "O padrão de saúde ganhou apoio, mas continua provisório e concentrado no mesmo ecossistema.",
+        "A hipótese de storytelling seriado ganhou segundo apoio, ambos do mesmo criador.",
+        "Nenhum padrão foi validado e nenhum dado foi misturado aos cérebros sintéticos ou ao futuro Freud."
+      ]
     }
   ],
   "policy": {
