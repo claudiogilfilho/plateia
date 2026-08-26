@@ -1,6 +1,6 @@
 {
   "protocol": "plateia-memory/1.0",
-  "updatedAt": "2026-08-25T12:00:00.000Z",
+  "updatedAt": "2026-08-26T11:30:00.000Z",
   "references": [
     {
       "id": "obs-20260823-001",
@@ -11298,6 +11298,1608 @@
         ]
       },
       "createdAt": "2026-08-25T12:00:00.000Z"
+    },
+    {
+      "id": "obs-20260826-051",
+      "title": "Testei o Fone de Ouvido à Prova D'Água Que Funciona pelo Osso do Crânio!",
+      "creator": "Edu LabTec (@edulabtec)",
+      "country": "BR",
+      "url": "https://www.tiktok.com/@edulabtec/video/7384836232057998597",
+      "sourceEvidence": [
+        "https://www.tiktok.com/@edulabtec/video/7384836232057998597",
+        "https://urlebird.com/video/testei-o-fone-de-ouvido-%C3%A0-prova-d%C3%A1gua-que-funciona-pelo-osso-do-7384836232057998597/"
+      ],
+      "publishedAt": "2024-06-26",
+      "duration": "não acessível",
+      "coverage": {
+        "level": "partial",
+        "accessible": [
+          "título e legenda completos em cache secundário",
+          "identidade do criador",
+          "miniatura indexada sem inspeção detalhada",
+          "crédito do som sem audição",
+          "métricas e seguidores em dois snapshots secundários",
+          "itens declarados do review",
+          "CTA e pergunta final"
+        ],
+        "missing": [
+          "vídeo reproduzível",
+          "áudio efetivamente ouvido",
+          "transcrição",
+          "cenas do unboxing e do teste",
+          "texto na tela",
+          "duração",
+          "comentários individuais",
+          "retenção",
+          "resultado verificável do teste",
+          "disclosure comercial"
+        ]
+      },
+      "publicMetrics": {
+        "viewsObserved": "3,32 mil a 5,39 mil em snapshots secundários divergentes",
+        "likesObserved": "14 a 25 em snapshots secundários divergentes",
+        "commentsObserved": "3",
+        "sharesObserved": "2 a 6 em snapshots secundários divergentes",
+        "followersObserved": "112 a 121 em snapshots secundários divergentes",
+        "observedAt": "2026-08-26",
+        "sourceType": "secondary_indexed_source",
+        "causality": "not_inferred"
+      },
+      "viralAssessment": {
+        "status": "indeterminate",
+        "observedSignal": "alcance muito superior ao número atual de seguidores, mas snapshots divergem e o baseline na publicação não existe",
+        "missingForRelativeAssessment": [
+          "seguidores na data",
+          "média do perfil na época",
+          "velocidade inicial",
+          "fontes de tráfego",
+          "retenção",
+          "conversão"
+        ],
+        "causalClaimAllowed": false,
+        "confounders": [
+          "idade da publicação",
+          "crescimento ou redução posterior do perfil",
+          "indexação secundária divergente",
+          "tema de produto incomum",
+          "possível distribuição algorítmica"
+        ]
+      },
+      "classification": {
+        "taxonomyVersion": "3.0",
+        "container": "tiktok",
+        "materialFormat": "video_curto",
+        "presentationFormats": [
+          "demonstracao",
+          "depoimento",
+          "produto"
+        ],
+        "primaryFamily": "demonstracao",
+        "secondaryFamilies": [
+          "depoimento",
+          "venda_indireta"
+        ],
+        "functionalMix": [
+          {
+            "family": "demonstracao",
+            "percentage": 55
+          },
+          {
+            "family": "depoimento",
+            "percentage": 25
+          },
+          {
+            "family": "venda_indireta",
+            "percentage": 20
+          }
+        ],
+        "objectives": [
+          "educar",
+          "apresentar_solucao",
+          "confianca",
+          "comentario",
+          "trafego"
+        ],
+        "advertisingType": "indeterminado",
+        "commercialIntent": "indeterminada",
+        "advertisedEntity": {
+          "kind": "produto",
+          "name": "fone POLVCDG X7",
+          "confidence": "high"
+        },
+        "contentTopic": {
+          "label": "review e teste de fone de condução óssea à prova d'água",
+          "iabCode": null
+        },
+        "segment": "tecnologia e acessórios",
+        "subsegment": "fones de condução óssea para natação e atividades ao ar livre",
+        "probableAudience": "consumidores interessados em gadgets, natação e compra internacional",
+        "awarenessStage": "consciente_produto",
+        "productionLevel": "simple",
+        "creatorScale": "small",
+        "replicability": "high",
+        "durationBand": "unknown",
+        "pace": "unknown",
+        "mechanisms": [
+          "curiosidade",
+          "confianca",
+          "recompensa",
+          "desejo"
+        ],
+        "hookTypes": [
+          "produto_incomum",
+          "pergunta",
+          "teste_de_limite"
+        ],
+        "narrativeElements": [
+          "apresentacao",
+          "teste_declarado",
+          "criterios",
+          "veredito_prometido",
+          "cta"
+        ],
+        "proofTypes": [
+          "teste_declarado_sem_execucao_acessivel",
+          "criterios_de_compra"
+        ],
+        "ctaTypes": [
+          "link_na_bio",
+          "comentar",
+          "assistir_completo"
+        ],
+        "distributionContext": {
+          "organicPaid": "unknown",
+          "trendDependency": "low"
+        },
+        "confidence": "medium",
+        "evidence": [
+          "A legenda nomeia produto, propriedade incomum e pergunta se ele seria o 'fone do Aquaman'.",
+          "O escopo declarado inclui unboxing, piscina, especificações, desempenho, preço, impostos e entrega.",
+          "O CTA pede que o público descubra se vale a pena, acesse o link da bio e responda se usaria o produto."
+        ],
+        "alternativeClassifications": [
+          "depoimento como família principal",
+          "oferta indireta caso exista vínculo comercial não acessível"
+        ],
+        "missingInformation": [
+          "resultado real do teste",
+          "disclosure",
+          "preço e condições",
+          "execução visual",
+          "fala",
+          "ritmo",
+          "retenção",
+          "conversão"
+        ],
+        "needsHumanReview": true
+      },
+      "comparison": {
+        "level": 2,
+        "confidence": "medium",
+        "group": "demonstração curta de produto com teste declarado e decisão de compra",
+        "referenceIds": [
+          "obs-20260825-048",
+          "obs-20260824-025"
+        ]
+      },
+      "observations": [
+        "A legenda transforma uma característica técnica abstrata em teste contextual na piscina.",
+        "Os critérios de compra são antecipados: desempenho, especificações, preço, impostos e entrega.",
+        "A pergunta final solicita uma resposta pessoal e o link da bio funciona como destino.",
+        "Dois snapshots secundários exibem números divergentes; nenhum valor foi tratado como exato."
+      ],
+      "interpretations": [
+        "Um produto incomum mais um teste de limite pode gerar curiosidade sem esconder o objeto.",
+        "Explicitar critérios antes do veredito pode qualificar audiência em fase de consideração.",
+        "Sem ver o teste e sem disclosure, o Platéia não pode concluir autenticidade, resultado, ritmo ou natureza comercial."
+      ],
+      "hypotheses": [
+        "Em review curto de produto, antecipar contexto de teste e critérios concretos de compra antes do veredito pode aumentar utilidade para consideração."
+      ],
+      "scores": {
+        "gancho": 91,
+        "clareza": 90,
+        "relevancia": 88,
+        "desejo": 83,
+        "confianca": 68,
+        "acao": 86,
+        "objecoes": 74,
+        "retencao": "not_assessed"
+      },
+      "criterionAssessments": {
+        "hook": {
+          "assessed": true,
+          "score": 91,
+          "evidence": [
+            "Produto incomum, prova d'água e funcionamento pelo osso são nomeados no título."
+          ],
+          "limitations": [
+            "Gancho audiovisual não acessível."
+          ]
+        },
+        "comprehensionSpeed": {
+          "assessed": true,
+          "score": 92,
+          "evidence": [
+            "Objeto, teste e pergunta central ficam claros na legenda."
+          ],
+          "limitations": []
+        },
+        "centralPromise": {
+          "assessed": true,
+          "score": 90,
+          "evidence": [
+            "Descobrir se o produto funciona e vale a compra em uso aquático."
+          ],
+          "limitations": []
+        },
+        "clarity": {
+          "assessed": true,
+          "score": 90,
+          "evidence": [
+            "A legenda lista etapas e critérios do review."
+          ],
+          "limitations": [
+            "Veredito e números não acessíveis."
+          ]
+        },
+        "credibility": {
+          "assessed": true,
+          "score": 68,
+          "evidence": [
+            "Modelo e contexto de teste são específicos."
+          ],
+          "limitations": [
+            "Teste não observado e vínculo comercial desconhecido."
+          ]
+        },
+        "action": {
+          "assessed": true,
+          "score": 86,
+          "evidence": [
+            "Link na bio e pergunta final são específicos."
+          ],
+          "limitations": [
+            "Destino e conversão não acessíveis."
+          ]
+        },
+        "objections": {
+          "assessed": true,
+          "score": 74,
+          "evidence": [
+            "Preço, imposto e tempo de entrega são prometidos como critérios."
+          ],
+          "limitations": [
+            "Respostas completas não acessíveis."
+          ]
+        },
+        "retention": {
+          "assessed": false,
+          "score": null,
+          "evidence": [],
+          "limitations": [
+            "Sem vídeo reproduzível ou curva de retenção."
+          ]
+        }
+      },
+      "fiveLenses": {
+        "apressado": "Entende imediatamente que é um teste de gadget incomum, mas não recebe o veredito na cobertura acessível.",
+        "analitico": "Valoriza critérios de desempenho, preço, imposto e entrega; exige protocolo e resultados.",
+        "aspiracional": "Associa o produto a natação e atividades ao ar livre.",
+        "comunidade": "A pergunta 'você usaria?' convida experiência e opinião.",
+        "cetico": "Questiona se houve patrocínio, se o teste foi controlado e se a alegação à prova d'água corresponde à especificação."
+      },
+      "replicable": [
+        "Transformar característica técnica em teste de uso real.",
+        "Listar critérios de decisão antes do veredito.",
+        "Separar disclosure, resultado do teste e link comercial."
+      ],
+      "limitations": [
+        "Vídeo, áudio e resultado do teste não ficaram acessíveis.",
+        "Métricas secundárias divergem entre snapshots.",
+        "Disclosure, comentários individuais, retenção e conversão não foram encontrados."
+      ],
+      "provenance": [
+        "public_content",
+        "secondary_caption",
+        "secondary_public_metrics",
+        "observatory_inference"
+      ],
+      "training": {
+        "replicable": [
+          "Produto incomum mais contexto de teste mais critérios de compra cria um mapa de decisão."
+        ],
+        "contingent": [
+          "Novidade do gadget, distribuição algorítmica, histórico do perfil e eventual afiliação."
+        ],
+        "notRecommended": [
+          "Inventar o resultado do teste; ocultar parceria; chamar alcance de viralidade sem baseline."
+        ],
+        "hypotheses": [
+          "Critérios concretos antes do veredito podem aumentar utilidade de reviews curtos."
+        ]
+      },
+      "createdAt": "2026-08-26T11:30:00.000Z"
+    },
+    {
+      "id": "obs-20260826-052",
+      "title": "Torta de cebola caramelizada com base de batata",
+      "creator": "Jucenha (@jucenha)",
+      "country": "BR",
+      "url": "https://www.tiktok.com/@jucenha/video/7541135306699951366",
+      "sourceEvidence": [
+        "https://www.tiktok.com/@jucenha/video/7541135306699951366",
+        "https://urlebird.com/video/torta-de-cebola-caramelizada-com-base-de-batata-essa-torta-de-c-7541135306699951366/",
+        "https://urlebird.com/user/jucenha/"
+      ],
+      "publishedAt": "2025-08-21",
+      "duration": "não acessível",
+      "coverage": {
+        "level": "partial",
+        "accessible": [
+          "legenda completa",
+          "ingredientes e preparo",
+          "atribuição da receita",
+          "disclosure de publicidade",
+          "cupom e marca",
+          "métricas públicas em cache secundário",
+          "seguidores e média atual do perfil",
+          "crédito do som sem audição"
+        ],
+        "missing": [
+          "vídeo reproduzível",
+          "áudio efetivamente ouvido",
+          "cenas e texto na tela",
+          "duração",
+          "comentários individuais",
+          "retenção",
+          "conversão do cupom",
+          "baseline na data da publicação",
+          "verificação da receita original com 12 milhões de views"
+        ]
+      },
+      "publicMetrics": {
+        "viewsObserved": "373 mil",
+        "likesObserved": "32,9 mil",
+        "commentsObserved": "152",
+        "sharesObserved": "6,95 mil",
+        "followersObserved": "aprox. 687 mil no snapshot",
+        "profileAverageViewsObserved": "152,99 mil no snapshot atual",
+        "observedAt": "2026-08-26",
+        "sourceType": "secondary_indexed_source",
+        "causality": "not_inferred"
+      },
+      "viralAssessment": {
+        "status": "relative_signal_only",
+        "observedSignal": "views cerca de 2,4 vezes a média atual do perfil e compartilhamentos públicos elevados no snapshot",
+        "missingForRelativeAssessment": [
+          "média do perfil na data",
+          "velocidade inicial",
+          "retenção",
+          "fontes de tráfego",
+          "mídia paga",
+          "conversão do cupom"
+        ],
+        "causalClaimAllowed": false,
+        "confounders": [
+          "tendência culinária preexistente",
+          "receita original declarada com 12 milhões de views",
+          "produto premium",
+          "publicidade",
+          "idade da publicação"
+        ]
+      },
+      "classification": {
+        "taxonomyVersion": "3.0",
+        "container": "tiktok",
+        "materialFormat": "video_curto",
+        "presentationFormats": [
+          "demonstracao",
+          "tutorial",
+          "produto"
+        ],
+        "primaryFamily": "demonstracao",
+        "secondaryFamilies": [
+          "educativo",
+          "venda_indireta"
+        ],
+        "functionalMix": [
+          {
+            "family": "demonstracao",
+            "percentage": 50
+          },
+          {
+            "family": "educativo",
+            "percentage": 30
+          },
+          {
+            "family": "venda_indireta",
+            "percentage": 20
+          }
+        ],
+        "objectives": [
+          "educar",
+          "salvamento",
+          "compartilhamento",
+          "apresentar_solucao",
+          "venda"
+        ],
+        "advertisingType": "branded_content",
+        "commercialIntent": "explicita",
+        "advertisedEntity": {
+          "kind": "produto_e_loja",
+          "name": "panelas Le Creuset e Let's Eat It",
+          "confidence": "high"
+        },
+        "contentTopic": {
+          "label": "receita de torta sem glúten com integração de utensílios de cozinha",
+          "iabCode": null
+        },
+        "segment": "culinária e utensílios",
+        "subsegment": "receita demonstrativa patrocinada",
+        "probableAudience": "pessoas interessadas em receitas práticas, culinária visual e utensílios premium",
+        "awarenessStage": "consciente_solucao",
+        "productionLevel": "intermediate",
+        "creatorScale": "medium",
+        "replicability": "high",
+        "durationBand": "unknown",
+        "pace": "unknown",
+        "mechanisms": [
+          "recompensa",
+          "desejo",
+          "confianca",
+          "identificacao"
+        ],
+        "hookTypes": [
+          "receita_viral",
+          "resultado_sensorial",
+          "teste"
+        ],
+        "narrativeElements": [
+          "origem",
+          "teste",
+          "ingredientes",
+          "passo_a_passo",
+          "resultado",
+          "produto",
+          "cta"
+        ],
+        "proofTypes": [
+          "receita_completa",
+          "atribuição_de_origem",
+          "disclosure"
+        ],
+        "ctaTypes": [
+          "usar_cupom",
+          "marcar_criador",
+          "salvar"
+        ],
+        "distributionContext": {
+          "organicPaid": "unknown",
+          "trendDependency": "medium"
+        },
+        "confidence": "high",
+        "evidence": [
+          "A legenda diz que a receita original teve 12 milhões de visualizações e identifica o perfil de origem.",
+          "Ingredientes e cinco etapas de preparo estão descritos integralmente.",
+          "A integração comercial nomeia loja, panelas, cupom e inclui '*Publicidade'."
+        ],
+        "alternativeClassifications": [
+          "venda_indireta como família principal"
+        ],
+        "missingInformation": [
+          "visual do prato",
+          "execução e ordem audiovisual",
+          "legibilidade",
+          "ritmo",
+          "retenção",
+          "mídia paga",
+          "conversão"
+        ],
+        "needsHumanReview": true
+      },
+      "comparison": {
+        "level": 2,
+        "confidence": "medium",
+        "group": "conteúdo culinário demonstrativo com integração comercial funcional",
+        "referenceIds": [
+          "obs-20260824-034"
+        ]
+      },
+      "observations": [
+        "A legenda entrega valor autônomo por meio de ingredientes e preparo completos.",
+        "A origem da receita é atribuída e a popularidade do original é tratada como motivo para o teste.",
+        "O produto patrocinado participa do contexto de preparo e há cupom e disclosure explícitos.",
+        "O vídeo tem sinal relativo acima da média atual do perfil, mas a média histórica da publicação não foi encontrada."
+      ],
+      "interpretations": [
+        "Utilidade completa pode reduzir a sensação de interrupção comercial quando o produto aparece dentro do processo.",
+        "Atribuição e disclosure reduzem ambiguidade ética sem provar eficácia da publicidade.",
+        "O desempenho pode refletir receita, tendência, criadora, produto, distribuição ou combinação; não há isolamento causal."
+      ],
+      "hypotheses": [
+        "Em demonstração culinária patrocinada, entregar receita completa, atribuir a origem e integrar produto, disclosure e cupom ao processo pode preservar utilidade e clareza comercial."
+      ],
+      "scores": {
+        "gancho": 88,
+        "clareza": 96,
+        "relevancia": 93,
+        "desejo": 90,
+        "confianca": 89,
+        "acao": 91,
+        "objecoes": 87,
+        "retencao": "not_assessed"
+      },
+      "criterionAssessments": {
+        "hook": {
+          "assessed": true,
+          "score": 88,
+          "evidence": [
+            "Receita viral, teste e resultado sensorial aparecem cedo na legenda."
+          ],
+          "limitations": [
+            "Visual e áudio do gancho não acessíveis."
+          ]
+        },
+        "comprehensionSpeed": {
+          "assessed": true,
+          "score": 93,
+          "evidence": [
+            "Prato, diferencial sem glúten e contexto comercial são claros."
+          ],
+          "limitations": []
+        },
+        "centralPromise": {
+          "assessed": true,
+          "score": 92,
+          "evidence": [
+            "Ensinar e avaliar uma receita popular, com utensílios usados no preparo."
+          ],
+          "limitations": []
+        },
+        "clarity": {
+          "assessed": true,
+          "score": 96,
+          "evidence": [
+            "Ingredientes, etapas, origem, marca, disclosure e cupom são explícitos."
+          ],
+          "limitations": []
+        },
+        "credibility": {
+          "assessed": true,
+          "score": 89,
+          "evidence": [
+            "Atribuição, receita completa e disclosure são verificáveis na legenda."
+          ],
+          "limitations": [
+            "Resultado sensorial é autodeclarado; execução não observada."
+          ]
+        },
+        "action": {
+          "assessed": true,
+          "score": 91,
+          "evidence": [
+            "Cupom, marcação e pedido para marcar a criadora oferecem próximos passos."
+          ],
+          "limitations": [
+            "Conversão não acessível."
+          ]
+        },
+        "objections": {
+          "assessed": true,
+          "score": 87,
+          "evidence": [
+            "A legenda informa ingredientes, preparo, característica sem glúten e condição comercial."
+          ],
+          "limitations": [
+            "Preço dos utensílios e substituições não aparecem."
+          ]
+        },
+        "retention": {
+          "assessed": false,
+          "score": null,
+          "evidence": [],
+          "limitations": [
+            "Sem reprodução ou curva de retenção."
+          ]
+        }
+      },
+      "fiveLenses": {
+        "apressado": "Entende o prato, o diferencial e encontra rapidamente a receita.",
+        "analitico": "Recebe quantidades, etapas, origem e publicidade; ainda quer tempo total e alternativas.",
+        "aspiracional": "Resultado sensorial e utensílios premium elevam desejo estético e culinário.",
+        "comunidade": "Pedido para marcar a criadora e referência à receita original conectam circulação e autoria.",
+        "cetico": "Aceita melhor o vínculo por causa do disclosure, mas separa prova culinária de efeito publicitário."
+      },
+      "replicable": [
+        "Entregar a utilidade completa mesmo em publicidade.",
+        "Atribuir a origem de tendências e receitas.",
+        "Integrar o produto ao processo e sinalizar claramente publicidade e cupom."
+      ],
+      "limitations": [
+        "Execução visual, áudio e resultado final não foram observados.",
+        "A alegação de 12 milhões pertence à receita original e não foi verificada.",
+        "Retenção, mídia paga e conversão do cupom não ficaram acessíveis."
+      ],
+      "provenance": [
+        "public_content",
+        "secondary_caption",
+        "secondary_public_metrics",
+        "profile_baseline_secondary",
+        "advertising_disclosure",
+        "observatory_inference"
+      ],
+      "training": {
+        "replicable": [
+          "Utilidade autônoma mais atribuição mais disclosure torna a integração comercial semanticamente completa."
+        ],
+        "contingent": [
+          "Tendência original, produto premium, familiaridade do público e distribuição."
+        ],
+        "notRecommended": [
+          "Apropriar receita sem crédito; esconder publicidade; atribuir o desempenho a um único elemento."
+        ],
+        "hypotheses": [
+          "Publicidade demonstrativa pode preservar valor quando entrega integralmente o resultado que promete ensinar."
+        ]
+      },
+      "createdAt": "2026-08-26T11:30:00.000Z"
+    },
+    {
+      "id": "obs-20260826-053",
+      "title": "A gente achou que ia durar 24h falando inglês… durou 7 minutos",
+      "creator": "Isaque Kanadani (@isaquefeli)",
+      "country": "BR",
+      "url": "https://www.tiktok.com/@isaquefeli/video/7626384999423724820",
+      "sourceEvidence": [
+        "https://www.tiktok.com/@isaquefeli/video/7626384999423724820",
+        "https://urlebird.com/video/a-gente-achou-que-ia-durar-24h-falando-ingl%C3%AAs-durou-7-minutos-n-7626384999423724820/"
+      ],
+      "publishedAt": "2026-04-08",
+      "duration": "não acessível",
+      "coverage": {
+        "level": "partial",
+        "accessible": [
+          "legenda completa",
+          "disclosure de publicidade",
+          "marca e oferta",
+          "CTA",
+          "pergunta ao público",
+          "métricas públicas em cache secundário",
+          "seguidores",
+          "crédito de som original sem audição"
+        ],
+        "missing": [
+          "vídeo reproduzível",
+          "áudio efetivamente ouvido",
+          "cenas do desafio",
+          "fala e texto na tela",
+          "duração",
+          "comentários individuais",
+          "retenção",
+          "baseline do perfil",
+          "mídia paga",
+          "conversão"
+        ]
+      },
+      "publicMetrics": {
+        "viewsObserved": "181 mil",
+        "likesObserved": "21,7 mil",
+        "commentsObserved": "45",
+        "sharesObserved": "4,36 mil",
+        "followersObserved": "636,08 mil no snapshot",
+        "observedAt": "2026-08-26",
+        "sourceType": "secondary_indexed_source",
+        "causality": "not_inferred"
+      },
+      "viralAssessment": {
+        "status": "relative_signal_only",
+        "observedSignal": "aprox. 12% de likes por view e 2,4% de compartilhamentos por view no snapshot secundário; alcance abaixo do número atual de seguidores",
+        "missingForRelativeAssessment": [
+          "média recente do perfil",
+          "seguidores na publicação",
+          "velocidade",
+          "retenção",
+          "fontes de tráfego",
+          "mídia paga",
+          "conversão"
+        ],
+        "causalClaimAllowed": false,
+        "confounders": [
+          "publicidade",
+          "marca de idiomas",
+          "audiência prévia",
+          "promoção com prazo",
+          "tema de identificação"
+        ]
+      },
+      "classification": {
+        "taxonomyVersion": "3.0",
+        "container": "tiktok",
+        "materialFormat": "video_curto",
+        "presentationFormats": [
+          "esquete",
+          "dialogo",
+          "produto"
+        ],
+        "primaryFamily": "humor",
+        "secondaryFamilies": [
+          "storytelling",
+          "oferta_direta"
+        ],
+        "functionalMix": [
+          {
+            "family": "humor",
+            "percentage": 40
+          },
+          {
+            "family": "storytelling",
+            "percentage": 30
+          },
+          {
+            "family": "oferta_direta",
+            "percentage": 30
+          }
+        ],
+        "objectives": [
+          "identificacao",
+          "comentario",
+          "apresentar_solucao",
+          "venda",
+          "trafego"
+        ],
+        "advertisingType": "branded_content",
+        "commercialIntent": "explicita",
+        "advertisedEntity": {
+          "kind": "servico",
+          "name": "KNN Idiomas",
+          "confidence": "high"
+        },
+        "contentTopic": {
+          "label": "dificuldade de falar inglês transformada em desafio, identificação e oferta de curso",
+          "iabCode": null
+        },
+        "segment": "educação e idiomas",
+        "subsegment": "curso de inglês",
+        "probableAudience": "brasileiros que sentem insegurança ao falar inglês e consideram estudar em escola de idiomas",
+        "awarenessStage": "consciente_problema",
+        "productionLevel": "intermediate",
+        "creatorScale": "medium",
+        "replicability": "high",
+        "durationBand": "unknown",
+        "pace": "unknown",
+        "mechanisms": [
+          "humor",
+          "identificacao",
+          "alivio",
+          "desejo"
+        ],
+        "hookTypes": [
+          "desafio",
+          "falha",
+          "numero_contrastante"
+        ],
+        "narrativeElements": [
+          "meta",
+          "falha",
+          "problema_ampliado",
+          "solucao",
+          "pergunta",
+          "oferta",
+          "cta"
+        ],
+        "proofTypes": [
+          "experiencia_declarada",
+          "oferta_especifica",
+          "disclosure"
+        ],
+        "ctaTypes": [
+          "comentar",
+          "link_na_bio",
+          "aproveitar_oferta"
+        ],
+        "distributionContext": {
+          "organicPaid": "unknown",
+          "trendDependency": "low"
+        },
+        "confidence": "high",
+        "evidence": [
+          "A legenda contrasta uma meta de 24 horas com falha em 7 minutos.",
+          "A falha é ligada a perdas cotidianas e oportunidades antes da apresentação da KNN.",
+          "A oferta informa desconto percentual, desconto no livro, prazo e destino, além de marcar 'Publicidade'."
+        ],
+        "alternativeClassifications": [
+          "oferta_direta como família principal",
+          "storytelling como família principal"
+        ],
+        "missingInformation": [
+          "timing cômico",
+          "performance",
+          "cenas",
+          "ritmo",
+          "retenção",
+          "comentários",
+          "mídia paga",
+          "conversão"
+        ],
+        "needsHumanReview": true
+      },
+      "comparison": {
+        "level": 2,
+        "confidence": "high",
+        "group": "humor de erro em idioma convertido em solução de aprendizagem",
+        "referenceIds": [
+          "obs-20260825-047",
+          "obs-20260824-033"
+        ]
+      },
+      "observations": [
+        "A premissa é compreensível por contraste numérico: 24 horas planejadas, 7 minutos realizados.",
+        "A legenda transforma uma falha engraçada em problema de viagem, oportunidade e vida cotidiana.",
+        "A solução comercial aparece após a identificação e antes de uma pergunta comunitária e oferta com prazo.",
+        "Publicidade, descontos e destino são declarados explicitamente."
+      ],
+      "interpretations": [
+        "Falha autoatribuída pode reduzir vergonha e tornar o problema socialmente compartilhável.",
+        "A ponte problema-solução evita que a marca apareça sem relação com a premissa.",
+        "A taxa secundária de compartilhamento é um sinal de circulação, não prova de que humor ou oferta a causou."
+      ],
+      "hypotheses": [
+        "Em conteúdo de idioma, uma falha cotidiana autoatribuída e quantificada pode alinhar humor, identificação e solução comercial sem depender de ridicularizar terceiros."
+      ],
+      "scores": {
+        "gancho": 94,
+        "clareza": 94,
+        "relevancia": 92,
+        "desejo": 87,
+        "confianca": 86,
+        "acao": 93,
+        "objecoes": 84,
+        "retencao": "not_assessed"
+      },
+      "criterionAssessments": {
+        "hook": {
+          "assessed": true,
+          "score": 94,
+          "evidence": [
+            "Contraste 24 horas versus 7 minutos cria premissa e falha específica."
+          ],
+          "limitations": [
+            "Execução audiovisual não acessível."
+          ]
+        },
+        "comprehensionSpeed": {
+          "assessed": true,
+          "score": 95,
+          "evidence": [
+            "Desafio, falha e tema de inglês são claros na primeira frase da legenda."
+          ],
+          "limitations": []
+        },
+        "centralPromise": {
+          "assessed": true,
+          "score": 90,
+          "evidence": [
+            "Transformar dificuldade de comunicação em motivo para buscar solução."
+          ],
+          "limitations": []
+        },
+        "clarity": {
+          "assessed": true,
+          "score": 94,
+          "evidence": [
+            "Problema, marca, oferta, prazo, desconto e destino estão explícitos."
+          ],
+          "limitations": []
+        },
+        "credibility": {
+          "assessed": true,
+          "score": 86,
+          "evidence": [
+            "Disclosure e condições da oferta são identificáveis."
+          ],
+          "limitations": [
+            "Experiência e cenas não foram verificadas."
+          ]
+        },
+        "action": {
+          "assessed": true,
+          "score": 93,
+          "evidence": [
+            "Pergunta ao público e link na bio com prazo e desconto."
+          ],
+          "limitations": [
+            "Conversão não observada."
+          ]
+        },
+        "objections": {
+          "assessed": true,
+          "score": 84,
+          "evidence": [
+            "A oferta especifica dois descontos e prazo."
+          ],
+          "limitations": [
+            "Preço final, contrato, método e resultados do curso não aparecem."
+          ]
+        },
+        "retention": {
+          "assessed": false,
+          "score": null,
+          "evidence": [],
+          "limitations": [
+            "Sem vídeo reproduzível ou curva de retenção."
+          ]
+        }
+      },
+      "fiveLenses": {
+        "apressado": "Entende a falha e o assunto imediatamente.",
+        "analitico": "Recebe condições promocionais, mas quer preço final, método e evidência de aprendizagem.",
+        "aspiracional": "Relaciona fluência a viagem, oportunidade e autonomia.",
+        "comunidade": "A pergunta sobre suportar 24 horas em inglês convida autoidentificação.",
+        "cetico": "Pode aceitar o disclosure, mas exige separar experiência humorística de eficácia do curso."
+      },
+      "replicable": [
+        "Usar uma falha própria específica em vez de humilhar terceiros.",
+        "Construir ponte explícita entre situação, problema e solução.",
+        "Declarar publicidade, condições, prazo e destino da oferta."
+      ],
+      "limitations": [
+        "Vídeo, áudio, cenas e timing não ficaram acessíveis.",
+        "Não há baseline do perfil, retenção, mídia paga ou conversão.",
+        "Métricas são de cache secundário e não provam causalidade."
+      ],
+      "provenance": [
+        "public_content",
+        "secondary_caption",
+        "secondary_public_metrics",
+        "advertising_disclosure",
+        "observatory_inference"
+      ],
+      "training": {
+        "replicable": [
+          "Falha própria quantificada mais consequência cotidiana mais solução coerente forma arco comercial claro."
+        ],
+        "contingent": [
+          "Carisma, audiência prévia, marca, mídia e familiaridade com cursos de idioma."
+        ],
+        "notRecommended": [
+          "Ridicularizar terceiros; esconder publicidade; atribuir compartilhamentos ao humor sem teste."
+        ],
+        "hypotheses": [
+          "Erro com consentimento e autoironia pode reduzir vergonha e aproximar uma oferta educacional."
+        ]
+      },
+      "createdAt": "2026-08-26T11:30:00.000Z"
+    },
+    {
+      "id": "obs-20260826-054",
+      "title": "O Dia em que Portugal se Mudou para o Brasil",
+      "creator": "Mundos Reimaginados",
+      "country": "BR",
+      "url": "https://www.youtube.com/watch?v=qWPL11MOzOg",
+      "sourceEvidence": [
+        "https://www.youtube.com/watch?v=qWPL11MOzOg",
+        "https://glasp.co/youtube/qWPL11MOzOg",
+        "https://socialblade.com/youtube/channel/UCgP9a0iC_tbkrMChf5JFZZg"
+      ],
+      "publishedAt": "2026-03-16",
+      "duration": "não acessível",
+      "coverage": {
+        "level": "partial",
+        "accessible": [
+          "título",
+          "criador",
+          "data",
+          "visualizações em cache secundário",
+          "trecho inicial de transcrição",
+          "identidade e estatísticas atuais do canal em fonte secundária"
+        ],
+        "missing": [
+          "vídeo reproduzível",
+          "áudio efetivamente ouvido",
+          "transcrição completa",
+          "duração",
+          "imagens e texto na tela",
+          "descrição",
+          "comentários",
+          "retenção",
+          "fontes históricas usadas",
+          "mídia paga"
+        ]
+      },
+      "publicMetrics": {
+        "viewsObserved": "302,8 mil",
+        "likesObserved": null,
+        "commentsObserved": null,
+        "sharesObserved": null,
+        "followersObserved": "104 mil inscritos atuais em fonte secundária",
+        "observedAt": "2026-08-26",
+        "sourceType": "secondary_indexed_source",
+        "causality": "not_inferred"
+      },
+      "viralAssessment": {
+        "status": "relative_signal_only",
+        "observedSignal": "views aproximadamente 2,9 vezes o número atual de inscritos de um canal criado em janeiro de 2026",
+        "missingForRelativeAssessment": [
+          "inscritos na publicação",
+          "média do canal na época",
+          "impressões",
+          "velocidade",
+          "retenção",
+          "fontes de tráfego"
+        ],
+        "causalClaimAllowed": false,
+        "confounders": [
+          "canal recente em rápido crescimento",
+          "tema histórico brasileiro",
+          "título de alta escala",
+          "distribuição do YouTube",
+          "produção possivelmente intensiva"
+        ]
+      },
+      "classification": {
+        "taxonomyVersion": "3.0",
+        "container": "youtube_video",
+        "materialFormat": "video_longo",
+        "presentationFormats": [
+          "narracao_imagens",
+          "animacao",
+          "reportagem"
+        ],
+        "primaryFamily": "storytelling",
+        "secondaryFamilies": [
+          "educativo",
+          "curiosidade"
+        ],
+        "functionalMix": [
+          {
+            "family": "storytelling",
+            "percentage": 55
+          },
+          {
+            "family": "educativo",
+            "percentage": 35
+          },
+          {
+            "family": "curiosidade",
+            "percentage": 10
+          }
+        ],
+        "objectives": [
+          "educar",
+          "retencao",
+          "visualizacao",
+          "compartilhamento"
+        ],
+        "advertisingType": "editorial_organico",
+        "commercialIntent": "ausente",
+        "advertisedEntity": {
+          "kind": "nenhuma",
+          "name": null,
+          "confidence": "medium"
+        },
+        "contentTopic": {
+          "label": "transferência da corte portuguesa para o Rio de Janeiro no início do século XIX",
+          "iabCode": null
+        },
+        "segment": "história e educação",
+        "subsegment": "história do Brasil e da corte portuguesa",
+        "probableAudience": "público geral interessado em história brasileira e acontecimentos contraintuitivos",
+        "awarenessStage": "indeterminado",
+        "productionLevel": "complex",
+        "creatorScale": "medium",
+        "replicability": "low",
+        "durationBand": "over_60s",
+        "pace": "unknown",
+        "mechanisms": [
+          "curiosidade",
+          "surpresa",
+          "recompensa"
+        ],
+        "hookTypes": [
+          "afirmacao_contraintuitiva",
+          "escala",
+          "destino_inesperado"
+        ],
+        "narrativeElements": [
+          "evento_inesperado",
+          "escala",
+          "detalhes_concretos",
+          "revelacao_de_destino"
+        ],
+        "proofTypes": [
+          "detalhes_historicos_declarados"
+        ],
+        "ctaTypes": [],
+        "distributionContext": {
+          "organicPaid": "unknown",
+          "trendDependency": "low"
+        },
+        "confidence": "medium",
+        "evidence": [
+          "O título apresenta a transferência da corte como se um país inteiro tivesse se mudado.",
+          "A abertura transcrita fala de um império em movimento e lista ministros, nobres, arquivos, obras e bibliotecas.",
+          "A frase seguinte contrasta uma capital europeia esperada com a colônia e nomeia o Rio de Janeiro."
+        ],
+        "alternativeClassifications": [
+          "educativo como família principal"
+        ],
+        "missingInformation": [
+          "fontes históricas",
+          "estrutura completa",
+          "qualidade visual",
+          "ritmo",
+          "recompensa final",
+          "CTA",
+          "retenção"
+        ],
+        "needsHumanReview": true
+      },
+      "comparison": {
+        "level": 1,
+        "confidence": "high",
+        "group": "storytelling educativo de história brasileira com contradição explícita",
+        "referenceIds": [
+          "obs-20260824-039"
+        ]
+      },
+      "observations": [
+        "O título comprime um evento histórico complexo em uma imagem mental de escala nacional.",
+        "A abertura fornece primeiro surpresa, depois inventário concreto e finalmente destino.",
+        "O assunto não é escondido: Portugal, Brasil e deslocamento estão explícitos.",
+        "O alcance é superior ao número atual de inscritos, mas não há baseline temporal nem retenção."
+      ],
+      "interpretations": [
+        "A aparente impossibilidade gera lacuna sem sacrificar clareza temática.",
+        "Detalhes concretos podem tornar uma escala abstrata mais imaginável.",
+        "A ausência de fontes e do restante da transcrição impede avaliar precisão, progressão, recompensa e retenção."
+      ],
+      "hypotheses": [
+        "Em storytelling histórico, uma formulação aparentemente impossível seguida de escala concreta e resolução imediata pode abrir curiosidade sem esconder o assunto."
+      ],
+      "scores": {
+        "gancho": 95,
+        "clareza": 91,
+        "relevancia": 87,
+        "desejo": 82,
+        "confianca": 72,
+        "acao": "not_assessed",
+        "objecoes": 70,
+        "retencao": "not_assessed"
+      },
+      "criterionAssessments": {
+        "hook": {
+          "assessed": true,
+          "score": 95,
+          "evidence": [
+            "Título e primeira frase apresentam um império em movimento."
+          ],
+          "limitations": [
+            "Imagem, voz e som não acessíveis."
+          ]
+        },
+        "comprehensionSpeed": {
+          "assessed": true,
+          "score": 92,
+          "evidence": [
+            "Portugal, Brasil, período e deslocamento aparecem imediatamente."
+          ],
+          "limitations": []
+        },
+        "centralPromise": {
+          "assessed": true,
+          "score": 91,
+          "evidence": [
+            "Explicar como a corte portuguesa se transferiu para o Rio."
+          ],
+          "limitations": []
+        },
+        "clarity": {
+          "assessed": true,
+          "score": 91,
+          "evidence": [
+            "Inventário e destino concretizam a premissa."
+          ],
+          "limitations": [
+            "Desenvolvimento completo não acessível."
+          ]
+        },
+        "credibility": {
+          "assessed": true,
+          "score": 72,
+          "evidence": [
+            "Datas aproximadas, agentes e objetos são específicos."
+          ],
+          "limitations": [
+            "Fontes históricas e transcrição completa não acessíveis."
+          ]
+        },
+        "action": {
+          "assessed": false,
+          "score": null,
+          "evidence": [],
+          "limitations": [
+            "CTA não ficou acessível."
+          ]
+        },
+        "objections": {
+          "assessed": true,
+          "score": 70,
+          "evidence": [
+            "A abertura esclarece que se trata da corte e de suas instituições, não de toda a população."
+          ],
+          "limitations": [
+            "Tratamento completo e fontes não acessíveis."
+          ]
+        },
+        "retention": {
+          "assessed": false,
+          "score": null,
+          "evidence": [],
+          "limitations": [
+            "Sem reprodução ou curva de retenção."
+          ]
+        }
+      },
+      "fiveLenses": {
+        "apressado": "Capta a anomalia e o tema nos primeiros enunciados.",
+        "analitico": "Quer fontes, números e distinção entre corte, Estado e população.",
+        "aspiracional": "É menos orientado a transformação pessoal e mais a descoberta intelectual.",
+        "comunidade": "História nacional pode estimular memória coletiva e debate.",
+        "cetico": "Pode considerar o título hiperbólico e exige que o desenvolvimento delimite exatamente o que se mudou."
+      },
+      "replicable": [
+        "Transformar escala abstrata em imagem mental concreta.",
+        "Resolver rapidamente a formulação provocativa para não produzir clickbait vazio.",
+        "Listar detalhes verificáveis e citar fontes no desenvolvimento."
+      ],
+      "limitations": [
+        "Somente o trecho inicial da transcrição foi acessado.",
+        "Vídeo, áudio, imagens, fontes, comentários e retenção não foram observados.",
+        "Escala e crescimento do canal confundem qualquer leitura causal de alcance."
+      ],
+      "provenance": [
+        "public_content",
+        "secondary_transcript",
+        "secondary_public_metrics",
+        "channel_context_secondary",
+        "observatory_inference"
+      ],
+      "training": {
+        "replicable": [
+          "Contradição aparente mais detalhes concretos mais resolução imediata cria curiosidade informada."
+        ],
+        "contingent": [
+          "Tema nacional, canal recente em crescimento, produção visual e distribuição."
+        ],
+        "notRecommended": [
+          "Usar hipérbole sem delimitar; omitir fontes; inferir retenção pelo alcance."
+        ],
+        "hypotheses": [
+          "Curiosidade pode ser alta sem esconder o assunto quando a resolução começa imediatamente."
+        ]
+      },
+      "createdAt": "2026-08-26T11:30:00.000Z"
+    },
+    {
+      "id": "obs-20260826-055",
+      "title": "How I would build and grow a Web Design business in 2026",
+      "creator": "BONT / Adrián Somoza",
+      "country": "AR",
+      "url": "https://www.youtube.com/watch?v=oNq6M_mV5WA",
+      "sourceEvidence": [
+        "https://www.youtube.com/watch?v=oNq6M_mV5WA",
+        "https://glasp.co/youtube/oNq6M_mV5WA",
+        "https://www.linkedin.com/company/hellobont",
+        "https://socialcounts.org/youtube-channel-analytics/UCrSd3NeTWwz1cPgzp8BAqYg"
+      ],
+      "publishedAt": "2026-01-07",
+      "duration": "não acessível",
+      "coverage": {
+        "level": "partial",
+        "accessible": [
+          "título",
+          "criador",
+          "data",
+          "visualizações em cache secundário",
+          "trecho inicial de transcrição",
+          "descrição institucional e localização",
+          "estatísticas atuais do canal em fonte secundária"
+        ],
+        "missing": [
+          "vídeo reproduzível",
+          "áudio efetivamente ouvido",
+          "transcrição completa",
+          "duração",
+          "imagens e texto na tela",
+          "descrição completa do vídeo",
+          "comentários",
+          "retenção",
+          "CTAs do episódio",
+          "leads e vendas"
+        ]
+      },
+      "publicMetrics": {
+        "viewsObserved": "3,9 mil",
+        "likesObserved": null,
+        "commentsObserved": null,
+        "sharesObserved": null,
+        "followersObserved": "50,9 mil inscritos atuais em fonte secundária",
+        "profileAverageViewsObserved": "9,85 mil por vídeo como média bruta atual",
+        "observedAt": "2026-08-26",
+        "sourceType": "secondary_indexed_source",
+        "causality": "not_inferred"
+      },
+      "viralAssessment": {
+        "status": "not_supported",
+        "observedSignal": "views abaixo da média bruta atual do canal e abaixo do número atual de inscritos",
+        "missingForRelativeAssessment": [
+          "baseline na publicação",
+          "impressões",
+          "velocidade",
+          "retenção",
+          "fontes de tráfego",
+          "leads e vendas"
+        ],
+        "causalClaimAllowed": false,
+        "confounders": [
+          "conteúdo de nicho",
+          "canal de academia/mentoria",
+          "idade da publicação",
+          "tráfego de busca",
+          "idioma inglês de criador argentino"
+        ]
+      },
+      "classification": {
+        "taxonomyVersion": "3.0",
+        "container": "youtube_video",
+        "materialFormat": "video_longo",
+        "presentationFormats": [
+          "camera_direta",
+          "comentario",
+          "tutorial"
+        ],
+        "primaryFamily": "educativo",
+        "secondaryFamilies": [
+          "autoridade_opiniao",
+          "venda_indireta"
+        ],
+        "functionalMix": [
+          {
+            "family": "educativo",
+            "percentage": 60
+          },
+          {
+            "family": "autoridade_opiniao",
+            "percentage": 25
+          },
+          {
+            "family": "venda_indireta",
+            "percentage": 15
+          }
+        ],
+        "objectives": [
+          "educar",
+          "autoridade",
+          "confianca",
+          "lead"
+        ],
+        "advertisingType": "consideracao",
+        "commercialIntent": "implicita",
+        "advertisedEntity": {
+          "kind": "servico_educacional",
+          "name": "BONT / BONT Club",
+          "confidence": "medium"
+        },
+        "contentTopic": {
+          "label": "construção e crescimento de negócio de web design em contexto de IA e concorrência",
+          "iabCode": null
+        },
+        "segment": "web design e negócios criativos",
+        "subsegment": "aquisição previsível de clientes para freelancers",
+        "probableAudience": "web designers freelancers com dificuldade de obter clientes consistentes",
+        "awarenessStage": "consciente_problema",
+        "productionLevel": "simple",
+        "creatorScale": "medium",
+        "replicability": "high",
+        "durationBand": "over_60s",
+        "pace": "unknown",
+        "mechanisms": [
+          "confianca",
+          "alivio",
+          "recompensa",
+          "vigilancia"
+        ],
+        "hookTypes": [
+          "mudanca_de_contexto",
+          "problema",
+          "consequencia",
+          "promessa_de_correcao"
+        ],
+        "narrativeElements": [
+          "contexto",
+          "problema",
+          "consequencia",
+          "promessa",
+          "apresentacao"
+        ],
+        "proofTypes": [
+          "autoridade_profissional_declarada"
+        ],
+        "ctaTypes": [],
+        "distributionContext": {
+          "organicPaid": "unknown",
+          "trendDependency": "low"
+        },
+        "confidence": "high",
+        "evidence": [
+          "A abertura diz que habilidade de design não basta para clientes consistentes em 2026.",
+          "IA e aumento de concorrência são usados como mudança de contexto.",
+          "A consequência é ficar preso sem sistema de negócio; a promessa de correção vem antes da saudação."
+        ],
+        "alternativeClassifications": [
+          "autoridade_opiniao como família principal"
+        ],
+        "missingInformation": [
+          "framework completo",
+          "provas e exemplos",
+          "oferta e CTA",
+          "ritmo",
+          "edição",
+          "comentários",
+          "retenção",
+          "leads"
+        ],
+        "needsHumanReview": true
+      },
+      "comparison": {
+        "level": 2,
+        "confidence": "medium",
+        "group": "aula de negócios criativos com problema específico e promessa de sistema",
+        "referenceIds": [
+          "obs-20260824-043",
+          "obs-20260823-015"
+        ]
+      },
+      "observations": [
+        "A primeira frase identifica público, insuficiência atual e resultado desejado.",
+        "A abertura nomeia duas mudanças externas — IA e concorrência — antes de apresentar a consequência.",
+        "A promessa de resolver o problema vem antes da saudação e apresentação pessoal.",
+        "A empresa é uma pequena provedora de educação sediada em Buenos Aires e o canal possui audiência de nicho."
+      ],
+      "interpretations": [
+        "Contexto mais consequência antes da saudação pode ganhar relevância inicial para público frio.",
+        "A estrutura desloca autoridade de mera apresentação pessoal para diagnóstico do problema.",
+        "Baixo alcance relativo não invalida clareza nem prova baixa qualidade; conversão e retenção não estão acessíveis."
+      ],
+      "hypotheses": [
+        "Em aula de negócios para público frio, nomear mudança de contexto, consequência e promessa de correção antes da saudação pode reduzir o tempo até a primeira recompensa semântica."
+      ],
+      "scores": {
+        "gancho": 93,
+        "clareza": 92,
+        "relevancia": 94,
+        "desejo": 86,
+        "confianca": 79,
+        "acao": 76,
+        "objecoes": 81,
+        "retencao": "not_assessed"
+      },
+      "criterionAssessments": {
+        "hook": {
+          "assessed": true,
+          "score": 93,
+          "evidence": [
+            "Público, mudança de mercado, risco e promessa aparecem antes da saudação."
+          ],
+          "limitations": [
+            "Execução audiovisual não acessível."
+          ]
+        },
+        "comprehensionSpeed": {
+          "assessed": true,
+          "score": 95,
+          "evidence": [
+            "Web designers, clientes consistentes e necessidade de sistema são explícitos."
+          ],
+          "limitations": []
+        },
+        "centralPromise": {
+          "assessed": true,
+          "score": 93,
+          "evidence": [
+            "Mostrar como construir e crescer um negócio de web design em 2026."
+          ],
+          "limitations": []
+        },
+        "clarity": {
+          "assessed": true,
+          "score": 92,
+          "evidence": [
+            "Contexto, problema e consequência formam cadeia curta."
+          ],
+          "limitations": [
+            "Framework completo não acessível."
+          ]
+        },
+        "credibility": {
+          "assessed": true,
+          "score": 79,
+          "evidence": [
+            "Criador e organização de educação em design são identificáveis."
+          ],
+          "limitations": [
+            "Resultados, casos e método não foram auditados."
+          ]
+        },
+        "action": {
+          "assessed": true,
+          "score": 76,
+          "evidence": [
+            "A promessa aponta para solução prática."
+          ],
+          "limitations": [
+            "Passos e CTA do episódio não acessíveis."
+          ]
+        },
+        "objections": {
+          "assessed": true,
+          "score": 81,
+          "evidence": [
+            "A abertura reconhece IA e concorrência, objeções contemporâneas do público."
+          ],
+          "limitations": [
+            "Custos e condições do sistema não acessíveis."
+          ]
+        },
+        "retention": {
+          "assessed": false,
+          "score": null,
+          "evidence": [],
+          "limitations": [
+            "Sem vídeo reproduzível ou curva de retenção."
+          ]
+        }
+      },
+      "fiveLenses": {
+        "apressado": "Entende imediatamente para quem é e por que habilidade isolada não basta.",
+        "analitico": "Quer o sistema, exemplos, métricas e critérios de execução.",
+        "aspiracional": "Conecta web design a clientes melhores, renda previsível e autonomia.",
+        "comunidade": "A saudação posterior preserva proximidade sem consumir a primeira recompensa.",
+        "cetico": "Questiona se IA e concorrência são diagnóstico real ou enquadramento para vender mentoria."
+      },
+      "replicable": [
+        "Entregar diagnóstico antes de apresentação pessoal.",
+        "Nomear público, mudança externa, consequência e promessa em poucas frases.",
+        "Separar clareza de abertura de prova de resultado e oferta."
+      ],
+      "limitations": [
+        "Somente o trecho inicial da transcrição foi acessado.",
+        "Vídeo, áudio, framework completo, CTA, comentários e retenção não foram observados.",
+        "Métricas atuais do canal não substituem baseline da publicação nem conversão."
+      ],
+      "provenance": [
+        "public_content",
+        "secondary_transcript",
+        "secondary_public_metrics",
+        "official_company_profile",
+        "observatory_inference"
+      ],
+      "training": {
+        "replicable": [
+          "Contexto mudado mais consequência específica mais promessa antes da saudação comprime a relevância inicial."
+        ],
+        "contingent": [
+          "Autoridade do criador, audiência de nicho, idioma, marca educacional e tráfego de busca."
+        ],
+        "notRecommended": [
+          "Usar medo genérico de IA; inventar eficácia; confundir poucos views com baixa qualidade."
+        ],
+        "hypotheses": [
+          "Recompensa semântica antes da saudação pode favorecer público frio, mas exige teste de retenção."
+        ]
+      },
+      "createdAt": "2026-08-26T11:30:00.000Z"
     }
   ],
   "patterns": [
@@ -11812,9 +13414,10 @@
       "status": "observed_not_promoted",
       "statement": "Em storytelling educativo, uma crença amplamente ensinada seguida de uma contradição verificável pode criar lacuna de conhecimento sem esconder o assunto.",
       "supportReferenceIds": [
-        "obs-20260824-039"
+        "obs-20260824-039",
+        "obs-20260826-054"
       ],
-      "reasonNotPromoted": "Uma única referência, apenas trecho inicial de transcrição e forte confusão por escala, pesquisa e produção do canal."
+      "reasonNotPromoted": "Dois apoios comparáveis de storytelling histórico e criadores diferentes, porém somente aberturas transcritas; precisão completa, fontes, retenção e comparação experimental não foram acessadas."
     },
     {
       "id": "hyp-20260824-015",
@@ -11858,9 +13461,10 @@
       "status": "observed_not_promoted",
       "statement": "Em marketing de oportunidade, transformar um erro culturalmente reconhecido em ponto de partida de aprendizagem pode alinhar humor, produto e redução de vergonha quando há consentimento e contexto legítimos.",
       "supportReferenceIds": [
-        "obs-20260825-047"
+        "obs-20260825-047",
+        "obs-20260826-053"
       ],
-      "reasonNotPromoted": "Uma única campanha dependente de celebridade, reality, trend e fonte editorial secundária; Reel, métricas, retenção e conversão não acessíveis."
+      "reasonNotPromoted": "Dois apoios de criadores diferentes no segmento de idiomas, mas ambos têm cobertura audiovisual parcial; um depende de celebridade/trend e o outro de publicidade com audiência prévia. Sem terceiro apoio comparável, retenção ou conversão."
     },
     {
       "id": "hyp-20260825-020",
@@ -11882,6 +13486,33 @@
         "obs-20260825-049"
       ],
       "reasonNotPromoted": "Uma única referência com legenda e métricas secundárias; veredito completo, disclosure, contrato, comentários, retenção e conversão não acessíveis."
+    },
+    {
+      "id": "hyp-20260826-022",
+      "status": "observed_not_promoted",
+      "statement": "Em review curto de produto, antecipar contexto de teste e critérios concretos de compra antes do veredito pode aumentar utilidade para consideração.",
+      "supportReferenceIds": [
+        "obs-20260826-051"
+      ],
+      "reasonNotPromoted": "Uma única referência com legenda secundária, sem execução do teste, disclosure, retenção ou conversão."
+    },
+    {
+      "id": "hyp-20260826-023",
+      "status": "observed_not_promoted",
+      "statement": "Em demonstração culinária patrocinada, entregar receita completa, atribuir a origem e integrar produto, disclosure e cupom ao processo pode preservar utilidade e clareza comercial.",
+      "supportReferenceIds": [
+        "obs-20260826-052"
+      ],
+      "reasonNotPromoted": "Uma única referência; vídeo, retenção, mídia paga e conversão do cupom não foram acessados."
+    },
+    {
+      "id": "hyp-20260826-024",
+      "status": "observed_not_promoted",
+      "statement": "Em aula de negócios para público frio, nomear mudança de contexto, consequência e promessa de correção antes da saudação pode reduzir o tempo até a primeira recompensa semântica.",
+      "supportReferenceIds": [
+        "obs-20260826-055"
+      ],
+      "reasonNotPromoted": "Uma única abertura transcrita e ausência de retenção, comentários, leads e comparação experimental."
     }
   ],
   "contradictions": [
@@ -12351,6 +13982,74 @@
         "O padrão de saúde ganhou apoio, mas continua provisório e concentrado no mesmo ecossistema.",
         "A hipótese de storytelling seriado ganhou segundo apoio, ambos do mesmo criador.",
         "Nenhum padrão foi validado e nenhum dado foi misturado aos cérebros sintéticos ou ao futuro Freud."
+      ]
+    },
+    {
+      "id": "run-20260826-supervised-007",
+      "executedAt": "2026-08-26T11:30:00.000Z",
+      "requestedBatchSize": 5,
+      "candidatesFound": 5,
+      "discarded": [],
+      "analyzed": 5,
+      "brazilianReferences": 4,
+      "internationalReferences": 1,
+      "replicableReferences": 4,
+      "coverageSummary": {
+        "complete": 0,
+        "partial": 5,
+        "insufficient": 0
+      },
+      "familiesCovered": [
+        "demonstracao",
+        "depoimento",
+        "venda_indireta",
+        "educativo",
+        "humor",
+        "storytelling",
+        "oferta_direta",
+        "autoridade_opiniao",
+        "curiosidade"
+      ],
+      "segmentsCovered": [
+        "tecnologia e acessórios",
+        "culinária e utensílios",
+        "educação e idiomas",
+        "história e educação",
+        "web design e negócios criativos"
+      ],
+      "sourcesUsed": [
+        "https://urlebird.com/video/testei-o-fone-de-ouvido-%C3%A0-prova-d%C3%A1gua-que-funciona-pelo-osso-do-7384836232057998597/",
+        "https://urlebird.com/video/torta-de-cebola-caramelizada-com-base-de-batata-essa-torta-de-c-7541135306699951366/",
+        "https://urlebird.com/user/jucenha/",
+        "https://urlebird.com/video/a-gente-achou-que-ia-durar-24h-falando-ingl%C3%AAs-durou-7-minutos-n-7626384999423724820/",
+        "https://glasp.co/youtube/qWPL11MOzOg",
+        "https://socialblade.com/youtube/channel/UCgP9a0iC_tbkrMChf5JFZZg",
+        "https://glasp.co/youtube/oNq6M_mV5WA",
+        "https://www.linkedin.com/company/hellobont",
+        "https://socialcounts.org/youtube-channel-analytics/UCrSd3NeTWwz1cPgzp8BAqYg"
+      ],
+      "patternsCreated": [],
+      "patternsStrengthened": [],
+      "hypothesesCreated": [
+        "hyp-20260826-022",
+        "hyp-20260826-023",
+        "hyp-20260826-024"
+      ],
+      "hypothesesStrengthened": [
+        "hyp-20260825-019",
+        "hyp-20260824-014"
+      ],
+      "validatedPatternsCreated": 0,
+      "contradictionsFound": [],
+      "nextTarget": "vídeo curto brasileiro de pequeno criador com reprodução audiovisual integral ou transcrição completa, publicidade identificada, comentários individuais, CTA verificável e baseline recente do próprio perfil",
+      "limitations": [
+        "Nenhuma das cinco referências permitiu reprodução audiovisual integral no ambiente.",
+        "As três publicações do TikTok foram ensinadas por legenda, disclosure, métricas e contexto secundários; cenas, fala, texto na tela, ritmo e retenção não foram pontuados.",
+        "Os dois vídeos do YouTube tiveram somente trecho inicial de transcrição e métricas secundárias.",
+        "O cache do Edu LabTec apresentou snapshots divergentes e foi registrado como faixa, não valor exato.",
+        "Sinais relativos de Jucenha, Isaque e Mundos Reimaginados não provam viralidade nem causalidade.",
+        "Duas hipóteses ganharam segundo apoio; nenhuma chegou a três apoios independentes comparáveis.",
+        "Nenhum dado foi misturado aos cérebros sintéticos ou ao futuro Freud."
       ]
     }
   ],
