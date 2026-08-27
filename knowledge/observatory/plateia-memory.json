@@ -1,6 +1,6 @@
 {
   "protocol": "plateia-memory/1.0",
-  "updatedAt": "2026-08-26T11:30:00.000Z",
+  "updatedAt": "2026-08-27T11:47:26.000Z",
   "references": [
     {
       "id": "obs-20260823-001",
@@ -12900,6 +12900,1112 @@
         ]
       },
       "createdAt": "2026-08-26T11:30:00.000Z"
+    },
+    {
+      "id": "obs-20260827-056",
+      "title": "Como transformar referências em criatividade?",
+      "creator": "Videomakers do Brasil",
+      "country": "BR",
+      "url": "https://www.youtube.com/watch?v=IkUH5VTpp6o",
+      "publishedAt": "2026-02-09",
+      "duration": "não acessível",
+      "createdAt": "2026-08-27T11:47:26.000Z",
+      "coverage": {
+        "level": "partial",
+        "accessible": [
+          "título",
+          "identidade do criador",
+          "data de publicação",
+          "visualizações indexadas",
+          "miniatura/player incorporado sem inspeção quadro a quadro",
+          "trecho de transcrição automática",
+          "resumo e pontos centrais derivados da transcrição"
+        ],
+        "missing": [
+          "vídeo integral reproduzível",
+          "imagem quadro a quadro",
+          "áudio efetivamente ouvido",
+          "transcrição integral auditada",
+          "texto na tela",
+          "descrição original completa",
+          "curtidas",
+          "comentários individuais",
+          "retenção",
+          "origem da distribuição",
+          "mídia paga e conversão"
+        ]
+      },
+      "publicMetrics": {
+        "viewsObserved": "83",
+        "observedAt": "2026-08-27",
+        "sourceType": "secondary_indexed_source",
+        "causality": "not_inferred"
+      },
+      "classification": {
+        "taxonomyVersion": "3.0",
+        "container": "youtube_video",
+        "materialFormat": "video_longo",
+        "presentationFormats": [
+          "camera_direta",
+          "comentario",
+          "outro"
+        ],
+        "primaryFamily": "educativo",
+        "secondaryFamilies": [
+          "autoridade_opiniao",
+          "curiosidade"
+        ],
+        "functionalMix": [
+          {
+            "family": "educativo",
+            "percentage": 60
+          },
+          {
+            "family": "autoridade_opiniao",
+            "percentage": 25
+          },
+          {
+            "family": "curiosidade",
+            "percentage": 15
+          }
+        ],
+        "objectives": [
+          "educar",
+          "autoridade",
+          "salvamento"
+        ],
+        "advertisingType": "indeterminado",
+        "commercialIntent": "indeterminada",
+        "advertisedEntity": {
+          "kind": "indeterminado",
+          "name": "",
+          "confidence": "low"
+        },
+        "contentTopic": {
+          "label": "processo criativo e uso ético de referências",
+          "iabCode": null
+        },
+        "segment": "produção audiovisual e criatividade",
+        "subsegment": "processo criativo e uso ético de referências",
+        "probableAudience": "videomakers e criadores que querem desenvolver repertório e voz própria",
+        "awarenessStage": "consciente_problema",
+        "productionLevel": "simple",
+        "creatorScale": "unknown",
+        "replicability": "high",
+        "durationBand": "unknown",
+        "pace": "unknown",
+        "mechanisms": [
+          "curiosidade",
+          "confiança",
+          "recompensa"
+        ],
+        "hookTypes": [],
+        "narrativeElements": [],
+        "proofTypes": [
+          "transcrição_secundária_parcial"
+        ],
+        "ctaTypes": [],
+        "distributionContext": {
+          "organicPaid": "unknown",
+          "trendDependency": "unknown"
+        },
+        "confidence": "medium",
+        "evidence": [
+          "O início transcrito apresenta a ideia de 'roubar como artista' como algo que parece errado e a reformula como pergunta sobre criatividade.",
+          "A exposição diferencia seleção e transformação de referências de plágio e usa exemplos de outras áreas.",
+          "O material propõe práticas concretas: começar antes de se sentir pronto, criar o que gostaria de consumir, usar as mãos e trabalhar com limitações."
+        ],
+        "alternativeClassifications": [],
+        "missingInformation": [
+          "duração",
+          "ritmo",
+          "retenção",
+          "CTA integral",
+          "comentários",
+          "baseline do canal"
+        ],
+        "needsHumanReview": true
+      },
+      "comparison": {
+        "level": 2,
+        "group": "aula de criatividade com aparente contradição e princípios práticos",
+        "referenceIds": [
+          "obs-20260824-045",
+          "obs-20260826-055"
+        ],
+        "confidence": "medium"
+      },
+      "observations": [
+        "O início transcrito apresenta a ideia de 'roubar como artista' como algo que parece errado e a reformula como pergunta sobre criatividade.",
+        "A exposição diferencia seleção e transformação de referências de plágio e usa exemplos de outras áreas.",
+        "O material propõe práticas concretas: começar antes de se sentir pronto, criar o que gostaria de consumir, usar as mãos e trabalhar com limitações."
+      ],
+      "interpretations": [
+        "Uma contradição moral aparente pode abrir lacuna de conhecimento sem esconder o tema quando é resolvida imediatamente.",
+        "Alternar princípio abstrato e exemplos concretos tende a reduzir ambiguidade, mas o efeito em retenção não foi mensurado."
+      ],
+      "scores": {
+        "gancho": 86,
+        "clareza": 90,
+        "relevancia": 82,
+        "desejo": 72,
+        "confianca": 76,
+        "retencao": "not_assessed",
+        "acao": "not_assessed",
+        "objecoes": 78
+      },
+      "fiveLenses": {
+        "apressado": "A promessa semântica é legível no título e no início transcrito; a execução audiovisual não foi mensurada.",
+        "analitico": "Encontra estrutura e exemplos no material textual, mas faltam fontes primárias completas, comentários e dados de retenção.",
+        "aspiracional": "A transformação ou recompensa declarada é compreensível; sua força visual não foi avaliada.",
+        "comunidade": "Há potencial de identificação no tema, mas participação e comentários não ficaram acessíveis.",
+        "cetico": "Popularidade e resumo secundário não provam causalidade; vínculo comercial e distribuição permanecem indeterminados."
+      },
+      "hypotheses": [
+        "Em aula sobre criatividade, uma aparente contradição seguida de distinção ética e práticas concretas pode gerar curiosidade sem normalizar cópia superficial."
+      ],
+      "replicable": [
+        "Nomear a tensão real do público e desfazer a ambiguidade cedo.",
+        "Alternar conceito, exemplo e exercício aplicável."
+      ],
+      "limitations": [
+        "Trecho de transcrição e resumo são secundários; vídeo, áudio, duração, CTA e comentários não foram auditados.",
+        "83 visualizações não informam qualidade nem adequação fora do grupo comparável."
+      ],
+      "provenance": [
+        "public_content",
+        "secondary_transcript",
+        "secondary_public_metric",
+        "observatory_inference"
+      ],
+      "sourceEvidence": [
+        "https://www.youtube.com/watch?v=IkUH5VTpp6o",
+        "https://glasp.co/youtube/IkUH5VTpp6o"
+      ],
+      "training": {
+        "replicable": [
+          "Nomear a tensão real do público e desfazer a ambiguidade cedo.",
+          "Alternar conceito, exemplo e exercício aplicável."
+        ],
+        "contingent": [
+          "histórico do canal",
+          "distribuição algorítmica",
+          "familiaridade prévia do público",
+          "qualidade audiovisual não observada"
+        ],
+        "notRecommended": [
+          "copiar frases ou roteiro",
+          "tratar visualizações como prova causal",
+          "inferir cena, áudio, ritmo ou retenção"
+        ],
+        "hypotheses": [
+          "Em aula sobre criatividade, uma aparente contradição seguida de distinção ética e práticas concretas pode gerar curiosidade sem normalizar cópia superficial."
+        ]
+      },
+      "viralAssessment": {
+        "status": "indeterminate",
+        "observedSignal": "visualizações públicas indexadas sem baseline comparável",
+        "missingForRelativeAssessment": [
+          "média recente do canal",
+          "velocidade inicial",
+          "impressões",
+          "retenção",
+          "fontes de tráfego"
+        ],
+        "confounders": [
+          "tamanho e histórico do canal",
+          "idade da publicação",
+          "tema",
+          "distribuição"
+        ],
+        "causalClaimAllowed": false
+      }
+    },
+    {
+      "id": "obs-20260827-057",
+      "title": "Filhos da Mãe Gentil — resenha de uma sátira do Brasil",
+      "creator": "Ler Antes de Morrer",
+      "country": "BR",
+      "url": "https://www.youtube.com/watch?v=kn6pxCKUpiw",
+      "publishedAt": "2026-07-20",
+      "duration": "não acessível",
+      "createdAt": "2026-08-27T11:47:26.000Z",
+      "coverage": {
+        "level": "partial",
+        "accessible": [
+          "título",
+          "identidade do criador",
+          "data de publicação",
+          "visualizações indexadas",
+          "miniatura/player incorporado sem inspeção quadro a quadro",
+          "trecho de transcrição automática",
+          "resumo e pontos centrais derivados da transcrição"
+        ],
+        "missing": [
+          "vídeo integral reproduzível",
+          "imagem quadro a quadro",
+          "áudio efetivamente ouvido",
+          "transcrição integral auditada",
+          "texto na tela",
+          "descrição original completa",
+          "curtidas",
+          "comentários individuais",
+          "retenção",
+          "origem da distribuição",
+          "mídia paga e conversão"
+        ]
+      },
+      "publicMetrics": {
+        "viewsObserved": "5,7 mil",
+        "observedAt": "2026-08-27",
+        "sourceType": "secondary_indexed_source",
+        "causality": "not_inferred"
+      },
+      "classification": {
+        "taxonomyVersion": "3.0",
+        "container": "youtube_video",
+        "materialFormat": "video_longo",
+        "presentationFormats": [
+          "camera_direta",
+          "comentario",
+          "narracao_imagens"
+        ],
+        "primaryFamily": "autoridade_opiniao",
+        "secondaryFamilies": [
+          "storytelling",
+          "humor"
+        ],
+        "functionalMix": [
+          {
+            "family": "autoridade_opiniao",
+            "percentage": 60
+          },
+          {
+            "family": "storytelling",
+            "percentage": 25
+          },
+          {
+            "family": "humor",
+            "percentage": 15
+          }
+        ],
+        "objectives": [
+          "educar",
+          "autoridade",
+          "visualizacao",
+          "compartilhamento"
+        ],
+        "advertisingType": "indeterminado",
+        "commercialIntent": "indeterminada",
+        "advertisedEntity": {
+          "kind": "livro",
+          "name": "Filhos da Mãe Gentil",
+          "confidence": "medium"
+        },
+        "contentTopic": {
+          "label": "resenha de sátira política e social brasileira",
+          "iabCode": null
+        },
+        "segment": "literatura e cultura",
+        "subsegment": "resenha de sátira política e social brasileira",
+        "probableAudience": "leitores interessados em literatura brasileira, política e crítica cultural",
+        "awarenessStage": "consciente_solucao",
+        "productionLevel": "simple",
+        "creatorScale": "unknown",
+        "replicability": "high",
+        "durationBand": "unknown",
+        "pace": "unknown",
+        "mechanisms": [
+          "identificacao",
+          "humor",
+          "curiosidade",
+          "confianca"
+        ],
+        "hookTypes": [],
+        "narrativeElements": [],
+        "proofTypes": [
+          "transcrição_secundária_parcial"
+        ],
+        "ctaTypes": [],
+        "distributionContext": {
+          "organicPaid": "unknown",
+          "trendDependency": "unknown"
+        },
+        "confidence": "medium",
+        "evidence": [
+          "O trecho transcrito começa com música do hino e comentário sobre a eliminação do Brasil na Copa antes de voltar à realidade social do país.",
+          "A resenha conecta o contexto cultural à sátira do livro e depois explicita protagonista, dilema moral e funcionamento do universo narrativo.",
+          "O título do livro é explicado como duplo sentido ligado ao hino e ao insulto."
+        ],
+        "alternativeClassifications": [],
+        "missingInformation": [
+          "duração",
+          "ritmo",
+          "retenção",
+          "CTA integral",
+          "comentários",
+          "baseline do canal"
+        ],
+        "needsHumanReview": true
+      },
+      "comparison": {
+        "level": 2,
+        "group": "resenha cultural com gancho de atualidade e ponte temática",
+        "referenceIds": [
+          "obs-20260824-043",
+          "obs-20260827-058"
+        ],
+        "confidence": "medium"
+      },
+      "observations": [
+        "O trecho transcrito começa com música do hino e comentário sobre a eliminação do Brasil na Copa antes de voltar à realidade social do país.",
+        "A resenha conecta o contexto cultural à sátira do livro e depois explicita protagonista, dilema moral e funcionamento do universo narrativo.",
+        "O título do livro é explicado como duplo sentido ligado ao hino e ao insulto."
+      ],
+      "interpretations": [
+        "Um acontecimento cultural compartilhado pode funcionar como ponte para uma obra quando a conexão temática é explicitada rapidamente.",
+        "O duplo sentido do título oferece uma recompensa interpretativa além do simples resumo do enredo."
+      ],
+      "scores": {
+        "gancho": 88,
+        "clareza": 91,
+        "relevancia": 86,
+        "desejo": 78,
+        "confianca": 82,
+        "retencao": "not_assessed",
+        "acao": "not_assessed",
+        "objecoes": 80
+      },
+      "fiveLenses": {
+        "apressado": "A promessa semântica é legível no título e no início transcrito; a execução audiovisual não foi mensurada.",
+        "analitico": "Encontra estrutura e exemplos no material textual, mas faltam fontes primárias completas, comentários e dados de retenção.",
+        "aspiracional": "A transformação ou recompensa declarada é compreensível; sua força visual não foi avaliada.",
+        "comunidade": "Há potencial de identificação no tema, mas participação e comentários não ficaram acessíveis.",
+        "cetico": "Popularidade e resumo secundário não provam causalidade; vínculo comercial e distribuição permanecem indeterminados."
+      },
+      "hypotheses": [
+        "Em resenha cultural, um cold open de atualidade pode ampliar identificação quando conduz rapidamente ao tema e à tese da obra, sem depender apenas da notícia."
+      ],
+      "replicable": [
+        "Usar contexto cultural apenas quando ele ilumina o objeto principal.",
+        "Entregar cedo a tese crítica e um dilema concreto da obra."
+      ],
+      "limitations": [
+        "A música e as imagens não foram efetivamente ouvidas ou inspecionadas; somente marcadores da transcrição indicam a abertura.",
+        "Não há disclosure, descrição original, CTA, comentários ou retenção acessíveis."
+      ],
+      "provenance": [
+        "public_content",
+        "secondary_transcript",
+        "secondary_public_metric",
+        "observatory_inference"
+      ],
+      "sourceEvidence": [
+        "https://www.youtube.com/watch?v=kn6pxCKUpiw",
+        "https://glasp.co/youtube/kn6pxCKUpiw"
+      ],
+      "training": {
+        "replicable": [
+          "Usar contexto cultural apenas quando ele ilumina o objeto principal.",
+          "Entregar cedo a tese crítica e um dilema concreto da obra."
+        ],
+        "contingent": [
+          "histórico do canal",
+          "distribuição algorítmica",
+          "familiaridade prévia do público",
+          "qualidade audiovisual não observada"
+        ],
+        "notRecommended": [
+          "copiar frases ou roteiro",
+          "tratar visualizações como prova causal",
+          "inferir cena, áudio, ritmo ou retenção"
+        ],
+        "hypotheses": [
+          "Em resenha cultural, um cold open de atualidade pode ampliar identificação quando conduz rapidamente ao tema e à tese da obra, sem depender apenas da notícia."
+        ]
+      },
+      "viralAssessment": {
+        "status": "indeterminate",
+        "observedSignal": "visualizações públicas indexadas sem baseline comparável",
+        "missingForRelativeAssessment": [
+          "média recente do canal",
+          "velocidade inicial",
+          "impressões",
+          "retenção",
+          "fontes de tráfego"
+        ],
+        "confounders": [
+          "tamanho e histórico do canal",
+          "idade da publicação",
+          "tema",
+          "distribuição"
+        ],
+        "causalClaimAllowed": false
+      }
+    },
+    {
+      "id": "obs-20260827-058",
+      "title": "Quais livros valeram a leitura em janeiro de 2026?",
+      "creator": "Tatiana Feltrin (@tatianagfeltrin)",
+      "country": "BR",
+      "url": "https://www.youtube.com/watch?v=HCJ08kyM3r8",
+      "publishedAt": "2026-02-04",
+      "duration": "não acessível",
+      "createdAt": "2026-08-27T11:47:26.000Z",
+      "coverage": {
+        "level": "partial",
+        "accessible": [
+          "título",
+          "identidade do criador",
+          "data de publicação",
+          "visualizações indexadas",
+          "miniatura/player incorporado sem inspeção quadro a quadro",
+          "trecho de transcrição automática",
+          "resumo e pontos centrais derivados da transcrição"
+        ],
+        "missing": [
+          "vídeo integral reproduzível",
+          "imagem quadro a quadro",
+          "áudio efetivamente ouvido",
+          "transcrição integral auditada",
+          "texto na tela",
+          "descrição original completa",
+          "curtidas",
+          "comentários individuais",
+          "retenção",
+          "origem da distribuição",
+          "mídia paga e conversão"
+        ]
+      },
+      "publicMetrics": {
+        "viewsObserved": "26,2 mil",
+        "observedAt": "2026-08-27",
+        "sourceType": "secondary_indexed_source",
+        "causality": "not_inferred"
+      },
+      "classification": {
+        "taxonomyVersion": "3.0",
+        "container": "youtube_video",
+        "materialFormat": "video_longo",
+        "presentationFormats": [
+          "camera_direta",
+          "comentario",
+          "produto"
+        ],
+        "primaryFamily": "comunidade",
+        "secondaryFamilies": [
+          "autoridade_opiniao",
+          "educativo"
+        ],
+        "functionalMix": [
+          {
+            "family": "comunidade",
+            "percentage": 60
+          },
+          {
+            "family": "autoridade_opiniao",
+            "percentage": 25
+          },
+          {
+            "family": "educativo",
+            "percentage": 15
+          }
+        ],
+        "objectives": [
+          "comunidade",
+          "autoridade",
+          "educar",
+          "salvamento"
+        ],
+        "advertisingType": "indeterminado",
+        "commercialIntent": "indeterminada",
+        "advertisedEntity": {
+          "kind": "múltiplos_produtos_culturais",
+          "name": "livros comentados no balanço mensal",
+          "confidence": "medium"
+        },
+        "contentTopic": {
+          "label": "balanço mensal de leituras e recomendações",
+          "iabCode": null
+        },
+        "segment": "literatura e leitura",
+        "subsegment": "balanço mensal de leituras e recomendações",
+        "probableAudience": "leitores recorrentes que acompanham resenhas, projetos de leitura e aquisições de livros",
+        "awarenessStage": "consciente_solucao",
+        "productionLevel": "simple",
+        "creatorScale": "unknown",
+        "replicability": "high",
+        "durationBand": "unknown",
+        "pace": "unknown",
+        "mechanisms": [
+          "pertencimento",
+          "confianca",
+          "recompensa"
+        ],
+        "hookTypes": [],
+        "narrativeElements": [],
+        "proofTypes": [
+          "transcrição_secundária_parcial"
+        ],
+        "ctaTypes": [],
+        "distributionContext": {
+          "organicPaid": "unknown",
+          "trendDependency": "unknown"
+        },
+        "confidence": "medium",
+        "evidence": [
+          "A abertura transcrita anuncia o encerramento do mês e a sequência do vídeo: leituras concluídas e novidades que chegaram às estantes.",
+          "O resumo secundário registra vereditos diferenciados: uma leitura acolhedora, outra boa e outra decepcionante apesar do final.",
+          "Há continuidade com projetos e séries do canal, incluindo leitura anual e retomada de quadrinhos, mangás e filmes."
+        ],
+        "alternativeClassifications": [],
+        "missingInformation": [
+          "duração",
+          "ritmo",
+          "retenção",
+          "CTA integral",
+          "comentários",
+          "baseline do canal"
+        ],
+        "needsHumanReview": true
+      },
+      "comparison": {
+        "level": 2,
+        "group": "quadro recorrente de balanço e curadoria mensal",
+        "referenceIds": [
+          "obs-20260827-057"
+        ],
+        "confidence": "medium"
+      },
+      "observations": [
+        "A abertura transcrita anuncia o encerramento do mês e a sequência do vídeo: leituras concluídas e novidades que chegaram às estantes.",
+        "O resumo secundário registra vereditos diferenciados: uma leitura acolhedora, outra boa e outra decepcionante apesar do final.",
+        "Há continuidade com projetos e séries do canal, incluindo leitura anual e retomada de quadrinhos, mangás e filmes."
+      ],
+      "interpretations": [
+        "Uma arquitetura recorrente pode orientar público fiel e acumular confiança por consistência de julgamento.",
+        "Vereditos contrastantes reduzem a impressão de recomendação indiscriminada, mas a abertura ritual pode ser lenta para público frio."
+      ],
+      "scores": {
+        "gancho": 74,
+        "clareza": 90,
+        "relevancia": 84,
+        "desejo": 73,
+        "confianca": 88,
+        "retencao": "not_assessed",
+        "acao": "not_assessed",
+        "objecoes": 76
+      },
+      "fiveLenses": {
+        "apressado": "A promessa semântica é legível no título e no início transcrito; a execução audiovisual não foi mensurada.",
+        "analitico": "Encontra estrutura e exemplos no material textual, mas faltam fontes primárias completas, comentários e dados de retenção.",
+        "aspiracional": "A transformação ou recompensa declarada é compreensível; sua força visual não foi avaliada.",
+        "comunidade": "Há potencial de identificação no tema, mas participação e comentários não ficaram acessíveis.",
+        "cetico": "Popularidade e resumo secundário não provam causalidade; vínculo comercial e distribuição permanecem indeterminados."
+      },
+      "hypotheses": [
+        "Em quadro recorrente de curadoria, anunciar a pauta finita e oferecer vereditos contrastantes pode combinar orientação para seguidores e credibilidade editorial."
+      ],
+      "replicable": [
+        "Abrir com agenda curta e previsível.",
+        "Distinguir recomendação, ressalva e decepção com critérios específicos."
+      ],
+      "limitations": [
+        "A ordem completa dos blocos e o tempo até o primeiro veredito não foram medidos.",
+        "CTA, descrição, possíveis links comerciais, comentários e retenção não ficaram acessíveis."
+      ],
+      "provenance": [
+        "public_content",
+        "secondary_transcript",
+        "secondary_public_metric",
+        "observatory_inference"
+      ],
+      "sourceEvidence": [
+        "https://www.youtube.com/watch?v=HCJ08kyM3r8",
+        "https://glasp.co/youtube/HCJ08kyM3r8"
+      ],
+      "training": {
+        "replicable": [
+          "Abrir com agenda curta e previsível.",
+          "Distinguir recomendação, ressalva e decepção com critérios específicos."
+        ],
+        "contingent": [
+          "histórico do canal",
+          "distribuição algorítmica",
+          "familiaridade prévia do público",
+          "qualidade audiovisual não observada"
+        ],
+        "notRecommended": [
+          "copiar frases ou roteiro",
+          "tratar visualizações como prova causal",
+          "inferir cena, áudio, ritmo ou retenção"
+        ],
+        "hypotheses": [
+          "Em quadro recorrente de curadoria, anunciar a pauta finita e oferecer vereditos contrastantes pode combinar orientação para seguidores e credibilidade editorial."
+        ]
+      },
+      "viralAssessment": {
+        "status": "indeterminate",
+        "observedSignal": "visualizações públicas indexadas sem baseline comparável",
+        "missingForRelativeAssessment": [
+          "média recente do canal",
+          "velocidade inicial",
+          "impressões",
+          "retenção",
+          "fontes de tráfego"
+        ],
+        "confounders": [
+          "tamanho e histórico do canal",
+          "idade da publicação",
+          "tema",
+          "distribuição"
+        ],
+        "causalClaimAllowed": false
+      }
+    },
+    {
+      "id": "obs-20260827-059",
+      "title": "Como criar um cérebro comestível para o Halloween",
+      "creator": "Manual do Mundo",
+      "country": "BR",
+      "url": "https://www.youtube.com/watch?v=5JfrS_yuKPE",
+      "publishedAt": "2014-10-23",
+      "duration": "não acessível",
+      "createdAt": "2026-08-27T11:47:26.000Z",
+      "coverage": {
+        "level": "partial",
+        "accessible": [
+          "título",
+          "identidade do criador",
+          "data de publicação",
+          "visualizações indexadas",
+          "miniatura/player incorporado sem inspeção quadro a quadro",
+          "trecho de transcrição automática",
+          "resumo e pontos centrais derivados da transcrição"
+        ],
+        "missing": [
+          "vídeo integral reproduzível",
+          "imagem quadro a quadro",
+          "áudio efetivamente ouvido",
+          "transcrição integral auditada",
+          "texto na tela",
+          "descrição original completa",
+          "curtidas",
+          "comentários individuais",
+          "retenção",
+          "origem da distribuição",
+          "mídia paga e conversão"
+        ]
+      },
+      "publicMetrics": {
+        "viewsObserved": "3,3 milhões",
+        "observedAt": "2026-08-27",
+        "sourceType": "secondary_indexed_source",
+        "causality": "not_inferred"
+      },
+      "classification": {
+        "taxonomyVersion": "3.0",
+        "container": "youtube_video",
+        "materialFormat": "video_longo",
+        "presentationFormats": [
+          "tutorial",
+          "demonstracao",
+          "camera_direta"
+        ],
+        "primaryFamily": "demonstracao",
+        "secondaryFamilies": [
+          "educativo",
+          "entretenimento"
+        ],
+        "functionalMix": [
+          {
+            "family": "demonstracao",
+            "percentage": 60
+          },
+          {
+            "family": "educativo",
+            "percentage": 25
+          },
+          {
+            "family": "entretenimento",
+            "percentage": 15
+          }
+        ],
+        "objectives": [
+          "educar",
+          "retencao",
+          "compartilhamento",
+          "salvamento"
+        ],
+        "advertisingType": "indeterminado",
+        "commercialIntent": "indeterminada",
+        "advertisedEntity": {
+          "kind": "indeterminado",
+          "name": "",
+          "confidence": "low"
+        },
+        "contentTopic": {
+          "label": "receita temática de Halloween com transformação visual",
+          "iabCode": null
+        },
+        "segment": "culinária criativa e faça você mesmo",
+        "subsegment": "receita temática de Halloween com transformação visual",
+        "probableAudience": "famílias, jovens e pessoas interessadas em receitas temáticas e projetos manuais",
+        "awarenessStage": "consciente_solucao",
+        "productionLevel": "intermediate",
+        "creatorScale": "unknown",
+        "replicability": "high",
+        "durationBand": "unknown",
+        "pace": "unknown",
+        "mechanisms": [
+          "curiosidade",
+          "surpresa",
+          "recompensa",
+          "desejo"
+        ],
+        "hookTypes": [],
+        "narrativeElements": [],
+        "proofTypes": [
+          "transcrição_secundária_parcial"
+        ],
+        "ctaTypes": [],
+        "distributionContext": {
+          "organicPaid": "unknown",
+          "trendDependency": "unknown"
+        },
+        "confidence": "medium",
+        "evidence": [
+          "O início transcrito promete mostrar um cérebro comestível e imediatamente nomeia materiais simples.",
+          "A base usa panetone com bolo apresentado como substituto; marshmallow moldado cria os sulcos e corantes formam o acabamento temático.",
+          "O resumo indica progressão do objeto-base até o resultado visual final e ligação com uma série de Halloween."
+        ],
+        "alternativeClassifications": [],
+        "missingInformation": [
+          "duração",
+          "ritmo",
+          "retenção",
+          "CTA integral",
+          "comentários",
+          "baseline do canal"
+        ],
+        "needsHumanReview": true
+      },
+      "comparison": {
+        "level": 2,
+        "group": "tutorial culinário de transformação visual com materiais substituíveis",
+        "referenceIds": [
+          "obs-20260826-052",
+          "obs-20260823-001"
+        ],
+        "confidence": "medium"
+      },
+      "observations": [
+        "O início transcrito promete mostrar um cérebro comestível e imediatamente nomeia materiais simples.",
+        "A base usa panetone com bolo apresentado como substituto; marshmallow moldado cria os sulcos e corantes formam o acabamento temático.",
+        "O resumo indica progressão do objeto-base até o resultado visual final e ligação com uma série de Halloween."
+      ],
+      "interpretations": [
+        "Resultado visual incomum mais materiais reconhecíveis pode combinar curiosidade e percepção de viabilidade.",
+        "Oferecer substituição funcional pode reduzir objeção de disponibilidade sem comprometer a transformação central."
+      ],
+      "scores": {
+        "gancho": 91,
+        "clareza": 94,
+        "relevancia": 86,
+        "desejo": 88,
+        "confianca": 80,
+        "retencao": "not_assessed",
+        "acao": "not_assessed",
+        "objecoes": 82
+      },
+      "fiveLenses": {
+        "apressado": "A promessa semântica é legível no título e no início transcrito; a execução audiovisual não foi mensurada.",
+        "analitico": "Encontra estrutura e exemplos no material textual, mas faltam fontes primárias completas, comentários e dados de retenção.",
+        "aspiracional": "A transformação ou recompensa declarada é compreensível; sua força visual não foi avaliada.",
+        "comunidade": "Há potencial de identificação no tema, mas participação e comentários não ficaram acessíveis.",
+        "cetico": "Popularidade e resumo secundário não provam causalidade; vínculo comercial e distribuição permanecem indeterminados."
+      },
+      "hypotheses": [
+        "Em tutorial culinário temático, apresentar o resultado incomum e alternativas de materiais antes das etapas pode elevar clareza e replicabilidade percebida."
+      ],
+      "replicable": [
+        "Mostrar o resultado-alvo e decompor a transformação em materiais comuns.",
+        "Oferecer substitutos funcionais e explicitar o acabamento final."
+      ],
+      "limitations": [
+        "A publicação é antiga e não atende à preferência de recência; foi escolhida pela transcrição e pela família priorizada na watchlist.",
+        "Execução visual, segurança alimentar, áudio, ritmo, CTA e comentários não foram auditados."
+      ],
+      "provenance": [
+        "public_content",
+        "secondary_transcript",
+        "secondary_public_metric",
+        "observatory_inference"
+      ],
+      "sourceEvidence": [
+        "https://www.youtube.com/watch?v=5JfrS_yuKPE",
+        "https://glasp.co/youtube/5JfrS_yuKPE"
+      ],
+      "training": {
+        "replicable": [
+          "Mostrar o resultado-alvo e decompor a transformação em materiais comuns.",
+          "Oferecer substitutos funcionais e explicitar o acabamento final."
+        ],
+        "contingent": [
+          "histórico do canal",
+          "distribuição algorítmica",
+          "familiaridade prévia do público",
+          "qualidade audiovisual não observada"
+        ],
+        "notRecommended": [
+          "copiar frases ou roteiro",
+          "tratar visualizações como prova causal",
+          "inferir cena, áudio, ritmo ou retenção"
+        ],
+        "hypotheses": [
+          "Em tutorial culinário temático, apresentar o resultado incomum e alternativas de materiais antes das etapas pode elevar clareza e replicabilidade percebida."
+        ]
+      },
+      "viralAssessment": {
+        "status": "indeterminate",
+        "observedSignal": "visualizações públicas indexadas sem baseline comparável",
+        "missingForRelativeAssessment": [
+          "média recente do canal",
+          "velocidade inicial",
+          "impressões",
+          "retenção",
+          "fontes de tráfego"
+        ],
+        "confounders": [
+          "tamanho e histórico do canal",
+          "idade da publicação",
+          "tema",
+          "distribuição"
+        ],
+        "causalClaimAllowed": false
+      }
+    },
+    {
+      "id": "obs-20260827-060",
+      "title": "Learn Everything About the Brush in Affinity by Canva",
+      "creator": "qookgraphix",
+      "country": "NG",
+      "url": "https://www.youtube.com/watch?v=rvDBOrRgFCQ",
+      "publishedAt": "2026-01-12",
+      "duration": "não acessível",
+      "createdAt": "2026-08-27T11:47:26.000Z",
+      "coverage": {
+        "level": "partial",
+        "accessible": [
+          "título",
+          "identidade do criador",
+          "data de publicação",
+          "visualizações indexadas",
+          "miniatura/player incorporado sem inspeção quadro a quadro",
+          "trecho de transcrição automática",
+          "resumo e pontos centrais derivados da transcrição"
+        ],
+        "missing": [
+          "vídeo integral reproduzível",
+          "imagem quadro a quadro",
+          "áudio efetivamente ouvido",
+          "transcrição integral auditada",
+          "texto na tela",
+          "descrição original completa",
+          "curtidas",
+          "comentários individuais",
+          "retenção",
+          "origem da distribuição",
+          "mídia paga e conversão"
+        ]
+      },
+      "publicMetrics": {
+        "viewsObserved": "3,3 mil",
+        "observedAt": "2026-08-27",
+        "sourceType": "secondary_indexed_source",
+        "causality": "not_inferred"
+      },
+      "classification": {
+        "taxonomyVersion": "3.0",
+        "container": "youtube_video",
+        "materialFormat": "video_longo",
+        "presentationFormats": [
+          "tutorial",
+          "tela_gravada",
+          "demonstracao"
+        ],
+        "primaryFamily": "demonstracao",
+        "secondaryFamilies": [
+          "educativo",
+          "venda_indireta"
+        ],
+        "functionalMix": [
+          {
+            "family": "demonstracao",
+            "percentage": 60
+          },
+          {
+            "family": "educativo",
+            "percentage": 25
+          },
+          {
+            "family": "venda_indireta",
+            "percentage": 15
+          }
+        ],
+        "objectives": [
+          "educar",
+          "autoridade",
+          "salvamento",
+          "apresentar_solucao"
+        ],
+        "advertisingType": "indeterminado",
+        "commercialIntent": "indeterminada",
+        "advertisedEntity": {
+          "kind": "software",
+          "name": "Affinity by Canva",
+          "confidence": "medium"
+        },
+        "contentTopic": {
+          "label": "pincéis no Affinity by Canva",
+          "iabCode": null
+        },
+        "segment": "design gráfico e software criativo",
+        "subsegment": "pincéis no Affinity by Canva",
+        "probableAudience": "designers e usuários de Affinity que querem reproduzir um efeito ou entender pincéis",
+        "awarenessStage": "consciente_produto",
+        "productionLevel": "simple",
+        "creatorScale": "unknown",
+        "replicability": "high",
+        "durationBand": "unknown",
+        "pace": "unknown",
+        "mechanisms": [
+          "recompensa",
+          "confiança",
+          "curiosidade"
+        ],
+        "hookTypes": [],
+        "narrativeElements": [],
+        "proofTypes": [
+          "transcrição_secundária_parcial"
+        ],
+        "ctaTypes": [],
+        "distributionContext": {
+          "organicPaid": "unknown",
+          "trendDependency": "unknown"
+        },
+        "confidence": "medium",
+        "evidence": [
+          "O trecho transcrito anuncia que o vídeo examinará pincéis no Affinity e usa um design específico como problema central.",
+          "O criador relata que pessoas perguntaram onde conseguiu certo pincel e esclarece que utilizou um pincel padrão.",
+          "A promessa é tratar o tema de pincéis de forma abrangente, partindo de uma dúvida concreta."
+        ],
+        "alternativeClassifications": [],
+        "missingInformation": [
+          "duração",
+          "ritmo",
+          "retenção",
+          "CTA integral",
+          "comentários",
+          "baseline do canal"
+        ],
+        "needsHumanReview": true
+      },
+      "comparison": {
+        "level": 2,
+        "group": "tutorial de software motivado por dúvida real da audiência",
+        "referenceIds": [
+          "obs-20260824-021",
+          "obs-20260824-022",
+          "obs-20260824-023"
+        ],
+        "confidence": "medium"
+      },
+      "observations": [
+        "O trecho transcrito anuncia que o vídeo examinará pincéis no Affinity e usa um design específico como problema central.",
+        "O criador relata que pessoas perguntaram onde conseguiu certo pincel e esclarece que utilizou um pincel padrão.",
+        "A promessa é tratar o tema de pincéis de forma abrangente, partindo de uma dúvida concreta."
+      ],
+      "interpretations": [
+        "Responder uma pergunta recorrente e desfazer cedo a hipótese de ferramenta especial pode reduzir fricção de busca e custo percebido.",
+        "A promessa abrangente pode aumentar utilidade, mas também risco de dispersão; duração e progressão não foram mensuradas."
+      ],
+      "scores": {
+        "gancho": 84,
+        "clareza": 88,
+        "relevancia": 87,
+        "desejo": 76,
+        "confianca": 79,
+        "retencao": "not_assessed",
+        "acao": "not_assessed",
+        "objecoes": 75
+      },
+      "fiveLenses": {
+        "apressado": "A promessa semântica é legível no título e no início transcrito; a execução audiovisual não foi mensurada.",
+        "analitico": "Encontra estrutura e exemplos no material textual, mas faltam fontes primárias completas, comentários e dados de retenção.",
+        "aspiracional": "A transformação ou recompensa declarada é compreensível; sua força visual não foi avaliada.",
+        "comunidade": "Há potencial de identificação no tema, mas participação e comentários não ficaram acessíveis.",
+        "cetico": "Popularidade e resumo secundário não provam causalidade; vínculo comercial e distribuição permanecem indeterminados."
+      },
+      "hypotheses": [
+        "Em tutorial de software, começar por uma dúvida real da audiência e revelar que o resultado usa recurso padrão pode elevar relevância e reduzir a objeção de ferramenta extra."
+      ],
+      "replicable": [
+        "Converter pergunta recorrente em problema demonstrável.",
+        "Esclarecer cedo se o recurso é padrão, gratuito ou adicional."
+      ],
+      "limitations": [
+        "Somente o começo da transcrição foi exposto; resultado, etapas, tela, CTA e comentários não foram auditados.",
+        "Não há baseline do canal nem evidência de que o título causou as visualizações."
+      ],
+      "provenance": [
+        "public_content",
+        "secondary_transcript",
+        "secondary_public_metric",
+        "observatory_inference"
+      ],
+      "sourceEvidence": [
+        "https://www.youtube.com/watch?v=rvDBOrRgFCQ",
+        "https://glasp.co/youtube/rvDBOrRgFCQ"
+      ],
+      "training": {
+        "replicable": [
+          "Converter pergunta recorrente em problema demonstrável.",
+          "Esclarecer cedo se o recurso é padrão, gratuito ou adicional."
+        ],
+        "contingent": [
+          "histórico do canal",
+          "distribuição algorítmica",
+          "familiaridade prévia do público",
+          "qualidade audiovisual não observada"
+        ],
+        "notRecommended": [
+          "copiar frases ou roteiro",
+          "tratar visualizações como prova causal",
+          "inferir cena, áudio, ritmo ou retenção"
+        ],
+        "hypotheses": [
+          "Em tutorial de software, começar por uma dúvida real da audiência e revelar que o resultado usa recurso padrão pode elevar relevância e reduzir a objeção de ferramenta extra."
+        ]
+      },
+      "viralAssessment": {
+        "status": "indeterminate",
+        "observedSignal": "visualizações públicas indexadas sem baseline comparável",
+        "missingForRelativeAssessment": [
+          "média recente do canal",
+          "velocidade inicial",
+          "impressões",
+          "retenção",
+          "fontes de tráfego"
+        ],
+        "confounders": [
+          "tamanho e histórico do canal",
+          "idade da publicação",
+          "tema",
+          "distribuição"
+        ],
+        "causalClaimAllowed": false
+      }
     }
   ],
   "patterns": [
@@ -13513,6 +14619,51 @@
         "obs-20260826-055"
       ],
       "reasonNotPromoted": "Uma única abertura transcrita e ausência de retenção, comentários, leads e comparação experimental."
+    },
+    {
+      "id": "hyp-20260827-025",
+      "statement": "Em aula sobre criatividade, uma aparente contradição seguida de distinção ética e práticas concretas pode gerar curiosidade sem normalizar cópia superficial.",
+      "status": "observed_not_promoted",
+      "supportReferenceIds": [
+        "obs-20260827-056"
+      ],
+      "reasonNotPromoted": "Uma referência, transcrição parcial e ausência de retenção ou teste comparável."
+    },
+    {
+      "id": "hyp-20260827-026",
+      "statement": "Em resenha cultural, um cold open de atualidade pode ampliar identificação quando conduz rapidamente ao tema e à tese da obra, sem depender apenas da notícia.",
+      "status": "observed_not_promoted",
+      "supportReferenceIds": [
+        "obs-20260827-057"
+      ],
+      "reasonNotPromoted": "Uma referência e nenhum teste do cold open contra uma abertura direta."
+    },
+    {
+      "id": "hyp-20260827-027",
+      "statement": "Em quadro recorrente de curadoria, anunciar a pauta finita e oferecer vereditos contrastantes pode combinar orientação para seguidores e credibilidade editorial.",
+      "status": "observed_not_promoted",
+      "supportReferenceIds": [
+        "obs-20260827-058"
+      ],
+      "reasonNotPromoted": "Uma referência; comportamento de recorrentes e público frio não foi mensurado."
+    },
+    {
+      "id": "hyp-20260827-028",
+      "statement": "Em tutorial culinário temático, apresentar o resultado incomum e alternativas de materiais antes das etapas pode elevar clareza e replicabilidade percebida.",
+      "status": "observed_not_promoted",
+      "supportReferenceIds": [
+        "obs-20260827-059"
+      ],
+      "reasonNotPromoted": "Uma referência antiga do mesmo ecossistema já presente; sem retenção ou comparação independente."
+    },
+    {
+      "id": "hyp-20260827-029",
+      "statement": "Em tutorial de software, começar por uma dúvida real da audiência e revelar que o resultado usa recurso padrão pode elevar relevância e reduzir a objeção de ferramenta extra.",
+      "status": "observed_not_promoted",
+      "supportReferenceIds": [
+        "obs-20260827-060"
+      ],
+      "reasonNotPromoted": "Uma referência, trecho inicial de transcrição e ausência de execução visual auditada."
     }
   ],
   "contradictions": [
@@ -14049,6 +15200,74 @@
         "O cache do Edu LabTec apresentou snapshots divergentes e foi registrado como faixa, não valor exato.",
         "Sinais relativos de Jucenha, Isaque e Mundos Reimaginados não provam viralidade nem causalidade.",
         "Duas hipóteses ganharam segundo apoio; nenhuma chegou a três apoios independentes comparáveis.",
+        "Nenhum dado foi misturado aos cérebros sintéticos ou ao futuro Freud."
+      ]
+    },
+    {
+      "id": "run-20260827-supervised-008",
+      "executedAt": "2026-08-27T11:47:26.000Z",
+      "requestedBatchSize": 5,
+      "candidatesFound": 5,
+      "discarded": [],
+      "analyzed": 5,
+      "brazilianReferences": 4,
+      "internationalReferences": 1,
+      "replicableReferences": 5,
+      "coverageSummary": {
+        "complete": 0,
+        "partial": 5,
+        "insufficient": 0
+      },
+      "familiesCovered": [
+        "educativo",
+        "autoridade_opiniao",
+        "curiosidade",
+        "storytelling",
+        "humor",
+        "comunidade",
+        "demonstracao",
+        "entretenimento",
+        "venda_indireta"
+      ],
+      "segmentsCovered": [
+        "produção audiovisual e criatividade",
+        "literatura e cultura",
+        "literatura e leitura",
+        "culinária criativa e faça você mesmo",
+        "design gráfico e software criativo"
+      ],
+      "sourcesUsed": [
+        "https://www.youtube.com/watch?v=IkUH5VTpp6o",
+        "https://glasp.co/youtube/IkUH5VTpp6o",
+        "https://www.youtube.com/watch?v=kn6pxCKUpiw",
+        "https://glasp.co/youtube/kn6pxCKUpiw",
+        "https://www.youtube.com/watch?v=HCJ08kyM3r8",
+        "https://glasp.co/youtube/HCJ08kyM3r8",
+        "https://www.youtube.com/watch?v=5JfrS_yuKPE",
+        "https://glasp.co/youtube/5JfrS_yuKPE",
+        "https://www.youtube.com/watch?v=rvDBOrRgFCQ",
+        "https://glasp.co/youtube/rvDBOrRgFCQ"
+      ],
+      "patternsCreated": [],
+      "patternsStrengthened": [],
+      "hypothesesCreated": [
+        "hyp-20260827-025",
+        "hyp-20260827-026",
+        "hyp-20260827-027",
+        "hyp-20260827-028",
+        "hyp-20260827-029"
+      ],
+      "hypothesesStrengthened": [],
+      "validatedPatternsCreated": 0,
+      "contradictionsFound": [],
+      "nextTarget": "vídeo curto brasileiro de pequeno criador com reprodução audiovisual integral, publicidade identificada, CTA e comentários acessíveis, além de baseline recente do próprio perfil",
+      "limitations": [
+        "Nenhuma das cinco referências permitiu reprodução audiovisual integral no ambiente; todas foram ensinadas apenas por metadados, trecho de transcrição e resumo secundário.",
+        "Imagem em movimento, áudio efetivamente ouvido, texto na tela, duração, ritmo, montagem e retenção permaneceram não mensurados.",
+        "Curtidas, comentários individuais, descrição original completa, disclosure e origem da distribuição não ficaram acessíveis.",
+        "O caso do Manual do Mundo é antigo e foi incluído pela cobertura textual e pela família da watchlist, não por recência.",
+        "Visualizações absolutas foram registradas como contexto e não como prova de viralidade ou causalidade.",
+        "Cinco hipóteses isoladas foram criadas; nenhuma chegou a três apoios independentes comparáveis e nenhum padrão foi promovido.",
         "Nenhum dado foi misturado aos cérebros sintéticos ou ao futuro Freud."
       ]
     }
