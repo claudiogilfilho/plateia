@@ -1,6 +1,6 @@
 {
   "protocol": "plateia-memory/1.0",
-  "updatedAt": "2026-08-27T11:47:26.000Z",
+  "updatedAt": "2026-08-28T11:43:35.000Z",
   "references": [
     {
       "id": "obs-20260823-001",
@@ -14006,6 +14006,1161 @@
         ],
         "causalClaimAllowed": false
       }
+    },
+    {
+      "id": "obs-20260828-061",
+      "title": "O 7 de setembro que insistem em apagar da história do Brasil",
+      "creator": "Valdirene Ambiel",
+      "country": "BR",
+      "url": "https://www.youtube.com/watch?v=oXXOUXSyjF0",
+      "publishedAt": "não acessível",
+      "duration": "não acessível",
+      "createdAt": "2026-08-28T11:43:35.000Z",
+      "coverage": {
+        "level": "partial",
+        "accessible": [
+          "título",
+          "identidade da criadora",
+          "descrição indexada",
+          "métricas públicas aproximadas em snapshot de busca",
+          "perfil público e credenciais da criadora"
+        ],
+        "missing": [
+          "vídeo integral reproduzível",
+          "imagem em movimento e cenas",
+          "áudio efetivamente ouvido",
+          "texto na tela",
+          "ritmo e montagem",
+          "retenção",
+          "comentários individuais",
+          "origem da distribuição",
+          "mídia paga e conversão",
+          "transcrição",
+          "data exata de publicação",
+          "fontes históricas utilizadas no vídeo",
+          "descrição original integral"
+        ]
+      },
+      "publicMetrics": {
+        "viewsObserved": "aprox. 434",
+        "likesObserved": "aprox. 74",
+        "observedAt": "2026-08-28",
+        "sourceType": "public_search_snapshot",
+        "causality": "not_inferred"
+      },
+      "classification": {
+        "taxonomyVersion": "3.0",
+        "container": "youtube_video",
+        "materialFormat": "video_longo",
+        "presentationFormats": [
+          "fala_para_camera",
+          "storytelling",
+          "explicacao"
+        ],
+        "primaryFamily": "storytelling",
+        "secondaryFamilies": [
+          "educativo",
+          "curiosidade"
+        ],
+        "functionalMix": [
+          {
+            "family": "storytelling",
+            "percentage": 55
+          },
+          {
+            "family": "educativo",
+            "percentage": 30
+          },
+          {
+            "family": "curiosidade",
+            "percentage": 15
+          }
+        ],
+        "objectives": [
+          "educar",
+          "curiosidade",
+          "autoridade"
+        ],
+        "advertisingType": "indeterminado",
+        "commercialIntent": "indeterminada",
+        "advertisedEntity": {
+          "kind": "none_observed",
+          "name": null,
+          "confidence": "low"
+        },
+        "contentTopic": {
+          "label": "Independência do Brasil e 7 de Setembro",
+          "iabCode": null
+        },
+        "segment": "história do Brasil",
+        "subsegment": "Independência do Brasil",
+        "probableAudience": "público interessado em história brasileira e revisão de narrativas escolares",
+        "awarenessStage": "consciente_problema",
+        "productionLevel": "simple",
+        "creatorScale": "unknown",
+        "replicability": "high",
+        "durationBand": "unknown",
+        "pace": "unknown",
+        "mechanisms": [
+          "curiosidade",
+          "contraste",
+          "autoridade"
+        ],
+        "hookTypes": [
+          "crenca_familiar_mais_contradicao"
+        ],
+        "narrativeElements": [
+          "versao_conhecida",
+          "promessa_de_correcao"
+        ],
+        "proofTypes": [
+          "credencial_da_criadora"
+        ],
+        "ctaTypes": [],
+        "distributionContext": {
+          "organicPaid": "unknown",
+          "trendDependency": "unknown"
+        },
+        "confidence": "medium",
+        "evidence": [
+          "O título parte do 7 de Setembro conhecido e afirma que parte da história é apagada.",
+          "A descrição indexada diz que o que foi aprendido sobre 1822 seria apenas metade do ocorrido e promete detalhes adicionais.",
+          "Perfis públicos identificam Valdirene Ambiel como historiadora, arqueóloga e pesquisadora; as fontes históricas do vídeo não ficaram acessíveis."
+        ],
+        "alternativeClassifications": [],
+        "missingInformation": [
+          "duração",
+          "transcrição",
+          "fontes históricas",
+          "ritmo",
+          "retenção",
+          "CTA",
+          "baseline do canal"
+        ],
+        "needsHumanReview": true
+      },
+      "comparison": {
+        "level": 2,
+        "group": "storytelling educativo de história com versão familiar seguida de contradição explícita",
+        "referenceIds": [
+          "obs-20260824-039",
+          "obs-20260826-054"
+        ],
+        "confidence": "medium"
+      },
+      "observations": [
+        "O título parte do 7 de Setembro conhecido e afirma que parte da história é apagada.",
+        "A descrição indexada diz que o que foi aprendido sobre 1822 seria apenas metade do ocorrido e promete detalhes adicionais.",
+        "Perfis públicos identificam Valdirene Ambiel como historiadora, arqueóloga e pesquisadora; as fontes históricas do vídeo não ficaram acessíveis."
+      ],
+      "interpretations": [
+        "A oposição entre versão escolar familiar e correção prometida é funcionalmente comparável aos dois apoios anteriores da hipótese.",
+        "A credencial aumenta plausibilidade percebida, mas não substitui fontes; o verbo 'apagar' eleva o custo de prova."
+      ],
+      "scores": {
+        "gancho": 86,
+        "clareza": 84,
+        "relevancia": 82,
+        "desejo": 79,
+        "confianca": "not_assessed",
+        "retencao": "not_assessed",
+        "acao": "not_assessed",
+        "objecoes": "not_assessed"
+      },
+      "fiveLenses": {
+        "apressado": "O assunto e a contradição são entendidos apenas pelo título.",
+        "analitico": "Faltam transcrição e fontes históricas para auditar a correção.",
+        "aspiracional": "A promessa de compreender uma versão mais completa é explícita.",
+        "comunidade": "O tema nacional favorece repertório compartilhado; comentários não foram acessados.",
+        "cetico": "Alegar apagamento exige evidência maior do que a cobertura disponível."
+      },
+      "hypotheses": [
+        "Em storytelling histórico, partir de uma versão escolar familiar e anunciar uma correção específica pode abrir uma lacuna de conhecimento sem ocultar o tema."
+      ],
+      "replicable": [
+        "Nomear primeiro a versão conhecida.",
+        "Formular a correção de modo delimitado e apresentar fontes verificáveis."
+      ],
+      "limitations": [
+        "Não foi possível verificar o conteúdo histórico, as fontes nem a execução audiovisual.",
+        "Métricas aproximadas e sem baseline não permitem inferir desempenho relativo."
+      ],
+      "provenance": [
+        "public_content",
+        "public_search_snapshot",
+        "creator_public_profile",
+        "observatory_inference"
+      ],
+      "sourceEvidence": [
+        "https://www.youtube.com/watch?v=oXXOUXSyjF0",
+        "https://www.youtube.com/c/ValdireneAmbiel",
+        "https://aventurasnahistoria.com.br/noticias/reportagem/conheca-historia-da-arqueologa-valdirene-ambiel.phtml"
+      ],
+      "training": {
+        "replicable": [
+          "Nomear primeiro a versão conhecida.",
+          "Formular a correção de modo delimitado e apresentar fontes verificáveis."
+        ],
+        "contingent": [
+          "autoridade percebida da criadora",
+          "qualidade e visibilidade das fontes",
+          "contexto histórico do público"
+        ],
+        "notRecommended": [
+          "copiar frases, personagens ou roteiro",
+          "tratar popularidade como prova causal",
+          "inferir cenas, áudio, ritmo ou retenção ausentes"
+        ],
+        "hypotheses": [
+          "Em storytelling histórico, partir de uma versão escolar familiar e anunciar uma correção específica pode abrir uma lacuna de conhecimento sem ocultar o tema."
+        ]
+      },
+      "viralAssessment": {
+        "status": "indeterminate",
+        "observedSignal": "snapshot público com poucas centenas de visualizações, sem baseline comparável",
+        "missingForRelativeAssessment": [
+          "baseline recente do criador",
+          "velocidade inicial",
+          "impressões",
+          "retenção",
+          "fontes de tráfego"
+        ],
+        "confounders": [
+          "tamanho e histórico do canal",
+          "idade da publicação",
+          "tema",
+          "distribuição"
+        ],
+        "causalClaimAllowed": false
+      }
+    },
+    {
+      "id": "obs-20260828-062",
+      "title": "The real story of Rosa Parks — and why we need to confront myths about Black history",
+      "creator": "David Ikard / TED",
+      "country": "US",
+      "url": "https://www.youtube.com/watch?v=ZkdJGcffe9I",
+      "publishedAt": "2020-02-26",
+      "duration": "PT18M00S",
+      "createdAt": "2026-08-28T11:43:35.000Z",
+      "coverage": {
+        "level": "partial",
+        "accessible": [
+          "título",
+          "criador e publicador",
+          "data de publicação",
+          "duração aproximada em fonte oficial",
+          "visualizações indexadas",
+          "miniatura/player incorporado",
+          "trecho de transcrição",
+          "resumo e pontos centrais derivados da transcrição"
+        ],
+        "missing": [
+          "vídeo integral reproduzível",
+          "imagem em movimento e cenas",
+          "áudio efetivamente ouvido",
+          "texto na tela",
+          "ritmo e montagem",
+          "retenção",
+          "comentários individuais",
+          "origem da distribuição",
+          "mídia paga e conversão",
+          "transcrição integral auditada",
+          "descrição original completa",
+          "curtidas"
+        ]
+      },
+      "publicMetrics": {
+        "viewsObserved": "119,7 mil",
+        "observedAt": "2026-08-28",
+        "sourceType": "secondary_indexed_source",
+        "causality": "not_inferred"
+      },
+      "classification": {
+        "taxonomyVersion": "3.0",
+        "container": "youtube_video",
+        "materialFormat": "video_longo",
+        "presentationFormats": [
+          "palestra",
+          "storytelling",
+          "explicacao"
+        ],
+        "primaryFamily": "storytelling",
+        "secondaryFamilies": [
+          "educativo",
+          "conscientizacao"
+        ],
+        "functionalMix": [
+          {
+            "family": "storytelling",
+            "percentage": 50
+          },
+          {
+            "family": "educativo",
+            "percentage": 35
+          },
+          {
+            "family": "conscientizacao",
+            "percentage": 15
+          }
+        ],
+        "objectives": [
+          "educar",
+          "conscientizacao",
+          "autoridade"
+        ],
+        "advertisingType": "indeterminado",
+        "commercialIntent": "indeterminada",
+        "advertisedEntity": {
+          "kind": "none_observed",
+          "name": null,
+          "confidence": "low"
+        },
+        "contentTopic": {
+          "label": "mitos sobre Rosa Parks e história negra",
+          "iabCode": null
+        },
+        "segment": "história e direitos civis",
+        "subsegment": "história afro-americana",
+        "probableAudience": "educadores e público interessado em história negra e direitos civis",
+        "awarenessStage": "consciente_problema",
+        "productionLevel": "complex",
+        "creatorScale": "unknown",
+        "replicability": "medium",
+        "durationBand": "long",
+        "pace": "unknown",
+        "mechanisms": [
+          "contraste",
+          "autoridade",
+          "identificacao",
+          "tensao"
+        ],
+        "hookTypes": [
+          "historia_pessoal_mais_correcao"
+        ],
+        "narrativeElements": [
+          "experiencia_do_filho",
+          "versao_escolar",
+          "correcao_documentada"
+        ],
+        "proofTypes": [
+          "experiencia_pessoal",
+          "autobiografia_citada_no_resumo"
+        ],
+        "ctaTypes": [],
+        "distributionContext": {
+          "organicPaid": "unknown",
+          "trendDependency": "unknown"
+        },
+        "confidence": "medium",
+        "evidence": [
+          "O trecho transcrito começa com o filho do palestrante trazendo da escola uma versão sobre Rosa Parks que o pai considera incorreta.",
+          "O resumo expõe a correção: Parks não era apenas uma senhora cansada, mas uma ativista enfrentando desigualdade e repressão.",
+          "Título, assunto e correção ficam claros sem esconder a personagem histórica."
+        ],
+        "alternativeClassifications": [],
+        "missingInformation": [
+          "execução audiovisual",
+          "texto na tela",
+          "ritmo",
+          "retenção",
+          "comentários",
+          "baseline comparável"
+        ],
+        "needsHumanReview": true
+      },
+      "comparison": {
+        "level": 2,
+        "group": "storytelling educativo de história com versão familiar seguida de contradição explícita",
+        "referenceIds": [
+          "obs-20260824-039",
+          "obs-20260826-054",
+          "obs-20260828-061"
+        ],
+        "confidence": "medium"
+      },
+      "observations": [
+        "O trecho transcrito começa com o filho do palestrante trazendo da escola uma versão sobre Rosa Parks que o pai considera incorreta.",
+        "O resumo expõe a correção: Parks não era apenas uma senhora cansada, mas uma ativista enfrentando desigualdade e repressão.",
+        "Título, assunto e correção ficam claros sem esconder a personagem histórica."
+      ],
+      "interpretations": [
+        "A história pessoal transforma uma correção historiográfica em conflito concreto e compreensível.",
+        "É o quarto criador comparável a usar versão ensinada seguida de contradição; a cobertura ainda não prova retenção."
+      ],
+      "scores": {
+        "gancho": 88,
+        "clareza": 91,
+        "relevancia": 88,
+        "desejo": 84,
+        "confianca": 86,
+        "retencao": "not_assessed",
+        "acao": "not_assessed",
+        "objecoes": 83
+      },
+      "fiveLenses": {
+        "apressado": "O título e o primeiro conflito transcrito explicam imediatamente o valor.",
+        "analitico": "O resumo aponta uma fonte autobiográfica, mas a transcrição completa não foi auditada.",
+        "aspiracional": "Promete substituir um mito simplificador por compreensão histórica mais precisa.",
+        "comunidade": "O conflito escolar conecta memória coletiva e responsabilidade educacional.",
+        "cetico": "Visualizações e prestígio do TED não demonstram causalidade nem retenção."
+      },
+      "hypotheses": [
+        "Em storytelling histórico, uma experiência concreta de correção de uma narrativa ensinada pode tornar a contradição verificável mais compreensível."
+      ],
+      "replicable": [
+        "Ancorar a correção em uma situação concreta.",
+        "Nomear a versão conhecida e mostrar a evidência que a corrige."
+      ],
+      "limitations": [
+        "Cobertura textual secundária; vídeo e áudio não foram auditados.",
+        "Formato TED e autoridade institucional são contexto, não componentes causais isoláveis."
+      ],
+      "provenance": [
+        "public_content",
+        "secondary_transcript",
+        "secondary_public_metric",
+        "official_speaker_page",
+        "observatory_inference"
+      ],
+      "sourceEvidence": [
+        "https://www.youtube.com/watch?v=ZkdJGcffe9I",
+        "https://glasp.co/youtube/ZkdJGcffe9I",
+        "https://www.ted.com/speakers/david_ikard"
+      ],
+      "training": {
+        "replicable": [
+          "Ancorar a correção em uma situação concreta.",
+          "Nomear a versão conhecida e mostrar a evidência que a corrige."
+        ],
+        "contingent": [
+          "credibilidade do palestrante",
+          "qualidade das fontes históricas",
+          "contexto institucional TED"
+        ],
+        "notRecommended": [
+          "copiar frases, personagens ou roteiro",
+          "tratar popularidade como prova causal",
+          "inferir cenas, áudio, ritmo ou retenção ausentes"
+        ],
+        "hypotheses": [
+          "Em storytelling histórico, uma experiência concreta de correção de uma narrativa ensinada pode tornar a contradição verificável mais compreensível."
+        ]
+      },
+      "viralAssessment": {
+        "status": "indeterminate",
+        "observedSignal": "119,7 mil visualizações indexadas, sem baseline funcionalmente comparável",
+        "missingForRelativeAssessment": [
+          "baseline recente do criador",
+          "velocidade inicial",
+          "impressões",
+          "retenção",
+          "fontes de tráfego"
+        ],
+        "confounders": [
+          "tamanho e histórico do canal",
+          "idade da publicação",
+          "tema",
+          "distribuição"
+        ],
+        "causalClaimAllowed": false
+      }
+    },
+    {
+      "id": "obs-20260828-063",
+      "title": "O BRASIL NÃO FOI DESCOBERTO EM 1.500!",
+      "creator": "Márcio Pichel",
+      "country": "BR",
+      "url": "https://www.youtube.com/watch?v=eLe1URqCPCc",
+      "publishedAt": "não acessível",
+      "duration": "não acessível",
+      "createdAt": "2026-08-28T11:43:35.000Z",
+      "coverage": {
+        "level": "partial",
+        "accessible": [
+          "título",
+          "identidade do criador",
+          "descrição indexada",
+          "contexto comercial público relacionado ao mesmo criador"
+        ],
+        "missing": [
+          "vídeo integral reproduzível",
+          "imagem em movimento e cenas",
+          "áudio efetivamente ouvido",
+          "texto na tela",
+          "ritmo e montagem",
+          "retenção",
+          "comentários individuais",
+          "origem da distribuição",
+          "mídia paga e conversão",
+          "transcrição",
+          "data exata",
+          "duração",
+          "métricas",
+          "fontes históricas utilizadas no vídeo",
+          "descrição original integral"
+        ]
+      },
+      "publicMetrics": {
+        "viewsObserved": "not_measured",
+        "observedAt": "2026-08-28",
+        "sourceType": "public_search_snapshot",
+        "causality": "not_inferred"
+      },
+      "classification": {
+        "taxonomyVersion": "3.0",
+        "container": "youtube_video",
+        "materialFormat": "video_curto",
+        "presentationFormats": [
+          "corte_de_entrevista",
+          "fala_para_camera"
+        ],
+        "primaryFamily": "storytelling",
+        "secondaryFamilies": [
+          "curiosidade",
+          "autoridade_opiniao"
+        ],
+        "functionalMix": [
+          {
+            "family": "storytelling",
+            "percentage": 45
+          },
+          {
+            "family": "curiosidade",
+            "percentage": 35
+          },
+          {
+            "family": "autoridade_opiniao",
+            "percentage": 20
+          }
+        ],
+        "objectives": [
+          "curiosidade",
+          "conscientizacao",
+          "autoridade"
+        ],
+        "advertisingType": "indeterminado",
+        "commercialIntent": "indeterminada",
+        "advertisedEntity": {
+          "kind": "none_observed",
+          "name": null,
+          "confidence": "low"
+        },
+        "contentTopic": {
+          "label": "narrativa do descobrimento do Brasil",
+          "iabCode": null
+        },
+        "segment": "história alternativa e história do Brasil",
+        "subsegment": "chegada europeia ao Brasil",
+        "probableAudience": "público interessado em versões alternativas da história brasileira",
+        "awarenessStage": "consciente_problema",
+        "productionLevel": "simple",
+        "creatorScale": "unknown",
+        "replicability": "high",
+        "durationBand": "unknown",
+        "pace": "unknown",
+        "mechanisms": [
+          "curiosidade",
+          "contraste",
+          "choque"
+        ],
+        "hookTypes": [
+          "negacao_de_crenca_familiar"
+        ],
+        "narrativeElements": [
+          "afirmacao_contraria_ao_ensino_comum"
+        ],
+        "proofTypes": [],
+        "ctaTypes": [],
+        "distributionContext": {
+          "organicPaid": "unknown",
+          "trendDependency": "unknown"
+        },
+        "confidence": "medium",
+        "evidence": [
+          "O título nega que o Brasil tenha sido descoberto em 1500.",
+          "A descrição indexada repete que Cabral não teria descoberto o Brasil, mas não expõe as fontes ou a argumentação.",
+          "Uma página comercial pública ligada ao criador anuncia outras teses históricas extraordinárias; não há evidência acessível de que todas elas apareçam neste vídeo."
+        ],
+        "alternativeClassifications": [],
+        "missingInformation": [
+          "transcrição",
+          "fontes",
+          "data",
+          "duração",
+          "métricas",
+          "ritmo",
+          "retenção",
+          "CTA"
+        ],
+        "needsHumanReview": true
+      },
+      "comparison": {
+        "level": 2,
+        "group": "storytelling histórico com negação de narrativa familiar, usado como caso-limite de verificabilidade",
+        "referenceIds": [
+          "obs-20260828-061",
+          "obs-20260828-062"
+        ],
+        "confidence": "low"
+      },
+      "observations": [
+        "O título nega que o Brasil tenha sido descoberto em 1500.",
+        "A descrição indexada repete que Cabral não teria descoberto o Brasil, mas não expõe as fontes ou a argumentação.",
+        "Uma página comercial pública ligada ao criador anuncia outras teses históricas extraordinárias; não há evidência acessível de que todas elas apareçam neste vídeo."
+      ],
+      "interpretations": [
+        "A negação explícita produz a mesma lacuna de curiosidade das referências de apoio, mas a cobertura é insuficiente para tratá-la como correção verificável.",
+        "Quando a moldura de 'história verdadeira' acompanha alegações extraordinárias sem fontes acessíveis, o mecanismo eleva risco de revisionismo e clickbait."
+      ],
+      "scores": {
+        "gancho": 89,
+        "clareza": 83,
+        "relevancia": 78,
+        "desejo": 82,
+        "confianca": "not_assessed",
+        "retencao": "not_assessed",
+        "acao": "not_assessed",
+        "objecoes": 42
+      },
+      "fiveLenses": {
+        "apressado": "A negação é imediata, mas não oferece prova no material acessível.",
+        "analitico": "A ausência de fontes impede verificar a tese.",
+        "aspiracional": "Promete acesso a uma versão exclusiva da história.",
+        "comunidade": "Pode mobilizar identidade nacional; comentários não foram acessados.",
+        "cetico": "Alegação extraordinária e contexto comercial relacionado aumentam o ônus da prova."
+      },
+      "hypotheses": [
+        "A moldura de 'verdade escondida' pode aumentar curiosidade, mas sem fontes acessíveis reduz confiança e não deve contar como apoio factual ao padrão."
+      ],
+      "replicable": [
+        "Se usar contradição histórica, delimitar a afirmação e exibir fontes desde cedo.",
+        "Separar hipótese, consenso e controvérsia."
+      ],
+      "limitations": [
+        "A análise não endossa nem refuta a tese histórica; apenas registra a insuficiência de cobertura.",
+        "O contexto comercial relacionado não prova o conteúdo deste vídeo."
+      ],
+      "provenance": [
+        "public_content",
+        "public_search_snapshot",
+        "related_public_commercial_context",
+        "observatory_inference"
+      ],
+      "sourceEvidence": [
+        "https://www.youtube.com/watch?v=eLe1URqCPCc",
+        "https://ava.saobrandao.com.br/cursos/a-verdadeira-historia-do-brasil/"
+      ],
+      "training": {
+        "replicable": [
+          "Se usar contradição histórica, delimitar a afirmação e exibir fontes desde cedo.",
+          "Separar hipótese, consenso e controvérsia."
+        ],
+        "contingent": [
+          "qualidade das fontes não acessíveis",
+          "confiança prévia no criador",
+          "contexto comercial"
+        ],
+        "notRecommended": [
+          "copiar frases, personagens ou roteiro",
+          "tratar popularidade como prova causal",
+          "inferir cenas, áudio, ritmo ou retenção ausentes"
+        ],
+        "hypotheses": [
+          "A moldura de 'verdade escondida' pode aumentar curiosidade, mas sem fontes acessíveis reduz confiança e não deve contar como apoio factual ao padrão."
+        ]
+      },
+      "viralAssessment": {
+        "status": "indeterminate",
+        "observedSignal": "métricas não acessíveis",
+        "missingForRelativeAssessment": [
+          "baseline recente do criador",
+          "velocidade inicial",
+          "impressões",
+          "retenção",
+          "fontes de tráfego"
+        ],
+        "confounders": [
+          "tamanho e histórico do canal",
+          "idade da publicação",
+          "tema",
+          "distribuição"
+        ],
+        "causalClaimAllowed": false
+      }
+    },
+    {
+      "id": "obs-20260828-064",
+      "title": "Quais livros chegaram no unboxing de fevereiro?",
+      "creator": "Kabook TV",
+      "country": "BR",
+      "url": "https://www.youtube.com/watch?v=uuyR2iT6MFY",
+      "publishedAt": "2026-03-08",
+      "duration": "não acessível",
+      "createdAt": "2026-08-28T11:43:35.000Z",
+      "coverage": {
+        "level": "partial",
+        "accessible": [
+          "título",
+          "criadora",
+          "data de publicação",
+          "visualizações indexadas",
+          "miniatura/player incorporado",
+          "trecho de transcrição",
+          "resumo detalhado derivado da transcrição",
+          "identificação textual de remetentes de alguns produtos"
+        ],
+        "missing": [
+          "vídeo integral reproduzível",
+          "imagem em movimento e cenas",
+          "áudio efetivamente ouvido",
+          "texto na tela",
+          "ritmo e montagem",
+          "retenção",
+          "comentários individuais",
+          "origem da distribuição",
+          "mídia paga e conversão",
+          "transcrição integral auditada",
+          "duração",
+          "curtidas",
+          "descrição original completa",
+          "termos de recebimento, parceria ou publicidade"
+        ]
+      },
+      "publicMetrics": {
+        "viewsObserved": "13,8 mil",
+        "observedAt": "2026-08-28",
+        "sourceType": "secondary_indexed_source",
+        "causality": "not_inferred"
+      },
+      "classification": {
+        "taxonomyVersion": "3.0",
+        "container": "youtube_video",
+        "materialFormat": "video_longo",
+        "presentationFormats": [
+          "unboxing",
+          "demonstracao",
+          "fala_para_camera"
+        ],
+        "primaryFamily": "comunidade",
+        "secondaryFamilies": [
+          "demonstracao",
+          "autoridade_opiniao",
+          "venda_indireta"
+        ],
+        "functionalMix": [
+          {
+            "family": "comunidade",
+            "percentage": 35
+          },
+          {
+            "family": "demonstracao",
+            "percentage": 35
+          },
+          {
+            "family": "autoridade_opiniao",
+            "percentage": 20
+          },
+          {
+            "family": "venda_indireta",
+            "percentage": 10
+          }
+        ],
+        "objectives": [
+          "comunidade",
+          "descoberta",
+          "autoridade",
+          "apresentar_produto"
+        ],
+        "advertisingType": "indeterminado",
+        "commercialIntent": "indeterminada",
+        "advertisedEntity": {
+          "kind": "none_observed",
+          "name": null,
+          "confidence": "low"
+        },
+        "contentTopic": {
+          "label": "unboxing mensal de livros recebidos",
+          "iabCode": null
+        },
+        "segment": "literatura e leitura",
+        "subsegment": "booktube e lançamentos editoriais",
+        "probableAudience": "leitores interessados em lançamentos, edições e recomendações",
+        "awarenessStage": "consciente_produto",
+        "productionLevel": "simple",
+        "creatorScale": "unknown",
+        "replicability": "high",
+        "durationBand": "unknown",
+        "pace": "unknown",
+        "mechanisms": [
+          "novidade",
+          "comunidade",
+          "confiança",
+          "recompensa"
+        ],
+        "hookTypes": [
+          "ritual_recorrente",
+          "pergunta_direta"
+        ],
+        "narrativeElements": [
+          "compilado_mensal",
+          "descoberta_item_a_item"
+        ],
+        "proofTypes": [
+          "produto_mostrado",
+          "remetente_identificado_no_texto"
+        ],
+        "ctaTypes": [
+          "convite_a_comentar_sobre_capa"
+        ],
+        "distributionContext": {
+          "organicPaid": "unknown",
+          "trendDependency": "unknown"
+        },
+        "confidence": "medium",
+        "evidence": [
+          "O início transcrito apresenta o retorno de um formato recorrente de unboxings mensais e informa a data de gravação.",
+          "O resumo distingue editoras, autores ou remetentes de vários itens e descreve materiais, brindes, premissas e expectativas.",
+          "Ao suspeitar de arte gerada por IA em uma capa, a criadora formula a dúvida como incerteza e abre o tema aos comentários."
+        ],
+        "alternativeClassifications": [],
+        "missingInformation": [
+          "duração",
+          "ritmo",
+          "retenção",
+          "comentários",
+          "disclosure completo",
+          "baseline do canal"
+        ],
+        "needsHumanReview": true
+      },
+      "comparison": {
+        "level": 1,
+        "group": "unboxing literário recorrente com produtos recebidos e opinião inicial",
+        "referenceIds": [],
+        "confidence": "medium"
+      },
+      "observations": [
+        "O início transcrito apresenta o retorno de um formato recorrente de unboxings mensais e informa a data de gravação.",
+        "O resumo distingue editoras, autores ou remetentes de vários itens e descreve materiais, brindes, premissas e expectativas.",
+        "Ao suspeitar de arte gerada por IA em uma capa, a criadora formula a dúvida como incerteza e abre o tema aos comentários."
+      ],
+      "interpretations": [
+        "Ritual recorrente e contexto de recebimento podem reduzir ambiguidade comercial e sustentar comunidade.",
+        "Separar observação material, expectativa de leitura e incerteza preserva confiança melhor do que apresentar impressão inicial como veredito."
+      ],
+      "scores": {
+        "gancho": 76,
+        "clareza": 88,
+        "relevancia": 86,
+        "desejo": 81,
+        "confianca": 85,
+        "retencao": "not_assessed",
+        "acao": 78,
+        "objecoes": 83
+      },
+      "fiveLenses": {
+        "apressado": "Título e abertura deixam claro o ritual e a categoria dos itens.",
+        "analitico": "Há detalhes e remetentes no texto, mas faltam termos completos de recebimento e parceria.",
+        "aspiracional": "A descoberta de livros e edições oferece recompensa de curadoria.",
+        "comunidade": "Formato mensal e convite a comentar favorecem continuidade.",
+        "cetico": "Recebimento de produtos exige disclosure claro; conversão e influência não foram medidas."
+      },
+      "hypotheses": [
+        "Em unboxing recorrente, separar fatos observáveis, expectativas e incertezas pode preservar confiança, especialmente quando a origem dos produtos é contextualizada."
+      ],
+      "replicable": [
+        "Criar um ritual editorial recorrente com escopo explícito.",
+        "Identificar de onde veio cada item.",
+        "Separar descrição, expectativa e opinião provisória."
+      ],
+      "limitations": [
+        "Vídeo e áudio não foram reproduzidos; gestos, cenas, ritmo e retenção não foram avaliados.",
+        "A identificação textual de remetentes não permite concluir se houve publicidade ou obrigação contratual."
+      ],
+      "provenance": [
+        "public_content",
+        "secondary_transcript",
+        "secondary_public_metric",
+        "observatory_inference"
+      ],
+      "sourceEvidence": [
+        "https://www.youtube.com/watch?v=uuyR2iT6MFY",
+        "https://glasp.co/youtube/uuyR2iT6MFY"
+      ],
+      "training": {
+        "replicable": [
+          "Criar um ritual editorial recorrente com escopo explícito.",
+          "Identificar de onde veio cada item.",
+          "Separar descrição, expectativa e opinião provisória."
+        ],
+        "contingent": [
+          "relação prévia com a comunidade",
+          "acesso a lançamentos",
+          "clareza do disclosure"
+        ],
+        "notRecommended": [
+          "copiar frases, personagens ou roteiro",
+          "tratar popularidade como prova causal",
+          "inferir cenas, áudio, ritmo ou retenção ausentes"
+        ],
+        "hypotheses": [
+          "Em unboxing recorrente, separar fatos observáveis, expectativas e incertezas pode preservar confiança, especialmente quando a origem dos produtos é contextualizada."
+        ]
+      },
+      "viralAssessment": {
+        "status": "indeterminate",
+        "observedSignal": "13,8 mil visualizações indexadas, sem baseline recente do canal",
+        "missingForRelativeAssessment": [
+          "baseline recente do criador",
+          "velocidade inicial",
+          "impressões",
+          "retenção",
+          "fontes de tráfego"
+        ],
+        "confounders": [
+          "tamanho e histórico do canal",
+          "idade da publicação",
+          "tema",
+          "distribuição"
+        ],
+        "causalClaimAllowed": false
+      }
+    },
+    {
+      "id": "obs-20260828-065",
+      "title": "Soroterapia: promessas vazias de beleza e bem-estar",
+      "creator": "Drauzio Varella / Portal Drauzio Varella",
+      "country": "BR",
+      "url": "https://drauziovarella.uol.com.br/videos/soroterapia-promessas-vazias-de-beleza-e-bem-estar/",
+      "publishedAt": "2026-08-14",
+      "duration": "não acessível",
+      "createdAt": "2026-08-28T11:43:35.000Z",
+      "coverage": {
+        "level": "partial",
+        "accessible": [
+          "título",
+          "autor",
+          "data de publicação e revisão",
+          "imagem de capa",
+          "descrição oficial",
+          "promessas citadas",
+          "conclusão editorial",
+          "identificação da autoridade"
+        ],
+        "missing": [
+          "vídeo integral reproduzível",
+          "imagem em movimento e cenas",
+          "áudio efetivamente ouvido",
+          "texto na tela",
+          "ritmo e montagem",
+          "retenção",
+          "comentários individuais",
+          "origem da distribuição",
+          "mídia paga e conversão",
+          "transcrição",
+          "duração",
+          "métricas públicas",
+          "curtidas",
+          "descrição audiovisual",
+          "referências científicas específicas na página acessada"
+        ]
+      },
+      "publicMetrics": {
+        "viewsObserved": "not_measured",
+        "observedAt": "2026-08-28",
+        "sourceType": "official_page",
+        "causality": "not_inferred"
+      },
+      "classification": {
+        "taxonomyVersion": "3.0",
+        "container": "publisher_video_page",
+        "materialFormat": "video_curto",
+        "presentationFormats": [
+          "fala_para_camera",
+          "explicacao",
+          "opiniao"
+        ],
+        "primaryFamily": "educativo",
+        "secondaryFamilies": [
+          "autoridade_opiniao",
+          "conscientizacao"
+        ],
+        "functionalMix": [
+          {
+            "family": "educativo",
+            "percentage": 50
+          },
+          {
+            "family": "autoridade_opiniao",
+            "percentage": 30
+          },
+          {
+            "family": "conscientizacao",
+            "percentage": 20
+          }
+        ],
+        "objectives": [
+          "educar",
+          "conscientizacao",
+          "reduzir_objecao"
+        ],
+        "advertisingType": "indeterminado",
+        "commercialIntent": "indeterminada",
+        "advertisedEntity": {
+          "kind": "none_observed",
+          "name": null,
+          "confidence": "low"
+        },
+        "contentTopic": {
+          "label": "riscos e falta de evidência da soroterapia",
+          "iabCode": null
+        },
+        "segment": "saúde pública",
+        "subsegment": "terapias sem evidência",
+        "probableAudience": "público exposto a promessas de beleza, energia, imunidade e bem-estar",
+        "awarenessStage": "consciente_problema",
+        "productionLevel": "simple",
+        "creatorScale": "unknown",
+        "replicability": "high",
+        "durationBand": "unknown",
+        "pace": "unknown",
+        "mechanisms": [
+          "vigilancia",
+          "autoridade",
+          "contraste",
+          "aversao_a_perda"
+        ],
+        "hookTypes": [
+          "promessa_popular_mais_refutacao"
+        ],
+        "narrativeElements": [
+          "lista_de_promessas",
+          "contraste_com_evidencia_e_risco"
+        ],
+        "proofTypes": [
+          "autoridade_medica",
+          "afirmacao_editorial_oficial"
+        ],
+        "ctaTypes": [],
+        "distributionContext": {
+          "organicPaid": "unknown",
+          "trendDependency": "unknown"
+        },
+        "confidence": "medium",
+        "evidence": [
+          "A página oficial lista promessas comuns da soroterapia — energia, imunidade, foco e envelhecimento mais lento — e afirma que a técnica não as cumpre.",
+          "O texto enquadra o tema simultaneamente por falta de evidência e possíveis riscos à saúde.",
+          "A autoria médica é identificada; referências científicas específicas não ficaram expostas na cobertura acessada."
+        ],
+        "alternativeClassifications": [],
+        "missingInformation": [
+          "transcrição",
+          "duração",
+          "métricas",
+          "fontes científicas específicas",
+          "ritmo",
+          "retenção",
+          "CTA"
+        ],
+        "needsHumanReview": true
+      },
+      "comparison": {
+        "level": 2,
+        "group": "explicador de saúde com promessa popular, autoridade identificada e alerta proporcional",
+        "referenceIds": [
+          "obs-20260823-004",
+          "obs-20260823-005",
+          "obs-20260824-020",
+          "obs-20260824-032",
+          "obs-20260825-046"
+        ],
+        "confidence": "medium"
+      },
+      "observations": [
+        "A página oficial lista promessas comuns da soroterapia — energia, imunidade, foco e envelhecimento mais lento — e afirma que a técnica não as cumpre.",
+        "O texto enquadra o tema simultaneamente por falta de evidência e possíveis riscos à saúde.",
+        "A autoria médica é identificada; referências científicas específicas não ficaram expostas na cobertura acessada."
+      ],
+      "interpretations": [
+        "Nomear primeiro as promessas reconhecíveis e depois contrastá-las com evidência e risco reduz abstração.",
+        "A autoridade identificada reforça confiança percebida, mas não substitui referências científicas acessíveis."
+      ],
+      "scores": {
+        "gancho": 84,
+        "clareza": 92,
+        "relevancia": 90,
+        "desejo": 80,
+        "confianca": 83,
+        "retencao": "not_assessed",
+        "acao": "not_assessed",
+        "objecoes": 88
+      },
+      "fiveLenses": {
+        "apressado": "Título e subtítulo entregam conclusão e risco rapidamente.",
+        "analitico": "A tese é clara, mas faltam referências específicas na cobertura acessada.",
+        "aspiracional": "A recompensa é evitar dano e promessa vazia, não alcançar transformação estética.",
+        "comunidade": "Tema afeta consumidores de tendências de bem-estar; comentários não foram acessados.",
+        "cetico": "Autoridade editorial não permite inferir efeito comportamental nem retenção."
+      },
+      "hypotheses": [
+        "Em explicadores de saúde, listar a promessa popular antes de contrastá-la com falta de evidência e risco concreto pode elevar clareza e confiança percebida."
+      ],
+      "replicable": [
+        "Nomear as promessas que o público já ouviu.",
+        "Distinguir ausência de evidência de risco documentado.",
+        "Identificar autoridade e tornar fontes verificáveis."
+      ],
+      "limitations": [
+        "A página permitiu análise semântica, não audiovisual.",
+        "Sem métricas, baseline, comentários ou experimento, não há conclusão sobre desempenho."
+      ],
+      "provenance": [
+        "official_public_content",
+        "official_description",
+        "observatory_inference"
+      ],
+      "sourceEvidence": [
+        "https://drauziovarella.uol.com.br/videos/soroterapia-promessas-vazias-de-beleza-e-bem-estar/"
+      ],
+      "training": {
+        "replicable": [
+          "Nomear as promessas que o público já ouviu.",
+          "Distinguir ausência de evidência de risco documentado.",
+          "Identificar autoridade e tornar fontes verificáveis."
+        ],
+        "contingent": [
+          "credibilidade da fonte",
+          "qualidade das referências científicas",
+          "proporcionalidade da linguagem"
+        ],
+        "notRecommended": [
+          "copiar frases, personagens ou roteiro",
+          "tratar popularidade como prova causal",
+          "inferir cenas, áudio, ritmo ou retenção ausentes"
+        ],
+        "hypotheses": [
+          "Em explicadores de saúde, listar a promessa popular antes de contrastá-la com falta de evidência e risco concreto pode elevar clareza e confiança percebida."
+        ]
+      },
+      "viralAssessment": {
+        "status": "indeterminate",
+        "observedSignal": "métricas não acessíveis",
+        "missingForRelativeAssessment": [
+          "baseline recente do criador",
+          "velocidade inicial",
+          "impressões",
+          "retenção",
+          "fontes de tráfego"
+        ],
+        "confounders": [
+          "tamanho e histórico do canal",
+          "idade da publicação",
+          "tema",
+          "distribuição"
+        ],
+        "causalClaimAllowed": false
+      }
     }
   ],
   "patterns": [
@@ -14091,9 +15246,10 @@
         "obs-20260823-006",
         "obs-20260824-020",
         "obs-20260824-032",
-        "obs-20260825-046"
+        "obs-20260825-046",
+        "obs-20260828-065"
       ],
-      "comparableSupportCount": 6,
+      "comparableSupportCount": 7,
       "comparisonLevel": 2,
       "confidence": "medium",
       "limitations": [
@@ -14108,7 +15264,7 @@
       "creativeFamily": "conteúdo de saúde",
       "objective": "objetivo educativo ou conscientização",
       "segment": "fonte ou autoridade demonstrada",
-      "supportingCount": 6,
+      "supportingCount": 7,
       "counterexampleCount": 0,
       "evidence": [
         {
@@ -14151,6 +15307,14 @@
           "evidence": "Título, resumo oficial, declaração de parceria e referências científicas.",
           "limitations": [
             "Sem reprodução audiovisual, métricas, comentários ou evidência comportamental."
+          ]
+        },
+        {
+          "referenceId": "obs-20260828-065",
+          "observation": "Promessas populares de bem-estar são nomeadas antes do contraste com falta de evidência e possíveis riscos.",
+          "evidence": "Título, descrição e autoria na página oficial.",
+          "limitations": [
+            "Sem transcrição, referências científicas específicas, métricas ou retenção."
           ]
         }
       ],
@@ -14384,6 +15548,85 @@
       "creatorDiversityCount": 3,
       "sourceDiversityCount": 3,
       "patternType": "outro"
+    },
+    {
+      "id": "pat-20260828-006",
+      "status": "provisional",
+      "statement": "Em storytelling educativo de história, começar por uma versão familiar e apresentar uma correção ou contradição específica pode tornar o assunto claro e abrir uma lacuna de conhecimento, desde que a correção seja delimitada e sustentada por fontes.",
+      "mechanism": [
+        "curiosidade",
+        "contraste",
+        "clareza_semantica",
+        "confiança_condicional"
+      ],
+      "conditions": [
+        "storytelling educativo de história",
+        "narrativa familiar explicitada",
+        "correção específica sem ocultar o assunto",
+        "fontes ou qualificação proporcional à alegação"
+      ],
+      "supportReferenceIds": [
+        "obs-20260824-039",
+        "obs-20260826-054",
+        "obs-20260828-061",
+        "obs-20260828-062"
+      ],
+      "comparableSupportCount": 4,
+      "comparisonLevel": 2,
+      "confidence": "medium",
+      "limitations": [
+        "Cobertura predominantemente parcial e textual.",
+        "Nenhum apoio teve retenção ou execução audiovisual integralmente auditada.",
+        "Os formatos e níveis de produção variam.",
+        "Correções históricas exigem revisão factual e fontes acessíveis.",
+        "O padrão descreve clareza e lacuna de conhecimento; não prova desempenho ou persuasão."
+      ],
+      "validation": "requires_human_or_experimental_evidence",
+      "stage": "provisional",
+      "name": "Versão histórica familiar seguida de correção verificável",
+      "creativeFamily": "storytelling",
+      "objective": "educar e criar curiosidade",
+      "segment": "história",
+      "supportingCount": 4,
+      "counterexampleCount": 1,
+      "evidence": [
+        {
+          "referenceId": "obs-20260824-039",
+          "observation": "Abertura contrapõe narrativa escolar conhecida a uma contradição lógica sobre o Brasil pré-1500.",
+          "evidence": "Título e trecho inicial de transcrição.",
+          "limitations": [
+            "Sem vídeo integral, fontes completas ou retenção."
+          ]
+        },
+        {
+          "referenceId": "obs-20260826-054",
+          "observation": "Abertura formula aparente impossibilidade histórica, oferece escala concreta e inicia a resolução.",
+          "evidence": "Título, data, alcance e abertura transcrita.",
+          "limitations": [
+            "Sem execução audiovisual integral ou retenção."
+          ]
+        },
+        {
+          "referenceId": "obs-20260828-061",
+          "observation": "Título e descrição contrapõem a versão conhecida do 7 de Setembro a uma correção prometida.",
+          "evidence": "Título, descrição indexada e credencial pública da criadora.",
+          "limitations": [
+            "Sem transcrição nem fontes históricas do vídeo."
+          ]
+        },
+        {
+          "referenceId": "obs-20260828-062",
+          "observation": "História pessoal confronta uma versão escolar de Rosa Parks e apresenta correção específica.",
+          "evidence": "Trecho de transcrição e resumo textual.",
+          "limitations": [
+            "Sem audiovisual integral ou retenção."
+          ]
+        }
+      ],
+      "taxonomyVersion": "3.0",
+      "creatorDiversityCount": 4,
+      "sourceDiversityCount": 4,
+      "patternType": "estrutura_semantica"
     }
   ],
   "hypotheses": [
@@ -14517,13 +15760,16 @@
     },
     {
       "id": "hyp-20260824-014",
-      "status": "observed_not_promoted",
+      "status": "promoted_to_provisional",
       "statement": "Em storytelling educativo, uma crença amplamente ensinada seguida de uma contradição verificável pode criar lacuna de conhecimento sem esconder o assunto.",
       "supportReferenceIds": [
         "obs-20260824-039",
-        "obs-20260826-054"
+        "obs-20260826-054",
+        "obs-20260828-061",
+        "obs-20260828-062"
       ],
-      "reasonNotPromoted": "Dois apoios comparáveis de storytelling histórico e criadores diferentes, porém somente aberturas transcritas; precisão completa, fontes, retenção e comparação experimental não foram acessadas."
+      "promotedPatternId": "pat-20260828-006",
+      "promotionNote": "Promovida após quatro apoios de criadores diferentes e comparáveis no mecanismo semântico. A promoção não implica efeito de retenção nem validação factual integral."
     },
     {
       "id": "hyp-20260824-015",
@@ -14664,6 +15910,24 @@
         "obs-20260827-060"
       ],
       "reasonNotPromoted": "Uma referência, trecho inicial de transcrição e ausência de execução visual auditada."
+    },
+    {
+      "id": "hyp-20260828-030",
+      "status": "observed_not_promoted",
+      "statement": "A moldura de 'verdade escondida' pode aumentar curiosidade, mas eleva o ônus de prova e tende a reduzir confiança quando fontes verificáveis não estão acessíveis.",
+      "supportReferenceIds": [
+        "obs-20260828-063"
+      ],
+      "reasonNotPromoted": "Apenas um caso, com cobertura restrita a título, descrição indexada e contexto público relacionado; tese histórica, audiovisual e resposta da audiência não foram verificados."
+    },
+    {
+      "id": "hyp-20260828-031",
+      "status": "observed_not_promoted",
+      "statement": "Em unboxing recorrente, separar fatos observáveis, expectativas e incertezas pode preservar confiança quando a origem dos produtos é contextualizada.",
+      "supportReferenceIds": [
+        "obs-20260828-064"
+      ],
+      "reasonNotPromoted": "Apenas uma referência, sem vídeo integral, comentários, disclosure contratual ou comparação funcional independente."
     }
   ],
   "contradictions": [
@@ -14718,6 +15982,12 @@
       "evidence": [
         "obs-20260824-022",
         "obs-20260824-030"
+      ]
+    },
+    {
+      "statement": "A moldura de 'verdade escondida' ou 'o que não ensinaram' aumenta o custo de prova; sem fontes acessíveis, o mesmo mecanismo pode produzir revisionismo ou clickbait em vez de confiança.",
+      "evidence": [
+        "obs-20260828-063"
       ]
     }
   ],
@@ -15268,6 +16538,77 @@
         "O caso do Manual do Mundo é antigo e foi incluído pela cobertura textual e pela família da watchlist, não por recência.",
         "Visualizações absolutas foram registradas como contexto e não como prova de viralidade ou causalidade.",
         "Cinco hipóteses isoladas foram criadas; nenhuma chegou a três apoios independentes comparáveis e nenhum padrão foi promovido.",
+        "Nenhum dado foi misturado aos cérebros sintéticos ou ao futuro Freud."
+      ]
+    },
+    {
+      "id": "run-20260828-supervised-009",
+      "executedAt": "2026-08-28T11:43:35.000Z",
+      "requestedBatchSize": 5,
+      "candidatesFound": 5,
+      "discarded": [],
+      "analyzed": 5,
+      "brazilianReferences": 4,
+      "internationalReferences": 1,
+      "replicableReferences": 4,
+      "coverageSummary": {
+        "complete": 0,
+        "partial": 5,
+        "insufficient": 0
+      },
+      "familiesCovered": [
+        "storytelling",
+        "educativo",
+        "curiosidade",
+        "comunidade",
+        "demonstracao",
+        "autoridade_opiniao",
+        "conscientizacao",
+        "venda_indireta"
+      ],
+      "segmentsCovered": [
+        "história do Brasil",
+        "história e direitos civis",
+        "literatura e leitura",
+        "saúde pública"
+      ],
+      "sourcesUsed": [
+        "https://www.youtube.com/watch?v=oXXOUXSyjF0",
+        "https://www.youtube.com/c/ValdireneAmbiel",
+        "https://aventurasnahistoria.com.br/noticias/reportagem/conheca-historia-da-arqueologa-valdirene-ambiel.phtml",
+        "https://www.youtube.com/watch?v=ZkdJGcffe9I",
+        "https://glasp.co/youtube/ZkdJGcffe9I",
+        "https://www.ted.com/speakers/david_ikard",
+        "https://www.youtube.com/watch?v=eLe1URqCPCc",
+        "https://ava.saobrandao.com.br/cursos/a-verdadeira-historia-do-brasil/",
+        "https://www.youtube.com/watch?v=uuyR2iT6MFY",
+        "https://glasp.co/youtube/uuyR2iT6MFY",
+        "https://drauziovarella.uol.com.br/videos/soroterapia-promessas-vazias-de-beleza-e-bem-estar/"
+      ],
+      "patternsCreated": [
+        "pat-20260828-006"
+      ],
+      "patternsStrengthened": [
+        "pat-20260823-002"
+      ],
+      "hypothesesCreated": [
+        "hyp-20260828-030",
+        "hyp-20260828-031"
+      ],
+      "hypothesesStrengthened": [
+        "hyp-20260824-014"
+      ],
+      "validatedPatternsCreated": 0,
+      "contradictionsFound": [
+        "A moldura de verdade escondida exige fontes proporcionais; sem elas, curiosidade não equivale a confiança nem correção factual."
+      ],
+      "nextTarget": "vídeo curto brasileiro de pequeno criador sobre história, com reprodução audiovisual e transcrição integral, fontes históricas visíveis, comentários e baseline recente, para testar o novo padrão provisório",
+      "limitations": [
+        "As cinco referências tiveram cobertura parcial; nenhuma permitiu auditoria audiovisual integral.",
+        "Cenas, áudio efetivamente ouvido, texto na tela, ritmo, montagem e retenção permaneceram não mensurados.",
+        "O padrão novo resulta de quatro apoios semanticamente comparáveis, mas não demonstra causalidade, desempenho ou precisão factual integral.",
+        "O caso Márcio Pichel foi registrado como limite de verificabilidade, não como endosso ou refutação da tese histórica.",
+        "Métricas ausentes foram tratadas como não mensuradas, nunca como zero.",
         "Nenhum dado foi misturado aos cérebros sintéticos ou ao futuro Freud."
       ]
     }
