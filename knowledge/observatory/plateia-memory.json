@@ -1,6 +1,6 @@
 {
   "protocol": "plateia-memory/1.0",
-  "updatedAt": "2026-08-28T11:43:35.000Z",
+  "updatedAt": "2026-08-29T11:09:17.000Z",
   "references": [
     {
       "id": "obs-20260823-001",
@@ -15161,6 +15161,1174 @@
         ],
         "causalClaimAllowed": false
       }
+    },
+    {
+      "id": "obs-20260829-066",
+      "title": "MÊS DO CLIENTE — Case de Sucesso: como a Murano aumentou em 753% a geração de leads",
+      "creator": "AutoForce / Murano Veículos",
+      "country": "BR",
+      "url": "https://www.youtube.com/watch?v=2jVT8bzOwU8",
+      "publishedAt": "não acessível",
+      "duration": "não acessível",
+      "createdAt": "2026-08-29T11:09:17.000Z",
+      "coverage": {
+        "level": "partial",
+        "accessible": [
+          "título",
+          "identidade das empresas",
+          "descrição indexada",
+          "métricas públicas aproximadas em snapshot de busca",
+          "página oficial relacionada ao caso",
+          "estado anterior",
+          "mecanismos declarados",
+          "resultados declarados",
+          "voz identificada do cliente"
+        ],
+        "missing": [
+          "vídeo integral reproduzível",
+          "imagem em movimento e cenas",
+          "áudio efetivamente ouvido",
+          "texto na tela",
+          "ritmo e montagem",
+          "retenção",
+          "comentários individuais",
+          "origem da distribuição",
+          "mídia paga e conversão",
+          "transcrição do vídeo",
+          "data e duração exatas",
+          "descrição original integral",
+          "auditoria independente dos resultados"
+        ]
+      },
+      "publicMetrics": {
+        "viewsObserved": "aprox. 664",
+        "likesObserved": "aprox. 29",
+        "observedAt": "2026-08-29",
+        "sourceType": "public_search_snapshot",
+        "causality": "not_inferred"
+      },
+      "classification": {
+        "taxonomyVersion": "3.0",
+        "container": "youtube_video",
+        "materialFormat": "video_longo",
+        "presentationFormats": [
+          "estudo_caso",
+          "depoimento",
+          "institucional"
+        ],
+        "primaryFamily": "prova_estudo_caso",
+        "secondaryFamilies": [
+          "depoimento",
+          "venda_indireta"
+        ],
+        "functionalMix": [
+          {
+            "family": "prova_estudo_caso",
+            "percentage": 55
+          },
+          {
+            "family": "depoimento",
+            "percentage": 25
+          },
+          {
+            "family": "venda_indireta",
+            "percentage": 20
+          }
+        ],
+        "objectives": [
+          "confianca",
+          "apresentar_solucao",
+          "autoridade",
+          "lead"
+        ],
+        "advertisingType": "consideracao",
+        "commercialIntent": "explicita",
+        "advertisedEntity": {
+          "kind": "produto",
+          "name": "Autódromo / AutoForce",
+          "confidence": "high"
+        },
+        "contentTopic": {
+          "label": "transformação digital de concessionária e geração de leads",
+          "iabCode": null
+        },
+        "segment": "marketing digital B2B",
+        "subsegment": "marketing automotivo",
+        "probableAudience": "concessionárias e gestores comerciais interessados em aquisição digital",
+        "awarenessStage": "consciente_solucao",
+        "productionLevel": "intermediate",
+        "creatorScale": "business",
+        "replicability": "high",
+        "durationBand": "unknown",
+        "pace": "unknown",
+        "mechanisms": [
+          "confiança",
+          "desejo",
+          "alívio",
+          "identificação"
+        ],
+        "hookTypes": [
+          "resultado_quantificado",
+          "transformacao"
+        ],
+        "narrativeElements": [
+          "estado_anterior",
+          "mecanismo",
+          "resultado",
+          "voz_do_cliente"
+        ],
+        "proofTypes": [
+          "depoimento",
+          "resultado_autodeclarado",
+          "mecanismo_explicado"
+        ],
+        "ctaTypes": [
+          "conversar"
+        ],
+        "distributionContext": {
+          "organicPaid": "unknown",
+          "trendDependency": "unknown"
+        },
+        "confidence": "high",
+        "evidence": [
+          "O título associa cliente, mecanismo comercial e crescimento de 753% na geração de leads.",
+          "A página oficial descreve o estado anterior: sites pesados, baixa adaptação mobile e necessidade de estruturar o atendimento digital.",
+          "Os mecanismos declarados incluem novo showroom digital, equipe dedicada, mídia paga refinada e atendimento em até uma hora.",
+          "A página compara outubro de 2020 a maio de 2021, informa 26% das vendas pelo digital e atribui falas a Sanzio Drumond, gerente-geral da Murano."
+        ],
+        "alternativeClassifications": [],
+        "needsHumanReview": true
+      },
+      "comparison": {
+        "level": 2,
+        "group": "prova comercial B2B com estado anterior, mecanismo, resultado quantificado e voz do cliente",
+        "referenceIds": [
+          "obs-20260824-041",
+          "obs-20260824-042"
+        ],
+        "confidence": "high"
+      },
+      "observations": [
+        "O título associa cliente, mecanismo comercial e crescimento de 753% na geração de leads.",
+        "A página oficial descreve o estado anterior: sites pesados, baixa adaptação mobile e necessidade de estruturar o atendimento digital.",
+        "Os mecanismos declarados incluem novo showroom digital, equipe dedicada, mídia paga refinada e atendimento em até uma hora.",
+        "A página compara outubro de 2020 a maio de 2021, informa 26% das vendas pelo digital e atribui falas a Sanzio Drumond, gerente-geral da Murano."
+      ],
+      "interpretations": [
+        "A cadeia estado anterior, intervenção, período e resultado torna a alegação mais auditável semanticamente.",
+        "A presença de vários mecanismos impede atribuir o crescimento somente à plataforma promovida."
+      ],
+      "scores": {
+        "gancho": 90,
+        "clareza": 92,
+        "relevancia": 89,
+        "desejo": 88,
+        "confianca": 82,
+        "retencao": "not_assessed",
+        "acao": 78,
+        "objecoes": 84
+      },
+      "fiveLenses": {
+        "apressado": "O número e o tipo de resultado são compreendidos no título.",
+        "analitico": "Período e mecanismos aparecem na página, mas os dados não têm auditoria independente.",
+        "aspiracional": "A transformação de uma operação tradicional em canal digital é concreta.",
+        "comunidade": "A voz do cliente é identificada; comentários do vídeo não foram acessados.",
+        "cetico": "Equipe, mídia paga e maturidade digital confundem a atribuição à plataforma."
+      },
+      "hypotheses": [
+        "Em prova comercial, explicitar estado anterior, mecanismos, período, resultado e responsável identificável pode aumentar verificabilidade percebida."
+      ],
+      "replicable": [
+        "Mostrar o estado anterior antes da solução.",
+        "Nomear período e unidade da mudança.",
+        "Separar cada intervenção que pode ter contribuído para o resultado."
+      ],
+      "limitations": [
+        "O audiovisual não foi auditado.",
+        "A fonte é ligada ao fornecedor e os resultados não possuem auditoria independente acessível."
+      ],
+      "provenance": [
+        "public_content",
+        "official_related_case_page",
+        "public_search_snapshot",
+        "observatory_inference"
+      ],
+      "sourceEvidence": [
+        "https://www.youtube.com/watch?v=2jVT8bzOwU8",
+        "https://blog.autoforce.com/case-de-sucesso-murano-veiculos/"
+      ],
+      "training": {
+        "replicable": [
+          "Mostrar o estado anterior antes da solução.",
+          "Nomear período e unidade da mudança.",
+          "Separar cada intervenção que pode ter contribuído para o resultado."
+        ],
+        "contingent": [
+          "seleção editorial do cliente",
+          "mídia paga",
+          "equipe dedicada",
+          "histórico digital da empresa"
+        ],
+        "notRecommended": [
+          "copiar frases, personagens ou roteiro",
+          "tratar resultado autodeclarado ou popularidade como prova causal",
+          "inferir cenas, áudio, ritmo ou retenção ausentes"
+        ],
+        "hypotheses": [
+          "Em prova comercial, explicitar estado anterior, mecanismos, período, resultado e responsável identificável pode aumentar verificabilidade percebida."
+        ]
+      },
+      "viralAssessment": {
+        "status": "indeterminate",
+        "observedSignal": "centenas de visualizações em snapshot sem baseline comparável",
+        "missingForRelativeAssessment": [
+          "baseline recente do canal",
+          "velocidade inicial",
+          "impressões",
+          "retenção",
+          "fontes de tráfego"
+        ],
+        "confounders": [
+          "tamanho e histórico do canal",
+          "idade da publicação",
+          "tema",
+          "distribuição"
+        ],
+        "causalClaimAllowed": false
+      }
+    },
+    {
+      "id": "obs-20260829-067",
+      "title": "CASE DE SUCESSO: Como o E-Shop Casa aumentou 40% do faturamento com o hub de integração",
+      "creator": "ANYMARKET / E-Shop Casa",
+      "country": "BR",
+      "url": "https://www.youtube.com/watch?v=2J3eeyVfsgc",
+      "publishedAt": "não acessível",
+      "duration": "não acessível",
+      "createdAt": "2026-08-29T11:09:17.000Z",
+      "coverage": {
+        "level": "partial",
+        "accessible": [
+          "título",
+          "identidade das empresas",
+          "descrição indexada",
+          "métricas públicas aproximadas em snapshot de busca",
+          "nome e cargo genérico da voz do cliente",
+          "dois resultados declarados",
+          "mecanismo comercial declarado"
+        ],
+        "missing": [
+          "vídeo integral reproduzível",
+          "imagem em movimento e cenas",
+          "áudio efetivamente ouvido",
+          "texto na tela",
+          "ritmo e montagem",
+          "retenção",
+          "comentários individuais",
+          "origem da distribuição",
+          "mídia paga e conversão",
+          "transcrição do vídeo",
+          "data e duração exatas",
+          "descrição original integral",
+          "estado anterior detalhado",
+          "auditoria independente dos resultados"
+        ]
+      },
+      "publicMetrics": {
+        "viewsObserved": "aprox. 422",
+        "likesObserved": "aprox. 6",
+        "observedAt": "2026-08-29",
+        "sourceType": "public_search_snapshot",
+        "causality": "not_inferred"
+      },
+      "classification": {
+        "taxonomyVersion": "3.0",
+        "container": "youtube_video",
+        "materialFormat": "video_longo",
+        "presentationFormats": [
+          "estudo_caso",
+          "depoimento",
+          "institucional"
+        ],
+        "primaryFamily": "prova_estudo_caso",
+        "secondaryFamilies": [
+          "depoimento",
+          "venda_indireta"
+        ],
+        "functionalMix": [
+          {
+            "family": "prova_estudo_caso",
+            "percentage": 55
+          },
+          {
+            "family": "depoimento",
+            "percentage": 25
+          },
+          {
+            "family": "venda_indireta",
+            "percentage": 20
+          }
+        ],
+        "objectives": [
+          "confianca",
+          "apresentar_solucao",
+          "autoridade",
+          "lead"
+        ],
+        "advertisingType": "consideracao",
+        "commercialIntent": "explicita",
+        "advertisedEntity": {
+          "kind": "produto",
+          "name": "ANYMARKET",
+          "confidence": "high"
+        },
+        "contentTopic": {
+          "label": "integração de marketplaces, erros operacionais e faturamento",
+          "iabCode": null
+        },
+        "segment": "tecnologia B2B e comércio eletrônico",
+        "subsegment": "hub de marketplaces",
+        "probableAudience": "gestores de e-commerce e operações multicanal",
+        "awarenessStage": "consciente_solucao",
+        "productionLevel": "intermediate",
+        "creatorScale": "business",
+        "replicability": "high",
+        "durationBand": "unknown",
+        "pace": "unknown",
+        "mechanisms": [
+          "confiança",
+          "desejo",
+          "alívio",
+          "identificação"
+        ],
+        "hookTypes": [
+          "resultado_quantificado",
+          "transformacao"
+        ],
+        "narrativeElements": [
+          "estado_anterior",
+          "mecanismo",
+          "resultado",
+          "voz_do_cliente"
+        ],
+        "proofTypes": [
+          "depoimento",
+          "resultado_autodeclarado",
+          "mecanismo_explicado"
+        ],
+        "ctaTypes": [
+          "conversar"
+        ],
+        "distributionContext": {
+          "organicPaid": "unknown",
+          "trendDependency": "unknown"
+        },
+        "confidence": "high",
+        "evidence": [
+          "O título promete aumento de 40% no faturamento ligado ao uso de um hub de integração.",
+          "A descrição indexada identifica o diretor Sérgio como narrador do caso.",
+          "A mesma descrição declara redução de 95% nos erros operacionais e aumento de 40% no faturamento.",
+          "O estado anterior e o método de cálculo não ficaram detalhados no material acessível."
+        ],
+        "alternativeClassifications": [],
+        "needsHumanReview": true
+      },
+      "comparison": {
+        "level": 2,
+        "group": "prova comercial B2B com mecanismo, resultado quantificado e voz do cliente",
+        "referenceIds": [
+          "obs-20260824-041",
+          "obs-20260824-042",
+          "obs-20260829-066"
+        ],
+        "confidence": "medium"
+      },
+      "observations": [
+        "O título promete aumento de 40% no faturamento ligado ao uso de um hub de integração.",
+        "A descrição indexada identifica o diretor Sérgio como narrador do caso.",
+        "A mesma descrição declara redução de 95% nos erros operacionais e aumento de 40% no faturamento.",
+        "O estado anterior e o método de cálculo não ficaram detalhados no material acessível."
+      ],
+      "interpretations": [
+        "Voz identificável, mecanismo e dois resultados relacionados formam uma cadeia de prova compreensível.",
+        "Sem período, baseline e auditoria, os percentuais permanecem alegações comerciais autodeclaradas."
+      ],
+      "scores": {
+        "gancho": 89,
+        "clareza": 88,
+        "relevancia": 87,
+        "desejo": 88,
+        "confianca": 68,
+        "retencao": "not_assessed",
+        "acao": "not_assessed",
+        "objecoes": 66
+      },
+      "fiveLenses": {
+        "apressado": "Resultado e solução aparecem no título.",
+        "analitico": "Faltam período, denominadores e documentação do cálculo.",
+        "aspiracional": "Menos erro e mais faturamento compõem transformação operacional atraente.",
+        "comunidade": "A voz do diretor é identificada; comentários não foram acessados.",
+        "cetico": "Dois percentuais precisos exigem baseline e auditoria."
+      },
+      "hypotheses": [
+        "Em prova comercial, ligar mecanismo, pessoa identificável e resultados operacionais e financeiros específicos pode aumentar verificabilidade percebida, desde que período e baseline sejam expostos."
+      ],
+      "replicable": [
+        "Conectar o mecanismo a indicadores operacionais e financeiros diferentes.",
+        "Identificar quem relata o caso.",
+        "Expor período, baseline e método de cálculo."
+      ],
+      "limitations": [
+        "Cobertura restrita a título, descrição e métricas indexadas.",
+        "Não foi possível confirmar período, cálculo ou independência dos números."
+      ],
+      "provenance": [
+        "public_content",
+        "public_search_snapshot",
+        "official_product_context",
+        "observatory_inference"
+      ],
+      "sourceEvidence": [
+        "https://www.youtube.com/watch?v=2J3eeyVfsgc",
+        "https://anymarket.com.br/"
+      ],
+      "training": {
+        "replicable": [
+          "Conectar o mecanismo a indicadores operacionais e financeiros diferentes.",
+          "Identificar quem relata o caso.",
+          "Expor período, baseline e método de cálculo."
+        ],
+        "contingent": [
+          "atribuição do resultado ao fornecedor",
+          "sazonalidade do e-commerce",
+          "mudanças simultâneas na operação"
+        ],
+        "notRecommended": [
+          "copiar frases, personagens ou roteiro",
+          "tratar resultado autodeclarado ou popularidade como prova causal",
+          "inferir cenas, áudio, ritmo ou retenção ausentes"
+        ],
+        "hypotheses": [
+          "Em prova comercial, ligar mecanismo, pessoa identificável e resultados operacionais e financeiros específicos pode aumentar verificabilidade percebida, desde que período e baseline sejam expostos."
+        ]
+      },
+      "viralAssessment": {
+        "status": "indeterminate",
+        "observedSignal": "centenas de visualizações em snapshot sem baseline comparável",
+        "missingForRelativeAssessment": [
+          "baseline recente do canal",
+          "velocidade inicial",
+          "impressões",
+          "retenção",
+          "fontes de tráfego"
+        ],
+        "confounders": [
+          "tamanho e histórico do canal",
+          "idade da publicação",
+          "tema",
+          "distribuição"
+        ],
+        "causalClaimAllowed": false
+      }
+    },
+    {
+      "id": "obs-20260829-068",
+      "title": "Case de Sucesso: Converger tem aumento de 30% no faturamento",
+      "creator": "DNA de Vendas / Converger",
+      "country": "BR",
+      "url": "https://www.youtube.com/watch?v=A_BNrm_4Pao",
+      "publishedAt": "não acessível",
+      "duration": "não acessível",
+      "createdAt": "2026-08-29T11:09:17.000Z",
+      "coverage": {
+        "level": "partial",
+        "accessible": [
+          "título",
+          "identidade das empresas",
+          "descrição indexada",
+          "página oficial relacionada ao caso",
+          "estado anterior",
+          "mecanismos declarados",
+          "resultados declarados",
+          "responsável do cliente identificado",
+          "CTA comercial"
+        ],
+        "missing": [
+          "vídeo integral reproduzível",
+          "imagem em movimento e cenas",
+          "áudio efetivamente ouvido",
+          "texto na tela",
+          "ritmo e montagem",
+          "retenção",
+          "comentários individuais",
+          "origem da distribuição",
+          "mídia paga e conversão",
+          "transcrição do vídeo",
+          "data e duração exatas",
+          "métricas do vídeo",
+          "descrição original integral",
+          "fala direta integral do cliente",
+          "auditoria independente dos resultados"
+        ]
+      },
+      "publicMetrics": {
+        "viewsObserved": "not_measured",
+        "observedAt": "2026-08-29",
+        "sourceType": "official_related_case_page",
+        "causality": "not_inferred"
+      },
+      "classification": {
+        "taxonomyVersion": "3.0",
+        "container": "youtube_video",
+        "materialFormat": "video_longo",
+        "presentationFormats": [
+          "estudo_caso",
+          "depoimento",
+          "institucional"
+        ],
+        "primaryFamily": "prova_estudo_caso",
+        "secondaryFamilies": [
+          "depoimento",
+          "venda_indireta"
+        ],
+        "functionalMix": [
+          {
+            "family": "prova_estudo_caso",
+            "percentage": 55
+          },
+          {
+            "family": "depoimento",
+            "percentage": 25
+          },
+          {
+            "family": "venda_indireta",
+            "percentage": 20
+          }
+        ],
+        "objectives": [
+          "confianca",
+          "apresentar_solucao",
+          "autoridade",
+          "lead"
+        ],
+        "advertisingType": "consideracao",
+        "commercialIntent": "explicita",
+        "advertisedEntity": {
+          "kind": "serviço",
+          "name": "consultoria DNA de Vendas",
+          "confidence": "high"
+        },
+        "contentTopic": {
+          "label": "estruturação comercial, CRM, leads, conversão e faturamento",
+          "iabCode": null
+        },
+        "segment": "consultoria comercial B2B",
+        "subsegment": "estruturação de vendas",
+        "probableAudience": "empresas com processo comercial desestruturado ou baseado em planilhas",
+        "awarenessStage": "consciente_solucao",
+        "productionLevel": "intermediate",
+        "creatorScale": "business",
+        "replicability": "high",
+        "durationBand": "unknown",
+        "pace": "unknown",
+        "mechanisms": [
+          "confiança",
+          "desejo",
+          "alívio",
+          "identificação"
+        ],
+        "hookTypes": [
+          "resultado_quantificado",
+          "transformacao"
+        ],
+        "narrativeElements": [
+          "estado_anterior",
+          "mecanismo",
+          "resultado",
+          "voz_do_cliente"
+        ],
+        "proofTypes": [
+          "depoimento",
+          "resultado_autodeclarado",
+          "mecanismo_explicado"
+        ],
+        "ctaTypes": [
+          "conversar"
+        ],
+        "distributionContext": {
+          "organicPaid": "unknown",
+          "trendDependency": "unknown"
+        },
+        "confidence": "high",
+        "evidence": [
+          "O material apresenta o estado anterior da Converger: operação por planilhas, dificuldade de nutrir leads e ausência de processo comercial estruturado.",
+          "Os mecanismos declarados são processo, gestão, tecnologia e pessoas, incluindo CRM e capacitação.",
+          "Os resultados declarados incluem aumento de 100% na conversão da landing page, duplicação dos leads e aumento de 30% no faturamento.",
+          "Carlos Paes é identificado como CEO da Converger; a página termina com CTA para consultoria."
+        ],
+        "alternativeClassifications": [],
+        "needsHumanReview": true
+      },
+      "comparison": {
+        "level": 2,
+        "group": "prova comercial B2B com estado anterior, mecanismos, resultados quantificados e responsável identificado",
+        "referenceIds": [
+          "obs-20260824-041",
+          "obs-20260824-042",
+          "obs-20260829-066",
+          "obs-20260829-067"
+        ],
+        "confidence": "high"
+      },
+      "observations": [
+        "O material apresenta o estado anterior da Converger: operação por planilhas, dificuldade de nutrir leads e ausência de processo comercial estruturado.",
+        "Os mecanismos declarados são processo, gestão, tecnologia e pessoas, incluindo CRM e capacitação.",
+        "Os resultados declarados incluem aumento de 100% na conversão da landing page, duplicação dos leads e aumento de 30% no faturamento.",
+        "Carlos Paes é identificado como CEO da Converger; a página termina com CTA para consultoria."
+      ],
+      "interpretations": [
+        "O caso sustenta a estrutura problema, mecanismo, resultado e pessoa identificável.",
+        "A multiplicidade de intervenções reduz a possibilidade de atribuir o resultado a um único componente."
+      ],
+      "scores": {
+        "gancho": 86,
+        "clareza": 94,
+        "relevancia": 90,
+        "desejo": 87,
+        "confianca": 78,
+        "retencao": "not_assessed",
+        "acao": 82,
+        "objecoes": 82
+      },
+      "fiveLenses": {
+        "apressado": "O resultado financeiro está explícito no título.",
+        "analitico": "Há estado anterior e ações, mas faltam série histórica e auditoria.",
+        "aspiracional": "A mudança de planilhas para processo previsível é concreta.",
+        "comunidade": "O responsável do cliente é identificado; reação pública não foi observada.",
+        "cetico": "A página é produzida pelo fornecedor e reúne múltiplas intervenções."
+      },
+      "hypotheses": [
+        "Em prova comercial, organizar problema anterior, pacote de intervenções, indicadores distintos e responsável identificável pode aumentar verificabilidade percebida."
+      ],
+      "replicable": [
+        "Explicar o problema operacional antes da solução.",
+        "Separar intervenção de resultado.",
+        "Mostrar indicadores de processo e de negócio sem atribuição excessiva."
+      ],
+      "limitations": [
+        "A análise usa a descrição do vídeo e a página comercial relacionada, não o audiovisual.",
+        "Resultados declarados pelo fornecedor não equivalem a auditoria independente."
+      ],
+      "provenance": [
+        "public_content",
+        "official_related_case_page",
+        "public_search_snapshot",
+        "observatory_inference"
+      ],
+      "sourceEvidence": [
+        "https://www.youtube.com/watch?v=A_BNrm_4Pao",
+        "https://dnadevendas.com.br/blog/case-de-sucesso-converger-aumenta-faturamento-em-30-com-a-consultoria-da-dna-de-vendas/"
+      ],
+      "training": {
+        "replicable": [
+          "Explicar o problema operacional antes da solução.",
+          "Separar intervenção de resultado.",
+          "Mostrar indicadores de processo e de negócio sem atribuição excessiva."
+        ],
+        "contingent": [
+          "seleção editorial do caso",
+          "mudanças simultâneas",
+          "qualidade da execução interna do cliente"
+        ],
+        "notRecommended": [
+          "copiar frases, personagens ou roteiro",
+          "tratar resultado autodeclarado ou popularidade como prova causal",
+          "inferir cenas, áudio, ritmo ou retenção ausentes"
+        ],
+        "hypotheses": [
+          "Em prova comercial, organizar problema anterior, pacote de intervenções, indicadores distintos e responsável identificável pode aumentar verificabilidade percebida."
+        ]
+      },
+      "viralAssessment": {
+        "status": "indeterminate",
+        "observedSignal": "métricas do vídeo não acessíveis",
+        "missingForRelativeAssessment": [
+          "baseline recente do canal",
+          "velocidade inicial",
+          "impressões",
+          "retenção",
+          "fontes de tráfego"
+        ],
+        "confounders": [
+          "tamanho e histórico do canal",
+          "idade da publicação",
+          "tema",
+          "distribuição"
+        ],
+        "causalClaimAllowed": false
+      }
+    },
+    {
+      "id": "obs-20260829-069",
+      "title": "O que acontece com um drone dentro de um ônibus em movimento?",
+      "creator": "Manual do Mundo",
+      "country": "BR",
+      "url": "https://www.youtube.com/watch?v=ja25AuHeCZM",
+      "publishedAt": "2016-11-29",
+      "duration": "não acessível",
+      "createdAt": "2026-08-29T11:09:17.000Z",
+      "coverage": {
+        "level": "partial",
+        "accessible": [
+          "título",
+          "criador",
+          "data de publicação",
+          "visualizações indexadas",
+          "miniatura/player incorporado",
+          "trecho de transcrição",
+          "resumo detalhado derivado da transcrição",
+          "objetivo, dificuldades e resultado do experimento"
+        ],
+        "missing": [
+          "vídeo integral reproduzível",
+          "imagem em movimento e cenas",
+          "áudio efetivamente ouvido",
+          "texto na tela",
+          "ritmo e montagem",
+          "retenção",
+          "comentários individuais",
+          "origem da distribuição",
+          "mídia paga e conversão",
+          "transcrição integral auditada",
+          "descrição original completa",
+          "curtidas",
+          "duração exata"
+        ]
+      },
+      "publicMetrics": {
+        "viewsObserved": "1,7 mi",
+        "observedAt": "2026-08-29",
+        "sourceType": "secondary_indexed_source",
+        "causality": "not_inferred"
+      },
+      "classification": {
+        "taxonomyVersion": "3.0",
+        "container": "youtube_video",
+        "materialFormat": "video_longo",
+        "presentationFormats": [
+          "experimento",
+          "demonstracao",
+          "explicacao"
+        ],
+        "primaryFamily": "demonstracao",
+        "secondaryFamilies": [
+          "educativo",
+          "curiosidade"
+        ],
+        "functionalMix": [
+          {
+            "family": "demonstracao",
+            "percentage": 55
+          },
+          {
+            "family": "educativo",
+            "percentage": 30
+          },
+          {
+            "family": "curiosidade",
+            "percentage": 15
+          }
+        ],
+        "objectives": [
+          "educar",
+          "curiosidade",
+          "retencao"
+        ],
+        "advertisingType": "indeterminado",
+        "commercialIntent": "indeterminada",
+        "advertisedEntity": {
+          "kind": "none_observed",
+          "name": null,
+          "confidence": "low"
+        },
+        "contentTopic": {
+          "label": "inércia e comportamento de drone em ônibus",
+          "iabCode": null
+        },
+        "segment": "ciência e educação",
+        "subsegment": "física experimental",
+        "probableAudience": "público geral interessado em ciência aplicada",
+        "awarenessStage": "inconsciente",
+        "productionLevel": "complex",
+        "creatorScale": "large",
+        "replicability": "medium",
+        "durationBand": "unknown",
+        "pace": "unknown",
+        "mechanisms": [
+          "curiosidade",
+          "tensão",
+          "recompensa",
+          "confiança"
+        ],
+        "hookTypes": [
+          "pergunta_literal"
+        ],
+        "narrativeElements": [
+          "duvida_da_audiencia",
+          "hipotese",
+          "teste",
+          "falha",
+          "variaveis_inesperadas",
+          "proxima_tentativa"
+        ],
+        "proofTypes": [
+          "experimento_descrito",
+          "limites_expostos"
+        ],
+        "ctaTypes": [],
+        "distributionContext": {
+          "organicPaid": "unknown",
+          "trendDependency": "unknown"
+        },
+        "confidence": "medium",
+        "evidence": [
+          "A abertura transcrita atribui a dúvida a uma pessoa da audiência e formula o comportamento esperado do drone.",
+          "O experimento encontrou interferência eletromagnética, instabilidade sem GPS e turbulência provocada pelo próprio drone.",
+          "O resultado inicial não resolveu plenamente a pergunta e a equipe declarou intenção de repetir o teste."
+        ],
+        "alternativeClassifications": [],
+        "missingInformation": [
+          "duração",
+          "execução audiovisual",
+          "ritmo",
+          "retenção",
+          "comentários",
+          "baseline do canal"
+        ],
+        "needsHumanReview": true
+      },
+      "comparison": {
+        "level": 2,
+        "group": "demonstração científica com pergunta literal, teste e resultado observável ou inconclusivo",
+        "referenceIds": [
+          "obs-20260823-001",
+          "obs-20260823-002",
+          "obs-20260823-003"
+        ],
+        "confidence": "medium"
+      },
+      "observations": [
+        "A abertura transcrita atribui a dúvida a uma pessoa da audiência e formula o comportamento esperado do drone.",
+        "O experimento encontrou interferência eletromagnética, instabilidade sem GPS e turbulência provocada pelo próprio drone.",
+        "O resultado inicial não resolveu plenamente a pergunta e a equipe declarou intenção de repetir o teste."
+      ],
+      "interpretations": [
+        "Uma pergunta concreta permite compreender o experimento antes das etapas.",
+        "Expor falha e variáveis inesperadas preserva valor educativo e evita apresentar um resultado inconclusivo como confirmação."
+      ],
+      "scores": {
+        "gancho": 88,
+        "clareza": 91,
+        "relevancia": 85,
+        "desejo": 86,
+        "confianca": 89,
+        "retencao": "not_assessed",
+        "acao": "not_assessed",
+        "objecoes": 90
+      },
+      "fiveLenses": {
+        "apressado": "A pergunta explica imediatamente o fenômeno testado.",
+        "analitico": "Variáveis e falha são reconhecidas, mas a transcrição integral não foi auditada.",
+        "aspiracional": "A recompensa é ver uma dúvida cotidiana testada fisicamente.",
+        "comunidade": "A dúvida nasceu da audiência; comentários atuais não foram acessados.",
+        "cetico": "O próprio conteúdo registra que o primeiro teste não foi conclusivo."
+      },
+      "hypotheses": [
+        "Em demonstração científica, admitir falha, identificar variáveis inesperadas e propor novo teste pode preservar confiança e valor educativo."
+      ],
+      "replicable": [
+        "Começar por uma pergunta testável.",
+        "Distinguir hipótese, procedimento, resultado e interferências.",
+        "Transformar falha em próxima pergunta, sem fabricar conclusão."
+      ],
+      "limitations": [
+        "Produção com ônibus e drone não é diretamente replicável por pequenos criadores.",
+        "Execução audiovisual, ritmo e retenção não foram auditados."
+      ],
+      "provenance": [
+        "public_content",
+        "secondary_transcript",
+        "secondary_public_metric",
+        "observatory_inference"
+      ],
+      "sourceEvidence": [
+        "https://www.youtube.com/watch?v=ja25AuHeCZM",
+        "https://glasp.co/youtube/ja25AuHeCZM"
+      ],
+      "training": {
+        "replicable": [
+          "Começar por uma pergunta testável.",
+          "Distinguir hipótese, procedimento, resultado e interferências.",
+          "Transformar falha em próxima pergunta, sem fabricar conclusão."
+        ],
+        "contingent": [
+          "orçamento e logística",
+          "novidade do experimento",
+          "histórico do canal"
+        ],
+        "notRecommended": [
+          "copiar frases, personagens ou roteiro",
+          "tratar resultado autodeclarado ou popularidade como prova causal",
+          "inferir cenas, áudio, ritmo ou retenção ausentes"
+        ],
+        "hypotheses": [
+          "Em demonstração científica, admitir falha, identificar variáveis inesperadas e propor novo teste pode preservar confiança e valor educativo."
+        ]
+      },
+      "viralAssessment": {
+        "status": "indeterminate",
+        "observedSignal": "1,7 milhão de visualizações indexadas, sem baseline funcional comparável",
+        "missingForRelativeAssessment": [
+          "baseline recente do canal",
+          "velocidade inicial",
+          "impressões",
+          "retenção",
+          "fontes de tráfego"
+        ],
+        "confounders": [
+          "tamanho e histórico do canal",
+          "idade da publicação",
+          "tema",
+          "distribuição"
+        ],
+        "causalClaimAllowed": false
+      }
+    },
+    {
+      "id": "obs-20260829-070",
+      "title": "EVERYDAY MAKEUP ROUTINE! — chit chat GRWM",
+      "creator": "Khalilah D.",
+      "country": "US",
+      "url": "https://www.youtube.com/watch?v=Jxcu_jIpA88",
+      "publishedAt": "2023-05-21",
+      "duration": "não acessível",
+      "createdAt": "2026-08-29T11:09:17.000Z",
+      "coverage": {
+        "level": "partial",
+        "accessible": [
+          "título",
+          "criadora",
+          "data de publicação",
+          "miniatura/player incorporado",
+          "trecho de transcrição",
+          "resumo detalhado derivado da transcrição",
+          "temas abordados"
+        ],
+        "missing": [
+          "vídeo integral reproduzível",
+          "imagem em movimento e cenas",
+          "áudio efetivamente ouvido",
+          "texto na tela",
+          "ritmo e montagem",
+          "retenção",
+          "comentários individuais",
+          "origem da distribuição",
+          "mídia paga e conversão",
+          "transcrição integral auditada",
+          "descrição original completa",
+          "visualizações",
+          "curtidas",
+          "duração exata"
+        ]
+      },
+      "publicMetrics": {
+        "viewsObserved": "not_measured",
+        "observedAt": "2026-08-29",
+        "sourceType": "secondary_transcript_source",
+        "causality": "not_inferred"
+      },
+      "classification": {
+        "taxonomyVersion": "3.0",
+        "container": "youtube_video",
+        "materialFormat": "video_longo",
+        "presentationFormats": [
+          "grwm",
+          "fala_para_camera",
+          "demonstracao"
+        ],
+        "primaryFamily": "comunidade",
+        "secondaryFamilies": [
+          "demonstracao",
+          "depoimento"
+        ],
+        "functionalMix": [
+          {
+            "family": "comunidade",
+            "percentage": 45
+          },
+          {
+            "family": "demonstracao",
+            "percentage": 30
+          },
+          {
+            "family": "depoimento",
+            "percentage": 25
+          }
+        ],
+        "objectives": [
+          "comunidade",
+          "identificacao",
+          "descoberta"
+        ],
+        "advertisingType": "indeterminado",
+        "commercialIntent": "indeterminada",
+        "advertisedEntity": {
+          "kind": "none_observed",
+          "name": null,
+          "confidence": "low"
+        },
+        "contentTopic": {
+          "label": "rotina de maquiagem e conversa sobre vida, livros e séries",
+          "iabCode": null
+        },
+        "segment": "beleza e lifestyle",
+        "subsegment": "GRWM conversacional",
+        "probableAudience": "público interessado em beleza, rotina pessoal e recomendações culturais",
+        "awarenessStage": "consciente_criador",
+        "productionLevel": "simple",
+        "creatorScale": "small",
+        "replicability": "high",
+        "durationBand": "unknown",
+        "pace": "unknown",
+        "mechanisms": [
+          "proximidade",
+          "identificação",
+          "confiança",
+          "companhia"
+        ],
+        "hookTypes": [
+          "reencontro_com_audiencia"
+        ],
+        "narrativeElements": [
+          "atividade_paralela",
+          "conversa_pessoal",
+          "recomendacoes",
+          "reflexao"
+        ],
+        "proofTypes": [
+          "experiencia_pessoal"
+        ],
+        "ctaTypes": [],
+        "distributionContext": {
+          "organicPaid": "unknown",
+          "trendDependency": "unknown"
+        },
+        "confidence": "medium",
+        "evidence": [
+          "A abertura transcrita afirma que fazia tempo que a criadora não realizava uma conversa pessoal sentada com a audiência.",
+          "A rotina de maquiagem funciona como atividade paralela enquanto ela comenta vida, livros, série, aprendizado de idioma e autoexpressão.",
+          "O resumo distingue opinião pessoal e experiência, sem apresentar resultados mensuráveis."
+        ],
+        "alternativeClassifications": [],
+        "missingInformation": [
+          "duração",
+          "métricas",
+          "execução audiovisual",
+          "ritmo",
+          "retenção",
+          "comentários"
+        ],
+        "needsHumanReview": true
+      },
+      "comparison": {
+        "level": 1,
+        "group": "GRWM conversacional orientado a comunidade",
+        "referenceIds": [],
+        "confidence": "medium"
+      },
+      "observations": [
+        "A abertura transcrita afirma que fazia tempo que a criadora não realizava uma conversa pessoal sentada com a audiência.",
+        "A rotina de maquiagem funciona como atividade paralela enquanto ela comenta vida, livros, série, aprendizado de idioma e autoexpressão.",
+        "O resumo distingue opinião pessoal e experiência, sem apresentar resultados mensuráveis."
+      ],
+      "interpretations": [
+        "Uma atividade visual familiar pode funcionar como contexto de baixa pressão para conversa pessoal e continuidade comunitária.",
+        "O valor depende da relação prévia com a audiência; não é comparável a tutorial de maquiagem orientado apenas a resultado."
+      ],
+      "scores": {
+        "gancho": 72,
+        "clareza": 84,
+        "relevancia": 80,
+        "desejo": 75,
+        "confianca": 86,
+        "retencao": "not_assessed",
+        "acao": "not_assessed",
+        "objecoes": 80
+      },
+      "fiveLenses": {
+        "apressado": "O título informa rotina e conversa, mas não uma transformação específica.",
+        "analitico": "Os temas e a abertura são acessíveis; execução e resposta da audiência não foram medidas.",
+        "aspiracional": "Maquiagem aparece como autoexpressão, não como promessa de perfeição.",
+        "comunidade": "O reencontro e a conversa direta são o centro funcional.",
+        "cetico": "Proximidade percebida depende da relação anterior com a criadora."
+      },
+      "hypotheses": [
+        "Em conteúdo comunitário, realizar uma atividade familiar enquanto compartilha atualizações pessoais pode criar sensação de companhia e reduzir a formalidade da conversa."
+      ],
+      "replicable": [
+        "Usar uma atividade coerente como suporte, sem esconder o tema conversacional.",
+        "Marcar continuidade com a audiência sem presumir intimidade inexistente."
+      ],
+      "limitations": [
+        "Vídeo e áudio não foram reproduzidos; gestos, técnica de maquiagem, ritmo e retenção não foram avaliados.",
+        "Sem métricas ou comentários, não há evidência de desempenho comunitário."
+      ],
+      "provenance": [
+        "public_content",
+        "secondary_transcript",
+        "observatory_inference"
+      ],
+      "sourceEvidence": [
+        "https://www.youtube.com/watch?v=Jxcu_jIpA88",
+        "https://glasp.co/youtube/Jxcu_jIpA88"
+      ],
+      "training": {
+        "replicable": [
+          "Usar uma atividade coerente como suporte, sem esconder o tema conversacional.",
+          "Marcar continuidade com a audiência sem presumir intimidade inexistente."
+        ],
+        "contingent": [
+          "relação prévia com seguidores",
+          "carisma",
+          "frequência do quadro"
+        ],
+        "notRecommended": [
+          "copiar frases, personagens ou roteiro",
+          "tratar resultado autodeclarado ou popularidade como prova causal",
+          "inferir cenas, áudio, ritmo ou retenção ausentes"
+        ],
+        "hypotheses": [
+          "Em conteúdo comunitário, realizar uma atividade familiar enquanto compartilha atualizações pessoais pode criar sensação de companhia e reduzir a formalidade da conversa."
+        ]
+      },
+      "viralAssessment": {
+        "status": "indeterminate",
+        "observedSignal": "métricas não acessíveis",
+        "missingForRelativeAssessment": [
+          "baseline recente do canal",
+          "velocidade inicial",
+          "impressões",
+          "retenção",
+          "fontes de tráfego"
+        ],
+        "confounders": [
+          "tamanho e histórico do canal",
+          "idade da publicação",
+          "tema",
+          "distribuição"
+        ],
+        "causalClaimAllowed": false
+      }
     }
   ],
   "patterns": [
@@ -15182,15 +16350,17 @@
       "supportReferenceIds": [
         "obs-20260823-001",
         "obs-20260823-002",
-        "obs-20260823-003"
+        "obs-20260823-003",
+        "obs-20260829-069"
       ],
-      "comparableSupportCount": 3,
+      "comparableSupportCount": 4,
       "comparisonLevel": 1,
       "confidence": "medium",
       "limitations": [
         "As três referências são do mesmo criador.",
         "Sem curvas de retenção ou experimento causal.",
-        "Não validado para outros segmentos."
+        "Não validado para outros segmentos.",
+        "O quarto apoio também é do Manual do Mundo; diversidade de criadores permanece igual a um."
       ],
       "validation": "requires_human_or_experimental_evidence",
       "stage": "supported_hypothesis",
@@ -15198,7 +16368,7 @@
       "creativeFamily": "família demonstracao",
       "objective": "objetivo educar ou reter",
       "segment": "fenômeno visual verificável",
-      "supportingCount": 3,
+      "supportingCount": 4,
       "counterexampleCount": 0,
       "evidence": [
         {
@@ -15218,6 +16388,14 @@
           "observation": "apoio comparável desta rodada",
           "evidence": "ver ficha individual",
           "limitations": []
+        },
+        {
+          "referenceId": "obs-20260829-069",
+          "observation": "Pergunta testável seguida de experimento que expõe interferências e resultado inconclusivo.",
+          "evidence": "Título, trecho de transcrição e resumo textual.",
+          "limitations": [
+            "Mesmo criador dos apoios anteriores; sem audiovisual integral ou retenção."
+          ]
         }
       ],
       "taxonomyVersion": "3.0",
@@ -15627,6 +16805,95 @@
       "creatorDiversityCount": 4,
       "sourceDiversityCount": 4,
       "patternType": "estrutura_semantica"
+    },
+    {
+      "id": "pat-20260829-007",
+      "status": "provisional",
+      "statement": "Em prova comercial B2B, organizar estado anterior, intervenção, período ou baseline, resultado quantificado e voz identificável do cliente pode aumentar verificabilidade percebida; números autodeclarados, porém, não demonstram causalidade nem auditoria.",
+      "mechanism": [
+        "confiança",
+        "especificidade",
+        "identificação",
+        "redução_de_ambiguidade"
+      ],
+      "conditions": [
+        "conteúdo de prova comercial B2B",
+        "cliente ou responsável identificável",
+        "estado anterior explicitado",
+        "intervenção descrita",
+        "resultado com unidade e contexto"
+      ],
+      "supportReferenceIds": [
+        "obs-20260824-041",
+        "obs-20260824-042",
+        "obs-20260829-066",
+        "obs-20260829-067",
+        "obs-20260829-068"
+      ],
+      "comparableSupportCount": 5,
+      "comparisonLevel": 2,
+      "confidence": "medium",
+      "limitations": [
+        "Todos os resultados são autodeclarados ou publicados por partes comercialmente interessadas.",
+        "Nenhum vídeo foi reproduzido integralmente.",
+        "Período, baseline e método de cálculo não aparecem em todos os casos.",
+        "Intervenções simultâneas impedem atribuição a um único componente.",
+        "Sem experimento de confiança, compreensão ou conversão."
+      ],
+      "validation": "requires_human_or_experimental_evidence",
+      "stage": "provisional",
+      "name": "Prova comercial com cadeia problema–mecanismo–resultado–cliente",
+      "creativeFamily": "prova_estudo_caso",
+      "objective": "confiança e consideração",
+      "segment": "B2B",
+      "supportingCount": 5,
+      "counterexampleCount": 0,
+      "evidence": [
+        {
+          "referenceId": "obs-20260824-041",
+          "observation": "Estado anterior, mecanismo, resultado quantificado e CEO identificado em caso de marketing jurídico.",
+          "evidence": "Página oficial e vídeo incorporado.",
+          "limitations": [
+            "Sem audiovisual ou auditoria independente."
+          ]
+        },
+        {
+          "referenceId": "obs-20260824-042",
+          "observation": "Prazo, resultado financeiro, transição e pessoa identificável em depoimento de franquia.",
+          "evidence": "Título, resumo e transcrição parcial.",
+          "limitations": [
+            "Comissão autodeclarada e não auditada."
+          ]
+        },
+        {
+          "referenceId": "obs-20260829-066",
+          "observation": "Problema de operação digital, múltiplas intervenções, período, aumento de leads e gerente identificado.",
+          "evidence": "Título, descrição e página oficial relacionada.",
+          "limitations": [
+            "Fonte ligada ao fornecedor; múltiplos confundidores."
+          ]
+        },
+        {
+          "referenceId": "obs-20260829-067",
+          "observation": "Diretor identificado, mecanismo e dois resultados percentuais.",
+          "evidence": "Título e descrição indexada.",
+          "limitations": [
+            "Sem período, baseline ou auditoria."
+          ]
+        },
+        {
+          "referenceId": "obs-20260829-068",
+          "observation": "Problema por planilhas, pacote de intervenções, indicadores e CEO identificado.",
+          "evidence": "Título, descrição e página oficial relacionada.",
+          "limitations": [
+            "Fonte comercial e sem auditoria."
+          ]
+        }
+      ],
+      "taxonomyVersion": "3.0",
+      "creatorDiversityCount": 5,
+      "sourceDiversityCount": 5,
+      "patternType": "estrutura_de_prova"
     }
   ],
   "hypotheses": [
@@ -15782,13 +17049,17 @@
     },
     {
       "id": "hyp-20260824-016",
-      "status": "observed_not_promoted",
+      "status": "promoted_to_provisional",
       "statement": "Em conteúdo de prova comercial, organizar estado anterior, mecanismo adotado, resultado quantificado e voz identificável do cliente pode aumentar verificabilidade percebida.",
       "supportReferenceIds": [
         "obs-20260824-041",
-        "obs-20260824-042"
+        "obs-20260824-042",
+        "obs-20260829-066",
+        "obs-20260829-067",
+        "obs-20260829-068"
       ],
-      "reasonNotPromoted": "Apenas dois apoios comparáveis; ambos são casos selecionados com resultados declarados, sem auditoria independente, retenção ou conversão do conteúdo."
+      "promotedPatternId": "pat-20260829-007",
+      "promotionNote": "Promovida após cinco casos comparáveis de criadores e fornecedores diferentes. O padrão descreve verificabilidade percebida da estrutura, não prova causalidade ou veracidade dos resultados."
     },
     {
       "id": "hyp-20260824-017",
@@ -15928,6 +17199,15 @@
         "obs-20260828-064"
       ],
       "reasonNotPromoted": "Apenas uma referência, sem vídeo integral, comentários, disclosure contratual ou comparação funcional independente."
+    },
+    {
+      "id": "hyp-20260829-032",
+      "status": "observed_not_promoted",
+      "statement": "Em conteúdo comunitário, realizar uma atividade familiar enquanto compartilha atualizações pessoais pode criar sensação de companhia e reduzir a formalidade da conversa.",
+      "supportReferenceIds": [
+        "obs-20260829-070"
+      ],
+      "reasonNotPromoted": "Apenas uma referência, sem audiovisual integral, comentários, retenção, métricas ou comparação independente."
     }
   ],
   "contradictions": [
@@ -15988,6 +17268,14 @@
       "statement": "A moldura de 'verdade escondida' ou 'o que não ensinaram' aumenta o custo de prova; sem fontes acessíveis, o mesmo mecanismo pode produzir revisionismo ou clickbait em vez de confiança.",
       "evidence": [
         "obs-20260828-063"
+      ]
+    },
+    {
+      "statement": "Em prova comercial, precisão numérica e voz identificável aumentam verificabilidade percebida, mas publicação pelo fornecedor, intervenções simultâneas e ausência de auditoria impedem converter essa percepção em prova causal.",
+      "evidence": [
+        "obs-20260829-066",
+        "obs-20260829-067",
+        "obs-20260829-068"
       ]
     }
   ],
@@ -16611,6 +17899,82 @@
         "Métricas ausentes foram tratadas como não mensuradas, nunca como zero.",
         "Nenhum dado foi misturado aos cérebros sintéticos ou ao futuro Freud."
       ]
+    },
+    {
+      "id": "run-20260829-supervised-010",
+      "executedAt": "2026-08-29T11:09:17.000Z",
+      "requestedBatchSize": 5,
+      "candidatesFound": 5,
+      "discarded": [],
+      "analyzed": 5,
+      "brazilianReferences": 4,
+      "internationalReferences": 1,
+      "replicableReferences": 4,
+      "coverageSummary": {
+        "complete": 0,
+        "partial": 5,
+        "insufficient": 0
+      },
+      "familiesCovered": [
+        "prova_estudo_caso",
+        "depoimento",
+        "venda_indireta",
+        "demonstracao",
+        "educativo",
+        "curiosidade",
+        "comunidade"
+      ],
+      "segmentsCovered": [
+        "marketing automotivo B2B",
+        "tecnologia para e-commerce",
+        "consultoria comercial B2B",
+        "ciência e educação",
+        "beleza e lifestyle"
+      ],
+      "sourcesUsed": [
+        "https://www.youtube.com/watch?v=2jVT8bzOwU8",
+        "https://blog.autoforce.com/case-de-sucesso-murano-veiculos/",
+        "https://www.youtube.com/watch?v=2J3eeyVfsgc",
+        "https://anymarket.com.br/",
+        "https://www.youtube.com/watch?v=A_BNrm_4Pao",
+        "https://dnadevendas.com.br/blog/case-de-sucesso-converger-aumenta-faturamento-em-30-com-a-consultoria-da-dna-de-vendas/",
+        "https://www.youtube.com/watch?v=ja25AuHeCZM",
+        "https://glasp.co/youtube/ja25AuHeCZM",
+        "https://www.youtube.com/watch?v=Jxcu_jIpA88",
+        "https://glasp.co/youtube/Jxcu_jIpA88"
+      ],
+      "patternsCreated": [
+        "pat-20260829-007"
+      ],
+      "patternsStrengthened": [
+        "pat-20260823-001"
+      ],
+      "hypothesesCreated": [
+        "hyp-20260829-032"
+      ],
+      "hypothesesStrengthened": [
+        "hyp-20260824-016"
+      ],
+      "validatedPatternsCreated": 0,
+      "contradictionsFound": [
+        "Números autodeclarados e voz de cliente estruturam prova percebida, mas não substituem baseline, auditoria ou isolamento causal."
+      ],
+      "nextTarget": "vídeo curto brasileiro de prova comercial com audiovisual e transcrição integrais, cliente identificável, baseline, período, método de cálculo e comentário público, além de um caso em que a estrutura não gerou confiança",
+      "limitations": [
+        "As cinco referências tiveram cobertura parcial; nenhuma permitiu auditoria audiovisual integral.",
+        "Cenas, áudio efetivamente ouvido, texto na tela, ritmo, montagem e retenção permaneceram não mensurados.",
+        "Três casos comerciais vieram de fornecedores ou páginas relacionadas e podem refletir seleção favorável.",
+        "O novo padrão descreve estrutura e verificabilidade percebida; não confirma a veracidade ou causalidade dos resultados.",
+        "O caso de demonstração tem cobertura textual ampla, mas é do mesmo criador dos apoios anteriores.",
+        "Métricas ausentes foram tratadas como não mensuradas, nunca como zero.",
+        "Nenhum dado foi misturado aos cérebros sintéticos ou ao futuro Freud."
+      ],
+      "protocolExperiment": {
+        "focus": "três referências dirigidas à hipótese hyp-20260824-016; duas referências para diversidade",
+        "outcome": "a hipótese recebeu três novos apoios independentes e foi promovida a padrão provisório",
+        "newHypothesisLimit": 1,
+        "note": "Primeira rodada após o ajuste de convergência; não constitui validação do protocolo."
+      }
     }
   ],
   "policy": {
