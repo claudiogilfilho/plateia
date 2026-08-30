@@ -1,6 +1,6 @@
 {
   "protocol": "plateia-memory/1.0",
-  "updatedAt": "2026-08-30T17:16:40.271Z",
+  "updatedAt": "2026-08-30T17:17:35.232Z",
   "references": [
     {
       "id": "obs-20260823-001",
@@ -185,7 +185,9 @@
           "confidence": "high"
         },
         "reversibleViaGit": true
-      }
+      },
+      "creatorIdentity": "manual-do-mundo",
+      "sourceIdentity": "manual-do-mundo"
     },
     {
       "id": "obs-20260823-002",
@@ -370,7 +372,9 @@
           "confidence": "high"
         },
         "reversibleViaGit": true
-      }
+      },
+      "creatorIdentity": "manual-do-mundo",
+      "sourceIdentity": "manual-do-mundo"
     },
     {
       "id": "obs-20260823-003",
@@ -557,7 +561,9 @@
           "confidence": "high"
         },
         "reversibleViaGit": true
-      }
+      },
+      "creatorIdentity": "manual-do-mundo",
+      "sourceIdentity": "manual-do-mundo"
     },
     {
       "id": "obs-20260823-004",
@@ -747,7 +753,9 @@
         "reviewedAt": "2026-08-24T19:30:00.000Z",
         "decision": "Valores legados de formato criativo foram removidos do eixo de apresentação; apresentações observáveis foram preservadas e ausência de evidência audiovisual virou indeterminado.",
         "uncertaintyPreserved": true
-      }
+      },
+      "creatorIdentity": "manual-do-mundo",
+      "sourceIdentity": "manual-do-mundo"
     },
     {
       "id": "obs-20260823-005",
@@ -933,7 +941,9 @@
         "reviewedAt": "2026-08-24T19:30:00.000Z",
         "decision": "Valores legados de formato criativo foram removidos do eixo de apresentação; apresentações observáveis foram preservadas e ausência de evidência audiovisual virou indeterminado.",
         "uncertaintyPreserved": true
-      }
+      },
+      "creatorIdentity": "drauzio-varella",
+      "sourceIdentity": "drauzio-varella"
     },
     {
       "id": "obs-20260823-006",
@@ -1123,7 +1133,9 @@
         "reviewedAt": "2026-08-24T19:30:00.000Z",
         "decision": "Valores legados de formato criativo foram removidos do eixo de apresentação; apresentações observáveis foram preservadas e ausência de evidência audiovisual virou indeterminado.",
         "uncertaintyPreserved": true
-      }
+      },
+      "creatorIdentity": "drauzio-varella",
+      "sourceIdentity": "drauzio-varella"
     },
     {
       "id": "obs-20260823-007",
@@ -1317,7 +1329,9 @@
         "reviewedAt": "2026-08-24T19:30:00.000Z",
         "decision": "Valores legados de formato criativo foram removidos do eixo de apresentação; apresentações observáveis foram preservadas e ausência de evidência audiovisual virou indeterminado.",
         "uncertaintyPreserved": true
-      }
+      },
+      "creatorIdentity": "drauzio-varella",
+      "sourceIdentity": "drauzio-varella"
     },
     {
       "id": "obs-20260823-008",
@@ -1499,7 +1513,9 @@
           "confidence": "high"
         },
         "reversibleViaGit": true
-      }
+      },
+      "creatorIdentity": "meteoro-brasil",
+      "sourceIdentity": "meteoro-brasil"
     },
     {
       "id": "obs-20260823-009",
@@ -1683,7 +1699,9 @@
           "confidence": "high"
         },
         "reversibleViaGit": true
-      }
+      },
+      "creatorIdentity": "porta-dos-fundos",
+      "sourceIdentity": "porta-dos-fundos"
     },
     {
       "id": "obs-20260823-010",
@@ -1872,7 +1890,9 @@
         "reviewedAt": "2026-08-24T19:30:00.000Z",
         "decision": "Valores legados de formato criativo foram removidos do eixo de apresentação; apresentações observáveis foram preservadas e ausência de evidência audiovisual virou indeterminado.",
         "uncertaintyPreserved": true
-      }
+      },
+      "creatorIdentity": "arata-academy",
+      "sourceIdentity": "arata-academy"
     },
     {
       "id": "obs-20260823-011",
@@ -2062,7 +2082,9 @@
         "reviewedAt": "2026-08-24T19:30:00.000Z",
         "decision": "Valores legados de formato criativo foram removidos do eixo de apresentação; apresentações observáveis foram preservadas e ausência de evidência audiovisual virou indeterminado.",
         "uncertaintyPreserved": true
-      }
+      },
+      "creatorIdentity": "diatv-blogueirinha",
+      "sourceIdentity": "diatv-blogueirinha"
     },
     {
       "id": "obs-20260823-012",
@@ -2250,7 +2272,9 @@
         "reviewedAt": "2026-08-24T19:30:00.000Z",
         "decision": "Valores legados de formato criativo foram removidos do eixo de apresentação; apresentações observáveis foram preservadas e ausência de evidência audiovisual virou indeterminado.",
         "uncertaintyPreserved": true
-      }
+      },
+      "creatorIdentity": "sequoia-capital",
+      "sourceIdentity": "sequoia-capital"
     },
     {
       "id": "obs-20260823-013",
@@ -2435,7 +2459,9 @@
           "confidence": "high"
         },
         "reversibleViaGit": true
-      }
+      },
+      "creatorIdentity": "rose-han",
+      "sourceIdentity": "rose-han"
     },
     {
       "id": "obs-20260823-014",
@@ -2626,7 +2652,9 @@
         "reviewedAt": "2026-08-24T19:30:00.000Z",
         "decision": "Valores legados de formato criativo foram removidos do eixo de apresentação; apresentações observáveis foram preservadas e ausência de evidência audiovisual virou indeterminado.",
         "uncertaintyPreserved": true
-      }
+      },
+      "creatorIdentity": "inayah-mcmillan",
+      "sourceIdentity": "inayah-mcmillan"
     },
     {
       "id": "obs-20260823-015",
@@ -2810,7 +2838,9 @@
           "confidence": "high"
         },
         "reversibleViaGit": true
-      }
+      },
+      "creatorIdentity": "nathaniel-drew",
+      "sourceIdentity": "nathaniel-drew"
     },
     {
       "id": "obs-20260824-016",
@@ -3001,7 +3031,9 @@
         "reviewedAt": "2026-08-24T19:30:00.000Z",
         "decision": "Valores legados de formato criativo foram removidos do eixo de apresentação; apresentações observáveis foram preservadas e ausência de evidência audiovisual virou indeterminado.",
         "uncertaintyPreserved": true
-      }
+      },
+      "creatorIdentity": "manual-do-mundo",
+      "sourceIdentity": "manual-do-mundo"
     },
     {
       "id": "obs-20260824-017",
@@ -3190,7 +3222,9 @@
         "reviewedAt": "2026-08-24T19:30:00.000Z",
         "decision": "Valores legados de formato criativo foram removidos do eixo de apresentação; apresentações observáveis foram preservadas e ausência de evidência audiovisual virou indeterminado.",
         "uncertaintyPreserved": true
-      }
+      },
+      "creatorIdentity": "ciencia-todo-dia",
+      "sourceIdentity": "ciencia-todo-dia"
     },
     {
       "id": "obs-20260824-018",
@@ -3376,7 +3410,9 @@
         "reviewedAt": "2026-08-24T19:30:00.000Z",
         "decision": "Valores legados de formato criativo foram removidos do eixo de apresentação; apresentações observáveis foram preservadas e ausência de evidência audiovisual virou indeterminado.",
         "uncertaintyPreserved": true
-      }
+      },
+      "creatorIdentity": "nerdologia",
+      "sourceIdentity": "nerdologia"
     },
     {
       "id": "obs-20260824-019",
@@ -3559,7 +3595,9 @@
         "reviewedAt": "2026-08-24T19:30:00.000Z",
         "decision": "Valores legados de formato criativo foram removidos do eixo de apresentação; apresentações observáveis foram preservadas e ausência de evidência audiovisual virou indeterminado.",
         "uncertaintyPreserved": true
-      }
+      },
+      "creatorIdentity": "me-poupe",
+      "sourceIdentity": "me-poupe"
     },
     {
       "id": "obs-20260824-020",
@@ -3753,7 +3791,9 @@
         "reviewedAt": "2026-08-24T19:30:00.000Z",
         "decision": "Valores legados de formato criativo foram removidos do eixo de apresentação; apresentações observáveis foram preservadas e ausência de evidência audiovisual virou indeterminado.",
         "uncertaintyPreserved": true
-      }
+      },
+      "creatorIdentity": "drauzio-varella",
+      "sourceIdentity": "drauzio-varella"
     },
     {
       "id": "obs-20260824-021",
@@ -3939,7 +3979,9 @@
           "confidence": "medium"
         },
         "reversibleViaGit": true
-      }
+      },
+      "creatorIdentity": "vitoria-arduin",
+      "sourceIdentity": "vitoria-arduin"
     },
     {
       "id": "obs-20260824-022",
@@ -4125,7 +4167,9 @@
           "confidence": "medium"
         },
         "reversibleViaGit": true
-      }
+      },
+      "creatorIdentity": "vitor-pudim",
+      "sourceIdentity": "vitor-pudim"
     },
     {
       "id": "obs-20260824-023",
@@ -4312,7 +4356,9 @@
           "confidence": "medium"
         },
         "reversibleViaGit": true
-      }
+      },
+      "creatorIdentity": "design-with-canva",
+      "sourceIdentity": "design-with-canva"
     },
     {
       "id": "obs-20260824-024",
@@ -4498,7 +4544,9 @@
           "confidence": "medium"
         },
         "reversibleViaGit": true
-      }
+      },
+      "creatorIdentity": "ali-abdaal",
+      "sourceIdentity": "ali-abdaal"
     },
     {
       "id": "obs-20260824-025",
@@ -4685,7 +4733,9 @@
           "confidence": "low"
         },
         "reversibleViaGit": true
-      }
+      },
+      "creatorIdentity": "hey-runi-love",
+      "sourceIdentity": "hey-runi-love"
     },
     {
       "id": "obs-20260824-026",
@@ -4871,7 +4921,9 @@
           "confidence": "medium"
         },
         "reversibleViaGit": true
-      }
+      },
+      "creatorIdentity": "porta-dos-fundos",
+      "sourceIdentity": "porta-dos-fundos"
     },
     {
       "id": "obs-20260824-027",
@@ -5059,7 +5111,9 @@
         "reviewedAt": "2026-08-24T19:30:00.000Z",
         "decision": "Valores legados de formato criativo foram removidos do eixo de apresentação; apresentações observáveis foram preservadas e ausência de evidência audiovisual virou indeterminado.",
         "uncertaintyPreserved": true
-      }
+      },
+      "creatorIdentity": "porta-dos-fundos",
+      "sourceIdentity": "porta-dos-fundos"
     },
     {
       "id": "obs-20260824-028",
@@ -5247,7 +5301,9 @@
         "reviewedAt": "2026-08-24T19:30:00.000Z",
         "decision": "Valores legados de formato criativo foram removidos do eixo de apresentação; apresentações observáveis foram preservadas e ausência de evidência audiovisual virou indeterminado.",
         "uncertaintyPreserved": true
-      }
+      },
+      "creatorIdentity": "multishow-lady-night",
+      "sourceIdentity": "multishow-lady-night"
     },
     {
       "id": "obs-20260824-029",
@@ -5435,7 +5491,9 @@
         "reviewedAt": "2026-08-24T19:30:00.000Z",
         "decision": "Valores legados de formato criativo foram removidos do eixo de apresentação; apresentações observáveis foram preservadas e ausência de evidência audiovisual virou indeterminado.",
         "uncertaintyPreserved": true
-      }
+      },
+      "creatorIdentity": "portal-eldo-gomes",
+      "sourceIdentity": "portal-eldo-gomes"
     },
     {
       "id": "obs-20260824-030",
@@ -5630,7 +5688,9 @@
         "reviewedAt": "2026-08-24T19:30:00.000Z",
         "decision": "Valores legados de formato criativo foram removidos do eixo de apresentação; apresentações observáveis foram preservadas e ausência de evidência audiovisual virou indeterminado.",
         "uncertaintyPreserved": true
-      }
+      },
+      "creatorIdentity": "mrbeast",
+      "sourceIdentity": "mrbeast"
     },
     {
       "id": "obs-20260824-031",
@@ -5831,7 +5891,9 @@
         "reviewedAt": "2026-08-24T19:30:00.000Z",
         "decision": "Valores legados de formato criativo foram removidos do eixo de apresentação; apresentações observáveis foram preservadas e ausência de evidência audiovisual virou indeterminado.",
         "uncertaintyPreserved": true
-      }
+      },
+      "creatorIdentity": "manual-do-mundo",
+      "sourceIdentity": "manual-do-mundo"
     },
     {
       "id": "obs-20260824-032",
@@ -6035,7 +6097,9 @@
         "reviewedAt": "2026-08-24T19:30:00.000Z",
         "decision": "Valores legados de formato criativo foram removidos do eixo de apresentação; apresentações observáveis foram preservadas e ausência de evidência audiovisual virou indeterminado.",
         "uncertaintyPreserved": true
-      }
+      },
+      "creatorIdentity": "drauzio-varella",
+      "sourceIdentity": "drauzio-varella"
     },
     {
       "id": "obs-20260824-033",
@@ -6245,7 +6309,9 @@
         "reviewedAt": "2026-08-24T19:30:00.000Z",
         "decision": "Valores legados de formato criativo foram removidos do eixo de apresentação; apresentações observáveis foram preservadas e ausência de evidência audiovisual virou indeterminado.",
         "uncertaintyPreserved": true
-      }
+      },
+      "creatorIdentity": "duolingo-brasil",
+      "sourceIdentity": "duolingo-brasil"
     },
     {
       "id": "obs-20260824-034",
@@ -6451,7 +6517,9 @@
         "reviewedAt": "2026-08-24T19:30:00.000Z",
         "decision": "Valores legados de formato criativo foram removidos do eixo de apresentação; apresentações observáveis foram preservadas e ausência de evidência audiovisual virou indeterminado.",
         "uncertaintyPreserved": true
-      }
+      },
+      "creatorIdentity": "tastemade-brasil",
+      "sourceIdentity": "tastemade-brasil"
     },
     {
       "id": "obs-20260824-035",
@@ -6659,7 +6727,9 @@
         "reviewedAt": "2026-08-24T19:30:00.000Z",
         "decision": "Valores legados de formato criativo foram removidos do eixo de apresentação; apresentações observáveis foram preservadas e ausência de evidência audiovisual virou indeterminado.",
         "uncertaintyPreserved": true
-      }
+      },
+      "creatorIdentity": "ryan-trahan",
+      "sourceIdentity": "ryan-trahan"
     },
     {
       "id": "obs-20260824-036",
@@ -6948,7 +7018,9 @@
           "Pergunta concreta mais método explícito pode reforçar curiosidade em Shorts educativos."
         ]
       },
-      "createdAt": "2026-08-24T12:30:00.000Z"
+      "createdAt": "2026-08-24T12:30:00.000Z",
+      "creatorIdentity": "manual-do-mundo",
+      "sourceIdentity": "manual-do-mundo"
     },
     {
       "id": "obs-20260824-037",
@@ -7257,7 +7329,9 @@
           "Demonstração concreta e risco explícito antes da integração comercial podem reduzir objeção em educação financeira de marca."
         ]
       },
-      "createdAt": "2026-08-24T12:30:00.000Z"
+      "createdAt": "2026-08-24T12:30:00.000Z",
+      "creatorIdentity": "manual-do-mundo",
+      "sourceIdentity": "manual-do-mundo"
     },
     {
       "id": "obs-20260824-038",
@@ -7547,7 +7621,9 @@
           "Pauta participativa mais persona estável pode fortalecer identificação e recorrência em humor comunitário."
         ]
       },
-      "createdAt": "2026-08-24T12:30:00.000Z"
+      "createdAt": "2026-08-24T12:30:00.000Z",
+      "creatorIdentity": "blogueirinha",
+      "sourceIdentity": "blogueirinha"
     },
     {
       "id": "obs-20260824-039",
@@ -7837,7 +7913,9 @@
           "Reenquadrar uma narrativa conhecida com pergunta verificável pode criar tensão educativa."
         ]
       },
-      "createdAt": "2026-08-24T12:30:00.000Z"
+      "createdAt": "2026-08-24T12:30:00.000Z",
+      "creatorIdentity": "canal-nostalgia",
+      "sourceIdentity": "canal-nostalgia"
     },
     {
       "id": "obs-20260824-040",
@@ -8150,7 +8228,9 @@
           "Oferta educacional pode ganhar clareza ao declarar o encaixe e oferecer próximos passos graduais."
         ]
       },
-      "createdAt": "2026-08-24T12:30:00.000Z"
+      "createdAt": "2026-08-24T12:30:00.000Z",
+      "creatorIdentity": "speaking-brazilian-language-school",
+      "sourceIdentity": "speaking-brazilian-language-school"
     },
     {
       "id": "obs-20260824-041",
@@ -8463,7 +8543,9 @@
           "Casos comerciais podem ganhar confiança quando explicitam a cadeia causal alegada e deixam seus limites visíveis."
         ]
       },
-      "createdAt": "2026-08-24T13:45:00.000Z"
+      "createdAt": "2026-08-24T13:45:00.000Z",
+      "creatorIdentity": "rd-station-e-advbox",
+      "sourceIdentity": "rd-station-e-advbox"
     },
     {
       "id": "obs-20260824-042",
@@ -8779,7 +8861,9 @@
           "Prova comercial ganha verificabilidade percebida quando a transformação é específica e o processo é nomeado."
         ]
       },
-      "createdAt": "2026-08-24T13:45:00.000Z"
+      "createdAt": "2026-08-24T13:45:00.000Z",
+      "creatorIdentity": "reinaldo-zanon-zanon-cast",
+      "sourceIdentity": "reinaldo-zanon-zanon-cast"
     },
     {
       "id": "obs-20260824-043",
@@ -9086,7 +9170,9 @@
           "Introduções pessoais antes do primeiro princípio podem ter custo maior para tráfego frio do que para comunidade recorrente."
         ]
       },
-      "createdAt": "2026-08-24T13:45:00.000Z"
+      "createdAt": "2026-08-24T13:45:00.000Z",
+      "creatorIdentity": "icaro-de-carvalho",
+      "sourceIdentity": "icaro-de-carvalho"
     },
     {
       "id": "obs-20260824-044",
@@ -9395,7 +9481,9 @@
           "O ciclo de perguntas pode transferir-se para outros nichos se a lente editorial for consistente e distinta."
         ]
       },
-      "createdAt": "2026-08-24T13:45:00.000Z"
+      "createdAt": "2026-08-24T13:45:00.000Z",
+      "creatorIdentity": "blogueirinha",
+      "sourceIdentity": "blogueirinha"
     },
     {
       "id": "obs-20260824-045",
@@ -9704,7 +9792,9 @@
           "Arquitetura de profundidade pode ampliar uso da prova sem sacrificar consistência factual."
         ]
       },
-      "createdAt": "2026-08-24T13:45:00.000Z"
+      "createdAt": "2026-08-24T13:45:00.000Z",
+      "creatorIdentity": "social-media-examiner",
+      "sourceIdentity": "social-media-examiner"
     },
     {
       "id": "obs-20260825-046",
@@ -10022,7 +10112,9 @@
           "Disclosure visível pode preservar confiança em conteúdo patrocinado quando a recomendação permanece proporcional às fontes."
         ]
       },
-      "createdAt": "2026-08-25T12:00:00.000Z"
+      "createdAt": "2026-08-25T12:00:00.000Z",
+      "creatorIdentity": "drauzio-varella",
+      "sourceIdentity": "drauzio-varella"
     },
     {
       "id": "obs-20260825-047",
@@ -10338,7 +10430,9 @@
           "Redução de vergonha pode ser mecanismo de consideração em educação quando o humor preserva dignidade."
         ]
       },
-      "createdAt": "2026-08-25T12:00:00.000Z"
+      "createdAt": "2026-08-25T12:00:00.000Z",
+      "creatorIdentity": "duolingo-brasil-chaiany-jotacom-e-viu",
+      "sourceIdentity": "duolingo-brasil-chaiany-jotacom-e-viu"
     },
     {
       "id": "obs-20260825-048",
@@ -10663,7 +10757,9 @@
           "Demonstração instrumentada pode reduzir objeção funcional quando o protocolo é suficientemente auditável."
         ]
       },
-      "createdAt": "2026-08-25T12:00:00.000Z"
+      "createdAt": "2026-08-25T12:00:00.000Z",
+      "creatorIdentity": "avon-brasil",
+      "sourceIdentity": "avon-brasil"
     },
     {
       "id": "obs-20260825-049",
@@ -10988,7 +11084,9 @@
           "Especificidade financeira pode reduzir objeções em serviços de assinatura quando acompanhada de experiência completa."
         ]
       },
-      "createdAt": "2026-08-25T12:00:00.000Z"
+      "createdAt": "2026-08-25T12:00:00.000Z",
+      "creatorIdentity": "victor-borentinni",
+      "sourceIdentity": "victor-borentinni"
     },
     {
       "id": "obs-20260825-050",
@@ -11297,7 +11395,9 @@
           "Finales seriados podem ganhar força ao converter progresso acumulado em pertencimento coletivo."
         ]
       },
-      "createdAt": "2026-08-25T12:00:00.000Z"
+      "createdAt": "2026-08-25T12:00:00.000Z",
+      "creatorIdentity": "ryan-trahan",
+      "sourceIdentity": "ryan-trahan"
     },
     {
       "id": "obs-20260826-051",
@@ -11628,7 +11728,9 @@
           ]
         },
         "uncertaintyPreserved": true
-      }
+      },
+      "creatorIdentity": "edu-labtec-edulabtec",
+      "sourceIdentity": "edu-labtec-edulabtec"
     },
     {
       "id": "obs-20260826-052",
@@ -11961,7 +12063,9 @@
           "advertisedEntityKind": "produto_e_loja"
         },
         "uncertaintyPreserved": true
-      }
+      },
+      "creatorIdentity": "jucenha-jucenha",
+      "sourceIdentity": "jucenha-jucenha"
     },
     {
       "id": "obs-20260826-053",
@@ -12291,7 +12395,9 @@
           ]
         },
         "uncertaintyPreserved": true
-      }
+      },
+      "creatorIdentity": "isaque-kanadani-isaquefeli",
+      "sourceIdentity": "isaque-kanadani-isaquefeli"
     },
     {
       "id": "obs-20260826-054",
@@ -12600,7 +12706,9 @@
           "Curiosidade pode ser alta sem esconder o assunto quando a resolução começa imediatamente."
         ]
       },
-      "createdAt": "2026-08-26T11:30:00.000Z"
+      "createdAt": "2026-08-26T11:30:00.000Z",
+      "creatorIdentity": "mundos-reimaginados",
+      "sourceIdentity": "mundos-reimaginados"
     },
     {
       "id": "obs-20260826-055",
@@ -12926,7 +13034,9 @@
           "advertisedEntityKind": "servico_educacional"
         },
         "uncertaintyPreserved": true
-      }
+      },
+      "creatorIdentity": "bont-adrian-somoza",
+      "sourceIdentity": "bont-adrian-somoza"
     },
     {
       "id": "obs-20260827-056",
@@ -13145,7 +13255,9 @@
           "distribuição"
         ],
         "causalClaimAllowed": false
-      }
+      },
+      "creatorIdentity": "videomakers-do-brasil",
+      "sourceIdentity": "videomakers-do-brasil"
     },
     {
       "id": "obs-20260827-057",
@@ -13375,7 +13487,9 @@
           "advertisedEntityKind": "livro"
         },
         "uncertaintyPreserved": true
-      }
+      },
+      "creatorIdentity": "ler-antes-de-morrer",
+      "sourceIdentity": "ler-antes-de-morrer"
     },
     {
       "id": "obs-20260827-058",
@@ -13603,7 +13717,9 @@
           "advertisedEntityKind": "múltiplos_produtos_culturais"
         },
         "uncertaintyPreserved": true
-      }
+      },
+      "creatorIdentity": "tatiana-feltrin-tatianagfeltrin",
+      "sourceIdentity": "tatiana-feltrin-tatianagfeltrin"
     },
     {
       "id": "obs-20260827-059",
@@ -13825,7 +13941,9 @@
           "distribuição"
         ],
         "causalClaimAllowed": false
-      }
+      },
+      "creatorIdentity": "manual-do-mundo",
+      "sourceIdentity": "manual-do-mundo"
     },
     {
       "id": "obs-20260827-060",
@@ -14055,7 +14173,9 @@
           "advertisedEntityKind": "software"
         },
         "uncertaintyPreserved": true
-      }
+      },
+      "creatorIdentity": "qookgraphix",
+      "sourceIdentity": "qookgraphix"
     },
     {
       "id": "obs-20260828-061",
@@ -14292,7 +14412,9 @@
           "advertisedEntityKind": "none_observed"
         },
         "uncertaintyPreserved": true
-      }
+      },
+      "creatorIdentity": "valdirene-ambiel",
+      "sourceIdentity": "valdirene-ambiel"
     },
     {
       "id": "obs-20260828-062",
@@ -14533,7 +14655,9 @@
           "advertisedEntityKind": "none_observed"
         },
         "uncertaintyPreserved": true
-      }
+      },
+      "creatorIdentity": "david-ikard-ted",
+      "sourceIdentity": "david-ikard-ted"
     },
     {
       "id": "obs-20260828-063",
@@ -14764,7 +14888,9 @@
           "advertisedEntityKind": "none_observed"
         },
         "uncertaintyPreserved": true
-      }
+      },
+      "creatorIdentity": "marcio-pichel",
+      "sourceIdentity": "marcio-pichel"
     },
     {
       "id": "obs-20260828-064",
@@ -15008,7 +15134,9 @@
           "advertisedEntityKind": "none_observed"
         },
         "uncertaintyPreserved": true
-      }
+      },
+      "creatorIdentity": "kabook-tv",
+      "sourceIdentity": "kabook-tv"
     },
     {
       "id": "obs-20260828-065",
@@ -15253,7 +15381,9 @@
           "advertisedEntityKind": "none_observed"
         },
         "uncertaintyPreserved": true
-      }
+      },
+      "creatorIdentity": "drauzio-varella",
+      "sourceIdentity": "drauzio-varella"
     },
     {
       "id": "obs-20260829-066",
@@ -15488,7 +15618,9 @@
           "distribuição"
         ],
         "causalClaimAllowed": false
-      }
+      },
+      "creatorIdentity": "autoforce-murano-veiculos",
+      "sourceIdentity": "autoforce-murano-veiculos"
     },
     {
       "id": "obs-20260829-067",
@@ -15722,7 +15854,9 @@
           "distribuição"
         ],
         "causalClaimAllowed": false
-      }
+      },
+      "creatorIdentity": "anymarket-e-shop-casa",
+      "sourceIdentity": "anymarket-e-shop-casa"
     },
     {
       "id": "obs-20260829-068",
@@ -15967,7 +16101,9 @@
           "advertisedEntityKind": "serviço"
         },
         "uncertaintyPreserved": true
-      }
+      },
+      "creatorIdentity": "dna-de-vendas-converger",
+      "sourceIdentity": "dna-de-vendas-converger"
     },
     {
       "id": "obs-20260829-069",
@@ -16211,7 +16347,9 @@
           "advertisedEntityKind": "none_observed"
         },
         "uncertaintyPreserved": true
-      }
+      },
+      "creatorIdentity": "manual-do-mundo",
+      "sourceIdentity": "manual-do-mundo"
     },
     {
       "id": "obs-20260829-070",
@@ -16443,7 +16581,9 @@
           "advertisedEntityKind": "none_observed"
         },
         "uncertaintyPreserved": true
-      }
+      },
+      "creatorIdentity": "khalilah-d",
+      "sourceIdentity": "khalilah-d"
     },
     {
       "id": "obs-20260830-071",
@@ -16674,7 +16814,9 @@
           "advertisedEntityKind": "serviço"
         },
         "uncertaintyPreserved": true
-      }
+      },
+      "creatorIdentity": "multiplier-educacao-navecom",
+      "sourceIdentity": "multiplier-educacao-navecom"
     },
     {
       "id": "obs-20260830-072",
@@ -16914,7 +17056,9 @@
           "advertisedEntityKind": "produto_serviço"
         },
         "uncertaintyPreserved": true
-      }
+      },
+      "creatorIdentity": "br24-arquivar",
+      "sourceIdentity": "br24-arquivar"
     },
     {
       "id": "obs-20260830-073",
@@ -17154,7 +17298,9 @@
           "advertisedEntityKind": "none_observed"
         },
         "uncertaintyPreserved": true
-      }
+      },
+      "creatorIdentity": "alex-hormozi",
+      "sourceIdentity": "alex-hormozi"
     },
     {
       "id": "obs-20260830-074",
@@ -17384,7 +17530,9 @@
           "advertisedEntityKind": "none_observed"
         },
         "uncertaintyPreserved": true
-      }
+      },
+      "creatorIdentity": "blogueirinha",
+      "sourceIdentity": "blogueirinha"
     },
     {
       "id": "obs-20260830-075",
@@ -17628,7 +17776,9 @@
           "advertisedEntityKind": "serviço"
         },
         "uncertaintyPreserved": true
-      }
+      },
+      "creatorIdentity": "speaking-brazilian-language-school-virginia-langhammer",
+      "sourceIdentity": "speaking-brazilian-language-school-virginia-langhammer"
     }
   ],
   "patterns": [
@@ -17797,7 +17947,7 @@
         }
       ],
       "taxonomyVersion": "3.0",
-      "creatorDiversityCount": 3,
+      "creatorDiversityCount": 2,
       "sourceDiversityCount": 2,
       "patternType": "prova"
     },
