@@ -1,6 +1,6 @@
-import type { ComparableReferenceSummary, ObservatoryClassification, ObservatoryMaterialInput } from "./observatory";
+import type { ComparableReferenceSummary, ObservatoryClassification, ObservatoryMaterialInput, ObservatoryPatternSummary } from "./observatory";
 
-export const OBSERVATORY_MASTER_PROMPT_VERSION = "3.0";
+export const OBSERVATORY_MASTER_PROMPT_VERSION = "3.1";
 
 function list(values: string[]) {
   return values.length ? values.join(", ") : "não informado";
@@ -35,10 +35,14 @@ export function buildObservatoryCuratorPrompt(
   input: ObservatoryMaterialInput,
   classification: ObservatoryClassification,
   comparisons: ComparableReferenceSummary[],
+  candidatePatterns: ObservatoryPatternSummary[] = [],
 ) {
   const comparisonText = comparisons.length
     ? comparisons.map((item, index) => `${index + 1}. ${item.title} — ${item.creator || "criador não informado"}; similaridade ${item.similarity}; nível ${item.comparisonLevel}; família ${item.primaryFamily}; segmento ${item.segment}; aprendizados: ${list(item.learning)}`).join("\n")
     : "Nenhuma referência suficientemente comparável foi localizada. Faça avaliação estrutural e não transforme esta análise em regra.";
+  const candidateText = candidatePatterns.length
+    ? candidatePatterns.map((item, index) => `${index + 1}. ID ${item.id}; ${item.name}; estágio ${item.stage}; apoios ${item.supportingCount}; limites ${item.caseLimitCount ?? 0}; mecanismo ${item.mechanism || "não informado"}`).join("\n")
+    : "Nenhuma hipótese ou padrão candidato funcionalmente próximo foi recuperado.";
 
   return `PROMPT MESTRE DO OBSERVATÓRIO PLATÉIA — VERSÃO ${OBSERVATORY_MASTER_PROMPT_VERSION}
 
@@ -70,6 +74,9 @@ ${JSON.stringify(classification)}
 REFERÊNCIAS RECUPERADAS
 ${comparisonText}
 
+HIPÓTESES E PADRÕES CANDIDATOS
+${candidateText}
+
 PROTOCOLO DE ANÁLISE
 1. Registre elementos acessíveis e ausentes; classifique a qualidade dos dados.
 2. Para vídeo acessível, decomponha 0–1s, 1–3s, 3–8s, desenvolvimento, preparação, recompensa e CTA. Em cada trecho descreva observação, informação nova, função, emoção possível, risco de abandono e motivo para continuar.
@@ -85,7 +92,7 @@ PROTOCOLO DE ANÁLISE
 12. Avalie CTA, próximo passo, esforço, benefício, custo percebido, urgência, continuidade e potencial de comentário, salvamento, compartilhamento ou conversa.
 13. Dê notas apenas aos critérios mensuráveis: gancho, clareza, relevância, desejo, confiança, retenção, ação e redução de objeções. Justifique com evidência e grupo comparável.
 14. Se houver dados suficientes, avalie desempenho relativo ao próprio perfil e a pares comparáveis usando taxas com denominadores verificáveis (retenção, conclusão, compartilhamento, salvamento, comentário, clique ou conversão). Separe alcance, engajamento, retenção, conversão e velocidade. Nunca use visualização bruta isoladamente nem atribua causalidade.
-15. Extraia replicáveis, dependentes de fama/contexto/orçamento, não recomendáveis, hipóteses, contraexemplos necessários e próximo teste. Classifique cada hipótese como padrão de gancho, atenção, compreensão, curiosidade, narrativa, retenção, emoção, identidade, confiança, prova, objeção, ação, CTA, conversão, comunidade, distribuição, produção, replicabilidade ou outro.
+15. Extraia replicáveis, dependentes de fama/contexto/orçamento, não recomendáveis, hipóteses, contraexemplos necessários e próximo teste. Antes de criar hipótese nova, tente ligar a observação a um candidato por ID explícito. Para cada hipótese informe targetPatternId, evidenceRole, comparisonLevel e requiredEvidenceObserved. Classifique cada hipótese como padrão de gancho, atenção, compreensão, curiosidade, narrativa, retenção, emoção, identidade, confiança, prova, objeção, ação, CTA, conversão, comunidade, distribuição, produção, replicabilidade ou outro.
 16. Simule Apressado, Analítico, Aspiracional, Influenciado pela Comunidade e Cético, deixando claro que são hipóteses sintéticas.
 17. Toda conclusão deve indicar origem: conteúdo, cérebro sintético, padrão do Observatório, métrica pública, métrica privada, conhecimento científico ou futuro experimento Freud.
 
@@ -95,5 +102,13 @@ COMPARABILIDADE
 - Nível 3: apenas mecanismo, narrativa, recompensa ou retenção semelhante.
 - Nível 4: sem comparação adequada; não use benchmark numérico nem altere padrão.
 
-Não esconda divergências. Uma análise individual deve ser armazenada como observação e não pode, sozinha, criar ou modificar regra. Três apoios comparáveis só formam padrão provisório quando incluem ao menos dois criadores/fontes independentes. Validação exige revisão humana ou experimento. Retorne somente JSON compatível com o esquema.`;
+Não esconda divergências. Uma análise individual deve ser armazenada como observação e não pode, sozinha, criar ou modificar regra.
+
+PAPÉIS DE EVIDÊNCIA
+- support: mecanismo e componentes necessários diretamente observados, comparação nível 1 ou 2 e confiança média/alta.
+- counterexample: caso comparável, com cobertura equivalente, em que a previsão está ausente ou invertida.
+- case_limit: material parecido sem um componente necessário; não apoia nem contradiz.
+- context: útil para interpretação, mas insuficiente para contagem.
+
+Transcrição sustenta fala, não cenas, ritmo ou edição. Estrutura narrativa não é métrica de retenção. Prova comercial exige estado anterior ou baseline, intervenção e resultado simultaneamente observáveis. Três apoios elegíveis só formam padrão provisório quando incluem ao menos dois criadores e duas fontes independentes. Validação exige revisão humana ou experimento. Retorne somente JSON compatível com o esquema.`;
 }
