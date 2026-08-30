@@ -14,7 +14,8 @@
     "observatory:migrate:v3:check": "node scripts/migrate-observatory-taxonomy-v3.mjs",
     "observatory:repair:v3": "node scripts/repair-observatory-v3.mjs",
     "observatory:verify:v3": "tsx scripts/verify-observatory-v3.ts",
-    "db:push": "drizzle-kit generate && drizzle-kit migrate"
+    "db:push": "drizzle-kit generate && drizzle-kit migrate",
+    "observatory:train:check": "python3 .agents/skills/plateia/scripts/observatory_memory.py --db knowledge/observatory/plateia-memory.json audit && pnpm observatory:verify:v3"
   },
   "dependencies": {
     "@aws-sdk/client-s3": "^3.693.0",
