@@ -9,7 +9,7 @@ import { canonicalPublicUrl } from "./publicUrlIdentity";
 
 type RawClassification = Record<string, any>;
 type RawReference = { id?: string; url?: string; creator?: string; classification?: RawClassification };
-type RawPattern = { id?: string; stage?: string; status?: string; patternType?: string; mechanism?: string[]; supportReferenceIds?: string[]; supportingCount?: number; comparableSupportCount?: number; counterexampleCount?: number; creatorDiversityCount?: number };
+type RawPattern = { id?: string; stage?: string; status?: string; patternType?: string; mechanism?: string[]; supportReferenceIds?: string[]; counterexampleReferenceIds?: string[]; caseLimitReferenceIds?: string[]; supportingCount?: number; comparableSupportCount?: number; counterexampleCount?: number; caseLimitCount?: number; creatorDiversityCount?: number; sourceDiversityCount?: number };
 
 const allowed = (values: readonly string[]) => new Set(values);
 const allowedValues = {
@@ -77,13 +77,20 @@ export function auditObservatoryMemory() {
   for (const pattern of patterns) {
     const id = pattern.id ?? "pattern-without-id";
     const supportIds = Array.from(new Set(pattern.supportReferenceIds ?? []));
-    if (supportIds.some(referenceId => !referenceById.has(referenceId))) issues.push(`${id}.unknownSupportReference`);
+    const counterexampleIds = Array.from(new Set(pattern.counterexampleReferenceIds ?? []));
+    const caseLimitIds = Array.from(new Set(pattern.caseLimitReferenceIds ?? []));
+    const allEvidenceIds = [...supportIds, ...counterexampleIds, ...caseLimitIds];
+    if (allEvidenceIds.some(referenceId => !referenceById.has(referenceId))) issues.push(`${id}.unknownEvidenceReference`);
+    if (new Set(allEvidenceIds).size !== allEvidenceIds.length) issues.push(`${id}.overlappingEvidenceRoles`);
     if (Number(pattern.supportingCount ?? pattern.comparableSupportCount ?? 0) !== supportIds.length) issues.push(`${id}.supportingCount`);
+    if (Number(pattern.counterexampleCount ?? 0) !== counterexampleIds.length) issues.push(`${id}.counterexampleCount`);
+    if (Number(pattern.caseLimitCount ?? 0) !== caseLimitIds.length) issues.push(`${id}.caseLimitCount`);
     if (!PATTERN_TYPES.includes(pattern.patternType as any)) issues.push(`${id}.patternType`);
     if (!Array.isArray(pattern.mechanism) || pattern.mechanism.some(value => !allowedValues.mechanisms.has(value))) issues.push(`${id}.mechanism`);
     const creators = supportIds.map(referenceId => referenceById.get(referenceId)?.creator ?? "");
-    const expected = decidePatternStage({ supportingCount: supportIds.length, counterexampleCount: Number(pattern.counterexampleCount) || 0, supportingCreators: creators, existingStage: pattern.stage ?? pattern.status });
+    const expected = decidePatternStage({ supportingCount: supportIds.length, counterexampleCount: counterexampleIds.length, supportingCreators: creators, supportingSources: creators, existingStage: pattern.stage ?? pattern.status });
     if (pattern.creatorDiversityCount !== expected.creatorDiversityCount) issues.push(`${id}.creatorDiversityCount`);
+    if (pattern.sourceDiversityCount !== undefined && pattern.sourceDiversityCount !== expected.sourceDiversityCount) issues.push(`${id}.sourceDiversityCount`);
     if ((pattern.stage ?? pattern.status) !== expected.stage) issues.push(`${id}.stage`);
   }
 
