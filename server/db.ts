@@ -3,7 +3,7 @@ import { drizzle } from "drizzle-orm/mysql2";
 import { Analysis, InsertAnalysis, InsertInstagramConnection, InsertObservatoryReference, InsertUser, InstagramConnection, ObservatoryReference, analyses, instagramConnections, observatoryPatterns, observatoryReferences, users } from "../drizzle/schema";
 import { ENV } from './_core/env';
 import { buildRevokedInstagramConnectionPatch } from "./instagramIntegration";
-import { decidePatternStage } from "./patternEvidence";
+import { decidePatternStageFromEvidence, type PatternEvidenceCandidate, type PatternEvidenceRole } from "./patternEvidence";
 import {
   memoryCreateAnalysis,
   memoryCreateObservatoryReference,
@@ -12,6 +12,7 @@ import {
   memoryGetObservatoryReference,
   memoryGetUser,
   memoryListActivePatterns,
+  memoryListCandidatePatterns,
   memoryListAnalyses,
   memoryListObservatoryReferences,
   memoryRecordObservatoryHypotheses,
@@ -214,16 +215,36 @@ export async function listActiveObservatoryPatterns() {
     .orderBy(desc(observatoryPatterns.updatedAt));
 }
 
+export async function listCandidateObservatoryPatterns() {
+  const db = await getDb();
+  if (!db) return memoryListCandidatePatterns();
+  return db.select().from(observatoryPatterns)
+    .where(inArray(observatoryPatterns.stage, ["observation", "hypothesis", "supported_hypothesis", "provisional", "experimentally_validated"]))
+    .orderBy(desc(observatoryPatterns.updatedAt));
+}
+
 export type ObservatoryHypothesisInput = {
   name: string;
+  targetPatternId: string | number | null;
+  evidenceRole: PatternEvidenceRole;
+  comparisonLevel: 1 | 2 | 3 | 4;
+  requiredEvidenceObserved: boolean;
   patternType: string;
   observation: string;
   mechanism: string;
   evidence: string;
+  alternativeExplanations: string[];
   conditions: string[];
   limitations: string[];
   confidence: "low" | "medium" | "high";
   stage: "observation" | "hypothesis" | "contradicted" | "inconclusive";
+};
+
+type StoredPatternEvidence = PatternEvidenceCandidate & {
+  observation?: string;
+  evidence?: string;
+  limitations?: string[];
+  kind?: string;
 };
 
 function jsonArray(value: string | null) {
@@ -235,6 +256,27 @@ function normalizedPatternPart(value: string) {
   return value.normalize("NFD").replace(/[\u0300-\u036f]/g, "").toLowerCase().replace(/[^a-z0-9]+/g, " ").trim();
 }
 
+function normalizedStoredEvidence(value: any, referenceMetadata: Map<number, { creator: string; sourceIdentity: string }>): StoredPatternEvidence | null {
+  const referenceId = Number(value?.referenceId);
+  if (!Number.isInteger(referenceId) || referenceId <= 0) return null;
+  const metadata = referenceMetadata.get(referenceId) ?? { creator: "", sourceIdentity: "" };
+  const legacyRole = value?.kind === "counterexample" ? "counterexample" : "support";
+  const role = (["support", "counterexample", "case_limit", "context"].includes(value?.role) ? value.role : legacyRole) as PatternEvidenceRole;
+  const comparisonLevel = ([1, 2, 3, 4].includes(value?.comparisonLevel) ? value.comparisonLevel : 2) as 1 | 2 | 3 | 4;
+  return {
+    referenceId,
+    creator: metadata.creator,
+    sourceIdentity: metadata.sourceIdentity,
+    role,
+    comparisonLevel,
+    requiredEvidenceObserved: value?.requiredEvidenceObserved !== false,
+    confidence: (["low", "medium", "high"].includes(value?.confidence) ? value.confidence : "medium"),
+    observation: typeof value?.observation === "string" ? value.observation : "",
+    evidence: typeof value?.evidence === "string" ? value.evidence : "",
+    limitations: Array.isArray(value?.limitations) ? value.limitations : [],
+  };
+}
+
 export async function recordObservatoryHypotheses(
   referenceId: number,
   classification: { primaryFamily: string; objectives: string[]; segment: string },
@@ -244,52 +286,75 @@ export async function recordObservatoryHypotheses(
   if (hypotheses.length === 0) return;
   if (!db) return memoryRecordObservatoryHypotheses(referenceId, classification, hypotheses);
   const existingPatterns = await db.select().from(observatoryPatterns);
-  const referenceCreators = new Map((await db.select({ id: observatoryReferences.id, creator: observatoryReferences.creator }).from(observatoryReferences)).map(reference => [reference.id, reference.creator]));
+  const referenceRows = await db.select({ id: observatoryReferences.id, creator: observatoryReferences.creator, sourceUrl: observatoryReferences.sourceUrl }).from(observatoryReferences);
+  const referenceMetadata = new Map(referenceRows.map(reference => [
+    reference.id,
+    { creator: reference.creator, sourceIdentity: reference.creator || reference.sourceUrl || String(reference.id) },
+  ]));
+  const currentMetadata = referenceMetadata.get(referenceId) ?? { creator: "", sourceIdentity: String(referenceId) };
   const processed = new Set<string>();
+
   for (const hypothesis of hypotheses.slice(0, 5)) {
     const name = hypothesis.name.trim().slice(0, 180);
     const objective = (classification.objectives[0] || "indeterminado").slice(0, 160);
     const segment = (classification.segment || "indeterminado").slice(0, 160);
-    const fingerprint = [name, classification.primaryFamily, objective, segment].map(normalizedPatternPart).join("|");
+    const targetId = typeof hypothesis.targetPatternId === "number" ? hypothesis.targetPatternId : /^\d+$/.test(hypothesis.targetPatternId || "") ? Number(hypothesis.targetPatternId) : null;
+    const fingerprint = [String(targetId ?? ""), name, classification.primaryFamily, objective, segment].map(normalizedPatternPart).join("|");
     if (!name || processed.has(fingerprint)) continue;
     processed.add(fingerprint);
-    const existing = existingPatterns.find(pattern =>
+
+    const existing = (targetId ? existingPatterns.find(pattern => pattern.id === targetId) : undefined) ?? existingPatterns.find(pattern =>
       normalizedPatternPart(pattern.name) === normalizedPatternPart(name) &&
-      pattern.creativeFamily === classification.primaryFamily && pattern.objective === objective && pattern.segment === segment
+      pattern.creativeFamily === classification.primaryFamily &&
+      pattern.objective === objective &&
+      pattern.segment === segment
     );
-    const evidence = { referenceId, kind: hypothesis.stage === "contradicted" ? "counterexample" : "support", observation: hypothesis.observation, evidence: hypothesis.evidence, limitations: hypothesis.limitations };
+    const evidence: StoredPatternEvidence = {
+      referenceId,
+      creator: currentMetadata.creator,
+      sourceIdentity: currentMetadata.sourceIdentity,
+      role: hypothesis.evidenceRole,
+      comparisonLevel: hypothesis.comparisonLevel,
+      requiredEvidenceObserved: hypothesis.requiredEvidenceObserved,
+      confidence: hypothesis.confidence,
+      observation: hypothesis.observation,
+      evidence: hypothesis.evidence,
+      limitations: hypothesis.limitations,
+    };
+    const countableSupport = hypothesis.evidenceRole === "support" && hypothesis.comparisonLevel <= 2 && hypothesis.requiredEvidenceObserved && hypothesis.confidence !== "low";
+
     if (!existing) {
+      if (!countableSupport) continue;
+      const decision = decidePatternStageFromEvidence({ evidence: [evidence] });
       await db.insert(observatoryPatterns).values({
         name,
         patternType: hypothesis.patternType,
-        stage: hypothesis.stage === "contradicted" ? "contradicted" : "observation",
+        stage: decision.stage,
         creativeFamily: classification.primaryFamily,
         objective,
         segment,
         mechanism: hypothesis.mechanism,
         conditionsJson: JSON.stringify(hypothesis.conditions),
         evidenceJson: JSON.stringify([evidence]),
-        supportingCount: hypothesis.stage === "contradicted" ? 0 : 1,
-        counterexampleCount: hypothesis.stage === "contradicted" ? 1 : 0,
+        supportingCount: decision.supportingCount,
+        counterexampleCount: decision.counterexampleCount,
         confidence: "low",
       });
       continue;
     }
-    const isCounterexample = hypothesis.stage === "contradicted";
-    const previousEvidence = jsonArray(existing.evidenceJson) as Array<{ referenceId?: number; kind?: string }>;
-    const alreadyCounted = previousEvidence.some(item => item.referenceId === referenceId);
-    const supportingCount = existing.supportingCount + (!alreadyCounted && !isCounterexample ? 1 : 0);
-    const counterexampleCount = existing.counterexampleCount + (!alreadyCounted && isCounterexample ? 1 : 0);
-    const evidenceItems = alreadyCounted ? previousEvidence : [...previousEvidence, evidence];
-    const supportingCreators = evidenceItems.filter(item => item.referenceId && item.kind !== "counterexample").map(item => referenceCreators.get(item.referenceId!) || "");
-    const { stage } = decidePatternStage({ supportingCount, counterexampleCount, supportingCreators, existingStage: existing.stage });
+
+    const previousEvidence = jsonArray(existing.evidenceJson)
+      .map(item => normalizedStoredEvidence(item, referenceMetadata))
+      .filter((item): item is StoredPatternEvidence => Boolean(item));
+    const evidenceItems = [...previousEvidence.filter(item => Number(item.referenceId) !== referenceId), evidence].slice(-50);
+    const decision = decidePatternStageFromEvidence({ evidence: evidenceItems, existingStage: existing.stage });
     await db.update(observatoryPatterns).set({
-      stage,
-      supportingCount,
-      counterexampleCount,
-      confidence: stage === "experimentally_validated" || (stage === "provisional" && supportingCount >= 5) ? "high" : stage === "provisional" ? "medium" : "low",
+      stage: decision.stage,
+      supportingCount: decision.supportingCount,
+      counterexampleCount: decision.counterexampleCount,
+      confidence: decision.stage === "experimentally_validated" || (decision.stage === "provisional" && decision.supportingCount >= 5 && decision.counterexampleCount === 0) ? "high" : decision.stage === "provisional" ? "medium" : "low",
       conditionsJson: JSON.stringify(Array.from(new Set([...jsonArray(existing.conditionsJson), ...hypothesis.conditions])).slice(0, 20)),
-      evidenceJson: JSON.stringify(evidenceItems.slice(-20)),
+      evidenceJson: JSON.stringify(evidenceItems),
     }).where(eq(observatoryPatterns.id, existing.id));
   }
 }
