@@ -20,6 +20,7 @@ const checks = {
   preservesTrainedCorpus: references.length >= 35,
   portableCountMatchesRawMemory: references.length === PORTABLE_MEMORY_STATS.referenceCount,
   allUrlsAreUnique: new Set(references.map(reference => canonicalPublicUrl(reference.sourceUrl))).size === references.length,
+  equivalentVideoUrlsCanonicalize: canonicalPublicUrl("https://youtu.be/example?si=tracking") === canonicalPublicUrl("https://www.youtube.com/shorts/example"),
   rawTaxonomyAndPatternIntegrity: audit.issues.length === 0,
   taxonomyIsV3: PORTABLE_MEMORY_STATS.taxonomyVersion === "3.0",
   safeRateWorks: safeRate(20, 1000) === 0.02 && safeRate(20, 0) === null,
