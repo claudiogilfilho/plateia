@@ -118,10 +118,13 @@ def level(target: dict, candidate: dict, score: int) -> int:
     return 4
 
 
+def creator_identity(reference: dict) -> str:
+    return normalized(reference.get("creatorIdentity", "")) or normalized(reference.get("creator", ""))
+
+
 def source_identity(reference: dict) -> str:
     explicit = normalized(reference.get("sourceIdentity", ""))
-    creator = normalized(reference.get("creator", ""))
-    return explicit or creator or canonical_url(reference.get("url", ""))
+    return explicit or creator_identity(reference) or canonical_url(reference.get("url", ""))
 
 
 def normalize_hypothesis(raw) -> dict | None:
@@ -151,7 +154,7 @@ def evidence_eligible(hypothesis: dict) -> bool:
 def pattern_stage(pattern: dict, references_by_id: dict[str, dict]) -> tuple[str, str, int, int]:
     support_ids = list(dict.fromkeys(clean_list(pattern.get("supportReferenceIds"))))
     counter_ids = list(dict.fromkeys(clean_list(pattern.get("counterexampleReferenceIds"))))
-    creators = {normalized(references_by_id[item].get("creator", "")) for item in support_ids if item in references_by_id and normalized(references_by_id[item].get("creator", ""))}
+    creators = {creator_identity(references_by_id[item]) for item in support_ids if item in references_by_id and creator_identity(references_by_id[item])}
     sources = {source_identity(references_by_id[item]) for item in support_ids if item in references_by_id and source_identity(references_by_id[item])}
     existing = pattern.get("stage") or pattern.get("status")
     if existing in {"experimentally_validated", "validated"}:
