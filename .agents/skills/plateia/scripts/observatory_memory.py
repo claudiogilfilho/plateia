@@ -393,6 +393,8 @@ def main() -> None:
     else:
         result = command_stats(args)
     print(json.dumps(result, ensure_ascii=False))
+    if args.command == "audit" and not result.get("ok"):
+        raise SystemExit(1)
 
 
 if __name__ == "__main__":
