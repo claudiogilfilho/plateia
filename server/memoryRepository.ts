@@ -10,7 +10,7 @@ import type {
   User,
 } from "../drizzle/schema";
 import type { ObservatoryHypothesisInput } from "./db";
-import { decidePatternStage } from "./patternEvidence";
+import { decidePatternStageFromEvidence, type PatternEvidenceCandidate, type PatternEvidenceRole } from "./patternEvidence";
 
 let analysisId = 1;
 let instagramConnectionId = 1;
@@ -173,6 +173,12 @@ export function memoryListActivePatterns() {
     .sort((a, b) => b.updatedAt.getTime() - a.updatedAt.getTime());
 }
 
+export function memoryListCandidatePatterns() {
+  return patterns
+    .filter(item => ["observation", "hypothesis", "supported_hypothesis", "provisional", "experimentally_validated"].includes(item.stage))
+    .sort((a, b) => b.updatedAt.getTime() - a.updatedAt.getTime());
+}
+
 function normalize(value: string) {
   return value.normalize("NFD").replace(/[\u0300-\u036f]/g, "").toLowerCase().replace(/[^a-z0-9]+/g, " ").trim();
 }
@@ -182,46 +188,106 @@ function readArray(value: string | null) {
   try { const parsed = JSON.parse(value); return Array.isArray(parsed) ? parsed : []; } catch { return []; }
 }
 
+type StoredMemoryEvidence = PatternEvidenceCandidate & {
+  observation?: string;
+  evidence?: string;
+  limitations?: string[];
+  kind?: string;
+};
+
+function normalizeMemoryEvidence(value: any): StoredMemoryEvidence | null {
+  const currentReference = references.find(reference => reference.id === Number(value?.referenceId));
+  if (!currentReference) return null;
+  const legacyRole = value?.kind === "counterexample" ? "counterexample" : "support";
+  const role = (["support", "counterexample", "case_limit", "context"].includes(value?.role) ? value.role : legacyRole) as PatternEvidenceRole;
+  return {
+    referenceId: currentReference.id,
+    creator: currentReference.creator,
+    sourceIdentity: currentReference.creator || currentReference.sourceUrl || String(currentReference.id),
+    role,
+    comparisonLevel: ([1, 2, 3, 4].includes(value?.comparisonLevel) ? value.comparisonLevel : 2) as 1 | 2 | 3 | 4,
+    requiredEvidenceObserved: value?.requiredEvidenceObserved !== false,
+    confidence: (["low", "medium", "high"].includes(value?.confidence) ? value.confidence : "medium"),
+    observation: typeof value?.observation === "string" ? value.observation : "",
+    evidence: typeof value?.evidence === "string" ? value.evidence : "",
+    limitations: Array.isArray(value?.limitations) ? value.limitations : [],
+  };
+}
+
 export function memoryRecordObservatoryHypotheses(
   currentReferenceId: number,
   classification: { primaryFamily: string; objectives: string[]; segment: string },
   hypotheses: ObservatoryHypothesisInput[],
 ) {
+  const currentReference = references.find(reference => reference.id === currentReferenceId);
+  if (!currentReference) return;
   const processed = new Set<string>();
+
   for (const hypothesis of hypotheses.slice(0, 5)) {
     const name = hypothesis.name.trim().slice(0, 180);
     const objective = (classification.objectives[0] || "indeterminado").slice(0, 160);
     const segment = (classification.segment || "indeterminado").slice(0, 160);
-    const fingerprint = [name, classification.primaryFamily, objective, segment].map(normalize).join("|");
+    const targetId = typeof hypothesis.targetPatternId === "number" ? hypothesis.targetPatternId : /^\d+$/.test(hypothesis.targetPatternId || "") ? Number(hypothesis.targetPatternId) : null;
+    const fingerprint = [String(targetId ?? ""), name, classification.primaryFamily, objective, segment].map(normalize).join("|");
     if (!name || processed.has(fingerprint)) continue;
     processed.add(fingerprint);
-    const current = patterns.find(item => normalize(item.name) === normalize(name) && item.creativeFamily === classification.primaryFamily && item.objective === objective && item.segment === segment);
-    const evidence = { referenceId: currentReferenceId, kind: hypothesis.stage === "contradicted" ? "counterexample" : "support", observation: hypothesis.observation, evidence: hypothesis.evidence, limitations: hypothesis.limitations };
+
+    const current = (targetId ? patterns.find(item => item.id === targetId) : undefined) ?? patterns.find(item =>
+      normalize(item.name) === normalize(name) &&
+      item.creativeFamily === classification.primaryFamily &&
+      item.objective === objective &&
+      item.segment === segment
+    );
+    const evidence: StoredMemoryEvidence = {
+      referenceId: currentReferenceId,
+      creator: currentReference.creator,
+      sourceIdentity: currentReference.creator || currentReference.sourceUrl || String(currentReferenceId),
+      role: hypothesis.evidenceRole,
+      comparisonLevel: hypothesis.comparisonLevel,
+      requiredEvidenceObserved: hypothesis.requiredEvidenceObserved,
+      confidence: hypothesis.confidence,
+      observation: hypothesis.observation,
+      evidence: hypothesis.evidence,
+      limitations: hypothesis.limitations,
+    };
+    const countableSupport = hypothesis.evidenceRole === "support" && hypothesis.comparisonLevel <= 2 && hypothesis.requiredEvidenceObserved && hypothesis.confidence !== "low";
+
     if (!current) {
+      if (!countableSupport) continue;
       const now = new Date();
+      const decision = decidePatternStageFromEvidence({ evidence: [evidence] });
       patterns.push({
-        id: patternId++, name, patternType: hypothesis.patternType, stage: hypothesis.stage === "contradicted" ? "contradicted" : "observation",
-        creativeFamily: classification.primaryFamily, objective, segment, mechanism: hypothesis.mechanism,
-        conditionsJson: JSON.stringify(hypothesis.conditions), evidenceJson: JSON.stringify([evidence]),
-        supportingCount: hypothesis.stage === "contradicted" ? 0 : 1,
-        counterexampleCount: hypothesis.stage === "contradicted" ? 1 : 0,
-        confidence: "low", createdAt: now, updatedAt: now,
+        id: patternId++,
+        name,
+        patternType: hypothesis.patternType,
+        stage: decision.stage,
+        creativeFamily: classification.primaryFamily,
+        objective,
+        segment,
+        mechanism: hypothesis.mechanism,
+        conditionsJson: JSON.stringify(hypothesis.conditions),
+        evidenceJson: JSON.stringify([evidence]),
+        supportingCount: decision.supportingCount,
+        counterexampleCount: decision.counterexampleCount,
+        confidence: "low",
+        createdAt: now,
+        updatedAt: now,
       });
       continue;
     }
-    const counterexample = hypothesis.stage === "contradicted";
-    const previousEvidence = readArray(current.evidenceJson) as Array<{ referenceId?: number; kind?: string }>;
-    const alreadyCounted = previousEvidence.some(item => item.referenceId === currentReferenceId);
-    const supportingCount = current.supportingCount + (!alreadyCounted && !counterexample ? 1 : 0);
-    const counterexampleCount = current.counterexampleCount + (!alreadyCounted && counterexample ? 1 : 0);
-    const evidenceItems = alreadyCounted ? previousEvidence : [...previousEvidence, evidence];
-    const supportingCreators = evidenceItems.filter(item => item.referenceId && item.kind !== "counterexample").map(item => references.find(reference => reference.id === item.referenceId)?.creator || "");
-    const { stage } = decidePatternStage({ supportingCount, counterexampleCount, supportingCreators, existingStage: current.stage });
+
+    const previousEvidence = readArray(current.evidenceJson)
+      .map(normalizeMemoryEvidence)
+      .filter((item): item is StoredMemoryEvidence => Boolean(item));
+    const evidenceItems = [...previousEvidence.filter(item => Number(item.referenceId) !== currentReferenceId), evidence].slice(-50);
+    const decision = decidePatternStageFromEvidence({ evidence: evidenceItems, existingStage: current.stage });
     Object.assign(current, {
-      stage, supportingCount, counterexampleCount,
-      confidence: stage === "experimentally_validated" || (stage === "provisional" && supportingCount >= 5) ? "high" : stage === "provisional" ? "medium" : "low",
+      stage: decision.stage,
+      supportingCount: decision.supportingCount,
+      counterexampleCount: decision.counterexampleCount,
+      confidence: decision.stage === "experimentally_validated" || (decision.stage === "provisional" && decision.supportingCount >= 5 && decision.counterexampleCount === 0) ? "high" : decision.stage === "provisional" ? "medium" : "low",
       conditionsJson: JSON.stringify(Array.from(new Set([...readArray(current.conditionsJson), ...hypothesis.conditions])).slice(0, 20)),
-      evidenceJson: JSON.stringify(evidenceItems.slice(-20)),
+      evidenceJson: JSON.stringify(evidenceItems),
       updatedAt: new Date(),
     });
   }
