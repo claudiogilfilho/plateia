@@ -321,7 +321,7 @@ export async function buildObservatoryContext(input: ObservatoryMaterialInput, e
   const relevant = (pattern: { creativeFamily: string; segment: string; objective: string }) =>
     pattern.creativeFamily === classification.primaryFamily &&
     (normalized(pattern.segment) === normalized(classification.segment) || classification.objectives.includes(pattern.objective as ObservatoryClassification["objectives"][number]));
-  const summarizeDatabasePattern = (pattern: typeof activePatterns[number]): ObservatoryPatternSummary => ({
+  const summarizeDatabasePattern = (pattern: (typeof activePatterns)[number]): ObservatoryPatternSummary => ({
     id: pattern.id,
     name: pattern.name,
     stage: pattern.stage,
