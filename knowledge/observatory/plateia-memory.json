@@ -1,6 +1,6 @@
 {
   "protocol": "plateia-memory/1.0",
-  "updatedAt": "2026-08-29T11:09:17.000Z",
+  "updatedAt": "2026-08-30T11:38:49.000Z",
   "references": [
     {
       "id": "obs-20260823-001",
@@ -16329,6 +16329,1150 @@
         ],
         "causalClaimAllowed": false
       }
+    },
+    {
+      "id": "obs-20260830-071",
+      "title": "O que fez a Navecom crescer 47% em faturamento depois da Multiplier | Depoimento Multiplier",
+      "creator": "Multiplier Educação / Navecom",
+      "country": "BR",
+      "url": "https://www.youtube.com/watch?v=0cP0eYJVKKQ",
+      "publishedAt": "não acessível",
+      "duration": "não acessível",
+      "createdAt": "2026-08-30T11:38:49.000Z",
+      "coverage": {
+        "level": "partial",
+        "accessible": [
+          "título",
+          "identidade das empresas",
+          "descrição indexada",
+          "resultado percentual declarado",
+          "métricas públicas indexadas",
+          "recência aproximada"
+        ],
+        "missing": [
+          "vídeo integral reproduzível",
+          "imagem em movimento e cenas",
+          "áudio efetivamente ouvido",
+          "texto na tela",
+          "ritmo e montagem",
+          "retenção",
+          "comentários individuais",
+          "origem da distribuição",
+          "mídia paga e conversão",
+          "transcrição",
+          "data exata",
+          "duração",
+          "estado anterior detalhado",
+          "baseline e período do resultado",
+          "método de cálculo",
+          "voz e cargo do cliente",
+          "auditoria independente"
+        ]
+      },
+      "publicMetrics": {
+        "viewsObserved": "11",
+        "observedAt": "2026-08-30",
+        "sourceType": "public_search_snapshot",
+        "causality": "not_inferred"
+      },
+      "classification": {
+        "taxonomyVersion": "3.0",
+        "container": "youtube_video",
+        "materialFormat": "video_longo",
+        "presentationFormats": [
+          "depoimento",
+          "estudo_caso",
+          "institucional"
+        ],
+        "primaryFamily": "prova_estudo_caso",
+        "secondaryFamilies": [
+          "depoimento",
+          "venda_indireta"
+        ],
+        "functionalMix": [
+          {
+            "family": "prova_estudo_caso",
+            "percentage": 50
+          },
+          {
+            "family": "depoimento",
+            "percentage": 30
+          },
+          {
+            "family": "venda_indireta",
+            "percentage": 20
+          }
+        ],
+        "objectives": [
+          "confianca",
+          "apresentar_solucao",
+          "lead"
+        ],
+        "advertisingType": "consideracao",
+        "commercialIntent": "explicita",
+        "advertisedEntity": {
+          "kind": "serviço",
+          "name": "Multiplier Educação",
+          "confidence": "high"
+        },
+        "contentTopic": {
+          "label": "crescimento de faturamento após programa educacional",
+          "iabCode": null
+        },
+        "segment": "educação empresarial B2B",
+        "subsegment": "programa de crescimento empresarial",
+        "probableAudience": "empresários interessados em aumentar faturamento",
+        "awarenessStage": "consciente_solucao",
+        "productionLevel": "simple",
+        "creatorScale": "small",
+        "replicability": "high",
+        "durationBand": "unknown",
+        "pace": "unknown",
+        "mechanisms": [
+          "especificidade",
+          "desejo",
+          "confiança"
+        ],
+        "hookTypes": [
+          "resultado_percentual"
+        ],
+        "narrativeElements": [
+          "resultado_antecipado"
+        ],
+        "proofTypes": [
+          "resultado_autodeclarado"
+        ],
+        "ctaTypes": [],
+        "distributionContext": {
+          "organicPaid": "unknown",
+          "trendDependency": "unknown"
+        },
+        "confidence": "medium",
+        "evidence": [
+          "O título identifica cliente, fornecedor e crescimento declarado de 47% no faturamento.",
+          "A descrição atribui o resultado à aplicação dos aprendizados da Multiplier.",
+          "Não ficaram acessíveis estado anterior, período, baseline, método de cálculo nem identificação detalhada de quem presta o depoimento."
+        ],
+        "alternativeClassifications": [],
+        "missingInformation": [
+          "baseline",
+          "período",
+          "método de cálculo",
+          "transcrição",
+          "retenção"
+        ],
+        "needsHumanReview": true
+      },
+      "comparison": {
+        "level": 2,
+        "group": "caso-limite de prova comercial com percentual, mas sem cadeia verificável completa",
+        "referenceIds": [
+          "obs-20260829-066",
+          "obs-20260829-067",
+          "obs-20260829-068"
+        ],
+        "confidence": "medium"
+      },
+      "observations": [
+        "O título identifica cliente, fornecedor e crescimento declarado de 47% no faturamento.",
+        "A descrição atribui o resultado à aplicação dos aprendizados da Multiplier.",
+        "Não ficaram acessíveis estado anterior, período, baseline, método de cálculo nem identificação detalhada de quem presta o depoimento."
+      ],
+      "interpretations": [
+        "O percentual cria impressão de precisão, mas a ausência de denominador, período e método impede verificabilidade substantiva.",
+        "Este material parece prova comercial no título, porém não satisfaz as condições completas do padrão provisório."
+      ],
+      "scores": {
+        "gancho": 88,
+        "clareza": 80,
+        "relevancia": 84,
+        "desejo": 87,
+        "confianca": 48,
+        "retencao": "not_assessed",
+        "acao": "not_assessed",
+        "objecoes": 45
+      },
+      "fiveLenses": {
+        "apressado": "O resultado é imediato.",
+        "analitico": "Faltam baseline, período e cálculo.",
+        "aspiracional": "O crescimento de faturamento é desejável.",
+        "comunidade": "Cliente é nomeado, mas a voz individual não ficou acessível.",
+        "cetico": "Percentual isolado não é prova."
+      },
+      "hypotheses": [],
+      "replicable": [
+        "Sempre acompanhar percentual de baseline, período e método de cálculo."
+      ],
+      "limitations": [
+        "Cobertura praticamente restrita ao título e à descrição.",
+        "Onze visualizações e recência não informam qualidade ou causalidade."
+      ],
+      "provenance": [
+        "public_content",
+        "public_search_snapshot",
+        "observatory_inference"
+      ],
+      "sourceEvidence": [
+        "https://www.youtube.com/watch?v=0cP0eYJVKKQ",
+        "https://www.youtube.com/c/MultiplierLabs/videos"
+      ],
+      "training": {
+        "replicable": [
+          "Sempre acompanhar percentual de baseline, período e método de cálculo."
+        ],
+        "contingent": [
+          "seleção editorial do cliente",
+          "mudanças simultâneas no negócio",
+          "maturidade da empresa"
+        ],
+        "notRecommended": [
+          "copiar frases, personagens ou roteiro",
+          "tratar alegação comercial ou popularidade como prova causal",
+          "inferir cenas, áudio, ritmo ou retenção ausentes"
+        ],
+        "hypotheses": []
+      },
+      "viralAssessment": {
+        "status": "indeterminate",
+        "observedSignal": "11 visualizações indexadas, sem baseline funcional",
+        "missingForRelativeAssessment": [
+          "baseline recente do canal",
+          "velocidade inicial",
+          "impressões",
+          "retenção",
+          "fontes de tráfego"
+        ],
+        "confounders": [
+          "tamanho e histórico do canal",
+          "idade da publicação",
+          "tema",
+          "distribuição"
+        ],
+        "causalClaimAllowed": false
+      }
+    },
+    {
+      "id": "obs-20260830-072",
+      "title": "Case de sucesso: Como a rede de franquias Arquivar utilizou o Bitrix24",
+      "creator": "Br24 / Arquivar",
+      "country": "BR",
+      "url": "https://www.youtube.com/watch?v=rNd6ATcOLY0",
+      "publishedAt": "não acessível",
+      "duration": "não acessível",
+      "createdAt": "2026-08-30T11:38:49.000Z",
+      "coverage": {
+        "level": "partial",
+        "accessible": [
+          "título",
+          "identidade das empresas",
+          "capítulos/timestamps indexados",
+          "página oficial relacionada",
+          "estado anterior detalhado",
+          "intervenção",
+          "responsáveis do cliente identificados",
+          "resultados qualitativos e CTA"
+        ],
+        "missing": [
+          "vídeo integral reproduzível",
+          "imagem em movimento e cenas",
+          "áudio efetivamente ouvido",
+          "texto na tela",
+          "ritmo e montagem",
+          "retenção",
+          "comentários individuais",
+          "origem da distribuição",
+          "mídia paga e conversão",
+          "transcrição do vídeo",
+          "data e duração exatas",
+          "métricas do vídeo",
+          "resultado quantitativo com baseline e período",
+          "auditoria independente"
+        ]
+      },
+      "publicMetrics": {
+        "viewsObserved": "not_measured",
+        "observedAt": "2026-08-30",
+        "sourceType": "official_related_case_page",
+        "causality": "not_inferred"
+      },
+      "classification": {
+        "taxonomyVersion": "3.0",
+        "container": "youtube_video",
+        "materialFormat": "video_longo",
+        "presentationFormats": [
+          "estudo_caso",
+          "depoimento",
+          "entrevista"
+        ],
+        "primaryFamily": "prova_estudo_caso",
+        "secondaryFamilies": [
+          "depoimento",
+          "venda_indireta"
+        ],
+        "functionalMix": [
+          {
+            "family": "prova_estudo_caso",
+            "percentage": 50
+          },
+          {
+            "family": "depoimento",
+            "percentage": 30
+          },
+          {
+            "family": "venda_indireta",
+            "percentage": 20
+          }
+        ],
+        "objectives": [
+          "confianca",
+          "apresentar_solucao",
+          "lead"
+        ],
+        "advertisingType": "consideracao",
+        "commercialIntent": "explicita",
+        "advertisedEntity": {
+          "kind": "produto_serviço",
+          "name": "Bitrix24 e implementação Br24",
+          "confidence": "high"
+        },
+        "contentTopic": {
+          "label": "unificação do processo comercial de rede de franquias",
+          "iabCode": null
+        },
+        "segment": "CRM e franquias B2B",
+        "subsegment": "gestão da jornada do cliente",
+        "probableAudience": "franqueadoras e equipes comerciais distribuídas",
+        "awarenessStage": "consciente_solucao",
+        "productionLevel": "intermediate",
+        "creatorScale": "business",
+        "replicability": "high",
+        "durationBand": "unknown",
+        "pace": "unknown",
+        "mechanisms": [
+          "identificação",
+          "confiança",
+          "clareza",
+          "alívio"
+        ],
+        "hookTypes": [
+          "problema_operacional"
+        ],
+        "narrativeElements": [
+          "estado_anterior",
+          "escolha",
+          "implementacao",
+          "resultado_qualitativo"
+        ],
+        "proofTypes": [
+          "depoimento_identificado",
+          "mecanismo_explicado"
+        ],
+        "ctaTypes": [],
+        "distributionContext": {
+          "organicPaid": "unknown",
+          "trendDependency": "unknown"
+        },
+        "confidence": "medium",
+        "evidence": [
+          "O caso descreve baixa adesão ao CRM anterior, perda de dados, processos diferentes entre franquias e pouca visibilidade da jornada.",
+          "A intervenção inclui Bitrix24, consultoria, padronização do funil e automação em mais de cinquenta franquias.",
+          "Gustavo Azevedo e Thaís Pinho são identificados como responsáveis comercial e de marketing.",
+          "O resultado é descrito como maior adesão, visão integrada e aumento de conversões, mas sem percentual, período ou baseline."
+        ],
+        "alternativeClassifications": [],
+        "missingInformation": [
+          "indicador quantitativo",
+          "período",
+          "baseline",
+          "transcrição",
+          "retenção"
+        ],
+        "needsHumanReview": true
+      },
+      "comparison": {
+        "level": 2,
+        "group": "caso-limite de prova comercial com problema, mecanismo e voz, mas sem resultado mensurado",
+        "referenceIds": [
+          "obs-20260824-041",
+          "obs-20260829-068"
+        ],
+        "confidence": "high"
+      },
+      "observations": [
+        "O caso descreve baixa adesão ao CRM anterior, perda de dados, processos diferentes entre franquias e pouca visibilidade da jornada.",
+        "A intervenção inclui Bitrix24, consultoria, padronização do funil e automação em mais de cinquenta franquias.",
+        "Gustavo Azevedo e Thaís Pinho são identificados como responsáveis comercial e de marketing.",
+        "O resultado é descrito como maior adesão, visão integrada e aumento de conversões, mas sem percentual, período ou baseline."
+      ],
+      "interpretations": [
+        "Estado anterior, mecanismo e vozes identificadas produzem uma narrativa de prova robusta.",
+        "Sem unidade, período e baseline, o caso sustenta transformação qualitativa, não o componente quantitativo do padrão."
+      ],
+      "scores": {
+        "gancho": 80,
+        "clareza": 93,
+        "relevancia": 89,
+        "desejo": 79,
+        "confianca": 76,
+        "retencao": "not_assessed",
+        "acao": 80,
+        "objecoes": 83
+      },
+      "fiveLenses": {
+        "apressado": "O título apresenta cliente e ferramenta, mas não resultado específico.",
+        "analitico": "Há processo detalhado e vozes, porém faltam indicadores comparáveis.",
+        "aspiracional": "A unificação de mais de cinquenta franquias é concreta.",
+        "comunidade": "Duas vozes do cliente são identificadas.",
+        "cetico": "A fonte é o implementador e não há resultado quantitativo."
+      },
+      "hypotheses": [],
+      "replicable": [
+        "Mostrar estado anterior e processo de escolha.",
+        "Identificar responsáveis de áreas diferentes.",
+        "Não chamar melhora qualitativa de resultado mensurado."
+      ],
+      "limitations": [
+        "Página ligada ao fornecedor e sem auditoria.",
+        "O audiovisual e a fala integral não foram acessados."
+      ],
+      "provenance": [
+        "public_content",
+        "official_related_case_page",
+        "observatory_inference"
+      ],
+      "sourceEvidence": [
+        "https://www.youtube.com/watch?v=rNd6ATcOLY0",
+        "https://br24.io/blog/arquivar-crm-para-franquias/"
+      ],
+      "training": {
+        "replicable": [
+          "Mostrar estado anterior e processo de escolha.",
+          "Identificar responsáveis de áreas diferentes.",
+          "Não chamar melhora qualitativa de resultado mensurado."
+        ],
+        "contingent": [
+          "adesão dos franqueados",
+          "reestruturação paralela",
+          "consultoria e customização"
+        ],
+        "notRecommended": [
+          "copiar frases, personagens ou roteiro",
+          "tratar alegação comercial ou popularidade como prova causal",
+          "inferir cenas, áudio, ritmo ou retenção ausentes"
+        ],
+        "hypotheses": []
+      },
+      "viralAssessment": {
+        "status": "indeterminate",
+        "observedSignal": "métricas não acessíveis",
+        "missingForRelativeAssessment": [
+          "baseline recente do canal",
+          "velocidade inicial",
+          "impressões",
+          "retenção",
+          "fontes de tráfego"
+        ],
+        "confounders": [
+          "tamanho e histórico do canal",
+          "idade da publicação",
+          "tema",
+          "distribuição"
+        ],
+        "causalClaimAllowed": false
+      }
+    },
+    {
+      "id": "obs-20260830-073",
+      "title": "How to Build a $5M Service Business in 90 Days",
+      "creator": "Alex Hormozi",
+      "country": "US",
+      "url": "https://www.youtube.com/watch?v=mRlSb0O5QNU",
+      "publishedAt": "2026-08-22",
+      "duration": "não acessível",
+      "createdAt": "2026-08-30T11:38:49.000Z",
+      "coverage": {
+        "level": "partial",
+        "accessible": [
+          "título",
+          "criador",
+          "data",
+          "visualizações indexadas",
+          "miniatura/player incorporado",
+          "trecho inicial de transcrição",
+          "resumo e mecanismos derivados da transcrição",
+          "cliente e negócio identificados"
+        ],
+        "missing": [
+          "vídeo integral reproduzível",
+          "imagem em movimento e cenas",
+          "áudio efetivamente ouvido",
+          "texto na tela",
+          "ritmo e montagem",
+          "retenção",
+          "comentários individuais",
+          "origem da distribuição",
+          "mídia paga e conversão",
+          "vídeo integral reproduzível",
+          "transcrição integral auditada",
+          "resultado final do ciclo de noventa dias na cobertura acessível",
+          "comentários",
+          "curtidas",
+          "métricas do negócio auditadas"
+        ]
+      },
+      "publicMetrics": {
+        "viewsObserved": "44,8 mil",
+        "observedAt": "2026-08-30",
+        "sourceType": "secondary_indexed_source",
+        "causality": "not_inferred"
+      },
+      "classification": {
+        "taxonomyVersion": "3.0",
+        "container": "youtube_video",
+        "materialFormat": "video_longo",
+        "presentationFormats": [
+          "estudo_caso",
+          "coaching",
+          "entrevista"
+        ],
+        "primaryFamily": "prova_estudo_caso",
+        "secondaryFamilies": [
+          "educativo",
+          "storytelling"
+        ],
+        "functionalMix": [
+          {
+            "family": "prova_estudo_caso",
+            "percentage": 40
+          },
+          {
+            "family": "educativo",
+            "percentage": 35
+          },
+          {
+            "family": "storytelling",
+            "percentage": 25
+          }
+        ],
+        "objectives": [
+          "educar",
+          "retencao",
+          "autoridade",
+          "confianca"
+        ],
+        "advertisingType": "indeterminado",
+        "commercialIntent": "indeterminada",
+        "advertisedEntity": {
+          "kind": "none_observed",
+          "name": null,
+          "confidence": "low"
+        },
+        "contentTopic": {
+          "label": "reestruturação de empresa de serviços em noventa dias",
+          "iabCode": null
+        },
+        "segment": "educação empresarial",
+        "subsegment": "precificação e processo comercial",
+        "probableAudience": "empreendedores de serviços interessados em escala",
+        "awarenessStage": "consciente_problema",
+        "productionLevel": "complex",
+        "creatorScale": "large",
+        "replicability": "medium",
+        "durationBand": "unknown",
+        "pace": "unknown",
+        "mechanisms": [
+          "curiosidade",
+          "autoridade",
+          "progresso",
+          "desejo"
+        ],
+        "hookTypes": [
+          "meta_numerica",
+          "prazo",
+          "promessa_de_acompanhamento"
+        ],
+        "narrativeElements": [
+          "meta",
+          "diagnostico",
+          "intervencoes",
+          "promessa_de_retorno"
+        ],
+        "proofTypes": [
+          "cliente_identificado",
+          "processo_explicado"
+        ],
+        "ctaTypes": [],
+        "distributionContext": {
+          "organicPaid": "unknown",
+          "trendDependency": "unknown"
+        },
+        "confidence": "medium",
+        "evidence": [
+          "A abertura promete ajudar uma pessoa desconhecida a alcançar uma empresa de cinco milhões de dólares anuais em noventa dias e verificar depois o que ocorreu.",
+          "Joey Goon e a Utopia Experience são identificados.",
+          "O resumo descreve intervenções em precificação, vendas consultivas, treinamento, eventos B2B e foco de segmento.",
+          "O resultado final dos noventa dias não aparece na cobertura acessível."
+        ],
+        "alternativeClassifications": [],
+        "missingInformation": [
+          "resultado final",
+          "baseline auditável",
+          "audiovisual integral",
+          "retenção"
+        ],
+        "needsHumanReview": true
+      },
+      "comparison": {
+        "level": 2,
+        "group": "experimento comercial seriado com meta, prazo e processo, mas resultado final ainda não observado",
+        "referenceIds": [
+          "obs-20260829-066",
+          "obs-20260829-068"
+        ],
+        "confidence": "medium"
+      },
+      "observations": [
+        "A abertura promete ajudar uma pessoa desconhecida a alcançar uma empresa de cinco milhões de dólares anuais em noventa dias e verificar depois o que ocorreu.",
+        "Joey Goon e a Utopia Experience são identificados.",
+        "O resumo descreve intervenções em precificação, vendas consultivas, treinamento, eventos B2B e foco de segmento.",
+        "O resultado final dos noventa dias não aparece na cobertura acessível."
+      ],
+      "interpretations": [
+        "Meta, prazo, pessoa e processo criam uma narrativa forte de experimento comercial.",
+        "Enquanto o resultado final não está acessível, o material é promessa de prova futura e não apoio ao padrão de resultado demonstrado."
+      ],
+      "scores": {
+        "gancho": 92,
+        "clareza": 90,
+        "relevancia": 86,
+        "desejo": 92,
+        "confianca": 72,
+        "retencao": "not_assessed",
+        "acao": "not_assessed",
+        "objecoes": 68
+      },
+      "fiveLenses": {
+        "apressado": "Meta e prazo são imediatos.",
+        "analitico": "Há mecanismos, mas o desfecho não foi auditado.",
+        "aspiracional": "A escala prometida é extrema.",
+        "comunidade": "Pessoa e empresa são nomeadas; comentários não acessíveis.",
+        "cetico": "Prometer verificar depois não equivale a apresentar resultado."
+      },
+      "hypotheses": [],
+      "replicable": [
+        "Identificar pessoa, negócio, meta, prazo e intervenções.",
+        "Só converter desafio em prova após publicar baseline e resultado final."
+      ],
+      "limitations": [
+        "O desfecho e dados finais não ficaram acessíveis.",
+        "Escala do criador e produção são fatores contingentes."
+      ],
+      "provenance": [
+        "public_content",
+        "secondary_transcript",
+        "secondary_public_metric",
+        "observatory_inference"
+      ],
+      "sourceEvidence": [
+        "https://www.youtube.com/watch?v=mRlSb0O5QNU",
+        "https://glasp.co/youtube/mRlSb0O5QNU"
+      ],
+      "training": {
+        "replicable": [
+          "Identificar pessoa, negócio, meta, prazo e intervenções.",
+          "Só converter desafio em prova após publicar baseline e resultado final."
+        ],
+        "contingent": [
+          "autoridade e audiência do criador",
+          "seleção do participante",
+          "recursos investidos"
+        ],
+        "notRecommended": [
+          "copiar frases, personagens ou roteiro",
+          "tratar alegação comercial ou popularidade como prova causal",
+          "inferir cenas, áudio, ritmo ou retenção ausentes"
+        ],
+        "hypotheses": []
+      },
+      "viralAssessment": {
+        "status": "indeterminate",
+        "observedSignal": "44,8 mil visualizações indexadas sem baseline recente",
+        "missingForRelativeAssessment": [
+          "baseline recente do canal",
+          "velocidade inicial",
+          "impressões",
+          "retenção",
+          "fontes de tráfego"
+        ],
+        "confounders": [
+          "tamanho e histórico do canal",
+          "idade da publicação",
+          "tema",
+          "distribuição"
+        ],
+        "causalClaimAllowed": false
+      }
+    },
+    {
+      "id": "obs-20260830-074",
+      "title": "Como responder perguntas do livro de Larissa Manoela?",
+      "creator": "Blogueirinha",
+      "country": "BR",
+      "url": "https://www.youtube.com/watch?v=KK8kQJHzqmg",
+      "publishedAt": "2019-07-21",
+      "duration": "não acessível",
+      "createdAt": "2026-08-30T11:38:49.000Z",
+      "coverage": {
+        "level": "partial",
+        "accessible": [
+          "título",
+          "criadora/personagem",
+          "data",
+          "visualizações indexadas",
+          "miniatura/player incorporado",
+          "trecho de transcrição",
+          "resumo e pontos centrais derivados da transcrição",
+          "convite a comentários"
+        ],
+        "missing": [
+          "vídeo integral reproduzível",
+          "imagem em movimento e cenas",
+          "áudio efetivamente ouvido",
+          "texto na tela",
+          "ritmo e montagem",
+          "retenção",
+          "comentários individuais",
+          "origem da distribuição",
+          "mídia paga e conversão",
+          "transcrição integral auditada",
+          "descrição original completa",
+          "curtidas",
+          "comentários individuais",
+          "duração"
+        ]
+      },
+      "publicMetrics": {
+        "viewsObserved": "236,6 mil",
+        "observedAt": "2026-08-30",
+        "sourceType": "secondary_indexed_source",
+        "causality": "not_inferred"
+      },
+      "classification": {
+        "taxonomyVersion": "3.0",
+        "container": "youtube_video",
+        "materialFormat": "video_longo",
+        "presentationFormats": [
+          "fala_para_camera",
+          "leitura_reacao",
+          "personagem"
+        ],
+        "primaryFamily": "humor",
+        "secondaryFamilies": [
+          "comunidade",
+          "autoridade_opiniao"
+        ],
+        "functionalMix": [
+          {
+            "family": "humor",
+            "percentage": 50
+          },
+          {
+            "family": "comunidade",
+            "percentage": 30
+          },
+          {
+            "family": "autoridade_opiniao",
+            "percentage": 20
+          }
+        ],
+        "objectives": [
+          "entreter",
+          "comentario",
+          "comunidade"
+        ],
+        "advertisingType": "indeterminado",
+        "commercialIntent": "indeterminada",
+        "advertisedEntity": {
+          "kind": "none_observed",
+          "name": null,
+          "confidence": "low"
+        },
+        "contentTopic": {
+          "label": "respostas cômicas a perguntas de livro de celebridade",
+          "iabCode": null
+        },
+        "segment": "entretenimento e cultura pop",
+        "subsegment": "humor de personagem",
+        "probableAudience": "público familiarizado com influenciadores e cultura pop",
+        "awarenessStage": "consciente_criador",
+        "productionLevel": "simple",
+        "creatorScale": "large",
+        "replicability": "high",
+        "durationBand": "unknown",
+        "pace": "unknown",
+        "mechanisms": [
+          "humor",
+          "reconhecimento",
+          "participação",
+          "identificação"
+        ],
+        "hookTypes": [
+          "objeto_cultural_reconhecivel"
+        ],
+        "narrativeElements": [
+          "pergunta",
+          "resposta_em_personagem",
+          "comentario_pessoal"
+        ],
+        "proofTypes": [],
+        "ctaTypes": [
+          "comentar"
+        ],
+        "distributionContext": {
+          "organicPaid": "unknown",
+          "trendDependency": "unknown"
+        },
+        "confidence": "medium",
+        "evidence": [
+          "A personagem usa perguntas de um livro conhecido como pauta estruturante.",
+          "As respostas combinam ironia, exagero, experiência pessoal e referências de cultura pop.",
+          "O resumo registra convite para o público comentar e acompanhar outras leituras."
+        ],
+        "alternativeClassifications": [],
+        "missingInformation": [
+          "timing cômico",
+          "duração",
+          "retenção",
+          "comentários"
+        ],
+        "needsHumanReview": true
+      },
+      "comparison": {
+        "level": 1,
+        "group": "humor de personagem estruturado por perguntas externas",
+        "referenceIds": [],
+        "confidence": "medium"
+      },
+      "observations": [
+        "A personagem usa perguntas de um livro conhecido como pauta estruturante.",
+        "As respostas combinam ironia, exagero, experiência pessoal e referências de cultura pop.",
+        "O resumo registra convite para o público comentar e acompanhar outras leituras."
+      ],
+      "interpretations": [
+        "Um repertório externo de perguntas reduz o custo de pauta e deixa espaço para a voz consistente da personagem.",
+        "O mecanismo difere de problemas enviados pela audiência; portanto não fortalece automaticamente a hipótese de humor comunitário baseada em submissões reais."
+      ],
+      "scores": {
+        "gancho": 78,
+        "clareza": 89,
+        "relevancia": 82,
+        "desejo": 74,
+        "confianca": 80,
+        "retencao": "not_assessed",
+        "acao": 77,
+        "objecoes": 80
+      },
+      "fiveLenses": {
+        "apressado": "O objeto e a ação são claros.",
+        "analitico": "A estrutura textual está acessível; timing cômico não foi auditado.",
+        "aspiracional": "Não há transformação central.",
+        "comunidade": "Perguntas e comentários criam participação leve.",
+        "cetico": "Popularidade da personagem e da celebridade limitam transferência."
+      },
+      "hypotheses": [],
+      "replicable": [
+        "Usar perguntas publicamente disponíveis como pauta sem copiar respostas.",
+        "Aplicar uma voz editorial consistente às respostas.",
+        "Convidar participação relacionada ao mesmo tema."
+      ],
+      "limitations": [
+        "Sem audiovisual, não foram avaliados atuação, edição ou timing.",
+        "Fama da personagem e da celebridade são contingentes."
+      ],
+      "provenance": [
+        "public_content",
+        "secondary_transcript",
+        "secondary_public_metric",
+        "observatory_inference"
+      ],
+      "sourceEvidence": [
+        "https://www.youtube.com/watch?v=KK8kQJHzqmg",
+        "https://glasp.co/youtube/KK8kQJHzqmg"
+      ],
+      "training": {
+        "replicable": [
+          "Usar perguntas publicamente disponíveis como pauta sem copiar respostas.",
+          "Aplicar uma voz editorial consistente às respostas.",
+          "Convidar participação relacionada ao mesmo tema."
+        ],
+        "contingent": [
+          "reconhecimento da personagem",
+          "familiaridade com a celebridade",
+          "timing cômico"
+        ],
+        "notRecommended": [
+          "copiar frases, personagens ou roteiro",
+          "tratar alegação comercial ou popularidade como prova causal",
+          "inferir cenas, áudio, ritmo ou retenção ausentes"
+        ],
+        "hypotheses": []
+      },
+      "viralAssessment": {
+        "status": "indeterminate",
+        "observedSignal": "236,6 mil visualizações indexadas, sem baseline funcional",
+        "missingForRelativeAssessment": [
+          "baseline recente do canal",
+          "velocidade inicial",
+          "impressões",
+          "retenção",
+          "fontes de tráfego"
+        ],
+        "confounders": [
+          "tamanho e histórico do canal",
+          "idade da publicação",
+          "tema",
+          "distribuição"
+        ],
+        "causalClaimAllowed": false
+      }
+    },
+    {
+      "id": "obs-20260830-075",
+      "title": "Brazilian Portuguese Conversation Guide",
+      "creator": "Speaking Brazilian Language School / Virginia Langhammer",
+      "country": "BR/US",
+      "url": "https://www.youtube.com/watch?v=mJci3uVlg4E",
+      "publishedAt": "2019-01-22",
+      "duration": "não acessível",
+      "createdAt": "2026-08-30T11:38:49.000Z",
+      "coverage": {
+        "level": "partial",
+        "accessible": [
+          "título",
+          "criadora",
+          "data",
+          "visualizações indexadas",
+          "miniatura/player incorporado",
+          "trecho de transcrição",
+          "resumo detalhado",
+          "método",
+          "CTA de comentário e interação entre alunos",
+          "oferta educacional"
+        ],
+        "missing": [
+          "vídeo integral reproduzível",
+          "imagem em movimento e cenas",
+          "áudio efetivamente ouvido",
+          "texto na tela",
+          "ritmo e montagem",
+          "retenção",
+          "comentários individuais",
+          "origem da distribuição",
+          "mídia paga e conversão",
+          "transcrição integral auditada",
+          "descrição original completa",
+          "curtidas",
+          "comentários individuais",
+          "duração",
+          "conversões"
+        ]
+      },
+      "publicMetrics": {
+        "viewsObserved": "190,3 mil",
+        "observedAt": "2026-08-30",
+        "sourceType": "secondary_indexed_source",
+        "causality": "not_inferred"
+      },
+      "classification": {
+        "taxonomyVersion": "3.0",
+        "container": "youtube_video",
+        "materialFormat": "video_longo",
+        "presentationFormats": [
+          "aula",
+          "fala_para_camera",
+          "tutorial"
+        ],
+        "primaryFamily": "educativo",
+        "secondaryFamilies": [
+          "comunidade",
+          "venda_indireta"
+        ],
+        "functionalMix": [
+          {
+            "family": "educativo",
+            "percentage": 55
+          },
+          {
+            "family": "comunidade",
+            "percentage": 30
+          },
+          {
+            "family": "venda_indireta",
+            "percentage": 15
+          }
+        ],
+        "objectives": [
+          "educar",
+          "comentario",
+          "comunidade",
+          "apresentar_solucao"
+        ],
+        "advertisingType": "consideracao",
+        "commercialIntent": "explicita",
+        "advertisedEntity": {
+          "kind": "serviço",
+          "name": "cursos Speaking Brazilian",
+          "confidence": "high"
+        },
+        "contentTopic": {
+          "label": "scripts de conversação para aprender português",
+          "iabCode": null
+        },
+        "segment": "educação e idiomas",
+        "subsegment": "português brasileiro para estrangeiros",
+        "probableAudience": "estudantes estrangeiros de português brasileiro",
+        "awarenessStage": "consciente_problema",
+        "productionLevel": "simple",
+        "creatorScale": "medium",
+        "replicability": "high",
+        "durationBand": "unknown",
+        "pace": "unknown",
+        "mechanisms": [
+          "progresso",
+          "participação",
+          "confiança",
+          "alívio"
+        ],
+        "hookTypes": [
+          "promessa_de_fluencia"
+        ],
+        "narrativeElements": [
+          "problema",
+          "metodo",
+          "exemplos",
+          "pratica_comunitaria"
+        ],
+        "proofTypes": [
+          "exemplos_praticos"
+        ],
+        "ctaTypes": [
+          "responder_comentario",
+          "interagir_com_colegas",
+          "conhecer_curso"
+        ],
+        "distributionContext": {
+          "organicPaid": "unknown",
+          "trendDependency": "unknown"
+        },
+        "confidence": "medium",
+        "evidence": [
+          "A abertura promete um método para conversar em português sem depender de anos de estudo gramatical.",
+          "O método organiza perguntas e respostas cotidianas em scripts adaptáveis ao nível do aluno.",
+          "A instrutora convida alunos a responder às perguntas nos comentários e a interagir entre si.",
+          "O vídeo também apresenta recursos gratuitos e cursos da escola."
+        ],
+        "alternativeClassifications": [],
+        "missingInformation": [
+          "comentários reais",
+          "duração",
+          "retenção",
+          "conversão"
+        ],
+        "needsHumanReview": true
+      },
+      "comparison": {
+        "level": 1,
+        "group": "aula de idioma com comentário usado como prática entre pares",
+        "referenceIds": [],
+        "confidence": "high"
+      },
+      "observations": [
+        "A abertura promete um método para conversar em português sem depender de anos de estudo gramatical.",
+        "O método organiza perguntas e respostas cotidianas em scripts adaptáveis ao nível do aluno.",
+        "A instrutora convida alunos a responder às perguntas nos comentários e a interagir entre si.",
+        "O vídeo também apresenta recursos gratuitos e cursos da escola."
+      ],
+      "interpretations": [
+        "O CTA não pede apenas opinião: transforma o comentário em exercício ligado ao conteúdo.",
+        "Incentivar respostas entre alunos pode converter a área de comentários em prática distribuída e apoio comunitário."
+      ],
+      "scores": {
+        "gancho": 84,
+        "clareza": 94,
+        "relevancia": 92,
+        "desejo": 86,
+        "confianca": 86,
+        "retencao": "not_assessed",
+        "acao": 91,
+        "objecoes": 88
+      },
+      "fiveLenses": {
+        "apressado": "Problema e método são entendidos no início.",
+        "analitico": "Há passos e exemplos; eficácia não foi experimentalmente medida.",
+        "aspiracional": "A promessa é conversar mais cedo.",
+        "comunidade": "Comentários funcionam como prática e interação entre pares.",
+        "cetico": "Fluência rápida é promessa ampla e exige qualificação."
+      },
+      "hypotheses": [
+        "Em conteúdo educacional, transformar o CTA de comentário em exercício diretamente ligado à aula e incentivar respostas entre pares pode combinar prática, participação e comunidade."
+      ],
+      "replicable": [
+        "Pedir uma resposta que pratique exatamente o conteúdo ensinado.",
+        "Oferecer perguntas com dificuldade proporcional.",
+        "Incentivar interação útil entre participantes, não apenas volume de comentários."
+      ],
+      "limitations": [
+        "Audiovisual, comentários reais e retenção não foram auditados.",
+        "Visualizações não demonstram eficácia do método ou do CTA."
+      ],
+      "provenance": [
+        "public_content",
+        "secondary_transcript",
+        "secondary_public_metric",
+        "observatory_inference"
+      ],
+      "sourceEvidence": [
+        "https://www.youtube.com/watch?v=mJci3uVlg4E",
+        "https://glasp.co/youtube/mJci3uVlg4E"
+      ],
+      "training": {
+        "replicable": [
+          "Pedir uma resposta que pratique exatamente o conteúdo ensinado.",
+          "Oferecer perguntas com dificuldade proporcional.",
+          "Incentivar interação útil entre participantes, não apenas volume de comentários."
+        ],
+        "contingent": [
+          "nível dos alunos",
+          "moderação da comunidade",
+          "qualidade das respostas entre pares"
+        ],
+        "notRecommended": [
+          "copiar frases, personagens ou roteiro",
+          "tratar alegação comercial ou popularidade como prova causal",
+          "inferir cenas, áudio, ritmo ou retenção ausentes"
+        ],
+        "hypotheses": [
+          "Em conteúdo educacional, transformar o CTA de comentário em exercício diretamente ligado à aula e incentivar respostas entre pares pode combinar prática, participação e comunidade."
+        ]
+      },
+      "viralAssessment": {
+        "status": "indeterminate",
+        "observedSignal": "190,3 mil visualizações indexadas, sem baseline recente",
+        "missingForRelativeAssessment": [
+          "baseline recente do canal",
+          "velocidade inicial",
+          "impressões",
+          "retenção",
+          "fontes de tráfego"
+        ],
+        "confounders": [
+          "tamanho e histórico do canal",
+          "idade da publicação",
+          "tema",
+          "distribuição"
+        ],
+        "causalClaimAllowed": false
+      }
     }
   ],
   "patterns": [
@@ -16838,7 +17982,9 @@
         "Nenhum vídeo foi reproduzido integralmente.",
         "Período, baseline e método de cálculo não aparecem em todos os casos.",
         "Intervenções simultâneas impedem atribuição a um único componente.",
-        "Sem experimento de confiança, compreensão ou conversão."
+        "Sem experimento de confiança, compreensão ou conversão.",
+        "Percentual sem baseline, transformação apenas qualitativa e promessa de resultado futuro são três falsos positivos recorrentes.",
+        "O padrão deve exigir que estado anterior, intervenção e resultado estejam simultaneamente observáveis; componentes espalhados não somam prova."
       ],
       "validation": "requires_human_or_experimental_evidence",
       "stage": "provisional",
@@ -16847,7 +17993,7 @@
       "objective": "confiança e consideração",
       "segment": "B2B",
       "supportingCount": 5,
-      "counterexampleCount": 0,
+      "counterexampleCount": 3,
       "evidence": [
         {
           "referenceId": "obs-20260824-041",
@@ -16888,12 +18034,41 @@
           "limitations": [
             "Fonte comercial e sem auditoria."
           ]
+        },
+        {
+          "referenceId": "obs-20260830-071",
+          "observation": "Caso-limite: percentual de faturamento no título sem baseline, período, cálculo ou voz detalhada.",
+          "evidence": "Título e descrição indexada.",
+          "limitations": [
+            "Não conta como apoio comparável."
+          ]
+        },
+        {
+          "referenceId": "obs-20260830-072",
+          "observation": "Caso-limite: estado anterior, intervenção e vozes identificadas, mas apenas resultados qualitativos.",
+          "evidence": "Título, capítulos e página oficial relacionada.",
+          "limitations": [
+            "Não conta como apoio ao componente quantitativo."
+          ]
+        },
+        {
+          "referenceId": "obs-20260830-073",
+          "observation": "Caso-limite: meta, prazo, pessoa e intervenções, mas o resultado final não aparece na cobertura.",
+          "evidence": "Trecho de transcrição e resumo textual.",
+          "limitations": [
+            "Promessa de prova futura não conta como resultado observado."
+          ]
         }
       ],
       "taxonomyVersion": "3.0",
       "creatorDiversityCount": 5,
       "sourceDiversityCount": 5,
-      "patternType": "estrutura_de_prova"
+      "patternType": "estrutura_de_prova",
+      "counterexampleReferenceIds": [
+        "obs-20260830-071",
+        "obs-20260830-072",
+        "obs-20260830-073"
+      ]
     }
   ],
   "hypotheses": [
@@ -17208,6 +18383,15 @@
         "obs-20260829-070"
       ],
       "reasonNotPromoted": "Apenas uma referência, sem audiovisual integral, comentários, retenção, métricas ou comparação independente."
+    },
+    {
+      "id": "hyp-20260830-033",
+      "status": "observed_not_promoted",
+      "statement": "Em conteúdo educacional, transformar o CTA de comentário em exercício diretamente ligado à aula e incentivar respostas entre pares pode combinar prática, participação e comunidade.",
+      "supportReferenceIds": [
+        "obs-20260830-075"
+      ],
+      "reasonNotPromoted": "Apenas uma referência; comentários reais, qualidade da interação, retenção e efeito de aprendizagem não foram acessados."
     }
   ],
   "contradictions": [
@@ -17276,6 +18460,14 @@
         "obs-20260829-066",
         "obs-20260829-067",
         "obs-20260829-068"
+      ]
+    },
+    {
+      "statement": "Casos comerciais podem parecer completos ao distribuir seus componentes entre título, descrição e página relacionada; se baseline, intervenção e resultado não estiverem simultaneamente observáveis, o material não deve contar como apoio ao padrão de prova.",
+      "evidence": [
+        "obs-20260830-071",
+        "obs-20260830-072",
+        "obs-20260830-073"
       ]
     }
   ],
@@ -17974,6 +19166,78 @@
         "outcome": "a hipótese recebeu três novos apoios independentes e foi promovida a padrão provisório",
         "newHypothesisLimit": 1,
         "note": "Primeira rodada após o ajuste de convergência; não constitui validação do protocolo."
+      }
+    },
+    {
+      "id": "run-20260830-supervised-011",
+      "executedAt": "2026-08-30T11:38:49.000Z",
+      "requestedBatchSize": 5,
+      "candidatesFound": 5,
+      "discarded": [],
+      "analyzed": 5,
+      "brazilianReferences": 4,
+      "internationalReferences": 1,
+      "replicableReferences": 4,
+      "coverageSummary": {
+        "complete": 0,
+        "partial": 5,
+        "insufficient": 0
+      },
+      "familiesCovered": [
+        "prova_estudo_caso",
+        "depoimento",
+        "venda_indireta",
+        "humor",
+        "comunidade",
+        "autoridade_opiniao",
+        "educativo"
+      ],
+      "segmentsCovered": [
+        "educação empresarial B2B",
+        "CRM e franquias",
+        "educação empresarial",
+        "entretenimento e cultura pop",
+        "educação e idiomas"
+      ],
+      "sourcesUsed": [
+        "https://www.youtube.com/watch?v=0cP0eYJVKKQ",
+        "https://www.youtube.com/c/MultiplierLabs/videos",
+        "https://www.youtube.com/watch?v=rNd6ATcOLY0",
+        "https://br24.io/blog/arquivar-crm-para-franquias/",
+        "https://www.youtube.com/watch?v=mRlSb0O5QNU",
+        "https://glasp.co/youtube/mRlSb0O5QNU",
+        "https://www.youtube.com/watch?v=KK8kQJHzqmg",
+        "https://glasp.co/youtube/KK8kQJHzqmg",
+        "https://www.youtube.com/watch?v=mJci3uVlg4E",
+        "https://glasp.co/youtube/mJci3uVlg4E"
+      ],
+      "patternsCreated": [],
+      "patternsStrengthened": [],
+      "patternsRefined": [
+        "pat-20260829-007"
+      ],
+      "hypothesesCreated": [
+        "hyp-20260830-033"
+      ],
+      "hypothesesStrengthened": [],
+      "validatedPatternsCreated": 0,
+      "contradictionsFound": [
+        "Três formas de falso positivo em prova comercial: percentual sem baseline, transformação apenas qualitativa e meta futura sem resultado observado."
+      ],
+      "nextTarget": "vídeo curto brasileiro de prova comercial com audiovisual e transcrição integrais, baseline, período, intervenção isolável, método de cálculo, resultado final e reação pública; procurar também um caso com resultado fraco ou negativo",
+      "limitations": [
+        "As cinco referências tiveram cobertura parcial; nenhuma permitiu auditoria audiovisual integral.",
+        "Cenas, áudio efetivamente ouvido, texto na tela, ritmo, montagem e retenção permaneceram não mensurados.",
+        "Os três materiais comerciais foram classificados como casos-limite e não aumentaram a contagem de apoios do padrão.",
+        "Comentários reais e efeito de aprendizagem do CTA educacional não ficaram acessíveis.",
+        "Métricas ausentes foram tratadas como não mensuradas, nunca como zero.",
+        "Nenhum dado foi misturado aos cérebros sintéticos ou ao futuro Freud."
+      ],
+      "protocolExperiment": {
+        "focus": "três referências dirigidas ao padrão pat-20260829-007; duas referências para diversidade",
+        "outcome": "nenhum dos três casos satisfez simultaneamente baseline, intervenção e resultado; foram registrados como casos-limite",
+        "newHypothesisLimit": 1,
+        "note": "A rodada evitou três falsos apoios e refinou o critério de contagem; isso testa precisão, não valida o protocolo."
       }
     }
   ],
