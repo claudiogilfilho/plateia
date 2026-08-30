@@ -4,8 +4,35 @@ import { resolve } from "node:path";
 const root = resolve(import.meta.dirname, "..");
 const memoryPath = resolve(root, "knowledge/observatory/plateia-memory.json");
 const reportPath = resolve(root, "knowledge/observatory/migrations/taxonomy-v3-integrity-repair.json");
+const taxonomyPath = resolve(root, "shared/plateiaTaxonomy.ts");
 const memory = JSON.parse(readFileSync(memoryPath, "utf8"));
-const repairedAt = "2026-08-24T19:30:00.000Z";
+const taxonomySource = readFileSync(taxonomyPath, "utf8");
+const repairedAt = new Date().toISOString();
+const enumSet = name => {
+  const match = taxonomySource.match(new RegExp(`export const ${name} = (\\[[^;]+\\]) as const;`));
+  if (!match) throw new Error(`Enum ${name} não encontrado.`);
+  return new Set(JSON.parse(match[1]));
+};
+const strictEnums = {
+  container: enumSet("CONTAINERS"),
+  materialFormat: enumSet("MATERIAL_FORMATS"),
+  presentationFormats: enumSet("PRESENTATION_FORMATS"),
+  primaryFamily: enumSet("CREATIVE_FAMILIES"),
+  secondaryFamilies: enumSet("CREATIVE_FAMILIES"),
+  objectives: enumSet("OBJECTIVES"),
+  advertisingType: enumSet("ADVERTISING_TYPES"),
+  commercialIntent: enumSet("COMMERCIAL_INTENTS"),
+  awarenessStage: enumSet("AWARENESS_STAGES"),
+  productionLevel: enumSet("PRODUCTION_LEVELS"),
+  durationBand: enumSet("DURATION_BANDS"),
+  pace: enumSet("PACES"),
+  mechanisms: enumSet("MECHANISMS"),
+  hookTypes: enumSet("HOOK_TYPES"),
+  narrativeElements: enumSet("NARRATIVE_ELEMENTS"),
+  proofTypes: enumSet("PROOF_TYPES"),
+  ctaTypes: enumSet("CTA_TYPES"),
+  patternType: enumSet("PATTERN_TYPES"),
+};
 
 const aliases = {
   productionLevel: { advanced: "complex", medium: "intermediate" },
@@ -137,20 +164,74 @@ memory.references = (memory.references ?? []).map(reference => {
   };
 });
 
+memory.references = memory.references.map(reference => {
+  const classification = { ...reference.classification };
+  const removed = {};
+  const scalarFallbacks = {
+    container: "indeterminado", materialFormat: "indeterminado", primaryFamily: "indeterminado",
+    advertisingType: "indeterminado", commercialIntent: "indeterminada", awarenessStage: "indeterminado",
+    productionLevel: "unknown", durationBand: "unknown", pace: "unknown",
+  };
+  for (const [field, fallback] of Object.entries(scalarFallbacks)) {
+    if (!strictEnums[field].has(classification[field])) {
+      removed[field] = classification[field];
+      classification[field] = fallback;
+    }
+  }
+  const listLimits = { presentationFormats: 3, secondaryFamilies: 2, objectives: 4, mechanisms: 6, hookTypes: 5, narrativeElements: 10, proofTypes: 6, ctaTypes: 4 };
+  for (const [field, maximum] of Object.entries(listLimits)) {
+    const original = Array.isArray(classification[field]) ? classification[field] : [];
+    const next = unique(original.filter(value => strictEnums[field].has(value))).slice(0, maximum);
+    const invalid = original.filter(value => !strictEnums[field].has(value));
+    if (invalid.length || original.length > maximum) removed[field] = [...invalid, ...original.slice(maximum)];
+    classification[field] = next;
+  }
+  if (!classification.presentationFormats.length) classification.presentationFormats = ["indeterminado"];
+  if (!classification.objectives.length) classification.objectives = ["indeterminado"];
+  classification.secondaryFamilies = classification.secondaryFamilies.filter(value => value !== classification.primaryFamily);
+  classification.functionalMix = normalizeMix(
+    (classification.functionalMix ?? []).filter(item => strictEnums.primaryFamily.has(item?.family)),
+    classification.primaryFamily,
+  );
+  const creatorIdentity = reference.creatorIdentity || String(reference.creator || "").normalize("NFD").replace(/[\u0300-\u036f]/g, "").toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "");
+  return {
+    ...reference,
+    creatorIdentity,
+    sourceIdentity: reference.sourceIdentity || creatorIdentity,
+    classification,
+    ...(Object.keys(removed).length ? { taxonomyRepair: { policy: "strict-enum-v3.1", repairedAt, previousInvalidValues: removed, uncertaintyPreserved: true } } : {}),
+  };
+});
+
+const referenceIdentity = new Map(memory.references.map(reference => [reference.id, reference]));
 memory.patterns = (memory.patterns ?? []).map(pattern => {
-  const supportReferenceIds = unique(pattern.supportReferenceIds ?? pattern.evidence?.map(item => item.referenceId) ?? []);
-  const supportingCount = supportReferenceIds.length;
-  const creatorDiversityCount = new Set(supportReferenceIds.map(id => creators.get(id)?.trim().toLocaleLowerCase("pt-BR")).filter(Boolean)).size;
+  const supportReferenceIds = unique(pattern.supportReferenceIds ?? []);
+  const counterexampleReferenceIds = unique(pattern.counterexampleReferenceIds ?? []);
+  const occupied = new Set([...supportReferenceIds, ...counterexampleReferenceIds]);
+  const caseLimitReferenceIds = unique(pattern.caseLimitReferenceIds ?? []).filter(id => !occupied.has(id));
+  const creatorDiversityCount = new Set(supportReferenceIds.map(id => referenceIdentity.get(id)?.creatorIdentity).filter(Boolean)).size;
+  const sourceDiversityCount = new Set(supportReferenceIds.map(id => referenceIdentity.get(id)?.sourceIdentity).filter(Boolean)).size;
   let stage = pattern.stage ?? pattern.status ?? "hypothesis";
-  if (stage !== "experimentally_validated") stage = supportingCount >= 3 && creatorDiversityCount >= 2 ? "provisional" : supportingCount >= 2 ? "supported_hypothesis" : supportingCount === 1 ? "observation" : "hypothesis";
+  if (!["experimentally_validated", "validated"].includes(stage)) {
+    if (counterexampleReferenceIds.length >= supportReferenceIds.length && counterexampleReferenceIds.length >= 2) stage = "contradicted";
+    else if (supportReferenceIds.length >= 3 && creatorDiversityCount >= 2 && sourceDiversityCount >= 2) stage = "provisional";
+    else if (supportReferenceIds.length >= 2) stage = "supported_hypothesis";
+    else if (supportReferenceIds.length === 1) stage = "observation";
+    else stage = counterexampleReferenceIds.length ? "inconclusive" : "hypothesis";
+  } else stage = "experimentally_validated";
   return {
     ...pattern,
-    mechanism: mapMany(pattern.mechanism, aliases.mechanism, 8),
+    patternType: strictEnums.patternType.has(pattern.patternType) ? pattern.patternType : "outro",
+    mechanism: mapMany(pattern.mechanism, aliases.mechanism, 8).filter(value => strictEnums.mechanisms.has(value)),
     supportReferenceIds,
-    supportingCount,
-    comparableSupportCount: supportingCount,
+    counterexampleReferenceIds,
+    caseLimitReferenceIds,
+    supportingCount: supportReferenceIds.length,
+    comparableSupportCount: supportReferenceIds.length,
+    counterexampleCount: counterexampleReferenceIds.length,
+    caseLimitCount: caseLimitReferenceIds.length,
     creatorDiversityCount,
-    sourceDiversityCount: creatorDiversityCount,
+    sourceDiversityCount,
     stage,
     status: stage,
     validation: stage === "experimentally_validated" ? pattern.validation : "requires_human_or_experimental_evidence",
@@ -159,7 +240,7 @@ memory.patterns = (memory.patterns ?? []).map(pattern => {
 
 memory.updatedAt = repairedAt;
 memory.trainingRuns = [...(memory.trainingRuns ?? []), {
-  id: "taxonomy-v3-integrity-repair-20260824",
+  id: "taxonomy-v3-integrity-repair-v31",
   executedAt: repairedAt,
   type: "integrity_repair",
   referencesInspected: memory.references.length,
@@ -170,7 +251,7 @@ memory.trainingRuns = [...(memory.trainingRuns ?? []), {
 
 writeFileSync(memoryPath, `${JSON.stringify(memory, null, 2)}\n`);
 writeFileSync(reportPath, `${JSON.stringify({
-  repairId: "taxonomy-v3-integrity-repair-20260824",
+  repairId: "taxonomy-v3-integrity-repair-v31",
   repairedAt,
   taxonomyVersion: "3.0",
   referencesInspected: memory.references.length,
