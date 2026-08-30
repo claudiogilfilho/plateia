@@ -1,5 +1,5 @@
 {
-  "protocol": "plateia-watchlist/1.0",
+  "protocol": "plateia-watchlist/1.1",
   "status": "active",
   "createdAt": "2026-08-23T23:00:00Z",
   "dailyTarget": 5,
@@ -12,30 +12,14 @@
     "requirePublicSource": true,
     "requireProvenance": true,
     "doNotSelectByViewsAlone": true,
-    "rule": "Classificar antes de comparar; popularidade, fama, mídia paga e produção cara são contexto, não qualidade causal."
+    "rule": "Escolher primeiro uma hipótese ou padrão-alvo e só depois pesquisar referências. Classificar e verificar cobertura antes de ensinar; popularidade, fama, mídia paga e produção cara são contexto, não qualidade causal.",
+    "candidatePoolMinimum": 15,
+    "screenCoverageBeforeSelection": true,
+    "preferDirectMediaOrFullTranscript": true,
+    "maxNewHypothesesPerBatch": 1,
+    "supportMaxComparisonLevel": 2,
+    "caseLimitsAreNotCounterexamples": true
   },
-  "batchMix": [
-    {
-      "lane": "educacao_demonstracao",
-      "quota": 1
-    },
-    {
-      "lane": "autoridade_explicacao",
-      "quota": 1
-    },
-    {
-      "lane": "humor_comunidade",
-      "quota": 1
-    },
-    {
-      "lane": "storytelling_retencao",
-      "quota": 1
-    },
-    {
-      "lane": "oferta_conversao_ou_marca",
-      "quota": 1
-    }
-  ],
   "sources": [
     {
       "id": "manual-do-mundo",
@@ -317,5 +301,68 @@
       "intendedUse": "Confirmar métricas públicas, contexto de campanha e casos premiados por fonte primária.",
       "comparabilityGuard": "Caso de campanha não é referência individual de vídeo e não entra em benchmark direto."
     }
-  ]
+  ],
+  "updatedAt": "2026-08-30T17:01:37.562Z",
+  "trainingStrategy": {
+    "mode": "concentrated_falsifiable",
+    "roles": [
+      {
+        "role": "target_support",
+        "quota": 3,
+        "purpose": "Buscar três referências funcionalmente comparáveis para a mesma hipótese ou padrão já existente."
+      },
+      {
+        "role": "falsification_or_boundary",
+        "quota": 1,
+        "purpose": "Procurar um contraexemplo genuíno ou caso-limite comparável; caso-limite não conta como contraexemplo."
+      },
+      {
+        "role": "controlled_exploration",
+        "quota": 1,
+        "purpose": "Cobrir uma terceira família criativa sem criar mais de uma hipótese nova no lote."
+      }
+    ],
+    "targetPriority": [
+      "hipótese com dois apoios elegíveis de criadores independentes",
+      "hipótese com um apoio e grupo comparável claramente definido",
+      "padrão provisório sem teste contrário genuíno",
+      "lacuna prioritária da watchlist com cobertura suficiente"
+    ],
+    "rules": [
+      "Não distribuir as cinco vagas por cinco hipóteses diferentes.",
+      "Reapresentar ao curador as hipóteses e padrões candidatos antes de criar hipótese nova.",
+      "Só ligar uma referência a padrão existente por ID explícito e comparação de nível 1 ou 2.",
+      "Uma rodada pode terminar sem novo padrão; precisão e falsificação têm prioridade sobre volume."
+    ]
+  },
+  "coveragePolicy": {
+    "discoveryOrder": [
+      "descobrir pelo menos quinze candidatos públicos",
+      "verificar duplicidade",
+      "verificar mídia, transcrição, legenda, descrição, data e métricas",
+      "classificar",
+      "selecionar até cinco"
+    ],
+    "teachableWhen": "Existe conteúdo suficiente para uma observação diretamente sustentada. Material somente promocional ou sem substância é descartado.",
+    "supportEligibleWhen": [
+      "o mecanismo alegado está diretamente observável nas modalidades necessárias",
+      "comparisonLevel é 1 ou 2",
+      "requiredEvidenceObserved é true",
+      "confiança é medium ou high",
+      "a referência e o criador/fonte ainda não foram contados para o mesmo papel"
+    ],
+    "modalityGuard": {
+      "visual": "exige vídeo, quadros ou imagem efetivamente observados",
+      "audio": "exige áudio efetivamente ouvido ou transcrição identificada como substituto apenas para fala",
+      "rhythm_or_editing": "exige vídeo reproduzível; transcrição não basta",
+      "retention": "exige métrica de retenção ou experimento apropriado; estrutura não basta",
+      "commercial_proof": "exige simultaneamente estado anterior ou baseline, intervenção e resultado observado; alegação futura não basta"
+    }
+  },
+  "evidenceRoles": {
+    "support": "Apoio diretamente observado, comparável e elegível para contagem.",
+    "counterexample": "Caso funcionalmente comparável, com cobertura equivalente, em que a previsão do padrão está ausente ou se inverte.",
+    "case_limit": "Material parecido que não mede ou não mostra um componente necessário; refina o limite, mas não apoia nem contradiz.",
+    "context": "Material útil para interpretação, porém não comparável ou insuficiente para contagem."
+  }
 }
