@@ -18,7 +18,12 @@
     "preferDirectMediaOrFullTranscript": true,
     "maxNewHypothesesPerBatch": 1,
     "supportMaxComparisonLevel": 2,
-    "caseLimitsAreNotCounterexamples": true
+    "caseLimitsAreNotCounterexamples": true,
+    "requiredBeforeCommit": [
+      "python3 .agents/skills/plateia/scripts/observatory_memory.py --db knowledge/observatory/plateia-memory.json audit",
+      "pnpm observatory:verify:v3"
+    ],
+    "rejectCommitWhenAuditFails": true
   },
   "sources": [
     {
