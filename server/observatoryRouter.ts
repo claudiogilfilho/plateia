@@ -14,10 +14,15 @@ const mediaMimeSchema = z.enum(["image/jpeg", "image/png", "image/webp", "video/
 const optionalText = (max: number) => z.string().max(max).optional().transform(value => value?.trim() ?? "");
 const observatoryHypothesisSchema = z.object({
   name: z.string().trim().min(1).max(180),
+  targetPatternId: z.union([z.number().int().positive(), z.string().trim().min(1), z.null()]),
+  evidenceRole: z.enum(["support", "counterexample", "case_limit", "context"]),
+  comparisonLevel: z.union([z.literal(1), z.literal(2), z.literal(3), z.literal(4)]),
+  requiredEvidenceObserved: z.boolean(),
   patternType: z.enum(PATTERN_TYPES),
   observation: z.string(),
   mechanism: z.string(),
   evidence: z.string(),
+  alternativeExplanations: z.array(z.string()).default([]),
   conditions: z.array(z.string()).default([]),
   limitations: z.array(z.string()).default([]),
   confidence: z.enum(["low", "medium", "high"]),
