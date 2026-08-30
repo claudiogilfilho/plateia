@@ -1,6 +1,6 @@
 {
   "protocol": "plateia-memory/1.0",
-  "updatedAt": "2026-08-30T17:10:34.513Z",
+  "updatedAt": "2026-08-30T17:14:16.948Z",
   "references": [
     {
       "id": "obs-20260823-001",
@@ -17878,8 +17878,7 @@
       "mechanism": [
         "curiosidade",
         "contraste",
-        "clareza_semantica",
-        "confiança_condicional"
+        "confianca"
       ],
       "conditions": [
         "storytelling educativo de história",
@@ -17910,7 +17909,7 @@
       "objective": "educar e criar curiosidade",
       "segment": "história",
       "supportingCount": 4,
-      "counterexampleCount": 1,
+      "counterexampleCount": 0,
       "evidence": [
         {
           "referenceId": "obs-20260824-039",
@@ -17918,7 +17917,8 @@
           "evidence": "Título e trecho inicial de transcrição.",
           "limitations": [
             "Sem vídeo integral, fontes completas ou retenção."
-          ]
+          ],
+          "role": "support"
         },
         {
           "referenceId": "obs-20260826-054",
@@ -17926,7 +17926,8 @@
           "evidence": "Título, data, alcance e abertura transcrita.",
           "limitations": [
             "Sem execução audiovisual integral ou retenção."
-          ]
+          ],
+          "role": "support"
         },
         {
           "referenceId": "obs-20260828-061",
@@ -17934,7 +17935,8 @@
           "evidence": "Título, descrição indexada e credencial pública da criadora.",
           "limitations": [
             "Sem transcrição nem fontes históricas do vídeo."
-          ]
+          ],
+          "role": "support"
         },
         {
           "referenceId": "obs-20260828-062",
@@ -17942,23 +17944,36 @@
           "evidence": "Trecho de transcrição e resumo textual.",
           "limitations": [
             "Sem audiovisual integral ou retenção."
+          ],
+          "role": "support"
+        },
+        {
+          "referenceId": "obs-20260828-063",
+          "role": "case_limit",
+          "observation": "Título e descrição oferecem uma correção histórica ampla, mas as fontes e a transcrição necessárias para verificá-la não ficaram acessíveis.",
+          "evidence": "Título, descrição e contexto comercial relacionado.",
+          "limitations": [
+            "Não conta como apoio nem como contraexemplo factual."
           ]
         }
       ],
       "taxonomyVersion": "3.0",
       "creatorDiversityCount": 4,
       "sourceDiversityCount": 4,
-      "patternType": "estrutura_semantica"
+      "patternType": "compreensao",
+      "counterexampleReferenceIds": [],
+      "caseLimitReferenceIds": [
+        "obs-20260828-063"
+      ],
+      "caseLimitCount": 1
     },
     {
       "id": "pat-20260829-007",
       "status": "provisional",
       "statement": "Em prova comercial B2B, organizar estado anterior, intervenção, período ou baseline, resultado quantificado e voz identificável do cliente pode aumentar verificabilidade percebida; números autodeclarados, porém, não demonstram causalidade nem auditoria.",
       "mechanism": [
-        "confiança",
-        "especificidade",
-        "identificação",
-        "redução_de_ambiguidade"
+        "confianca",
+        "identificacao"
       ],
       "conditions": [
         "conteúdo de prova comercial B2B",
@@ -18078,7 +18093,7 @@
       "taxonomyVersion": "3.0",
       "creatorDiversityCount": 5,
       "sourceDiversityCount": 5,
-      "patternType": "estrutura_de_prova",
+      "patternType": "prova",
       "counterexampleReferenceIds": [],
       "caseLimitReferenceIds": [
         "obs-20260830-071",
