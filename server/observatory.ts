@@ -6,7 +6,7 @@ import {
   PROOF_TYPES, PATTERN_TYPES, TAXONOMY_ALIASES, type ObservatoryClassification,
 } from "../shared/plateiaTaxonomy";
 import { evaluateWithProvider } from "./aiProvider";
-import { listActiveObservatoryPatterns, listAnalyzedObservatoryReferences } from "./db";
+import { listActiveObservatoryPatterns, listAnalyzedObservatoryReferences, listCandidateObservatoryPatterns } from "./db";
 import { buildClassificationPrompt, buildObservatoryCuratorPrompt } from "./observatoryPrompt";
 import { listPortablePatterns, listPortableReferences } from "./portableObservatoryMemory";
 import { canonicalPublicUrl } from "./publicUrlIdentity";
@@ -38,11 +38,14 @@ export type ComparableReferenceSummary = {
   learning: string[];
 };
 
+export type ObservatoryPatternSummary = { id: string | number; name: string; stage: string; supportingCount: number; counterexampleCount: number; caseLimitCount?: number; confidence: "low" | "medium" | "high"; mechanism: string; source: "database" | "portable_memory" };
+
 export type ObservatoryContext = {
-  promptVersion: "3.0";
+  promptVersion: "3.1";
   classification: ObservatoryClassification;
   comparisons: ComparableReferenceSummary[];
-  patterns: Array<{ id: string | number; name: string; stage: string; supportingCount: number; counterexampleCount: number; confidence: "low" | "medium" | "high"; mechanism: string; source: "database" | "portable_memory" }>;
+  patterns: ObservatoryPatternSummary[];
+  candidatePatterns: ObservatoryPatternSummary[];
   comparisonLevel: 1 | 2 | 3 | 4;
   benchmarkConfidence: "low" | "medium" | "high";
 };
@@ -302,7 +305,11 @@ export function rankPortableReferences(target: ObservatoryClassification) {
 
 export async function buildObservatoryContext(input: ObservatoryMaterialInput, excludeId?: number): Promise<ObservatoryContext> {
   const classification = await classifyObservatoryMaterial(input);
-  const [references, activePatterns] = await Promise.all([listAnalyzedObservatoryReferences(), listActiveObservatoryPatterns()]);
+  const [references, activePatterns, candidatePatterns] = await Promise.all([
+    listAnalyzedObservatoryReferences(),
+    listActiveObservatoryPatterns(),
+    listCandidateObservatoryPatterns(),
+  ]);
   const databaseComparisons = rankComparableReferences(classification, references, excludeId);
   const comparisons = [...databaseComparisons, ...rankPortableReferences(classification)]
     .sort((a, b) => a.comparisonLevel - b.comparisonLevel || b.similarity - a.similarity)
@@ -311,21 +318,41 @@ export async function buildObservatoryContext(input: ObservatoryMaterialInput, e
       return all.findIndex(candidate => (candidate.sourceUrl ? canonicalPublicUrl(candidate.sourceUrl) : `${candidate.title}|${candidate.creator}`.toLocaleLowerCase("pt-BR")) === key) === index;
     })
     .slice(0, 8);
-  const databasePatterns = activePatterns.filter(pattern =>
+  const relevant = (pattern: { creativeFamily: string; segment: string; objective: string }) =>
     pattern.creativeFamily === classification.primaryFamily &&
-    (normalized(pattern.segment) === normalized(classification.segment) || classification.objectives.includes(pattern.objective as ObservatoryClassification["objectives"][number]))
-  ).map(pattern => ({ id: pattern.id, name: pattern.name, stage: pattern.stage, supportingCount: pattern.supportingCount, counterexampleCount: pattern.counterexampleCount, confidence: pattern.confidence, mechanism: pattern.mechanism, source: "database" as const }));
-  const portablePatterns = listPortablePatterns().filter(pattern =>
-    pattern.creativeFamily === classification.primaryFamily &&
-    (normalized(pattern.segment) === normalized(classification.segment) || classification.objectives.includes(pattern.objective as ObservatoryClassification["objectives"][number]))
-  );
-  const patterns = [...databasePatterns, ...portablePatterns].filter(pattern => ["provisional", "experimentally_validated", "validated"].includes(pattern.stage)).slice(0, 8);
+    (normalized(pattern.segment) === normalized(classification.segment) || classification.objectives.includes(pattern.objective as ObservatoryClassification["objectives"][number]));
+  const summarizeDatabasePattern = (pattern: typeof activePatterns[number]): ObservatoryPatternSummary => ({
+    id: pattern.id,
+    name: pattern.name,
+    stage: pattern.stage,
+    supportingCount: pattern.supportingCount,
+    counterexampleCount: pattern.counterexampleCount,
+    caseLimitCount: 0,
+    confidence: pattern.confidence,
+    mechanism: pattern.mechanism,
+    source: "database",
+  });
+  const databasePatterns = activePatterns.filter(relevant).map(summarizeDatabasePattern);
+  const databaseCandidates = candidatePatterns.filter(relevant).map(summarizeDatabasePattern);
+  const portableCandidates = listPortablePatterns().filter(relevant);
+  const patterns = [...databasePatterns, ...portableCandidates]
+    .filter(pattern => ["provisional", "experimentally_validated", "validated"].includes(pattern.stage))
+    .slice(0, 8);
+  const allCandidates = [...databaseCandidates, ...portableCandidates]
+    .filter(pattern => !["contradicted", "inconclusive", "archived"].includes(pattern.stage))
+    .filter((pattern, index, all) => all.findIndex(candidate => String(candidate.id) === String(pattern.id) && candidate.source === pattern.source) === index)
+    .sort((left, right) => {
+      const priority = (pattern: { stage: string; supportingCount: number }) => pattern.stage === "supported_hypothesis" && pattern.supportingCount === 2 ? 0 : pattern.supportingCount === 1 ? 1 : pattern.stage === "provisional" ? 2 : 3;
+      return priority(left) - priority(right) || right.supportingCount - left.supportingCount;
+    })
+    .slice(0, 12);
   const bestLevel = comparisons[0]?.comparisonLevel ?? 4;
   return {
-    promptVersion: "3.0",
+    promptVersion: "3.1",
     classification,
     comparisons,
     patterns,
+    candidatePatterns: allCandidates,
     comparisonLevel: bestLevel,
     benchmarkConfidence: bestLevel === 1 && comparisons.length >= 3 ? "high" : bestLevel <= 2 && comparisons.length >= 2 ? "medium" : "low",
   };
@@ -333,7 +360,7 @@ export async function buildObservatoryContext(input: ObservatoryMaterialInput, e
 
 export async function analyzeObservatoryReference(input: ObservatoryMaterialInput, context: ObservatoryContext) {
   const raw = await evaluateWithProvider({
-    prompt: buildObservatoryCuratorPrompt(input, context.classification, context.comparisons),
+    prompt: buildObservatoryCuratorPrompt(input, context.classification, context.comparisons, context.candidatePatterns),
     mediaUrl: input.mediaUrl,
     mediaMimeType: input.mediaMimeType,
     responseFormat: curatorSchema,
