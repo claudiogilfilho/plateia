@@ -13,9 +13,9 @@ Executar o método independentemente do modelo hospedeiro. Tratar a IA como moto
 2. Para arquivo visual local, inspecionar diretamente. Para vídeo sem leitura nativa, executar `scripts/extract_video_frames.py` e inspecionar os quadros; não inferir o áudio sem transcrição.
 3. Para link público, tentar abrir a publicação e registrar exatamente o que ficou acessível. Se houver somente capa ou legenda, fazer leitura parcial e explicar o limite.
 4. Ler `references/protocol.md` e classificar o conteúdo antes de pontuar. Consultar `references/taxonomies.md` quando houver dúvida entre famílias ou mecanismos.
-5. Se existir memória do Observatório, recuperar somente referências comparáveis. Executar `scripts/observatory_memory.py search` quando houver um arquivo de memória disponível.
+5. Se existir memória do Observatório, executar `scripts/observatory_memory.py candidates` para recuperar primeiro hipóteses e padrões que precisam de apoio; depois usar `search` somente para referências comparáveis. Toda ligação deve indicar `targetPatternId`, papel da evidência, nível de comparação e suficiência da cobertura.
 6. Produzir a avaliação pelas cinco lentes e pelos oito critérios. Seguir `references/report-contract.md` para o formato.
-7. Se o usuário disser “ensine”, “aprenda”, “guarde” ou equivalente, gerar uma ficha de referência e executar `scripts/observatory_memory.py add`. Não guardar automaticamente uma avaliação comum.
+7. Se o usuário disser “ensine”, “aprenda”, “guarde” ou equivalente, gerar uma ficha de referência estruturada e executar `scripts/observatory_memory.py add`. Para lotes, concentrar três referências em um alvo, uma em falsificação/limite e uma em exploração, com no máximo uma hipótese nova. Não guardar automaticamente uma avaliação comum.
 
 ## Regras inegociáveis
 
@@ -25,7 +25,7 @@ Executar o método independentemente do modelo hospedeiro. Tratar a IA como moto
 - Não dar nota zero a algo inacessível; marcar como não avaliado.
 - Comparar pela família, objetivo, segmento, apresentação, duração, público, consciência, produção e mecanismo — nunca apenas por ser Reel ou post.
 - Manter independentes: cinco cérebros sintéticos, padrões do Observatório e futuros resultados experimentais do Freud.
-- Uma referência isolada gera observação ou hipótese. Três apoios comparáveis e pelo menos dois criadores/fontes independentes podem gerar padrão provisório. Nunca validar automaticamente.
+- Uma referência isolada gera observação ou hipótese. Apenas apoios elegíveis — mecanismo observado, comparação nível 1 ou 2, confiança média/alta — contam. Três apoios elegíveis, pelo menos dois criadores e duas fontes independentes podem gerar padrão provisório. Caso-limite não é contraexemplo. Nunca validar automaticamente.
 - Extrair princípios transferíveis; não copiar frase, personagem, bordão ou roteiro de terceiros.
 
 ## Cinco lentes
