@@ -86,8 +86,12 @@ python3 .agents/skills/plateia/scripts/extract_video_frames.py video.mp4 --outpu
 Para memória portátil:
 
 ```bash
-python3 .agents/skills/plateia/scripts/observatory_memory.py --db plateia-memory.json add --record referencia.json
+python3 .agents/skills/plateia/scripts/observatory_memory.py --db plateia-memory.json candidates
 python3 .agents/skills/plateia/scripts/observatory_memory.py --db plateia-memory.json search --classification classificacao.json
+python3 .agents/skills/plateia/scripts/observatory_memory.py --db plateia-memory.json add --record referencia.json
+python3 .agents/skills/plateia/scripts/observatory_memory.py --db plateia-memory.json audit
 ```
 
 O arquivo `plateia-memory.json` pode acompanhar o projeto entre diferentes ambientes. Nenhuma chave de API deve ser colocada nele.
+
+O comando `candidates` deve ser executado antes da pesquisa para concentrar o lote em hipóteses existentes. O `add` rejeita URL canônica duplicada e só consolida evidência com papel, nível de comparação, cobertura e confiança explícitos. `case_limit` refina o escopo sem apoiar ou contradizer o padrão.
