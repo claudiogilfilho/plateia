@@ -1,6 +1,6 @@
 {
   "protocol": "plateia-memory/1.0",
-  "updatedAt": "2026-08-30T11:38:49.000Z",
+  "updatedAt": "2026-08-30T17:10:34.513Z",
   "references": [
     {
       "id": "obs-20260823-001",
@@ -17983,8 +17983,9 @@
         "Período, baseline e método de cálculo não aparecem em todos os casos.",
         "Intervenções simultâneas impedem atribuição a um único componente.",
         "Sem experimento de confiança, compreensão ou conversão.",
-        "Percentual sem baseline, transformação apenas qualitativa e promessa de resultado futuro são três falsos positivos recorrentes.",
-        "O padrão deve exigir que estado anterior, intervenção e resultado estejam simultaneamente observáveis; componentes espalhados não somam prova."
+        "O padrão deve exigir que estado anterior, intervenção e resultado estejam simultaneamente observáveis; componentes espalhados não somam prova.",
+        "Percentual sem baseline, transformação apenas qualitativa e promessa de resultado futuro são casos-limite recorrentes, não contraexemplos.",
+        "O padrão só recebe apoio quando estado anterior, intervenção e resultado estão simultaneamente observáveis."
       ],
       "validation": "requires_human_or_experimental_evidence",
       "stage": "provisional",
@@ -17993,7 +17994,7 @@
       "objective": "confiança e consideração",
       "segment": "B2B",
       "supportingCount": 5,
-      "counterexampleCount": 3,
+      "counterexampleCount": 0,
       "evidence": [
         {
           "referenceId": "obs-20260824-041",
@@ -18001,7 +18002,8 @@
           "evidence": "Página oficial e vídeo incorporado.",
           "limitations": [
             "Sem audiovisual ou auditoria independente."
-          ]
+          ],
+          "role": "support"
         },
         {
           "referenceId": "obs-20260824-042",
@@ -18009,7 +18011,8 @@
           "evidence": "Título, resumo e transcrição parcial.",
           "limitations": [
             "Comissão autodeclarada e não auditada."
-          ]
+          ],
+          "role": "support"
         },
         {
           "referenceId": "obs-20260829-066",
@@ -18017,7 +18020,8 @@
           "evidence": "Título, descrição e página oficial relacionada.",
           "limitations": [
             "Fonte ligada ao fornecedor; múltiplos confundidores."
-          ]
+          ],
+          "role": "support"
         },
         {
           "referenceId": "obs-20260829-067",
@@ -18025,7 +18029,8 @@
           "evidence": "Título e descrição indexada.",
           "limitations": [
             "Sem período, baseline ou auditoria."
-          ]
+          ],
+          "role": "support"
         },
         {
           "referenceId": "obs-20260829-068",
@@ -18033,7 +18038,8 @@
           "evidence": "Título, descrição e página oficial relacionada.",
           "limitations": [
             "Fonte comercial e sem auditoria."
-          ]
+          ],
+          "role": "support"
         },
         {
           "referenceId": "obs-20260830-071",
@@ -18041,7 +18047,10 @@
           "evidence": "Título e descrição indexada.",
           "limitations": [
             "Não conta como apoio comparável."
-          ]
+          ],
+          "role": "case_limit",
+          "comparisonLevel": 2,
+          "requiredEvidenceObserved": false
         },
         {
           "referenceId": "obs-20260830-072",
@@ -18049,7 +18058,10 @@
           "evidence": "Título, capítulos e página oficial relacionada.",
           "limitations": [
             "Não conta como apoio ao componente quantitativo."
-          ]
+          ],
+          "role": "case_limit",
+          "comparisonLevel": 2,
+          "requiredEvidenceObserved": false
         },
         {
           "referenceId": "obs-20260830-073",
@@ -18057,18 +18069,23 @@
           "evidence": "Trecho de transcrição e resumo textual.",
           "limitations": [
             "Promessa de prova futura não conta como resultado observado."
-          ]
+          ],
+          "role": "case_limit",
+          "comparisonLevel": 2,
+          "requiredEvidenceObserved": false
         }
       ],
       "taxonomyVersion": "3.0",
       "creatorDiversityCount": 5,
       "sourceDiversityCount": 5,
       "patternType": "estrutura_de_prova",
-      "counterexampleReferenceIds": [
+      "counterexampleReferenceIds": [],
+      "caseLimitReferenceIds": [
         "obs-20260830-071",
         "obs-20260830-072",
         "obs-20260830-073"
-      ]
+      ],
+      "caseLimitCount": 3
     }
   ],
   "hypotheses": [
@@ -19221,9 +19238,7 @@
       ],
       "hypothesesStrengthened": [],
       "validatedPatternsCreated": 0,
-      "contradictionsFound": [
-        "Três formas de falso positivo em prova comercial: percentual sem baseline, transformação apenas qualitativa e meta futura sem resultado observado."
-      ],
+      "contradictionsFound": [],
       "nextTarget": "vídeo curto brasileiro de prova comercial com audiovisual e transcrição integrais, baseline, período, intervenção isolável, método de cálculo, resultado final e reação pública; procurar também um caso com resultado fraco ou negativo",
       "limitations": [
         "As cinco referências tiveram cobertura parcial; nenhuma permitiu auditoria audiovisual integral.",
@@ -19238,7 +19253,12 @@
         "outcome": "nenhum dos três casos satisfez simultaneamente baseline, intervenção e resultado; foram registrados como casos-limite",
         "newHypothesisLimit": 1,
         "note": "A rodada evitou três falsos apoios e refinou o critério de contagem; isso testa precisão, não valida o protocolo."
-      }
+      },
+      "caseLimitsFound": [
+        "percentual sem baseline, período ou método de cálculo",
+        "transformação qualitativa sem resultado mensurado",
+        "meta futura sem resultado final observado"
+      ]
     }
   ],
   "policy": {
@@ -19251,7 +19271,15 @@
     "freudEvidenceIsSeparate": true,
     "provisionalMinimumIndependentCreators": 2,
     "absoluteViewsDoNotDefineVirality": true,
-    "viralityRequiresRelativeBaseline": true
+    "viralityRequiresRelativeBaseline": true,
+    "patternEvidencePolicyVersion": "1.1",
+    "supportMaxComparisonLevel": 2,
+    "supportRequiresObservedClaimModalities": true,
+    "supportRequiresMediumOrHighConfidence": true,
+    "caseLimitsAreNotCounterexamples": true,
+    "provisionalMinimumIndependentSources": 2,
+    "maxNewHypothesesPerTrainingBatch": 1,
+    "concentratedTrainingDefault": true
   },
   "taxonomyVersion": "3.0",
   "migrationHistory": [
