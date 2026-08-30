@@ -27,7 +27,7 @@ export function isEligiblePatternEvidence(evidence: PatternEvidenceCandidate) {
 export function summarizePatternEvidence(evidence: PatternEvidenceCandidate[]) {
   const uniqueByReference = new Map<string, PatternEvidenceCandidate>();
   for (const item of evidence) uniqueByReference.set(String(item.referenceId), item);
-  const items = [...uniqueByReference.values()];
+  const items = Array.from(uniqueByReference.values());
   const supports = items.filter(item => item.role === "support" && isEligiblePatternEvidence(item));
   const counterexamples = items.filter(item => item.role === "counterexample" && isEligiblePatternEvidence(item));
   const caseLimits = items.filter(item => item.role === "case_limit");
