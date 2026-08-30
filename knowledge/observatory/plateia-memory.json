@@ -1,6 +1,6 @@
 {
   "protocol": "plateia-memory/1.0",
-  "updatedAt": "2026-08-30T17:14:16.948Z",
+  "updatedAt": "2026-08-30T17:16:40.271Z",
   "references": [
     {
       "id": "obs-20260823-001",
@@ -11397,8 +11397,7 @@
           "educar",
           "apresentar_solucao",
           "confianca",
-          "comentario",
-          "trafego"
+          "comentario"
         ],
         "advertisingType": "indeterminado",
         "commercialIntent": "indeterminada",
@@ -11427,25 +11426,25 @@
           "desejo"
         ],
         "hookTypes": [
-          "produto_incomum",
+          "novidade",
           "pergunta",
-          "teste_de_limite"
+          "demonstracao_antecipada"
         ],
         "narrativeElements": [
-          "apresentacao",
-          "teste_declarado",
-          "criterios",
-          "veredito_prometido",
+          "situacao",
+          "tentativa",
+          "mecanismo",
+          "promessa",
           "cta"
         ],
         "proofTypes": [
-          "teste_declarado_sem_execucao_acessivel",
-          "criterios_de_compra"
+          "alegacao_sem_prova",
+          "mecanismo_explicado"
         ],
         "ctaTypes": [
-          "link_na_bio",
+          "clicar",
           "comentar",
-          "assistir_completo"
+          "outro_conteudo"
         ],
         "distributionContext": {
           "organicPaid": "unknown",
@@ -11619,7 +11618,17 @@
           "Critérios concretos antes do veredito podem aumentar utilidade de reviews curtos."
         ]
       },
-      "createdAt": "2026-08-26T11:30:00.000Z"
+      "createdAt": "2026-08-26T11:30:00.000Z",
+      "taxonomyRepair": {
+        "policy": "strict-enum-v3.1",
+        "repairedAt": "2026-08-30T17:16:40.271Z",
+        "previousInvalidValues": {
+          "objectives": [
+            "trafego"
+          ]
+        },
+        "uncertaintyPreserved": true
+      }
     },
     {
       "id": "obs-20260826-052",
@@ -11721,13 +11730,12 @@
           "educar",
           "salvamento",
           "compartilhamento",
-          "apresentar_solucao",
-          "venda"
+          "apresentar_solucao"
         ],
         "advertisingType": "branded_content",
         "commercialIntent": "explicita",
         "advertisedEntity": {
-          "kind": "produto_e_loja",
+          "kind": "indeterminado",
           "name": "panelas Le Creuset e Let's Eat It",
           "confidence": "high"
         },
@@ -11751,27 +11759,26 @@
           "identificacao"
         ],
         "hookTypes": [
-          "receita_viral",
-          "resultado_sensorial",
-          "teste"
+          "novidade",
+          "resultado_antecipado",
+          "demonstracao_antecipada"
         ],
         "narrativeElements": [
-          "origem",
-          "teste",
-          "ingredientes",
-          "passo_a_passo",
-          "resultado",
-          "produto",
+          "situacao",
+          "tentativa",
+          "mecanismo",
+          "progressao",
+          "payoff",
           "cta"
         ],
         "proofTypes": [
-          "receita_completa",
-          "atribuição_de_origem",
-          "disclosure"
+          "demonstracao",
+          "fonte",
+          "evidencia_documental"
         ],
         "ctaTypes": [
-          "usar_cupom",
-          "marcar_criador",
+          "comprar",
+          "comentar",
           "salvar"
         ],
         "distributionContext": {
@@ -11943,7 +11950,18 @@
           "Publicidade demonstrativa pode preservar valor quando entrega integralmente o resultado que promete ensinar."
         ]
       },
-      "createdAt": "2026-08-26T11:30:00.000Z"
+      "createdAt": "2026-08-26T11:30:00.000Z",
+      "taxonomyRepair": {
+        "policy": "strict-enum-v3.1",
+        "repairedAt": "2026-08-30T17:16:40.271Z",
+        "previousInvalidValues": {
+          "objectives": [
+            "venda"
+          ],
+          "advertisedEntityKind": "produto_e_loja"
+        },
+        "uncertaintyPreserved": true
+      }
     },
     {
       "id": "obs-20260826-053",
@@ -12045,8 +12063,7 @@
           "identificacao",
           "comentario",
           "apresentar_solucao",
-          "venda",
-          "trafego"
+          "venda"
         ],
         "advertisingType": "branded_content",
         "commercialIntent": "explicita",
@@ -12075,28 +12092,23 @@
           "desejo"
         ],
         "hookTypes": [
-          "desafio",
-          "falha",
-          "numero_contrastante"
+          "problema",
+          "numero"
         ],
         "narrativeElements": [
-          "meta",
-          "falha",
-          "problema_ampliado",
-          "solucao",
-          "pergunta",
-          "oferta",
+          "desejo",
+          "problema",
+          "mecanismo",
           "cta"
         ],
         "proofTypes": [
-          "experiencia_declarada",
-          "oferta_especifica",
-          "disclosure"
+          "depoimento",
+          "evidencia_documental"
         ],
         "ctaTypes": [
           "comentar",
-          "link_na_bio",
-          "aproveitar_oferta"
+          "clicar",
+          "comprar"
         ],
         "distributionContext": {
           "organicPaid": "unknown",
@@ -12269,7 +12281,17 @@
           "Erro com consentimento e autoironia pode reduzir vergonha e aproximar uma oferta educacional."
         ]
       },
-      "createdAt": "2026-08-26T11:30:00.000Z"
+      "createdAt": "2026-08-26T11:30:00.000Z",
+      "taxonomyRepair": {
+        "policy": "strict-enum-v3.1",
+        "repairedAt": "2026-08-30T17:16:40.271Z",
+        "previousInvalidValues": {
+          "objectives": [
+            "trafego"
+          ]
+        },
+        "uncertaintyPreserved": true
+      }
     },
     {
       "id": "obs-20260826-054",
@@ -12375,7 +12397,7 @@
         "commercialIntent": "ausente",
         "advertisedEntity": {
           "kind": "nenhuma",
-          "name": null,
+          "name": "",
           "confidence": "medium"
         },
         "contentTopic": {
@@ -12398,17 +12420,16 @@
         ],
         "hookTypes": [
           "afirmacao_contraintuitiva",
-          "escala",
-          "destino_inesperado"
+          "numero",
+          "novidade"
         ],
         "narrativeElements": [
-          "evento_inesperado",
-          "escala",
-          "detalhes_concretos",
-          "revelacao_de_destino"
+          "virada",
+          "escalada",
+          "mecanismo"
         ],
         "proofTypes": [
-          "detalhes_historicos_declarados"
+          "alegacao_sem_prova"
         ],
         "ctaTypes": [],
         "distributionContext": {
@@ -12687,7 +12708,7 @@
         "advertisingType": "consideracao",
         "commercialIntent": "implicita",
         "advertisedEntity": {
-          "kind": "servico_educacional",
+          "kind": "indeterminado",
           "name": "BONT / BONT Club",
           "confidence": "medium"
         },
@@ -12711,20 +12732,18 @@
           "vigilancia"
         ],
         "hookTypes": [
-          "mudanca_de_contexto",
+          "novidade",
           "problema",
-          "consequencia",
-          "promessa_de_correcao"
+          "afirmacao_contraintuitiva"
         ],
         "narrativeElements": [
-          "contexto",
+          "situacao",
           "problema",
-          "consequencia",
-          "promessa",
-          "apresentacao"
+          "risco",
+          "promessa"
         ],
         "proofTypes": [
-          "autoridade_profissional_declarada"
+          "autoridade_percebida"
         ],
         "ctaTypes": [],
         "distributionContext": {
@@ -12899,7 +12918,15 @@
           "Recompensa semântica antes da saudação pode favorecer público frio, mas exige teste de retenção."
         ]
       },
-      "createdAt": "2026-08-26T11:30:00.000Z"
+      "createdAt": "2026-08-26T11:30:00.000Z",
+      "taxonomyRepair": {
+        "policy": "strict-enum-v3.1",
+        "repairedAt": "2026-08-30T17:16:40.271Z",
+        "previousInvalidValues": {
+          "advertisedEntityKind": "servico_educacional"
+        },
+        "uncertaintyPreserved": true
+      }
     },
     {
       "id": "obs-20260827-056",
@@ -12947,8 +12974,7 @@
         "materialFormat": "video_longo",
         "presentationFormats": [
           "camera_direta",
-          "comentario",
-          "outro"
+          "comentario"
         ],
         "primaryFamily": "educativo",
         "secondaryFamilies": [
@@ -12996,13 +13022,13 @@
         "pace": "unknown",
         "mechanisms": [
           "curiosidade",
-          "confiança",
+          "confianca",
           "recompensa"
         ],
         "hookTypes": [],
         "narrativeElements": [],
         "proofTypes": [
-          "transcrição_secundária_parcial"
+          "fonte"
         ],
         "ctaTypes": [],
         "distributionContext": {
@@ -13198,7 +13224,7 @@
         "advertisingType": "indeterminado",
         "commercialIntent": "indeterminada",
         "advertisedEntity": {
-          "kind": "livro",
+          "kind": "indeterminado",
           "name": "Filhos da Mãe Gentil",
           "confidence": "medium"
         },
@@ -13224,7 +13250,7 @@
         "hookTypes": [],
         "narrativeElements": [],
         "proofTypes": [
-          "transcrição_secundária_parcial"
+          "fonte"
         ],
         "ctaTypes": [],
         "distributionContext": {
@@ -13341,6 +13367,14 @@
           "distribuição"
         ],
         "causalClaimAllowed": false
+      },
+      "taxonomyRepair": {
+        "policy": "strict-enum-v3.1",
+        "repairedAt": "2026-08-30T17:16:40.271Z",
+        "previousInvalidValues": {
+          "advertisedEntityKind": "livro"
+        },
+        "uncertaintyPreserved": true
       }
     },
     {
@@ -13420,7 +13454,7 @@
         "advertisingType": "indeterminado",
         "commercialIntent": "indeterminada",
         "advertisedEntity": {
-          "kind": "múltiplos_produtos_culturais",
+          "kind": "indeterminado",
           "name": "livros comentados no balanço mensal",
           "confidence": "medium"
         },
@@ -13445,7 +13479,7 @@
         "hookTypes": [],
         "narrativeElements": [],
         "proofTypes": [
-          "transcrição_secundária_parcial"
+          "fonte"
         ],
         "ctaTypes": [],
         "distributionContext": {
@@ -13561,6 +13595,14 @@
           "distribuição"
         ],
         "causalClaimAllowed": false
+      },
+      "taxonomyRepair": {
+        "policy": "strict-enum-v3.1",
+        "repairedAt": "2026-08-30T17:16:40.271Z",
+        "previousInvalidValues": {
+          "advertisedEntityKind": "múltiplos_produtos_culturais"
+        },
+        "uncertaintyPreserved": true
       }
     },
     {
@@ -13666,7 +13708,7 @@
         "hookTypes": [],
         "narrativeElements": [],
         "proofTypes": [
-          "transcrição_secundária_parcial"
+          "fonte"
         ],
         "ctaTypes": [],
         "distributionContext": {
@@ -13862,7 +13904,7 @@
         "advertisingType": "indeterminado",
         "commercialIntent": "indeterminada",
         "advertisedEntity": {
-          "kind": "software",
+          "kind": "indeterminado",
           "name": "Affinity by Canva",
           "confidence": "medium"
         },
@@ -13881,13 +13923,13 @@
         "pace": "unknown",
         "mechanisms": [
           "recompensa",
-          "confiança",
+          "confianca",
           "curiosidade"
         ],
         "hookTypes": [],
         "narrativeElements": [],
         "proofTypes": [
-          "transcrição_secundária_parcial"
+          "fonte"
         ],
         "ctaTypes": [],
         "distributionContext": {
@@ -14005,6 +14047,14 @@
           "distribuição"
         ],
         "causalClaimAllowed": false
+      },
+      "taxonomyRepair": {
+        "policy": "strict-enum-v3.1",
+        "repairedAt": "2026-08-30T17:16:40.271Z",
+        "previousInvalidValues": {
+          "advertisedEntityKind": "software"
+        },
+        "uncertaintyPreserved": true
       }
     },
     {
@@ -14053,9 +14103,7 @@
         "container": "youtube_video",
         "materialFormat": "video_longo",
         "presentationFormats": [
-          "fala_para_camera",
-          "storytelling",
-          "explicacao"
+          "camera_direta"
         ],
         "primaryFamily": "storytelling",
         "secondaryFamilies": [
@@ -14078,14 +14126,14 @@
         ],
         "objectives": [
           "educar",
-          "curiosidade",
+          "visualizacao",
           "autoridade"
         ],
         "advertisingType": "indeterminado",
         "commercialIntent": "indeterminada",
         "advertisedEntity": {
-          "kind": "none_observed",
-          "name": null,
+          "kind": "indeterminado",
+          "name": "",
           "confidence": "low"
         },
         "contentTopic": {
@@ -14107,14 +14155,14 @@
           "autoridade"
         ],
         "hookTypes": [
-          "crenca_familiar_mais_contradicao"
+          "afirmacao_contraintuitiva"
         ],
         "narrativeElements": [
-          "versao_conhecida",
-          "promessa_de_correcao"
+          "situacao",
+          "promessa"
         ],
         "proofTypes": [
-          "credencial_da_criadora"
+          "autoridade_demonstrada"
         ],
         "ctaTypes": [],
         "distributionContext": {
@@ -14232,6 +14280,18 @@
           "distribuição"
         ],
         "causalClaimAllowed": false
+      },
+      "taxonomyRepair": {
+        "policy": "strict-enum-v3.1",
+        "repairedAt": "2026-08-30T17:16:40.271Z",
+        "previousInvalidValues": {
+          "presentationFormats": [
+            "storytelling",
+            "explicacao"
+          ],
+          "advertisedEntityKind": "none_observed"
+        },
+        "uncertaintyPreserved": true
       }
     },
     {
@@ -14281,9 +14341,7 @@
         "container": "youtube_video",
         "materialFormat": "video_longo",
         "presentationFormats": [
-          "palestra",
-          "storytelling",
-          "explicacao"
+          "camera_direta"
         ],
         "primaryFamily": "storytelling",
         "secondaryFamilies": [
@@ -14306,14 +14364,14 @@
         ],
         "objectives": [
           "educar",
-          "conscientizacao",
+          "consciencia_problema",
           "autoridade"
         ],
         "advertisingType": "indeterminado",
         "commercialIntent": "indeterminada",
         "advertisedEntity": {
-          "kind": "none_observed",
-          "name": null,
+          "kind": "indeterminado",
+          "name": "",
           "confidence": "low"
         },
         "contentTopic": {
@@ -14327,7 +14385,7 @@
         "productionLevel": "complex",
         "creatorScale": "unknown",
         "replicability": "medium",
-        "durationBand": "long",
+        "durationBand": "over_60s",
         "pace": "unknown",
         "mechanisms": [
           "contraste",
@@ -14336,16 +14394,15 @@
           "tensao"
         ],
         "hookTypes": [
-          "historia_pessoal_mais_correcao"
+          "afirmacao_contraintuitiva"
         ],
         "narrativeElements": [
-          "experiencia_do_filho",
-          "versao_escolar",
-          "correcao_documentada"
+          "situacao",
+          "virada"
         ],
         "proofTypes": [
-          "experiencia_pessoal",
-          "autobiografia_citada_no_resumo"
+          "depoimento",
+          "fonte"
         ],
         "ctaTypes": [],
         "distributionContext": {
@@ -14464,6 +14521,18 @@
           "distribuição"
         ],
         "causalClaimAllowed": false
+      },
+      "taxonomyRepair": {
+        "policy": "strict-enum-v3.1",
+        "repairedAt": "2026-08-30T17:16:40.271Z",
+        "previousInvalidValues": {
+          "presentationFormats": [
+            "storytelling",
+            "explicacao"
+          ],
+          "advertisedEntityKind": "none_observed"
+        },
+        "uncertaintyPreserved": true
       }
     },
     {
@@ -14512,8 +14581,8 @@
         "container": "youtube_video",
         "materialFormat": "video_curto",
         "presentationFormats": [
-          "corte_de_entrevista",
-          "fala_para_camera"
+          "podcast_entrevista",
+          "camera_direta"
         ],
         "primaryFamily": "storytelling",
         "secondaryFamilies": [
@@ -14535,15 +14604,15 @@
           }
         ],
         "objectives": [
-          "curiosidade",
-          "conscientizacao",
+          "visualizacao",
+          "consciencia_problema",
           "autoridade"
         ],
         "advertisingType": "indeterminado",
         "commercialIntent": "indeterminada",
         "advertisedEntity": {
-          "kind": "none_observed",
-          "name": null,
+          "kind": "indeterminado",
+          "name": "",
           "confidence": "low"
         },
         "contentTopic": {
@@ -14562,13 +14631,13 @@
         "mechanisms": [
           "curiosidade",
           "contraste",
-          "choque"
+          "surpresa"
         ],
         "hookTypes": [
-          "negacao_de_crenca_familiar"
+          "afirmacao_contraintuitiva"
         ],
         "narrativeElements": [
-          "afirmacao_contraria_ao_ensino_comum"
+          "virada"
         ],
         "proofTypes": [],
         "ctaTypes": [],
@@ -14687,6 +14756,14 @@
           "distribuição"
         ],
         "causalClaimAllowed": false
+      },
+      "taxonomyRepair": {
+        "policy": "strict-enum-v3.1",
+        "repairedAt": "2026-08-30T17:16:40.271Z",
+        "previousInvalidValues": {
+          "advertisedEntityKind": "none_observed"
+        },
+        "uncertaintyPreserved": true
       }
     },
     {
@@ -14738,45 +14815,40 @@
         "container": "youtube_video",
         "materialFormat": "video_longo",
         "presentationFormats": [
-          "unboxing",
+          "produto",
           "demonstracao",
-          "fala_para_camera"
+          "camera_direta"
         ],
         "primaryFamily": "comunidade",
         "secondaryFamilies": [
           "demonstracao",
-          "autoridade_opiniao",
-          "venda_indireta"
+          "autoridade_opiniao"
         ],
         "functionalMix": [
           {
             "family": "comunidade",
-            "percentage": 35
+            "percentage": 39
           },
           {
             "family": "demonstracao",
-            "percentage": 35
+            "percentage": 39
           },
           {
             "family": "autoridade_opiniao",
-            "percentage": 20
-          },
-          {
-            "family": "venda_indireta",
-            "percentage": 10
+            "percentage": 22
           }
         ],
         "objectives": [
           "comunidade",
-          "descoberta",
+          "visualizacao",
           "autoridade",
-          "apresentar_produto"
+          "apresentar_solucao"
         ],
         "advertisingType": "indeterminado",
         "commercialIntent": "indeterminada",
         "advertisedEntity": {
-          "kind": "none_observed",
-          "name": null,
+          "kind": "indeterminado",
+          "name": "",
           "confidence": "low"
         },
         "contentTopic": {
@@ -14794,24 +14866,24 @@
         "pace": "unknown",
         "mechanisms": [
           "novidade",
-          "comunidade",
-          "confiança",
+          "pertencimento",
+          "confianca",
           "recompensa"
         ],
         "hookTypes": [
-          "ritual_recorrente",
-          "pergunta_direta"
+          "identificacao",
+          "pergunta"
         ],
         "narrativeElements": [
-          "compilado_mensal",
-          "descoberta_item_a_item"
+          "situacao",
+          "progressao"
         ],
         "proofTypes": [
-          "produto_mostrado",
-          "remetente_identificado_no_texto"
+          "demonstracao",
+          "evidencia_documental"
         ],
         "ctaTypes": [
-          "convite_a_comentar_sobre_capa"
+          "comentar"
         ],
         "distributionContext": {
           "organicPaid": "unknown",
@@ -14925,6 +14997,17 @@
           "distribuição"
         ],
         "causalClaimAllowed": false
+      },
+      "taxonomyRepair": {
+        "policy": "strict-enum-v3.1",
+        "repairedAt": "2026-08-30T17:16:40.271Z",
+        "previousInvalidValues": {
+          "secondaryFamilies": [
+            "venda_indireta"
+          ],
+          "advertisedEntityKind": "none_observed"
+        },
+        "uncertaintyPreserved": true
       }
     },
     {
@@ -14974,12 +15057,11 @@
       },
       "classification": {
         "taxonomyVersion": "3.0",
-        "container": "publisher_video_page",
+        "container": "webpage",
         "materialFormat": "video_curto",
         "presentationFormats": [
-          "fala_para_camera",
-          "explicacao",
-          "opiniao"
+          "camera_direta",
+          "comentario"
         ],
         "primaryFamily": "educativo",
         "secondaryFamilies": [
@@ -15002,14 +15084,14 @@
         ],
         "objectives": [
           "educar",
-          "conscientizacao",
-          "reduzir_objecao"
+          "consciencia_problema",
+          "confianca"
         ],
         "advertisingType": "indeterminado",
         "commercialIntent": "indeterminada",
         "advertisedEntity": {
-          "kind": "none_observed",
-          "name": null,
+          "kind": "indeterminado",
+          "name": "",
           "confidence": "low"
         },
         "contentTopic": {
@@ -15029,18 +15111,18 @@
           "vigilancia",
           "autoridade",
           "contraste",
-          "aversao_a_perda"
+          "aversao_perda"
         ],
         "hookTypes": [
-          "promessa_popular_mais_refutacao"
+          "afirmacao_contraintuitiva"
         ],
         "narrativeElements": [
-          "lista_de_promessas",
-          "contraste_com_evidencia_e_risco"
+          "promessa",
+          "prova"
         ],
         "proofTypes": [
-          "autoridade_medica",
-          "afirmacao_editorial_oficial"
+          "especialista",
+          "fonte"
         ],
         "ctaTypes": [],
         "distributionContext": {
@@ -15160,6 +15242,17 @@
           "distribuição"
         ],
         "causalClaimAllowed": false
+      },
+      "taxonomyRepair": {
+        "policy": "strict-enum-v3.1",
+        "repairedAt": "2026-08-30T17:16:40.271Z",
+        "previousInvalidValues": {
+          "presentationFormats": [
+            "explicacao"
+          ],
+          "advertisedEntityKind": "none_observed"
+        },
+        "uncertaintyPreserved": true
       }
     },
     {
@@ -15262,24 +15355,24 @@
         "durationBand": "unknown",
         "pace": "unknown",
         "mechanisms": [
-          "confiança",
+          "confianca",
           "desejo",
-          "alívio",
-          "identificação"
+          "alivio",
+          "identificacao"
         ],
         "hookTypes": [
-          "resultado_quantificado",
+          "resultado_antecipado",
           "transformacao"
         ],
         "narrativeElements": [
-          "estado_anterior",
+          "situacao",
           "mecanismo",
-          "resultado",
-          "voz_do_cliente"
+          "payoff",
+          "prova"
         ],
         "proofTypes": [
           "depoimento",
-          "resultado_autodeclarado",
+          "alegacao_sem_prova",
           "mecanismo_explicado"
         ],
         "ctaTypes": [
@@ -15496,24 +15589,24 @@
         "durationBand": "unknown",
         "pace": "unknown",
         "mechanisms": [
-          "confiança",
+          "confianca",
           "desejo",
-          "alívio",
-          "identificação"
+          "alivio",
+          "identificacao"
         ],
         "hookTypes": [
-          "resultado_quantificado",
+          "resultado_antecipado",
           "transformacao"
         ],
         "narrativeElements": [
-          "estado_anterior",
+          "situacao",
           "mecanismo",
-          "resultado",
-          "voz_do_cliente"
+          "payoff",
+          "prova"
         ],
         "proofTypes": [
           "depoimento",
-          "resultado_autodeclarado",
+          "alegacao_sem_prova",
           "mecanismo_explicado"
         ],
         "ctaTypes": [
@@ -15714,7 +15807,7 @@
         "advertisingType": "consideracao",
         "commercialIntent": "explicita",
         "advertisedEntity": {
-          "kind": "serviço",
+          "kind": "indeterminado",
           "name": "consultoria DNA de Vendas",
           "confidence": "high"
         },
@@ -15732,24 +15825,24 @@
         "durationBand": "unknown",
         "pace": "unknown",
         "mechanisms": [
-          "confiança",
+          "confianca",
           "desejo",
-          "alívio",
-          "identificação"
+          "alivio",
+          "identificacao"
         ],
         "hookTypes": [
-          "resultado_quantificado",
+          "resultado_antecipado",
           "transformacao"
         ],
         "narrativeElements": [
-          "estado_anterior",
+          "situacao",
           "mecanismo",
-          "resultado",
-          "voz_do_cliente"
+          "payoff",
+          "prova"
         ],
         "proofTypes": [
           "depoimento",
-          "resultado_autodeclarado",
+          "alegacao_sem_prova",
           "mecanismo_explicado"
         ],
         "ctaTypes": [
@@ -15866,6 +15959,14 @@
           "distribuição"
         ],
         "causalClaimAllowed": false
+      },
+      "taxonomyRepair": {
+        "policy": "strict-enum-v3.1",
+        "repairedAt": "2026-08-30T17:16:40.271Z",
+        "previousInvalidValues": {
+          "advertisedEntityKind": "serviço"
+        },
+        "uncertaintyPreserved": true
       }
     },
     {
@@ -15916,9 +16017,7 @@
         "container": "youtube_video",
         "materialFormat": "video_longo",
         "presentationFormats": [
-          "experimento",
-          "demonstracao",
-          "explicacao"
+          "demonstracao"
         ],
         "primaryFamily": "demonstracao",
         "secondaryFamilies": [
@@ -15941,14 +16040,14 @@
         ],
         "objectives": [
           "educar",
-          "curiosidade",
+          "visualizacao",
           "retencao"
         ],
         "advertisingType": "indeterminado",
         "commercialIntent": "indeterminada",
         "advertisedEntity": {
-          "kind": "none_observed",
-          "name": null,
+          "kind": "indeterminado",
+          "name": "",
           "confidence": "low"
         },
         "contentTopic": {
@@ -15966,24 +16065,23 @@
         "pace": "unknown",
         "mechanisms": [
           "curiosidade",
-          "tensão",
+          "tensao",
           "recompensa",
-          "confiança"
+          "confianca"
         ],
         "hookTypes": [
-          "pergunta_literal"
+          "pergunta"
         ],
         "narrativeElements": [
-          "duvida_da_audiencia",
-          "hipotese",
-          "teste",
-          "falha",
-          "variaveis_inesperadas",
-          "proxima_tentativa"
+          "problema",
+          "mecanismo",
+          "tentativa",
+          "virada",
+          "continuidade_serial"
         ],
         "proofTypes": [
-          "experimento_descrito",
-          "limites_expostos"
+          "mecanismo_explicado",
+          "tratamento_objecao"
         ],
         "ctaTypes": [],
         "distributionContext": {
@@ -16102,6 +16200,17 @@
           "distribuição"
         ],
         "causalClaimAllowed": false
+      },
+      "taxonomyRepair": {
+        "policy": "strict-enum-v3.1",
+        "repairedAt": "2026-08-30T17:16:40.271Z",
+        "previousInvalidValues": {
+          "presentationFormats": [
+            "explicacao"
+          ],
+          "advertisedEntityKind": "none_observed"
+        },
+        "uncertaintyPreserved": true
       }
     },
     {
@@ -16152,8 +16261,8 @@
         "container": "youtube_video",
         "materialFormat": "video_longo",
         "presentationFormats": [
-          "grwm",
-          "fala_para_camera",
+          "montagem",
+          "camera_direta",
           "demonstracao"
         ],
         "primaryFamily": "comunidade",
@@ -16178,13 +16287,13 @@
         "objectives": [
           "comunidade",
           "identificacao",
-          "descoberta"
+          "visualizacao"
         ],
         "advertisingType": "indeterminado",
         "commercialIntent": "indeterminada",
         "advertisedEntity": {
-          "kind": "none_observed",
-          "name": null,
+          "kind": "indeterminado",
+          "name": "",
           "confidence": "low"
         },
         "contentTopic": {
@@ -16194,29 +16303,27 @@
         "segment": "beleza e lifestyle",
         "subsegment": "GRWM conversacional",
         "probableAudience": "público interessado em beleza, rotina pessoal e recomendações culturais",
-        "awarenessStage": "consciente_criador",
+        "awarenessStage": "indeterminado",
         "productionLevel": "simple",
         "creatorScale": "small",
         "replicability": "high",
         "durationBand": "unknown",
         "pace": "unknown",
         "mechanisms": [
-          "proximidade",
-          "identificação",
-          "confiança",
-          "companhia"
+          "aproximacao",
+          "identificacao",
+          "confianca",
+          "pertencimento"
         ],
         "hookTypes": [
-          "reencontro_com_audiencia"
+          "identificacao"
         ],
         "narrativeElements": [
-          "atividade_paralela",
-          "conversa_pessoal",
-          "recomendacoes",
-          "reflexao"
+          "situacao",
+          "conclusao"
         ],
         "proofTypes": [
-          "experiencia_pessoal"
+          "depoimento"
         ],
         "ctaTypes": [],
         "distributionContext": {
@@ -16328,6 +16435,14 @@
           "distribuição"
         ],
         "causalClaimAllowed": false
+      },
+      "taxonomyRepair": {
+        "policy": "strict-enum-v3.1",
+        "repairedAt": "2026-08-30T17:16:40.271Z",
+        "previousInvalidValues": {
+          "advertisedEntityKind": "none_observed"
+        },
+        "uncertaintyPreserved": true
       }
     },
     {
@@ -16411,7 +16526,7 @@
         "advertisingType": "consideracao",
         "commercialIntent": "explicita",
         "advertisedEntity": {
-          "kind": "serviço",
+          "kind": "indeterminado",
           "name": "Multiplier Educação",
           "confidence": "high"
         },
@@ -16429,18 +16544,17 @@
         "durationBand": "unknown",
         "pace": "unknown",
         "mechanisms": [
-          "especificidade",
           "desejo",
-          "confiança"
+          "confianca"
         ],
         "hookTypes": [
-          "resultado_percentual"
-        ],
-        "narrativeElements": [
           "resultado_antecipado"
         ],
+        "narrativeElements": [
+          "payoff"
+        ],
         "proofTypes": [
-          "resultado_autodeclarado"
+          "alegacao_sem_prova"
         ],
         "ctaTypes": [],
         "distributionContext": {
@@ -16549,6 +16663,17 @@
           "distribuição"
         ],
         "causalClaimAllowed": false
+      },
+      "taxonomyRepair": {
+        "policy": "strict-enum-v3.1",
+        "repairedAt": "2026-08-30T17:16:40.271Z",
+        "previousInvalidValues": {
+          "mechanisms": [
+            "especificidade"
+          ],
+          "advertisedEntityKind": "serviço"
+        },
+        "uncertaintyPreserved": true
       }
     },
     {
@@ -16602,7 +16727,7 @@
         "presentationFormats": [
           "estudo_caso",
           "depoimento",
-          "entrevista"
+          "podcast_entrevista"
         ],
         "primaryFamily": "prova_estudo_caso",
         "secondaryFamilies": [
@@ -16631,7 +16756,7 @@
         "advertisingType": "consideracao",
         "commercialIntent": "explicita",
         "advertisedEntity": {
-          "kind": "produto_serviço",
+          "kind": "indeterminado",
           "name": "Bitrix24 e implementação Br24",
           "confidence": "high"
         },
@@ -16649,22 +16774,21 @@
         "durationBand": "unknown",
         "pace": "unknown",
         "mechanisms": [
-          "identificação",
-          "confiança",
-          "clareza",
-          "alívio"
+          "identificacao",
+          "confianca",
+          "alivio"
         ],
         "hookTypes": [
-          "problema_operacional"
+          "problema"
         ],
         "narrativeElements": [
-          "estado_anterior",
-          "escolha",
-          "implementacao",
-          "resultado_qualitativo"
+          "situacao",
+          "virada",
+          "progressao",
+          "payoff"
         ],
         "proofTypes": [
-          "depoimento_identificado",
+          "depoimento",
           "mecanismo_explicado"
         ],
         "ctaTypes": [],
@@ -16779,6 +16903,17 @@
           "distribuição"
         ],
         "causalClaimAllowed": false
+      },
+      "taxonomyRepair": {
+        "policy": "strict-enum-v3.1",
+        "repairedAt": "2026-08-30T17:16:40.271Z",
+        "previousInvalidValues": {
+          "mechanisms": [
+            "clareza"
+          ],
+          "advertisedEntityKind": "produto_serviço"
+        },
+        "uncertaintyPreserved": true
       }
     },
     {
@@ -16832,8 +16967,8 @@
         "materialFormat": "video_longo",
         "presentationFormats": [
           "estudo_caso",
-          "coaching",
-          "entrevista"
+          "camera_direta",
+          "podcast_entrevista"
         ],
         "primaryFamily": "prova_estudo_caso",
         "secondaryFamilies": [
@@ -16863,8 +16998,8 @@
         "advertisingType": "indeterminado",
         "commercialIntent": "indeterminada",
         "advertisedEntity": {
-          "kind": "none_observed",
-          "name": null,
+          "kind": "indeterminado",
+          "name": "",
           "confidence": "low"
         },
         "contentTopic": {
@@ -16883,23 +17018,23 @@
         "mechanisms": [
           "curiosidade",
           "autoridade",
-          "progresso",
+          "recompensa",
           "desejo"
         ],
         "hookTypes": [
-          "meta_numerica",
-          "prazo",
-          "promessa_de_acompanhamento"
+          "numero",
+          "urgencia",
+          "promessa"
         ],
         "narrativeElements": [
-          "meta",
-          "diagnostico",
-          "intervencoes",
-          "promessa_de_retorno"
+          "desejo",
+          "problema",
+          "progressao",
+          "continuidade_serial"
         ],
         "proofTypes": [
-          "cliente_identificado",
-          "processo_explicado"
+          "depoimento",
+          "mecanismo_explicado"
         ],
         "ctaTypes": [],
         "distributionContext": {
@@ -17011,6 +17146,14 @@
           "distribuição"
         ],
         "causalClaimAllowed": false
+      },
+      "taxonomyRepair": {
+        "policy": "strict-enum-v3.1",
+        "repairedAt": "2026-08-30T17:16:40.271Z",
+        "previousInvalidValues": {
+          "advertisedEntityKind": "none_observed"
+        },
+        "uncertaintyPreserved": true
       }
     },
     {
@@ -17062,9 +17205,9 @@
         "container": "youtube_video",
         "materialFormat": "video_longo",
         "presentationFormats": [
-          "fala_para_camera",
-          "leitura_reacao",
-          "personagem"
+          "camera_direta",
+          "reacao",
+          "dramatizacao"
         ],
         "primaryFamily": "humor",
         "secondaryFamilies": [
@@ -17086,15 +17229,15 @@
           }
         ],
         "objectives": [
-          "entreter",
+          "visualizacao",
           "comentario",
           "comunidade"
         ],
         "advertisingType": "indeterminado",
         "commercialIntent": "indeterminada",
         "advertisedEntity": {
-          "kind": "none_observed",
-          "name": null,
+          "kind": "indeterminado",
+          "name": "",
           "confidence": "low"
         },
         "contentTopic": {
@@ -17104,7 +17247,7 @@
         "segment": "entretenimento e cultura pop",
         "subsegment": "humor de personagem",
         "probableAudience": "público familiarizado com influenciadores e cultura pop",
-        "awarenessStage": "consciente_criador",
+        "awarenessStage": "indeterminado",
         "productionLevel": "simple",
         "creatorScale": "large",
         "replicability": "high",
@@ -17112,17 +17255,16 @@
         "pace": "unknown",
         "mechanisms": [
           "humor",
-          "reconhecimento",
-          "participação",
-          "identificação"
+          "identificacao",
+          "pertencimento"
         ],
         "hookTypes": [
-          "objeto_cultural_reconhecivel"
+          "identificacao"
         ],
         "narrativeElements": [
-          "pergunta",
-          "resposta_em_personagem",
-          "comentario_pessoal"
+          "problema",
+          "payoff",
+          "conclusao"
         ],
         "proofTypes": [],
         "ctaTypes": [
@@ -17234,6 +17376,14 @@
           "distribuição"
         ],
         "causalClaimAllowed": false
+      },
+      "taxonomyRepair": {
+        "policy": "strict-enum-v3.1",
+        "repairedAt": "2026-08-30T17:16:40.271Z",
+        "previousInvalidValues": {
+          "advertisedEntityKind": "none_observed"
+        },
+        "uncertaintyPreserved": true
       }
     },
     {
@@ -17288,9 +17438,8 @@
         "container": "youtube_video",
         "materialFormat": "video_longo",
         "presentationFormats": [
-          "aula",
-          "fala_para_camera",
-          "tutorial"
+          "tutorial",
+          "camera_direta"
         ],
         "primaryFamily": "educativo",
         "secondaryFamilies": [
@@ -17320,7 +17469,7 @@
         "advertisingType": "consideracao",
         "commercialIntent": "explicita",
         "advertisedEntity": {
-          "kind": "serviço",
+          "kind": "indeterminado",
           "name": "cursos Speaking Brazilian",
           "confidence": "high"
         },
@@ -17338,27 +17487,26 @@
         "durationBand": "unknown",
         "pace": "unknown",
         "mechanisms": [
-          "progresso",
-          "participação",
-          "confiança",
-          "alívio"
+          "recompensa",
+          "pertencimento",
+          "confianca",
+          "alivio"
         ],
         "hookTypes": [
-          "promessa_de_fluencia"
+          "promessa"
         ],
         "narrativeElements": [
           "problema",
-          "metodo",
-          "exemplos",
-          "pratica_comunitaria"
+          "mecanismo",
+          "progressao",
+          "cta"
         ],
         "proofTypes": [
-          "exemplos_praticos"
+          "demonstracao"
         ],
         "ctaTypes": [
-          "responder_comentario",
-          "interagir_com_colegas",
-          "conhecer_curso"
+          "comentar",
+          "clicar"
         ],
         "distributionContext": {
           "organicPaid": "unknown",
@@ -17472,6 +17620,14 @@
           "distribuição"
         ],
         "causalClaimAllowed": false
+      },
+      "taxonomyRepair": {
+        "policy": "strict-enum-v3.1",
+        "repairedAt": "2026-08-30T17:16:40.271Z",
+        "previousInvalidValues": {
+          "advertisedEntityKind": "serviço"
+        },
+        "uncertaintyPreserved": true
       }
     }
   ],
@@ -19294,7 +19450,9 @@
     "caseLimitsAreNotCounterexamples": true,
     "provisionalMinimumIndependentSources": 2,
     "maxNewHypothesesPerTrainingBatch": 1,
-    "concentratedTrainingDefault": true
+    "concentratedTrainingDefault": true,
+    "taxonomyStrictEnum": true,
+    "preCommitAuditRequired": true
   },
   "taxonomyVersion": "3.0",
   "migrationHistory": [
