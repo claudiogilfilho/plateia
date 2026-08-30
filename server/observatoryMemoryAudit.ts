@@ -8,7 +8,7 @@ import { decidePatternStage } from "./patternEvidence";
 import { canonicalPublicUrl } from "./publicUrlIdentity";
 
 type RawClassification = Record<string, any>;
-type RawReference = { id?: string; url?: string; creator?: string; classification?: RawClassification };
+type RawReference = { id?: string; url?: string; creator?: string; creatorIdentity?: string; sourceIdentity?: string; classification?: RawClassification };
 type RawPattern = { id?: string; stage?: string; status?: string; patternType?: string; mechanism?: string[]; supportReferenceIds?: string[]; counterexampleReferenceIds?: string[]; caseLimitReferenceIds?: string[]; supportingCount?: number; comparableSupportCount?: number; counterexampleCount?: number; caseLimitCount?: number; creatorDiversityCount?: number; sourceDiversityCount?: number };
 
 const allowed = (values: readonly string[]) => new Set(values);
@@ -87,8 +87,15 @@ export function auditObservatoryMemory() {
     if (Number(pattern.caseLimitCount ?? 0) !== caseLimitIds.length) issues.push(`${id}.caseLimitCount`);
     if (!PATTERN_TYPES.includes(pattern.patternType as any)) issues.push(`${id}.patternType`);
     if (!Array.isArray(pattern.mechanism) || pattern.mechanism.some(value => !allowedValues.mechanisms.has(value))) issues.push(`${id}.mechanism`);
-    const creators = supportIds.map(referenceId => referenceById.get(referenceId)?.creator ?? "");
-    const expected = decidePatternStage({ supportingCount: supportIds.length, counterexampleCount: counterexampleIds.length, supportingCreators: creators, supportingSources: creators, existingStage: pattern.stage ?? pattern.status });
+    const creators = supportIds.map(referenceId => {
+      const reference = referenceById.get(referenceId);
+      return reference?.creatorIdentity ?? reference?.creator ?? "";
+    });
+    const sources = supportIds.map(referenceId => {
+      const reference = referenceById.get(referenceId);
+      return reference?.sourceIdentity ?? reference?.creatorIdentity ?? reference?.creator ?? "";
+    });
+    const expected = decidePatternStage({ supportingCount: supportIds.length, counterexampleCount: counterexampleIds.length, supportingCreators: creators, supportingSources: sources, existingStage: pattern.stage ?? pattern.status });
     if (pattern.creatorDiversityCount !== expected.creatorDiversityCount) issues.push(`${id}.creatorDiversityCount`);
     if (pattern.sourceDiversityCount !== undefined && pattern.sourceDiversityCount !== expected.sourceDiversityCount) issues.push(`${id}.sourceDiversityCount`);
     if ((pattern.stage ?? pattern.status) !== expected.stage) issues.push(`${id}.stage`);
