@@ -1,6 +1,6 @@
 {
   "protocol": "plateia-memory/1.0",
-  "updatedAt": "2026-08-30T17:17:35.232Z",
+  "updatedAt": "2026-08-31T11:25:44.000Z",
   "references": [
     {
       "id": "obs-20260823-001",
@@ -17779,6 +17779,1193 @@
       },
       "creatorIdentity": "speaking-brazilian-language-school-virginia-langhammer",
       "sourceIdentity": "speaking-brazilian-language-school-virginia-langhammer"
+    },
+    {
+      "id": "obs-20260831-076",
+      "title": "FOFOCAS PESADAS DE INSCRITOS #7",
+      "creator": "Lorelay Fox",
+      "creatorIdentity": "lorelay-fox",
+      "sourceIdentity": "lorelay-fox",
+      "country": "BR",
+      "url": "https://www.youtube.com/watch?v=vwpH3f1olsM",
+      "publishedAt": "não acessível",
+      "duration": "PT26M34S",
+      "createdAt": "2026-08-31T11:25:44.000Z",
+      "coverage": {
+        "level": "partial",
+        "accessible": [
+          "título",
+          "criadora e canal",
+          "descrição indexada",
+          "origem dos relatos enviada pela audiência",
+          "ação editorial de reagir, comentar e julgar",
+          "numeração de série",
+          "duração indexada",
+          "visualizações aproximadas indexadas"
+        ],
+        "missing": [
+          "vídeo integral reproduzível",
+          "imagem em movimento e cenas",
+          "áudio efetivamente ouvido",
+          "texto na tela",
+          "ritmo e montagem",
+          "retenção",
+          "comentários individuais",
+          "origem da distribuição",
+          "mídia paga e conversão",
+          "transcrição",
+          "data exata",
+          "curtidas verificadas"
+        ]
+      },
+      "publicMetrics": {
+        "viewsObserved": "aprox. 295 mil",
+        "observedAt": "2026-08-31",
+        "sourceType": "public_search_snapshot",
+        "causality": "not_inferred"
+      },
+      "classification": {
+        "taxonomyVersion": "3.0",
+        "container": "youtube_video",
+        "materialFormat": "video_longo",
+        "presentationFormats": [
+          "camera_direta",
+          "reacao",
+          "dialogo"
+        ],
+        "primaryFamily": "humor",
+        "secondaryFamilies": [
+          "comunidade",
+          "autoridade_opiniao"
+        ],
+        "functionalMix": [
+          {
+            "family": "humor",
+            "percentage": 45
+          },
+          {
+            "family": "comunidade",
+            "percentage": 35
+          },
+          {
+            "family": "autoridade_opiniao",
+            "percentage": 20
+          }
+        ],
+        "objectives": [
+          "visualizacao",
+          "comentario",
+          "comunidade",
+          "retencao"
+        ],
+        "advertisingType": "indeterminado",
+        "commercialIntent": "indeterminada",
+        "advertisedEntity": {
+          "kind": "indeterminado",
+          "name": "",
+          "confidence": "low"
+        },
+        "contentTopic": {
+          "label": "fofocas e dilemas enviados por inscritos",
+          "iabCode": null
+        },
+        "segment": "entretenimento e comunidade",
+        "subsegment": "relatos da audiência com comentário humorístico",
+        "probableAudience": "adultos interessados em humor, relacionamentos e cultura de internet",
+        "awarenessStage": "indeterminado",
+        "productionLevel": "simple",
+        "creatorScale": "large",
+        "replicability": "high",
+        "durationBand": "over_60s",
+        "pace": "unknown",
+        "mechanisms": [
+          "humor",
+          "identificacao",
+          "pertencimento"
+        ],
+        "hookTypes": [
+          "identificacao",
+          "problema"
+        ],
+        "narrativeElements": [
+          "situacao",
+          "problema",
+          "payoff",
+          "continuidade_serial",
+          "cta"
+        ],
+        "proofTypes": [
+          "depoimento"
+        ],
+        "ctaTypes": [
+          "comentar",
+          "seguir"
+        ],
+        "distributionContext": {
+          "organicPaid": "unknown",
+          "trendDependency": "unknown"
+        },
+        "confidence": "medium",
+        "evidence": [
+          "A descrição afirma que as histórias foram enviadas pela audiência.",
+          "O papel editorial da apresentadora é descrito como reagir, comentar e julgar.",
+          "O número do episódio torna a recorrência diretamente observável."
+        ],
+        "alternativeClassifications": [],
+        "missingInformation": [
+          "transcrição",
+          "timing cômico",
+          "comentários",
+          "retenção",
+          "consentimento individual"
+        ],
+        "needsHumanReview": true
+      },
+      "comparison": {
+        "level": 1,
+        "group": "humor comunitário recorrente com relatos enviados e julgamento de apresentadora",
+        "referenceIds": [
+          "obs-20260824-038",
+          "obs-20260824-044",
+          "obs-20260831-077",
+          "obs-20260831-078"
+        ],
+        "confidence": "high"
+      },
+      "observations": [
+        "A audiência fornece a matéria-prima do episódio por envio de histórias.",
+        "A voz da apresentadora organiza o material por reação, comentário e julgamento.",
+        "A numeração #7 mostra que não se trata de pauta isolada."
+      ],
+      "interpretations": [
+        "O formato cria um estoque renovável de pauta sem exigir que o criador invente os conflitos.",
+        "A persona funciona como filtro editorial; identificação, retorno e desempenho permanecem não mensurados."
+      ],
+      "scores": {
+        "gancho": 86,
+        "clareza": 94,
+        "relevancia": 88,
+        "desejo": 78,
+        "confianca": 82,
+        "retencao": "not_assessed",
+        "acao": 86,
+        "objecoes": 80
+      },
+      "fiveLenses": {
+        "apressado": "Entende que verá histórias fortes de inscritos.",
+        "analitico": "Origem e ação editorial estão claras; execução audiovisual não foi auditada.",
+        "aspiracional": "O benefício é entretenimento e participação, não transformação pessoal.",
+        "comunidade": "O público abastece a pauta e pode reconhecer dilemas próximos.",
+        "cetico": "Relatos enviados e métricas públicas não provam autenticidade, retorno ou retenção."
+      },
+      "hypotheses": [
+        "Em humor comunitário, relatos explicitamente enviados pela audiência e filtrados por uma voz editorial recorrente podem formar um formato replicável de participação."
+      ],
+      "replicable": [
+        "Definir uma pergunta de envio estreita o bastante para gerar relatos comparáveis.",
+        "Aplicar uma voz editorial consistente sem copiar a personagem de outro criador.",
+        "Anonimizar e obter autorização proporcional à sensibilidade do relato."
+      ],
+      "limitations": [
+        "A execução audiovisual, o timing cômico e a reação real do público não foram observados.",
+        "A autenticidade e o consentimento dos relatos não puderam ser auditados."
+      ],
+      "provenance": [
+        "public_content",
+        "public_search_snapshot",
+        "observatory_inference"
+      ],
+      "sourceEvidence": [
+        "https://www.youtube.com/watch?v=vwpH3f1olsM",
+        "https://sonichits.com/artist/CONSELHOS_RUINS"
+      ],
+      "training": {
+        "evidenceRole": "target_support",
+        "evidenceLevel": 2,
+        "requiredEvidenceObserved": true,
+        "supportEligible": true,
+        "replicable": [
+          "Usar relatos enviados como pauta com critérios, autorização e anonimização.",
+          "Responder pela própria voz editorial e sinalizar a recorrência do quadro."
+        ],
+        "contingent": [
+          "força da persona",
+          "qualidade e volume dos envios",
+          "moderação da comunidade"
+        ],
+        "notRecommended": [
+          "copiar frases, personagens ou roteiro",
+          "tratar popularidade, fama ou produção como prova causal",
+          "inferir cenas, áudio, ritmo ou retenção ausentes"
+        ],
+        "hypotheses": [
+          "Em humor comunitário, relatos enviados e voz editorial recorrente podem formar um formato replicável de participação."
+        ]
+      },
+      "viralAssessment": {
+        "status": "indeterminate",
+        "observedSignal": "aprox. 295 mil visualizações indexadas, sem baseline funcional",
+        "missingForRelativeAssessment": [
+          "baseline recente do canal",
+          "velocidade inicial",
+          "impressões",
+          "retenção",
+          "fontes de tráfego"
+        ],
+        "confounders": [
+          "tamanho e histórico do canal",
+          "idade da publicação",
+          "tema",
+          "distribuição"
+        ],
+        "causalClaimAllowed": false
+      }
+    },
+    {
+      "id": "obs-20260831-077",
+      "title": "FOFOCAS de família: TODO MUNDO tem! | MTVixe com Ingrid Ohara",
+      "creator": "MTV Brasil / MTVixe / Ingrid Ohara",
+      "creatorIdentity": "ingrid-ohara-mtvixe",
+      "sourceIdentity": "mtv-brasil-mtvixe",
+      "country": "BR",
+      "url": "https://www.youtube.com/watch?v=ulSeNrVdeWI",
+      "publishedAt": "2021-08-12",
+      "duration": "PT10M",
+      "createdAt": "2026-08-31T11:25:44.000Z",
+      "coverage": {
+        "level": "partial",
+        "accessible": [
+          "título",
+          "programa, apresentadora e fonte",
+          "descrição indexada",
+          "data",
+          "duração aproximada",
+          "origem das histórias enviada pela audiência",
+          "ação de leitura e comentário"
+        ],
+        "missing": [
+          "vídeo integral reproduzível",
+          "imagem em movimento e cenas",
+          "áudio efetivamente ouvido",
+          "texto na tela",
+          "ritmo e montagem",
+          "retenção",
+          "comentários individuais",
+          "origem da distribuição",
+          "mídia paga e conversão",
+          "transcrição",
+          "métricas do vídeo",
+          "curtidas verificadas"
+        ]
+      },
+      "publicMetrics": {
+        "viewsObserved": "not_measured",
+        "observedAt": "2026-08-31",
+        "sourceType": "public_search_and_catalog_snapshot",
+        "causality": "not_inferred"
+      },
+      "classification": {
+        "taxonomyVersion": "3.0",
+        "container": "youtube_video",
+        "materialFormat": "video_longo",
+        "presentationFormats": [
+          "camera_direta",
+          "reacao",
+          "dialogo"
+        ],
+        "primaryFamily": "comunidade",
+        "secondaryFamilies": [
+          "humor",
+          "entretenimento"
+        ],
+        "functionalMix": [
+          {
+            "family": "comunidade",
+            "percentage": 45
+          },
+          {
+            "family": "humor",
+            "percentage": 35
+          },
+          {
+            "family": "entretenimento",
+            "percentage": 20
+          }
+        ],
+        "objectives": [
+          "visualizacao",
+          "comentario",
+          "comunidade"
+        ],
+        "advertisingType": "indeterminado",
+        "commercialIntent": "indeterminada",
+        "advertisedEntity": {
+          "kind": "indeterminado",
+          "name": "",
+          "confidence": "low"
+        },
+        "contentTopic": {
+          "label": "fofocas familiares enviadas pela audiência",
+          "iabCode": null
+        },
+        "segment": "entretenimento e comunidade",
+        "subsegment": "histórias de família com reação de apresentadora",
+        "probableAudience": "jovens adultos interessados em cultura pop e situações familiares",
+        "awarenessStage": "indeterminado",
+        "productionLevel": "intermediate",
+        "creatorScale": "large",
+        "replicability": "high",
+        "durationBand": "over_60s",
+        "pace": "unknown",
+        "mechanisms": [
+          "identificacao",
+          "humor",
+          "pertencimento"
+        ],
+        "hookTypes": [
+          "identificacao",
+          "problema"
+        ],
+        "narrativeElements": [
+          "situacao",
+          "problema",
+          "payoff"
+        ],
+        "proofTypes": [
+          "depoimento"
+        ],
+        "ctaTypes": [],
+        "distributionContext": {
+          "organicPaid": "unknown",
+          "trendDependency": "unknown"
+        },
+        "confidence": "medium",
+        "evidence": [
+          "A sinopse afirma que Ingrid leu fofocas de família enviadas pelo público.",
+          "O título enquadra a experiência como universal: todo mundo tem fofoca familiar.",
+          "O catálogo independente registra data e duração aproximada."
+        ],
+        "alternativeClassifications": [],
+        "missingInformation": [
+          "transcrição",
+          "timing cômico",
+          "comentários",
+          "retenção",
+          "consentimento individual"
+        ],
+        "needsHumanReview": true
+      },
+      "comparison": {
+        "level": 1,
+        "group": "humor comunitário com relatos enviados e comentário de apresentadora",
+        "referenceIds": [
+          "obs-20260824-038",
+          "obs-20260824-044",
+          "obs-20260831-076",
+          "obs-20260831-078"
+        ],
+        "confidence": "high"
+      },
+      "observations": [
+        "A pauta é composta por fofocas familiares enviadas pela audiência.",
+        "O enquadramento “todo mundo tem” adiciona uma camada explícita de identificação.",
+        "A apresentadora lê e comenta os casos em um episódio de dez minutos."
+      ],
+      "interpretations": [
+        "A formulação universal pode reduzir a distância entre um relato individual e a experiência coletiva.",
+        "Pertencimento e desempenho não foram medidos; o que está comprovado é a arquitetura editorial."
+      ],
+      "scores": {
+        "gancho": 88,
+        "clareza": 96,
+        "relevancia": 89,
+        "desejo": 76,
+        "confianca": 84,
+        "retencao": "not_assessed",
+        "acao": "not_assessed",
+        "objecoes": 82
+      },
+      "fiveLenses": {
+        "apressado": "Entende o tema e a origem dos relatos imediatamente.",
+        "analitico": "A sinopse confirma o mecanismo; a fala e a montagem não foram acessadas.",
+        "aspiracional": "O valor é reconhecimento social, não transformação.",
+        "comunidade": "A audiência fornece os casos e o título explicita experiência compartilhada.",
+        "cetico": "Canal de mídia e apresentadora conhecida são fatores contingentes."
+      },
+      "hypotheses": [
+        "Relatos enviados e um enquadramento universal podem estruturar humor comunitário sem depender de pauta inventada."
+      ],
+      "replicable": [
+        "Escolher uma categoria de relato que permita identificação ampla.",
+        "Deixar claro que os materiais vieram da audiência.",
+        "Preservar anonimato e consentimento quando houver terceiros envolvidos."
+      ],
+      "limitations": [
+        "Sem reprodução ou transcrição, atuação, humor, ritmo e retenção não foram avaliados.",
+        "A escala da MTV e o reconhecimento da apresentadora não são transferíveis."
+      ],
+      "provenance": [
+        "public_content",
+        "public_catalog_snapshot",
+        "observatory_inference"
+      ],
+      "sourceEvidence": [
+        "https://www.youtube.com/watch?v=ulSeNrVdeWI",
+        "https://watch.plex.tv/show/mtvixe/season/3/episode/24"
+      ],
+      "training": {
+        "evidenceRole": "target_support",
+        "evidenceLevel": 2,
+        "requiredEvidenceObserved": true,
+        "supportEligible": true,
+        "replicable": [
+          "Usar uma categoria de relato reconhecível e declarar a origem comunitária da pauta."
+        ],
+        "contingent": [
+          "marca MTV",
+          "reconhecimento da apresentadora",
+          "seleção editorial dos envios"
+        ],
+        "notRecommended": [
+          "copiar frases, personagens ou roteiro",
+          "tratar popularidade, fama ou produção como prova causal",
+          "inferir cenas, áudio, ritmo ou retenção ausentes"
+        ],
+        "hypotheses": [
+          "Relatos enviados e enquadramento de experiência comum podem estruturar humor comunitário."
+        ]
+      },
+      "viralAssessment": {
+        "status": "indeterminate",
+        "observedSignal": "métricas do vídeo não acessíveis",
+        "missingForRelativeAssessment": [
+          "baseline recente do canal",
+          "velocidade inicial",
+          "impressões",
+          "retenção",
+          "fontes de tráfego"
+        ],
+        "confounders": [
+          "tamanho e histórico do canal",
+          "idade da publicação",
+          "tema",
+          "distribuição"
+        ],
+        "causalClaimAllowed": false
+      }
+    },
+    {
+      "id": "obs-20260831-078",
+      "title": "OS INSCRITOS FORAM BABACAS?! REAGINDO A HISTÓRIAS!",
+      "creator": "Thaíssa Ballut",
+      "creatorIdentity": "thaissa-ballut",
+      "sourceIdentity": "thaissa-ballut",
+      "country": "BR",
+      "url": "https://www.youtube.com/watch?v=uI4-zqEoC08",
+      "publishedAt": "não acessível",
+      "duration": "não acessível",
+      "createdAt": "2026-08-31T11:25:44.000Z",
+      "coverage": {
+        "level": "partial",
+        "accessible": [
+          "título",
+          "criadora e canal",
+          "descrição indexada",
+          "post público relacionado",
+          "origem mista das histórias: inscritos e Reddit",
+          "ação editorial de reagir e julgar",
+          "visualizações aproximadas indexadas",
+          "evidência de quadro recorrente em títulos relacionados"
+        ],
+        "missing": [
+          "vídeo integral reproduzível",
+          "imagem em movimento e cenas",
+          "áudio efetivamente ouvido",
+          "texto na tela",
+          "ritmo e montagem",
+          "retenção",
+          "comentários individuais",
+          "origem da distribuição",
+          "mídia paga e conversão",
+          "transcrição",
+          "data exata",
+          "duração",
+          "curtidas verificadas"
+        ]
+      },
+      "publicMetrics": {
+        "viewsObserved": "aprox. 9,5 mil",
+        "observedAt": "2026-08-31",
+        "sourceType": "public_search_snapshot",
+        "causality": "not_inferred"
+      },
+      "classification": {
+        "taxonomyVersion": "3.0",
+        "container": "youtube_video",
+        "materialFormat": "video_longo",
+        "presentationFormats": [
+          "camera_direta",
+          "reacao",
+          "dialogo"
+        ],
+        "primaryFamily": "humor",
+        "secondaryFamilies": [
+          "comunidade",
+          "autoridade_opiniao"
+        ],
+        "functionalMix": [
+          {
+            "family": "humor",
+            "percentage": 45
+          },
+          {
+            "family": "comunidade",
+            "percentage": 35
+          },
+          {
+            "family": "autoridade_opiniao",
+            "percentage": 20
+          }
+        ],
+        "objectives": [
+          "visualizacao",
+          "comentario",
+          "comunidade",
+          "retencao"
+        ],
+        "advertisingType": "indeterminado",
+        "commercialIntent": "indeterminada",
+        "advertisedEntity": {
+          "kind": "indeterminado",
+          "name": "",
+          "confidence": "low"
+        },
+        "contentTopic": {
+          "label": "dilemas enviados por inscritos e relatos do Reddit",
+          "iabCode": null
+        },
+        "segment": "entretenimento e cultura de internet",
+        "subsegment": "julgamento cômico de histórias",
+        "probableAudience": "adultos jovens interessados em dilemas sociais e cultura de internet",
+        "awarenessStage": "indeterminado",
+        "productionLevel": "simple",
+        "creatorScale": "medium",
+        "replicability": "high",
+        "durationBand": "unknown",
+        "pace": "unknown",
+        "mechanisms": [
+          "humor",
+          "identificacao",
+          "pertencimento"
+        ],
+        "hookTypes": [
+          "problema",
+          "identificacao"
+        ],
+        "narrativeElements": [
+          "situacao",
+          "problema",
+          "payoff",
+          "continuidade_serial",
+          "cta"
+        ],
+        "proofTypes": [
+          "depoimento"
+        ],
+        "ctaTypes": [
+          "comentar"
+        ],
+        "distributionContext": {
+          "organicPaid": "unknown",
+          "trendDependency": "unknown"
+        },
+        "confidence": "medium",
+        "evidence": [
+          "O título promete julgar as histórias dos inscritos.",
+          "A descrição afirma que o episódio mistura histórias dos inscritos e do Reddit.",
+          "Um post público relacionado descreve a criadora reagindo a histórias enviadas e julgando os casos."
+        ],
+        "alternativeClassifications": [],
+        "missingInformation": [
+          "proporção entre envios e Reddit",
+          "transcrição",
+          "comentários",
+          "retenção",
+          "consentimento individual"
+        ],
+        "needsHumanReview": true
+      },
+      "comparison": {
+        "level": 1,
+        "group": "humor comunitário com relatos enviados e julgamento de apresentadora",
+        "referenceIds": [
+          "obs-20260824-038",
+          "obs-20260824-044",
+          "obs-20260831-076",
+          "obs-20260831-077"
+        ],
+        "confidence": "medium"
+      },
+      "observations": [
+        "A ação central é reagir e julgar histórias, parte delas enviada por inscritos.",
+        "A mistura com Reddit amplia o estoque de pauta, mas reduz a pureza comunitária do episódio.",
+        "O convite público pede que a audiência também julgue os casos nos comentários."
+      ],
+      "interpretations": [
+        "A audiência participa em duas etapas: fornece parte da pauta e é convidada a produzir um segundo julgamento.",
+        "A proporção de relatos próprios versus Reddit deve ser registrada para não superestimar cocriação."
+      ],
+      "scores": {
+        "gancho": 90,
+        "clareza": 92,
+        "relevancia": 87,
+        "desejo": 78,
+        "confianca": 78,
+        "retencao": "not_assessed",
+        "acao": 88,
+        "objecoes": 76
+      },
+      "fiveLenses": {
+        "apressado": "Entende o conflito e a ação de julgamento.",
+        "analitico": "A origem mista precisa ser separada.",
+        "aspiracional": "O valor é participação e entretenimento.",
+        "comunidade": "Inscritos enviam parte dos casos e podem julgar nos comentários.",
+        "cetico": "Relatos do Reddit não equivalem a histórias da própria comunidade."
+      },
+      "hypotheses": [
+        "A devolução de um dilema enviado como pergunta de julgamento pode estender a participação dos comentários sem provar engajamento."
+      ],
+      "replicable": [
+        "Distinguir claramente relatos da própria audiência de materiais externos.",
+        "Devolver ao público uma pergunta específica ligada ao caso.",
+        "Manter critérios editoriais e proteção de identidade."
+      ],
+      "limitations": [
+        "Sem transcrição ou audiovisual, tom, atuação, ritmo e retenção não foram medidos.",
+        "A origem é mista; só a parcela explicitamente enviada pelos inscritos conta como apoio."
+      ],
+      "provenance": [
+        "public_content",
+        "public_search_snapshot",
+        "public_related_post",
+        "observatory_inference"
+      ],
+      "sourceEvidence": [
+        "https://www.youtube.com/watch?v=uI4-zqEoC08",
+        "https://www.instagram.com/reel/DYAd1oIsTnR/"
+      ],
+      "training": {
+        "evidenceRole": "target_support",
+        "evidenceLevel": 2,
+        "requiredEvidenceObserved": true,
+        "supportEligible": true,
+        "replicable": [
+          "Separar a origem dos relatos e convidar um julgamento relacionado ao caso."
+        ],
+        "contingent": [
+          "qualidade dos relatos",
+          "moderação",
+          "mistura com Reddit",
+          "força da apresentadora"
+        ],
+        "notRecommended": [
+          "copiar frases, personagens ou roteiro",
+          "tratar popularidade, fama ou produção como prova causal",
+          "inferir cenas, áudio, ritmo ou retenção ausentes"
+        ],
+        "hypotheses": [
+          "Relatos enviados e pergunta de julgamento podem estruturar participação comunitária."
+        ]
+      },
+      "viralAssessment": {
+        "status": "indeterminate",
+        "observedSignal": "aprox. 9,5 mil visualizações indexadas, sem baseline funcional",
+        "missingForRelativeAssessment": [
+          "baseline recente do canal",
+          "velocidade inicial",
+          "impressões",
+          "retenção",
+          "fontes de tráfego"
+        ],
+        "confounders": [
+          "tamanho e histórico do canal",
+          "idade da publicação",
+          "tema",
+          "distribuição"
+        ],
+        "causalClaimAllowed": false
+      }
+    },
+    {
+      "id": "obs-20260831-079",
+      "title": "Essa festa virou um enterro — Confessionário Psi 1",
+      "creator": "Acidamente",
+      "creatorIdentity": "acidamente",
+      "sourceIdentity": "acidamente",
+      "country": "BR",
+      "url": "https://www.youtube.com/watch?v=F4sVI37WX_o",
+      "publishedAt": "não acessível",
+      "duration": "PT8M2S",
+      "createdAt": "2026-08-31T11:25:44.000Z",
+      "coverage": {
+        "level": "partial",
+        "accessible": [
+          "título",
+          "canal",
+          "numeração do quadro",
+          "descrição indexada da proposta da série",
+          "origem das histórias enviada pelos inscritos",
+          "duração e visualizações aproximadas indexadas"
+        ],
+        "missing": [
+          "vídeo integral reproduzível",
+          "imagem em movimento e cenas",
+          "áudio efetivamente ouvido",
+          "texto na tela",
+          "ritmo e montagem",
+          "retenção",
+          "comentários individuais",
+          "origem da distribuição",
+          "mídia paga e conversão",
+          "transcrição",
+          "data exata",
+          "conteúdo do relato",
+          "resposta da apresentadora",
+          "presença de humor"
+        ]
+      },
+      "publicMetrics": {
+        "viewsObserved": "aprox. 988",
+        "observedAt": "2026-08-31",
+        "sourceType": "public_search_snapshot",
+        "causality": "not_inferred"
+      },
+      "classification": {
+        "taxonomyVersion": "3.0",
+        "container": "youtube_video",
+        "materialFormat": "video_longo",
+        "presentationFormats": [
+          "camera_direta",
+          "depoimento",
+          "podcast_entrevista"
+        ],
+        "primaryFamily": "educativo",
+        "secondaryFamilies": [
+          "comunidade",
+          "depoimento"
+        ],
+        "functionalMix": [
+          {
+            "family": "educativo",
+            "percentage": 45
+          },
+          {
+            "family": "comunidade",
+            "percentage": 35
+          },
+          {
+            "family": "depoimento",
+            "percentage": 20
+          }
+        ],
+        "objectives": [
+          "educar",
+          "comunidade",
+          "confianca"
+        ],
+        "advertisingType": "indeterminado",
+        "commercialIntent": "indeterminada",
+        "advertisedEntity": {
+          "kind": "indeterminado",
+          "name": "",
+          "confidence": "low"
+        },
+        "contentTopic": {
+          "label": "relato de inscrito em quadro de psicologia",
+          "iabCode": null
+        },
+        "segment": "psicologia e comportamento",
+        "subsegment": "confessionário comunitário",
+        "probableAudience": "adultos interessados em psicologia e histórias pessoais",
+        "awarenessStage": "consciente_problema",
+        "productionLevel": "simple",
+        "creatorScale": "small",
+        "replicability": "high",
+        "durationBand": "over_60s",
+        "pace": "unknown",
+        "mechanisms": [
+          "identificacao",
+          "confianca",
+          "pertencimento"
+        ],
+        "hookTypes": [
+          "problema"
+        ],
+        "narrativeElements": [
+          "situacao",
+          "problema",
+          "continuidade_serial"
+        ],
+        "proofTypes": [
+          "depoimento"
+        ],
+        "ctaTypes": [],
+        "distributionContext": {
+          "organicPaid": "unknown",
+          "trendDependency": "unknown"
+        },
+        "confidence": "medium",
+        "evidence": [
+          "A proposta indexada do quadro afirma receber histórias de inscritos para compartilhar em vídeo ou podcast.",
+          "O título e o número identificam uma série comunitária.",
+          "O texto acessível não mostra a resposta da apresentadora, humor ou enquadramento editorial do episódio."
+        ],
+        "alternativeClassifications": [],
+        "missingInformation": [
+          "resposta editorial",
+          "humor",
+          "transcrição",
+          "comentários",
+          "retenção",
+          "consentimento individual"
+        ],
+        "needsHumanReview": true
+      },
+      "comparison": {
+        "level": 2,
+        "group": "caso-limite de relatos comunitários sem humor ou resposta editorial observáveis",
+        "referenceIds": [
+          "obs-20260831-076",
+          "obs-20260831-077",
+          "obs-20260831-078"
+        ],
+        "confidence": "high"
+      },
+      "observations": [
+        "A série usa histórias enviadas por inscritos.",
+        "O conteúdo acessível não revela como o relato foi devolvido, interpretado ou enquadrado.",
+        "Também não ficou observável se há humor ou uma persona consistente."
+      ],
+      "interpretations": [
+        "Receber histórias é condição necessária, mas não suficiente para o padrão de humor comunitário.",
+        "Sem a resposta editorial, o material deve permanecer como caso-limite e não como contraexemplo."
+      ],
+      "scores": {
+        "gancho": 84,
+        "clareza": 82,
+        "relevancia": 78,
+        "desejo": 70,
+        "confianca": 74,
+        "retencao": "not_assessed",
+        "acao": "not_assessed",
+        "objecoes": 70
+      },
+      "fiveLenses": {
+        "apressado": "Entende que há um relato dramático, mas não a proposta completa.",
+        "analitico": "A origem comunitária está clara; resposta e enquadramento não.",
+        "aspiracional": "A promessa de transformação não ficou acessível.",
+        "comunidade": "Há canal de envio, porém a participação posterior não foi observada.",
+        "cetico": "Não é possível inferir humor, benefício ou efeito pelo título."
+      },
+      "hypotheses": [],
+      "replicable": [
+        "Declarar a origem dos relatos e explicar o tratamento editorial antes de convidar novos envios."
+      ],
+      "limitations": [
+        "Cobertura restrita a título, série e descrição indexada.",
+        "Não conta como apoio ou contraexemplo do padrão de humor comunitário."
+      ],
+      "provenance": [
+        "public_content",
+        "public_search_snapshot",
+        "observatory_inference"
+      ],
+      "sourceEvidence": [
+        "https://www.youtube.com/watch?v=F4sVI37WX_o"
+      ],
+      "training": {
+        "evidenceRole": "falsification_or_boundary",
+        "evidenceLevel": 2,
+        "requiredEvidenceObserved": false,
+        "supportEligible": false,
+        "replicable": [
+          "Explicitar a origem do relato e o papel editorial do apresentador."
+        ],
+        "contingent": [
+          "credenciais do canal",
+          "sensibilidade dos relatos",
+          "consentimento"
+        ],
+        "notRecommended": [
+          "copiar frases, personagens ou roteiro",
+          "tratar popularidade, fama ou produção como prova causal",
+          "inferir cenas, áudio, ritmo ou retenção ausentes"
+        ],
+        "hypotheses": []
+      },
+      "viralAssessment": {
+        "status": "indeterminate",
+        "observedSignal": "aprox. 988 visualizações indexadas, sem baseline funcional",
+        "missingForRelativeAssessment": [
+          "baseline recente do canal",
+          "velocidade inicial",
+          "impressões",
+          "retenção",
+          "fontes de tráfego"
+        ],
+        "confounders": [
+          "tamanho e histórico do canal",
+          "idade da publicação",
+          "tema",
+          "distribuição"
+        ],
+        "causalClaimAllowed": false
+      }
+    },
+    {
+      "id": "obs-20260831-080",
+      "title": "TÁ DUVIDANDO do poder do DETERGENTE? 10 experimentos INCRÍVEIS pra fazer em casa",
+      "creator": "Manual do Mundo",
+      "creatorIdentity": "manual-do-mundo",
+      "sourceIdentity": "manual-do-mundo",
+      "country": "BR",
+      "url": "https://www.youtube.com/watch?v=D9HDgpvY5-Y",
+      "publishedAt": "2025-02-11",
+      "duration": "PT11M19S",
+      "createdAt": "2026-08-31T11:25:44.000Z",
+      "coverage": {
+        "level": "partial",
+        "accessible": [
+          "título",
+          "criador",
+          "data",
+          "duração",
+          "visualizações aproximadas indexadas",
+          "descrição original",
+          "disclosure #publicidade",
+          "produto e marca",
+          "resumo textual detalhado com timestamps",
+          "sequência dos dez experimentos",
+          "materiais, resultados e explicações textuais"
+        ],
+        "missing": [
+          "vídeo integral reproduzível",
+          "imagem em movimento e cenas",
+          "áudio efetivamente ouvido",
+          "texto na tela",
+          "ritmo e montagem",
+          "retenção",
+          "comentários individuais",
+          "origem da distribuição",
+          "mídia paga e conversão",
+          "transcrição integral auditada",
+          "curtidas verificadas",
+          "baseline recente do canal"
+        ]
+      },
+      "publicMetrics": {
+        "viewsObserved": "aprox. 977 mil",
+        "observedAt": "2026-08-31",
+        "sourceType": "secondary_indexed_source",
+        "causality": "not_inferred"
+      },
+      "classification": {
+        "taxonomyVersion": "3.0",
+        "container": "youtube_video",
+        "materialFormat": "video_longo",
+        "presentationFormats": [
+          "demonstracao",
+          "tutorial",
+          "camera_direta"
+        ],
+        "primaryFamily": "demonstracao",
+        "secondaryFamilies": [
+          "educativo",
+          "venda_indireta"
+        ],
+        "functionalMix": [
+          {
+            "family": "demonstracao",
+            "percentage": 55
+          },
+          {
+            "family": "educativo",
+            "percentage": 30
+          },
+          {
+            "family": "venda_indireta",
+            "percentage": 15
+          }
+        ],
+        "objectives": [
+          "educar",
+          "visualizacao",
+          "retencao",
+          "apresentar_solucao"
+        ],
+        "advertisingType": "consideracao",
+        "commercialIntent": "explicita",
+        "advertisedEntity": {
+          "kind": "indeterminado",
+          "name": "Finish Quantum All in 1",
+          "confidence": "high"
+        },
+        "contentTopic": {
+          "label": "experimentos científicos com detergente e água",
+          "iabCode": null
+        },
+        "segment": "ciência e experimentos",
+        "subsegment": "tensão superficial, densidade e ação do detergente",
+        "probableAudience": "estudantes, famílias e educadores interessados em experimentos domésticos",
+        "awarenessStage": "consciente_solucao",
+        "productionLevel": "intermediate",
+        "creatorScale": "large",
+        "replicability": "medium",
+        "durationBand": "over_60s",
+        "pace": "unknown",
+        "mechanisms": [
+          "curiosidade",
+          "surpresa",
+          "recompensa",
+          "confianca"
+        ],
+        "hookTypes": [
+          "numero",
+          "problema"
+        ],
+        "narrativeElements": [
+          "problema",
+          "progressao",
+          "mecanismo",
+          "payoff"
+        ],
+        "proofTypes": [
+          "demonstracao",
+          "mecanismo_explicado"
+        ],
+        "ctaTypes": [
+          "clicar",
+          "seguir"
+        ],
+        "distributionContext": {
+          "organicPaid": "unknown",
+          "trendDependency": "unknown"
+        },
+        "confidence": "high",
+        "evidence": [
+          "O título promete dez experimentos domésticos e pergunta se o detergente faz diferença.",
+          "O resumo com timestamps registra demonstrações de bolhas, densidade, tensão superficial, micelas e extração de DNA.",
+          "A descrição identifica Finish, o produto e #publicidade.",
+          "Detergente é parte funcional de vários mecanismos demonstrados, não apenas menção periférica."
+        ],
+        "alternativeClassifications": [],
+        "missingInformation": [
+          "execução visual",
+          "segurança prática completa",
+          "ritmo",
+          "retenção",
+          "comentários",
+          "efeito comercial"
+        ],
+        "needsHumanReview": true
+      },
+      "comparison": {
+        "level": 1,
+        "group": "demonstração científica longa com progressão numerada e integração comercial funcional",
+        "referenceIds": [
+          "obs-20260823-001",
+          "obs-20260823-002",
+          "obs-20260823-003"
+        ],
+        "confidence": "high"
+      },
+      "observations": [
+        "A pergunta e o número tornam objeto, escala e teste claros no título.",
+        "Os dez blocos entregam resultados diferentes sob o mesmo mecanismo material.",
+        "O produto patrocinador participa da demonstração e a publicidade é declarada."
+      ],
+      "interpretations": [
+        "Uma sequência numerada pode transformar uma única propriedade do produto em múltiplas recompensas educativas.",
+        "A integração comercial é funcional ao experimento, mas isso não prova confiança, retenção ou vendas."
+      ],
+      "scores": {
+        "gancho": 91,
+        "clareza": 95,
+        "relevancia": 88,
+        "desejo": 82,
+        "confianca": 88,
+        "retencao": "not_assessed",
+        "acao": 90,
+        "objecoes": 87
+      },
+      "fiveLenses": {
+        "apressado": "Entende material, número de testes e benefício.",
+        "analitico": "Recebe mecanismos e resultados textuais; falta auditoria visual e segurança integral.",
+        "aspiracional": "Visualiza experiências que pode reproduzir em casa ou na escola.",
+        "comunidade": "O formato favorece reprodução em família, mas comentários não foram acessados.",
+        "cetico": "Publicidade está declarada; ainda faltam baseline e efeito comercial."
+      },
+      "hypotheses": [],
+      "replicable": [
+        "Agrupar várias demonstrações sob uma propriedade central.",
+        "Fazer o produto patrocinador cumprir função causal na demonstração e declarar a publicidade.",
+        "Oferecer substituições e alertas quando materiais forem menos acessíveis."
+      ],
+      "limitations": [
+        "O resumo textual não permite avaliar execução visual, segurança prática, ritmo ou retenção.",
+        "A escala do Manual do Mundo e o patrocínio são fatores contingentes.",
+        "A mesma fonte já sustenta o padrão de demonstração; esta referência não aumenta diversidade nem contagem formal de apoio."
+      ],
+      "provenance": [
+        "public_content",
+        "secondary_timestamped_summary",
+        "secondary_public_metric",
+        "observatory_inference"
+      ],
+      "sourceEvidence": [
+        "https://www.youtube.com/watch?v=D9HDgpvY5-Y",
+        "https://videohighlight.com/v/D9HDgpvY5-Y",
+        "https://www.facebook.com/manualdomundo/videos/1146648377053358/"
+      ],
+      "training": {
+        "evidenceRole": "controlled_exploration",
+        "evidenceLevel": 2,
+        "requiredEvidenceObserved": true,
+        "supportEligible": false,
+        "replicable": [
+          "Vincular cada bloco a um mecanismo comum e a uma recompensa observável.",
+          "Integrar produto comercial apenas quando ele for funcional e houver disclosure."
+        ],
+        "contingent": [
+          "marca e audiência do canal",
+          "patrocínio",
+          "acesso a materiais como gelo seco"
+        ],
+        "notRecommended": [
+          "copiar frases, personagens ou roteiro",
+          "tratar popularidade, fama ou produção como prova causal",
+          "inferir cenas, áudio, ritmo ou retenção ausentes"
+        ],
+        "hypotheses": []
+      },
+      "viralAssessment": {
+        "status": "indeterminate",
+        "observedSignal": "aprox. 977 mil visualizações indexadas, sem baseline funcional",
+        "missingForRelativeAssessment": [
+          "baseline recente do canal",
+          "velocidade inicial",
+          "impressões",
+          "retenção",
+          "fontes de tráfego"
+        ],
+        "confounders": [
+          "tamanho e histórico do canal",
+          "idade da publicação",
+          "tema",
+          "distribuição"
+        ],
+        "causalClaimAllowed": false
+      }
     }
   ],
   "patterns": [
@@ -18407,6 +19594,121 @@
         "obs-20260830-073"
       ],
       "caseLimitCount": 3
+    },
+    {
+      "id": "pat-20260831-008",
+      "status": "provisional",
+      "stage": "provisional",
+      "statement": "Em quadros de humor comunitário, transformar relatos explicitamente enviados pela audiência em pauta recorrente e devolvê-los por uma voz editorial reconhecível cria um formato replicável de participação; o efeito sobre identificação, retorno e desempenho permanece não demonstrado.",
+      "name": "Relatos da audiência filtrados por voz editorial recorrente",
+      "creativeFamily": "humor e comunidade",
+      "objective": "participação, comentário e recorrência de pauta",
+      "segment": "entretenimento participativo",
+      "mechanism": [
+        "identificacao",
+        "pertencimento",
+        "humor"
+      ],
+      "conditions": [
+        "relatos explicitamente enviados pela audiência",
+        "voz editorial ou apresentador identificável",
+        "resposta, comentário ou julgamento diretamente observável",
+        "recorrência do quadro ou convite de participação relacionado",
+        "autorização e anonimização proporcionais à sensibilidade"
+      ],
+      "supportReferenceIds": [
+        "obs-20260824-038",
+        "obs-20260824-044",
+        "obs-20260831-076",
+        "obs-20260831-077",
+        "obs-20260831-078"
+      ],
+      "comparableSupportCount": 5,
+      "supportingCount": 5,
+      "counterexampleCount": 0,
+      "comparisonLevel": 1,
+      "confidence": "medium",
+      "evidence": [
+        {
+          "referenceId": "obs-20260824-038",
+          "role": "support",
+          "observation": "Problemas enviados pela audiência estruturam um quadro de ajuda filtrado pela persona Blogueirinha.",
+          "evidence": "Título, descrição e resumo textual registrados na ficha.",
+          "limitations": [
+            "Sem comentários, retenção ou audiovisual integral."
+          ]
+        },
+        {
+          "referenceId": "obs-20260824-044",
+          "role": "support",
+          "observation": "Segundo episódio comparável do mesmo quadro confirma recorrência dentro da fonte.",
+          "evidence": "Título, descrição e resumo textual registrados na ficha.",
+          "limitations": [
+            "Mesmo criador do primeiro apoio."
+          ]
+        },
+        {
+          "referenceId": "obs-20260831-076",
+          "role": "support",
+          "comparisonLevel": 1,
+          "requiredEvidenceObserved": true,
+          "observation": "Histórias enviadas são reagidas, comentadas e julgadas por Lorelay em episódio numerado.",
+          "evidence": "Título, descrição, número de série, duração e métrica indexada.",
+          "limitations": [
+            "Sem transcrição, humor executado, consentimento ou retenção auditados."
+          ]
+        },
+        {
+          "referenceId": "obs-20260831-077",
+          "role": "support",
+          "comparisonLevel": 1,
+          "requiredEvidenceObserved": true,
+          "observation": "Ingrid lê histórias familiares enviadas e as enquadra como experiência comum.",
+          "evidence": "Título, sinopse, data e duração em fontes públicas.",
+          "limitations": [
+            "Sem transcrição, comentários ou audiovisual."
+          ]
+        },
+        {
+          "referenceId": "obs-20260831-078",
+          "role": "support",
+          "comparisonLevel": 1,
+          "requiredEvidenceObserved": true,
+          "observation": "Thaíssa reage e julga histórias, parte delas enviada por inscritos, e devolve a pergunta ao público.",
+          "evidence": "Título, descrição, post relacionado e títulos recorrentes indexados.",
+          "limitations": [
+            "Origem mista com Reddit; só a parcela de inscritos conta como apoio."
+          ]
+        },
+        {
+          "referenceId": "obs-20260831-079",
+          "role": "case_limit",
+          "comparisonLevel": 2,
+          "requiredEvidenceObserved": false,
+          "observation": "O Confessionário Psi recebe histórias dos inscritos, mas humor e resposta editorial não ficaram observáveis.",
+          "evidence": "Título, numeração e descrição da proposta da série.",
+          "limitations": [
+            "Não conta como apoio nem como contraexemplo."
+          ]
+        }
+      ],
+      "limitations": [
+        "Nenhum dos cinco apoios teve retenção, comentários ou execução audiovisual integralmente auditados.",
+        "Dois apoios pertencem à mesma criadora; a diversidade efetiva é de quatro criadores/fontes.",
+        "Envios são auto-selecionados e podem ser editados; autenticidade e representatividade não foram verificadas.",
+        "Consentimento, anonimização e risco a terceiros precisam de revisão humana.",
+        "O padrão descreve arquitetura editorial replicável, não prova que aumenta identificação, retorno ou desempenho."
+      ],
+      "validation": "requires_human_or_experimental_evidence",
+      "taxonomyVersion": "3.0",
+      "creatorDiversityCount": 4,
+      "sourceDiversityCount": 4,
+      "patternType": "outro",
+      "counterexampleReferenceIds": [],
+      "caseLimitReferenceIds": [
+        "obs-20260831-079"
+      ],
+      "caseLimitCount": 1
     }
   ],
   "hypotheses": [
@@ -18530,13 +19832,17 @@
     },
     {
       "id": "hyp-20260824-013",
-      "status": "observed_not_promoted",
+      "status": "promoted_to_provisional",
       "statement": "Em humor comunitário, problemas reais enviados pela audiência e filtrados por uma persona consistente podem formar um ciclo de pauta, identificação e retorno do público.",
       "supportReferenceIds": [
         "obs-20260824-038",
-        "obs-20260824-044"
+        "obs-20260824-044",
+        "obs-20260831-076",
+        "obs-20260831-077",
+        "obs-20260831-078"
       ],
-      "reasonNotPromoted": "Dois apoios comparáveis, porém ambos pertencem à mesma série e ao mesmo criador; comentários, retenção e reprodução audiovisual continuaram inacessíveis."
+      "promotedPatternId": "pat-20260831-008",
+      "promotionReason": "Cinco apoios de quatro criadores/fontes independentes no mesmo grupo funcional; três novos apoios têm título e descrição suficientes para observar envio da audiência, resposta editorial e recorrência ou convite de participação."
     },
     {
       "id": "hyp-20260824-014",
@@ -19580,6 +20886,150 @@
         "transformação qualitativa sem resultado mensurado",
         "meta futura sem resultado final observado"
       ]
+    },
+    {
+      "id": "run-20260831-supervised-012",
+      "executedAt": "2026-08-31T11:25:44.000Z",
+      "requestedBatchSize": 5,
+      "candidatesFound": 21,
+      "discarded": [
+        {
+          "url": "https://www.youtube.com/watch?v=bELrYeGEkao",
+          "reason": "mesma fonte e função do apoio Lorelay selecionado; menor cobertura indexada"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=rLkiCTjr7b0",
+          "reason": "canal não identificado com segurança no índice público"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=qH5-p8DTjCY",
+          "reason": "live recente sem substância ou transcrição suficientes"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=hxisHjfIhIA",
+          "reason": "relato de terror, funcionalmente distante do humor de julgamento"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=YMVk6DBV7RE",
+          "reason": "participação de Lorelay repetiria fonte já selecionada"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=l269OYoRXAU",
+          "reason": "mesma criadora do apoio Lorelay selecionado"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=IGeS4s2JHw4",
+          "reason": "mesma criadora do apoio Lorelay selecionado"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=CDDpWZCuVr4",
+          "reason": "mesma série do caso-limite selecionado"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=DhEhF9vk7-A",
+          "reason": "mesma série do caso-limite selecionado"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=WJUzXxIXDug",
+          "reason": "mesma fonte e quadro de Thaíssa selecionado"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=I-LWgKAuTkI",
+          "reason": "mesma fonte e quadro de Thaíssa selecionado"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=4XOEaByX9_M",
+          "reason": "mesma fonte e quadro de Thaíssa selecionado"
+        },
+        {
+          "url": "https://www.instagram.com/reel/DbUEuRIxAEn/",
+          "reason": "criador não recuperável e cobertura restrita a legenda indexada"
+        },
+        {
+          "url": "https://www.instagram.com/reel/DaTfPxZsfbr/",
+          "reason": "criador não recuperável e hipótese funcional diferente"
+        },
+        {
+          "url": "https://www.instagram.com/reel/Dbn7BDmR1Ev/",
+          "reason": "criador e presença comercial não verificáveis"
+        },
+        {
+          "url": "https://www.youtube.com/shorts/YDWhl5ewQp8",
+          "reason": "erro didático sem humor comunitário ou envio da audiência observáveis"
+        }
+      ],
+      "analyzed": 5,
+      "brazilianReferences": 5,
+      "internationalReferences": 0,
+      "replicableReferences": 5,
+      "coverageSummary": {
+        "complete": 0,
+        "partial": 5,
+        "insufficient": 0
+      },
+      "familiesCovered": [
+        "humor",
+        "comunidade",
+        "educativo",
+        "demonstracao",
+        "autoridade_opiniao",
+        "venda_indireta"
+      ],
+      "segmentsCovered": [
+        "entretenimento participativo",
+        "psicologia e comportamento",
+        "ciência e experimentos"
+      ],
+      "sourcesUsed": [
+        "https://www.youtube.com/watch?v=vwpH3f1olsM",
+        "https://sonichits.com/artist/CONSELHOS_RUINS",
+        "https://www.youtube.com/watch?v=ulSeNrVdeWI",
+        "https://watch.plex.tv/show/mtvixe/season/3/episode/24",
+        "https://www.youtube.com/watch?v=uI4-zqEoC08",
+        "https://www.instagram.com/reel/DYAd1oIsTnR/",
+        "https://www.youtube.com/watch?v=F4sVI37WX_o",
+        "https://www.youtube.com/watch?v=D9HDgpvY5-Y",
+        "https://videohighlight.com/v/D9HDgpvY5-Y"
+      ],
+      "patternsCreated": [
+        "pat-20260831-008"
+      ],
+      "patternsStrengthened": [],
+      "patternsRefined": [],
+      "hypothesesCreated": [],
+      "hypothesesStrengthened": [
+        "hyp-20260824-013"
+      ],
+      "validatedPatternsCreated": 0,
+      "contradictionsFound": [],
+      "nextTarget": "vídeo curto brasileiro de humor comunitário, de criador pequeno ou médio, com reprodução e transcrição integrais, origem e consentimento dos relatos, comentários acessíveis e baseline recente; procurar também um quadro com muitos envios, mas baixa participação pública, para testar desempenho sem confundir arquitetura com resultado",
+      "limitations": [
+        "As cinco coberturas foram parciais; nenhuma permitiu auditoria audiovisual integral.",
+        "Cenas, áudio efetivamente ouvido, texto na tela, ritmo, montagem e retenção permaneceram não mensurados.",
+        "Comentários individuais e autenticidade dos relatos não ficaram acessíveis.",
+        "O novo padrão descreve arquitetura editorial; não atribui retorno, identificação ou desempenho.",
+        "Métricas ausentes foram tratadas como não mensuradas, nunca como zero.",
+        "Nenhum dado foi misturado aos cérebros sintéticos ou ao futuro Freud."
+      ],
+      "protocolExperiment": {
+        "focus": "três apoios independentes para a hipótese hyp-20260824-013, um caso-limite e uma exploração de terceira família",
+        "outcome": "a hipótese passou de dois apoios de uma fonte para cinco apoios de quatro fontes e virou padrão provisório; o caso-limite demonstrou que receber relatos sem resposta editorial observável não basta",
+        "candidatePoolMinimumMet": true,
+        "candidatePoolSize": 21,
+        "newHypothesisLimit": 0,
+        "note": "A promoção se limita ao mecanismo editorial diretamente observável; efeitos de retenção, retorno e comunidade continuam não demonstrados."
+      },
+      "caseLimitsFound": [
+        "relato enviado sem humor ou resposta editorial observáveis"
+      ],
+      "evidenceGateSummary": {
+        "targetSupportsEligible": 3,
+        "targetSupportsRejected": 0,
+        "boundaryCases": 1,
+        "explorationReferences": 1,
+        "duplicateUrls": 0,
+        "creatorSourceDiversityForNewPattern": 4
+      }
     }
   ],
   "policy": {
