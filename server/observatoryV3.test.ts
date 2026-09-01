@@ -4,6 +4,7 @@ import { decidePatternStage } from "./patternEvidence";
 import { listPortableReferences, PORTABLE_MEMORY_STATS } from "./portableObservatoryMemory";
 import { assessViralityEvidence, safeRate } from "./virality";
 import { auditObservatoryMemory } from "./observatoryMemoryAudit";
+import { auditConcentratedTrainingRun } from "./trainingBatchAudit";
 
 describe("Observatório Platéia v3", () => {
   it("preserva o corpus treinado e mantém contagens e URLs consistentes", () => {
@@ -34,6 +35,20 @@ describe("Observatório Platéia v3", () => {
   it("não promove três apoios do mesmo criador a padrão provisório", () => {
     expect(decidePatternStage({ supportingCount: 3, counterexampleCount: 0, supportingCreators: ["A", "A", "A"] })).toMatchObject({ stage: "supported_hypothesis", eligibleForProvisional: false });
     expect(decidePatternStage({ supportingCount: 3, counterexampleCount: 0, supportingCreators: ["A", "B", "A"] })).toMatchObject({ stage: "provisional", eligibleForProvisional: true });
+  });
+
+  it("não preserva validação sem revisão humana ou experimento identificável", () => {
+    expect(decidePatternStage({ supportingCount: 3, counterexampleCount: 0, supportingCreators: ["A", "B", "C"], existingStage: "experimentally_validated" }).stage).toBe("provisional");
+    expect(decidePatternStage({ supportingCount: 3, counterexampleCount: 0, supportingCreators: ["A", "B", "C"], existingStage: "experimentally_validated", hasHumanOrExperimentalValidation: true }).stage).toBe("experimentally_validated");
+  });
+
+  it("rejeita lote disperso, sem caso-limite e com hipótese nova em excesso", () => {
+    const issues = auditConcentratedTrainingRun({
+      id: "bad", batchPolicyVersion: "1.1", requestedBatchSize: 5, candidatesFound: 5, analyzed: 5,
+      referenceIds: [], targetKnowledgeId: "pattern", targetReferenceIds: ["a", "b"],
+      falsificationOrBoundaryReferenceIds: [], controlledExplorationReferenceIds: [], hypothesesCreated: ["h1", "h2"],
+    }, []);
+    expect(issues).toEqual(expect.arrayContaining(["bad.candidatePoolMinimum", "bad.targetReferenceQuota", "bad.boundaryReferenceQuota", "bad.explorationReferenceQuota", "bad.newHypothesisLimit"]));
   });
 
   it("mantém viralidade indeterminada sem baseline e calcula somente taxas com denominador", () => {

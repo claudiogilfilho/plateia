@@ -6,10 +6,11 @@ import {
 } from "../shared/plateiaTaxonomy";
 import { decidePatternStage } from "./patternEvidence";
 import { canonicalPublicUrl } from "./publicUrlIdentity";
+import { auditConcentratedTrainingRun } from "./trainingBatchAudit";
 
 type RawClassification = Record<string, any>;
 type RawReference = { id?: string; url?: string; creator?: string; creatorIdentity?: string; sourceIdentity?: string; classification?: RawClassification };
-type RawPattern = { id?: string; stage?: string; status?: string; patternType?: string; mechanism?: string[]; supportReferenceIds?: string[]; counterexampleReferenceIds?: string[]; caseLimitReferenceIds?: string[]; supportingCount?: number; comparableSupportCount?: number; counterexampleCount?: number; caseLimitCount?: number; creatorDiversityCount?: number; sourceDiversityCount?: number };
+type RawPattern = { id?: string; stage?: string; status?: string; patternType?: string; mechanism?: string[]; supportReferenceIds?: string[]; counterexampleReferenceIds?: string[]; caseLimitReferenceIds?: string[]; supportingCount?: number; comparableSupportCount?: number; counterexampleCount?: number; caseLimitCount?: number; creatorDiversityCount?: number; sourceDiversityCount?: number; validationEvidence?: { humanReviewId?: string; experimentId?: string } };
 
 const allowed = (values: readonly string[]) => new Set(values);
 const allowedValues = {
@@ -33,6 +34,7 @@ export function auditObservatoryMemory() {
   const issues: string[] = [];
   const references = ((memory as any).references ?? []) as RawReference[];
   const patterns = ((memory as any).patterns ?? []) as RawPattern[];
+  const trainingRuns = ((memory as any).trainingRuns ?? []) as any[];
   const referenceIds = new Set<string>();
   const urls = new Set<string>();
   const referenceById = new Map<string, RawReference>();
@@ -95,11 +97,13 @@ export function auditObservatoryMemory() {
       const reference = referenceById.get(referenceId);
       return reference?.sourceIdentity ?? reference?.creatorIdentity ?? reference?.creator ?? "";
     });
-    const expected = decidePatternStage({ supportingCount: supportIds.length, counterexampleCount: counterexampleIds.length, supportingCreators: creators, supportingSources: sources, existingStage: pattern.stage ?? pattern.status });
+    const expected = decidePatternStage({ supportingCount: supportIds.length, counterexampleCount: counterexampleIds.length, supportingCreators: creators, supportingSources: sources, existingStage: pattern.stage ?? pattern.status, hasHumanOrExperimentalValidation: Boolean(pattern.validationEvidence?.humanReviewId || pattern.validationEvidence?.experimentId) });
     if (pattern.creatorDiversityCount !== expected.creatorDiversityCount) issues.push(`${id}.creatorDiversityCount`);
     if (pattern.sourceDiversityCount !== undefined && pattern.sourceDiversityCount !== expected.sourceDiversityCount) issues.push(`${id}.sourceDiversityCount`);
     if ((pattern.stage ?? pattern.status) !== expected.stage) issues.push(`${id}.stage`);
   }
+
+  for (const run of trainingRuns) issues.push(...auditConcentratedTrainingRun(run, references));
 
   return { issues, referenceCount: references.length, uniqueUrlCount: urls.size, patternCount: patterns.length };
 }

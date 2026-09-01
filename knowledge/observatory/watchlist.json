@@ -6,7 +6,7 @@
   "selectionPolicy": {
     "brazilianShareTarget": 0.7,
     "accessibleProductionShareTarget": 0.7,
-    "familiesPerBatchMinimum": 3,
+    "familiesPerBatchMinimum": 2,
     "avoidDuplicateUrl": true,
     "preferRecentDays": 120,
     "requirePublicSource": true,
@@ -19,6 +19,14 @@
     "maxNewHypothesesPerBatch": 1,
     "supportMaxComparisonLevel": 2,
     "caseLimitsAreNotCounterexamples": true,
+    "batchPolicyVersion": "1.1",
+    "requireStructuredBatchRoles": true,
+    "requireTargetKnowledgeId": true,
+    "requireReferenceIdsPerBatch": true,
+    "requireClaimLevelModalityAudit": true,
+    "requireStoryProvenanceAndConsentAudit": true,
+    "validatedStageRequiresEvidenceId": true,
+    "excludeConsolidatedHypothesesFromCandidateQueue": true,
     "requiredBeforeCommit": [
       "python3 .agents/skills/plateia/scripts/observatory_memory.py --db knowledge/observatory/plateia-memory.json audit",
       "pnpm observatory:verify:v3"
@@ -337,7 +345,11 @@
       "Não distribuir as cinco vagas por cinco hipóteses diferentes.",
       "Reapresentar ao curador as hipóteses e padrões candidatos antes de criar hipótese nova.",
       "Só ligar uma referência a padrão existente por ID explícito e comparação de nível 1 ou 2.",
-      "Uma rodada pode terminar sem novo padrão; precisão e falsificação têm prioridade sobre volume."
+      "Uma rodada pode terminar sem novo padrão; precisão e falsificação têm prioridade sobre volume.",
+      "O verificador deve rejeitar lote sem targetKnowledgeId, sem três referências-alvo, sem caso contrário/limite, sem exploração, com mais de uma hipótese nova ou com referência sem papel explícito.",
+      "Apoio só é elegível quando cada alegação registra modalidades exigidas, modalidades observadas e suficiência coerente.",
+      "Histórias da audiência devem registrar origem, estado do consentimento e proteção de identidade; ausência desses dados limita a evidência.",
+      "Hipóteses já consolidadas em padrão não voltam à fila de candidatos."
     ]
   },
   "coveragePolicy": {

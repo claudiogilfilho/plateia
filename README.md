@@ -33,9 +33,9 @@ Preencha no `.env` um dos três adaptadores descritos em [docs/plateia-portable.
 ## Estado verificável do Observatório
 
 - Taxonomia atual: v3.0; política de evidência: v1.1.
-- Corpus portátil: 75 referências públicas com URLs únicas.
+- Corpus portátil: 85 referências públicas com URLs únicas.
 - Conhecimento consolidado: sete padrões provisórios, 33 hipóteses observadas e nenhum padrão validado automaticamente.
 - O treinamento usa busca concentrada: três referências para um alvo existente, uma tentativa de falsificação ou limite e uma exploração controlada.
 - Apoio só é contado quando o mecanismo está observado, a comparação é nível 1 ou 2 e a confiança é média ou alta; caso-limite não é contraexemplo.
-- O comando `pnpm observatory:verify:v3` audita enums, cardinalidades, URLs, contagens, apoios e diversidade de criadores. O corpus pode crescer sem exigir a troca de um número fixo no verificador.
+- O comando `pnpm observatory:verify:v3` audita enums, cardinalidades, URLs, contagens, apoios, diversidade de criadores, concentração dos lotes, cobertura por alegação, procedência/consentimento e o portão de validação humana/experimental. O corpus pode crescer sem exigir a troca de um número fixo no verificador.
 - Referências com cobertura parcial continuam marcadas para revisão humana; ausência de mídia, áudio, transcrição ou métricas não é convertida em nota zero nem em certeza classificatória.

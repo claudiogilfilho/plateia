@@ -100,6 +100,8 @@ Separar alcance, retenção, compartilhamento, salvamento, conversão e velocida
 
 Em lotes de cinco, escolher primeiro uma hipótese ou padrão-alvo. Buscar três apoios potenciais para o mesmo alvo, um teste contrário ou de limite e uma exploração controlada que preserve diversidade. Criar no máximo uma hipótese nova por lote.
 
+Cada lote novo deve registrar `batchPolicyVersion`, `targetKnowledgeId`, `referenceIds`, `targetReferenceIds`, `falsificationOrBoundaryReferenceIds` e `controlledExplorationReferenceIds`. Os papéis são mutuamente exclusivos e devem cobrir todas as referências analisadas. O lote é inválido se tiver menos de quinze candidatos triados, menos de três referências-alvo, nenhum teste contrário/limite, nenhuma exploração ou mais de uma hipótese nova. Hipótese já consolidada em padrão não volta à fila de candidatos.
+
 A ordem obrigatória é: descobrir candidatos, remover duplicidades, verificar cobertura, classificar, recuperar candidatos de memória, definir papel da evidência e somente então ensinar. Não ocupar vagas com materiais insuficientes apenas para completar o lote.
 
 ## 10. Portão de cobertura por alegação
@@ -114,3 +116,7 @@ A suficiência depende da alegação:
 - percentual sem denominador, transformação apenas qualitativa e promessa futura são casos-limite, não apoios.
 
 Campos `comparisonLevel`, `requiredEvidenceObserved`, `evidenceRole` e `targetPatternId` devem acompanhar toda tentativa de consolidação.
+
+Além da cobertura geral da referência, cada alegação usada como evidência deve registrar `requiredModalities`, `observedModalities` e `sufficient`. `sufficient` só pode ser verdadeiro quando todas as modalidades exigidas foram observadas. Em histórias enviadas pela audiência, registrar separadamente origem do relato, estado do consentimento, proteção/anonimização da identidade e evidência disponível; ausência não deve ser preenchida por inferência.
+
+O estágio `experimentally_validated` só pode ser preservado ou atribuído quando existir `validationEvidence.humanReviewId` ou `validationEvidence.experimentId`. O nome do estágio, sozinho, não é prova de validação.

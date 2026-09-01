@@ -24,4 +24,6 @@ Só `support` diretamente observado, de comparação nível 1 ou 2 e confiança 
 
 Em treinamento por lote, use busca concentrada: três referências para um alvo existente, uma tentativa de falsificação ou limite e uma exploração controlada. Crie no máximo uma hipótese nova por lote. Verifique cobertura antes de selecionar a referência.
 
+Registre o alvo por ID, todas as referências e seus papéis mutuamente exclusivos. Para cada alegação conte modalidades exigidas, observadas e suficiência; para relatos da audiência, registre origem, consentimento e proteção de identidade sem inferir dados ausentes. Não preserve nem atribua estágio validado sem ID de revisão humana ou experimento.
+
 ---

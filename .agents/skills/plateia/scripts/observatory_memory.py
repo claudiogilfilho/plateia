@@ -157,7 +157,9 @@ def pattern_stage(pattern: dict, references_by_id: dict[str, dict]) -> tuple[str
     creators = {creator_identity(references_by_id[item]) for item in support_ids if item in references_by_id and creator_identity(references_by_id[item])}
     sources = {source_identity(references_by_id[item]) for item in support_ids if item in references_by_id and source_identity(references_by_id[item])}
     existing = pattern.get("stage") or pattern.get("status")
-    if existing in {"experimentally_validated", "validated"}:
+    validation_evidence = pattern.get("validationEvidence") or {}
+    has_validation_evidence = bool(validation_evidence.get("humanReviewId") or validation_evidence.get("experimentId"))
+    if existing in {"experimentally_validated", "validated"} and has_validation_evidence:
         return "experimentally_validated", "high", len(creators), len(sources)
     if len(counter_ids) >= len(support_ids) and len(counter_ids) >= 2:
         return "contradicted", "low", len(creators), len(sources)
@@ -322,6 +324,8 @@ def command_candidates(args: argparse.Namespace) -> dict:
     pattern_ids = {str(item.get("id")) for item in memory["patterns"]}
     refs = {str(item.get("id")): item for item in memory["references"]}
     for hypothesis in memory.get("hypotheses", []):
+        if hypothesis.get("consolidatedIntoPatternId"):
+            continue
         if str(hypothesis.get("id")) in pattern_ids:
             continue
         support_ids = clean_list(hypothesis.get("supportReferenceIds"))
@@ -358,6 +362,53 @@ def command_audit(args: argparse.Namespace) -> dict:
             issues.append(f"caseLimitCount:{pattern_id}")
         if any(item not in references_by_id for item in support | counter | limits):
             issues.append(f"unknownReference:{pattern_id}")
+    for run in memory.get("trainingRuns", []):
+        if run.get("batchPolicyVersion") != "1.1":
+            continue
+        run_id = run.get("id", "training-run-without-id")
+        reference_ids = clean_list(run.get("referenceIds"))
+        target_ids = clean_list(run.get("targetReferenceIds"))
+        boundary_ids = clean_list(run.get("falsificationOrBoundaryReferenceIds"))
+        exploration_ids = clean_list(run.get("controlledExplorationReferenceIds"))
+        role_ids = target_ids + boundary_ids + exploration_ids
+        if not run.get("targetKnowledgeId"):
+            issues.append(f"targetKnowledgeId:{run_id}")
+        if int(run.get("candidatesFound") or 0) < 15:
+            issues.append(f"candidatePoolMinimum:{run_id}")
+        if len(target_ids) < 3 or len(boundary_ids) < 1 or len(exploration_ids) < 1:
+            issues.append(f"concentratedRoleQuota:{run_id}")
+        if len(clean_list(run.get("hypothesesCreated"))) > 1:
+            issues.append(f"newHypothesisLimit:{run_id}")
+        if len(set(reference_ids)) != len(reference_ids) or len(set(role_ids)) != len(role_ids):
+            issues.append(f"duplicateReferenceRole:{run_id}")
+        if len(reference_ids) != int(run.get("analyzed") or run.get("requestedBatchSize") or 0):
+            issues.append(f"referenceCount:{run_id}")
+        if set(role_ids) != set(reference_ids) or any(item not in references_by_id for item in reference_ids):
+            issues.append(f"roleCoverage:{run_id}")
+        urls = [canonical_url(references_by_id[item].get("url", "")) for item in reference_ids if item in references_by_id]
+        if len(set(urls)) != len(urls):
+            issues.append(f"duplicateUrlInRun:{run_id}")
+        for reference_id in reference_ids:
+            reference = references_by_id.get(reference_id, {})
+            training = reference.get("training", {})
+            claims = training.get("claimCoverage", [])
+            provenance = training.get("provenanceAndConsent", {})
+            if training.get("evidencePolicyVersion") != "1.1":
+                issues.append(f"evidencePolicyVersion:{reference_id}")
+            if not claims:
+                issues.append(f"claimCoverage:{reference_id}")
+            for claim in claims:
+                required = set(clean_list(claim.get("requiredModalities")))
+                observed = set(clean_list(claim.get("observedModalities")))
+                if claim.get("sufficient") is not (bool(required) and required <= observed):
+                    issues.append(f"claimCoverage:{reference_id}")
+            if not all(provenance.get(key) for key in ["storyOrigin", "consentStatus", "identityProtection"]) or not isinstance(provenance.get("evidence"), list):
+                issues.append(f"provenanceAndConsent:{reference_id}")
+            if training.get("supportEligible") and (training.get("requiredEvidenceObserved") is not True or any(claim.get("sufficient") is not True for claim in claims)):
+                issues.append(f"ineligibleSupport:{reference_id}")
+        validation = run.get("validationEvidence") or {}
+        if int(run.get("validatedPatternsCreated") or 0) > 0 and not (validation.get("humanReviewId") or validation.get("experimentId")):
+            issues.append(f"automaticValidation:{run_id}")
     return {"ok": not issues, "issues": issues, "references": len(memory["references"]), "patterns": len(memory["patterns"])}
 
 

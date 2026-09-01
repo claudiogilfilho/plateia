@@ -15,7 +15,7 @@ Executar o método independentemente do modelo hospedeiro. Tratar a IA como moto
 4. Ler `references/protocol.md` e classificar o conteúdo antes de pontuar. Consultar `references/taxonomies.md` quando houver dúvida entre famílias ou mecanismos.
 5. Se existir memória do Observatório, executar `scripts/observatory_memory.py candidates` para recuperar primeiro hipóteses e padrões que precisam de apoio; depois usar `search` somente para referências comparáveis. Toda ligação deve indicar `targetPatternId`, papel da evidência, nível de comparação e suficiência da cobertura.
 6. Produzir a avaliação pelas cinco lentes e pelos oito critérios. Seguir `references/report-contract.md` para o formato.
-7. Se o usuário disser “ensine”, “aprenda”, “guarde” ou equivalente, gerar uma ficha de referência estruturada e executar `scripts/observatory_memory.py add`. Para lotes, concentrar três referências em um alvo, uma em falsificação/limite e uma em exploração, com no máximo uma hipótese nova. Não guardar automaticamente uma avaliação comum.
+7. Se o usuário disser “ensine”, “aprenda”, “guarde” ou equivalente, gerar uma ficha de referência estruturada e executar `scripts/observatory_memory.py add`. Para lotes, concentrar três referências em um alvo, uma em falsificação/limite e uma em exploração, com no máximo uma hipótese nova. Registrar papéis, IDs, cobertura por alegação e procedência/consentimento antes de consolidar. Não guardar automaticamente uma avaliação comum.
 
 ## Regras inegociáveis
 

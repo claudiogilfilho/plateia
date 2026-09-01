@@ -44,6 +44,7 @@ type RawHypothesis = {
   status?: unknown;
   supportReferenceIds?: unknown;
   reasonNotPromoted?: unknown;
+  consolidatedIntoPatternId?: unknown;
 };
 
 function text(value: unknown, fallback = "") { return typeof value === "string" && value.trim() ? value.trim() : fallback; }
@@ -92,6 +93,7 @@ export function listPortablePatterns() {
   const patterns = (raw.patterns ?? []).map(normalizedPattern);
   const patternIds = new Set(patterns.map(pattern => pattern.id));
   const hypotheses = (raw.hypotheses ?? []).flatMap((hypothesis, index) => {
+    if (text(hypothesis.consolidatedIntoPatternId)) return [];
     const id = text(hypothesis.id, `portable-hypothesis-${index + 1}`);
     if (patternIds.has(id)) return [];
     const supportReferenceIds = texts(hypothesis.supportReferenceIds, 100);
@@ -123,5 +125,6 @@ export const PORTABLE_MEMORY_STATS = {
   referenceCount: ((memory as { references?: unknown[] }).references ?? []).length,
   patternCount: ((memory as { patterns?: unknown[] }).patterns ?? []).length,
   hypothesisCount: ((memory as { hypotheses?: unknown[] }).hypotheses ?? []).length,
+  activeHypothesisCount: ((memory as { hypotheses?: RawHypothesis[] }).hypotheses ?? []).filter(hypothesis => !text(hypothesis.consolidatedIntoPatternId)).length,
   taxonomyVersion: text((memory as { taxonomyVersion?: unknown }).taxonomyVersion, "legacy"),
 };

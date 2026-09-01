@@ -49,10 +49,11 @@ export function decidePatternStage(input: {
   supportingCreators: string[];
   supportingSources?: string[];
   existingStage?: string;
+  hasHumanOrExperimentalValidation?: boolean;
 }): { stage: PatternStage; creatorDiversityCount: number; sourceDiversityCount: number; eligibleForProvisional: boolean } {
   const creatorDiversityCount = unique(input.supportingCreators);
   const sourceDiversityCount = unique(input.supportingSources ?? input.supportingCreators);
-  if (input.existingStage === "experimentally_validated" || input.existingStage === "validated") {
+  if ((input.existingStage === "experimentally_validated" || input.existingStage === "validated") && input.hasHumanOrExperimentalValidation) {
     return { stage: "experimentally_validated", creatorDiversityCount, sourceDiversityCount, eligibleForProvisional: true };
   }
   if (input.counterexampleCount >= input.supportingCount && input.counterexampleCount >= 2) {
@@ -68,6 +69,7 @@ export function decidePatternStage(input: {
 export function decidePatternStageFromEvidence(input: {
   evidence: PatternEvidenceCandidate[];
   existingStage?: string;
+  hasHumanOrExperimentalValidation?: boolean;
 }) {
   const summary = summarizePatternEvidence(input.evidence);
   return {
@@ -78,6 +80,7 @@ export function decidePatternStageFromEvidence(input: {
       supportingCreators: summary.supports.map(item => item.creator),
       supportingSources: summary.supports.map(item => item.sourceIdentity || item.creator),
       existingStage: input.existingStage,
+      hasHumanOrExperimentalValidation: input.hasHumanOrExperimentalValidation,
     }),
   };
 }
