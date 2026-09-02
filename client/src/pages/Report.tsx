@@ -1,6 +1,7 @@
 import { Badge } from "@/components/ui/badge";
 import { trpc } from "@/lib/trpc";
 import { parseReportJson } from "@/lib/reportParsing";
+import { DecisionReportView, isDecisionReport } from "@/components/DecisionReportView";
 import { AlertTriangle, ArrowLeft, BrainCircuit, CheckCircle2, CircleAlert, ExternalLink, Lightbulb, Link2, Loader2, Target, UploadCloud } from "lucide-react";
 import React, { type CSSProperties } from "react";
 import { Link, useRoute, useSearch } from "wouter";
@@ -48,10 +49,12 @@ export default function Report() {
   }
   if (!analysis.reportJson) return <div className="mx-auto max-w-xl pt-16 text-center"><Loader2 className="mx-auto mb-4 h-9 w-9 animate-spin text-violet-600" /><h1 className="font-display text-3xl font-extrabold text-[#2b1058]">A Platéia está lendo seu material.</h1><p className="mt-2 text-slate-600">O relatório aparecerá aqui assim que a avaliação for concluída.</p></div>;
 
-  const report = parseReportJson<ReportData>(analysis.reportJson);
-  if (!isCompleteReport(report)) return <InvalidReport />;
+  const parsedReport = parseReportJson<unknown>(analysis.reportJson);
   const reportTitle = analysis.product || `Avaliação de ${analysis.contentType}`;
   const reportContext = [analysis.objective && `Objetivo: ${analysis.objective}`, analysis.targetAudience && `Público: ${analysis.targetAudience}`].filter(Boolean).join(" · ");
+  if (isDecisionReport(parsedReport)) return <DecisionReportView report={parsedReport} analysisId={analysis.id} title={reportTitle} context={reportContext} />;
+  const report = parsedReport as ReportData | null;
+  if (!isCompleteReport(report)) return <InvalidReport />;
   const excludedCriteria = Array.from(new Set([...(report.coverage?.excludedCriteria ?? []), ...(report.synthesis.unassessedCriteria ?? [])]));
   const assessedCriteria = criteria.filter(key => !excludedCriteria.includes(key));
   const avgByCriterion = Object.fromEntries(assessedCriteria.flatMap(key => {

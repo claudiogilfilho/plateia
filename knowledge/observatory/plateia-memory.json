@@ -20372,10 +20372,10 @@
         ],
         "hookTypes": [
           "problema",
-          "demonstracao"
+          "demonstracao_antecipada"
         ],
         "narrativeElements": [
-          "hipotese",
+          "promessa",
           "progressao",
           "payoff"
         ],
@@ -20463,6 +20463,7 @@
         "https://videohighlight.com/v/4R7fovQz32M"
       ],
       "training": {
+        "evidencePolicyVersion": "1.1",
         "evidenceRole": "target_support",
         "evidenceLevel": 1,
         "requiredEvidenceObserved": true,
@@ -20471,7 +20472,7 @@
           {
             "claim": "fenômeno ou resultado antecipado antes do procedimento",
             "requiredModalities": [
-              "transcript_or_timestamped_summary"
+              "timestamped_summary"
             ],
             "observedModalities": [
               "timestamped_summary"
@@ -20481,21 +20482,12 @@
           {
             "claim": "progressão até a demonstração e o resultado",
             "requiredModalities": [
-              "transcript_or_timestamped_summary"
+              "timestamped_summary"
             ],
             "observedModalities": [
               "timestamped_summary"
             ],
             "sufficient": true
-          },
-          {
-            "claim": "ritmo ou retenção",
-            "requiredModalities": [
-              "video",
-              "retention_metrics"
-            ],
-            "observedModalities": [],
-            "sufficient": false
           }
         ],
         "provenanceAndConsent": {
@@ -20632,7 +20624,7 @@
         "pace": "unknown",
         "mechanisms": [
           "curiosidade",
-          "clareza"
+          "utilidade_pratica"
         ],
         "hookTypes": [
           "pergunta"
@@ -20715,6 +20707,7 @@
         "https://www.youtube.com/watch?v=qTZustLSrbY"
       ],
       "training": {
+        "evidencePolicyVersion": "1.1",
         "evidenceRole": "target_support",
         "evidenceLevel": 1,
         "requiredEvidenceObserved": false,
@@ -20723,7 +20716,7 @@
           {
             "claim": "fenômeno antecipado",
             "requiredModalities": [
-              "title_or_description"
+              "title"
             ],
             "observedModalities": [
               "title",
@@ -20875,7 +20868,7 @@
           "surpresa"
         ],
         "hookTypes": [
-          "resultado",
+          "resultado_antecipado",
           "numero"
         ],
         "narrativeElements": [
@@ -20956,6 +20949,7 @@
         "https://www.youtube.com/watch?v=A9zO9fy1JbM"
       ],
       "training": {
+        "evidencePolicyVersion": "1.1",
         "evidenceRole": "target_support",
         "evidenceLevel": 1,
         "requiredEvidenceObserved": false,
@@ -20964,7 +20958,7 @@
           {
             "claim": "resultado antecipado",
             "requiredModalities": [
-              "title_or_description"
+              "title"
             ],
             "observedModalities": [
               "title",
@@ -21117,7 +21111,7 @@
           "surpresa"
         ],
         "hookTypes": [
-          "resultado",
+          "resultado_antecipado",
           "pergunta"
         ],
         "narrativeElements": [
@@ -21201,6 +21195,7 @@
         "https://www.youtube.com/watch?v=6YopYUmIfW0"
       ],
       "training": {
+        "evidencePolicyVersion": "1.1",
         "evidenceRole": "falsification_or_boundary",
         "evidenceLevel": 2,
         "requiredEvidenceObserved": false,
@@ -21353,19 +21348,18 @@
         "durationBand": "over_60s",
         "pace": "unknown",
         "mechanisms": [
-          "clareza",
-          "utilidade"
+          "utilidade_pratica"
         ],
         "hookTypes": [
           "problema",
-          "resultado"
+          "resultado_antecipado"
         ],
         "narrativeElements": [
           "problema",
-          "solucao"
+          "conclusao"
         ],
         "proofTypes": [
-          "tutorial"
+          "ausencia_prova_necessaria"
         ],
         "ctaTypes": [],
         "distributionContext": {
@@ -21438,6 +21432,7 @@
         "https://www.youtube.com/@RibeiroArCondicionado/videos"
       ],
       "training": {
+        "evidencePolicyVersion": "1.1",
         "evidenceRole": "controlled_exploration",
         "evidenceLevel": 3,
         "requiredEvidenceObserved": false,

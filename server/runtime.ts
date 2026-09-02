@@ -10,8 +10,19 @@ function isTruthy(value: string | undefined) {
 
 export function getAuthMode(environment: RuntimeEnvironment = process.env): PlateiaAuthMode {
   const explicit = environment.PLATEIA_AUTH_MODE?.trim().toLowerCase();
-  if (explicit === "guest" || explicit === "oauth") return explicit;
-  return environment.OAUTH_SERVER_URL && environment.VITE_APP_ID && environment.JWT_SECRET ? "oauth" : "guest";
+  const oauthReady = Boolean(environment.OAUTH_SERVER_URL && environment.VITE_APP_ID && environment.JWT_SECRET);
+  const production = environment.NODE_ENV === "production";
+  if (explicit === "oauth") {
+    if (!oauthReady) throw new Error("Autenticação OAuth incompleta: configure OAUTH_SERVER_URL, VITE_APP_ID e JWT_SECRET.");
+    return "oauth";
+  }
+  if (explicit === "guest") {
+    if (production) throw new Error("PLATEIA_AUTH_MODE=guest é bloqueado em produção para manter o Platéia privado.");
+    return "guest";
+  }
+  if (oauthReady) return "oauth";
+  if (production) throw new Error("O Platéia não inicia em produção sem autenticação privada configurada.");
+  return "guest";
 }
 
 export function getGuestUser(environment: RuntimeEnvironment = process.env): User {

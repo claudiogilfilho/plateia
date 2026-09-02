@@ -17,4 +17,10 @@ describe("Plateia MVP runtime", () => {
     expect(getGuestUser({}).role).toBe("user");
     expect(getGuestUser({ PLATEIA_GUEST_ADMIN: "true" }).role).toBe("admin");
   });
+
+  it("fails closed in production when private authentication is missing", () => {
+    expect(() => getAuthMode({ NODE_ENV: "production" })).toThrow("não inicia em produção");
+    expect(() => getAuthMode({ NODE_ENV: "production", PLATEIA_AUTH_MODE: "guest" })).toThrow("bloqueado em produção");
+    expect(getAuthMode({ NODE_ENV: "production", PLATEIA_AUTH_MODE: "oauth", OAUTH_SERVER_URL: "https://auth.example", VITE_APP_ID: "plateia", JWT_SECRET: "secret" })).toBe("oauth");
+  });
 });
