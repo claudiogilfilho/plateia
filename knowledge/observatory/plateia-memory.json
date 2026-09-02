@@ -21507,7 +21507,7 @@
     {
       "id": "pat-20260823-001",
       "status": "provisional",
-      "statement": "Em vídeos educativos de demonstração científica, anunciar um fenômeno ou resultado observável antes do passo a passo, e entregar progressão até a demonstração, tende a reduzir o tempo de compreensão e sustentar curiosidade.",
+      "statement": "Em vídeos educativos de demonstração científica, antecipar uma hipótese ou resultado observável antes do passo a passo e organizar a entrega em progressão torna pergunta, teste e recompensa identificáveis cedo; o efeito sobre curiosidade, compreensão e retenção ainda não foi medido.",
       "mechanism": [
         "curiosidade",
         "surpresa",
@@ -21538,9 +21538,9 @@
       ],
       "validation": "requires_human_or_experimental_evidence",
       "stage": "provisional",
-      "name": "Fenômeno ou hipótese antecipada com progressão até a demonstração",
+      "name": "Hipótese antecipada com progressão verificável até o resultado",
       "creativeFamily": "família demonstracao",
-      "objective": "objetivo educar ou reter",
+      "objective": "clareza e progressão da demonstração",
       "segment": "fenômeno visual verificável",
       "supportingCount": 5,
       "counterexampleCount": 0,
@@ -21599,7 +21599,7 @@
       "taxonomyVersion": "3.0",
       "creatorDiversityCount": 2,
       "sourceDiversityCount": 2,
-      "patternType": "retencao",
+      "patternType": "compreensao",
       "caseLimitReferenceIds": [
         "obs-20260902-089"
       ],
@@ -23856,7 +23856,7 @@
         "independentCreatorsAddedToPattern": 1,
         "newHypotheses": 0
       },
-      "outcome": "Um apoio independente com sequência textual suficiente elevou o padrão à diversidade mínima para status provisório. Duas promessas brasileiras foram rejeitadas como apoio por falta de progressão observável; nenhum efeito de retenção foi atribuído.",
+      "outcome": "Um apoio independente com sequência textual suficiente elevou o padrão estrutural à diversidade mínima para status provisório. Duas promessas brasileiras foram rejeitadas como apoio por falta de progressão observável; curiosidade, compreensão, retenção e desempenho não foram atribuídos.",
       "nextTarget": "demonstração científica brasileira de criador independente com vídeo ou transcrição integral, resultado antecipado, comentários e baseline funcional contemporâneo; incluir um caso de entrega frustrada ou resultado negativo",
       "limitations": [
         "Nenhuma mídia audiovisual integral foi reproduzida.",
