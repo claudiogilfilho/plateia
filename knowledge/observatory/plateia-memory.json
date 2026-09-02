@@ -1,6 +1,6 @@
 {
   "protocol": "plateia-memory/1.0",
-  "updatedAt": "2026-09-01T19:15:00.000Z",
+  "updatedAt": "2026-09-02T11:02:26.000Z",
   "references": [
     {
       "id": "obs-20260823-001",
@@ -20274,12 +20274,1239 @@
         ],
         "causalClaimAllowed": false
       }
+    },
+    {
+      "id": "obs-20260902-086",
+      "title": "Experimento escalas de temperatura..",
+      "creator": "Robinson Yesid Morales Cupa",
+      "creatorIdentity": "robinson-yesid-morales-cupa",
+      "sourceIdentity": "robinson-yesid-morales-cupa",
+      "country": "LATAM",
+      "url": "https://www.youtube.com/watch?v=4R7fovQz32M",
+      "publishedAt": "não acessível",
+      "duration": "PT2M43S",
+      "createdAt": "2026-09-02T11:02:26.000Z",
+      "coverage": {
+        "level": "partial",
+        "accessible": [
+          "título",
+          "canal",
+          "duração",
+          "visualizações e curtidas aproximadas indexadas",
+          "resumo textual com timestamps",
+          "objetivo e hipótese",
+          "materiais",
+          "sequência dos três testes",
+          "resultados e explicações textuais"
+        ],
+        "missing": [
+          "vídeo integral reproduzível",
+          "imagem em movimento e cenas",
+          "áudio efetivamente ouvido",
+          "texto na tela",
+          "transcrição integral auditada",
+          "ritmo e montagem",
+          "retenção",
+          "comentários",
+          "data exata",
+          "origem da distribuição"
+        ]
+      },
+      "publicMetrics": {
+        "viewsObserved": "aprox. 8,7 mil",
+        "likesObserved": "aprox. 189",
+        "observedAt": "2026-09-02",
+        "sourceType": "youtube_public_search_snapshot",
+        "causality": "not_inferred"
+      },
+      "classification": {
+        "taxonomyVersion": "3.0",
+        "container": "youtube_video",
+        "materialFormat": "video_longo",
+        "presentationFormats": [
+          "demonstracao",
+          "tutorial"
+        ],
+        "primaryFamily": "demonstracao",
+        "secondaryFamilies": [
+          "educativo"
+        ],
+        "functionalMix": [
+          {
+            "family": "demonstracao",
+            "percentage": 70
+          },
+          {
+            "family": "educativo",
+            "percentage": 30
+          }
+        ],
+        "objectives": [
+          "educar",
+          "retencao"
+        ],
+        "advertisingType": "editorial_organico",
+        "commercialIntent": "ausente",
+        "advertisedEntity": {
+          "kind": "nenhuma",
+          "name": "",
+          "confidence": "high"
+        },
+        "contentTopic": {
+          "label": "efeitos do calor em balões vazios, com água e com solo",
+          "iabCode": null
+        },
+        "segment": "ciência e experimentos",
+        "subsegment": "calor, temperatura e capacidade térmica",
+        "probableAudience": "estudantes e educadores de ciências",
+        "awarenessStage": "inconsciente",
+        "productionLevel": "simple",
+        "creatorScale": "small",
+        "replicability": "medium",
+        "durationBand": "over_60s",
+        "pace": "unknown",
+        "mechanisms": [
+          "curiosidade",
+          "surpresa",
+          "recompensa"
+        ],
+        "hookTypes": [
+          "problema",
+          "demonstracao"
+        ],
+        "narrativeElements": [
+          "hipotese",
+          "progressao",
+          "payoff"
+        ],
+        "proofTypes": [
+          "demonstracao",
+          "mecanismo_explicado"
+        ],
+        "ctaTypes": [],
+        "distributionContext": {
+          "organicPaid": "unknown",
+          "trendDependency": "unknown"
+        },
+        "confidence": "high",
+        "evidence": [
+          "O resumo timestampado apresenta objetivo e hipótese no início, antes do procedimento.",
+          "A sequência textual registra balão vazio, balão com água e balão com solo, seguida dos resultados e explicações.",
+          "A mídia não foi reproduzida; a execução visual, o áudio e o ritmo não foram avaliados."
+        ],
+        "alternativeClassifications": [],
+        "missingInformation": [
+          "execução visual",
+          "segurança prática integral",
+          "ritmo",
+          "retenção",
+          "comentários",
+          "data exata"
+        ],
+        "needsHumanReview": true
+      },
+      "comparison": {
+        "level": 1,
+        "group": "demonstração científica educativa com hipótese explícita antes do procedimento e progressão até resultados observáveis",
+        "referenceIds": [
+          "obs-20260823-001",
+          "obs-20260823-002",
+          "obs-20260823-003",
+          "obs-20260829-069"
+        ],
+        "confidence": "high"
+      },
+      "observations": [
+        "Objetivo e hipótese são declarados antes dos passos.",
+        "Três condições são testadas em sequência e recebem resultados distintos.",
+        "O material acessível registra a entrega do resultado, mas não sua execução audiovisual."
+      ],
+      "interpretations": [
+        "A hipótese explícita cria uma pergunta verificável e a progressão experimental oferece recompensas intermediárias.",
+        "O caso amplia o mecanismo para um criador independente; não demonstra retenção ou causalidade."
+      ],
+      "scores": {
+        "gancho": 86,
+        "clareza": 91,
+        "relevancia": 83,
+        "desejo": 78,
+        "confianca": 82,
+        "retencao": "not_assessed",
+        "acao": "not_assessed",
+        "objecoes": 78
+      },
+      "fiveLenses": {
+        "apressado": "Entende cedo o que será comparado.",
+        "analitico": "Recebe hipótese, condições e resultados; falta auditoria audiovisual.",
+        "aspiracional": "Consegue imaginar uma reprodução escolar com supervisão.",
+        "comunidade": "Participação e comentários não foram observados.",
+        "cetico": "A estrutura foi observada em texto; retenção e execução visual continuam não mensuradas."
+      },
+      "hypotheses": [],
+      "replicable": [
+        "Declarar uma hipótese comparativa antes do procedimento.",
+        "Organizar condições em sequência e fechar cada uma com resultado e explicação."
+      ],
+      "limitations": [
+        "Chama, balões e calor exigem supervisão e protocolo de segurança.",
+        "Resumo secundário pode conter erros.",
+        "Sem audiovisual integral, ritmo e retenção não podem ser inferidos."
+      ],
+      "provenance": [
+        "public_content",
+        "public_search_snapshot",
+        "secondary_timestamped_summary",
+        "observatory_inference"
+      ],
+      "sourceEvidence": [
+        "https://www.youtube.com/watch?v=4R7fovQz32M",
+        "https://videohighlight.com/v/4R7fovQz32M"
+      ],
+      "training": {
+        "evidenceRole": "target_support",
+        "evidenceLevel": 1,
+        "requiredEvidenceObserved": true,
+        "supportEligible": true,
+        "claimCoverage": [
+          {
+            "claim": "fenômeno ou resultado antecipado antes do procedimento",
+            "requiredModalities": [
+              "transcript_or_timestamped_summary"
+            ],
+            "observedModalities": [
+              "timestamped_summary"
+            ],
+            "sufficient": true
+          },
+          {
+            "claim": "progressão até a demonstração e o resultado",
+            "requiredModalities": [
+              "transcript_or_timestamped_summary"
+            ],
+            "observedModalities": [
+              "timestamped_summary"
+            ],
+            "sufficient": true
+          },
+          {
+            "claim": "ritmo ou retenção",
+            "requiredModalities": [
+              "video",
+              "retention_metrics"
+            ],
+            "observedModalities": [],
+            "sufficient": false
+          }
+        ],
+        "provenanceAndConsent": {
+          "storyOrigin": "not_applicable",
+          "consentStatus": "not_applicable",
+          "identityProtection": "not_applicable",
+          "evidence": [
+            "experimento didático, sem relato pessoal"
+          ]
+        },
+        "replicable": [
+          "Antecipar hipótese concreta e entregar comparação progressiva."
+        ],
+        "contingent": [
+          "supervisão",
+          "segurança com chama"
+        ],
+        "notRecommended": [
+          "copiar roteiro",
+          "inferir cenas, áudio, ritmo ou retenção",
+          "tratar alcance como prova causal"
+        ],
+        "hypotheses": []
+      },
+      "viralAssessment": {
+        "status": "indeterminate",
+        "observedSignal": "aprox. 8,7 mil visualizações, sem baseline funcional",
+        "missingForRelativeAssessment": [
+          "baseline contemporâneo do canal",
+          "impressões",
+          "retenção",
+          "fontes de tráfego"
+        ],
+        "confounders": [
+          "idade",
+          "tamanho do canal",
+          "tema",
+          "distribuição"
+        ],
+        "causalClaimAllowed": false
+      }
+    },
+    {
+      "id": "obs-20260902-087",
+      "title": "Como se forma o arco-íris? | Experimento fácil para fazer em casa!",
+      "creator": "Descobrilândia",
+      "creatorIdentity": "descobrilandia",
+      "sourceIdentity": "descobrilandia",
+      "country": "BR",
+      "url": "https://www.youtube.com/watch?v=qTZustLSrbY",
+      "publishedAt": "não acessível",
+      "duration": "não acessível",
+      "createdAt": "2026-09-02T11:02:26.000Z",
+      "coverage": {
+        "level": "partial",
+        "accessible": [
+          "título",
+          "canal",
+          "descrição indexada",
+          "personagens Liz e Zoios",
+          "visualizações e curtidas aproximadas indexadas"
+        ],
+        "missing": [
+          "vídeo integral",
+          "imagem em movimento",
+          "áudio",
+          "transcrição",
+          "passos do experimento",
+          "resultado observado",
+          "texto na tela",
+          "ritmo",
+          "retenção",
+          "comentários",
+          "data exata"
+        ]
+      },
+      "publicMetrics": {
+        "viewsObserved": "aprox. 1,7 mil",
+        "likesObserved": "aprox. 37",
+        "observedAt": "2026-09-02",
+        "sourceType": "public_search_snapshot",
+        "causality": "not_inferred"
+      },
+      "classification": {
+        "taxonomyVersion": "3.0",
+        "container": "youtube_video",
+        "materialFormat": "video_longo",
+        "presentationFormats": [
+          "animacao",
+          "demonstracao"
+        ],
+        "primaryFamily": "educativo",
+        "secondaryFamilies": [
+          "demonstracao",
+          "entretenimento"
+        ],
+        "functionalMix": [
+          {
+            "family": "educativo",
+            "percentage": 50
+          },
+          {
+            "family": "demonstracao",
+            "percentage": 30
+          },
+          {
+            "family": "entretenimento",
+            "percentage": 20
+          }
+        ],
+        "objectives": [
+          "educar",
+          "visualizacao"
+        ],
+        "advertisingType": "editorial_organico",
+        "commercialIntent": "ausente",
+        "advertisedEntity": {
+          "kind": "nenhuma",
+          "name": "",
+          "confidence": "medium"
+        },
+        "contentTopic": {
+          "label": "formação do arco-íris",
+          "iabCode": null
+        },
+        "segment": "educação infantil",
+        "subsegment": "ciência para crianças",
+        "probableAudience": "crianças, famílias e educadores",
+        "awarenessStage": "inconsciente",
+        "productionLevel": "intermediate",
+        "creatorScale": "small",
+        "replicability": "high",
+        "durationBand": "unknown",
+        "pace": "unknown",
+        "mechanisms": [
+          "curiosidade",
+          "clareza"
+        ],
+        "hookTypes": [
+          "pergunta"
+        ],
+        "narrativeElements": [
+          "problema"
+        ],
+        "proofTypes": [
+          "demonstracao"
+        ],
+        "ctaTypes": [],
+        "distributionContext": {
+          "organicPaid": "unknown",
+          "trendDependency": "unknown"
+        },
+        "confidence": "medium",
+        "evidence": [
+          "O título formula a pergunta e promete experimento doméstico.",
+          "A descrição diz que Liz e Zoios explicam a origem do fenômeno.",
+          "Procedimento e entrega não ficaram acessíveis."
+        ],
+        "alternativeClassifications": [],
+        "missingInformation": [
+          "procedimento",
+          "resultado",
+          "transcrição",
+          "execução audiovisual",
+          "ritmo",
+          "retenção",
+          "comentários"
+        ],
+        "needsHumanReview": true
+      },
+      "comparison": {
+        "level": 1,
+        "group": "demonstração científica infantil que promete fenômeno antes do procedimento",
+        "referenceIds": [
+          "obs-20260902-086"
+        ],
+        "confidence": "medium"
+      },
+      "observations": [
+        "A pergunta e o fenômeno são claros no título.",
+        "A descrição promete explicação divertida, mas não mostra a progressão."
+      ],
+      "interpretations": [
+        "Abertura semântica é compatível com o padrão, porém cobertura insuficiente impede contar apoio."
+      ],
+      "scores": {
+        "gancho": 86,
+        "clareza": 88,
+        "relevancia": 82,
+        "desejo": 80,
+        "confianca": "not_assessed",
+        "retencao": "not_assessed",
+        "acao": "not_assessed",
+        "objecoes": "not_assessed"
+      },
+      "fiveLenses": {
+        "apressado": "Entende o fenômeno e que haverá experimento.",
+        "analitico": "Não recebe materiais, passos ou resultado na cobertura.",
+        "aspiracional": "Percebe que a atividade pretende ser doméstica.",
+        "comunidade": "Não mensurado.",
+        "cetico": "Título e descrição não provam a entrega."
+      },
+      "hypotheses": [],
+      "replicable": [
+        "Nomear o fenômeno e formular uma pergunta simples antes do passo a passo."
+      ],
+      "limitations": [
+        "Somente título, descrição e métricas indexadas.",
+        "Não conta como apoio ao padrão porque a progressão não foi observada."
+      ],
+      "provenance": [
+        "public_content",
+        "public_search_snapshot",
+        "observatory_inference"
+      ],
+      "sourceEvidence": [
+        "https://www.youtube.com/watch?v=qTZustLSrbY"
+      ],
+      "training": {
+        "evidenceRole": "target_support",
+        "evidenceLevel": 1,
+        "requiredEvidenceObserved": false,
+        "supportEligible": false,
+        "claimCoverage": [
+          {
+            "claim": "fenômeno antecipado",
+            "requiredModalities": [
+              "title_or_description"
+            ],
+            "observedModalities": [
+              "title",
+              "description"
+            ],
+            "sufficient": true
+          },
+          {
+            "claim": "progressão até a demonstração",
+            "requiredModalities": [
+              "transcript_or_video"
+            ],
+            "observedModalities": [],
+            "sufficient": false
+          }
+        ],
+        "provenanceAndConsent": {
+          "storyOrigin": "not_applicable",
+          "consentStatus": "not_applicable",
+          "identityProtection": "not_applicable",
+          "evidence": [
+            "conteúdo educativo ficcional"
+          ]
+        },
+        "replicable": [
+          "Abrir com pergunta concreta e experimento compatível."
+        ],
+        "contingent": [
+          "animação e personagens"
+        ],
+        "notRecommended": [
+          "contar como apoio sem observar a entrega",
+          "inferir cenas, áudio, ritmo ou retenção"
+        ],
+        "hypotheses": []
+      },
+      "viralAssessment": {
+        "status": "indeterminate",
+        "observedSignal": "aprox. 1,7 mil visualizações, sem baseline",
+        "missingForRelativeAssessment": [
+          "baseline",
+          "idade exata",
+          "retenção",
+          "distribuição"
+        ],
+        "confounders": [
+          "canal infantil",
+          "animação",
+          "idade"
+        ],
+        "causalClaimAllowed": false
+      }
+    },
+    {
+      "id": "obs-20260902-088",
+      "title": "COMO FAZER UM ARCO-ÍRIS DE DENSIDADE ☆ Experimentos Fáceis de Fazer em Casa #6",
+      "creator": "Aprenda Brincando",
+      "creatorIdentity": "aprenda-brincando",
+      "sourceIdentity": "aprenda-brincando",
+      "country": "BR",
+      "url": "https://www.youtube.com/watch?v=A9zO9fy1JbM",
+      "publishedAt": "não acessível",
+      "duration": "não acessível",
+      "createdAt": "2026-09-02T11:02:26.000Z",
+      "coverage": {
+        "level": "partial",
+        "accessible": [
+          "título",
+          "canal",
+          "numeração da série",
+          "descrição indexada do experimento"
+        ],
+        "missing": [
+          "vídeo integral",
+          "imagem em movimento",
+          "áudio",
+          "transcrição",
+          "texto na tela",
+          "materiais completos",
+          "passos completos",
+          "resultado observado",
+          "data",
+          "métricas",
+          "ritmo",
+          "retenção",
+          "comentários"
+        ]
+      },
+      "publicMetrics": {
+        "observedAt": "2026-09-02",
+        "sourceType": "public_search_snapshot",
+        "causality": "not_inferred",
+        "viewsObserved": "not_measured",
+        "likesObserved": "not_measured"
+      },
+      "classification": {
+        "taxonomyVersion": "3.0",
+        "container": "youtube_video",
+        "materialFormat": "video_longo",
+        "presentationFormats": [
+          "demonstracao",
+          "tutorial"
+        ],
+        "primaryFamily": "entretenimento",
+        "secondaryFamilies": [
+          "demonstracao",
+          "educativo"
+        ],
+        "functionalMix": [
+          {
+            "family": "entretenimento",
+            "percentage": 40
+          },
+          {
+            "family": "demonstracao",
+            "percentage": 35
+          },
+          {
+            "family": "educativo",
+            "percentage": 25
+          }
+        ],
+        "objectives": [
+          "educar",
+          "visualizacao"
+        ],
+        "advertisingType": "editorial_organico",
+        "commercialIntent": "ausente",
+        "advertisedEntity": {
+          "kind": "nenhuma",
+          "name": "",
+          "confidence": "medium"
+        },
+        "contentTopic": {
+          "label": "arco-íris e torre de densidade",
+          "iabCode": null
+        },
+        "segment": "educação infantil",
+        "subsegment": "experimentos domésticos",
+        "probableAudience": "crianças, famílias e educadores",
+        "awarenessStage": "inconsciente",
+        "productionLevel": "simple",
+        "creatorScale": "unknown",
+        "replicability": "high",
+        "durationBand": "unknown",
+        "pace": "unknown",
+        "mechanisms": [
+          "curiosidade",
+          "surpresa"
+        ],
+        "hookTypes": [
+          "resultado",
+          "numero"
+        ],
+        "narrativeElements": [
+          "continuidade_serial"
+        ],
+        "proofTypes": [
+          "demonstracao"
+        ],
+        "ctaTypes": [],
+        "distributionContext": {
+          "organicPaid": "unknown",
+          "trendDependency": "unknown"
+        },
+        "confidence": "medium",
+        "evidence": [
+          "O título antecipa um resultado visual e identifica o sexto episódio.",
+          "A descrição indexada chama o teste de afunda ou boia na torre de densidade.",
+          "A execução e a progressão não ficaram acessíveis."
+        ],
+        "alternativeClassifications": [],
+        "missingInformation": [
+          "procedimento",
+          "resultado executado",
+          "audiovisual",
+          "métricas",
+          "ritmo",
+          "retenção",
+          "comentários"
+        ],
+        "needsHumanReview": true
+      },
+      "comparison": {
+        "level": 1,
+        "group": "demonstração científica infantil que promete resultado visual antes do procedimento",
+        "referenceIds": [
+          "obs-20260902-087"
+        ],
+        "confidence": "medium"
+      },
+      "observations": [
+        "O resultado visual é nomeado no título.",
+        "A série numerada sugere recorrência, mas a entrega não foi observada."
+      ],
+      "interpretations": [
+        "Promessa clara não basta para apoio quando procedimento e resultado permanecem ausentes."
+      ],
+      "scores": {
+        "gancho": 88,
+        "clareza": 85,
+        "relevancia": 82,
+        "desejo": 82,
+        "confianca": "not_assessed",
+        "retencao": "not_assessed",
+        "acao": "not_assessed",
+        "objecoes": "not_assessed"
+      },
+      "fiveLenses": {
+        "apressado": "Entende o resultado prometido.",
+        "analitico": "Não recebe materiais, passos ou explicação verificáveis.",
+        "aspiracional": "Percebe uma atividade doméstica aparentemente simples.",
+        "comunidade": "Não mensurado.",
+        "cetico": "Não pode verificar se o arco-íris de densidade foi entregue."
+      },
+      "hypotheses": [],
+      "replicable": [
+        "Nomear um resultado visual específico e situá-lo numa série recorrente."
+      ],
+      "limitations": [
+        "Cobertura restrita a título e descrição indexada.",
+        "Não conta como apoio formal."
+      ],
+      "provenance": [
+        "public_content",
+        "public_search_snapshot",
+        "observatory_inference"
+      ],
+      "sourceEvidence": [
+        "https://www.youtube.com/watch?v=A9zO9fy1JbM"
+      ],
+      "training": {
+        "evidenceRole": "target_support",
+        "evidenceLevel": 1,
+        "requiredEvidenceObserved": false,
+        "supportEligible": false,
+        "claimCoverage": [
+          {
+            "claim": "resultado antecipado",
+            "requiredModalities": [
+              "title_or_description"
+            ],
+            "observedModalities": [
+              "title",
+              "description"
+            ],
+            "sufficient": true
+          },
+          {
+            "claim": "progressão e entrega",
+            "requiredModalities": [
+              "transcript_or_video"
+            ],
+            "observedModalities": [],
+            "sufficient": false
+          }
+        ],
+        "provenanceAndConsent": {
+          "storyOrigin": "not_applicable",
+          "consentStatus": "not_applicable",
+          "identityProtection": "not_applicable",
+          "evidence": [
+            "experimento educativo"
+          ]
+        },
+        "replicable": [
+          "Antecipar resultado visual sem ocultar o tema."
+        ],
+        "contingent": [
+          "apelo infantil",
+          "série numerada"
+        ],
+        "notRecommended": [
+          "inferir entrega, cenas, áudio, ritmo ou retenção"
+        ],
+        "hypotheses": []
+      },
+      "viralAssessment": {
+        "status": "indeterminate",
+        "observedSignal": "métricas não acessíveis",
+        "missingForRelativeAssessment": [
+          "visualizações",
+          "baseline",
+          "retenção",
+          "distribuição"
+        ],
+        "confounders": [
+          "idade",
+          "canal infantil",
+          "tema"
+        ],
+        "causalClaimAllowed": false
+      }
+    },
+    {
+      "id": "obs-20260902-089",
+      "title": "Experimento fácil com ovo e vinagre. Como fazer o ovo virar borracha?",
+      "creator": "Joga comigo - Canal de Brinquedos em Português",
+      "creatorIdentity": "joga-comigo",
+      "sourceIdentity": "joga-comigo",
+      "country": "BR",
+      "url": "https://www.youtube.com/watch?v=6YopYUmIfW0",
+      "publishedAt": "não acessível",
+      "duration": "não acessível",
+      "createdAt": "2026-09-02T11:02:26.000Z",
+      "coverage": {
+        "level": "partial",
+        "accessible": [
+          "título",
+          "canal",
+          "visualizações e curtidas aproximadas indexadas",
+          "idade aproximada da publicação"
+        ],
+        "missing": [
+          "vídeo integral",
+          "imagem em movimento",
+          "áudio",
+          "transcrição",
+          "descrição completa",
+          "materiais e passos",
+          "resultado observado",
+          "texto na tela",
+          "data exata",
+          "ritmo",
+          "retenção",
+          "comentários",
+          "baseline contemporâneo"
+        ]
+      },
+      "publicMetrics": {
+        "viewsObserved": "aprox. 412 mil",
+        "likesObserved": "aprox. 15,9 mil",
+        "publishedAgeObserved": "aprox. 10 anos",
+        "observedAt": "2026-09-02",
+        "sourceType": "youtube_public_search_snapshot",
+        "causality": "not_inferred"
+      },
+      "classification": {
+        "taxonomyVersion": "3.0",
+        "container": "youtube_video",
+        "materialFormat": "video_longo",
+        "presentationFormats": [
+          "demonstracao",
+          "tutorial"
+        ],
+        "primaryFamily": "demonstracao",
+        "secondaryFamilies": [
+          "educativo",
+          "entretenimento"
+        ],
+        "functionalMix": [
+          {
+            "family": "demonstracao",
+            "percentage": 55
+          },
+          {
+            "family": "educativo",
+            "percentage": 25
+          },
+          {
+            "family": "entretenimento",
+            "percentage": 20
+          }
+        ],
+        "objectives": [
+          "educar",
+          "visualizacao"
+        ],
+        "advertisingType": "indeterminado",
+        "commercialIntent": "indeterminada",
+        "advertisedEntity": {
+          "kind": "indeterminado",
+          "name": "",
+          "confidence": "low"
+        },
+        "contentTopic": {
+          "label": "ovo em vinagre e transformação da casca",
+          "iabCode": null
+        },
+        "segment": "ciência e brinquedos",
+        "subsegment": "experimentos domésticos para crianças",
+        "probableAudience": "crianças e famílias",
+        "awarenessStage": "inconsciente",
+        "productionLevel": "simple",
+        "creatorScale": "medium",
+        "replicability": "high",
+        "durationBand": "unknown",
+        "pace": "unknown",
+        "mechanisms": [
+          "curiosidade",
+          "surpresa"
+        ],
+        "hookTypes": [
+          "resultado",
+          "pergunta"
+        ],
+        "narrativeElements": [
+          "problema"
+        ],
+        "proofTypes": [
+          "demonstracao"
+        ],
+        "ctaTypes": [],
+        "distributionContext": {
+          "organicPaid": "unknown",
+          "trendDependency": "unknown"
+        },
+        "confidence": "medium",
+        "evidence": [
+          "O título antecipa a transformação do ovo.",
+          "Não há cobertura da execução ou do resultado final."
+        ],
+        "alternativeClassifications": [],
+        "missingInformation": [
+          "procedimento",
+          "resultado",
+          "segurança",
+          "transcrição",
+          "audiovisual",
+          "ritmo",
+          "retenção",
+          "comentários"
+        ],
+        "needsHumanReview": true
+      },
+      "comparison": {
+        "level": 2,
+        "group": "caso-limite: transformação prometida no título sem progressão observável",
+        "referenceIds": [
+          "obs-20260902-086",
+          "obs-20260902-087",
+          "obs-20260902-088"
+        ],
+        "confidence": "high"
+      },
+      "observations": [
+        "A transformação é compreensível no título.",
+        "O grande alcance absoluto não pode ser comparado sem baseline e sem acesso à entrega."
+      ],
+      "interpretations": [
+        "É caso-limite de cobertura: promessa de resultado não equivale a demonstração observada.",
+        "Popularidade não comprova o mecanismo."
+      ],
+      "scores": {
+        "gancho": 89,
+        "clareza": 87,
+        "relevancia": 82,
+        "desejo": 83,
+        "confianca": "not_assessed",
+        "retencao": "not_assessed",
+        "acao": "not_assessed",
+        "objecoes": "not_assessed"
+      },
+      "fiveLenses": {
+        "apressado": "Entende a transformação prometida.",
+        "analitico": "Não consegue auditar procedimento ou explicação.",
+        "aspiracional": "Parece replicável com materiais domésticos.",
+        "comunidade": "Não mensurado.",
+        "cetico": "Alcance e título não provam entrega nem efeito."
+      },
+      "hypotheses": [],
+      "replicable": [
+        "Prometer uma transformação concreta e compatível com um experimento simples."
+      ],
+      "limitations": [
+        "Não conta como apoio nem contraexemplo por falta de progressão observável.",
+        "Sem baseline contemporâneo; métricas são apenas contexto."
+      ],
+      "provenance": [
+        "public_content",
+        "public_search_snapshot",
+        "observatory_inference"
+      ],
+      "sourceEvidence": [
+        "https://www.youtube.com/watch?v=6YopYUmIfW0"
+      ],
+      "training": {
+        "evidenceRole": "falsification_or_boundary",
+        "evidenceLevel": 2,
+        "requiredEvidenceObserved": false,
+        "supportEligible": false,
+        "claimCoverage": [
+          {
+            "claim": "resultado antecipado",
+            "requiredModalities": [
+              "title"
+            ],
+            "observedModalities": [
+              "title"
+            ],
+            "sufficient": true
+          },
+          {
+            "claim": "progressão e entrega",
+            "requiredModalities": [
+              "transcript_or_video"
+            ],
+            "observedModalities": [],
+            "sufficient": false
+          }
+        ],
+        "provenanceAndConsent": {
+          "storyOrigin": "not_applicable",
+          "consentStatus": "not_applicable",
+          "identityProtection": "not_applicable",
+          "evidence": [
+            "experimento educativo"
+          ]
+        },
+        "replicable": [
+          "Alinhar promessa e demonstração com materiais acessíveis."
+        ],
+        "contingent": [
+          "tempo de imersão",
+          "supervisão infantil"
+        ],
+        "notRecommended": [
+          "usar alcance como prova",
+          "inferir cenas, áudio, ritmo ou retenção"
+        ],
+        "hypotheses": []
+      },
+      "viralAssessment": {
+        "status": "indeterminate",
+        "observedSignal": "aprox. 412 mil visualizações, sem baseline funcional contemporâneo",
+        "missingForRelativeAssessment": [
+          "baseline",
+          "velocidade inicial",
+          "retenção",
+          "fontes de tráfego"
+        ],
+        "confounders": [
+          "idade de cerca de dez anos",
+          "tamanho do canal",
+          "tema infantil",
+          "distribuição"
+        ],
+        "causalClaimAllowed": false
+      }
+    },
+    {
+      "id": "obs-20260902-090",
+      "title": "COMO COLOCAR AR CONDICIONADO NO MODO AQUECIMENTO - MODO QUENTE - RÁPIDO E PRÁTICO",
+      "creator": "Ribeiro Ar Condicionado",
+      "creatorIdentity": "ribeiro-ar-condicionado",
+      "sourceIdentity": "ribeiro-ar-condicionado",
+      "country": "BR",
+      "url": "https://www.youtube.com/watch?v=4B0UB1vaKTo",
+      "publishedAt": "2025-06-11",
+      "duration": "PT4M54S",
+      "createdAt": "2026-09-02T11:02:26.000Z",
+      "coverage": {
+        "level": "partial",
+        "accessible": [
+          "título",
+          "canal",
+          "data indexada",
+          "duração indexada",
+          "visualizações e curtidas aproximadas indexadas",
+          "catálogo público do canal"
+        ],
+        "missing": [
+          "vídeo integral",
+          "imagem em movimento",
+          "áudio",
+          "transcrição",
+          "passos do tutorial",
+          "texto na tela",
+          "descrição completa",
+          "ritmo",
+          "retenção",
+          "comentários",
+          "baseline funcional contemporâneo"
+        ]
+      },
+      "publicMetrics": {
+        "viewsObserved": "aprox. 64 mil",
+        "likesObserved": "aprox. 590",
+        "observedAt": "2026-09-02",
+        "sourceType": "youtube_public_search_snapshot",
+        "causality": "not_inferred"
+      },
+      "classification": {
+        "taxonomyVersion": "3.0",
+        "container": "youtube_video",
+        "materialFormat": "video_longo",
+        "presentationFormats": [
+          "tutorial",
+          "camera_direta"
+        ],
+        "primaryFamily": "explicativo",
+        "secondaryFamilies": [
+          "educativo"
+        ],
+        "functionalMix": [
+          {
+            "family": "explicativo",
+            "percentage": 70
+          },
+          {
+            "family": "educativo",
+            "percentage": 30
+          }
+        ],
+        "objectives": [
+          "educar",
+          "apresentar_solucao"
+        ],
+        "advertisingType": "editorial_organico",
+        "commercialIntent": "indeterminada",
+        "advertisedEntity": {
+          "kind": "indeterminado",
+          "name": "",
+          "confidence": "low"
+        },
+        "contentTopic": {
+          "label": "configurar ar-condicionado no modo aquecimento",
+          "iabCode": null
+        },
+        "segment": "climatização residencial",
+        "subsegment": "uso de controle e configuração",
+        "probableAudience": "pessoas tentando ativar o modo quente do aparelho",
+        "awarenessStage": "consciente_problema",
+        "productionLevel": "simple",
+        "creatorScale": "small",
+        "replicability": "high",
+        "durationBand": "over_60s",
+        "pace": "unknown",
+        "mechanisms": [
+          "clareza",
+          "utilidade"
+        ],
+        "hookTypes": [
+          "problema",
+          "resultado"
+        ],
+        "narrativeElements": [
+          "problema",
+          "solucao"
+        ],
+        "proofTypes": [
+          "tutorial"
+        ],
+        "ctaTypes": [],
+        "distributionContext": {
+          "organicPaid": "unknown",
+          "trendDependency": "low"
+        },
+        "confidence": "medium",
+        "evidence": [
+          "O título especifica tarefa, estado desejado e promessa de rapidez.",
+          "O canal publica tutoriais funcionais de climatização.",
+          "Os passos e o sucesso da configuração não foram observados."
+        ],
+        "alternativeClassifications": [],
+        "missingInformation": [
+          "passos",
+          "execução",
+          "modelos compatíveis",
+          "ritmo",
+          "retenção",
+          "comentários",
+          "conversão"
+        ],
+        "needsHumanReview": true
+      },
+      "comparison": {
+        "level": 3,
+        "group": "exploração controlada de tutorial utilitário com resultado antecipado",
+        "referenceIds": [],
+        "confidence": "medium"
+      },
+      "observations": [
+        "Título combina problema, resultado e qualificador de facilidade.",
+        "A entrega prática não ficou acessível."
+      ],
+      "interpretations": [
+        "O material é útil como contraste de família: antecipar resultado também aparece em tutorial, mas não é apoio ao padrão de demonstração científica."
+      ],
+      "scores": {
+        "gancho": 85,
+        "clareza": 92,
+        "relevancia": 88,
+        "desejo": 82,
+        "confianca": "not_assessed",
+        "retencao": "not_assessed",
+        "acao": "not_assessed",
+        "objecoes": "not_assessed"
+      },
+      "fiveLenses": {
+        "apressado": "Entende imediatamente a tarefa.",
+        "analitico": "Faltam passos e compatibilidade por modelo.",
+        "aspiracional": "Visualiza resolver o problema sem assistência.",
+        "comunidade": "Não mensurado.",
+        "cetico": "Título claro não comprova que o tutorial funciona."
+      },
+      "hypotheses": [],
+      "replicable": [
+        "Especificar tarefa, estado final e restrição de tempo no título."
+      ],
+      "limitations": [
+        "Exploração fora da família científica; não altera o padrão.",
+        "Sem transcrição ou vídeo para auditar o passo a passo."
+      ],
+      "provenance": [
+        "public_content",
+        "public_search_snapshot",
+        "observatory_inference"
+      ],
+      "sourceEvidence": [
+        "https://www.youtube.com/watch?v=4B0UB1vaKTo",
+        "https://www.youtube.com/@RibeiroArCondicionado/videos"
+      ],
+      "training": {
+        "evidenceRole": "controlled_exploration",
+        "evidenceLevel": 3,
+        "requiredEvidenceObserved": false,
+        "supportEligible": false,
+        "claimCoverage": [
+          {
+            "claim": "resultado antecipado",
+            "requiredModalities": [
+              "title"
+            ],
+            "observedModalities": [
+              "title"
+            ],
+            "sufficient": true
+          },
+          {
+            "claim": "passo a passo entregue",
+            "requiredModalities": [
+              "transcript_or_video"
+            ],
+            "observedModalities": [],
+            "sufficient": false
+          }
+        ],
+        "provenanceAndConsent": {
+          "storyOrigin": "not_applicable",
+          "consentStatus": "not_applicable",
+          "identityProtection": "not_applicable",
+          "evidence": [
+            "tutorial técnico"
+          ]
+        },
+        "replicable": [
+          "Nomear problema e estado final antes da instrução."
+        ],
+        "contingent": [
+          "modelo do aparelho",
+          "controle remoto",
+          "competência técnica"
+        ],
+        "notRecommended": [
+          "generalizar para demonstração científica",
+          "inferir eficácia, ritmo ou retenção"
+        ],
+        "hypotheses": []
+      },
+      "viralAssessment": {
+        "status": "indeterminate",
+        "observedSignal": "aprox. 64 mil visualizações, sem baseline funcional contemporâneo",
+        "missingForRelativeAssessment": [
+          "baseline",
+          "impressões",
+          "retenção",
+          "fontes de tráfego"
+        ],
+        "confounders": [
+          "intenção de busca",
+          "idade",
+          "sazonalidade",
+          "modelo do aparelho"
+        ],
+        "causalClaimAllowed": false
+      }
     }
   ],
   "patterns": [
     {
       "id": "pat-20260823-001",
-      "status": "supported_hypothesis",
+      "status": "provisional",
       "statement": "Em vídeos educativos de demonstração científica, anunciar um fenômeno ou resultado observável antes do passo a passo, e entregar progressão até a demonstração, tende a reduzir o tempo de compreensão e sustentar curiosidade.",
       "mechanism": [
         "curiosidade",
@@ -20296,24 +21523,26 @@
         "obs-20260823-001",
         "obs-20260823-002",
         "obs-20260823-003",
-        "obs-20260829-069"
+        "obs-20260829-069",
+        "obs-20260902-086"
       ],
-      "comparableSupportCount": 4,
+      "comparableSupportCount": 5,
       "comparisonLevel": 1,
       "confidence": "medium",
       "limitations": [
-        "As três referências são do mesmo criador.",
-        "Sem curvas de retenção ou experimento causal.",
-        "Não validado para outros segmentos.",
-        "O quarto apoio também é do Manual do Mundo; diversidade de criadores permanece igual a um."
+        "Quatro dos cinco apoios formais são do Manual do Mundo; apenas um apoio vem de criador independente.",
+        "A nova diversidade mínima permite status provisório, mas ainda é estreita para generalização.",
+        "Nenhum apoio possui curva de retenção ou experimento causal.",
+        "A evidência nova é textual e secundária; execução audiovisual, ritmo e segurança prática não foram auditados.",
+        "O padrão descreve arquitetura de compreensão e curiosidade, não prova desempenho."
       ],
       "validation": "requires_human_or_experimental_evidence",
-      "stage": "supported_hypothesis",
-      "name": "Em vídeos educativos de demonstração científica, anunciar um fenômeno ou resultado observável antes do passo a passo, e entregar progressão até a demonstração, tende a reduzir o tempo de compreensão e sustentar curiosidade.",
+      "stage": "provisional",
+      "name": "Fenômeno ou hipótese antecipada com progressão até a demonstração",
       "creativeFamily": "família demonstracao",
       "objective": "objetivo educar ou reter",
       "segment": "fenômeno visual verificável",
-      "supportingCount": 4,
+      "supportingCount": 5,
       "counterexampleCount": 0,
       "evidence": [
         {
@@ -20341,12 +21570,41 @@
           "limitations": [
             "Mesmo criador dos apoios anteriores; sem audiovisual integral ou retenção."
           ]
+        },
+        {
+          "referenceId": "obs-20260902-086",
+          "role": "support",
+          "comparisonLevel": 1,
+          "requiredEvidenceObserved": true,
+          "confidence": "high",
+          "observation": "Objetivo e hipótese são apresentados antes do procedimento; três condições seguem em progressão até resultados e explicações.",
+          "evidence": "Título, metadados indexados e resumo textual com timestamps.",
+          "limitations": [
+            "Sem reprodução audiovisual, retenção ou auditoria do resumo secundário."
+          ]
+        },
+        {
+          "referenceId": "obs-20260902-089",
+          "role": "case_limit",
+          "comparisonLevel": 2,
+          "requiredEvidenceObserved": false,
+          "confidence": "medium",
+          "observation": "O título antecipa a transformação do ovo, mas procedimento e resultado não ficaram acessíveis.",
+          "evidence": "Título, canal e métricas indexadas.",
+          "limitations": [
+            "Não conta como apoio nem contraexemplo."
+          ]
         }
       ],
       "taxonomyVersion": "3.0",
-      "creatorDiversityCount": 1,
-      "sourceDiversityCount": 1,
-      "patternType": "retencao"
+      "creatorDiversityCount": 2,
+      "sourceDiversityCount": 2,
+      "patternType": "retencao",
+      "caseLimitReferenceIds": [
+        "obs-20260902-089"
+      ],
+      "caseLimitCount": 1,
+      "counterexampleReferenceIds": []
     },
     {
       "id": "pat-20260823-002",
@@ -22498,6 +23756,113 @@
         "Transcrição automática pode conter erros.",
         "Baselines públicos não foram contemporâneos.",
         "Consentimento e autenticidade dos relatos não foram verificados.",
+        "Nenhum resultado autoriza causalidade ou validação."
+      ]
+    },
+    {
+      "id": "run-20260902-supervised-014",
+      "executedAt": "2026-09-02T11:02:26.000Z",
+      "batchPolicyVersion": "1.1",
+      "requestedBatchSize": 5,
+      "candidatesFound": 24,
+      "referenceIds": [
+        "obs-20260902-086",
+        "obs-20260902-087",
+        "obs-20260902-088",
+        "obs-20260902-089",
+        "obs-20260902-090"
+      ],
+      "targetKnowledgeId": "pat-20260823-001",
+      "targetReferenceIds": [
+        "obs-20260902-086",
+        "obs-20260902-087",
+        "obs-20260902-088"
+      ],
+      "falsificationOrBoundaryReferenceIds": [
+        "obs-20260902-089"
+      ],
+      "controlledExplorationReferenceIds": [
+        "obs-20260902-090"
+      ],
+      "discarded": [
+        {
+          "url": "https://www.youtube.com/watch?v=s2g8-kUpzI0",
+          "reason": "título e descrição sem canal, transcrição ou progressão suficientemente verificáveis"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=gRC3YfW43Yw",
+          "reason": "resumo textual de laboratório longo sem título, canal ou segurança suficiente para comparação limpa"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=Pz-cNY_5w0s",
+          "reason": "peróxido de hidrogênio a 30% torna a replicação doméstica insegura sem protocolo e supervisão"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=IhYcCkrhhuk",
+          "reason": "transcrição acessível, mas não demonstrou com clareza resultado observável antecipado antes do procedimento"
+        },
+        {
+          "url": "https://www.youtube.com/shorts/fcDxVFFa-Qk",
+          "reason": "explicação de neurociência sem demonstração executada funcionalmente comparável"
+        }
+      ],
+      "analyzed": 5,
+      "brazilianReferences": 4,
+      "internationalReferences": 1,
+      "smallOrMediumCreatorReferences": 5,
+      "coverageSummary": {
+        "complete": 0,
+        "partial": 5,
+        "insufficient": 0
+      },
+      "audiovisualAcquisition": {
+        "attempted": true,
+        "succeeded": 0,
+        "failure": "as páginas públicas de vídeo não reproduziram mídia no ambiente; apenas resultados de pesquisa, metadados e resumos textuais ficaram acessíveis",
+        "effect": "cenas, áudio ouvido, texto na tela, cortes, ritmo e retenção ficaram não mensurados"
+      },
+      "commentsCoverage": {
+        "fullOrDeclaredZero": 0,
+        "partialSample": 0
+      },
+      "baselineCoverage": {
+        "sampledProfiles": 0,
+        "contemporaneousBaselines": 0,
+        "limitation": "nenhum baseline funcional contemporâneo ficou acessível"
+      },
+      "patternsCreated": [],
+      "patternsStrengthened": [
+        "pat-20260823-001"
+      ],
+      "patternsRefined": [
+        "pat-20260823-001"
+      ],
+      "hypothesesCreated": [],
+      "hypothesesStrengthened": [],
+      "validatedPatternsCreated": 0,
+      "contradictionsFound": [],
+      "caseLimitsFound": [
+        "promessa de transformação no título sem progressão ou resultado observáveis"
+      ],
+      "safetyFindings": [
+        "experimentos com chama e crianças exigem supervisão; facilidade estrutural não equivale a segurança irrestrita"
+      ],
+      "evidenceGateSummary": {
+        "targetSupportsEligible": 1,
+        "targetSupportsRejected": 2,
+        "boundaryCases": 1,
+        "explorationReferences": 1,
+        "duplicateUrls": 0,
+        "independentCreatorsAddedToPattern": 1,
+        "newHypotheses": 0
+      },
+      "outcome": "Um apoio independente com sequência textual suficiente elevou o padrão à diversidade mínima para status provisório. Duas promessas brasileiras foram rejeitadas como apoio por falta de progressão observável; nenhum efeito de retenção foi atribuído.",
+      "nextTarget": "demonstração científica brasileira de criador independente com vídeo ou transcrição integral, resultado antecipado, comentários e baseline funcional contemporâneo; incluir um caso de entrega frustrada ou resultado negativo",
+      "limitations": [
+        "Nenhuma mídia audiovisual integral foi reproduzida.",
+        "Dois alvos brasileiros tinham apenas título e descrição.",
+        "Resumo secundário pode conter erros.",
+        "Nenhum baseline ou retenção ficou acessível.",
         "Nenhum resultado autoriza causalidade ou validação."
       ]
     }
