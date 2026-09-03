@@ -1,6 +1,6 @@
 {
   "protocol": "plateia-memory/1.0",
-  "updatedAt": "2026-09-02T11:02:26.000Z",
+  "updatedAt": "2026-09-03T11:10:41.000Z",
   "references": [
     {
       "id": "obs-20260823-001",
@@ -21496,6 +21496,1277 @@
         ],
         "causalClaimAllowed": false
       }
+    },
+    {
+      "id": "obs-20260903-091",
+      "title": "Simple Balancing Potato Science Experiment to Explore Centre of Mass",
+      "creator": "TheDadLab",
+      "creatorIdentity": "thedadlab",
+      "sourceIdentity": "thedadlab",
+      "country": "GB",
+      "url": "https://www.youtube.com/watch?v=LLyrS_09eSw",
+      "publishedAt": "2021-09-22",
+      "duration": "não acessível",
+      "createdAt": "2026-09-03T11:10:41.000Z",
+      "coverage": {
+        "level": "partial",
+        "accessible": [
+          "título atual da página original",
+          "canal",
+          "descrição",
+          "data em índice textual",
+          "visualizações e curtidas atuais da página",
+          "snapshot anterior de visualizações",
+          "trecho de transcrição",
+          "resumo textual da sequência"
+        ],
+        "missing": [
+          "vídeo integral auditável",
+          "imagem em movimento",
+          "áudio ouvido",
+          "texto na tela",
+          "transcrição integral confirmada",
+          "duração",
+          "comentários",
+          "montagem",
+          "ritmo",
+          "retenção",
+          "baseline funcional contemporâneo"
+        ]
+      },
+      "publicMetrics": {
+        "viewsObserved": "aprox. 46 mil na página original; 37 mil no snapshot textual anterior",
+        "likesObserved": "aprox. 250 na página original",
+        "subscribersObserved": "aprox. 5,13 mi",
+        "observedAt": "2026-09-03",
+        "sourceType": "youtube_public_page_and_secondary_text_snapshot",
+        "causality": "not_inferred"
+      },
+      "classification": {
+        "taxonomyVersion": "3.0",
+        "container": "youtube_video",
+        "materialFormat": "video_longo",
+        "presentationFormats": [
+          "demonstracao",
+          "tutorial"
+        ],
+        "primaryFamily": "demonstracao",
+        "secondaryFamilies": [
+          "educativo",
+          "entretenimento"
+        ],
+        "functionalMix": [
+          {
+            "family": "demonstracao",
+            "percentage": 60
+          },
+          {
+            "family": "educativo",
+            "percentage": 30
+          },
+          {
+            "family": "entretenimento",
+            "percentage": 10
+          }
+        ],
+        "objectives": [
+          "educar",
+          "visualizacao"
+        ],
+        "advertisingType": "editorial_organico",
+        "commercialIntent": "indeterminada",
+        "advertisedEntity": {
+          "kind": "indeterminado",
+          "name": "",
+          "confidence": "low"
+        },
+        "contentTopic": {
+          "label": "centro de massa com batata, garrafa, palitos e cenouras",
+          "iabCode": null
+        },
+        "segment": "ciência e experimentos",
+        "subsegment": "centro de massa com materiais domésticos",
+        "probableAudience": "famílias, crianças e educadores",
+        "awarenessStage": "inconsciente",
+        "productionLevel": "simple",
+        "creatorScale": "large",
+        "replicability": "high",
+        "durationBand": "unknown",
+        "pace": "unknown",
+        "mechanisms": [
+          "curiosidade",
+          "surpresa",
+          "recompensa"
+        ],
+        "hookTypes": [
+          "pergunta",
+          "desafio"
+        ],
+        "narrativeElements": [
+          "problema",
+          "tentativa",
+          "ajuste",
+          "conclusao"
+        ],
+        "proofTypes": [
+          "demonstracao"
+        ],
+        "ctaTypes": [],
+        "distributionContext": {
+          "organicPaid": "unknown",
+          "trendDependency": "unknown"
+        },
+        "confidence": "high",
+        "evidence": [
+          "A transcrição abre com a tentativa de equilibrar a batata e pergunta quão fácil será.",
+          "O resumo registra tentativa inicial frustrada, redistribuição de peso e equilíbrio final."
+        ],
+        "alternativeClassifications": [],
+        "missingInformation": [
+          "execução visual",
+          "segurança dos palitos",
+          "duração",
+          "ritmo",
+          "retenção",
+          "comentários",
+          "baseline"
+        ],
+        "needsHumanReview": true
+      },
+      "comparison": {
+        "level": 1,
+        "group": "demonstração científica com hipótese antecipada e progressão até resultado",
+        "referenceIds": [
+          "obs-20260829-069",
+          "obs-20260902-086"
+        ],
+        "confidence": "high"
+      },
+      "observations": [
+        "A pergunta e o objetivo aparecem antes do procedimento.",
+        "A sequência textual inclui falha inicial, ajuste do centro de massa e resultado final."
+      ],
+      "interpretations": [
+        "Uma tentativa frustrada pode integrar a progressão quando o ajuste e o resultado continuam observáveis.",
+        "Isso reforça a arquitetura do padrão, mas não mede compreensão, curiosidade ou retenção."
+      ],
+      "scores": {
+        "gancho": 86,
+        "clareza": 88,
+        "relevancia": 82,
+        "desejo": 80,
+        "confianca": 78,
+        "retencao": "not_assessed",
+        "acao": 84,
+        "objecoes": 70
+      },
+      "fiveLenses": {
+        "apressado": "Entende cedo o desafio de equilibrar a batata.",
+        "analitico": "Recebe uma sequência causal básica de tentativa, ajuste e resultado, mas sem auditoria audiovisual.",
+        "aspiracional": "O uso de materiais comuns favorece reprodução.",
+        "comunidade": "Não mensurado.",
+        "cetico": "A transcrição sustenta a ordem; eficácia didática e segurança não foram medidas."
+      },
+      "hypotheses": [],
+      "replicable": [
+        "Formular o desafio antes da primeira tentativa.",
+        "Preservar falhas úteis e explicar o ajuste que leva ao resultado."
+      ],
+      "limitations": [
+        "A sequência vem de cobertura textual secundária, não de reprodução audiovisual integral.",
+        "Métricas divergentes são snapshots em datas diferentes e não foram usadas como prova."
+      ],
+      "provenance": [
+        "public_content",
+        "public_metric",
+        "secondary_transcript",
+        "observatory_inference"
+      ],
+      "sourceEvidence": [
+        "https://www.youtube.com/watch?v=LLyrS_09eSw",
+        "https://glasp.co/youtube/LLyrS_09eSw"
+      ],
+      "training": {
+        "evidencePolicyVersion": "1.1",
+        "evidenceRole": "target_support",
+        "evidenceLevel": 1,
+        "requiredEvidenceObserved": true,
+        "supportEligible": true,
+        "claimCoverage": [
+          {
+            "claim": "hipótese ou desafio antecipado",
+            "requiredModalities": [
+              "transcript_or_video"
+            ],
+            "observedModalities": [
+              "partial_transcript"
+            ],
+            "sufficient": true
+          },
+          {
+            "claim": "progressão até resultado",
+            "requiredModalities": [
+              "transcript_or_video"
+            ],
+            "observedModalities": [
+              "partial_transcript",
+              "structured_summary"
+            ],
+            "sufficient": true
+          },
+          {
+            "claim": "efeito em retenção ou compreensão",
+            "requiredModalities": [
+              "retention_or_experiment"
+            ],
+            "observedModalities": [],
+            "sufficient": false
+          }
+        ],
+        "provenanceAndConsent": {
+          "storyOrigin": "not_applicable",
+          "consentStatus": "not_applicable",
+          "identityProtection": "not_applicable",
+          "evidence": [
+            "conteúdo educativo"
+          ]
+        },
+        "replicable": [
+          "Pergunta testável antes do procedimento.",
+          "Falha, ajuste e resultado em sequência explícita."
+        ],
+        "contingent": [
+          "clareza da explicação científica",
+          "segurança dos materiais"
+        ],
+        "notRecommended": [
+          "atribuir retenção, aprendizagem ou viralidade",
+          "copiar falas ou encenação"
+        ],
+        "hypotheses": []
+      },
+      "viralAssessment": {
+        "status": "indeterminate",
+        "observedSignal": "aprox. 46 mil visualizações atuais e 37 mil em snapshot anterior, sem baseline funcional",
+        "missingForRelativeAssessment": [
+          "baseline",
+          "velocidade inicial",
+          "retenção",
+          "fontes de tráfego"
+        ],
+        "confounders": [
+          "tamanho do canal",
+          "idade do vídeo",
+          "distribuição internacional"
+        ],
+        "causalClaimAllowed": false
+      }
+    },
+    {
+      "id": "obs-20260903-092",
+      "title": "Como fazer um travesseiro instantâneo? | CIÊNCIA EM SHOW",
+      "creator": "CIÊNCIA EM SHOW",
+      "creatorIdentity": "ciencia-em-show",
+      "sourceIdentity": "ciencia-em-show",
+      "country": "BR",
+      "url": "https://www.youtube.com/watch?v=oxgW2HXaAkY",
+      "publishedAt": "2018-07-20",
+      "duration": "não acessível",
+      "createdAt": "2026-09-03T11:10:41.000Z",
+      "coverage": {
+        "level": "partial",
+        "accessible": [
+          "título",
+          "canal",
+          "descrição",
+          "data indexada",
+          "visualizações, curtidas e total público de comentários",
+          "amostra parcial de comentários"
+        ],
+        "missing": [
+          "vídeo integral",
+          "imagem em movimento",
+          "áudio",
+          "transcrição",
+          "legendas",
+          "texto na tela",
+          "procedimento",
+          "resultado observado",
+          "duração",
+          "montagem",
+          "ritmo",
+          "retenção",
+          "baseline contemporâneo"
+        ]
+      },
+      "publicMetrics": {
+        "viewsObserved": "aprox. 1,7 mil",
+        "likesObserved": "aprox. 159",
+        "commentsObserved": "10 no total público; amostra parcial inspecionada",
+        "subscribersObserved": "aprox. 47,7 mil",
+        "observedAt": "2026-09-03",
+        "sourceType": "youtube_public_page",
+        "causality": "not_inferred"
+      },
+      "classification": {
+        "taxonomyVersion": "3.0",
+        "container": "youtube_video",
+        "materialFormat": "video_longo",
+        "presentationFormats": [
+          "demonstracao",
+          "tutorial"
+        ],
+        "primaryFamily": "demonstracao",
+        "secondaryFamilies": [
+          "educativo",
+          "entretenimento"
+        ],
+        "functionalMix": [
+          {
+            "family": "demonstracao",
+            "percentage": 50
+          },
+          {
+            "family": "educativo",
+            "percentage": 30
+          },
+          {
+            "family": "entretenimento",
+            "percentage": 20
+          }
+        ],
+        "objectives": [
+          "educar",
+          "entreter"
+        ],
+        "advertisingType": "editorial_organico",
+        "commercialIntent": "indeterminada",
+        "advertisedEntity": {
+          "kind": "indeterminado",
+          "name": "",
+          "confidence": "low"
+        },
+        "contentTopic": {
+          "label": "travesseiro inflável instantâneo",
+          "iabCode": null
+        },
+        "segment": "ciência e experimentos",
+        "subsegment": "experimento doméstico inflável",
+        "probableAudience": "público geral, jovens e famílias",
+        "awarenessStage": "inconsciente",
+        "productionLevel": "simple",
+        "creatorScale": "medium",
+        "replicability": "high",
+        "durationBand": "unknown",
+        "pace": "unknown",
+        "mechanisms": [
+          "curiosidade",
+          "surpresa"
+        ],
+        "hookTypes": [
+          "pergunta",
+          "resultado_antecipado"
+        ],
+        "narrativeElements": [
+          "problema"
+        ],
+        "proofTypes": [
+          "ausencia_prova_necessaria"
+        ],
+        "ctaTypes": [],
+        "distributionContext": {
+          "organicPaid": "unknown",
+          "trendDependency": "unknown"
+        },
+        "confidence": "medium",
+        "evidence": [
+          "O título nomeia o objeto e a promessa de instantaneidade.",
+          "A descrição diz que o apresentador tentará fazer um travesseiro inflável e convida a ver se foi possível."
+        ],
+        "alternativeClassifications": [],
+        "missingInformation": [
+          "procedimento",
+          "resultado",
+          "substâncias e segurança",
+          "texto na tela",
+          "ritmo",
+          "retenção",
+          "baseline"
+        ],
+        "needsHumanReview": true
+      },
+      "comparison": {
+        "level": 1,
+        "group": "candidato a demonstração científica com resultado antecipado",
+        "referenceIds": [
+          "obs-20260903-091",
+          "obs-20260902-086"
+        ],
+        "confidence": "medium"
+      },
+      "observations": [
+        "Título e descrição antecipam objeto, tentativa e incerteza do resultado.",
+        "A ordem do procedimento e a entrega não ficaram acessíveis."
+      ],
+      "interpretations": [
+        "É um candidato funcionalmente comparável, mas promessa textual não comprova progressão."
+      ],
+      "scores": {
+        "gancho": 84,
+        "clareza": 86,
+        "relevancia": 76,
+        "desejo": 78,
+        "confianca": "not_assessed",
+        "retencao": "not_assessed",
+        "acao": "not_assessed",
+        "objecoes": "not_assessed"
+      },
+      "fiveLenses": {
+        "apressado": "Entende a transformação prometida.",
+        "analitico": "Não consegue auditar materiais, reação ou resultado.",
+        "aspiracional": "O título sugere reprodução simples.",
+        "comunidade": "Amostra de comentários insuficiente para inferência.",
+        "cetico": "Sem transcrição ou vídeo, não há apoio ao padrão."
+      },
+      "hypotheses": [],
+      "replicable": [
+        "Nomear objeto, transformação e incerteza de teste no enquadramento."
+      ],
+      "limitations": [
+        "Rejeitado como apoio porque procedimento, progressão e resultado não foram observados.",
+        "Métricas absolutas não têm baseline funcional contemporâneo."
+      ],
+      "provenance": [
+        "public_content",
+        "public_metric",
+        "public_comment_sample",
+        "observatory_inference"
+      ],
+      "sourceEvidence": [
+        "https://www.youtube.com/watch?v=oxgW2HXaAkY"
+      ],
+      "training": {
+        "evidencePolicyVersion": "1.1",
+        "evidenceRole": "target_support",
+        "evidenceLevel": 1,
+        "requiredEvidenceObserved": false,
+        "supportEligible": false,
+        "claimCoverage": [
+          {
+            "claim": "resultado ou teste antecipado",
+            "requiredModalities": [
+              "title_or_description"
+            ],
+            "observedModalities": [
+              "title",
+              "description"
+            ],
+            "sufficient": true
+          },
+          {
+            "claim": "progressão e resultado entregues",
+            "requiredModalities": [
+              "transcript_or_video"
+            ],
+            "observedModalities": [],
+            "sufficient": false
+          }
+        ],
+        "provenanceAndConsent": {
+          "storyOrigin": "not_applicable",
+          "consentStatus": "not_applicable",
+          "identityProtection": "not_applicable",
+          "evidence": [
+            "conteúdo educativo"
+          ]
+        },
+        "replicable": [
+          "Enquadrar uma tentativa concreta com pergunta de resultado."
+        ],
+        "contingent": [
+          "substâncias usadas",
+          "segurança",
+          "clareza do mecanismo"
+        ],
+        "notRecommended": [
+          "contar promessa como execução",
+          "inferir cenas, áudio, ritmo, retenção ou eficácia"
+        ],
+        "hypotheses": []
+      },
+      "viralAssessment": {
+        "status": "indeterminate",
+        "observedSignal": "aprox. 1,7 mil visualizações, sem baseline funcional",
+        "missingForRelativeAssessment": [
+          "baseline",
+          "impressões",
+          "retenção",
+          "fontes de tráfego"
+        ],
+        "confounders": [
+          "idade do vídeo",
+          "tamanho do canal",
+          "distribuição"
+        ],
+        "causalClaimAllowed": false
+      }
+    },
+    {
+      "id": "obs-20260903-093",
+      "title": "ILUSÃO DA MÃO DE BORRACHA",
+      "creator": "Guilherme Paiva / Fisioterapeuta",
+      "creatorIdentity": "guilherme-paiva-fisioterapeuta",
+      "sourceIdentity": "guilherme-paiva-fisioterapeuta",
+      "country": "BR",
+      "url": "https://www.youtube.com/watch?v=q-jzBEKl2uo",
+      "publishedAt": "não acessível",
+      "duration": "PT47S",
+      "createdAt": "2026-09-03T11:10:41.000Z",
+      "coverage": {
+        "level": "partial",
+        "accessible": [
+          "título",
+          "canal",
+          "descrição",
+          "duração visível aproximada",
+          "visualizações e curtidas",
+          "idade aproximada da publicação"
+        ],
+        "missing": [
+          "vídeo integral auditado",
+          "imagem em movimento",
+          "áudio",
+          "transcrição",
+          "legendas",
+          "texto na tela",
+          "procedimento",
+          "resultado observado",
+          "data exata",
+          "comentários",
+          "ritmo",
+          "retenção",
+          "baseline contemporâneo"
+        ]
+      },
+      "publicMetrics": {
+        "viewsObserved": "aprox. 2,6 mil",
+        "likesObserved": "aprox. 53",
+        "publishedAgeObserved": "aprox. 4 anos",
+        "subscribersObserved": "aprox. 1,83 mil",
+        "observedAt": "2026-09-03",
+        "sourceType": "youtube_public_page",
+        "causality": "not_inferred"
+      },
+      "classification": {
+        "taxonomyVersion": "3.0",
+        "container": "youtube_video",
+        "materialFormat": "video_curto",
+        "presentationFormats": [
+          "demonstracao",
+          "camera_direta"
+        ],
+        "primaryFamily": "educativo",
+        "secondaryFamilies": [
+          "demonstracao",
+          "explicativo"
+        ],
+        "functionalMix": [
+          {
+            "family": "educativo",
+            "percentage": 45
+          },
+          {
+            "family": "demonstracao",
+            "percentage": 40
+          },
+          {
+            "family": "explicativo",
+            "percentage": 15
+          }
+        ],
+        "objectives": [
+          "educar",
+          "conscientizar"
+        ],
+        "advertisingType": "editorial_organico",
+        "commercialIntent": "indeterminada",
+        "advertisedEntity": {
+          "kind": "indeterminado",
+          "name": "",
+          "confidence": "low"
+        },
+        "contentTopic": {
+          "label": "ilusão da mão de borracha e percepção corporal",
+          "iabCode": null
+        },
+        "segment": "saúde e ciência",
+        "subsegment": "neurociência e fisioterapia",
+        "probableAudience": "público interessado em corpo, percepção e fisioterapia",
+        "awarenessStage": "inconsciente",
+        "productionLevel": "simple",
+        "creatorScale": "small",
+        "replicability": "high",
+        "durationBand": "under_60s",
+        "pace": "unknown",
+        "mechanisms": [
+          "curiosidade",
+          "surpresa",
+          "autoridade"
+        ],
+        "hookTypes": [
+          "conceito_incomum"
+        ],
+        "narrativeElements": [
+          "problema"
+        ],
+        "proofTypes": [
+          "demonstracao"
+        ],
+        "ctaTypes": [],
+        "distributionContext": {
+          "organicPaid": "unknown",
+          "trendDependency": "unknown"
+        },
+        "confidence": "medium",
+        "evidence": [
+          "A descrição define o objetivo do teste e a sensação de pertencimento corporal.",
+          "A execução e o resultado individual não ficaram acessíveis."
+        ],
+        "alternativeClassifications": [],
+        "missingInformation": [
+          "procedimento",
+          "resultado",
+          "consentimento do participante",
+          "texto na tela",
+          "ritmo",
+          "retenção",
+          "comentários"
+        ],
+        "needsHumanReview": true
+      },
+      "comparison": {
+        "level": 2,
+        "group": "demonstração curta de ilusão perceptiva sem progressão acessível",
+        "referenceIds": [
+          "obs-20260903-094"
+        ],
+        "confidence": "medium"
+      },
+      "observations": [
+        "A descrição explica o fenômeno e o objetivo do teste.",
+        "Não foi possível observar a ordem entre hipótese, estímulo e reação."
+      ],
+      "interpretations": [
+        "A descrição sustenta contexto científico, não apoio ao padrão de progressão."
+      ],
+      "scores": {
+        "gancho": 82,
+        "clareza": 80,
+        "relevancia": 77,
+        "desejo": 76,
+        "confianca": "not_assessed",
+        "retencao": "not_assessed",
+        "acao": "not_assessed",
+        "objecoes": "not_assessed"
+      },
+      "fiveLenses": {
+        "apressado": "Reconhece o fenômeno pelo título.",
+        "analitico": "Faltam procedimento, controles e resultado.",
+        "aspiracional": "Parece simples, mas envolve outra pessoa e cuidados.",
+        "comunidade": "Não mensurado.",
+        "cetico": "Descrição conceitual não comprova a demonstração."
+      },
+      "hypotheses": [],
+      "replicable": [
+        "Explicar em linguagem simples qual percepção o teste investiga."
+      ],
+      "limitations": [
+        "Rejeitado como apoio por falta de procedimento e resultado observáveis.",
+        "Replicabilidade estrutural não elimina necessidade de consentimento e segurança."
+      ],
+      "provenance": [
+        "public_content",
+        "public_metric",
+        "observatory_inference"
+      ],
+      "sourceEvidence": [
+        "https://www.youtube.com/watch?v=q-jzBEKl2uo"
+      ],
+      "training": {
+        "evidencePolicyVersion": "1.1",
+        "evidenceRole": "target_support",
+        "evidenceLevel": 2,
+        "requiredEvidenceObserved": false,
+        "supportEligible": false,
+        "claimCoverage": [
+          {
+            "claim": "objetivo científico do teste",
+            "requiredModalities": [
+              "description"
+            ],
+            "observedModalities": [
+              "description"
+            ],
+            "sufficient": true
+          },
+          {
+            "claim": "hipótese antecipada e progressão",
+            "requiredModalities": [
+              "transcript_or_video"
+            ],
+            "observedModalities": [],
+            "sufficient": false
+          }
+        ],
+        "provenanceAndConsent": {
+          "storyOrigin": "not_applicable",
+          "consentStatus": "not_applicable",
+          "identityProtection": "not_applicable",
+          "evidence": [
+            "conteúdo educativo"
+          ]
+        },
+        "replicable": [
+          "Nomear a percepção testada antes de explicar o fenômeno."
+        ],
+        "contingent": [
+          "consentimento",
+          "segurança",
+          "contexto clínico"
+        ],
+        "notRecommended": [
+          "inferir reação do participante",
+          "reproduzir estímulos sem consentimento",
+          "atribuir retenção ou eficácia"
+        ],
+        "hypotheses": []
+      },
+      "viralAssessment": {
+        "status": "indeterminate",
+        "observedSignal": "aprox. 2,6 mil visualizações, sem baseline funcional",
+        "missingForRelativeAssessment": [
+          "baseline",
+          "impressões",
+          "retenção",
+          "fontes de tráfego"
+        ],
+        "confounders": [
+          "idade do vídeo",
+          "nicho profissional",
+          "distribuição"
+        ],
+        "causalClaimAllowed": false
+      }
+    },
+    {
+      "id": "obs-20260903-094",
+      "title": "Teste da mão de borracha é real?",
+      "creator": "Nunca vi 1 cientista",
+      "creatorIdentity": "nunca-vi-1-cientista",
+      "sourceIdentity": "nunca-vi-1-cientista",
+      "country": "BR",
+      "url": "https://www.youtube.com/watch?v=2QwczewhJWo",
+      "publishedAt": "não acessível",
+      "duration": "aprox. PT16M",
+      "createdAt": "2026-09-03T11:10:41.000Z",
+      "coverage": {
+        "level": "partial",
+        "accessible": [
+          "título",
+          "canal",
+          "descrição",
+          "duração aproximada visível",
+          "visualizações, curtidas e total público de comentários",
+          "amostra parcial de comentários",
+          "idade aproximada da publicação"
+        ],
+        "missing": [
+          "vídeo integral auditado",
+          "imagem em movimento",
+          "áudio",
+          "transcrição",
+          "legendas",
+          "texto na tela",
+          "ordem do procedimento",
+          "reação final verificada",
+          "data exata",
+          "montagem",
+          "ritmo",
+          "retenção",
+          "baseline contemporâneo"
+        ]
+      },
+      "publicMetrics": {
+        "viewsObserved": "aprox. 84 mil",
+        "likesObserved": "aprox. 6,6 mil",
+        "commentsObserved": "291 no total público; amostra parcial inspecionada",
+        "subscribersObserved": "aprox. 597 mil",
+        "publishedAgeObserved": "aprox. 4 anos",
+        "observedAt": "2026-09-03",
+        "sourceType": "youtube_public_page_and_comment_sample",
+        "causality": "not_inferred"
+      },
+      "classification": {
+        "taxonomyVersion": "3.0",
+        "container": "youtube_video",
+        "materialFormat": "video_longo",
+        "presentationFormats": [
+          "demonstracao",
+          "desafio"
+        ],
+        "primaryFamily": "entretenimento",
+        "secondaryFamilies": [
+          "demonstracao",
+          "educativo"
+        ],
+        "functionalMix": [
+          {
+            "family": "entretenimento",
+            "percentage": 40
+          },
+          {
+            "family": "demonstracao",
+            "percentage": 35
+          },
+          {
+            "family": "educativo",
+            "percentage": 25
+          }
+        ],
+        "objectives": [
+          "entreter",
+          "educar"
+        ],
+        "advertisingType": "editorial_organico",
+        "commercialIntent": "indeterminada",
+        "advertisedEntity": {
+          "kind": "indeterminado",
+          "name": "",
+          "confidence": "low"
+        },
+        "contentTopic": {
+          "label": "teste da ilusão da mão de borracha",
+          "iabCode": null
+        },
+        "segment": "ciência e entretenimento",
+        "subsegment": "ilusão perceptiva",
+        "probableAudience": "público geral interessado em ciência",
+        "awarenessStage": "inconsciente",
+        "productionLevel": "intermediate",
+        "creatorScale": "large",
+        "replicability": "medium",
+        "durationBand": "over_60s",
+        "pace": "unknown",
+        "mechanisms": [
+          "curiosidade",
+          "surpresa",
+          "tensao"
+        ],
+        "hookTypes": [
+          "pergunta",
+          "checagem_de_viral"
+        ],
+        "narrativeElements": [
+          "problema"
+        ],
+        "proofTypes": [
+          "demonstracao"
+        ],
+        "ctaTypes": [],
+        "distributionContext": {
+          "organicPaid": "unknown",
+          "trendDependency": "unknown"
+        },
+        "confidence": "medium",
+        "evidence": [
+          "A descrição contrapõe possível truque de internet a ilusão real e diz que o canal foi testar.",
+          "Comentários públicos amostrados dizem ter esperado uma martelada que não apareceu.",
+          "Sem vídeo ou transcrição, a ausência do payoff não foi confirmada."
+        ],
+        "alternativeClassifications": [],
+        "missingInformation": [
+          "procedimento",
+          "resultado",
+          "payoff",
+          "consentimento",
+          "ritmo",
+          "retenção",
+          "baseline"
+        ],
+        "needsHumanReview": true
+      },
+      "comparison": {
+        "level": 2,
+        "group": "caso-limite: payoff prometido com entrega não verificável",
+        "referenceIds": [
+          "obs-20260903-093"
+        ],
+        "confidence": "medium"
+      },
+      "observations": [
+        "Título e descrição montam uma pergunta verificável sobre um teste viral.",
+        "Parte dos comentários amostrados aponta ausência da martelada esperada."
+      ],
+      "interpretations": [
+        "A amostra sugere possível desalinhamento entre promessa e payoff, mas não comprova a ausência sem acesso ao vídeo.",
+        "O caso serve como limite de cobertura, não como contraexemplo do padrão."
+      ],
+      "scores": {
+        "gancho": 88,
+        "clareza": 85,
+        "relevancia": 82,
+        "desejo": 84,
+        "confianca": "not_assessed",
+        "retencao": "not_assessed",
+        "acao": "not_assessed",
+        "objecoes": "not_assessed"
+      },
+      "fiveLenses": {
+        "apressado": "Entende a pergunta e o teste prometido.",
+        "analitico": "Não consegue auditar procedimento nem conclusão.",
+        "aspiracional": "Vê uma checagem de fenômeno viral.",
+        "comunidade": "A amostra registra expectativa de payoff, sem representar toda a audiência.",
+        "cetico": "Comentários são sinal público, não prova suficiente da entrega."
+      },
+      "hypotheses": [],
+      "replicable": [
+        "Converter um viral em pergunta testável e declarar que haverá teste."
+      ],
+      "limitations": [
+        "Caso-limite, não apoio nem contraexemplo.",
+        "Amostra de comentários não é representativa e não autoriza inferir retenção."
+      ],
+      "provenance": [
+        "public_content",
+        "public_metric",
+        "public_comment_sample",
+        "observatory_inference"
+      ],
+      "sourceEvidence": [
+        "https://www.youtube.com/watch?v=2QwczewhJWo"
+      ],
+      "training": {
+        "evidencePolicyVersion": "1.1",
+        "evidenceRole": "falsification_or_boundary",
+        "evidenceLevel": 2,
+        "requiredEvidenceObserved": false,
+        "supportEligible": false,
+        "claimCoverage": [
+          {
+            "claim": "pergunta e teste antecipados",
+            "requiredModalities": [
+              "title_or_description"
+            ],
+            "observedModalities": [
+              "title",
+              "description"
+            ],
+            "sufficient": true
+          },
+          {
+            "claim": "payoff ausente",
+            "requiredModalities": [
+              "transcript_or_video"
+            ],
+            "observedModalities": [
+              "comment_sample"
+            ],
+            "sufficient": false
+          }
+        ],
+        "provenanceAndConsent": {
+          "storyOrigin": "not_applicable",
+          "consentStatus": "not_applicable",
+          "identityProtection": "not_applicable",
+          "evidence": [
+            "conteúdo educativo"
+          ]
+        },
+        "replicable": [
+          "Enquadrar conteúdo viral como pergunta a testar."
+        ],
+        "contingent": [
+          "ética do susto",
+          "consentimento",
+          "clareza do resultado"
+        ],
+        "notRecommended": [
+          "usar comentários como prova de cena ausente",
+          "reproduzir golpe ou susto sem segurança e consentimento",
+          "inferir retenção"
+        ],
+        "hypotheses": []
+      },
+      "viralAssessment": {
+        "status": "indeterminate",
+        "observedSignal": "aprox. 84 mil visualizações e 6,6 mil curtidas, sem baseline funcional",
+        "missingForRelativeAssessment": [
+          "baseline",
+          "impressões",
+          "retenção",
+          "fontes de tráfego"
+        ],
+        "confounders": [
+          "tamanho do canal",
+          "tema viral",
+          "idade do vídeo",
+          "distribuição"
+        ],
+        "causalClaimAllowed": false
+      }
+    },
+    {
+      "id": "obs-20260903-095",
+      "title": "Repensando o experimento do arroz de forma científica",
+      "creator": "Os Três Elementos",
+      "creatorIdentity": "os-tres-elementos",
+      "sourceIdentity": "os-tres-elementos",
+      "country": "BR",
+      "url": "https://www.youtube.com/watch?v=YRG82Wg7Glw",
+      "publishedAt": "2026-01-22",
+      "duration": "PT41M08S",
+      "createdAt": "2026-09-03T11:10:41.000Z",
+      "coverage": {
+        "level": "partial",
+        "accessible": [
+          "título",
+          "canal",
+          "descrição",
+          "data e duração em notas públicas do episódio",
+          "visualizações e curtidas atuais da página",
+          "notas textuais detalhadas do episódio",
+          "identificação de publicidade"
+        ],
+        "missing": [
+          "vídeo integral auditado",
+          "imagem em movimento",
+          "áudio ouvido",
+          "transcrição integral",
+          "legendas",
+          "texto na tela",
+          "comentários",
+          "montagem",
+          "ritmo",
+          "retenção",
+          "baseline contemporâneo"
+        ]
+      },
+      "publicMetrics": {
+        "viewsObserved": "aprox. 14 mil",
+        "likesObserved": "aprox. 1,9 mil",
+        "subscribersObserved": "aprox. 211 mil",
+        "observedAt": "2026-09-03",
+        "sourceType": "youtube_public_page_and_podcast_episode_notes",
+        "causality": "not_inferred"
+      },
+      "classification": {
+        "taxonomyVersion": "3.0",
+        "container": "youtube_video",
+        "materialFormat": "video_longo",
+        "presentationFormats": [
+          "podcast_entrevista",
+          "dialogo",
+          "comentario"
+        ],
+        "primaryFamily": "autoridade_opiniao",
+        "secondaryFamilies": [
+          "educativo",
+          "explicativo"
+        ],
+        "functionalMix": [
+          {
+            "family": "autoridade_opiniao",
+            "percentage": 45
+          },
+          {
+            "family": "educativo",
+            "percentage": 35
+          },
+          {
+            "family": "explicativo",
+            "percentage": 20
+          }
+        ],
+        "objectives": [
+          "educar",
+          "conscientizar"
+        ],
+        "advertisingType": "publicidade_identificada",
+        "commercialIntent": "mista",
+        "advertisedEntity": {
+          "kind": "marca",
+          "name": "Alura",
+          "confidence": "high"
+        },
+        "contentTopic": {
+          "label": "crítica metodológica ao experimento do arroz atribuído a Masaru Emoto",
+          "iabCode": null
+        },
+        "segment": "ciência e educação",
+        "subsegment": "método científico e pseudociência",
+        "probableAudience": "público geral interessado em ciência e pensamento crítico",
+        "awarenessStage": "consciente_problema",
+        "productionLevel": "intermediate",
+        "creatorScale": "medium",
+        "replicability": "high",
+        "durationBand": "over_60s",
+        "pace": "unknown",
+        "mechanisms": [
+          "autoridade",
+          "contraste",
+          "curiosidade"
+        ],
+        "hookTypes": [
+          "controversia",
+          "revisao_de_crenca"
+        ],
+        "narrativeElements": [
+          "problema",
+          "analise",
+          "conclusao"
+        ],
+        "proofTypes": [
+          "raciocinio_metodologico"
+        ],
+        "ctaTypes": [
+          "oferta"
+        ],
+        "distributionContext": {
+          "organicPaid": "unknown",
+          "trendDependency": "unknown"
+        },
+        "confidence": "high",
+        "evidence": [
+          "As notas públicas descrevem a alegação original e uma reformulação mental com controles, vieses, contaminação e reprodutibilidade.",
+          "As notas não registram execução de novo experimento nem resultado empírico."
+        ],
+        "alternativeClassifications": [],
+        "missingInformation": [
+          "transcrição integral",
+          "execução audiovisual",
+          "fontes científicas citadas",
+          "comentários",
+          "ritmo",
+          "retenção",
+          "baseline"
+        ],
+        "needsHumanReview": true
+      },
+      "comparison": {
+        "level": 3,
+        "group": "exploração controlada: crítica metodológica sem demonstração executada",
+        "referenceIds": [],
+        "confidence": "high"
+      },
+      "observations": [
+        "O episódio separa alegação popular, desenho experimental e problemas de controle.",
+        "A cobertura textual indica discussão de método, não execução de um novo teste."
+      ],
+      "interpretations": [
+        "Em conteúdo científico sem experimento executado, crítica de desenho deve permanecer separada de evidência de resultado.",
+        "A estrutura não é apoio ao padrão de demonstração; funciona como contraste de família."
+      ],
+      "scores": {
+        "gancho": 84,
+        "clareza": 86,
+        "relevancia": 88,
+        "desejo": 79,
+        "confianca": 82,
+        "retencao": "not_assessed",
+        "acao": 74,
+        "objecoes": 85
+      },
+      "fiveLenses": {
+        "apressado": "Entende que uma alegação conhecida será reavaliada.",
+        "analitico": "Recebe categorias de controle, viés, contaminação e reprodutibilidade.",
+        "aspiracional": "Pode aprender a reformular perguntas de modo testável.",
+        "comunidade": "Não mensurado.",
+        "cetico": "A crítica metodológica não é tratada como resultado experimental."
+      },
+      "hypotheses": [],
+      "replicable": [
+        "Separar alegação, desenho proposto, controles e limites da conclusão."
+      ],
+      "limitations": [
+        "Exploração de outra família; não altera a contagem de apoio do padrão de demonstração.",
+        "Notas de episódio são cobertura secundária e não substituem transcrição integral."
+      ],
+      "provenance": [
+        "public_content",
+        "public_metric",
+        "podcast_episode_notes",
+        "observatory_inference"
+      ],
+      "sourceEvidence": [
+        "https://www.youtube.com/watch?v=YRG82Wg7Glw",
+        "https://podster.com.br/podcast/os-tres-elementos/episodio/repensando-o-experimento-do-arroz-de-forma-cientifica"
+      ],
+      "training": {
+        "evidencePolicyVersion": "1.1",
+        "evidenceRole": "controlled_exploration",
+        "evidenceLevel": 3,
+        "requiredEvidenceObserved": false,
+        "supportEligible": false,
+        "claimCoverage": [
+          {
+            "claim": "crítica de desenho experimental",
+            "requiredModalities": [
+              "description_or_notes"
+            ],
+            "observedModalities": [
+              "description",
+              "episode_notes"
+            ],
+            "sufficient": true
+          },
+          {
+            "claim": "novo resultado experimental",
+            "requiredModalities": [
+              "transcript_or_video"
+            ],
+            "observedModalities": [],
+            "sufficient": false
+          }
+        ],
+        "provenanceAndConsent": {
+          "storyOrigin": "not_applicable",
+          "consentStatus": "not_applicable",
+          "identityProtection": "not_applicable",
+          "evidence": [
+            "conteúdo educativo"
+          ]
+        },
+        "replicable": [
+          "Separar revisão de desenho de comprovação empírica."
+        ],
+        "contingent": [
+          "qualidade das fontes",
+          "clareza dos controles"
+        ],
+        "notRecommended": [
+          "contar debate como execução",
+          "atribuir retenção ou causalidade",
+          "confundir patrocínio com evidência"
+        ],
+        "hypotheses": []
+      },
+      "viralAssessment": {
+        "status": "indeterminate",
+        "observedSignal": "aprox. 14 mil visualizações, sem baseline funcional",
+        "missingForRelativeAssessment": [
+          "baseline",
+          "impressões",
+          "retenção",
+          "fontes de tráfego"
+        ],
+        "confounders": [
+          "tamanho do canal",
+          "tema controverso",
+          "publicidade",
+          "distribuição"
+        ],
+        "causalClaimAllowed": false
+      }
     }
   ],
   "patterns": [
@@ -21519,17 +22790,19 @@
         "obs-20260823-002",
         "obs-20260823-003",
         "obs-20260829-069",
-        "obs-20260902-086"
+        "obs-20260902-086",
+        "obs-20260903-091"
       ],
-      "comparableSupportCount": 5,
+      "comparableSupportCount": 6,
       "comparisonLevel": 1,
       "confidence": "medium",
       "limitations": [
-        "Quatro dos cinco apoios formais são do Manual do Mundo; apenas um apoio vem de criador independente.",
-        "A nova diversidade mínima permite status provisório, mas ainda é estreita para generalização.",
+        "Quatro dos seis apoios formais são do Manual do Mundo; os outros dois vêm de criadores independentes.",
+        "A diversidade chegou a três criadores e três fontes, mas continua estreita para generalização.",
         "Nenhum apoio possui curva de retenção ou experimento causal.",
-        "A evidência nova é textual e secundária; execução audiovisual, ritmo e segurança prática não foram auditados.",
-        "O padrão descreve arquitetura de compreensão e curiosidade, não prova desempenho."
+        "O novo apoio é textual e secundário; execução audiovisual, ritmo e segurança prática não foram auditados.",
+        "Uma tentativa frustrada seguida de ajuste apareceu no novo apoio, mas ainda não há três casos independentes para tratá-la como subpadrão.",
+        "O padrão descreve arquitetura observável de pergunta, teste e recompensa, não prova desempenho."
       ],
       "validation": "requires_human_or_experimental_evidence",
       "stage": "provisional",
@@ -21537,7 +22810,7 @@
       "creativeFamily": "família demonstracao",
       "objective": "clareza e progressão da demonstração",
       "segment": "fenômeno visual verificável",
-      "supportingCount": 5,
+      "supportingCount": 6,
       "counterexampleCount": 0,
       "evidence": [
         {
@@ -21589,16 +22862,41 @@
           "limitations": [
             "Não conta como apoio nem contraexemplo."
           ]
+        },
+        {
+          "referenceId": "obs-20260903-091",
+          "role": "support",
+          "comparisonLevel": 1,
+          "requiredEvidenceObserved": true,
+          "confidence": "high",
+          "observation": "A cobertura textual registra desafio antecipado, tentativa frustrada, redistribuição de peso e resultado final.",
+          "evidence": "Página original, trecho de transcrição e resumo textual público.",
+          "limitations": [
+            "Sem auditoria audiovisual, duração, comentários, baseline ou retenção."
+          ]
+        },
+        {
+          "referenceId": "obs-20260903-094",
+          "role": "case_limit",
+          "comparisonLevel": 2,
+          "requiredEvidenceObserved": false,
+          "confidence": "medium",
+          "observation": "Título e descrição prometem testar a ilusão; comentários amostrados sugerem payoff esperado ausente, mas a entrega não ficou verificável.",
+          "evidence": "Página original e amostra parcial de comentários públicos.",
+          "limitations": [
+            "Não conta como apoio nem contraexemplo; comentários não comprovam cena ausente."
+          ]
         }
       ],
       "taxonomyVersion": "3.0",
-      "creatorDiversityCount": 2,
-      "sourceDiversityCount": 2,
+      "creatorDiversityCount": 3,
+      "sourceDiversityCount": 3,
       "patternType": "compreensao",
       "caseLimitReferenceIds": [
-        "obs-20260902-089"
+        "obs-20260902-089",
+        "obs-20260903-094"
       ],
-      "caseLimitCount": 1,
+      "caseLimitCount": 2,
       "counterexampleReferenceIds": []
     },
     {
@@ -23857,6 +25155,115 @@
         "Nenhuma mídia audiovisual integral foi reproduzida.",
         "Dois alvos brasileiros tinham apenas título e descrição.",
         "Resumo secundário pode conter erros.",
+        "Nenhum baseline ou retenção ficou acessível.",
+        "Nenhum resultado autoriza causalidade ou validação."
+      ]
+    },
+    {
+      "id": "run-20260903-supervised-015",
+      "executedAt": "2026-09-03T11:10:41.000Z",
+      "batchPolicyVersion": "1.1",
+      "requestedBatchSize": 5,
+      "candidatesFound": 27,
+      "referenceIds": [
+        "obs-20260903-091",
+        "obs-20260903-092",
+        "obs-20260903-093",
+        "obs-20260903-094",
+        "obs-20260903-095"
+      ],
+      "targetKnowledgeId": "pat-20260823-001",
+      "targetReferenceIds": [
+        "obs-20260903-091",
+        "obs-20260903-092",
+        "obs-20260903-093"
+      ],
+      "falsificationOrBoundaryReferenceIds": [
+        "obs-20260903-094"
+      ],
+      "controlledExplorationReferenceIds": [
+        "obs-20260903-095"
+      ],
+      "discarded": [
+        {
+          "url": "https://www.youtube.com/watch?v=zwB4o4Io31g",
+          "reason": "relato de experimento de acelerador em podcast, sem demonstração executada funcionalmente comparável"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=tgBcNg4oS2w",
+          "reason": "legendas e transcrição indisponíveis; sequência interna não verificável"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=GuJBuA-a7l8",
+          "reason": "explicação histórica, não demonstração científica executada"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=A-bic3aqI6Y",
+          "reason": "tutorial cômico com menor aderência ao gargalo do padrão que a exploração selecionada"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=VgmBoArPT0g",
+          "reason": "explicador científico sem transcrição ou execução demonstrativa suficiente"
+        }
+      ],
+      "analyzed": 5,
+      "brazilianReferences": 4,
+      "internationalReferences": 1,
+      "smallOrMediumCreatorReferences": 3,
+      "coverageSummary": {
+        "complete": 0,
+        "partial": 5,
+        "insufficient": 0
+      },
+      "audiovisualAcquisition": {
+        "attempted": true,
+        "succeeded": 0,
+        "failure": "as páginas originais foram abertas após pesquisa pública, mas os alvos brasileiros não ofereceram legenda ou transcrição; não houve reprodução audiovisual auditável",
+        "effect": "cenas, áudio ouvido, texto na tela, cortes, ritmo e retenção ficaram não mensurados"
+      },
+      "commentsCoverage": {
+        "fullOrDeclaredZero": 0,
+        "partialSample": 2
+      },
+      "baselineCoverage": {
+        "sampledProfiles": 0,
+        "contemporaneousBaselines": 0,
+        "limitation": "nenhum baseline funcional contemporâneo ficou acessível"
+      },
+      "patternsCreated": [],
+      "patternsStrengthened": [
+        "pat-20260823-001"
+      ],
+      "patternsRefined": [
+        "pat-20260823-001"
+      ],
+      "hypothesesCreated": [],
+      "hypothesesStrengthened": [],
+      "validatedPatternsCreated": 0,
+      "contradictionsFound": [],
+      "caseLimitsFound": [
+        "comentários sugerem payoff prometido ausente, mas a falta de vídeo ou transcrição impede classificar como contraexemplo"
+      ],
+      "safetyFindings": [
+        "testes perceptivos com susto ou golpe exigem consentimento e proteção física",
+        "replicabilidade estrutural não substitui avaliação de materiais e supervisão"
+      ],
+      "evidenceGateSummary": {
+        "targetSupportsEligible": 1,
+        "targetSupportsRejected": 2,
+        "boundaryCases": 1,
+        "explorationReferences": 1,
+        "duplicateUrls": 0,
+        "independentCreatorsAddedToPattern": 1,
+        "newHypotheses": 0
+      },
+      "outcome": "Um apoio independente com sequência textual suficiente elevou o padrão a seis apoios, três criadores e três fontes. Duas candidatas brasileiras foram rejeitadas por falta de progressão observável; um possível desalinhamento de payoff ficou apenas como caso-limite. Nenhuma hipótese nova foi criada.",
+      "nextTarget": "demonstração científica brasileira de criador pequeno ou médio com vídeo ou transcrição integral, resultado antecipado, comentários e baseline contemporâneo; buscar um fracasso realmente observado e funcionalmente comparável",
+      "limitations": [
+        "Nenhuma mídia audiovisual integral foi auditada.",
+        "Três alvos brasileiros não disponibilizaram transcrição ou legendas.",
+        "Cobertura textual secundária pode conter erros.",
+        "Comentários foram apenas amostras parciais e não representativas.",
         "Nenhum baseline ou retenção ficou acessível.",
         "Nenhum resultado autoriza causalidade ou validação."
       ]
