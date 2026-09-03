@@ -21600,12 +21600,12 @@
         ],
         "hookTypes": [
           "pergunta",
-          "desafio"
+          "promessa"
         ],
         "narrativeElements": [
           "problema",
           "tentativa",
-          "ajuste",
+          "progressao",
           "conclusao"
         ],
         "proofTypes": [
@@ -21696,7 +21696,7 @@
           {
             "claim": "hipótese ou desafio antecipado",
             "requiredModalities": [
-              "transcript_or_video"
+              "partial_transcript"
             ],
             "observedModalities": [
               "partial_transcript"
@@ -21706,21 +21706,14 @@
           {
             "claim": "progressão até resultado",
             "requiredModalities": [
-              "transcript_or_video"
+              "partial_transcript",
+              "structured_summary"
             ],
             "observedModalities": [
               "partial_transcript",
               "structured_summary"
             ],
             "sufficient": true
-          },
-          {
-            "claim": "efeito em retenção ou compreensão",
-            "requiredModalities": [
-              "retention_or_experiment"
-            ],
-            "observedModalities": [],
-            "sufficient": false
           }
         ],
         "provenanceAndConsent": {
@@ -21837,7 +21830,7 @@
         ],
         "objectives": [
           "educar",
-          "entreter"
+          "visualizacao"
         ],
         "advertisingType": "editorial_organico",
         "commercialIntent": "indeterminada",
@@ -21955,7 +21948,8 @@
           {
             "claim": "resultado ou teste antecipado",
             "requiredModalities": [
-              "title_or_description"
+              "title",
+              "description"
             ],
             "observedModalities": [
               "title",
@@ -22086,7 +22080,7 @@
         ],
         "objectives": [
           "educar",
-          "conscientizar"
+          "consciencia_problema"
         ],
         "advertisingType": "editorial_organico",
         "commercialIntent": "indeterminada",
@@ -22106,7 +22100,7 @@
         "productionLevel": "simple",
         "creatorScale": "small",
         "replicability": "high",
-        "durationBand": "under_60s",
+        "durationBand": "31_to_60s",
         "pace": "unknown",
         "mechanisms": [
           "curiosidade",
@@ -22114,7 +22108,7 @@
           "autoridade"
         ],
         "hookTypes": [
-          "conceito_incomum"
+          "novidade"
         ],
         "narrativeElements": [
           "problema"
@@ -22334,7 +22328,7 @@
           }
         ],
         "objectives": [
-          "entreter",
+          "visualizacao",
           "educar"
         ],
         "advertisingType": "editorial_organico",
@@ -22364,7 +22358,7 @@
         ],
         "hookTypes": [
           "pergunta",
-          "checagem_de_viral"
+          "promessa"
         ],
         "narrativeElements": [
           "problema"
@@ -22455,7 +22449,8 @@
           {
             "claim": "pergunta e teste antecipados",
             "requiredModalities": [
-              "title_or_description"
+              "title",
+              "description"
             ],
             "observedModalities": [
               "title",
@@ -22589,10 +22584,10 @@
         ],
         "objectives": [
           "educar",
-          "conscientizar"
+          "consciencia_problema"
         ],
-        "advertisingType": "publicidade_identificada",
-        "commercialIntent": "mista",
+        "advertisingType": "publicidade_nativa",
+        "commercialIntent": "explicita",
         "advertisedEntity": {
           "kind": "marca",
           "name": "Alura",
@@ -22617,19 +22612,20 @@
           "curiosidade"
         ],
         "hookTypes": [
-          "controversia",
-          "revisao_de_crenca"
+          "afirmacao_contraintuitiva",
+          "conflito"
         ],
         "narrativeElements": [
           "problema",
-          "analise",
+          "mecanismo",
+          "progressao",
           "conclusao"
         ],
         "proofTypes": [
-          "raciocinio_metodologico"
+          "mecanismo_explicado"
         ],
         "ctaTypes": [
-          "oferta"
+          "clicar"
         ],
         "distributionContext": {
           "organicPaid": "unknown",
@@ -22711,7 +22707,8 @@
           {
             "claim": "crítica de desenho experimental",
             "requiredModalities": [
-              "description_or_notes"
+              "description",
+              "episode_notes"
             ],
             "observedModalities": [
               "description",
