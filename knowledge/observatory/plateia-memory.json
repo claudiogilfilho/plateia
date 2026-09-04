@@ -1,6 +1,6 @@
 {
   "protocol": "plateia-memory/1.0",
-  "updatedAt": "2026-09-03T11:10:41.000Z",
+  "updatedAt": "2026-09-04T11:22:40.000Z",
   "references": [
     {
       "id": "obs-20260823-001",
@@ -22764,6 +22764,1281 @@
         ],
         "causalClaimAllowed": false
       }
+    },
+    {
+      "id": "obs-20260904-096",
+      "title": "Pasos del Método Científico ¡Nuevo!",
+      "creator": "AcercaCiencia",
+      "creatorIdentity": "acercaciencia",
+      "sourceIdentity": "acercaciencia",
+      "country": "ES",
+      "url": "https://www.youtube.com/watch?v=MIAhDCxUWiw",
+      "publishedAt": "2014-05-23",
+      "duration": "não acessível",
+      "createdAt": "2026-09-04T11:22:40.000Z",
+      "coverage": {
+        "level": "partial",
+        "accessible": [
+          "título",
+          "criador",
+          "descrição",
+          "data em página oficial do projeto",
+          "resumo textual com timestamps",
+          "observação, hipótese, teste e resultado do exemplo"
+        ],
+        "missing": [
+          "vídeo integral auditável",
+          "imagem em movimento",
+          "áudio ouvido",
+          "transcrição integral",
+          "legendas",
+          "texto na tela",
+          "duração confiável",
+          "métricas atuais",
+          "comentários",
+          "montagem",
+          "ritmo",
+          "retenção",
+          "baseline"
+        ]
+      },
+      "publicMetrics": {
+        "viewsObserved": "not_measured",
+        "likesObserved": "not_measured",
+        "observedAt": "2026-09-04",
+        "sourceType": "official_project_page_and_secondary_timestamped_summary",
+        "causality": "not_inferred"
+      },
+      "classification": {
+        "taxonomyVersion": "3.0",
+        "container": "youtube_video",
+        "materialFormat": "video_longo",
+        "presentationFormats": [
+          "animacao",
+          "demonstracao"
+        ],
+        "primaryFamily": "educativo",
+        "secondaryFamilies": [
+          "demonstracao",
+          "explicativo"
+        ],
+        "functionalMix": [
+          {
+            "family": "educativo",
+            "percentage": 55
+          },
+          {
+            "family": "demonstracao",
+            "percentage": 25
+          },
+          {
+            "family": "explicativo",
+            "percentage": 20
+          }
+        ],
+        "objectives": [
+          "educar"
+        ],
+        "advertisingType": "sem_intencao_comercial",
+        "commercialIntent": "ausente",
+        "advertisedEntity": {
+          "kind": "nenhuma",
+          "name": "",
+          "confidence": "high"
+        },
+        "contentTopic": {
+          "label": "aplicação do método científico a plantas doentes",
+          "iabCode": null
+        },
+        "segment": "ciência e educação",
+        "subsegment": "método científico",
+        "probableAudience": "estudantes e educadores",
+        "awarenessStage": "consciente_solucao",
+        "productionLevel": "intermediate",
+        "creatorScale": "small",
+        "replicability": "high",
+        "durationBand": "over_60s",
+        "pace": "unknown",
+        "mechanisms": [
+          "curiosidade",
+          "utilidade_pratica"
+        ],
+        "hookTypes": [
+          "problema"
+        ],
+        "narrativeElements": [
+          "situacao",
+          "problema",
+          "mecanismo",
+          "progressao",
+          "conclusao"
+        ],
+        "proofTypes": [
+          "mecanismo_explicado"
+        ],
+        "ctaTypes": [],
+        "distributionContext": {
+          "organicPaid": "unknown",
+          "trendDependency": "unknown"
+        },
+        "confidence": "high",
+        "evidence": [
+          "O resumo apresenta plantas doentes, pesquisa, hipótese de pragas, aplicação de tratamento e melhora posterior.",
+          "A página oficial descreve o vídeo como explicação da sequência do método científico."
+        ],
+        "alternativeClassifications": [],
+        "missingInformation": [
+          "execução real do exemplo",
+          "recursos visuais",
+          "fala integral",
+          "ritmo",
+          "retenção",
+          "comentários"
+        ],
+        "needsHumanReview": true
+      },
+      "comparison": {
+        "level": 2,
+        "group": "ilustração didática do método científico sem experimento executado verificável",
+        "referenceIds": [
+          "obs-20260902-086"
+        ],
+        "confidence": "high"
+      },
+      "observations": [
+        "O exemplo mantém pergunta, hipótese, teste e conclusão em ordem explícita.",
+        "A cobertura não permite afirmar que o experimento foi executado no vídeo."
+      ],
+      "interpretations": [
+        "É comparação conceitual útil, mas não apoio formal ao padrão de demonstração executada."
+      ],
+      "scores": {
+        "gancho": 78,
+        "clareza": 91,
+        "relevancia": 86,
+        "desejo": 72,
+        "confianca": 82,
+        "retencao": "not_assessed",
+        "acao": 84,
+        "objecoes": 80
+      },
+      "fiveLenses": {
+        "apressado": "Entende o problema cotidiano.",
+        "analitico": "Recebe as etapas do método em ordem.",
+        "aspiracional": "Consegue adaptar a estrutura a situações simples.",
+        "comunidade": "Não mensurado.",
+        "cetico": "O exemplo textual não comprova execução audiovisual."
+      },
+      "hypotheses": [],
+      "replicable": [
+        "Organizar problema, hipótese, teste e conclusão como cadeia explícita."
+      ],
+      "limitations": [
+        "Rejeitado como apoio ao padrão porque o exemplo pode ser apenas ilustrativo.",
+        "Sem audiovisual, transcrição integral ou métricas atuais."
+      ],
+      "provenance": [
+        "public_content",
+        "official_project_page",
+        "secondary_timestamped_summary",
+        "observatory_inference"
+      ],
+      "sourceEvidence": [
+        "https://www.youtube.com/watch?v=MIAhDCxUWiw",
+        "https://videohighlight.com/v/MIAhDCxUWiw",
+        "https://www.acercaciencia.com/2014/05/23/nuevo-video-sobre-el-metodo-cientifico-experimental/"
+      ],
+      "training": {
+        "evidencePolicyVersion": "1.1",
+        "evidenceRole": "target_support",
+        "evidenceLevel": 2,
+        "requiredEvidenceObserved": false,
+        "supportEligible": false,
+        "claimCoverage": [
+          {
+            "claim": "cadeia de método científico",
+            "requiredModalities": [
+              "timestamped_summary"
+            ],
+            "observedModalities": [
+              "timestamped_summary"
+            ],
+            "sufficient": true
+          },
+          {
+            "claim": "experimento executado no vídeo",
+            "requiredModalities": [
+              "video_or_transcript"
+            ],
+            "observedModalities": [],
+            "sufficient": false
+          }
+        ],
+        "provenanceAndConsent": {
+          "storyOrigin": "not_applicable",
+          "consentStatus": "not_applicable",
+          "identityProtection": "not_applicable",
+          "evidence": [
+            "conteúdo educativo"
+          ]
+        },
+        "replicable": [
+          "Explicitar a cadeia do método."
+        ],
+        "contingent": [
+          "exemplo realmente executado",
+          "correção científica"
+        ],
+        "notRecommended": [
+          "tratar ilustração como demonstração",
+          "inferir cenas, áudio, ritmo ou retenção"
+        ],
+        "hypotheses": []
+      },
+      "viralAssessment": {
+        "status": "indeterminate",
+        "observedSignal": "métricas atuais não mensuradas",
+        "missingForRelativeAssessment": [
+          "visualizações atuais",
+          "baseline",
+          "retenção",
+          "fontes de tráfego"
+        ],
+        "confounders": [
+          "idade do vídeo",
+          "uso educacional externo",
+          "distribuição"
+        ],
+        "causalClaimAllowed": false
+      }
+    },
+    {
+      "id": "obs-20260904-097",
+      "title": "NÚCLEOS vs FREQUÊNCIAS: quanto muda a performance do seu processador?",
+      "creator": "Adrenaline / Diego Kerber",
+      "creatorIdentity": "adrenaline-diego-kerber",
+      "sourceIdentity": "adrenaline",
+      "country": "BR",
+      "url": "https://www.youtube.com/watch?v=jjSC_6ZhqV0",
+      "publishedAt": "2024-05-07",
+      "duration": "mais de PT18M31S; duração exata não acessível",
+      "createdAt": "2026-09-04T11:22:40.000Z",
+      "coverage": {
+        "level": "partial",
+        "accessible": [
+          "título",
+          "criador e autoria",
+          "descrição",
+          "data em artigo oficial",
+          "resumo textual com timestamps",
+          "pergunta inicial",
+          "configurações testadas",
+          "resultados por frequência e núcleos",
+          "falhas de inicialização",
+          "limites térmicos e energéticos"
+        ],
+        "missing": [
+          "vídeo integral auditável",
+          "imagem em movimento",
+          "áudio ouvido",
+          "transcrição integral",
+          "legendas",
+          "texto e gráficos na tela",
+          "duração exata",
+          "métricas públicas do vídeo",
+          "comentários",
+          "montagem",
+          "ritmo",
+          "retenção",
+          "baseline"
+        ]
+      },
+      "publicMetrics": {
+        "viewsObserved": "not_measured",
+        "likesObserved": "not_measured",
+        "observedAt": "2026-09-04",
+        "sourceType": "official_companion_article_and_secondary_timestamped_summary",
+        "causality": "not_inferred"
+      },
+      "classification": {
+        "taxonomyVersion": "3.0",
+        "container": "youtube_video",
+        "materialFormat": "video_longo",
+        "presentationFormats": [
+          "demonstracao",
+          "comentario"
+        ],
+        "primaryFamily": "comparacao",
+        "secondaryFamilies": [
+          "demonstracao",
+          "educativo"
+        ],
+        "functionalMix": [
+          {
+            "family": "comparacao",
+            "percentage": 50
+          },
+          {
+            "family": "demonstracao",
+            "percentage": 35
+          },
+          {
+            "family": "educativo",
+            "percentage": 15
+          }
+        ],
+        "objectives": [
+          "educar",
+          "confianca",
+          "venda"
+        ],
+        "advertisingType": "publicidade_nativa",
+        "commercialIntent": "explicita",
+        "advertisedEntity": {
+          "kind": "servico",
+          "name": "Extensão Economize e canais de ofertas do Adrenaline",
+          "confidence": "high"
+        },
+        "contentTopic": {
+          "label": "impacto de núcleos, frequência, SMT, temperatura e energia no desempenho de processador",
+          "iabCode": null
+        },
+        "segment": "tecnologia",
+        "subsegment": "benchmark e hardware",
+        "probableAudience": "consumidores e entusiastas de hardware",
+        "awarenessStage": "consciente_solucao",
+        "productionLevel": "complex",
+        "creatorScale": "large",
+        "replicability": "medium",
+        "durationBand": "over_60s",
+        "pace": "unknown",
+        "mechanisms": [
+          "curiosidade",
+          "contraste",
+          "autoridade",
+          "recompensa"
+        ],
+        "hookTypes": [
+          "pergunta",
+          "promessa"
+        ],
+        "narrativeElements": [
+          "problema",
+          "promessa",
+          "progressao",
+          "prova",
+          "conclusao"
+        ],
+        "proofTypes": [
+          "demonstracao",
+          "dado",
+          "mecanismo_explicado"
+        ],
+        "ctaTypes": [
+          "clicar"
+        ],
+        "distributionContext": {
+          "organicPaid": "unknown",
+          "trendDependency": "unknown"
+        },
+        "confidence": "high",
+        "evidence": [
+          "A descrição pergunta quanto núcleos e frequências alteram desempenho e promete testar configurações.",
+          "O resumo registra testes progressivos, resultados distintos, limites térmicos e tentativas que não iniciam ou não dão boot."
+        ],
+        "alternativeClassifications": [],
+        "missingInformation": [
+          "gráficos visuais auditados",
+          "método completo",
+          "repetições",
+          "margem de erro",
+          "ritmo",
+          "retenção",
+          "comentários",
+          "baseline"
+        ],
+        "needsHumanReview": true
+      },
+      "comparison": {
+        "level": 2,
+        "group": "demonstração experimental comparativa com pergunta, variáveis, resultados e falhas observáveis",
+        "referenceIds": [
+          "obs-20260829-069",
+          "obs-20260903-091"
+        ],
+        "confidence": "high"
+      },
+      "observations": [
+        "A pergunta e as variáveis são declaradas antes da bateria de testes.",
+        "Algumas condições produzem regressão, não iniciam ou impedem o boot; essas falhas delimitam o sistema."
+      ],
+      "interpretations": [
+        "Falhas vinculadas à condição testada podem funcionar como evidência do limite, sem necessidade de fabricar sucesso.",
+        "A estrutura reforça o padrão principal; desempenho comunicacional não foi medido."
+      ],
+      "scores": {
+        "gancho": 88,
+        "clareza": 91,
+        "relevancia": 89,
+        "desejo": 84,
+        "confianca": 90,
+        "retencao": "not_assessed",
+        "acao": 82,
+        "objecoes": 88
+      },
+      "fiveLenses": {
+        "apressado": "Entende a comparação entre núcleos e frequência.",
+        "analitico": "Recebe variáveis, configurações, resultados e limitações; faltam gráficos auditados e repetição.",
+        "aspiracional": "Consegue usar o resultado para orientar escolha de hardware.",
+        "comunidade": "Não mensurado.",
+        "cetico": "A falha é registrada como limite, mas não há auditoria audiovisual nem estatística completa."
+      },
+      "hypotheses": [],
+      "replicable": [
+        "Declarar a pergunta comparativa antes dos testes.",
+        "Manter resultados negativos e ligá-los à configuração que os produziu."
+      ],
+      "limitations": [
+        "Equipamento caro reduz replicabilidade material, embora a arquitetura editorial seja replicável.",
+        "Links comerciais são contexto, não evidência do resultado.",
+        "Sem retenção, comentários ou baseline."
+      ],
+      "provenance": [
+        "public_content",
+        "official_companion_article",
+        "secondary_timestamped_summary",
+        "observatory_inference"
+      ],
+      "sourceEvidence": [
+        "https://www.youtube.com/watch?v=jjSC_6ZhqV0",
+        "https://videohighlight.com/v/jjSC_6ZhqV0",
+        "https://www.adrenaline.com.br/hardware/nucleos-vs-frequencias/"
+      ],
+      "training": {
+        "evidencePolicyVersion": "1.1",
+        "evidenceRole": "target_support",
+        "evidenceLevel": 2,
+        "requiredEvidenceObserved": true,
+        "supportEligible": true,
+        "claimCoverage": [
+          {
+            "claim": "pergunta e variáveis antes dos testes",
+            "requiredModalities": [
+              "official_description",
+              "timestamped_summary"
+            ],
+            "observedModalities": [
+              "official_description",
+              "timestamped_summary"
+            ],
+            "sufficient": true
+          },
+          {
+            "claim": "progressão até resultados e falhas",
+            "requiredModalities": [
+              "timestamped_summary"
+            ],
+            "observedModalities": [
+              "timestamped_summary"
+            ],
+            "sufficient": true
+          }
+        ],
+        "provenanceAndConsent": {
+          "storyOrigin": "not_applicable",
+          "consentStatus": "not_applicable",
+          "identityProtection": "not_applicable",
+          "evidence": [
+            "conteúdo educativo"
+          ]
+        },
+        "replicable": [
+          "Pergunta comparativa antes da bateria de testes.",
+          "Resultado negativo ligado à variável."
+        ],
+        "contingent": [
+          "controle de variáveis",
+          "equipamento e método"
+        ],
+        "notRecommended": [
+          "atribuir retenção ou viralidade",
+          "tratar publicidade como prova",
+          "copiar roteiro"
+        ],
+        "hypotheses": []
+      },
+      "viralAssessment": {
+        "status": "indeterminate",
+        "observedSignal": "métricas do vídeo não mensuradas",
+        "missingForRelativeAssessment": [
+          "visualizações",
+          "baseline",
+          "retenção",
+          "fontes de tráfego"
+        ],
+        "confounders": [
+          "marca editorial",
+          "orçamento",
+          "links comerciais",
+          "demanda de busca"
+        ],
+        "causalClaimAllowed": false
+      }
+    },
+    {
+      "id": "obs-20260904-098",
+      "title": "Bexiga na Cama de Pregos: Mito ou Verdade?",
+      "creator": "Turma do Vital Brasil",
+      "creatorIdentity": "turma-do-vital-brasil",
+      "sourceIdentity": "turma-do-vital-brasil",
+      "country": "BR",
+      "url": "https://www.youtube.com/watch?v=1VfKDu8GEB4",
+      "publishedAt": "não acessível",
+      "duration": "PT8M24S",
+      "createdAt": "2026-09-04T11:22:40.000Z",
+      "coverage": {
+        "level": "partial",
+        "accessible": [
+          "título",
+          "canal",
+          "duração visível na página original",
+          "descrição indexada parcial",
+          "visualizações aproximadas",
+          "idade aproximada da publicação"
+        ],
+        "missing": [
+          "vídeo integral auditável",
+          "imagem em movimento",
+          "áudio ouvido",
+          "transcrição",
+          "legendas",
+          "texto na tela",
+          "procedimento",
+          "resultado observado",
+          "data exata",
+          "curtidas",
+          "comentários",
+          "montagem",
+          "ritmo",
+          "retenção",
+          "baseline"
+        ]
+      },
+      "publicMetrics": {
+        "viewsObserved": "aprox. 67",
+        "likesObserved": "não exibidas",
+        "publishedAgeObserved": "aprox. 4 anos",
+        "observedAt": "2026-09-04",
+        "sourceType": "youtube_public_search_and_page_snapshot",
+        "causality": "not_inferred"
+      },
+      "classification": {
+        "taxonomyVersion": "3.0",
+        "container": "youtube_video",
+        "materialFormat": "video_longo",
+        "presentationFormats": [
+          "demonstracao",
+          "tutorial"
+        ],
+        "primaryFamily": "demonstracao",
+        "secondaryFamilies": [
+          "educativo",
+          "entretenimento"
+        ],
+        "functionalMix": [
+          {
+            "family": "demonstracao",
+            "percentage": 55
+          },
+          {
+            "family": "educativo",
+            "percentage": 30
+          },
+          {
+            "family": "entretenimento",
+            "percentage": 15
+          }
+        ],
+        "objectives": [
+          "educar",
+          "visualizacao"
+        ],
+        "advertisingType": "editorial_organico",
+        "commercialIntent": "indeterminada",
+        "advertisedEntity": {
+          "kind": "indeterminado",
+          "name": "",
+          "confidence": "low"
+        },
+        "contentTopic": {
+          "label": "pressão distribuída em cama de pregos com bexiga",
+          "iabCode": null
+        },
+        "segment": "ciência e educação",
+        "subsegment": "pressão, força e área",
+        "probableAudience": "crianças, famílias e educadores",
+        "awarenessStage": "inconsciente",
+        "productionLevel": "simple",
+        "creatorScale": "small",
+        "replicability": "high",
+        "durationBand": "over_60s",
+        "pace": "unknown",
+        "mechanisms": [
+          "curiosidade",
+          "surpresa"
+        ],
+        "hookTypes": [
+          "pergunta",
+          "conflito"
+        ],
+        "narrativeElements": [
+          "problema"
+        ],
+        "proofTypes": [
+          "ausencia_prova_necessaria"
+        ],
+        "ctaTypes": [],
+        "distributionContext": {
+          "organicPaid": "unknown",
+          "trendDependency": "unknown"
+        },
+        "confidence": "medium",
+        "evidence": [
+          "O título formula teste de mito ou verdade.",
+          "A descrição indexada associa a demonstração ao conceito físico, mas a execução não ficou acessível."
+        ],
+        "alternativeClassifications": [],
+        "missingInformation": [
+          "procedimento",
+          "resultado",
+          "segurança",
+          "fala",
+          "cenas",
+          "ritmo",
+          "retenção",
+          "comentários",
+          "baseline"
+        ],
+        "needsHumanReview": true
+      },
+      "comparison": {
+        "level": 1,
+        "group": "candidato a demonstração física com pergunta e resultado prometido",
+        "referenceIds": [
+          "obs-20260904-097",
+          "obs-20260902-086"
+        ],
+        "confidence": "medium"
+      },
+      "observations": [
+        "A pergunta testável é clara no título.",
+        "A ausência de transcrição ou vídeo auditável impede verificar progressão e payoff."
+      ],
+      "interpretations": [
+        "Continua sendo candidato, não apoio ao padrão."
+      ],
+      "scores": {
+        "gancho": 86,
+        "clareza": 88,
+        "relevancia": 80,
+        "desejo": 82,
+        "confianca": "not_assessed",
+        "retencao": "not_assessed",
+        "acao": "not_assessed",
+        "objecoes": "not_assessed"
+      },
+      "fiveLenses": {
+        "apressado": "Entende imediatamente o teste.",
+        "analitico": "Não consegue auditar método ou explicação.",
+        "aspiracional": "Parece reproduzível com materiais simples.",
+        "comunidade": "Não mensurado.",
+        "cetico": "Pergunta e baixo alcance absoluto não provam entrega nem efeito."
+      },
+      "hypotheses": [],
+      "replicable": [
+        "Formular fenômeno familiar como teste de mito ou verdade."
+      ],
+      "limitations": [
+        "Rejeitado como apoio por falta de procedimento e resultado observáveis.",
+        "Alcance absoluto não possui baseline funcional."
+      ],
+      "provenance": [
+        "public_content",
+        "public_search_snapshot",
+        "observatory_inference"
+      ],
+      "sourceEvidence": [
+        "https://www.youtube.com/watch?v=1VfKDu8GEB4"
+      ],
+      "training": {
+        "evidencePolicyVersion": "1.1",
+        "evidenceRole": "target_support",
+        "evidenceLevel": 1,
+        "requiredEvidenceObserved": false,
+        "supportEligible": false,
+        "claimCoverage": [
+          {
+            "claim": "pergunta testável",
+            "requiredModalities": [
+              "title"
+            ],
+            "observedModalities": [
+              "title"
+            ],
+            "sufficient": true
+          },
+          {
+            "claim": "progressão e payoff",
+            "requiredModalities": [
+              "video_or_transcript"
+            ],
+            "observedModalities": [],
+            "sufficient": false
+          }
+        ],
+        "provenanceAndConsent": {
+          "storyOrigin": "not_applicable",
+          "consentStatus": "not_applicable",
+          "identityProtection": "not_applicable",
+          "evidence": [
+            "conteúdo educativo"
+          ]
+        },
+        "replicable": [
+          "Pergunta binária ligada a fenômeno observável."
+        ],
+        "contingent": [
+          "segurança com pregos",
+          "qualidade da explicação"
+        ],
+        "notRecommended": [
+          "contar título como execução",
+          "inferir cenas, áudio, ritmo ou retenção"
+        ],
+        "hypotheses": []
+      },
+      "viralAssessment": {
+        "status": "indeterminate",
+        "observedSignal": "aprox. 67 visualizações, sem baseline funcional",
+        "missingForRelativeAssessment": [
+          "baseline",
+          "impressões",
+          "retenção",
+          "fontes de tráfego"
+        ],
+        "confounders": [
+          "tamanho do canal",
+          "idade",
+          "distribuição"
+        ],
+        "causalClaimAllowed": false
+      }
+    },
+    {
+      "id": "obs-20260904-099",
+      "title": "Deu errado experimento — Proteção Contra Meteoros",
+      "creator": "Domingos dos Santos Neto",
+      "creatorIdentity": "domingos-dos-santos-neto",
+      "sourceIdentity": "domingos-dos-santos-neto",
+      "country": "BR",
+      "url": "https://www.youtube.com/watch?v=Q1Vlg6ziTVU",
+      "publishedAt": "não acessível",
+      "duration": "PT1M56S",
+      "createdAt": "2026-09-04T11:22:40.000Z",
+      "coverage": {
+        "level": "partial",
+        "accessible": [
+          "título",
+          "canal",
+          "duração visível na página original",
+          "visualizações e curtidas aproximadas indexadas"
+        ],
+        "missing": [
+          "vídeo integral auditável",
+          "imagem em movimento",
+          "áudio ouvido",
+          "transcrição",
+          "legendas",
+          "texto na tela",
+          "descrição",
+          "hipótese",
+          "procedimento",
+          "natureza da falha",
+          "causa ou variável",
+          "data",
+          "comentários",
+          "ritmo",
+          "retenção",
+          "baseline"
+        ]
+      },
+      "publicMetrics": {
+        "viewsObserved": "aprox. 402",
+        "likesObserved": "aprox. 37",
+        "observedAt": "2026-09-04",
+        "sourceType": "youtube_public_search_and_page_snapshot",
+        "causality": "not_inferred"
+      },
+      "classification": {
+        "taxonomyVersion": "3.0",
+        "container": "youtube_video",
+        "materialFormat": "video_longo",
+        "presentationFormats": [
+          "demonstracao"
+        ],
+        "primaryFamily": "entretenimento",
+        "secondaryFamilies": [
+          "demonstracao",
+          "educativo"
+        ],
+        "functionalMix": [
+          {
+            "family": "entretenimento",
+            "percentage": 40
+          },
+          {
+            "family": "demonstracao",
+            "percentage": 35
+          },
+          {
+            "family": "educativo",
+            "percentage": 25
+          }
+        ],
+        "objectives": [
+          "visualizacao",
+          "educar"
+        ],
+        "advertisingType": "indeterminado",
+        "commercialIntent": "indeterminada",
+        "advertisedEntity": {
+          "kind": "indeterminado",
+          "name": "",
+          "confidence": "low"
+        },
+        "contentTopic": {
+          "label": "experimento de proteção contra meteoros",
+          "iabCode": null
+        },
+        "segment": "ciência e educação",
+        "subsegment": "matemática e física",
+        "probableAudience": "público interessado em experimentos",
+        "awarenessStage": "inconsciente",
+        "productionLevel": "simple",
+        "creatorScale": "small",
+        "replicability": "high",
+        "durationBand": "over_60s",
+        "pace": "unknown",
+        "mechanisms": [
+          "curiosidade",
+          "tensao"
+        ],
+        "hookTypes": [
+          "conflito"
+        ],
+        "narrativeElements": [
+          "problema"
+        ],
+        "proofTypes": [
+          "ausencia_prova_necessaria"
+        ],
+        "ctaTypes": [],
+        "distributionContext": {
+          "organicPaid": "unknown",
+          "trendDependency": "unknown"
+        },
+        "confidence": "low",
+        "evidence": [
+          "O título declara que o experimento deu errado.",
+          "Nenhuma modalidade acessível revela o que falhou ou por quê."
+        ],
+        "alternativeClassifications": [],
+        "missingInformation": [
+          "hipótese",
+          "procedimento",
+          "resultado",
+          "variável da falha",
+          "segurança",
+          "ritmo",
+          "retenção",
+          "comentários",
+          "baseline"
+        ],
+        "needsHumanReview": true
+      },
+      "comparison": {
+        "level": 2,
+        "group": "caso-limite: falha declarada sem mecanismo observável",
+        "referenceIds": [
+          "obs-20260829-069",
+          "obs-20260903-091",
+          "obs-20260904-097"
+        ],
+        "confidence": "medium"
+      },
+      "observations": [
+        "A falha é declarada no título.",
+        "Não foi possível observar ligação entre falha, variável e aprendizado."
+      ],
+      "interpretations": [
+        "Dizer que deu errado não basta para apoiar o padrão sobre uso explicativo da falha.",
+        "É caso-limite, não contraexemplo."
+      ],
+      "scores": {
+        "gancho": 82,
+        "clareza": 70,
+        "relevancia": 72,
+        "desejo": 75,
+        "confianca": "not_assessed",
+        "retencao": "not_assessed",
+        "acao": "not_assessed",
+        "objecoes": "not_assessed"
+      },
+      "fiveLenses": {
+        "apressado": "Percebe que houve falha.",
+        "analitico": "Não sabe hipótese, procedimento ou causa.",
+        "aspiracional": "Não mensurado.",
+        "comunidade": "Não mensurado.",
+        "cetico": "O rótulo de falha não demonstra aprendizado."
+      },
+      "hypotheses": [],
+      "replicable": [
+        "Nomear honestamente um resultado negativo."
+      ],
+      "limitations": [
+        "Não ensina mecanismo por falta de cobertura suficiente.",
+        "Não conta como apoio nem contraexemplo."
+      ],
+      "provenance": [
+        "public_content",
+        "public_search_snapshot",
+        "observatory_inference"
+      ],
+      "sourceEvidence": [
+        "https://www.youtube.com/watch?v=Q1Vlg6ziTVU"
+      ],
+      "training": {
+        "evidencePolicyVersion": "1.1",
+        "evidenceRole": "falsification_or_boundary",
+        "evidenceLevel": 2,
+        "requiredEvidenceObserved": false,
+        "supportEligible": false,
+        "claimCoverage": [
+          {
+            "claim": "falha declarada",
+            "requiredModalities": [
+              "title"
+            ],
+            "observedModalities": [
+              "title"
+            ],
+            "sufficient": true
+          },
+          {
+            "claim": "falha ligada a variável ou limite",
+            "requiredModalities": [
+              "video_or_transcript"
+            ],
+            "observedModalities": [],
+            "sufficient": false
+          }
+        ],
+        "provenanceAndConsent": {
+          "storyOrigin": "not_applicable",
+          "consentStatus": "not_applicable",
+          "identityProtection": "not_applicable",
+          "evidence": [
+            "conteúdo educativo"
+          ]
+        },
+        "replicable": [
+          "Declarar resultado negativo sem fabricar sucesso."
+        ],
+        "contingent": [
+          "explicação da causa",
+          "segurança"
+        ],
+        "notRecommended": [
+          "tratar rótulo como análise",
+          "inferir procedimento, cena, áudio ou retenção"
+        ],
+        "hypotheses": []
+      },
+      "viralAssessment": {
+        "status": "indeterminate",
+        "observedSignal": "aprox. 402 visualizações, sem baseline funcional",
+        "missingForRelativeAssessment": [
+          "baseline",
+          "impressões",
+          "retenção",
+          "fontes de tráfego"
+        ],
+        "confounders": [
+          "tamanho do canal",
+          "idade",
+          "tema",
+          "distribuição"
+        ],
+        "causalClaimAllowed": false
+      }
+    },
+    {
+      "id": "obs-20260904-100",
+      "title": "É Impossível Medir a Velocidade da Luz",
+      "creator": "Ciência Todo Dia",
+      "creatorIdentity": "ciencia-todo-dia",
+      "sourceIdentity": "ciencia-todo-dia",
+      "country": "BR",
+      "url": "https://www.youtube.com/watch?v=ladvWvqcJ_g",
+      "publishedAt": "2023-06-26",
+      "duration": "não acessível",
+      "createdAt": "2026-09-04T11:22:40.000Z",
+      "coverage": {
+        "level": "partial",
+        "accessible": [
+          "título",
+          "criador",
+          "descrição",
+          "data indexada",
+          "resumo textual com timestamps",
+          "problema de sincronização",
+          "experimentos mentais",
+          "limite da medição e conclusão",
+          "cupom e chamadas comerciais"
+        ],
+        "missing": [
+          "vídeo integral auditável",
+          "imagem em movimento",
+          "áudio ouvido",
+          "transcrição integral",
+          "legendas",
+          "texto na tela",
+          "duração confiável",
+          "métricas atuais",
+          "comentários",
+          "montagem",
+          "ritmo",
+          "retenção",
+          "baseline"
+        ]
+      },
+      "publicMetrics": {
+        "viewsObserved": "not_measured",
+        "likesObserved": "not_measured",
+        "observedAt": "2026-09-04",
+        "sourceType": "youtube_description_secondary_timestamped_summary_and_date_index",
+        "causality": "not_inferred"
+      },
+      "classification": {
+        "taxonomyVersion": "3.0",
+        "container": "youtube_video",
+        "materialFormat": "video_longo",
+        "presentationFormats": [
+          "camera_direta",
+          "narracao_imagens"
+        ],
+        "primaryFamily": "explicativo",
+        "secondaryFamilies": [
+          "educativo",
+          "autoridade_opiniao"
+        ],
+        "functionalMix": [
+          {
+            "family": "explicativo",
+            "percentage": 55
+          },
+          {
+            "family": "educativo",
+            "percentage": 30
+          },
+          {
+            "family": "autoridade_opiniao",
+            "percentage": 15
+          }
+        ],
+        "objectives": [
+          "educar",
+          "consciencia_problema",
+          "venda"
+        ],
+        "advertisingType": "oferta_direta",
+        "commercialIntent": "explicita",
+        "advertisedEntity": {
+          "kind": "produto",
+          "name": "camisetas Ciência Todo Dia",
+          "confidence": "high"
+        },
+        "contentTopic": {
+          "label": "limite de medir a velocidade da luz em uma única direção",
+          "iabCode": null
+        },
+        "segment": "ciência e educação",
+        "subsegment": "física e relatividade",
+        "probableAudience": "público geral interessado em física",
+        "awarenessStage": "inconsciente",
+        "productionLevel": "complex",
+        "creatorScale": "large",
+        "replicability": "high",
+        "durationBand": "over_60s",
+        "pace": "unknown",
+        "mechanisms": [
+          "curiosidade",
+          "contraste",
+          "autoridade"
+        ],
+        "hookTypes": [
+          "afirmacao_contraintuitiva",
+          "pergunta"
+        ],
+        "narrativeElements": [
+          "problema",
+          "conflito",
+          "mecanismo",
+          "progressao",
+          "conclusao"
+        ],
+        "proofTypes": [
+          "mecanismo_explicado",
+          "fonte"
+        ],
+        "ctaTypes": [
+          "comprar",
+          "conversar"
+        ],
+        "distributionContext": {
+          "organicPaid": "unknown",
+          "trendDependency": "unknown"
+        },
+        "confidence": "high",
+        "evidence": [
+          "A abertura textual contradiz uma certeza conhecida e apresenta o limite da medição em uma direção.",
+          "O resumo percorre sincronização de relógios, dependência circular da constante e conclusão de impossibilidade prática."
+        ],
+        "alternativeClassifications": [],
+        "missingInformation": [
+          "fontes científicas auditadas",
+          "recursos visuais",
+          "ritmo",
+          "retenção",
+          "comentários",
+          "baseline"
+        ],
+        "needsHumanReview": true
+      },
+      "comparison": {
+        "level": 3,
+        "group": "exploração controlada: explicador científico cujo payoff é um limite de medição",
+        "referenceIds": [],
+        "confidence": "high"
+      },
+      "observations": [
+        "O resultado negativo é antecipado como tese e sustentado por uma cadeia de obstáculos conceituais.",
+        "Não há experimento executado no material acessível."
+      ],
+      "interpretations": [
+        "Em explicadores, um limite demonstrado por raciocínio pode ser payoff; isso não deve ser misturado ao padrão de demonstração executada."
+      ],
+      "scores": {
+        "gancho": 91,
+        "clareza": 88,
+        "relevancia": 86,
+        "desejo": 84,
+        "confianca": 86,
+        "retencao": "not_assessed",
+        "acao": 76,
+        "objecoes": 88
+      },
+      "fiveLenses": {
+        "apressado": "Recebe uma contradição compreensível no título.",
+        "analitico": "Acompanha a dependência circular da sincronização.",
+        "aspiracional": "Pode reformular o que considera mensurável.",
+        "comunidade": "Há convite ao Discord, mas interação real não foi observada.",
+        "cetico": "A tese está coberta em texto; fontes e audiovisual não foram auditados."
+      },
+      "hypotheses": [],
+      "replicable": [
+        "Antecipar o limite e percorrer tentativas que falham por razões diferentes.",
+        "Separar experimento mental de demonstração executada."
+      ],
+      "limitations": [
+        "Exploração de família explicativa; não conta como apoio ao padrão de demonstração.",
+        "Oferta própria é contexto comercial, não evidência.",
+        "Sem audiovisual, métricas, comentários ou retenção."
+      ],
+      "provenance": [
+        "public_content",
+        "secondary_timestamped_summary",
+        "date_index",
+        "observatory_inference"
+      ],
+      "sourceEvidence": [
+        "https://www.youtube.com/watch?v=ladvWvqcJ_g",
+        "https://videohighlight.com/v/ladvWvqcJ_g"
+      ],
+      "training": {
+        "evidencePolicyVersion": "1.1",
+        "evidenceRole": "controlled_exploration",
+        "evidenceLevel": 3,
+        "requiredEvidenceObserved": false,
+        "supportEligible": false,
+        "claimCoverage": [
+          {
+            "claim": "limite de medição sustentado por raciocínio",
+            "requiredModalities": [
+              "timestamped_summary"
+            ],
+            "observedModalities": [
+              "timestamped_summary"
+            ],
+            "sufficient": true
+          },
+          {
+            "claim": "demonstração executada",
+            "requiredModalities": [
+              "video_or_transcript"
+            ],
+            "observedModalities": [],
+            "sufficient": false
+          }
+        ],
+        "provenanceAndConsent": {
+          "storyOrigin": "not_applicable",
+          "consentStatus": "not_applicable",
+          "identityProtection": "not_applicable",
+          "evidence": [
+            "conteúdo educativo"
+          ]
+        },
+        "replicable": [
+          "Antecipar tese-limite e testar alternativas conceituais."
+        ],
+        "contingent": [
+          "correção física",
+          "fontes científicas"
+        ],
+        "notRecommended": [
+          "misturar experimento mental com execução",
+          "atribuir retenção ou viralidade"
+        ],
+        "hypotheses": []
+      },
+      "viralAssessment": {
+        "status": "indeterminate",
+        "observedSignal": "métricas atuais não mensuradas",
+        "missingForRelativeAssessment": [
+          "visualizações",
+          "baseline",
+          "retenção",
+          "fontes de tráfego"
+        ],
+        "confounders": [
+          "tamanho do canal",
+          "marca pessoal",
+          "tema",
+          "oferta própria"
+        ],
+        "causalClaimAllowed": false
+      }
     }
   ],
   "patterns": [
@@ -22788,17 +24063,17 @@
         "obs-20260823-003",
         "obs-20260829-069",
         "obs-20260902-086",
-        "obs-20260903-091"
+        "obs-20260903-091",
+        "obs-20260904-097"
       ],
-      "comparableSupportCount": 6,
+      "comparableSupportCount": 7,
       "comparisonLevel": 1,
       "confidence": "medium",
       "limitations": [
-        "Quatro dos seis apoios formais são do Manual do Mundo; os outros dois vêm de criadores independentes.",
-        "A diversidade chegou a três criadores e três fontes, mas continua estreita para generalização.",
-        "Nenhum apoio possui curva de retenção ou experimento causal.",
-        "O novo apoio é textual e secundário; execução audiovisual, ritmo e segurança prática não foram auditados.",
-        "Uma tentativa frustrada seguida de ajuste apareceu no novo apoio, mas ainda não há três casos independentes para tratá-la como subpadrão.",
+        "Quatro dos sete apoios formais são do Manual do Mundo; os demais vêm de três criadores independentes.",
+        "A diversidade chegou a quatro criadores e quatro fontes, mas apenas um apoio vem do segmento de benchmark tecnológico.",
+        "Nenhum apoio possui curva de retenção ou experimento causal sobre comunicação.",
+        "O novo apoio é textual e secundário; audiovisual, gráficos, ritmo e método estatístico não foram auditados.",
         "O padrão descreve arquitetura observável de pergunta, teste e recompensa, não prova desempenho."
       ],
       "validation": "requires_human_or_experimental_evidence",
@@ -22807,7 +24082,7 @@
       "creativeFamily": "família demonstracao",
       "objective": "clareza e progressão da demonstração",
       "segment": "fenômeno visual verificável",
-      "supportingCount": 6,
+      "supportingCount": 7,
       "counterexampleCount": 0,
       "evidence": [
         {
@@ -22883,17 +24158,42 @@
           "limitations": [
             "Não conta como apoio nem contraexemplo; comentários não comprovam cena ausente."
           ]
+        },
+        {
+          "referenceId": "obs-20260904-097",
+          "role": "support",
+          "comparisonLevel": 2,
+          "requiredEvidenceObserved": true,
+          "confidence": "high",
+          "observation": "Pergunta e variáveis são antecipadas; testes progridem até resultados, regressões e falhas de inicialização.",
+          "evidence": "Descrição oficial, artigo associado e resumo público com timestamps.",
+          "limitations": [
+            "Segmento de tecnologia; sem audiovisual, comentários, métricas ou retenção."
+          ]
+        },
+        {
+          "referenceId": "obs-20260904-099",
+          "role": "case_limit",
+          "comparisonLevel": 2,
+          "requiredEvidenceObserved": false,
+          "confidence": "medium",
+          "observation": "O título declara falha, mas causa, variável e aprendizado não ficaram acessíveis.",
+          "evidence": "Título, canal, duração e métricas indexadas.",
+          "limitations": [
+            "Não conta como apoio nem contraexemplo."
+          ]
         }
       ],
       "taxonomyVersion": "3.0",
-      "creatorDiversityCount": 3,
-      "sourceDiversityCount": 3,
+      "creatorDiversityCount": 4,
+      "sourceDiversityCount": 4,
       "patternType": "compreensao",
       "caseLimitReferenceIds": [
         "obs-20260902-089",
-        "obs-20260903-094"
+        "obs-20260903-094",
+        "obs-20260904-099"
       ],
-      "caseLimitCount": 2,
+      "caseLimitCount": 3,
       "counterexampleReferenceIds": []
     },
     {
@@ -23620,6 +24920,89 @@
         "obs-20260901-084"
       ],
       "caseLimitCount": 2
+    },
+    {
+      "id": "pat-20260904-009",
+      "status": "provisional",
+      "stage": "provisional",
+      "name": "Falha explicada como evidência do limite experimental",
+      "statement": "Em demonstrações experimentais, manter uma falha ou resultado inconclusivo na progressão e ligá-lo explicitamente a uma variável, interferência ou limite observável transforma o fracasso em parte da explicação; efeitos sobre confiança, compreensão e retenção ainda não foram medidos.",
+      "creativeFamily": "família demonstracao",
+      "objective": "compreensão de limites e honestidade experimental",
+      "segment": "demonstrações educativas e testes comparativos",
+      "mechanism": [
+        "curiosidade",
+        "confianca",
+        "recompensa"
+      ],
+      "conditions": [
+        "família demonstracao ou teste comparativo",
+        "falha ou resultado inconclusivo observável",
+        "causa, variável ou limite explicitado",
+        "ausência de conclusão fabricada"
+      ],
+      "supportReferenceIds": [
+        "obs-20260829-069",
+        "obs-20260903-091",
+        "obs-20260904-097"
+      ],
+      "comparableSupportCount": 3,
+      "supportingCount": 3,
+      "comparisonLevel": 2,
+      "confidence": "medium",
+      "counterexampleReferenceIds": [],
+      "counterexampleCount": 0,
+      "caseLimitReferenceIds": [],
+      "caseLimitCount": 0,
+      "creatorDiversityCount": 3,
+      "sourceDiversityCount": 3,
+      "patternType": "compreensao",
+      "evidence": [
+        {
+          "referenceId": "obs-20260829-069",
+          "role": "support",
+          "comparisonLevel": 2,
+          "requiredEvidenceObserved": true,
+          "confidence": "medium",
+          "observation": "Interferência eletromagnética, ausência de GPS e turbulência impediram resposta conclusiva; o conteúdo propôs novo teste.",
+          "evidence": "Trecho de transcrição e resumo textual.",
+          "limitations": [
+            "Sem audiovisual integral ou retenção."
+          ]
+        },
+        {
+          "referenceId": "obs-20260903-091",
+          "role": "support",
+          "comparisonLevel": 1,
+          "requiredEvidenceObserved": true,
+          "confidence": "high",
+          "observation": "A primeira tentativa de equilibrar a batata falha; a distribuição de peso é ajustada até o resultado.",
+          "evidence": "Trecho de transcrição e resumo textual.",
+          "limitations": [
+            "Sem audiovisual integral ou comentários."
+          ]
+        },
+        {
+          "referenceId": "obs-20260904-097",
+          "role": "support",
+          "comparisonLevel": 2,
+          "requiredEvidenceObserved": true,
+          "confidence": "high",
+          "observation": "Testes revelam regressões, limiares de inicialização e falha de boot ligados às configurações.",
+          "evidence": "Artigo oficial, descrição e resumo com timestamps.",
+          "limitations": [
+            "Segmento tecnológico e cobertura textual secundária."
+          ]
+        }
+      ],
+      "limitations": [
+        "Os três apoios são de segmentos distintos e a comparação é estrutural, não temática.",
+        "Nenhum apoio possui retenção, teste de compreensão ou comparação causal.",
+        "A evidência audiovisual não foi auditada integralmente.",
+        "O padrão é provisório e exige revisão humana ou experimento para qualquer validação."
+      ],
+      "validation": "requires_human_or_experimental_evidence",
+      "taxonomyVersion": "3.0"
     }
   ],
   "hypotheses": [
@@ -25262,6 +26645,116 @@
         "Cobertura textual secundária pode conter erros.",
         "Comentários foram apenas amostras parciais e não representativas.",
         "Nenhum baseline ou retenção ficou acessível.",
+        "Nenhum resultado autoriza causalidade ou validação."
+      ]
+    },
+    {
+      "id": "run-20260904-supervised-016",
+      "executedAt": "2026-09-04T11:22:40.000Z",
+      "batchPolicyVersion": "1.1",
+      "requestedBatchSize": 5,
+      "candidatesFound": 31,
+      "referenceIds": [
+        "obs-20260904-096",
+        "obs-20260904-097",
+        "obs-20260904-098",
+        "obs-20260904-099",
+        "obs-20260904-100"
+      ],
+      "targetKnowledgeId": "pat-20260823-001",
+      "targetReferenceIds": [
+        "obs-20260904-096",
+        "obs-20260904-097",
+        "obs-20260904-098"
+      ],
+      "falsificationOrBoundaryReferenceIds": [
+        "obs-20260904-099"
+      ],
+      "controlledExplorationReferenceIds": [
+        "obs-20260904-100"
+      ],
+      "discarded": [
+        {
+          "url": "https://www.youtube.com/watch?v=wx6655ZJT40",
+          "reason": "experimento de Lenz sem sequência textual ou audiovisual suficientemente acessível"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=dchlFeB3N2o",
+          "reason": "lista de experimentos com ovos sem transcrição ou ordem interna acessível"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=whGUzgQJtZg",
+          "reason": "água, óleo e detergente sem procedimento e resultado verificáveis"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=rxPIx6iy18o",
+          "reason": "compilação ampla, menos comparável e sem transcrição acessível"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=WekmCwvvFRQ",
+          "reason": "produção extrema com cama de pregos; risco e baixa replicabilidade para o lote atual"
+        }
+      ],
+      "analyzed": 5,
+      "brazilianReferences": 4,
+      "internationalReferences": 1,
+      "smallOrMediumCreatorReferences": 3,
+      "coverageSummary": {
+        "complete": 0,
+        "partial": 5,
+        "insufficient": 0
+      },
+      "audiovisualAcquisition": {
+        "attempted": true,
+        "succeeded": 0,
+        "failure": "as páginas originais foram conferidas após a pesquisa pública, mas não ofereceram legendas ou transcrição; não houve auditoria audiovisual integral",
+        "effect": "cenas, áudio ouvido, texto na tela, cortes, ritmo e retenção ficaram não mensurados"
+      },
+      "commentsCoverage": {
+        "fullOrDeclaredZero": 0,
+        "partialSample": 0
+      },
+      "baselineCoverage": {
+        "sampledProfiles": 0,
+        "contemporaneousBaselines": 0,
+        "limitation": "nenhum baseline funcional contemporâneo ficou acessível"
+      },
+      "patternsCreated": [
+        "pat-20260904-009"
+      ],
+      "patternsStrengthened": [
+        "pat-20260823-001"
+      ],
+      "patternsRefined": [
+        "pat-20260823-001"
+      ],
+      "hypothesesCreated": [],
+      "hypothesesStrengthened": [],
+      "validatedPatternsCreated": 0,
+      "contradictionsFound": [],
+      "caseLimitsFound": [
+        "declarar que um experimento deu errado sem mostrar causa, variável ou aprendizado não sustenta o padrão"
+      ],
+      "safetyFindings": [
+        "cama de pregos e testes físicos exigem barreiras e supervisão",
+        "replicabilidade estrutural não autoriza reproduzir riscos ou operar hardware fora de especificação"
+      ],
+      "evidenceGateSummary": {
+        "targetSupportsEligible": 1,
+        "targetSupportsRejected": 2,
+        "boundaryCases": 1,
+        "explorationReferences": 1,
+        "duplicateUrls": 0,
+        "independentCreatorsAddedToPattern": 1,
+        "newHypotheses": 0
+      },
+      "outcome": "Um apoio brasileiro com sequência textual suficiente fortaleceu o padrão principal. A combinação com dois apoios anteriores de criadores independentes permitiu promover a recorrência 'falha ligada a variável ou limite' a padrão provisório, sem alegar efeito sobre desempenho. Dois candidatos foram rejeitados por falta de execução observável.",
+      "nextTarget": "vídeo brasileiro de pequeno ou médio criador com experimento integral ou transcrição completa, falha explicitamente ligada a uma variável e comentários; incluir um caso comparável em que a falha aparece sem explicação para testar o limite do novo padrão",
+      "limitations": [
+        "Nenhuma mídia audiovisual integral foi auditada.",
+        "Quatro páginas originais não forneceram transcrição ou legendas.",
+        "Resumos secundários podem conter erros.",
+        "Nenhum comentário ou baseline contemporâneo ficou acessível.",
         "Nenhum resultado autoriza causalidade ou validação."
       ]
     }
