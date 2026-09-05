@@ -3,6 +3,7 @@ import { builtInEvaluationProvider, setEvaluationProvider } from "./aiProvider";
 import { applyVisualOnlyScope, CONSUMERS, CRITERIA, evaluateContent, normalizeAnalysis, parseStructuredEvaluation, recalculateSynthesisScores, validateAnalysisShape } from "./contentAnalysis";
 import { createAnalysisInputSchema } from "./analysisRouter";
 import { isAllowedPublicHttpsUrl, isInstagramPublicationUrl, resolveInstagramMaterial } from "./publicLinks";
+import { normalizeClassification } from "./observatory";
 
 const criteria = Object.fromEntries(CRITERIA.map(key => [key, 70])) as Record<(typeof CRITERIA)[number], number>;
 
@@ -64,6 +65,17 @@ describe("validateAnalysisShape", () => {
     expect(result.synthesis).toMatchObject({ overallScore: 69, weightedAverage: 69, divergence: 5 });
   });
 
+  it("weights each synthetic brain by the classified creative family", () => {
+    const result = recalculateSynthesisScores({
+      consumers: CONSUMERS.map(name => ({ name, overallScore: 0, reaction: "Reação objetiva.", criteria: { gancho: 95, clareza: 30, relevância: 60, desejo: 40, confiança: 25, retenção: 90, ação: 20, objeções: 20 }, mainObjection: "Sem objeção crítica." })),
+      synthesis: { overallScore: 0, weightedAverage: 0, divergence: 0, strengths: ["Mensagem clara.", "Chamada visível."], risks: ["Prova limitada.", "Ritmo lento."], recommendations: ["Melhorar o gancho.", "Adicionar prova.", "Reduzir texto."] },
+    }, CRITERIA, normalizeClassification({
+      materialFormat: "reel", presentationFormats: ["camera_direta"], primaryFamily: "entretenimento", secondaryFamilies: [], objectives: ["retencao"], segment: "geral", subsegment: "geral", probableAudience: "geral", awarenessStage: "indeterminado", productionLevel: "simple", durationBand: "16_to_30s", pace: "fast", mechanisms: ["curiosidade"], confidence: "medium", evidence: [], alternativeClassifications: [], missingInformation: [], needsHumanReview: false,
+    }));
+    expect(result.consumers[0].overallScore).toBeGreaterThan(result.consumers[4].overallScore);
+    expect(result.synthesis.divergence).toBeGreaterThan(0);
+  });
+
   it("recalculates the consolidated score with visual criteria only", () => {
     const scoped = applyVisualOnlyScope({
       consumers: CONSUMERS.map((name, index) => ({ name, overallScore: 0, reaction: "Reação objetiva.", criteria: { gancho: 60 + index, clareza: 10, relevância: 70 + index, desejo: 80 + index, confiança: 90 + index, retenção: 50 + index, ação: 20, objeções: 30 }, mainObjection: "Sem objeção crítica." })),
@@ -121,6 +133,22 @@ describe("validateAnalysisShape", () => {
     const fetchMock = vi.spyOn(globalThis, "fetch").mockResolvedValue(new Response(html, { status: 200 }));
     const material = await resolveInstagramMaterial("https://www.instagram.com/reel/DcGe0hCTe8l/");
     expect(material).toEqual({ mediaUrl: "https://cdn.instagram.example/reel.mp4", mediaMimeType: "video/mp4", videoUrl: "https://cdn.instagram.example/reel.mp4", coverImageUrl: "https://cdn.instagram.example/cover.jpg", caption: "Legenda estruturada do Reel" });
+    fetchMock.mockRestore();
+  });
+
+  it("extracts a public video from Open Graph metadata", async () => {
+    const html = '<meta property="og:video:secure_url" content="https://cdn.instagram.example/reel.mp4"><meta property="og:image" content="https://cdn.instagram.example/cover.jpg"><meta property="og:description" content="Legenda pública">';
+    const fetchMock = vi.spyOn(globalThis, "fetch").mockImplementation(async () => new Response(html, { status: 200 }));
+    const material = await resolveInstagramMaterial("https://www.instagram.com/reel/DcGe0hCTe8l/");
+    expect(material).toEqual({ mediaUrl: "https://cdn.instagram.example/reel.mp4", mediaMimeType: "video/mp4", videoUrl: "https://cdn.instagram.example/reel.mp4", coverImageUrl: "https://cdn.instagram.example/cover.jpg", caption: "Legenda pública" });
+    fetchMock.mockRestore();
+  });
+
+  it("falls back from a blocked captioned embed to the other public publication surfaces", async () => {
+    const fetchMock = vi.spyOn(globalThis, "fetch").mockResolvedValueOnce(new Response("bloqueado", { status: 403 })).mockResolvedValueOnce(new Response('<meta property="og:image" content="https://cdn.instagram.example/embed.jpg">', { status: 200 })).mockResolvedValueOnce(new Response('<meta property="og:video" content="https://cdn.instagram.example/direct.mp4">', { status: 200 }));
+    const material = await resolveInstagramMaterial("https://www.instagram.com/reel/DcGe0hCTe8l/");
+    expect(material).toEqual({ mediaUrl: "https://cdn.instagram.example/direct.mp4", mediaMimeType: "video/mp4", videoUrl: "https://cdn.instagram.example/direct.mp4", coverImageUrl: "https://cdn.instagram.example/embed.jpg", caption: null });
+    expect(fetchMock).toHaveBeenCalledTimes(3);
     fetchMock.mockRestore();
   });
 

@@ -3,6 +3,7 @@ import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
 import { Textarea } from "@/components/ui/textarea";
 import { trpc } from "@/lib/trpc";
+import { RuntimeStatus, useMvpStatus } from "@/components/RuntimeStatus";
 import { validateEvaluationForm } from "@/lib/evaluationValidation";
 import { AlertCircle, ArrowLeft, FileText, Image, Instagram, Layers3, Link2, Loader2, UploadCloud, Video } from "lucide-react";
 import React, { ChangeEvent, FormEvent, useState } from "react";
@@ -19,6 +20,17 @@ type ContentType = (typeof types)[number]["value"];
 type MediaInput = { fileName: string; mimeType: string; base64: string; preview: string };
 type SourceMode = "upload" | "link";
 type LinkKind = "direct_media" | "published_post";
+type BusinessDossierInput = {
+  businessName: string; segment: string; subsegment: string; productsOrServices: string; priorityAudience: string;
+  painsAndDesires: string; offer: string; differentiators: string; positioning: string; toneOfVoice: string;
+  availableProof: string; legalOrBrandRestrictions: string; campaignObjective: string; funnelStage: string;
+  desiredAction: string; platform: string; distribution: "organic" | "paid" | "not_informed";
+};
+
+const emptyDossier: BusinessDossierInput = {
+  businessName: "", segment: "", subsegment: "", productsOrServices: "", priorityAudience: "", painsAndDesires: "", offer: "", differentiators: "",
+  positioning: "", toneOfVoice: "", availableProof: "", legalOrBrandRestrictions: "", campaignObjective: "", funnelStage: "", desiredAction: "", platform: "", distribution: "not_informed",
+};
 
 export function buildAnalysisPayload(input: {
   contentType: ContentType;
@@ -32,6 +44,8 @@ export function buildAnalysisPayload(input: {
   linkKind: LinkKind;
   remoteMimeType: "image/jpeg" | "image/png" | "image/webp" | "video/mp4";
   media: MediaInput | null;
+  businessDossier?: BusinessDossierInput;
+  previousAnalysisId?: number;
 }) {
   return {
     contentType: input.contentType,
@@ -40,6 +54,8 @@ export function buildAnalysisPayload(input: {
     objective: input.objective,
     targetAudience: input.targetAudience,
     skipCaption: input.skipCaption,
+    ...(input.businessDossier ? { businessDossier: input.businessDossier } : {}),
+    ...(input.previousAnalysisId ? { previousAnalysisId: input.previousAnalysisId } : {}),
     ...(input.sourceMode === "upload" && input.media ? { media: { fileName: input.media.fileName, mimeType: input.media.mimeType, base64: input.media.base64 } } : {}),
     ...(input.sourceMode === "link" ? { source: { url: input.sourceUrl.trim(), kind: input.linkKind, ...(input.linkKind === "direct_media" ? { mimeType: input.remoteMimeType } : {}) } } : {}),
   };
@@ -62,8 +78,11 @@ export default function NewEvaluation() {
   const [linkKind, setLinkKind] = useState<LinkKind>(() => query.get("tipo-link") === "midia-direta" ? "direct_media" : "published_post");
   const [remoteMimeType, setRemoteMimeType] = useState<"image/jpeg" | "image/png" | "image/webp" | "video/mp4">("video/mp4");
   const [skipCaption, setSkipCaption] = useState(() => query.get("sem-legenda") === "1");
+  const [businessDossier, setBusinessDossier] = useState<BusinessDossierInput>(emptyDossier);
+  const previousAnalysisId = Number(query.get("compararCom")) || undefined;
   const [materialError, setMaterialError] = useState("");
   const [submitted, setSubmitted] = useState(false);
+  const runtime = useMvpStatus();
   const create = trpc.analyses.create.useMutation({
     onMutate: () => setSubmitted(true),
     onSuccess: ({ id }) => setLocation(`/analises/${id}`),
@@ -92,9 +111,10 @@ export default function NewEvaluation() {
   };
   const submit = (event: FormEvent) => {
     event.preventDefault();
+    if (runtime.data && !runtime.data.ready) return setMaterialError("Conecte um motor de IA antes de iniciar a avaliação.");
     const validationError = validateEvaluationForm({ contentType, sourceMode, hasMedia: Boolean(media), sourceUrl, contentText });
     if (validationError) return setMaterialError(validationError);
-    create.mutate(buildAnalysisPayload({ contentType, contentText, product, objective, targetAudience, skipCaption, sourceMode, sourceUrl, linkKind, remoteMimeType, media }));
+    create.mutate(buildAnalysisPayload({ contentType, contentText, product, objective, targetAudience, skipCaption, sourceMode, sourceUrl, linkKind, remoteMimeType, media, businessDossier, previousAnalysisId }));
   };
 
   const materialInstruction = contentType === "copy"
@@ -104,17 +124,19 @@ export default function NewEvaluation() {
   return <div className="mx-auto max-w-5xl pb-10">
     <button onClick={() => setLocation("/app")} className="mb-6 inline-flex items-center gap-2 rounded-md px-1 py-1 text-sm font-semibold text-violet-700 hover:text-violet-900 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-violet-500"><ArrowLeft className="h-4 w-4" /> Voltar ao painel</button>
     <div className="mb-8"><p className="text-xs font-bold uppercase tracking-[0.16em] text-violet-500">{captionSuggestion ? "Complemento opcional" : returningFromInstagram ? "Continuação do Reel" : "Nova leitura"}</p><h1 className="mt-1 font-display text-4xl font-extrabold tracking-[-0.06em] text-[#2b1058]">{captionSuggestion ? "A legenda pode enriquecer a leitura." : returningFromInstagram ? "Envie o arquivo original." : "Entregue o material à sua Platéia."}</h1><p className="mt-3 max-w-2xl text-sm leading-6 text-slate-600">{captionSuggestion ? "Se quiser, adicione a legenda. Ela é opcional e não bloqueia a avaliação visual do material." : returningFromInstagram ? "O Instagram não liberou a prévia deste link. Selecione o vídeo ou a imagem salva no seu dispositivo para seguir com a avaliação; a legenda continua opcional." : materialInstruction}</p></div>
-    <form onSubmit={submit} className="grid gap-6 lg:grid-cols-[1.05fr_0.95fr]">
+    <RuntimeStatus compact />
+    <form onSubmit={submit} className="mt-6 grid gap-6 lg:grid-cols-[1.05fr_0.95fr]">
       <section className="space-y-6">
         <div className="plateia-card p-6"><Label className="mb-3 block text-sm font-bold text-[#2b1058]">Tipo de conteúdo</Label><div className="grid grid-cols-2 gap-3">{types.map(type => { const Icon = type.icon; const active = type.value === contentType; return <button aria-pressed={active} type="button" key={type.value} onClick={() => changeType(type.value)} className={`rounded-2xl border p-3 text-left transition-all ${active ? "border-violet-500 bg-violet-50 shadow-sm" : "border-violet-100 bg-white hover:border-violet-300"}`}><Icon className={`mb-3 h-5 w-5 ${active ? "text-violet-700" : "text-slate-400"}`} /><p className="text-sm font-bold text-[#2b1058]">{type.label}</p><p className="mt-0.5 text-xs text-slate-500">{type.description}</p></button>; })}</div></div>
         {contentType !== "copy" && <VisualSourcePanel sourceMode={sourceMode} chooseSource={chooseSource} media={media} setMedia={setMedia} onFile={onFile} sourceUrl={sourceUrl} setSourceUrl={setSourceUrl} linkKind={linkKind} setLinkKind={setLinkKind} remoteMimeType={remoteMimeType} setRemoteMimeType={setRemoteMimeType} skipCaption={skipCaption} setSkipCaption={setSkipCaption} />}
         {materialError && <p role="alert" className="flex items-center gap-1.5 text-xs font-medium text-rose-600"><AlertCircle className="h-3.5 w-3.5" />{materialError}</p>}
       </section>
       <section className="space-y-6">
-        <div className="plateia-card p-6"><p className="mb-4 text-xs font-semibold leading-5 text-slate-500">Contexto opcional: quanto mais informação você fornecer, mais específica poderá ser a leitura.</p><ContextFields product={product} setProduct={setProduct} objective={objective} setObjective={setObjective} targetAudience={targetAudience} setTargetAudience={setTargetAudience} /></div>
+        {previousAnalysisId && <div className="rounded-2xl border border-emerald-200 bg-emerald-50 p-4 text-sm text-emerald-900"><strong>Comparação ativada.</strong> Esta análise será preservada como nova versão e comparada com a avaliação #{previousAnalysisId}.</div>}
+        <div className="plateia-card p-6"><p className="mb-4 text-xs font-semibold leading-5 text-slate-500">Contexto opcional: quanto mais informação você fornecer, mais específica poderá ser a leitura.</p><ContextFields product={product} setProduct={setProduct} objective={objective} setObjective={setObjective} targetAudience={targetAudience} setTargetAudience={setTargetAudience} /><BusinessDossierFields value={businessDossier} onChange={setBusinessDossier} /></div>
         {skipCaption && contentType !== "copy" ? <div className="rounded-2xl border border-violet-200 bg-violet-50 p-5"><p className="text-sm font-bold text-[#2b1058]">Leitura somente visual</p><p className="mt-1 text-xs leading-5 text-slate-600">A Platéia ignorará a legenda e não pontuará clareza textual, ação ou objeções ligadas à copy.</p></div> : <div className="plateia-card p-6"><Label htmlFor="content">Texto ou legenda {contentType === "copy" ? <span className="text-rose-600">(obrigatório)</span> : <span className="font-normal text-slate-400">(opcional)</span>}</Label><Textarea id="content" value={contentText} onChange={event => { setContentText(event.target.value); setMaterialError(""); }} placeholder={contentType === "copy" ? "Cole a copy que deseja avaliar." : "Cole o texto, roteiro ou legenda, se houver."} className="mt-2 min-h-44 border-violet-100 focus-visible:ring-violet-500" /></div>}
         <div className="rounded-2xl border border-[#ffdbd7] bg-[#fff7f5] p-4"><div className="flex gap-3"><Instagram className="mt-0.5 h-5 w-5 shrink-0 text-[#f15d50]" /><p className="text-xs leading-5 text-slate-600">A Platéia usa cinco lentes comportamentais para encontrar pontos fortes, riscos e recomendações de criação. A leitura é uma ferramenta de decisão, não uma previsão de resultado de mídia.</p></div></div>
-        <Button type="submit" disabled={create.isPending} className="h-12 w-full bg-[#ff6f61] text-base font-bold text-white shadow-[0_12px_24px_-12px_rgba(255,111,97,0.75)] hover:bg-[#ee5e51]">{create.isPending ? <><Loader2 className="mr-2 h-4 w-4 animate-spin" /> Sua Platéia está lendo…</> : <>Iniciar avaliação <SparklesIcon /></>}</Button>
+        <Button type="submit" disabled={create.isPending || runtime.data?.ready === false} className="h-12 w-full bg-[#ff6f61] text-base font-bold text-white shadow-[0_12px_24px_-12px_rgba(255,111,97,0.75)] hover:bg-[#ee5e51]">{create.isPending ? <><Loader2 className="mr-2 h-4 w-4 animate-spin" /> Sua Platéia está lendo…</> : runtime.data?.ready === false ? <>Motor de IA necessário</> : <>Iniciar avaliação <SparklesIcon /></>}</Button>
         {submitted && create.isPending && <p role="status" className="rounded-xl bg-violet-50 px-3 py-2 text-sm text-violet-700">Material recebido. A Platéia está preparando seu relatório.</p>}
         {create.error && <p role="alert" className="rounded-xl bg-rose-50 px-3 py-2 text-sm text-rose-700">{create.error.message}</p>}
       </section>
@@ -124,6 +146,30 @@ export default function NewEvaluation() {
 
 function ContextFields({ product, setProduct, objective, setObjective, targetAudience, setTargetAudience }: { product: string; setProduct: (value: string) => void; objective: string; setObjective: (value: string) => void; targetAudience: string; setTargetAudience: (value: string) => void }) {
   return <div className="space-y-4"><div><Label htmlFor="product">Produto relacionado <span className="font-normal text-slate-400">(opcional)</span></Label><Input id="product" value={product} onChange={event => setProduct(event.target.value)} placeholder="Ex.: Consultoria de posicionamento" className="mt-2 h-11 border-violet-100 focus-visible:ring-violet-500" /></div><div><Label htmlFor="objective">Objetivo da publicação <span className="font-normal text-slate-400">(opcional)</span></Label><Input id="objective" value={objective} onChange={event => setObjective(event.target.value)} placeholder="Ex.: Gerar conversas qualificadas" className="mt-2 h-11 border-violet-100 focus-visible:ring-violet-500" /></div><div><Label htmlFor="audience">Público-alvo <span className="font-normal text-slate-400">(opcional)</span></Label><Textarea id="audience" value={targetAudience} onChange={event => setTargetAudience(event.target.value)} placeholder="Quem você deseja alcançar, quais dores ou desejos esse público tem?" className="mt-2 min-h-24 border-violet-100 focus-visible:ring-violet-500" /></div></div>;
+}
+
+const dossierFields: Array<{ key: Exclude<keyof BusinessDossierInput, "distribution">; label: string; placeholder: string }> = [
+  { key: "businessName", label: "Nome do negócio", placeholder: "Ex.: Clínica Aurora" },
+  { key: "segment", label: "Segmento", placeholder: "Ex.: Saúde e bem-estar" },
+  { key: "subsegment", label: "Subsegmento", placeholder: "Ex.: Dermatologia" },
+  { key: "productsOrServices", label: "Produtos ou serviços", placeholder: "O que é oferecido" },
+  { key: "priorityAudience", label: "Público prioritário", placeholder: "Quem precisa ser alcançado" },
+  { key: "painsAndDesires", label: "Dores e desejos", placeholder: "Necessidades reais do público" },
+  { key: "offer", label: "Oferta", placeholder: "Condição ou proposta desta peça" },
+  { key: "differentiators", label: "Diferenciais", placeholder: "Somente fatos autorizados" },
+  { key: "positioning", label: "Posicionamento", placeholder: "Como a marca deseja ser percebida" },
+  { key: "toneOfVoice", label: "Tom de voz", placeholder: "Ex.: direto, acolhedor, técnico" },
+  { key: "availableProof", label: "Provas disponíveis", placeholder: "Dados, demonstrações ou fatos verificáveis" },
+  { key: "legalOrBrandRestrictions", label: "Restrições jurídicas ou de marca", placeholder: "O que não pode ser dito ou mostrado" },
+  { key: "campaignObjective", label: "Objetivo da campanha", placeholder: "Resultado desejado" },
+  { key: "funnelStage", label: "Etapa do funil", placeholder: "Ex.: descoberta, consideração, decisão" },
+  { key: "desiredAction", label: "Ação desejada", placeholder: "Ex.: salvar, clicar, enviar mensagem" },
+  { key: "platform", label: "Plataforma", placeholder: "Ex.: Instagram Reels" },
+];
+
+function BusinessDossierFields({ value, onChange }: { value: BusinessDossierInput; onChange: (value: BusinessDossierInput) => void }) {
+  const set = (key: keyof BusinessDossierInput, next: string) => onChange({ ...value, [key]: next });
+  return <details className="mt-5 rounded-2xl border border-violet-100 bg-violet-50/40 p-4"><summary className="cursor-pointer text-sm font-bold text-[#2b1058] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-violet-500">Dossiê reutilizável do negócio <span className="font-normal text-slate-500">(opcional)</span></summary><p className="mt-2 text-xs leading-5 text-slate-600">A leitura cega não recebe estes dados. Eles entram somente na segunda etapa, para comparar o que foi observado com o contexto oficial.</p><div className="mt-4 grid gap-4 sm:grid-cols-2">{dossierFields.map(field => <div key={field.key} className={field.key === "painsAndDesires" || field.key === "legalOrBrandRestrictions" || field.key === "differentiators" ? "sm:col-span-2" : ""}><Label htmlFor={`dossier-${field.key}`}>{field.label}</Label><Textarea id={`dossier-${field.key}`} value={value[field.key]} onChange={event => set(field.key, event.target.value)} placeholder={field.placeholder} className="mt-2 min-h-20 border-violet-100 bg-white focus-visible:ring-violet-500" /></div>)}<div className="sm:col-span-2"><Label htmlFor="dossier-distribution">Distribuição</Label><select id="dossier-distribution" value={value.distribution} onChange={event => set("distribution", event.target.value)} className="mt-2 h-11 w-full rounded-md border border-violet-100 bg-white px-3 text-sm text-[#2b1058] outline-none focus:ring-2 focus:ring-violet-500"><option value="not_informed">Não informado</option><option value="organic">Orgânico</option><option value="paid">Anúncio pago</option></select></div></div></details>;
 }
 
 function VisualSourcePanel({ sourceMode, chooseSource, media, setMedia, onFile, sourceUrl, setSourceUrl, linkKind, setLinkKind, remoteMimeType, setRemoteMimeType, skipCaption, setSkipCaption }: { sourceMode: SourceMode; chooseSource: (mode: SourceMode) => void; media: MediaInput | null; setMedia: (media: MediaInput | null) => void; onFile: (event: ChangeEvent<HTMLInputElement>) => void; sourceUrl: string; setSourceUrl: (value: string) => void; linkKind: LinkKind; setLinkKind: (value: LinkKind) => void; remoteMimeType: "image/jpeg" | "image/png" | "image/webp" | "video/mp4"; setRemoteMimeType: (value: "image/jpeg" | "image/png" | "image/webp" | "video/mp4") => void; skipCaption: boolean; setSkipCaption: (value: boolean) => void }) {
