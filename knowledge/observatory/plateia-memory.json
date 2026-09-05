@@ -1,6 +1,6 @@
 {
   "protocol": "plateia-memory/1.0",
-  "updatedAt": "2026-09-04T11:22:40.000Z",
+  "updatedAt": "2026-09-05T11:12:15.000Z",
   "references": [
     {
       "id": "obs-20260823-001",
@@ -24039,6 +24039,1343 @@
         ],
         "causalClaimAllowed": false
       }
+    },
+    {
+      "id": "obs-20260905-101",
+      "title": "AGORA SIM! Fizemos uma CHAMA NEGRA de respeito!",
+      "creator": "Manual do Mundo",
+      "creatorIdentity": "manual-do-mundo",
+      "sourceIdentity": "manual-do-mundo",
+      "country": "BR",
+      "url": "https://www.youtube.com/watch?v=T880w5D7kJ0",
+      "publishedAt": "2021-01-16",
+      "duration": "PT11M35S",
+      "createdAt": "2026-09-05T11:12:15.000Z",
+      "coverage": {
+        "level": "partial",
+        "accessible": [
+          "título",
+          "criador",
+          "descrição oficial",
+          "data exata",
+          "duração",
+          "visualizações aproximadas",
+          "curtidas aproximadas",
+          "tamanho atual do canal",
+          "resumo textual secundário",
+          "trecho de transcrição secundário",
+          "falha anterior declarada",
+          "lâmpada inadequada identificada",
+          "correção com lâmpada de sódio de baixa pressão",
+          "resultado final descrito",
+          "alerta de segurança"
+        ],
+        "missing": [
+          "vídeo integral auditável",
+          "imagem em movimento",
+          "áudio ouvido",
+          "transcrição integral",
+          "legendas",
+          "texto na tela",
+          "comentários",
+          "montagem",
+          "ritmo",
+          "retenção",
+          "baseline funcional contemporâneo",
+          "fontes de tráfego"
+        ]
+      },
+      "publicMetrics": {
+        "viewsObserved": "aprox. 1,2 milhão",
+        "likesObserved": "aprox. 146 mil",
+        "subscriberCountObserved": "aprox. 20,5 milhões",
+        "observedAt": "2026-09-05",
+        "sourceType": "youtube_public_page_and_secondary_textual_summary",
+        "causality": "not_inferred"
+      },
+      "classification": {
+        "taxonomyVersion": "3.0",
+        "container": "youtube_video",
+        "materialFormat": "video_longo",
+        "presentationFormats": [
+          "demonstracao",
+          "camera_direta"
+        ],
+        "primaryFamily": "demonstracao",
+        "secondaryFamilies": [
+          "educativo",
+          "comparacao"
+        ],
+        "functionalMix": [
+          {
+            "family": "demonstracao",
+            "percentage": 55
+          },
+          {
+            "family": "educativo",
+            "percentage": 30
+          },
+          {
+            "family": "comparacao",
+            "percentage": 15
+          }
+        ],
+        "objectives": [
+          "educar",
+          "confianca",
+          "visualizacao"
+        ],
+        "advertisingType": "editorial_organico",
+        "commercialIntent": "indeterminada",
+        "advertisedEntity": {
+          "kind": "indeterminado",
+          "name": "",
+          "confidence": "low"
+        },
+        "contentTopic": {
+          "label": "chama negra com iluminação por lâmpada de sódio",
+          "iabCode": null
+        },
+        "segment": "ciência e educação",
+        "subsegment": "óptica e espectro de emissão",
+        "probableAudience": "público geral interessado em experimentos",
+        "awarenessStage": "inconsciente",
+        "productionLevel": "intermediate",
+        "creatorScale": "large",
+        "replicability": "medium",
+        "durationBand": "over_60s",
+        "pace": "unknown",
+        "mechanisms": [
+          "curiosidade",
+          "contraste",
+          "recompensa",
+          "confianca"
+        ],
+        "hookTypes": [
+          "promessa",
+          "conflito"
+        ],
+        "narrativeElements": [
+          "situacao",
+          "problema",
+          "mecanismo",
+          "progressao",
+          "virada",
+          "conclusao"
+        ],
+        "proofTypes": [
+          "demonstracao",
+          "mecanismo_explicado"
+        ],
+        "ctaTypes": [],
+        "distributionContext": {
+          "organicPaid": "unknown",
+          "trendDependency": "unknown"
+        },
+        "confidence": "high",
+        "evidence": [
+          "A descrição oficial recupera a tentativa de 2020 e informa que a nova versão usa uma lâmpada de sódio de baixa pressão.",
+          "A cobertura textual secundária liga a falha anterior ao uso de uma lâmpada de alta pressão e descreve a correção até o resultado."
+        ],
+        "alternativeClassifications": [],
+        "missingInformation": [
+          "audiovisual",
+          "fala integral",
+          "comentários",
+          "ritmo",
+          "retenção",
+          "baseline"
+        ],
+        "needsHumanReview": true
+      },
+      "comparison": {
+        "level": 2,
+        "group": "demonstração experimental que preserva falha anterior, identifica variável e executa correção",
+        "referenceIds": [
+          "obs-20260829-069",
+          "obs-20260903-091",
+          "obs-20260904-097"
+        ],
+        "confidence": "high"
+      },
+      "observations": [
+        "A falha anterior não é apagada; ela vira o motivo para trocar o equipamento.",
+        "A explicação disponível relaciona alta versus baixa pressão da lâmpada ao resultado."
+      ],
+      "interpretations": [
+        "A referência apoia a recorrência estrutural de falha ligada a variável e correção.",
+        "Por ser do mesmo criador de um apoio anterior, aumenta o número de casos, mas não a diversidade de criadores."
+      ],
+      "scores": {
+        "gancho": 92,
+        "clareza": 90,
+        "relevancia": 87,
+        "desejo": 88,
+        "confianca": 89,
+        "retencao": "not_assessed",
+        "acao": 76,
+        "objecoes": 88
+      },
+      "fiveLenses": {
+        "apressado": "Recebe a promessa de corrigir uma tentativa anterior.",
+        "analitico": "Consegue localizar a variável trocada; não audita o aparato em vídeo.",
+        "aspiracional": "Percebe que uma falha documentada pode orientar a próxima versão.",
+        "comunidade": "Não mensurado.",
+        "cetico": "Descrição e resumo sustentam a cadeia, mas faltam audiovisual integral e fonte primária da transcrição."
+      },
+      "hypotheses": [],
+      "replicable": [
+        "Retomar uma tentativa falha e nomear a variável corrigida antes do novo teste.",
+        "Separar erro de equipamento de erro da hipótese."
+      ],
+      "limitations": [
+        "Metanol, chama e equipamento especializado exigem controle profissional; replicabilidade é editorial, não autorização de reprodução.",
+        "Mesmo criador de apoio anterior.",
+        "Sem retenção ou causalidade comunicacional."
+      ],
+      "provenance": [
+        "public_content",
+        "youtube_public_page",
+        "secondary_textual_summary",
+        "observatory_inference"
+      ],
+      "sourceEvidence": [
+        "https://www.youtube.com/watch?v=T880w5D7kJ0",
+        "https://glasp.co/youtube/p/agora-sim-fizemos-uma-chama-negra-de-respeito"
+      ],
+      "training": {
+        "evidencePolicyVersion": "1.1",
+        "evidenceRole": "target_support",
+        "evidenceLevel": 2,
+        "requiredEvidenceObserved": true,
+        "supportEligible": true,
+        "claimCoverage": [
+          {
+            "claim": "falha anterior ligada a equipamento inadequado",
+            "requiredModalities": [
+              "official_description",
+              "secondary_transcript_or_summary"
+            ],
+            "observedModalities": [
+              "official_description",
+              "secondary_transcript_or_summary"
+            ],
+            "sufficient": true
+          },
+          {
+            "claim": "troca de variável seguida de resultado",
+            "requiredModalities": [
+              "official_description",
+              "secondary_transcript_or_summary"
+            ],
+            "observedModalities": [
+              "official_description",
+              "secondary_transcript_or_summary"
+            ],
+            "sufficient": true
+          }
+        ],
+        "provenanceAndConsent": {
+          "storyOrigin": "not_applicable",
+          "consentStatus": "not_applicable",
+          "identityProtection": "not_applicable",
+          "evidence": [
+            "conteúdo educativo"
+          ]
+        },
+        "replicable": [
+          "Falha anterior → variável corrigida → novo teste → resultado."
+        ],
+        "contingent": [
+          "correção científica",
+          "segurança com chama e metanol",
+          "disponibilidade do equipamento"
+        ],
+        "notRecommended": [
+          "reproduzir materiais inflamáveis sem supervisão",
+          "atribuir retenção, confiança ou viralidade",
+          "copiar roteiro"
+        ],
+        "hypotheses": []
+      },
+      "viralAssessment": {
+        "status": "indeterminate",
+        "observedSignal": "aprox. 1,2 milhão de visualizações, sem baseline funcional",
+        "missingForRelativeAssessment": [
+          "baseline",
+          "retenção",
+          "impressões",
+          "fontes de tráfego"
+        ],
+        "confounders": [
+          "tamanho do canal",
+          "idade do vídeo",
+          "marca editorial",
+          "tema visual",
+          "distribuição"
+        ],
+        "causalClaimAllowed": false
+      }
+    },
+    {
+      "id": "obs-20260905-102",
+      "title": "Eggs stronger than bricks? | Live Experiments (Ep 3) | Head Squeeze",
+      "creator": "BBC Earth Science / Garry Lavin",
+      "creatorIdentity": "bbc-earth-science-garry-lavin",
+      "sourceIdentity": "bbc-earth-science",
+      "country": "GB",
+      "url": "https://www.youtube.com/watch?v=-QO5yITChro",
+      "publishedAt": "2013-01-19",
+      "duration": "PT6M15S",
+      "createdAt": "2026-09-05T11:12:15.000Z",
+      "coverage": {
+        "level": "partial",
+        "accessible": [
+          "título",
+          "criador",
+          "descrição oficial",
+          "data exata",
+          "duração",
+          "visualizações aproximadas",
+          "curtidas aproximadas",
+          "tamanho atual do canal",
+          "contagem pública de comentários",
+          "amostra de comentários",
+          "resumo textual secundário",
+          "trecho de transcrição secundário",
+          "forma estrutural do ovo",
+          "preparo que pode fragilizar a casca",
+          "adição progressiva de carga",
+          "quebra final"
+        ],
+        "missing": [
+          "vídeo integral auditável",
+          "imagem em movimento",
+          "áudio ouvido",
+          "transcrição integral",
+          "legendas",
+          "texto na tela",
+          "montagem",
+          "ritmo",
+          "retenção",
+          "baseline funcional contemporâneo",
+          "fontes de tráfego",
+          "contagem exata de tijolos sem divergência entre resumos"
+        ]
+      },
+      "publicMetrics": {
+        "viewsObserved": "aprox. 73 mil",
+        "likesObserved": "aprox. 423",
+        "subscriberCountObserved": "aprox. 1,81 milhão",
+        "commentsCountObserved": "130",
+        "observedAt": "2026-09-05",
+        "sourceType": "youtube_public_page_comments_sample_and_secondary_textual_summary",
+        "causality": "not_inferred"
+      },
+      "classification": {
+        "taxonomyVersion": "3.0",
+        "container": "youtube_video",
+        "materialFormat": "video_longo",
+        "presentationFormats": [
+          "demonstracao",
+          "camera_direta"
+        ],
+        "primaryFamily": "demonstracao",
+        "secondaryFamilies": [
+          "educativo",
+          "entretenimento"
+        ],
+        "functionalMix": [
+          {
+            "family": "demonstracao",
+            "percentage": 55
+          },
+          {
+            "family": "educativo",
+            "percentage": 30
+          },
+          {
+            "family": "entretenimento",
+            "percentage": 15
+          }
+        ],
+        "objectives": [
+          "educar",
+          "visualizacao",
+          "confianca"
+        ],
+        "advertisingType": "editorial_organico",
+        "commercialIntent": "ausente",
+        "advertisedEntity": {
+          "kind": "nenhuma",
+          "name": "",
+          "confidence": "high"
+        },
+        "contentTopic": {
+          "label": "resistência estrutural de cascas de ovo sob carga de tijolos",
+          "iabCode": null
+        },
+        "segment": "ciência e educação",
+        "subsegment": "estruturas e distribuição de carga",
+        "probableAudience": "público geral e educadores",
+        "awarenessStage": "inconsciente",
+        "productionLevel": "intermediate",
+        "creatorScale": "large",
+        "replicability": "high",
+        "durationBand": "over_60s",
+        "pace": "unknown",
+        "mechanisms": [
+          "curiosidade",
+          "surpresa",
+          "progressao",
+          "recompensa"
+        ],
+        "hookTypes": [
+          "pergunta",
+          "afirmacao_contraintuitiva"
+        ],
+        "narrativeElements": [
+          "problema",
+          "mecanismo",
+          "progressao",
+          "prova",
+          "conclusao"
+        ],
+        "proofTypes": [
+          "demonstracao",
+          "mecanismo_explicado"
+        ],
+        "ctaTypes": [],
+        "distributionContext": {
+          "organicPaid": "unknown",
+          "trendDependency": "unknown"
+        },
+        "confidence": "high",
+        "evidence": [
+          "A descrição oficial anuncia o teste de colocar tijolos sobre cascas de ovos e a explicação de sua resistência.",
+          "A cobertura textual registra o preparo, a adição de carga e a quebra quando o limite é ultrapassado."
+        ],
+        "alternativeClassifications": [],
+        "missingInformation": [
+          "audiovisual",
+          "fala integral",
+          "texto na tela",
+          "ritmo",
+          "retenção",
+          "baseline"
+        ],
+        "needsHumanReview": true
+      },
+      "comparison": {
+        "level": 2,
+        "group": "demonstração de carga progressiva em que a quebra final explicita um limite estrutural",
+        "referenceIds": [
+          "obs-20260903-091",
+          "obs-20260904-097"
+        ],
+        "confidence": "high"
+      },
+      "observations": [
+        "O experimento progride por aumento de carga até a estrutura falhar.",
+        "A explicação disponível relaciona resistência à geometria e registra que o preparo pode introduzir fragilidade.",
+        "Resumos secundários divergem sobre a contagem exata de tijolos; a contagem não foi usada como evidência."
+      ],
+      "interpretations": [
+        "A quebra final funciona como limite do mecanismo demonstrado, não como fracasso a esconder.",
+        "Os comentários mostram interesse e dúvidas, mas não representam toda a audiência nem medem compreensão."
+      ],
+      "scores": {
+        "gancho": 91,
+        "clareza": 88,
+        "relevancia": 86,
+        "desejo": 87,
+        "confianca": 87,
+        "retencao": "not_assessed",
+        "acao": 70,
+        "objecoes": 85
+      },
+      "fiveLenses": {
+        "apressado": "Entende a pergunta contraintuitiva do título.",
+        "analitico": "Recebe forma, preparo, carga e limite; faltam medidas e vídeo auditado.",
+        "aspiracional": "Consegue adaptar a estrutura de teste progressivo a materiais simples.",
+        "comunidade": "Há 130 comentários e uma pequena amostra pública, sem representatividade.",
+        "cetico": "A sequência é sustentada por descrição e resumo; a contagem de tijolos foi tratada como incerta."
+      },
+      "hypotheses": [],
+      "replicable": [
+        "Aumentar uma variável de carga até o limite e explicar por que a estrutura resiste e falha.",
+        "Registrar incertezas introduzidas pelo preparo."
+      ],
+      "limitations": [
+        "Cobertura audiovisual não disponível.",
+        "A contagem exata de tijolos diverge entre resumos secundários.",
+        "Comentários não medem retenção nem causalidade."
+      ],
+      "provenance": [
+        "public_content",
+        "youtube_public_page",
+        "public_comments_sample",
+        "secondary_textual_summary",
+        "observatory_inference"
+      ],
+      "sourceEvidence": [
+        "https://www.youtube.com/watch?v=-QO5yITChro",
+        "https://glasp.co/youtube/p/eggs-stronger-than-bricks-live-experiments-ep-3-head-squeeze"
+      ],
+      "training": {
+        "evidencePolicyVersion": "1.1",
+        "evidenceRole": "target_support",
+        "evidenceLevel": 2,
+        "requiredEvidenceObserved": true,
+        "supportEligible": true,
+        "claimCoverage": [
+          {
+            "claim": "carga progressiva até quebra",
+            "requiredModalities": [
+              "official_description",
+              "secondary_transcript_or_summary"
+            ],
+            "observedModalities": [
+              "official_description",
+              "secondary_transcript_or_summary"
+            ],
+            "sufficient": true
+          },
+          {
+            "claim": "falha ligada ao limite de carga e à estrutura",
+            "requiredModalities": [
+              "secondary_transcript_or_summary"
+            ],
+            "observedModalities": [
+              "secondary_transcript_or_summary"
+            ],
+            "sufficient": true
+          }
+        ],
+        "provenanceAndConsent": {
+          "storyOrigin": "not_applicable",
+          "consentStatus": "not_applicable",
+          "identityProtection": "not_applicable",
+          "evidence": [
+            "conteúdo educativo"
+          ]
+        },
+        "replicable": [
+          "Pergunta contraintuitiva → carga progressiva → limite → explicação."
+        ],
+        "contingent": [
+          "controle do preparo",
+          "segurança contra queda de carga",
+          "correção física"
+        ],
+        "notRecommended": [
+          "inferir contagem exata divergente",
+          "atribuir retenção ou viralidade",
+          "copiar apresentação"
+        ],
+        "hypotheses": []
+      },
+      "viralAssessment": {
+        "status": "indeterminate",
+        "observedSignal": "aprox. 73 mil visualizações, sem baseline funcional",
+        "missingForRelativeAssessment": [
+          "baseline",
+          "retenção",
+          "impressões",
+          "fontes de tráfego"
+        ],
+        "confounders": [
+          "tamanho e marca do canal",
+          "idade do vídeo",
+          "distribuição",
+          "tema"
+        ],
+        "causalClaimAllowed": false
+      }
+    },
+    {
+      "id": "obs-20260905-103",
+      "title": "BALÃO de MÁSCARA voa mesmo? Nós testamos!",
+      "creator": "Manual do Mundo",
+      "creatorIdentity": "manual-do-mundo",
+      "sourceIdentity": "manual-do-mundo",
+      "country": "BR",
+      "url": "https://www.youtube.com/watch?v=VKvSfh4LSt4",
+      "publishedAt": "2021-05-20",
+      "duration": "PT9M29S",
+      "createdAt": "2026-09-05T11:12:15.000Z",
+      "coverage": {
+        "level": "partial",
+        "accessible": [
+          "título",
+          "criador",
+          "descrição oficial",
+          "data exata",
+          "duração",
+          "visualizações aproximadas",
+          "curtidas aproximadas",
+          "tamanho atual do canal",
+          "abertura transcrita parcialmente",
+          "resumo textual secundário",
+          "origem comunitária declarada e remetente nomeado",
+          "teste da demonstração viral e alternativa descritos"
+        ],
+        "missing": [
+          "vídeo integral auditável",
+          "imagem em movimento",
+          "áudio ouvido",
+          "transcrição integral",
+          "legendas",
+          "texto na tela",
+          "causa específica da falha do balão de máscara",
+          "comentários",
+          "montagem",
+          "ritmo",
+          "retenção",
+          "baseline",
+          "consentimento documentado do remetente"
+        ]
+      },
+      "publicMetrics": {
+        "viewsObserved": "aprox. 1,4 milhão",
+        "likesObserved": "aprox. 122 mil",
+        "subscriberCountObserved": "aprox. 20,5 milhões",
+        "observedAt": "2026-09-05",
+        "sourceType": "youtube_public_page_and_secondary_partial_transcript",
+        "causality": "not_inferred"
+      },
+      "classification": {
+        "taxonomyVersion": "3.0",
+        "container": "youtube_video",
+        "materialFormat": "video_longo",
+        "presentationFormats": [
+          "demonstracao",
+          "camera_direta"
+        ],
+        "primaryFamily": "comparacao",
+        "secondaryFamilies": [
+          "demonstracao",
+          "educativo"
+        ],
+        "functionalMix": [
+          {
+            "family": "comparacao",
+            "percentage": 45
+          },
+          {
+            "family": "demonstracao",
+            "percentage": 35
+          },
+          {
+            "family": "educativo",
+            "percentage": 20
+          }
+        ],
+        "objectives": [
+          "educar",
+          "confianca",
+          "visualizacao"
+        ],
+        "advertisingType": "editorial_organico",
+        "commercialIntent": "indeterminada",
+        "advertisedEntity": {
+          "kind": "indeterminado",
+          "name": "",
+          "confidence": "low"
+        },
+        "contentTopic": {
+          "label": "teste de balão de máscara viral e demonstração alternativa",
+          "iabCode": null
+        },
+        "segment": "ciência e educação",
+        "subsegment": "checagem de demonstração viral",
+        "probableAudience": "famílias, estudantes e público de ciência",
+        "awarenessStage": "consciente_problema",
+        "productionLevel": "intermediate",
+        "creatorScale": "large",
+        "replicability": "medium",
+        "durationBand": "over_60s",
+        "pace": "unknown",
+        "mechanisms": [
+          "curiosidade",
+          "contraste",
+          "confianca"
+        ],
+        "hookTypes": [
+          "pergunta",
+          "conflito"
+        ],
+        "narrativeElements": [
+          "situacao",
+          "problema",
+          "progressao",
+          "virada",
+          "conclusao"
+        ],
+        "proofTypes": [
+          "demonstracao",
+          "ausencia_prova_necessaria"
+        ],
+        "ctaTypes": [],
+        "distributionContext": {
+          "organicPaid": "unknown",
+          "trendDependency": "high"
+        },
+        "confidence": "medium",
+        "evidence": [
+          "A descrição oficial diz que um espectador enviou um vídeo viral sobre balão feito com máscara, cola quente e vela.",
+          "A cobertura textual acessível indica que a versão viral não funciona e que outra demonstração é apresentada, mas não expõe a causa específica da falha."
+        ],
+        "alternativeClassifications": [],
+        "missingInformation": [
+          "mecanismo da falha",
+          "audiovisual",
+          "fala integral",
+          "comentários",
+          "ritmo",
+          "retenção",
+          "baseline"
+        ],
+        "needsHumanReview": true
+      },
+      "comparison": {
+        "level": 2,
+        "group": "teste de demonstração viral com falha declarada, mas sem variável causal suficientemente coberta",
+        "referenceIds": [
+          "obs-20260905-101",
+          "obs-20260904-099"
+        ],
+        "confidence": "medium"
+      },
+      "observations": [
+        "O material testa uma alegação enviada pela audiência e separa a versão viral de uma alternativa.",
+        "A cobertura não permite observar qual variável explica a falha."
+      ],
+      "interpretations": [
+        "É rejeitado como apoio ao padrão de falha explicada; fracasso e alternativa, sem mecanismo observável, não bastam.",
+        "A origem comunitária é declarada, mas consentimento para identificação não está documentado."
+      ],
+      "scores": {
+        "gancho": 90,
+        "clareza": 82,
+        "relevancia": 85,
+        "desejo": 87,
+        "confianca": 78,
+        "retencao": "not_assessed",
+        "acao": 72,
+        "objecoes": 76
+      },
+      "fiveLenses": {
+        "apressado": "Entende o teste proposto pelo título.",
+        "analitico": "Não recebe, na cobertura disponível, a variável que torna a versão viral inviável.",
+        "aspiracional": "A arquitetura de checagem é adaptável, com cautela de segurança.",
+        "comunidade": "O remetente é nomeado; consentimento não foi documentado.",
+        "cetico": "Falha e alternativa estão descritas, mas o mecanismo não ficou verificável."
+      },
+      "hypotheses": [],
+      "replicable": [
+        "Testar uma demonstração viral antes de recomendá-la.",
+        "Quando uma versão falhar, oferecer alternativa verificável e separar as duas."
+      ],
+      "limitations": [
+        "Não conta como apoio formal ao padrão alvo.",
+        "Vela e cola quente exigem supervisão e não devem ser reproduzidas sem barreiras.",
+        "Consentimento do remetente não documentado.",
+        "Sem audiovisual ou retenção."
+      ],
+      "provenance": [
+        "public_content",
+        "youtube_public_page",
+        "secondary_partial_transcript",
+        "audience_submission_declared",
+        "observatory_inference"
+      ],
+      "sourceEvidence": [
+        "https://www.youtube.com/watch?v=VKvSfh4LSt4",
+        "https://glasp.co/youtube/VKvSfh4LSt4"
+      ],
+      "training": {
+        "evidencePolicyVersion": "1.1",
+        "evidenceRole": "target_support",
+        "evidenceLevel": 2,
+        "requiredEvidenceObserved": false,
+        "supportEligible": false,
+        "claimCoverage": [
+          {
+            "claim": "demonstração viral testada e rejeitada",
+            "requiredModalities": [
+              "official_description",
+              "secondary_transcript_or_summary"
+            ],
+            "observedModalities": [
+              "official_description",
+              "secondary_transcript_or_summary"
+            ],
+            "sufficient": true
+          },
+          {
+            "claim": "falha ligada a variável ou limite",
+            "requiredModalities": [
+              "video_or_transcript"
+            ],
+            "observedModalities": [],
+            "sufficient": false
+          }
+        ],
+        "provenanceAndConsent": {
+          "storyOrigin": "audience_submission",
+          "consentStatus": "not_documented",
+          "identityProtection": "none_observed",
+          "evidence": [
+            "a descrição oficial nomeia o remetente Cauê Ramos Klehm"
+          ]
+        },
+        "replicable": [
+          "Alegação da audiência → teste → distinção entre versão falsa e alternativa."
+        ],
+        "contingent": [
+          "mecanismo explicitado",
+          "segurança com chama",
+          "consentimento para identificação"
+        ],
+        "notRecommended": [
+          "contar falha sem causa como apoio",
+          "usar conteúdo de audiência sem política de consentimento",
+          "reproduzir chama sem supervisão"
+        ],
+        "hypotheses": []
+      },
+      "viralAssessment": {
+        "status": "indeterminate",
+        "observedSignal": "aprox. 1,4 milhão de visualizações, sem baseline funcional",
+        "missingForRelativeAssessment": [
+          "baseline",
+          "retenção",
+          "impressões",
+          "fontes de tráfego"
+        ],
+        "confounders": [
+          "tamanho do canal",
+          "marca editorial",
+          "tema viral",
+          "distribuição"
+        ],
+        "causalClaimAllowed": false
+      }
+    },
+    {
+      "id": "obs-20260905-104",
+      "title": "Experimento científico: Estourando balão com casca de laranja",
+      "creator": "CPV - Canal Polivalente",
+      "creatorIdentity": "cpv-canal-polivalente",
+      "sourceIdentity": "cpv-canal-polivalente",
+      "country": "BR",
+      "url": "https://www.youtube.com/watch?v=t1Up3h610U8",
+      "publishedAt": "2021-01-20",
+      "duration": "PT2M56S",
+      "createdAt": "2026-09-05T11:12:15.000Z",
+      "coverage": {
+        "level": "partial",
+        "accessible": [
+          "título",
+          "criador",
+          "descrição oficial",
+          "data exata",
+          "duração",
+          "visualizações aproximadas",
+          "curtidas aproximadas",
+          "tamanho atual do canal",
+          "primeira tentativa falha declarada",
+          "segunda tentativa bem-sucedida declarada"
+        ],
+        "missing": [
+          "vídeo integral auditável",
+          "imagem em movimento",
+          "áudio ouvido",
+          "transcrição",
+          "legendas",
+          "texto na tela",
+          "causa da diferença entre tentativas",
+          "procedimento completo",
+          "comentários",
+          "montagem",
+          "ritmo",
+          "retenção",
+          "baseline"
+        ]
+      },
+      "publicMetrics": {
+        "viewsObserved": "aprox. 373",
+        "likesObserved": "aprox. 19",
+        "subscriberCountObserved": "aprox. 812",
+        "observedAt": "2026-09-05",
+        "sourceType": "youtube_public_page",
+        "causality": "not_inferred"
+      },
+      "classification": {
+        "taxonomyVersion": "3.0",
+        "container": "youtube_video",
+        "materialFormat": "video_longo",
+        "presentationFormats": [
+          "demonstracao"
+        ],
+        "primaryFamily": "educativo",
+        "secondaryFamilies": [
+          "demonstracao",
+          "comparacao"
+        ],
+        "functionalMix": [
+          {
+            "family": "educativo",
+            "percentage": 45
+          },
+          {
+            "family": "demonstracao",
+            "percentage": 40
+          },
+          {
+            "family": "comparacao",
+            "percentage": 15
+          }
+        ],
+        "objectives": [
+          "educar",
+          "visualizacao"
+        ],
+        "advertisingType": "editorial_organico",
+        "commercialIntent": "ausente",
+        "advertisedEntity": {
+          "kind": "nenhuma",
+          "name": "",
+          "confidence": "high"
+        },
+        "contentTopic": {
+          "label": "estouro de balão com óleo de casca de laranja",
+          "iabCode": null
+        },
+        "segment": "ciência e educação",
+        "subsegment": "materiais e compostos cítricos",
+        "probableAudience": "estudantes, famílias e educadores",
+        "awarenessStage": "inconsciente",
+        "productionLevel": "simple",
+        "creatorScale": "small",
+        "replicability": "high",
+        "durationBand": "over_60s",
+        "pace": "unknown",
+        "mechanisms": [
+          "curiosidade",
+          "surpresa"
+        ],
+        "hookTypes": [
+          "promessa"
+        ],
+        "narrativeElements": [
+          "problema",
+          "virada"
+        ],
+        "proofTypes": [
+          "ausencia_prova_necessaria"
+        ],
+        "ctaTypes": [],
+        "distributionContext": {
+          "organicPaid": "unknown",
+          "trendDependency": "unknown"
+        },
+        "confidence": "medium",
+        "evidence": [
+          "A descrição oficial informa que o primeiro balão não estourou e o segundo estourou.",
+          "Nenhuma modalidade acessível identifica a variável responsável pela diferença."
+        ],
+        "alternativeClassifications": [],
+        "missingInformation": [
+          "causa da falha",
+          "procedimento",
+          "audiovisual",
+          "comentários",
+          "ritmo",
+          "retenção",
+          "baseline"
+        ],
+        "needsHumanReview": true
+      },
+      "comparison": {
+        "level": 2,
+        "group": "caso-limite: repetição muda o resultado, mas a variável não é observável",
+        "referenceIds": [
+          "obs-20260904-099",
+          "obs-20260905-103"
+        ],
+        "confidence": "high"
+      },
+      "observations": [
+        "A sequência de falha e sucesso é declarada na descrição.",
+        "A causa da mudança não ficou acessível."
+      ],
+      "interpretations": [
+        "Repetir até funcionar, sem explicar a variável, não transforma a falha em aprendizado verificável.",
+        "É caso-limite, não contraexemplo."
+      ],
+      "scores": {
+        "gancho": 82,
+        "clareza": 76,
+        "relevancia": 78,
+        "desejo": 80,
+        "confianca": "not_assessed",
+        "retencao": "not_assessed",
+        "acao": "not_assessed",
+        "objecoes": "not_assessed"
+      },
+      "fiveLenses": {
+        "apressado": "Percebe uma transformação prometida.",
+        "analitico": "Não consegue distinguir variável, acaso ou mudança de procedimento.",
+        "aspiracional": "Materiais parecem simples, mas o procedimento não foi auditado.",
+        "comunidade": "Não mensurado.",
+        "cetico": "Falha seguida de sucesso sem causa observável não sustenta o padrão."
+      },
+      "hypotheses": [],
+      "replicable": [
+        "Registrar tentativas malsucedidas, desde que a variável seja posteriormente identificada."
+      ],
+      "limitations": [
+        "Não ensina mecanismo por falta de cobertura suficiente.",
+        "Não conta como apoio nem contraexemplo.",
+        "Óleo cítrico pode irritar olhos e pele; procedimento exige cuidado.",
+        "Métricas sem baseline não indicam desempenho."
+      ],
+      "provenance": [
+        "public_content",
+        "youtube_public_page",
+        "observatory_inference"
+      ],
+      "sourceEvidence": [
+        "https://www.youtube.com/watch?v=t1Up3h610U8"
+      ],
+      "training": {
+        "evidencePolicyVersion": "1.1",
+        "evidenceRole": "falsification_or_boundary",
+        "evidenceLevel": 2,
+        "requiredEvidenceObserved": false,
+        "supportEligible": false,
+        "claimCoverage": [
+          {
+            "claim": "primeira tentativa falha e segunda funciona",
+            "requiredModalities": [
+              "official_description"
+            ],
+            "observedModalities": [
+              "official_description"
+            ],
+            "sufficient": true
+          },
+          {
+            "claim": "falha ligada a variável ou limite",
+            "requiredModalities": [
+              "video_or_transcript"
+            ],
+            "observedModalities": [],
+            "sufficient": false
+          }
+        ],
+        "provenanceAndConsent": {
+          "storyOrigin": "not_applicable",
+          "consentStatus": "not_applicable",
+          "identityProtection": "not_applicable",
+          "evidence": [
+            "conteúdo educativo"
+          ]
+        },
+        "replicable": [
+          "Mostrar tentativas e identificar o que mudou entre elas."
+        ],
+        "contingent": [
+          "explicação da variável",
+          "controle do procedimento",
+          "segurança"
+        ],
+        "notRecommended": [
+          "repetir até funcionar sem explicar mudança",
+          "inferir mecanismo, cenas ou retenção"
+        ],
+        "hypotheses": []
+      },
+      "viralAssessment": {
+        "status": "indeterminate",
+        "observedSignal": "aprox. 373 visualizações, sem baseline funcional",
+        "missingForRelativeAssessment": [
+          "baseline",
+          "retenção",
+          "impressões",
+          "fontes de tráfego"
+        ],
+        "confounders": [
+          "tamanho do canal",
+          "idade do vídeo",
+          "distribuição"
+        ],
+        "causalClaimAllowed": false
+      }
+    },
+    {
+      "id": "obs-20260905-105",
+      "title": "Chega! Todo Mundo Riu Dele ao FALAR INGLÊS... Mas Veja o que Aconteceu Depois",
+      "creator": "Método Inglês Sem Vergonha — Teacher Mandy & Daniel",
+      "creatorIdentity": "metodo-ingles-sem-vergonha",
+      "sourceIdentity": "metodo-ingles-sem-vergonha",
+      "country": "BR",
+      "url": "https://www.youtube.com/watch?v=eTywQuhzNG8",
+      "publishedAt": "2025-12-12",
+      "duration": "PT14M5S",
+      "createdAt": "2026-09-05T11:12:15.000Z",
+      "coverage": {
+        "level": "partial",
+        "accessible": [
+          "título",
+          "criador",
+          "descrição oficial",
+          "data exata",
+          "duração",
+          "visualizações aproximadas",
+          "curtidas aproximadas",
+          "tamanho atual do canal",
+          "conflito de vergonha ao falar inglês",
+          "reinterpretação do erro como tentativa"
+        ],
+        "missing": [
+          "vídeo integral auditável",
+          "imagem em movimento",
+          "áudio ouvido",
+          "transcrição",
+          "legendas",
+          "texto na tela",
+          "desfecho narrativo completo",
+          "oferta e CTA verificáveis",
+          "comentários",
+          "montagem",
+          "ritmo",
+          "retenção",
+          "baseline funcional contemporâneo"
+        ]
+      },
+      "publicMetrics": {
+        "viewsObserved": "aprox. 93",
+        "likesObserved": "aprox. 9",
+        "subscriberCountObserved": "aprox. 62 mil",
+        "observedAt": "2026-09-05",
+        "sourceType": "youtube_public_page",
+        "causality": "not_inferred"
+      },
+      "classification": {
+        "taxonomyVersion": "3.0",
+        "container": "youtube_video",
+        "materialFormat": "video_longo",
+        "presentationFormats": [
+          "camera_direta",
+          "comentario"
+        ],
+        "primaryFamily": "autoridade_opiniao",
+        "secondaryFamilies": [
+          "educativo",
+          "storytelling"
+        ],
+        "functionalMix": [
+          {
+            "family": "autoridade_opiniao",
+            "percentage": 45
+          },
+          {
+            "family": "educativo",
+            "percentage": 35
+          },
+          {
+            "family": "storytelling",
+            "percentage": 20
+          }
+        ],
+        "objectives": [
+          "educar",
+          "confianca",
+          "consciencia_problema"
+        ],
+        "advertisingType": "editorial_organico",
+        "commercialIntent": "implicita",
+        "advertisedEntity": {
+          "kind": "servico",
+          "name": "Método Inglês Sem Vergonha",
+          "confidence": "medium"
+        },
+        "contentTopic": {
+          "label": "vergonha, erro e prática ao falar inglês",
+          "iabCode": null
+        },
+        "segment": "educação",
+        "subsegment": "aprendizado de inglês",
+        "probableAudience": "brasileiros com medo de falar inglês",
+        "awarenessStage": "consciente_problema",
+        "productionLevel": "simple",
+        "creatorScale": "medium",
+        "replicability": "high",
+        "durationBand": "over_60s",
+        "pace": "unknown",
+        "mechanisms": [
+          "identificacao",
+          "alivio",
+          "contraste",
+          "autoridade"
+        ],
+        "hookTypes": [
+          "conflito",
+          "promessa"
+        ],
+        "narrativeElements": [
+          "situacao",
+          "problema",
+          "virada"
+        ],
+        "proofTypes": [
+          "ausencia_prova_necessaria"
+        ],
+        "ctaTypes": [],
+        "distributionContext": {
+          "organicPaid": "unknown",
+          "trendDependency": "unknown"
+        },
+        "confidence": "medium",
+        "evidence": [
+          "Título e descrição enquadram o ridículo social como obstáculo.",
+          "A descrição reinterpreta o erro como tentativa, mas não oferece desfecho integral ou prova de transformação."
+        ],
+        "alternativeClassifications": [],
+        "missingInformation": [
+          "narrativa integral",
+          "prova",
+          "oferta",
+          "CTA",
+          "audiovisual",
+          "comentários",
+          "ritmo",
+          "retenção",
+          "baseline"
+        ],
+        "needsHumanReview": true
+      },
+      "comparison": {
+        "level": 3,
+        "group": "exploração controlada: autoridade educacional que ressignifica erro público",
+        "referenceIds": [
+          "obs-20260827-053"
+        ],
+        "confidence": "medium"
+      },
+      "observations": [
+        "A abertura textual transforma vergonha em conflito de aprendizagem.",
+        "Alcance absoluto baixo não pode ser interpretado sem baseline contemporâneo."
+      ],
+      "interpretations": [
+        "A referência explora outra família e não cria hipótese nova por falta de desfecho, prova e cobertura audiovisual."
+      ],
+      "scores": {
+        "gancho": 88,
+        "clareza": 80,
+        "relevancia": 86,
+        "desejo": 84,
+        "confianca": 74,
+        "retencao": "not_assessed",
+        "acao": "not_assessed",
+        "objecoes": "not_assessed"
+      },
+      "fiveLenses": {
+        "apressado": "Reconhece conflito e promessa.",
+        "analitico": "Não dispõe de sequência, evidência ou método completos.",
+        "aspiracional": "Pode perceber o erro como parte da prática.",
+        "comunidade": "Não mensurado.",
+        "cetico": "A descrição não comprova transformação nem efeito do enquadramento."
+      },
+      "hypotheses": [],
+      "replicable": [
+        "Nomear uma vergonha específica e ressignificar a tentativa sem humilhar a pessoa."
+      ],
+      "limitations": [
+        "Exploração fora da família alvo; não fortalece padrão.",
+        "Possível intenção comercial é contexto, não prova.",
+        "Sem desfecho, CTA, comentários, baseline ou retenção."
+      ],
+      "provenance": [
+        "public_content",
+        "youtube_public_page",
+        "observatory_inference"
+      ],
+      "sourceEvidence": [
+        "https://www.youtube.com/watch?v=eTywQuhzNG8"
+      ],
+      "training": {
+        "evidencePolicyVersion": "1.1",
+        "evidenceRole": "controlled_exploration",
+        "evidenceLevel": 3,
+        "requiredEvidenceObserved": false,
+        "supportEligible": false,
+        "claimCoverage": [
+          {
+            "claim": "vergonha e erro enquadrados como conflito",
+            "requiredModalities": [
+              "title",
+              "official_description"
+            ],
+            "observedModalities": [
+              "title",
+              "official_description"
+            ],
+            "sufficient": true
+          },
+          {
+            "claim": "transformação e resultado",
+            "requiredModalities": [
+              "video_or_transcript"
+            ],
+            "observedModalities": [],
+            "sufficient": false
+          }
+        ],
+        "provenanceAndConsent": {
+          "storyOrigin": "third_party_story_claim",
+          "consentStatus": "not_documented",
+          "identityProtection": "identity_not_available_in_accessible_coverage",
+          "evidence": [
+            "título refere-se a um homem, mas a identidade e o consentimento não ficaram acessíveis"
+          ]
+        },
+        "replicable": [
+          "Conflito de vergonha → tentativa → ressignificação cuidadosa."
+        ],
+        "contingent": [
+          "consentimento e dignidade do personagem",
+          "desfecho verdadeiro",
+          "método pedagógico"
+        ],
+        "notRecommended": [
+          "ridicularizar pessoa real",
+          "inventar transformação",
+          "atribuir desempenho ao enquadramento"
+        ],
+        "hypotheses": []
+      },
+      "viralAssessment": {
+        "status": "indeterminate",
+        "observedSignal": "aprox. 93 visualizações, sem baseline funcional",
+        "missingForRelativeAssessment": [
+          "baseline contemporâneo",
+          "retenção",
+          "impressões",
+          "fontes de tráfego"
+        ],
+        "confounders": [
+          "tamanho do canal",
+          "data futura em relação a arquivos antigos",
+          "distribuição",
+          "tema",
+          "possível oferta"
+        ],
+        "causalClaimAllowed": false
+      }
     }
   ],
   "patterns": [
@@ -24064,16 +25401,18 @@
         "obs-20260829-069",
         "obs-20260902-086",
         "obs-20260903-091",
-        "obs-20260904-097"
+        "obs-20260904-097",
+        "obs-20260905-101",
+        "obs-20260905-102"
       ],
-      "comparableSupportCount": 7,
+      "comparableSupportCount": 9,
       "comparisonLevel": 1,
       "confidence": "medium",
       "limitations": [
-        "Quatro dos sete apoios formais são do Manual do Mundo; os demais vêm de três criadores independentes.",
-        "A diversidade chegou a quatro criadores e quatro fontes, mas apenas um apoio vem do segmento de benchmark tecnológico.",
+        "Cinco dos nove apoios formais são do Manual do Mundo; os demais vêm de quatro criadores independentes.",
+        "A diversidade chegou a cinco criadores e cinco fontes, mas os materiais cobrem segmentos e níveis de produção diferentes.",
         "Nenhum apoio possui curva de retenção ou experimento causal sobre comunicação.",
-        "O novo apoio é textual e secundário; audiovisual, gráficos, ritmo e método estatístico não foram auditados.",
+        "Os dois novos apoios são textuais; audiovisual, texto na tela, ritmo e montagem não foram auditados.",
         "O padrão descreve arquitetura observável de pergunta, teste e recompensa, não prova desempenho."
       ],
       "validation": "requires_human_or_experimental_evidence",
@@ -24082,7 +25421,7 @@
       "creativeFamily": "família demonstracao",
       "objective": "clareza e progressão da demonstração",
       "segment": "fenômeno visual verificável",
-      "supportingCount": 7,
+      "supportingCount": 9,
       "counterexampleCount": 0,
       "evidence": [
         {
@@ -24182,18 +25521,55 @@
           "limitations": [
             "Não conta como apoio nem contraexemplo."
           ]
+        },
+        {
+          "referenceId": "obs-20260905-101",
+          "role": "support",
+          "comparisonLevel": 2,
+          "requiredEvidenceObserved": true,
+          "confidence": "high",
+          "observation": "A tentativa anterior falha por equipamento inadequado; a nova versão troca a lâmpada e progride até o resultado.",
+          "evidence": "Descrição oficial e cobertura textual secundária.",
+          "limitations": [
+            "Mesmo criador de quatro apoios anteriores; sem audiovisual ou retenção."
+          ]
+        },
+        {
+          "referenceId": "obs-20260905-102",
+          "role": "support",
+          "comparisonLevel": 2,
+          "requiredEvidenceObserved": true,
+          "confidence": "high",
+          "observation": "A pergunta antecipa resistência contraintuitiva e a carga progride até a quebra que delimita o mecanismo.",
+          "evidence": "Página original, descrição, comentários amostrados e cobertura textual secundária.",
+          "limitations": [
+            "Sem audiovisual; resumos divergem sobre a contagem exata de tijolos."
+          ]
+        },
+        {
+          "referenceId": "obs-20260905-103",
+          "role": "case_limit",
+          "comparisonLevel": 2,
+          "requiredEvidenceObserved": false,
+          "confidence": "medium",
+          "observation": "A demonstração viral falha e recebe alternativa, mas a variável causal não ficou acessível.",
+          "evidence": "Descrição oficial e transcrição/resumo parciais.",
+          "limitations": [
+            "Não conta como apoio nem contraexemplo."
+          ]
         }
       ],
       "taxonomyVersion": "3.0",
-      "creatorDiversityCount": 4,
-      "sourceDiversityCount": 4,
+      "creatorDiversityCount": 5,
+      "sourceDiversityCount": 5,
       "patternType": "compreensao",
       "caseLimitReferenceIds": [
         "obs-20260902-089",
         "obs-20260903-094",
-        "obs-20260904-099"
+        "obs-20260904-099",
+        "obs-20260905-103"
       ],
-      "caseLimitCount": 3,
+      "caseLimitCount": 4,
       "counterexampleReferenceIds": []
     },
     {
@@ -24944,18 +26320,23 @@
       "supportReferenceIds": [
         "obs-20260829-069",
         "obs-20260903-091",
-        "obs-20260904-097"
+        "obs-20260904-097",
+        "obs-20260905-101",
+        "obs-20260905-102"
       ],
-      "comparableSupportCount": 3,
-      "supportingCount": 3,
+      "comparableSupportCount": 5,
+      "supportingCount": 5,
       "comparisonLevel": 2,
       "confidence": "medium",
       "counterexampleReferenceIds": [],
       "counterexampleCount": 0,
-      "caseLimitReferenceIds": [],
-      "caseLimitCount": 0,
-      "creatorDiversityCount": 3,
-      "sourceDiversityCount": 3,
+      "caseLimitReferenceIds": [
+        "obs-20260905-103",
+        "obs-20260905-104"
+      ],
+      "caseLimitCount": 2,
+      "creatorDiversityCount": 4,
+      "sourceDiversityCount": 4,
       "patternType": "compreensao",
       "evidence": [
         {
@@ -24993,13 +26374,63 @@
           "limitations": [
             "Segmento tecnológico e cobertura textual secundária."
           ]
+        },
+        {
+          "referenceId": "obs-20260905-101",
+          "role": "support",
+          "comparisonLevel": 2,
+          "requiredEvidenceObserved": true,
+          "confidence": "high",
+          "observation": "Falha anterior ligada à lâmpada inadequada e correção do equipamento até o resultado.",
+          "evidence": "Descrição oficial e cobertura textual secundária.",
+          "limitations": [
+            "Mesmo criador de um apoio anterior; equipamento e chama reduzem replicabilidade material."
+          ]
+        },
+        {
+          "referenceId": "obs-20260905-102",
+          "role": "support",
+          "comparisonLevel": 2,
+          "requiredEvidenceObserved": true,
+          "confidence": "high",
+          "observation": "A quebra final é ligada ao limite de carga e à estrutura das cascas.",
+          "evidence": "Descrição oficial, página original e cobertura textual secundária.",
+          "limitations": [
+            "Sem audiovisual; contagem exata de tijolos não usada por divergência entre resumos."
+          ]
+        },
+        {
+          "referenceId": "obs-20260905-103",
+          "role": "case_limit",
+          "comparisonLevel": 2,
+          "requiredEvidenceObserved": false,
+          "confidence": "medium",
+          "observation": "A versão viral falha e uma alternativa é oferecida, porém a causa específica da falha não ficou observável.",
+          "evidence": "Descrição oficial e cobertura textual parcial.",
+          "limitations": [
+            "Não conta como apoio nem contraexemplo."
+          ]
+        },
+        {
+          "referenceId": "obs-20260905-104",
+          "role": "case_limit",
+          "comparisonLevel": 2,
+          "requiredEvidenceObserved": false,
+          "confidence": "high",
+          "observation": "Primeira tentativa falha e segunda funciona, mas a variável que mudou não ficou acessível.",
+          "evidence": "Descrição oficial e metadados da página original.",
+          "limitations": [
+            "Não conta como apoio nem contraexemplo."
+          ]
         }
       ],
       "limitations": [
-        "Os três apoios são de segmentos distintos e a comparação é estrutural, não temática.",
+        "Cinco apoios formais vêm de quatro criadores e quatro fontes; dois casos novos são do Manual do Mundo, já presente no conjunto.",
+        "Os segmentos são distintos e a comparação é estrutural, não temática.",
         "Nenhum apoio possui retenção, teste de compreensão ou comparação causal.",
-        "A evidência audiovisual não foi auditada integralmente.",
-        "O padrão é provisório e exige revisão humana ou experimento para qualquer validação."
+        "A evidência nova é textual; cenas, áudio ouvido, ritmo e montagem não foram auditados.",
+        "Os dois casos-limite mostram que declarar falha, repetir ou oferecer alternativa não basta sem variável, interferência ou limite observável.",
+        "O padrão permanece provisório e exige revisão humana ou experimento para qualquer validação."
       ],
       "validation": "requires_human_or_experimental_evidence",
       "taxonomyVersion": "3.0"
@@ -26755,6 +28186,117 @@
         "Quatro páginas originais não forneceram transcrição ou legendas.",
         "Resumos secundários podem conter erros.",
         "Nenhum comentário ou baseline contemporâneo ficou acessível.",
+        "Nenhum resultado autoriza causalidade ou validação."
+      ]
+    },
+    {
+      "id": "run-20260905-supervised-017",
+      "executedAt": "2026-09-05T11:12:15.000Z",
+      "batchPolicyVersion": "1.1",
+      "requestedBatchSize": 5,
+      "candidatesFound": 34,
+      "referenceIds": [
+        "obs-20260905-101",
+        "obs-20260905-102",
+        "obs-20260905-103",
+        "obs-20260905-104",
+        "obs-20260905-105"
+      ],
+      "targetKnowledgeId": "pat-20260904-009",
+      "targetReferenceIds": [
+        "obs-20260905-101",
+        "obs-20260905-102",
+        "obs-20260905-103"
+      ],
+      "falsificationOrBoundaryReferenceIds": [
+        "obs-20260905-104"
+      ],
+      "controlledExplorationReferenceIds": [
+        "obs-20260905-105"
+      ],
+      "discarded": [
+        {
+          "url": "https://www.instagram.com/reel/CzkQxXxAHtt/",
+          "reason": "falso positivo: a URL pública resolve para decoração com luminária de rattan, não para o experimento de jardinagem descrito no resultado de busca"
+        },
+        {
+          "url": "https://www.youtube.com/shorts/XGXIWve-jaw",
+          "reason": "descrição de barreira contra ervas daninhas sem procedimento, falha ou variável observáveis"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=9_SMCcDfitY",
+          "reason": "candidato de Starlite sem cobertura textual suficiente para comparação do padrão alvo"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=bI9LSDiCGTA",
+          "reason": "produção de impressão 3D pesada, pouco comparável e sem cobertura integral"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=cBREm2XYFvQ",
+          "reason": "making-of sobre erros sem sequência experimental funcionalmente comparável"
+        }
+      ],
+      "analyzed": 5,
+      "brazilianReferences": 4,
+      "internationalReferences": 1,
+      "smallOrMediumCreatorReferences": 2,
+      "coverageSummary": {
+        "complete": 0,
+        "partial": 5,
+        "insufficient": 0
+      },
+      "audiovisualAcquisition": {
+        "attempted": true,
+        "succeeded": 0,
+        "failure": "as páginas originais foram conferidas após pesquisa pública, mas não ofereceram arquivo audiovisual auditável, legendas ou transcrição integral",
+        "effect": "cenas, áudio ouvido, texto na tela, cortes, montagem, ritmo e retenção ficaram não mensurados"
+      },
+      "commentsCoverage": {
+        "fullOrDeclaredZero": 0,
+        "partialSample": 1
+      },
+      "baselineCoverage": {
+        "sampledProfiles": 0,
+        "contemporaneousBaselines": 0,
+        "limitation": "contagens de inscritos foram observadas, mas nenhum baseline funcional contemporâneo de publicações comparáveis ficou acessível"
+      },
+      "patternsCreated": [],
+      "patternsStrengthened": [
+        "pat-20260904-009",
+        "pat-20260823-001"
+      ],
+      "patternsRefined": [
+        "pat-20260904-009"
+      ],
+      "hypothesesCreated": [],
+      "hypothesesStrengthened": [],
+      "validatedPatternsCreated": 0,
+      "contradictionsFound": [],
+      "caseLimitsFound": [
+        "declarar que uma demonstração falhou e oferecer alternativa sem expor a variável causal não sustenta o padrão",
+        "mostrar uma tentativa falha e outra bem-sucedida sem identificar o que mudou não transforma a falha em explicação"
+      ],
+      "safetyFindings": [
+        "experimentos com chama, metanol, cola quente ou lâmpada de sódio exigem supervisão, ventilação e equipamento adequado",
+        "carga de tijolos deve ter barreiras contra queda; replicabilidade estrutural não autoriza reproduzir risco",
+        "conteúdo enviado por audiência exige consentimento explícito para identificação"
+      ],
+      "evidenceGateSummary": {
+        "targetSupportsEligible": 2,
+        "targetSupportsRejected": 1,
+        "boundaryCases": 1,
+        "explorationReferences": 1,
+        "duplicateUrls": 0,
+        "independentCreatorsAddedToPattern": 1,
+        "newHypotheses": 0
+      },
+      "outcome": "Dois apoios comparáveis elevaram o padrão de falha explicada de três para cinco casos e de três para quatro criadores/fontes. Um candidato alvo e um caso-limite foram rejeitados porque a falha não estava ligada a variável observável. Nenhuma hipótese nova dispersa foi criada.",
+      "nextTarget": "experimento brasileiro integral, de criador pequeno ou médio, com falha ligada a variável observável, comentários e baseline contemporâneo; incluir um caso semelhante cujo resultado contradiga ou enfraqueça a utilidade explicativa da falha",
+      "limitations": [
+        "Nenhuma mídia audiovisual integral foi auditada.",
+        "Quatro referências dependem principalmente de metadados, descrições ou resumos secundários.",
+        "Apenas uma amostra parcial de comentários ficou acessível.",
+        "Nenhum baseline funcional contemporâneo ficou acessível.",
         "Nenhum resultado autoriza causalidade ou validação."
       ]
     }
