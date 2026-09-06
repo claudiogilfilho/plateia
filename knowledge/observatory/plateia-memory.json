@@ -25459,7 +25459,7 @@
         "advertisingType": "conteudo_de_marca",
         "commercialIntent": "ausente",
         "advertisedEntity": {
-          "kind": "instituicao_de_saude",
+          "kind": "marca",
           "name": "Einstein Hospital Israelita",
           "confidence": "high"
         },
@@ -25590,14 +25590,15 @@
             "observedModalities": [
               "title",
               "official_description",
-              "full_auto_transcript"
+              "full_auto_transcript",
+              "transcript"
             ],
             "sufficient": true
           },
           {
             "claim": "autoridade identificável",
             "requiredModalities": [
-              "official_description_or_transcript"
+              "official_description"
             ],
             "observedModalities": [
               "official_description",
@@ -25611,7 +25612,8 @@
               "transcript"
             ],
             "observedModalities": [
-              "full_auto_transcript"
+              "full_auto_transcript",
+              "transcript"
             ],
             "sufficient": true
           }
@@ -25744,7 +25746,7 @@
         "advertisingType": "conteudo_de_marca",
         "commercialIntent": "ausente",
         "advertisedEntity": {
-          "kind": "instituicao_de_saude",
+          "kind": "marca",
           "name": "Hospital Pequeno Príncipe",
           "confidence": "high"
         },
@@ -25876,14 +25878,15 @@
             ],
             "observedModalities": [
               "official_description",
-              "full_transcript"
+              "full_transcript",
+              "transcript"
             ],
             "sufficient": true
           },
           {
             "claim": "autoridade identificável",
             "requiredModalities": [
-              "official_description_or_transcript"
+              "official_description"
             ],
             "observedModalities": [
               "official_description",
@@ -25899,7 +25902,8 @@
             ],
             "observedModalities": [
               "official_description",
-              "full_transcript"
+              "full_transcript",
+              "transcript"
             ],
             "sufficient": true
           }
@@ -26029,7 +26033,7 @@
         "advertisingType": "conteudo_de_marca",
         "commercialIntent": "ausente",
         "advertisedEntity": {
-          "kind": "instituicao_de_saude",
+          "kind": "marca",
           "name": "Unimed Jundiaí",
           "confidence": "high"
         },
@@ -26155,7 +26159,8 @@
             ],
             "observedModalities": [
               "official_description",
-              "full_auto_transcript"
+              "full_auto_transcript",
+              "transcript"
             ],
             "sufficient": true
           },
@@ -26175,7 +26180,8 @@
               "transcript"
             ],
             "observedModalities": [
-              "full_auto_transcript"
+              "full_auto_transcript",
+              "transcript"
             ],
             "sufficient": true
           }
@@ -26304,7 +26310,7 @@
         "advertisingType": "oferta_direta",
         "commercialIntent": "explicita",
         "advertisedEntity": {
-          "kind": "produto_de_saude_nao_identificado",
+          "kind": "produto",
           "name": "mistura para pressão arterial apresentada no vídeo",
           "confidence": "medium"
         },
@@ -26440,7 +26446,8 @@
               "transcript"
             ],
             "observedModalities": [
-              "full_auto_transcript"
+              "full_auto_transcript",
+              "transcript"
             ],
             "sufficient": true
           },
@@ -26457,11 +26464,12 @@
           {
             "claim": "oferta, urgência e CTA comercial",
             "requiredModalities": [
-              "transcript_or_timestamped_summary"
+              "transcript"
             ],
             "observedModalities": [
               "full_auto_transcript",
-              "secondary_timestamped_summary"
+              "secondary_timestamped_summary",
+              "transcript"
             ],
             "sufficient": true
           }
@@ -26600,7 +26608,7 @@
         "advertisingType": "conteudo_de_marca",
         "commercialIntent": "explicita",
         "advertisedEntity": {
-          "kind": "software",
+          "kind": "servico",
           "name": "Shopbot",
           "confidence": "high"
         },
@@ -27125,7 +27133,8 @@
       "patternType": "prova",
       "caseLimitReferenceIds": [
         "obs-20260906-109"
-      ]
+      ],
+      "caseLimitCount": 1
     },
     {
       "id": "pat-20260823-003",
