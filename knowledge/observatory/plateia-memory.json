@@ -1,6 +1,6 @@
 {
   "protocol": "plateia-memory/1.0",
-  "updatedAt": "2026-09-05T11:12:15.000Z",
+  "updatedAt": "2026-09-06T11:40:05.000Z",
   "references": [
     {
       "id": "obs-20260823-001",
@@ -25375,6 +25375,1424 @@
         ],
         "causalClaimAllowed": false
       }
+    },
+    {
+      "id": "obs-20260906-106",
+      "title": "Estou com dor. Como saber se é grave? | Educação em Saúde",
+      "creator": "Einstein Hospital Israelita — Dra. Adriana Telles",
+      "creatorIdentity": "einstein-hospital-israelita-adriana-telles",
+      "sourceIdentity": "einstein-hospital-israelita",
+      "country": "BR",
+      "url": "https://www.youtube.com/watch?v=jT7xd1TuS-c",
+      "publishedAt": "2025-01-27",
+      "duration": "PT3M1S",
+      "createdAt": "2026-09-06T11:40:05.000Z",
+      "coverage": {
+        "level": "partial",
+        "accessible": [
+          "título",
+          "criador e médica identificados",
+          "descrição oficial integral",
+          "data exata",
+          "duração",
+          "visualizações",
+          "curtidas",
+          "tamanho atual do canal",
+          "transcrição automática integral",
+          "cinco grupos de dor",
+          "sinais de alerta diferenciados",
+          "ação de procurar avaliação urgente ou rápida conforme o risco"
+        ],
+        "missing": [
+          "imagem em movimento auditada",
+          "áudio ouvido",
+          "texto na tela",
+          "qualidade clínica além da cobertura pública",
+          "comentários",
+          "montagem",
+          "ritmo",
+          "retenção",
+          "baseline funcional contemporâneo",
+          "impressões e fontes de tráfego"
+        ]
+      },
+      "publicMetrics": {
+        "viewsObserved": "8.749",
+        "likesObserved": "111",
+        "subscriberCountObserved": "aprox. 473 mil",
+        "observedAt": "2026-09-06",
+        "sourceType": "youtube_public_page_and_public_auto_transcript",
+        "causality": "not_inferred"
+      },
+      "classification": {
+        "taxonomyVersion": "3.0",
+        "container": "youtube_video",
+        "materialFormat": "video_longo",
+        "presentationFormats": [
+          "camera_direta",
+          "comentario"
+        ],
+        "primaryFamily": "explicativo",
+        "secondaryFamilies": [
+          "autoridade_opiniao",
+          "educativo"
+        ],
+        "functionalMix": [
+          {
+            "family": "explicativo",
+            "percentage": 50
+          },
+          {
+            "family": "autoridade_opiniao",
+            "percentage": 30
+          },
+          {
+            "family": "educativo",
+            "percentage": 20
+          }
+        ],
+        "objectives": [
+          "educar",
+          "confianca",
+          "consciencia_problema"
+        ],
+        "advertisingType": "conteudo_de_marca",
+        "commercialIntent": "ausente",
+        "advertisedEntity": {
+          "kind": "instituicao_de_saude",
+          "name": "Einstein Hospital Israelita",
+          "confidence": "high"
+        },
+        "contentTopic": {
+          "label": "sinais de alerta em dores comuns",
+          "iabCode": null
+        },
+        "segment": "saúde",
+        "subsegment": "triagem de sintomas e urgência",
+        "probableAudience": "adultos buscando distinguir desconfortos comuns de sinais de alerta",
+        "awarenessStage": "consciente_problema",
+        "productionLevel": "intermediate",
+        "creatorScale": "business",
+        "replicability": "high",
+        "durationBand": "over_60s",
+        "pace": "unknown",
+        "mechanisms": [
+          "vigilancia",
+          "confianca",
+          "utilidade_pratica",
+          "alivio"
+        ],
+        "hookTypes": [
+          "pergunta",
+          "problema",
+          "autoridade"
+        ],
+        "narrativeElements": [
+          "problema",
+          "progressao",
+          "conclusao"
+        ],
+        "proofTypes": [
+          "especialista",
+          "autoridade_demonstrada",
+          "mecanismo_explicado"
+        ],
+        "ctaTypes": [
+          "outro_conteudo"
+        ],
+        "distributionContext": {
+          "organicPaid": "unknown",
+          "trendDependency": "unknown"
+        },
+        "confidence": "high",
+        "evidence": [
+          "A descrição identifica a médica e antecipa cinco dores.",
+          "A transcrição integral distingue situações comuns de sinais de alerta e associa cada grupo a uma ação de avaliação."
+        ],
+        "alternativeClassifications": [],
+        "missingInformation": [
+          "audiovisual",
+          "comentários",
+          "ritmo",
+          "retenção",
+          "baseline"
+        ],
+        "needsHumanReview": true
+      },
+      "comparison": {
+        "level": 1,
+        "group": "explicador institucional de saúde com risco concreto, autoridade identificável, linguagem diferenciada e ação específica",
+        "referenceIds": [
+          "obs-20260823-004",
+          "obs-20260824-032",
+          "obs-20260828-065"
+        ],
+        "confidence": "high"
+      },
+      "observations": [
+        "A pergunta cotidiana é convertida em cinco critérios de triagem.",
+        "A fala diferencia sinais de maior risco e encaminha para avaliação, sem prometer diagnóstico remoto."
+      ],
+      "interpretations": [
+        "A referência apoia a recorrência estrutural do padrão de clareza e confiança percebida.",
+        "Não mede compreensão, confiança, comportamento ou desfecho clínico."
+      ],
+      "scores": {
+        "gancho": 88,
+        "clareza": 94,
+        "relevancia": 94,
+        "desejo": 70,
+        "confianca": 92,
+        "retencao": "not_assessed",
+        "acao": 91,
+        "objecoes": 90
+      },
+      "fiveLenses": {
+        "apressado": "Entende a dúvida e recebe critérios de urgência.",
+        "analitico": "Encontra diferenciação de sintomas, mas não protocolo diagnóstico completo.",
+        "aspiracional": "Percebe possibilidade de agir cedo diante de sinais de alerta.",
+        "comunidade": "Não mensurado.",
+        "cetico": "Autoridade e limites estão observáveis; efeito comunicacional não foi medido."
+      },
+      "hypotheses": [],
+      "replicable": [
+        "Abrir com uma dúvida concreta e organizar sinais de alerta por situações.",
+        "Ligar cada sinal a uma ação proporcional, sem diagnosticar a distância."
+      ],
+      "limitations": [
+        "Conteúdo público educativo não substitui consulta ou emergência.",
+        "Sem auditoria audiovisual, comentários, baseline ou retenção."
+      ],
+      "provenance": [
+        "public_content",
+        "youtube_public_page",
+        "public_auto_transcript",
+        "public_metric",
+        "observatory_inference"
+      ],
+      "sourceEvidence": [
+        "https://www.youtube.com/watch?v=jT7xd1TuS-c"
+      ],
+      "training": {
+        "evidencePolicyVersion": "1.1",
+        "evidenceRole": "target_support",
+        "evidenceLevel": 1,
+        "requiredEvidenceObserved": true,
+        "supportEligible": true,
+        "claimCoverage": [
+          {
+            "claim": "pergunta ou risco concreto",
+            "requiredModalities": [
+              "title",
+              "official_description",
+              "transcript"
+            ],
+            "observedModalities": [
+              "title",
+              "official_description",
+              "full_auto_transcript"
+            ],
+            "sufficient": true
+          },
+          {
+            "claim": "autoridade identificável",
+            "requiredModalities": [
+              "official_description_or_transcript"
+            ],
+            "observedModalities": [
+              "official_description",
+              "full_auto_transcript"
+            ],
+            "sufficient": true
+          },
+          {
+            "claim": "linguagem proporcional e ação específica",
+            "requiredModalities": [
+              "transcript"
+            ],
+            "observedModalities": [
+              "full_auto_transcript"
+            ],
+            "sufficient": true
+          }
+        ],
+        "provenanceAndConsent": {
+          "storyOrigin": "not_applicable",
+          "consentStatus": "not_applicable",
+          "identityProtection": "not_applicable",
+          "evidence": [
+            "conteúdo institucional educativo"
+          ]
+        },
+        "replicable": [
+          "Dúvida concreta → diferenciação de risco → ação proporcional."
+        ],
+        "contingent": [
+          "revisão clínica",
+          "limites claros",
+          "orientação de urgência adequada"
+        ],
+        "notRecommended": [
+          "autodiagnóstico",
+          "substituir atendimento médico",
+          "atribuir confiança, retenção ou desempenho"
+        ],
+        "hypotheses": []
+      },
+      "viralAssessment": {
+        "status": "indeterminate",
+        "observedSignal": "8.749 visualizações, sem baseline funcional",
+        "missingForRelativeAssessment": [
+          "baseline funcional contemporâneo",
+          "retenção",
+          "impressões",
+          "fontes de tráfego"
+        ],
+        "confounders": [
+          "tamanho institucional do canal",
+          "idade do vídeo",
+          "tema",
+          "distribuição"
+        ],
+        "causalClaimAllowed": false
+      }
+    },
+    {
+      "id": "obs-20260906-107",
+      "title": "DIAGNÓSTICO PRECOCE SALVA VIDAS, você sabe quais são os sinais das IMUNODEFICIÊNCIAS PRIMÁRIAS?",
+      "creator": "Hospital Pequeno Príncipe — Dra. Carolina Prando",
+      "creatorIdentity": "hospital-pequeno-principe-carolina-prando",
+      "sourceIdentity": "hospital-pequeno-principe",
+      "country": "BR",
+      "url": "https://www.youtube.com/watch?v=AFnnkGGHd_E",
+      "publishedAt": "2022-04-28",
+      "duration": "PT3M20S",
+      "createdAt": "2026-09-06T11:40:05.000Z",
+      "coverage": {
+        "level": "partial",
+        "accessible": [
+          "título",
+          "criador, hospital e especialista identificados",
+          "descrição oficial integral",
+          "data exata",
+          "duração",
+          "visualizações",
+          "curtidas",
+          "tamanho atual do canal",
+          "transcrição pública integral",
+          "lista de dez sinais na descrição",
+          "limiar de dois ou mais sinais",
+          "ação de procurar imunologista",
+          "tratamentos contextualizados como dependentes do diagnóstico"
+        ],
+        "missing": [
+          "imagem em movimento auditada",
+          "áudio ouvido",
+          "texto na tela",
+          "revisão clínica externa",
+          "comentários",
+          "montagem",
+          "ritmo",
+          "retenção",
+          "baseline funcional contemporâneo",
+          "impressões e fontes de tráfego"
+        ],
+        "notes": [
+          "os timestamps exportados da transcrição apresentam deslocamento incompatível com a duração; o texto foi utilizado, não os tempos"
+        ]
+      },
+      "publicMetrics": {
+        "viewsObserved": "468",
+        "likesObserved": "14",
+        "subscriberCountObserved": "aprox. 23,9 mil",
+        "observedAt": "2026-09-06",
+        "sourceType": "youtube_public_page_and_public_transcript",
+        "causality": "not_inferred"
+      },
+      "classification": {
+        "taxonomyVersion": "3.0",
+        "container": "youtube_video",
+        "materialFormat": "video_longo",
+        "presentationFormats": [
+          "camera_direta",
+          "institucional"
+        ],
+        "primaryFamily": "autoridade_opiniao",
+        "secondaryFamilies": [
+          "explicativo",
+          "educativo"
+        ],
+        "functionalMix": [
+          {
+            "family": "autoridade_opiniao",
+            "percentage": 40
+          },
+          {
+            "family": "explicativo",
+            "percentage": 35
+          },
+          {
+            "family": "educativo",
+            "percentage": 25
+          }
+        ],
+        "objectives": [
+          "educar",
+          "consciencia_problema",
+          "confianca"
+        ],
+        "advertisingType": "conteudo_de_marca",
+        "commercialIntent": "ausente",
+        "advertisedEntity": {
+          "kind": "instituicao_de_saude",
+          "name": "Hospital Pequeno Príncipe",
+          "confidence": "high"
+        },
+        "contentTopic": {
+          "label": "sinais de alerta de imunodeficiências primárias",
+          "iabCode": null
+        },
+        "segment": "saúde",
+        "subsegment": "imunologia pediátrica",
+        "probableAudience": "familiares e profissionais atentos a infecções recorrentes em crianças e adolescentes",
+        "awarenessStage": "consciente_problema",
+        "productionLevel": "simple",
+        "creatorScale": "medium",
+        "replicability": "high",
+        "durationBand": "over_60s",
+        "pace": "unknown",
+        "mechanisms": [
+          "vigilancia",
+          "autoridade",
+          "confianca",
+          "utilidade_pratica"
+        ],
+        "hookTypes": [
+          "afirmacao_contraintuitiva",
+          "pergunta",
+          "autoridade"
+        ],
+        "narrativeElements": [
+          "problema",
+          "progressao",
+          "conclusao"
+        ],
+        "proofTypes": [
+          "especialista",
+          "autoridade_demonstrada",
+          "dado",
+          "mecanismo_explicado"
+        ],
+        "ctaTypes": [
+          "outro_conteudo"
+        ],
+        "distributionContext": {
+          "organicPaid": "unknown",
+          "trendDependency": "unknown"
+        },
+        "confidence": "high",
+        "evidence": [
+          "A descrição identifica hospital e imunologista pediátrica e lista dez sinais.",
+          "A transcrição explica variação de gravidade, diagnóstico e tratamento dependente do caso."
+        ],
+        "alternativeClassifications": [],
+        "missingInformation": [
+          "audiovisual",
+          "comentários",
+          "ritmo",
+          "retenção",
+          "baseline",
+          "revisão clínica externa"
+        ],
+        "needsHumanReview": true
+      },
+      "comparison": {
+        "level": 1,
+        "group": "explicador institucional de saúde com sinais operacionais, autoridade identificável e encaminhamento específico",
+        "referenceIds": [
+          "obs-20260823-005",
+          "obs-20260825-046",
+          "obs-20260906-106"
+        ],
+        "confidence": "high"
+      },
+      "observations": [
+        "A descrição transforma um risco raro em sinais enumerados e estabelece limiar para encaminhamento.",
+        "A transcrição evita tratamento único e condiciona opções à alteração diagnosticada."
+      ],
+      "interpretations": [
+        "A referência acrescenta fonte e autoridade independentes ao padrão.",
+        "Não demonstra se a lista melhora reconhecimento, confiança ou encaminhamento adequado."
+      ],
+      "scores": {
+        "gancho": 89,
+        "clareza": 94,
+        "relevancia": 91,
+        "desejo": 68,
+        "confianca": 92,
+        "retencao": "not_assessed",
+        "acao": 94,
+        "objecoes": 91
+      },
+      "fiveLenses": {
+        "apressado": "Recebe sinais e limiar de encaminhamento.",
+        "analitico": "Encontra critérios e variabilidade; pode exigir referências clínicas externas.",
+        "aspiracional": "Percebe benefício potencial do reconhecimento precoce.",
+        "comunidade": "Não mensurado.",
+        "cetico": "A autoridade é identificada e as promessas são condicionadas; o efeito não foi testado."
+      },
+      "hypotheses": [],
+      "replicable": [
+        "Converter condição ampla em sinais observáveis e um limiar claro de encaminhamento.",
+        "Vincular tratamentos ao diagnóstico específico, evitando solução universal."
+      ],
+      "limitations": [
+        "A lista não autoriza autodiagnóstico; avaliação especializada continua necessária.",
+        "Timestamp da transcrição está deslocado.",
+        "Sem audiovisual, comentários, baseline ou retenção."
+      ],
+      "provenance": [
+        "public_content",
+        "youtube_public_page",
+        "public_transcript",
+        "public_metric",
+        "observatory_inference"
+      ],
+      "sourceEvidence": [
+        "https://www.youtube.com/watch?v=AFnnkGGHd_E"
+      ],
+      "training": {
+        "evidencePolicyVersion": "1.1",
+        "evidenceRole": "target_support",
+        "evidenceLevel": 1,
+        "requiredEvidenceObserved": true,
+        "supportEligible": true,
+        "claimCoverage": [
+          {
+            "claim": "risco concreto e sinais observáveis",
+            "requiredModalities": [
+              "official_description",
+              "transcript"
+            ],
+            "observedModalities": [
+              "official_description",
+              "full_transcript"
+            ],
+            "sufficient": true
+          },
+          {
+            "claim": "autoridade identificável",
+            "requiredModalities": [
+              "official_description_or_transcript"
+            ],
+            "observedModalities": [
+              "official_description",
+              "full_transcript"
+            ],
+            "sufficient": true
+          },
+          {
+            "claim": "linguagem proporcional e ação específica",
+            "requiredModalities": [
+              "official_description",
+              "transcript"
+            ],
+            "observedModalities": [
+              "official_description",
+              "full_transcript"
+            ],
+            "sufficient": true
+          }
+        ],
+        "provenanceAndConsent": {
+          "storyOrigin": "not_applicable",
+          "consentStatus": "not_applicable",
+          "identityProtection": "not_applicable",
+          "evidence": [
+            "conteúdo institucional educativo"
+          ]
+        },
+        "replicable": [
+          "Risco → sinais enumerados → limiar → encaminhamento."
+        ],
+        "contingent": [
+          "revisão clínica",
+          "evitar alarmismo",
+          "não transformar sinais em diagnóstico"
+        ],
+        "notRecommended": [
+          "autodiagnóstico",
+          "prometer tratamento universal",
+          "atribuir causalidade comunicacional"
+        ],
+        "hypotheses": []
+      },
+      "viralAssessment": {
+        "status": "indeterminate",
+        "observedSignal": "468 visualizações, sem baseline funcional",
+        "missingForRelativeAssessment": [
+          "baseline funcional contemporâneo",
+          "retenção",
+          "impressões",
+          "fontes de tráfego"
+        ],
+        "confounders": [
+          "tamanho do canal",
+          "idade do vídeo",
+          "tema raro",
+          "distribuição"
+        ],
+        "causalClaimAllowed": false
+      }
+    },
+    {
+      "id": "obs-20260906-108",
+      "title": "Momento Saúde Unimed Jundiaí: Sinais de alerta de transtornos neurológicos na infância",
+      "creator": "Tribuna de Jundiaí / Momento Saúde Unimed — Dr. Paulo Junqueira",
+      "creatorIdentity": "tribuna-jundiai-paulo-junqueira",
+      "sourceIdentity": "tribuna-de-jundiai",
+      "country": "BR",
+      "url": "https://www.youtube.com/watch?v=h4G9AU8oDN4",
+      "publishedAt": "2020-12-07",
+      "duration": "PT3M27S",
+      "createdAt": "2026-09-06T11:40:05.000Z",
+      "coverage": {
+        "level": "partial",
+        "accessible": [
+          "título",
+          "canal e médico identificados",
+          "descrição oficial",
+          "data exata",
+          "duração",
+          "visualizações",
+          "curtidas",
+          "tamanho atual do canal",
+          "transcrição automática integral",
+          "marcos motores, de linguagem, concentração e aprendizagem",
+          "ação de avaliar e encaminhar precocemente",
+          "zero comentários declarado na página"
+        ],
+        "missing": [
+          "imagem em movimento auditada",
+          "áudio ouvido",
+          "texto na tela",
+          "precisão do nome na transcrição automática",
+          "revisão clínica externa",
+          "montagem",
+          "ritmo",
+          "retenção",
+          "baseline funcional contemporâneo",
+          "impressões e fontes de tráfego"
+        ]
+      },
+      "publicMetrics": {
+        "viewsObserved": "94",
+        "likesObserved": "2",
+        "subscriberCountObserved": "aprox. 15,1 mil",
+        "commentsObserved": "0 declarado",
+        "observedAt": "2026-09-06",
+        "sourceType": "youtube_public_page_and_public_auto_transcript",
+        "causality": "not_inferred"
+      },
+      "classification": {
+        "taxonomyVersion": "3.0",
+        "container": "youtube_video",
+        "materialFormat": "video_longo",
+        "presentationFormats": [
+          "camera_direta",
+          "institucional"
+        ],
+        "primaryFamily": "educativo",
+        "secondaryFamilies": [
+          "explicativo",
+          "autoridade_opiniao"
+        ],
+        "functionalMix": [
+          {
+            "family": "educativo",
+            "percentage": 45
+          },
+          {
+            "family": "explicativo",
+            "percentage": 35
+          },
+          {
+            "family": "autoridade_opiniao",
+            "percentage": 20
+          }
+        ],
+        "objectives": [
+          "educar",
+          "consciencia_problema",
+          "confianca"
+        ],
+        "advertisingType": "conteudo_de_marca",
+        "commercialIntent": "ausente",
+        "advertisedEntity": {
+          "kind": "instituicao_de_saude",
+          "name": "Unimed Jundiaí",
+          "confidence": "high"
+        },
+        "contentTopic": {
+          "label": "sinais de alerta neurológicos na infância",
+          "iabCode": null
+        },
+        "segment": "saúde",
+        "subsegment": "neuropediatria e desenvolvimento infantil",
+        "probableAudience": "familiares e cuidadores de crianças pequenas",
+        "awarenessStage": "consciente_problema",
+        "productionLevel": "simple",
+        "creatorScale": "small",
+        "replicability": "high",
+        "durationBand": "over_60s",
+        "pace": "unknown",
+        "mechanisms": [
+          "vigilancia",
+          "autoridade",
+          "utilidade_pratica",
+          "confianca"
+        ],
+        "hookTypes": [
+          "problema",
+          "autoridade"
+        ],
+        "narrativeElements": [
+          "problema",
+          "progressao",
+          "conclusao"
+        ],
+        "proofTypes": [
+          "especialista",
+          "autoridade_demonstrada",
+          "mecanismo_explicado"
+        ],
+        "ctaTypes": [],
+        "distributionContext": {
+          "organicPaid": "unknown",
+          "trendDependency": "unknown"
+        },
+        "confidence": "medium",
+        "evidence": [
+          "A descrição identifica o neuropediatra e o tema.",
+          "A transcrição automática percorre desenvolvimento motor, linguagem, concentração e aprendizagem antes de recomendar avaliação e encaminhamento."
+        ],
+        "alternativeClassifications": [],
+        "missingInformation": [
+          "audiovisual",
+          "precisão integral da transcrição",
+          "ritmo",
+          "retenção",
+          "baseline"
+        ],
+        "needsHumanReview": true
+      },
+      "comparison": {
+        "level": 2,
+        "group": "explicador de saúde infantil com risco concreto, especialista identificável e ação de avaliação",
+        "referenceIds": [
+          "obs-20260823-006",
+          "obs-20260906-107"
+        ],
+        "confidence": "medium"
+      },
+      "observations": [
+        "A fala organiza sinais por trajetória do desenvolvimento infantil.",
+        "A ação é encaminhamento precoce; não há diagnóstico remoto ou promessa de cura."
+      ],
+      "interpretations": [
+        "A referência fortalece a estrutura do padrão com uma terceira nova fonte.",
+        "Erros da transcrição automática e a ausência de limiar preciso reduzem a força em relação aos outros dois apoios."
+      ],
+      "scores": {
+        "gancho": 80,
+        "clareza": 84,
+        "relevancia": 90,
+        "desejo": 66,
+        "confianca": 86,
+        "retencao": "not_assessed",
+        "acao": 82,
+        "objecoes": 84
+      },
+      "fiveLenses": {
+        "apressado": "Reconhece o tema e alguns grupos de sinais.",
+        "analitico": "Recebe marcos gerais, mas não limiar diagnóstico.",
+        "aspiracional": "Entende a importância de agir cedo.",
+        "comunidade": "A página declara zero comentários.",
+        "cetico": "A especialidade é identificável; a transcrição automática contém imprecisões."
+      },
+      "hypotheses": [],
+      "replicable": [
+        "Organizar sinais pela sequência de desenvolvimento e fechar com avaliação profissional.",
+        "Explicitar que atraso observado é motivo de investigação, não diagnóstico."
+      ],
+      "limitations": [
+        "A transcrição automática renderiza o nome do médico de forma inconsistente.",
+        "Conteúdo não substitui avaliação neuropediátrica.",
+        "Sem audiovisual, baseline ou retenção."
+      ],
+      "provenance": [
+        "public_content",
+        "youtube_public_page",
+        "public_auto_transcript",
+        "public_metric",
+        "observatory_inference"
+      ],
+      "sourceEvidence": [
+        "https://www.youtube.com/watch?v=h4G9AU8oDN4"
+      ],
+      "training": {
+        "evidencePolicyVersion": "1.1",
+        "evidenceRole": "target_support",
+        "evidenceLevel": 2,
+        "requiredEvidenceObserved": true,
+        "supportEligible": true,
+        "claimCoverage": [
+          {
+            "claim": "sinais de alerta concretos",
+            "requiredModalities": [
+              "official_description",
+              "transcript"
+            ],
+            "observedModalities": [
+              "official_description",
+              "full_auto_transcript"
+            ],
+            "sufficient": true
+          },
+          {
+            "claim": "autoridade identificável",
+            "requiredModalities": [
+              "official_description"
+            ],
+            "observedModalities": [
+              "official_description"
+            ],
+            "sufficient": true
+          },
+          {
+            "claim": "linguagem proporcional e ação específica",
+            "requiredModalities": [
+              "transcript"
+            ],
+            "observedModalities": [
+              "full_auto_transcript"
+            ],
+            "sufficient": true
+          }
+        ],
+        "provenanceAndConsent": {
+          "storyOrigin": "not_applicable",
+          "consentStatus": "not_applicable",
+          "identityProtection": "not_applicable",
+          "evidence": [
+            "conteúdo institucional educativo"
+          ]
+        },
+        "replicable": [
+          "Trajetória esperada → sinais de desvio → avaliação e encaminhamento."
+        ],
+        "contingent": [
+          "revisão clínica",
+          "limites de triagem",
+          "não rotular crianças"
+        ],
+        "notRecommended": [
+          "autodiagnóstico",
+          "alarmismo",
+          "atribuir compreensão, retenção ou confiança"
+        ],
+        "hypotheses": []
+      },
+      "viralAssessment": {
+        "status": "indeterminate",
+        "observedSignal": "94 visualizações e zero comentários declarado, sem baseline funcional",
+        "missingForRelativeAssessment": [
+          "baseline funcional contemporâneo",
+          "retenção",
+          "impressões",
+          "fontes de tráfego"
+        ],
+        "confounders": [
+          "tamanho do canal",
+          "idade do vídeo",
+          "distribuição",
+          "tema"
+        ],
+        "causalClaimAllowed": false
+      }
+    },
+    {
+      "id": "obs-20260906-109",
+      "title": "original",
+      "creator": "não identificável na cobertura pública",
+      "creatorIdentity": "unknown-e5zgg47ezr8",
+      "sourceIdentity": "unknown-e5zgg47ezr8",
+      "country": "unknown",
+      "url": "https://www.youtube.com/watch?v=E5ZgG47EZR8",
+      "publishedAt": "2023-09-17",
+      "duration": "PT36M29S",
+      "createdAt": "2026-09-06T11:40:05.000Z",
+      "coverage": {
+        "level": "partial",
+        "accessible": [
+          "título público genérico",
+          "data exata",
+          "duração",
+          "transcrição automática integral",
+          "narrador-personagem nomeado sem identidade verificável",
+          "alegações médicas absolutas",
+          "enquadramento conspiratório contra tratamento",
+          "mecanismo e autoridade não rastreáveis",
+          "oferta comercial, urgência e garantia descritas em resumo público com timestamps"
+        ],
+        "missing": [
+          "criador e canal identificáveis",
+          "descrição oficial específica",
+          "imagem em movimento auditada",
+          "áudio ouvido",
+          "texto na tela",
+          "fontes médicas rastreáveis",
+          "prova clínica",
+          "métricas públicas interpretáveis",
+          "comentários",
+          "montagem",
+          "ritmo",
+          "retenção",
+          "baseline funcional contemporâneo"
+        ]
+      },
+      "publicMetrics": {
+        "viewsObserved": "not_measured",
+        "likesObserved": "not_measured",
+        "subscriberCountObserved": "not_measured",
+        "observedAt": "2026-09-06",
+        "sourceType": "youtube_public_page_public_auto_transcript_and_secondary_timestamped_summary",
+        "causality": "not_inferred"
+      },
+      "classification": {
+        "taxonomyVersion": "3.0",
+        "container": "youtube_video",
+        "materialFormat": "video_longo",
+        "presentationFormats": [
+          "narracao_imagens",
+          "depoimento"
+        ],
+        "primaryFamily": "oferta_direta",
+        "secondaryFamilies": [
+          "storytelling",
+          "autoridade_opiniao"
+        ],
+        "functionalMix": [
+          {
+            "family": "oferta_direta",
+            "percentage": 55
+          },
+          {
+            "family": "storytelling",
+            "percentage": 30
+          },
+          {
+            "family": "autoridade_opiniao",
+            "percentage": 15
+          }
+        ],
+        "objectives": [
+          "venda",
+          "consciencia_problema",
+          "trafego"
+        ],
+        "advertisingType": "oferta_direta",
+        "commercialIntent": "explicita",
+        "advertisedEntity": {
+          "kind": "produto_de_saude_nao_identificado",
+          "name": "mistura para pressão arterial apresentada no vídeo",
+          "confidence": "medium"
+        },
+        "contentTopic": {
+          "label": "oferta de saúde com promessas absolutas sobre hipertensão",
+          "iabCode": null
+        },
+        "segment": "saúde e vendas",
+        "subsegment": "oferta direta de suposta solução para pressão arterial",
+        "probableAudience": "adultos preocupados com hipertensão e efeitos de medicamentos",
+        "awarenessStage": "consciente_problema",
+        "productionLevel": "unknown",
+        "creatorScale": "unknown",
+        "replicability": "high",
+        "durationBand": "over_60s",
+        "pace": "unknown",
+        "mechanisms": [
+          "medo",
+          "aversao_perda",
+          "autoridade",
+          "urgencia",
+          "desejo"
+        ],
+        "hookTypes": [
+          "novidade",
+          "autoridade",
+          "problema",
+          "promessa",
+          "urgencia"
+        ],
+        "narrativeElements": [
+          "situacao",
+          "problema",
+          "conflito",
+          "virada",
+          "conclusao"
+        ],
+        "proofTypes": [
+          "alegacao_sem_prova",
+          "autoridade_percebida",
+          "depoimento",
+          "ausencia_prova_necessaria"
+        ],
+        "ctaTypes": [
+          "comprar",
+          "clicar"
+        ],
+        "distributionContext": {
+          "organicPaid": "unknown",
+          "trendDependency": "unknown"
+        },
+        "confidence": "high",
+        "evidence": [
+          "A transcrição integral usa promessas amplas e linguagem absoluta, desacredita tratamentos e apresenta autoridade sem identificação verificável.",
+          "O resumo público com timestamps registra oferta, urgência e garantia."
+        ],
+        "alternativeClassifications": [],
+        "missingInformation": [
+          "identidade do criador",
+          "autoridade rastreável",
+          "fontes médicas",
+          "prova clínica",
+          "métricas",
+          "audiovisual",
+          "comentários",
+          "retenção"
+        ],
+        "needsHumanReview": true
+      },
+      "comparison": {
+        "level": 2,
+        "group": "caso-limite em saúde: risco concreto e aparência de autoridade sem proporcionalidade, rastreabilidade ou segurança",
+        "referenceIds": [
+          "obs-20260823-004",
+          "obs-20260825-046",
+          "obs-20260906-106"
+        ],
+        "confidence": "high"
+      },
+      "observations": [
+        "O conteúdo imita elementos superficiais do padrão — risco, autoridade e ação —, mas a autoridade não é rastreável e a linguagem é absoluta.",
+        "A ação culmina em oferta comercial e inclui desencorajamento implícito de tratamento médico."
+      ],
+      "interpretations": [
+        "É caso-limite, não apoio e não contraexemplo causal: não há medida pública de confiança ou comportamento.",
+        "O limite do padrão exige autoridade verificável, proporcionalidade e ação segura; aparência de autoridade não basta."
+      ],
+      "scores": {
+        "gancho": 91,
+        "clareza": 72,
+        "relevancia": 88,
+        "desejo": 86,
+        "confianca": 18,
+        "retencao": "not_assessed",
+        "acao": 90,
+        "objecoes": 24
+      },
+      "fiveLenses": {
+        "apressado": "Recebe promessa simples e urgente, sem base verificável.",
+        "analitico": "Não encontra autoridade, fontes ou método rastreáveis.",
+        "aspiracional": "É exposto a promessa ampla de controle rápido.",
+        "comunidade": "Não mensurado.",
+        "cetico": "Linguagem absoluta, conspiração e pressão comercial elevam risco de engano."
+      },
+      "hypotheses": [],
+      "replicable": [],
+      "limitations": [
+        "Não ensina alegações médicas, tratamento ou mistura.",
+        "Não comprova desinformação clínica item a item; registra somente a forma de alegar e a falta de rastreabilidade observável.",
+        "Não é contraexemplo porque confiança, comportamento e desfechos não foram medidos."
+      ],
+      "provenance": [
+        "public_content",
+        "youtube_public_page",
+        "public_auto_transcript",
+        "secondary_timestamped_summary",
+        "observatory_inference"
+      ],
+      "sourceEvidence": [
+        "https://www.youtube.com/watch?v=E5ZgG47EZR8",
+        "https://videohighlight.com/v/E5ZgG47EZR8?language=pt"
+      ],
+      "training": {
+        "evidencePolicyVersion": "1.1",
+        "evidenceRole": "falsification_or_boundary",
+        "evidenceLevel": 2,
+        "requiredEvidenceObserved": true,
+        "supportEligible": false,
+        "claimCoverage": [
+          {
+            "claim": "linguagem absoluta e promessa ampla em saúde",
+            "requiredModalities": [
+              "transcript"
+            ],
+            "observedModalities": [
+              "full_auto_transcript"
+            ],
+            "sufficient": true
+          },
+          {
+            "claim": "autoridade verificável e evidência proporcional",
+            "requiredModalities": [
+              "official_source",
+              "traceable_authority",
+              "medical_evidence"
+            ],
+            "observedModalities": [],
+            "sufficient": false
+          },
+          {
+            "claim": "oferta, urgência e CTA comercial",
+            "requiredModalities": [
+              "transcript_or_timestamped_summary"
+            ],
+            "observedModalities": [
+              "full_auto_transcript",
+              "secondary_timestamped_summary"
+            ],
+            "sufficient": true
+          }
+        ],
+        "provenanceAndConsent": {
+          "storyOrigin": "first_person_testimonial_claim",
+          "consentStatus": "not_verifiable",
+          "identityProtection": "full_name_claimed_but_identity_unverified",
+          "evidence": [
+            "o narrador-personagem fornece nome e cidade, mas a identidade não é verificável na cobertura"
+          ]
+        },
+        "replicable": [],
+        "contingent": [
+          "autoridade rastreável",
+          "evidência médica proporcional",
+          "ação segura",
+          "disclosure comercial"
+        ],
+        "notRecommended": [
+          "promessas médicas absolutas",
+          "desencorajar tratamento",
+          "fabricar autoridade",
+          "usar medo para pressionar compra",
+          "copiar oferta ou relato"
+        ],
+        "hypotheses": []
+      },
+      "viralAssessment": {
+        "status": "indeterminate",
+        "observedSignal": "métricas públicas não mensuradas",
+        "missingForRelativeAssessment": [
+          "baseline funcional contemporâneo",
+          "retenção",
+          "impressões",
+          "fontes de tráfego"
+        ],
+        "confounders": [
+          "identidade do canal",
+          "mídia paga",
+          "distribuição",
+          "oferta comercial",
+          "idade do vídeo"
+        ],
+        "causalClaimAllowed": false
+      }
+    },
+    {
+      "id": "obs-20260906-110",
+      "title": "Case de Agente de IA para E-commerce [Chico Rei + Shopbot]",
+      "creator": "Leadster",
+      "creatorIdentity": "leadster",
+      "sourceIdentity": "leadster",
+      "country": "BR",
+      "url": "https://www.youtube.com/watch?v=MJcvGy-W3hw",
+      "publishedAt": "2026-03-19",
+      "duration": "PT8M58S",
+      "createdAt": "2026-09-06T11:40:05.000Z",
+      "coverage": {
+        "level": "partial",
+        "accessible": [
+          "título",
+          "criador",
+          "descrição oficial integral",
+          "data exata",
+          "duração",
+          "visualizações",
+          "curtidas",
+          "tamanho atual do canal",
+          "cliente e gestora identificados na descrição",
+          "estado anterior",
+          "intervenção",
+          "resultados percentuais declarados",
+          "CTA e link comercial"
+        ],
+        "missing": [
+          "vídeo integral auditável",
+          "imagem em movimento",
+          "áudio ouvido",
+          "transcrição",
+          "legendas exportáveis",
+          "texto na tela",
+          "voz do cliente efetivamente ouvida",
+          "baseline numérico prévio",
+          "período exato de cálculo",
+          "método de cálculo",
+          "fonte de tráfego",
+          "comentários",
+          "montagem",
+          "ritmo",
+          "retenção",
+          "auditoria independente"
+        ]
+      },
+      "publicMetrics": {
+        "viewsObserved": "133",
+        "likesObserved": "20",
+        "subscriberCountObserved": "aprox. 1,98 mil",
+        "observedAt": "2026-09-06",
+        "sourceType": "youtube_public_page_and_official_description",
+        "causality": "not_inferred"
+      },
+      "classification": {
+        "taxonomyVersion": "3.0",
+        "container": "youtube_video",
+        "materialFormat": "video_longo",
+        "presentationFormats": [
+          "estudo_caso",
+          "depoimento",
+          "produto"
+        ],
+        "primaryFamily": "prova_estudo_caso",
+        "secondaryFamilies": [
+          "depoimento",
+          "oferta_direta"
+        ],
+        "functionalMix": [
+          {
+            "family": "prova_estudo_caso",
+            "percentage": 55
+          },
+          {
+            "family": "depoimento",
+            "percentage": 25
+          },
+          {
+            "family": "oferta_direta",
+            "percentage": 20
+          }
+        ],
+        "objectives": [
+          "confianca",
+          "apresentar_solucao",
+          "lead"
+        ],
+        "advertisingType": "conteudo_de_marca",
+        "commercialIntent": "explicita",
+        "advertisedEntity": {
+          "kind": "software",
+          "name": "Shopbot",
+          "confidence": "high"
+        },
+        "contentTopic": {
+          "label": "agente de IA para atendimento em e-commerce",
+          "iabCode": null
+        },
+        "segment": "tecnologia e marketing",
+        "subsegment": "automação comercial para e-commerce",
+        "probableAudience": "gestores de e-commerce e experiência do cliente",
+        "awarenessStage": "consciente_solucao",
+        "productionLevel": "intermediate",
+        "creatorScale": "small",
+        "replicability": "high",
+        "durationBand": "over_60s",
+        "pace": "unknown",
+        "mechanisms": [
+          "autoridade",
+          "confianca",
+          "contraste",
+          "desejo"
+        ],
+        "hookTypes": [
+          "resultado_antecipado",
+          "numero",
+          "autoridade"
+        ],
+        "narrativeElements": [
+          "situacao",
+          "problema",
+          "mecanismo",
+          "virada",
+          "conclusao"
+        ],
+        "proofTypes": [
+          "depoimento",
+          "dado",
+          "autoridade_demonstrada",
+          "ausencia_prova_necessaria"
+        ],
+        "ctaTypes": [
+          "clicar",
+          "cadastrar"
+        ],
+        "distributionContext": {
+          "organicPaid": "unknown",
+          "trendDependency": "unknown"
+        },
+        "confidence": "medium",
+        "evidence": [
+          "A descrição identifica Chico Rei e a gestora, descreve problemas anteriores e a adoção do Shopbot.",
+          "Resultados percentuais são declarados, mas não há baseline, período exato ou cálculo acessíveis."
+        ],
+        "alternativeClassifications": [],
+        "missingInformation": [
+          "transcrição",
+          "voz do cliente",
+          "baseline",
+          "período",
+          "método de cálculo",
+          "audiovisual",
+          "comentários",
+          "retenção",
+          "auditoria independente"
+        ],
+        "needsHumanReview": true
+      },
+      "comparison": {
+        "level": 3,
+        "group": "exploração controlada: estudo de caso B2B com estado anterior, intervenção e resultados declarados sem método acessível",
+        "referenceIds": [
+          "obs-20260830-066",
+          "obs-20260831-071",
+          "obs-20260831-072"
+        ],
+        "confidence": "medium"
+      },
+      "observations": [
+        "A descrição organiza estado anterior, tentativa inicial frustrada, nova intervenção e resultados declarados.",
+        "Os percentuais não incluem método, baseline ou período suficientemente observáveis."
+      ],
+      "interpretations": [
+        "A referência explora aplicação comercial fora da família-alvo e não cria hipótese.",
+        "A estrutura é comparável a provas comerciais, mas a cobertura não autoriza apoio adicional nem causalidade."
+      ],
+      "scores": {
+        "gancho": 88,
+        "clareza": 89,
+        "relevancia": 91,
+        "desejo": 88,
+        "confianca": "not_assessed",
+        "retencao": "not_assessed",
+        "acao": 86,
+        "objecoes": 72
+      },
+      "fiveLenses": {
+        "apressado": "Recebe dois resultados percentuais e as marcas envolvidas.",
+        "analitico": "Sente falta de baseline, período e cálculo.",
+        "aspiracional": "Visualiza atendimento contínuo e conversão maior.",
+        "comunidade": "Não mensurado.",
+        "cetico": "A descrição vem do fornecedor e não foi auditada independentemente."
+      },
+      "hypotheses": [],
+      "replicable": [
+        "Organizar prova comercial em estado anterior, tentativa falha, intervenção e resultado declarado.",
+        "Identificar cliente e responsável antes do CTA."
+      ],
+      "limitations": [
+        "Exploração fora da família-alvo; não fortalece padrão nesta rodada.",
+        "Descrição do fornecedor não prova causalidade nem resultado.",
+        "Sem transcrição, voz do cliente, cálculo, baseline ou auditoria independente."
+      ],
+      "provenance": [
+        "public_content",
+        "youtube_public_page",
+        "official_description",
+        "public_metric",
+        "observatory_inference"
+      ],
+      "sourceEvidence": [
+        "https://www.youtube.com/watch?v=MJcvGy-W3hw"
+      ],
+      "training": {
+        "evidencePolicyVersion": "1.1",
+        "evidenceRole": "controlled_exploration",
+        "evidenceLevel": 3,
+        "requiredEvidenceObserved": false,
+        "supportEligible": false,
+        "claimCoverage": [
+          {
+            "claim": "estado anterior, intervenção e resultados declarados",
+            "requiredModalities": [
+              "official_description"
+            ],
+            "observedModalities": [
+              "official_description"
+            ],
+            "sufficient": true
+          },
+          {
+            "claim": "voz identificável do cliente e método de cálculo",
+            "requiredModalities": [
+              "video_or_transcript",
+              "baseline",
+              "measurement_method"
+            ],
+            "observedModalities": [],
+            "sufficient": false
+          }
+        ],
+        "provenanceAndConsent": {
+          "storyOrigin": "client_case_claim",
+          "consentStatus": "implied_by_official_publication_not_independently_verified",
+          "identityProtection": "client_and_manager_named",
+          "evidence": [
+            "descrição oficial nomeia empresa e gerente"
+          ]
+        },
+        "replicable": [
+          "Estado anterior → tentativa frustrada → intervenção → resultado declarado → CTA."
+        ],
+        "contingent": [
+          "consentimento do cliente",
+          "método de cálculo",
+          "baseline e período",
+          "auditoria"
+        ],
+        "notRecommended": [
+          "tratar percentual como causalidade",
+          "inventar fala do cliente",
+          "atribuir retenção ou viralidade"
+        ],
+        "hypotheses": []
+      },
+      "viralAssessment": {
+        "status": "indeterminate",
+        "observedSignal": "133 visualizações, sem baseline funcional",
+        "missingForRelativeAssessment": [
+          "baseline funcional contemporâneo",
+          "retenção",
+          "impressões",
+          "fontes de tráfego"
+        ],
+        "confounders": [
+          "tamanho do canal",
+          "data recente",
+          "nicho B2B",
+          "distribuição",
+          "interesse comercial"
+        ],
+        "causalClaimAllowed": false
+      }
     }
   ],
   "patterns": [
@@ -25583,8 +27001,9 @@
       "conditions": [
         "conteúdo de saúde",
         "objetivo educativo ou conscientização",
-        "fonte ou autoridade demonstrada",
-        "ausência de promessa médica absoluta"
+        "autoridade identificável e rastreável",
+        "linguagem proporcional à evidência, sem promessa médica absoluta",
+        "ação específica e segura que não substitui atendimento"
       ],
       "supportReferenceIds": [
         "obs-20260823-004",
@@ -25593,16 +27012,20 @@
         "obs-20260824-020",
         "obs-20260824-032",
         "obs-20260825-046",
-        "obs-20260828-065"
+        "obs-20260828-065",
+        "obs-20260906-106",
+        "obs-20260906-107",
+        "obs-20260906-108"
       ],
-      "comparableSupportCount": 7,
+      "comparableSupportCount": 10,
       "comparisonLevel": 2,
       "confidence": "medium",
       "limitations": [
-        "Predomínio do mesmo ecossistema editorial e da mesma autoridade médica.",
-        "Sem experimento de confiança, compreensão ou comportamento.",
-        "Parcerias comerciais podem alterar percepção e exigem disclosure.",
-        "Variação de duração e apresentação não demonstra equivalência de retenção."
+        "A recorrência estrutural agora reúne dez apoios de cinco criadores e cinco fontes, mas não mede confiança, compreensão ou comportamento.",
+        "Nenhuma referência oferece experimento causal ou retenção.",
+        "Parcerias e conteúdo institucional podem alterar percepção e exigem disclosure.",
+        "O caso-limite mostra que aparência de autoridade não basta; autoridade verificável, proporcionalidade e ação segura são condições necessárias.",
+        "Variação de duração e apresentação não demonstra equivalência de efeito."
       ],
       "validation": "requires_human_or_experimental_evidence",
       "stage": "provisional",
@@ -25610,7 +27033,7 @@
       "creativeFamily": "conteúdo de saúde",
       "objective": "objetivo educativo ou conscientização",
       "segment": "fonte ou autoridade demonstrada",
-      "supportingCount": 7,
+      "supportingCount": 10,
       "counterexampleCount": 0,
       "evidence": [
         {
@@ -25662,12 +27085,47 @@
           "limitations": [
             "Sem transcrição, referências científicas específicas, métricas ou retenção."
           ]
+        },
+        {
+          "referenceId": "obs-20260906-106",
+          "observation": "Pergunta cotidiana, médica identificada, riscos diferenciados e ações proporcionais em transcrição integral.",
+          "evidence": "Título, descrição oficial, métricas e transcrição automática integral.",
+          "limitations": [
+            "Sem audiovisual auditado, comentários, baseline ou resultado comportamental."
+          ]
+        },
+        {
+          "referenceId": "obs-20260906-107",
+          "observation": "Sinais enumerados, especialista identificada, limiar de encaminhamento e tratamento condicionado ao diagnóstico.",
+          "evidence": "Descrição oficial e transcrição pública integral.",
+          "limitations": [
+            "Timestamp da transcrição inconsistente; sem audiovisual, baseline ou resultado comportamental."
+          ]
+        },
+        {
+          "referenceId": "obs-20260906-108",
+          "observation": "Trajetória de desenvolvimento, neuropediatra identificável e encaminhamento precoce sem diagnóstico remoto.",
+          "evidence": "Descrição oficial, transcrição automática integral e zero comentários declarado.",
+          "limitations": [
+            "ASR impreciso; sem audiovisual, baseline ou resultado comportamental."
+          ]
+        },
+        {
+          "referenceId": "obs-20260906-109",
+          "observation": "Caso-limite: imita risco, autoridade e ação, mas usa autoridade não rastreável, certeza absoluta e pressão comercial.",
+          "evidence": "Transcrição automática integral e resumo público com timestamps.",
+          "limitations": [
+            "Não mede confiança ou comportamento; não é contraexemplo causal."
+          ]
         }
       ],
       "taxonomyVersion": "3.0",
-      "creatorDiversityCount": 2,
-      "sourceDiversityCount": 2,
-      "patternType": "prova"
+      "creatorDiversityCount": 5,
+      "sourceDiversityCount": 5,
+      "patternType": "prova",
+      "caseLimitReferenceIds": [
+        "obs-20260906-109"
+      ]
     },
     {
       "id": "pat-20260823-003",
@@ -28296,6 +29754,116 @@
         "Quatro referências dependem principalmente de metadados, descrições ou resumos secundários.",
         "Apenas uma amostra parcial de comentários ficou acessível.",
         "Nenhum baseline funcional contemporâneo ficou acessível.",
+        "Nenhum resultado autoriza causalidade ou validação."
+      ]
+    },
+    {
+      "id": "run-20260906-supervised-018",
+      "executedAt": "2026-09-06T11:40:05.000Z",
+      "batchPolicyVersion": "1.1",
+      "requestedBatchSize": 5,
+      "candidatesFound": 40,
+      "referenceIds": [
+        "obs-20260906-106",
+        "obs-20260906-107",
+        "obs-20260906-108",
+        "obs-20260906-109",
+        "obs-20260906-110"
+      ],
+      "targetKnowledgeId": "pat-20260823-002",
+      "targetReferenceIds": [
+        "obs-20260906-106",
+        "obs-20260906-107",
+        "obs-20260906-108"
+      ],
+      "falsificationOrBoundaryReferenceIds": [
+        "obs-20260906-109"
+      ],
+      "controlledExplorationReferenceIds": [
+        "obs-20260906-110"
+      ],
+      "discarded": [
+        {
+          "url": "https://www.youtube.com/watch?v=OCUnomJXneM",
+          "reason": "candidato institucional de saúde sem transcrição integral tão útil quanto os três selecionados"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=m6FdFYL_qWk",
+          "reason": "título sobre dor no peito encontrado, mas cobertura comparativa menor"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=HGjS_7HbSBE",
+          "reason": "sinais de AVC comparáveis, mas seleção priorizou três fontes novas com transcrição integral"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=U1oeRda7AUw",
+          "reason": "conteúdo de saúde mental sem cobertura suficiente para auditar proporcionalidade e ação"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=FAbyJuMmUtQ",
+          "reason": "conteúdo de saúde potencialmente comparável, preterido por falta de transcrição integral acessível"
+        }
+      ],
+      "analyzed": 5,
+      "brazilianReferences": 4,
+      "internationalReferences": 0,
+      "unknownOriginReferences": 1,
+      "smallOrMediumCreatorReferences": 3,
+      "coverageSummary": {
+        "complete": 0,
+        "partial": 5,
+        "insufficient": 0
+      },
+      "audiovisualAcquisition": {
+        "attempted": true,
+        "succeeded": 0,
+        "failure": "nenhuma referência permitiu auditoria audiovisual integral; quatro forneceram transcrição pública integral e uma apenas descrição oficial",
+        "effect": "cenas, áudio ouvido, texto na tela, cortes, montagem, ritmo e retenção ficaram não mensurados"
+      },
+      "commentsCoverage": {
+        "fullOrDeclaredZero": 1,
+        "partialSample": 0
+      },
+      "baselineCoverage": {
+        "sampledProfiles": 0,
+        "contemporaneousBaselines": 0,
+        "limitation": "contagens públicas foram observadas em quatro páginas, mas nenhum baseline funcional contemporâneo ficou acessível"
+      },
+      "patternsCreated": [],
+      "patternsStrengthened": [
+        "pat-20260823-002"
+      ],
+      "patternsRefined": [
+        "pat-20260823-002"
+      ],
+      "hypothesesCreated": [],
+      "hypothesesStrengthened": [],
+      "validatedPatternsCreated": 0,
+      "contradictionsFound": [],
+      "caseLimitsFound": [
+        "aparência de autoridade, risco e ação não sustenta o padrão quando a autoridade não é rastreável, a linguagem é absoluta e a ação comercial pode afastar tratamento"
+      ],
+      "safetyFindings": [
+        "conteúdo de saúde educativo não substitui avaliação clínica ou emergência",
+        "alegações médicas absolutas e desencorajamento de tratamento não devem ser replicados",
+        "sinais de desenvolvimento não devem virar rótulo ou autodiagnóstico"
+      ],
+      "evidenceGateSummary": {
+        "targetSupportsEligible": 3,
+        "targetSupportsRejected": 0,
+        "boundaryCases": 1,
+        "explorationReferences": 1,
+        "duplicateUrls": 0,
+        "independentCreatorsAddedToPattern": 3,
+        "newHypotheses": 0
+      },
+      "outcome": "Três apoios com transcrição integral ampliaram o padrão de saúde de sete para dez referências e de duas para cinco fontes independentes. Um caso-limite separou autoridade verificável de aparência de autoridade. Nenhuma hipótese nova, validação causal ou padrão novo foi criado.",
+      "nextTarget": "explicador brasileiro curto de saúde, de pequeno criador, com audiovisual integral, comentários e baseline; incluir caso funcionalmente comparável com correção pública, teste de compreensão ou evidência de confiança para buscar um contraexemplo genuíno",
+      "limitations": [
+        "Nenhuma mídia audiovisual integral foi auditada.",
+        "Uma referência comercial de saúde teve criador e métricas não identificáveis.",
+        "Uma transcrição automática apresentou timestamps deslocados e outra imprecisões de ASR.",
+        "Somente uma página declarou contagem de comentários e nenhum baseline contemporâneo ficou acessível.",
         "Nenhum resultado autoriza causalidade ou validação."
       ]
     }
