@@ -27924,8 +27924,7 @@
         "container": "youtube_video",
         "materialFormat": "video_longo",
         "presentationFormats": [
-          "comentario",
-          "outro"
+          "comentario"
         ],
         "primaryFamily": "comparacao",
         "secondaryFamilies": [
