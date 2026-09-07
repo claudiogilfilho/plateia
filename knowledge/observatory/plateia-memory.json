@@ -27924,8 +27924,8 @@
         "container": "youtube_video",
         "materialFormat": "video_longo",
         "presentationFormats": [
-          "comparacao",
-          "comentario"
+          "comentario",
+          "outro"
         ],
         "primaryFamily": "comparacao",
         "secondaryFamilies": [
@@ -27978,7 +27978,7 @@
         ],
         "hookTypes": [
           "pergunta",
-          "comparacao"
+          "promessa"
         ],
         "narrativeElements": [
           "promessa"
