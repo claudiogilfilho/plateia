@@ -1,6 +1,6 @@
 {
   "protocol": "plateia-memory/1.0",
-  "updatedAt": "2026-09-06T11:40:05.000Z",
+  "updatedAt": "2026-09-07T11:15:52.000Z",
   "references": [
     {
       "id": "obs-20260823-001",
@@ -26801,6 +26801,1337 @@
         ],
         "causalClaimAllowed": false
       }
+    },
+    {
+      "id": "obs-20260907-111",
+      "title": "Crie um Efeito Máscara de Respingo no Canva Que Parece Feito no Photoshop 🎨",
+      "creator": "Visualmodo",
+      "creatorIdentity": "visualmodo",
+      "sourceIdentity": "visualmodo",
+      "country": "BR",
+      "url": "https://www.youtube.com/shorts/iZDtOUEOdmI",
+      "publishedAt": "2026-06-30",
+      "duration": "PT1M52S",
+      "createdAt": "2026-09-07T11:15:52.000Z",
+      "coverage": {
+        "level": "partial",
+        "accessible": [
+          "título",
+          "criador",
+          "descrição oficial integral",
+          "capa indexada",
+          "data exata",
+          "duração",
+          "visualizações",
+          "curtidas",
+          "tamanho atual do canal",
+          "transcrição automática integral",
+          "busca do elemento",
+          "download e reenvio em PNG",
+          "uso do app Blend Image",
+          "ajustes declarados",
+          "CTA falado"
+        ],
+        "missing": [
+          "vídeo integral auditado quadro a quadro",
+          "imagem em movimento efetivamente analisada",
+          "áudio ouvido",
+          "texto na tela",
+          "edição",
+          "ritmo",
+          "retenção",
+          "comentários",
+          "baseline funcional contemporâneo",
+          "impressões e fontes de tráfego"
+        ]
+      },
+      "publicMetrics": {
+        "viewsObserved": "490",
+        "likesObserved": "4",
+        "subscriberCountObserved": "aprox. 54,4 mil",
+        "observedAt": "2026-09-07",
+        "sourceType": "youtube_public_page_and_public_auto_transcript",
+        "causality": "not_inferred"
+      },
+      "classification": {
+        "taxonomyVersion": "3.0",
+        "container": "youtube_short",
+        "materialFormat": "video_curto",
+        "presentationFormats": [
+          "tutorial",
+          "tela_gravada",
+          "demonstracao"
+        ],
+        "primaryFamily": "demonstracao",
+        "secondaryFamilies": [
+          "educativo",
+          "explicativo"
+        ],
+        "functionalMix": [
+          {
+            "family": "demonstracao",
+            "percentage": 45
+          },
+          {
+            "family": "educativo",
+            "percentage": 35
+          },
+          {
+            "family": "explicativo",
+            "percentage": 20
+          }
+        ],
+        "objectives": [
+          "educar",
+          "salvamento",
+          "autoridade"
+        ],
+        "advertisingType": "editorial_organico",
+        "commercialIntent": "ausente",
+        "advertisedEntity": {
+          "kind": "marca",
+          "name": "Canva",
+          "confidence": "high"
+        },
+        "contentTopic": {
+          "label": "efeito máscara de respingo no Canva",
+          "iabCode": null
+        },
+        "segment": "design e criação de conteúdo",
+        "subsegment": "efeitos de imagem no Canva",
+        "probableAudience": "criadores e pequenos negócios que usam Canva",
+        "awarenessStage": "consciente_solucao",
+        "productionLevel": "simple",
+        "creatorScale": "medium",
+        "replicability": "high",
+        "durationBand": "over_60s",
+        "pace": "unknown",
+        "mechanisms": [
+          "recompensa",
+          "curiosidade",
+          "utilidade_pratica",
+          "desejo"
+        ],
+        "hookTypes": [
+          "promessa",
+          "transformacao",
+          "resultado_antecipado"
+        ],
+        "narrativeElements": [
+          "promessa",
+          "mecanismo",
+          "progressao",
+          "payoff",
+          "cta"
+        ],
+        "proofTypes": [
+          "mecanismo_explicado",
+          "demonstracao"
+        ],
+        "ctaTypes": [
+          "comentar",
+          "compartilhar"
+        ],
+        "distributionContext": {
+          "organicPaid": "unknown",
+          "trendDependency": "unknown"
+        },
+        "confidence": "high",
+        "evidence": [
+          "O título nomeia Canva e o efeito máscara de respingo.",
+          "A transcrição integral fornece busca, preparação, combinação de camadas e ajustes até declarar a entrega."
+        ],
+        "alternativeClassifications": [],
+        "missingInformation": [
+          "audiovisual",
+          "texto na tela",
+          "comentários",
+          "ritmo",
+          "retenção",
+          "baseline"
+        ],
+        "needsHumanReview": true
+      },
+      "comparison": {
+        "level": 2,
+        "group": "microtutorial vertical de Canva com ferramenta, efeito específico e sequência falada completa",
+        "referenceIds": [
+          "obs-20260824-021",
+          "obs-20260824-023",
+          "obs-20260907-112",
+          "obs-20260907-113"
+        ],
+        "confidence": "high"
+      },
+      "observations": [
+        "Ferramenta e efeito específico aparecem no título.",
+        "A sequência falada confirma que existe procedimento e entrega, embora os frames não tenham sido auditados."
+      ],
+      "interpretations": [
+        "A referência apoia a clareza semântica do padrão, não desempenho.",
+        "A duração acima de 60 segundos reduz a comparabilidade para nível 2."
+      ],
+      "scores": {
+        "gancho": 91,
+        "clareza": 94,
+        "relevancia": 89,
+        "desejo": 86,
+        "confianca": 84,
+        "retencao": "not_assessed",
+        "acao": 89,
+        "objecoes": 82
+      },
+      "fiveLenses": {
+        "apressado": "Entende ferramenta e resultado antes da reprodução.",
+        "analitico": "Recebe uma sequência operacional; não consegue conferir a interface visual.",
+        "aspiracional": "Visualiza um acabamento associado a ferramenta mais complexa.",
+        "comunidade": "CTA convida a comentar e compartilhar; resposta real não foi medida.",
+        "cetico": "A entrega falada existe, mas o resultado visual não foi auditado."
+      },
+      "hypotheses": [],
+      "replicable": [
+        "Nomear ferramenta e um único efeito verificável no título.",
+        "Entregar uma sequência curta de recurso, preparação, ajuste e resultado."
+      ],
+      "limitations": [
+        "O título compara aparência com Photoshop, mas qualidade equivalente não foi verificada.",
+        "Sem audiovisual, retenção ou baseline."
+      ],
+      "provenance": [
+        "public_content",
+        "youtube_public_page",
+        "public_auto_transcript",
+        "public_metric",
+        "observatory_inference"
+      ],
+      "sourceEvidence": [
+        "https://www.youtube.com/shorts/iZDtOUEOdmI"
+      ],
+      "training": {
+        "evidencePolicyVersion": "1.1",
+        "evidenceRole": "target_support",
+        "evidenceLevel": 2,
+        "requiredEvidenceObserved": true,
+        "supportEligible": true,
+        "claimCoverage": [
+          {
+            "claim": "Canva e microresultado específico aparecem no título",
+            "requiredModalities": [
+              "title"
+            ],
+            "observedModalities": [
+              "title"
+            ],
+            "sufficient": true
+          },
+          {
+            "claim": "o conteúdo é tutorial compacto com procedimento e entrega falados",
+            "requiredModalities": [
+              "description",
+              "transcript"
+            ],
+            "observedModalities": [
+              "description",
+              "transcript"
+            ],
+            "sufficient": true
+          }
+        ],
+        "provenanceAndConsent": {
+          "storyOrigin": "not_applicable",
+          "consentStatus": "not_applicable",
+          "identityProtection": "not_applicable",
+          "evidence": [
+            "tutorial de ferramenta"
+          ]
+        },
+        "replicable": [
+          "Ferramenta + efeito específico → passos → entrega."
+        ],
+        "contingent": [
+          "recurso disponível na versão usada",
+          "precisão dos nomes da interface"
+        ],
+        "notRecommended": [
+          "copiar frase ou roteiro",
+          "prometer equivalência visual não auditada",
+          "atribuir retenção ou viralidade"
+        ],
+        "hypotheses": []
+      },
+      "viralAssessment": {
+        "status": "indeterminate",
+        "observedSignal": "490 visualizações, sem baseline funcional",
+        "missingForRelativeAssessment": [
+          "baseline funcional contemporâneo",
+          "retenção",
+          "impressões",
+          "fontes de tráfego"
+        ],
+        "confounders": [
+          "tamanho do canal",
+          "data recente",
+          "distribuição",
+          "tema",
+          "duração"
+        ],
+        "causalClaimAllowed": false
+      }
+    },
+    {
+      "id": "obs-20260907-112",
+      "title": "Como Recuperar Foto Cortada no Canva com Expansão Mágica | Tutorial Rápido",
+      "creator": "Demétrio Jessé",
+      "creatorIdentity": "demetrio-jesse",
+      "sourceIdentity": "demetrio-jesse",
+      "country": "BR",
+      "url": "https://www.youtube.com/shorts/CqKlSecSnnE",
+      "publishedAt": "2025-09-12",
+      "duration": "PT54S",
+      "createdAt": "2026-09-07T11:15:52.000Z",
+      "coverage": {
+        "level": "partial",
+        "accessible": [
+          "título",
+          "criador",
+          "descrição oficial",
+          "capa indexada",
+          "data exata",
+          "duração",
+          "visualizações",
+          "curtidas",
+          "tamanho atual do canal",
+          "transcrição automática integral",
+          "problema inicial",
+          "Expansão Mágica nomeada",
+          "etapas faladas",
+          "resultado declarado",
+          "CTA falado"
+        ],
+        "missing": [
+          "vídeo integral auditado quadro a quadro",
+          "imagem em movimento efetivamente analisada",
+          "áudio ouvido",
+          "texto na tela",
+          "edição",
+          "ritmo",
+          "retenção",
+          "comentários",
+          "baseline funcional contemporâneo",
+          "impressões e fontes de tráfego"
+        ]
+      },
+      "publicMetrics": {
+        "viewsObserved": "405",
+        "likesObserved": "8",
+        "subscriberCountObserved": "aprox. 3,82 mil",
+        "observedAt": "2026-09-07",
+        "sourceType": "youtube_public_page_and_public_auto_transcript",
+        "causality": "not_inferred"
+      },
+      "classification": {
+        "taxonomyVersion": "3.0",
+        "container": "youtube_short",
+        "materialFormat": "video_curto",
+        "presentationFormats": [
+          "tutorial",
+          "tela_gravada",
+          "transformacao"
+        ],
+        "primaryFamily": "educativo",
+        "secondaryFamilies": [
+          "demonstracao",
+          "transformacao"
+        ],
+        "functionalMix": [
+          {
+            "family": "educativo",
+            "percentage": 45
+          },
+          {
+            "family": "demonstracao",
+            "percentage": 35
+          },
+          {
+            "family": "transformacao",
+            "percentage": 20
+          }
+        ],
+        "objectives": [
+          "educar",
+          "salvamento",
+          "seguidores"
+        ],
+        "advertisingType": "editorial_organico",
+        "commercialIntent": "ausente",
+        "advertisedEntity": {
+          "kind": "marca",
+          "name": "Canva",
+          "confidence": "high"
+        },
+        "contentTopic": {
+          "label": "recuperação de foto cortada com Expansão Mágica",
+          "iabCode": null
+        },
+        "segment": "design e criação de conteúdo",
+        "subsegment": "edição de imagem com IA no Canva",
+        "probableAudience": "usuários iniciantes de Canva e marketing digital",
+        "awarenessStage": "consciente_problema",
+        "productionLevel": "simple",
+        "creatorScale": "small",
+        "replicability": "high",
+        "durationBand": "31_to_60s",
+        "pace": "unknown",
+        "mechanisms": [
+          "utilidade_pratica",
+          "recompensa",
+          "contraste",
+          "curiosidade"
+        ],
+        "hookTypes": [
+          "problema",
+          "promessa",
+          "transformacao"
+        ],
+        "narrativeElements": [
+          "problema",
+          "mecanismo",
+          "progressao",
+          "payoff",
+          "cta"
+        ],
+        "proofTypes": [
+          "mecanismo_explicado",
+          "demonstracao"
+        ],
+        "ctaTypes": [
+          "seguir"
+        ],
+        "distributionContext": {
+          "organicPaid": "unknown",
+          "trendDependency": "unknown"
+        },
+        "confidence": "high",
+        "evidence": [
+          "Título nomeia problema, Canva e Expansão Mágica.",
+          "A transcrição integral passa por remoção de fundo, extensão, escolha de opção, novo recorte e acabamento."
+        ],
+        "alternativeClassifications": [],
+        "missingInformation": [
+          "audiovisual",
+          "texto na tela",
+          "comentários",
+          "ritmo",
+          "retenção",
+          "baseline"
+        ],
+        "needsHumanReview": true
+      },
+      "comparison": {
+        "level": 1,
+        "group": "microtutorial vertical de Canva com problema, recurso específico e sequência falada completa",
+        "referenceIds": [
+          "obs-20260824-021",
+          "obs-20260824-023",
+          "obs-20260907-111",
+          "obs-20260907-113"
+        ],
+        "confidence": "high"
+      },
+      "observations": [
+        "O título combina problema concreto, ferramenta e nome do recurso.",
+        "A transcrição confirma uma sequência completa até resultado declarado."
+      ],
+      "interpretations": [
+        "A referência sustenta a clareza estrutural do padrão.",
+        "Não demonstra que o título causou alcance, retenção ou aprendizagem."
+      ],
+      "scores": {
+        "gancho": 92,
+        "clareza": 95,
+        "relevancia": 92,
+        "desejo": 84,
+        "confianca": 85,
+        "retencao": "not_assessed",
+        "acao": 88,
+        "objecoes": 84
+      },
+      "fiveLenses": {
+        "apressado": "Reconhece problema, ferramenta e solução.",
+        "analitico": "Encontra passos falados, mas não audita a interface.",
+        "aspiracional": "Visualiza recuperação e acabamento da imagem.",
+        "comunidade": "Há CTA para seguir; resposta real não foi medida.",
+        "cetico": "O resultado é declarado, não inspecionado visualmente."
+      },
+      "hypotheses": [],
+      "replicable": [
+        "Nomear o problema e o recurso específico no mesmo título.",
+        "Ordenar diagnóstico, recurso, ajuste e resultado sem abrir subtemas."
+      ],
+      "limitations": [
+        "Expansão Mágica pode depender de plano e versão; disponibilidade não foi verificada.",
+        "Sem audiovisual, retenção ou baseline."
+      ],
+      "provenance": [
+        "public_content",
+        "youtube_public_page",
+        "public_auto_transcript",
+        "public_metric",
+        "observatory_inference"
+      ],
+      "sourceEvidence": [
+        "https://www.youtube.com/shorts/CqKlSecSnnE"
+      ],
+      "training": {
+        "evidencePolicyVersion": "1.1",
+        "evidenceRole": "target_support",
+        "evidenceLevel": 1,
+        "requiredEvidenceObserved": true,
+        "supportEligible": true,
+        "claimCoverage": [
+          {
+            "claim": "Canva, problema e recurso aparecem no título",
+            "requiredModalities": [
+              "title"
+            ],
+            "observedModalities": [
+              "title"
+            ],
+            "sufficient": true
+          },
+          {
+            "claim": "o microtutorial contém procedimento e entrega falados",
+            "requiredModalities": [
+              "description",
+              "transcript"
+            ],
+            "observedModalities": [
+              "description",
+              "transcript"
+            ],
+            "sufficient": true
+          }
+        ],
+        "provenanceAndConsent": {
+          "storyOrigin": "not_applicable",
+          "consentStatus": "not_applicable",
+          "identityProtection": "not_applicable",
+          "evidence": [
+            "tutorial de ferramenta"
+          ]
+        },
+        "replicable": [
+          "Problema concreto → recurso nomeado → passos → resultado."
+        ],
+        "contingent": [
+          "versão e plano do Canva",
+          "precisão da transcrição automática"
+        ],
+        "notRecommended": [
+          "prometer disponibilidade universal",
+          "inferir frames ou texto na tela",
+          "atribuir desempenho"
+        ],
+        "hypotheses": []
+      },
+      "viralAssessment": {
+        "status": "indeterminate",
+        "observedSignal": "405 visualizações, sem baseline funcional",
+        "missingForRelativeAssessment": [
+          "baseline funcional contemporâneo",
+          "retenção",
+          "impressões",
+          "fontes de tráfego"
+        ],
+        "confounders": [
+          "tamanho do canal",
+          "idade do vídeo",
+          "distribuição",
+          "tema"
+        ],
+        "causalClaimAllowed": false
+      }
+    },
+    {
+      "id": "obs-20260907-113",
+      "title": "Como Personalizar seu QR Code no Canva em Minutos! 🚀 | Dica Rápida",
+      "creator": "Canal da Alessandra",
+      "creatorIdentity": "canal-da-alessandra",
+      "sourceIdentity": "canal-da-alessandra",
+      "country": "BR",
+      "url": "https://www.youtube.com/shorts/djV2XCvVUQQ",
+      "publishedAt": "2025-04-27",
+      "duration": "PT59S",
+      "createdAt": "2026-09-07T11:15:52.000Z",
+      "coverage": {
+        "level": "partial",
+        "accessible": [
+          "título",
+          "criador",
+          "descrição oficial integral",
+          "capa indexada",
+          "data exata",
+          "duração",
+          "visualizações",
+          "curtidas",
+          "tamanho atual do canal",
+          "transcrição automática integral",
+          "QR Code e Canva nomeados",
+          "etapas de recorte, busca, modelo, cor e posicionamento"
+        ],
+        "missing": [
+          "vídeo integral auditado quadro a quadro",
+          "imagem em movimento efetivamente analisada",
+          "áudio ouvido",
+          "texto na tela",
+          "resultado final visual",
+          "edição",
+          "ritmo",
+          "retenção",
+          "comentários",
+          "baseline funcional contemporâneo",
+          "impressões e fontes de tráfego"
+        ]
+      },
+      "publicMetrics": {
+        "viewsObserved": "1.020",
+        "likesObserved": "6",
+        "subscriberCountObserved": "aprox. 11,9 mil",
+        "observedAt": "2026-09-07",
+        "sourceType": "youtube_public_page_and_public_auto_transcript",
+        "causality": "not_inferred"
+      },
+      "classification": {
+        "taxonomyVersion": "3.0",
+        "container": "youtube_short",
+        "materialFormat": "video_curto",
+        "presentationFormats": [
+          "tutorial",
+          "tela_gravada"
+        ],
+        "primaryFamily": "explicativo",
+        "secondaryFamilies": [
+          "educativo",
+          "demonstracao"
+        ],
+        "functionalMix": [
+          {
+            "family": "explicativo",
+            "percentage": 45
+          },
+          {
+            "family": "educativo",
+            "percentage": 35
+          },
+          {
+            "family": "demonstracao",
+            "percentage": 20
+          }
+        ],
+        "objectives": [
+          "educar",
+          "salvamento",
+          "autoridade"
+        ],
+        "advertisingType": "editorial_organico",
+        "commercialIntent": "implicita",
+        "advertisedEntity": {
+          "kind": "marca",
+          "name": "Canva",
+          "confidence": "high"
+        },
+        "contentTopic": {
+          "label": "personalização de QR Code no Canva",
+          "iabCode": null
+        },
+        "segment": "design e marketing digital",
+        "subsegment": "QR Code para pequenos negócios",
+        "probableAudience": "empreendedores e iniciantes que querem personalizar QR Code",
+        "awarenessStage": "consciente_solucao",
+        "productionLevel": "simple",
+        "creatorScale": "small",
+        "replicability": "high",
+        "durationBand": "31_to_60s",
+        "pace": "unknown",
+        "mechanisms": [
+          "utilidade_pratica",
+          "recompensa",
+          "desejo"
+        ],
+        "hookTypes": [
+          "promessa",
+          "resultado_antecipado",
+          "urgencia"
+        ],
+        "narrativeElements": [
+          "promessa",
+          "mecanismo",
+          "progressao"
+        ],
+        "proofTypes": [
+          "mecanismo_explicado"
+        ],
+        "ctaTypes": [],
+        "distributionContext": {
+          "organicPaid": "unknown",
+          "trendDependency": "unknown"
+        },
+        "confidence": "high",
+        "evidence": [
+          "O título nomeia o Canva, o objeto e a personalização.",
+          "A descrição detalha cores, logo e estilos; a transcrição percorre recorte, modelo, cor e posicionamento."
+        ],
+        "alternativeClassifications": [],
+        "missingInformation": [
+          "audiovisual",
+          "resultado final visual",
+          "comentários",
+          "ritmo",
+          "retenção",
+          "baseline"
+        ],
+        "needsHumanReview": true
+      },
+      "comparison": {
+        "level": 1,
+        "group": "microtutorial vertical de Canva com objeto específico, personalização e sequência falada",
+        "referenceIds": [
+          "obs-20260824-021",
+          "obs-20260824-023",
+          "obs-20260907-111",
+          "obs-20260907-112"
+        ],
+        "confidence": "high"
+      },
+      "observations": [
+        "A ferramenta e o microresultado aparecem no título.",
+        "A transcrição confirma etapas, mas termina sem descrição textual do resultado final."
+      ],
+      "interpretations": [
+        "A referência apoia a rapidez semântica da promessa.",
+        "A execução visual e o efeito sobre comportamento permanecem não medidos."
+      ],
+      "scores": {
+        "gancho": 88,
+        "clareza": 91,
+        "relevancia": 89,
+        "desejo": 82,
+        "confianca": 80,
+        "retencao": "not_assessed",
+        "acao": 86,
+        "objecoes": 78
+      },
+      "fiveLenses": {
+        "apressado": "Entende o objeto e a personalização.",
+        "analitico": "Recebe ações básicas, mas não vê o resultado auditado.",
+        "aspiracional": "Visualiza um QR Code alinhado à marca.",
+        "comunidade": "Não mensurado.",
+        "cetico": "A promessa é específica, porém a entrega visual final não foi observada."
+      },
+      "hypotheses": [],
+      "replicable": [
+        "Nomear o objeto e o tipo de personalização no título.",
+        "Manter o tutorial restrito a poucas decisões editáveis."
+      ],
+      "limitations": [
+        "A descrição promete inserção de logo, mas a transcrição acessível não registra essa etapa.",
+        "Sem audiovisual, comentários, retenção ou baseline."
+      ],
+      "provenance": [
+        "public_content",
+        "youtube_public_page",
+        "public_auto_transcript",
+        "public_metric",
+        "observatory_inference"
+      ],
+      "sourceEvidence": [
+        "https://www.youtube.com/shorts/djV2XCvVUQQ"
+      ],
+      "training": {
+        "evidencePolicyVersion": "1.1",
+        "evidenceRole": "target_support",
+        "evidenceLevel": 1,
+        "requiredEvidenceObserved": true,
+        "supportEligible": true,
+        "claimCoverage": [
+          {
+            "claim": "Canva, objeto e microresultado aparecem no título",
+            "requiredModalities": [
+              "title"
+            ],
+            "observedModalities": [
+              "title"
+            ],
+            "sufficient": true
+          },
+          {
+            "claim": "o microtutorial contém sequência falada específica",
+            "requiredModalities": [
+              "description",
+              "transcript"
+            ],
+            "observedModalities": [
+              "description",
+              "transcript"
+            ],
+            "sufficient": true
+          }
+        ],
+        "provenanceAndConsent": {
+          "storyOrigin": "not_applicable",
+          "consentStatus": "not_applicable",
+          "identityProtection": "not_applicable",
+          "evidence": [
+            "tutorial de ferramenta"
+          ]
+        },
+        "replicable": [
+          "Ferramenta + objeto + personalização → passos curtos."
+        ],
+        "contingent": [
+          "manter correspondência entre descrição e fala",
+          "mostrar resultado final"
+        ],
+        "notRecommended": [
+          "afirmar que a inserção de logo foi observada na fala",
+          "inferir visual ou retenção",
+          "atribuir desempenho"
+        ],
+        "hypotheses": []
+      },
+      "viralAssessment": {
+        "status": "indeterminate",
+        "observedSignal": "1.020 visualizações, sem baseline funcional",
+        "missingForRelativeAssessment": [
+          "baseline funcional contemporâneo",
+          "retenção",
+          "impressões",
+          "fontes de tráfego"
+        ],
+        "confounders": [
+          "tamanho do canal",
+          "idade do vídeo",
+          "distribuição",
+          "tema"
+        ],
+        "causalClaimAllowed": false
+      }
+    },
+    {
+      "id": "obs-20260907-114",
+      "title": "Dica rápida no Canva! #shorts",
+      "creator": "Vítor Pudim",
+      "creatorIdentity": "vitor-pudim",
+      "sourceIdentity": "vitor-pudim",
+      "country": "BR",
+      "url": "https://www.youtube.com/shorts/0a-1cackPaY",
+      "publishedAt": "2025-10-23",
+      "duration": "PT16S",
+      "createdAt": "2026-09-07T11:15:52.000Z",
+      "coverage": {
+        "level": "partial",
+        "accessible": [
+          "título",
+          "criador",
+          "descrição oficial composta apenas por hashtags",
+          "capa indexada",
+          "data exata",
+          "duração",
+          "visualizações",
+          "curtidas",
+          "tamanho atual do canal",
+          "transcrição automática curta com letra musical em inglês"
+        ],
+        "missing": [
+          "recurso específico",
+          "microresultado identificável",
+          "procedimento falado",
+          "vídeo integral auditado quadro a quadro",
+          "imagem em movimento efetivamente analisada",
+          "texto na tela",
+          "CTA",
+          "edição",
+          "ritmo",
+          "retenção",
+          "comentários",
+          "baseline funcional contemporâneo",
+          "impressões e fontes de tráfego"
+        ]
+      },
+      "publicMetrics": {
+        "viewsObserved": "21.789",
+        "likesObserved": "348",
+        "subscriberCountObserved": "aprox. 23,6 mil",
+        "observedAt": "2026-09-07",
+        "sourceType": "youtube_public_page_and_public_auto_transcript",
+        "causality": "not_inferred"
+      },
+      "classification": {
+        "taxonomyVersion": "3.0",
+        "container": "youtube_short",
+        "materialFormat": "video_curto",
+        "presentationFormats": [
+          "montagem",
+          "indeterminado"
+        ],
+        "primaryFamily": "curiosidade",
+        "secondaryFamilies": [
+          "educativo"
+        ],
+        "functionalMix": [
+          {
+            "family": "curiosidade",
+            "percentage": 60
+          },
+          {
+            "family": "educativo",
+            "percentage": 40
+          }
+        ],
+        "objectives": [
+          "visualizacao",
+          "educar"
+        ],
+        "advertisingType": "editorial_organico",
+        "commercialIntent": "ausente",
+        "advertisedEntity": {
+          "kind": "marca",
+          "name": "Canva",
+          "confidence": "medium"
+        },
+        "contentTopic": {
+          "label": "dica não especificada de Canva",
+          "iabCode": null
+        },
+        "segment": "design e criação de conteúdo",
+        "subsegment": "dica de Canva não identificável na cobertura",
+        "probableAudience": "usuários de Canva",
+        "awarenessStage": "consciente_solucao",
+        "productionLevel": "simple",
+        "creatorScale": "medium",
+        "replicability": "high",
+        "durationBand": "16_to_30s",
+        "pace": "unknown",
+        "mechanisms": [
+          "curiosidade"
+        ],
+        "hookTypes": [
+          "promessa"
+        ],
+        "narrativeElements": [],
+        "proofTypes": [
+          "ausencia_prova_necessaria"
+        ],
+        "ctaTypes": [],
+        "distributionContext": {
+          "organicPaid": "unknown",
+          "trendDependency": "unknown"
+        },
+        "confidence": "medium",
+        "evidence": [
+          "O título nomeia Canva, mas não o recurso nem o resultado.",
+          "A descrição contém apenas hashtags e a transcrição automática registra música, não instrução."
+        ],
+        "alternativeClassifications": [],
+        "missingInformation": [
+          "recurso",
+          "microresultado",
+          "procedimento",
+          "audiovisual",
+          "texto na tela",
+          "CTA",
+          "retenção",
+          "baseline"
+        ],
+        "needsHumanReview": true
+      },
+      "comparison": {
+        "level": 1,
+        "group": "caso-limite de microtutorial de Canva com ferramenta nomeada, mas sem recurso ou resultado identificável",
+        "referenceIds": [
+          "obs-20260824-022",
+          "obs-20260907-111",
+          "obs-20260907-112",
+          "obs-20260907-113"
+        ],
+        "confidence": "high"
+      },
+      "observations": [
+        "O título genérico impede saber qual dica ou resultado será entregue.",
+        "Alcance absoluto é contexto; sem baseline, não demonstra vantagem do título genérico."
+      ],
+      "interpretations": [
+        "É caso-limite, não contraexemplo: as condições do padrão estão ausentes e o desempenho relativo não foi medido.",
+        "A falta de fala instrucional não prova ausência de demonstração visual."
+      ],
+      "scores": {
+        "gancho": 68,
+        "clareza": 35,
+        "relevancia": "not_assessed",
+        "desejo": "not_assessed",
+        "confianca": "not_assessed",
+        "retencao": "not_assessed",
+        "acao": "not_assessed",
+        "objecoes": "not_assessed"
+      },
+      "fiveLenses": {
+        "apressado": "Sabe apenas que haverá uma dica de Canva.",
+        "analitico": "Não identifica recurso, passo ou resultado.",
+        "aspiracional": "Não mensurado.",
+        "comunidade": "Não mensurado.",
+        "cetico": "Visualizações sem baseline e conteúdo visual ausente não sustentam eficácia."
+      },
+      "hypotheses": [],
+      "replicable": [],
+      "limitations": [
+        "Não ensina a referência porque a substância visual não ficou acessível.",
+        "A transcrição musical não substitui o vídeo.",
+        "Não conta como apoio ou contraexemplo."
+      ],
+      "provenance": [
+        "public_content",
+        "youtube_public_page",
+        "public_auto_transcript",
+        "public_metric",
+        "observatory_inference"
+      ],
+      "sourceEvidence": [
+        "https://www.youtube.com/shorts/0a-1cackPaY"
+      ],
+      "training": {
+        "evidencePolicyVersion": "1.1",
+        "evidenceRole": "falsification_or_boundary",
+        "evidenceLevel": 1,
+        "requiredEvidenceObserved": false,
+        "supportEligible": false,
+        "claimCoverage": [
+          {
+            "claim": "título genérico nomeia apenas a ferramenta",
+            "requiredModalities": [
+              "title",
+              "description"
+            ],
+            "observedModalities": [
+              "title",
+              "description"
+            ],
+            "sufficient": true
+          },
+          {
+            "claim": "recurso ou microresultado identificável",
+            "requiredModalities": [
+              "relevant_transcript"
+            ],
+            "observedModalities": [
+              "title",
+              "transcript"
+            ],
+            "sufficient": false
+          }
+        ],
+        "provenanceAndConsent": {
+          "storyOrigin": "not_applicable",
+          "consentStatus": "not_applicable",
+          "identityProtection": "not_applicable",
+          "evidence": [
+            "conteúdo de ferramenta"
+          ]
+        },
+        "replicable": [],
+        "contingent": [
+          "acesso ao vídeo e texto na tela",
+          "recurso identificável"
+        ],
+        "notRecommended": [
+          "ensinar cenas não observadas",
+          "tratar visualizações absolutas como prova",
+          "usar título genérico como apoio"
+        ],
+        "hypotheses": []
+      },
+      "viralAssessment": {
+        "status": "indeterminate",
+        "observedSignal": "21.789 visualizações, sem baseline funcional",
+        "missingForRelativeAssessment": [
+          "baseline funcional contemporâneo",
+          "retenção",
+          "impressões",
+          "fontes de tráfego"
+        ],
+        "confounders": [
+          "tamanho do canal",
+          "distribuição",
+          "música",
+          "tema",
+          "formato Shorts"
+        ],
+        "causalClaimAllowed": false
+      }
+    },
+    {
+      "id": "obs-20260907-115",
+      "title": "Canva vs Capcut - Which Is Better For Video Editing?",
+      "creator": "The Social Guide",
+      "creatorIdentity": "the-social-guide",
+      "sourceIdentity": "the-social-guide",
+      "country": "unknown",
+      "url": "https://www.youtube.com/watch?v=9LFqhXfh6S0",
+      "publishedAt": "2024-03-11",
+      "duration": "PT8M47S",
+      "createdAt": "2026-09-07T11:15:52.000Z",
+      "coverage": {
+        "level": "partial",
+        "accessible": [
+          "título",
+          "criador",
+          "descrição oficial",
+          "capa indexada",
+          "data exata",
+          "duração",
+          "visualizações",
+          "curtidas",
+          "tamanho atual do canal",
+          "promessa de comparação entre Canva e CapCut"
+        ],
+        "missing": [
+          "vídeo integral auditado",
+          "imagem em movimento",
+          "áudio ouvido",
+          "transcrição",
+          "legendas",
+          "texto na tela",
+          "critérios de comparação",
+          "veredito",
+          "CTA além do pedido genérico de interação",
+          "edição",
+          "ritmo",
+          "retenção",
+          "comentários",
+          "baseline funcional contemporâneo",
+          "impressões e fontes de tráfego"
+        ]
+      },
+      "publicMetrics": {
+        "viewsObserved": "15.917",
+        "likesObserved": "199",
+        "subscriberCountObserved": "aprox. 125 mil",
+        "observedAt": "2026-09-07",
+        "sourceType": "youtube_public_page_and_official_description",
+        "causality": "not_inferred"
+      },
+      "classification": {
+        "taxonomyVersion": "3.0",
+        "container": "youtube_video",
+        "materialFormat": "video_longo",
+        "presentationFormats": [
+          "comparacao",
+          "comentario"
+        ],
+        "primaryFamily": "comparacao",
+        "secondaryFamilies": [
+          "educativo",
+          "autoridade_opiniao"
+        ],
+        "functionalMix": [
+          {
+            "family": "comparacao",
+            "percentage": 55
+          },
+          {
+            "family": "educativo",
+            "percentage": 30
+          },
+          {
+            "family": "autoridade_opiniao",
+            "percentage": 15
+          }
+        ],
+        "objectives": [
+          "educar",
+          "confianca",
+          "visualizacao"
+        ],
+        "advertisingType": "comparativa",
+        "commercialIntent": "indeterminada",
+        "advertisedEntity": {
+          "kind": "marca",
+          "name": "Canva e CapCut",
+          "confidence": "high"
+        },
+        "contentTopic": {
+          "label": "comparação de editores de vídeo Canva e CapCut",
+          "iabCode": null
+        },
+        "segment": "tecnologia e criação de conteúdo",
+        "subsegment": "software de edição de vídeo",
+        "probableAudience": "criadores escolhendo editor de vídeo",
+        "awarenessStage": "consciente_solucao",
+        "productionLevel": "simple",
+        "creatorScale": "medium",
+        "replicability": "high",
+        "durationBand": "over_60s",
+        "pace": "unknown",
+        "mechanisms": [
+          "curiosidade",
+          "contraste",
+          "utilidade_pratica"
+        ],
+        "hookTypes": [
+          "pergunta",
+          "comparacao"
+        ],
+        "narrativeElements": [
+          "promessa"
+        ],
+        "proofTypes": [
+          "ausencia_prova_necessaria"
+        ],
+        "ctaTypes": [
+          "comentar"
+        ],
+        "distributionContext": {
+          "organicPaid": "unknown",
+          "trendDependency": "unknown"
+        },
+        "confidence": "medium",
+        "evidence": [
+          "O título formula uma escolha direta entre duas ferramentas.",
+          "A descrição promete cobrir o necessário, mas não expõe critérios ou resultado."
+        ],
+        "alternativeClassifications": [],
+        "missingInformation": [
+          "critérios",
+          "veredito",
+          "transcrição",
+          "audiovisual",
+          "comentários",
+          "ritmo",
+          "retenção",
+          "baseline"
+        ],
+        "needsHumanReview": true
+      },
+      "comparison": {
+        "level": 3,
+        "group": "exploração controlada: comparação de ferramentas de criação sem critérios ou veredito acessíveis",
+        "referenceIds": [
+          "obs-20260824-021",
+          "obs-20260907-111"
+        ],
+        "confidence": "medium"
+      },
+      "observations": [
+        "A pergunta comparativa define rapidamente a decisão de ferramenta.",
+        "A cobertura não permite saber se a comparação usa critérios proporcionais ou demonstrações."
+      ],
+      "interpretations": [
+        "A referência cobre uma família distinta sem criar hipótese.",
+        "Não fortalece nem contradiz o padrão de microtutoriais."
+      ],
+      "scores": {
+        "gancho": 82,
+        "clareza": 78,
+        "relevancia": 87,
+        "desejo": 76,
+        "confianca": "not_assessed",
+        "retencao": "not_assessed",
+        "acao": "not_assessed",
+        "objecoes": "not_assessed"
+      },
+      "fiveLenses": {
+        "apressado": "Entende a comparação proposta.",
+        "analitico": "Não encontra critérios ou veredito acessíveis.",
+        "aspiracional": "Pode buscar a ferramenta mais adequada.",
+        "comunidade": "Não mensurado.",
+        "cetico": "Descrição ampla sem evidência suficiente."
+      },
+      "hypotheses": [],
+      "replicable": [
+        "Formular a comparação como decisão concreta entre duas ferramentas."
+      ],
+      "limitations": [
+        "Exploração fora da família-alvo.",
+        "Sem critérios, veredito, audiovisual, comentários ou retenção.",
+        "Não se atribui alcance à pergunta comparativa."
+      ],
+      "provenance": [
+        "public_content",
+        "youtube_public_page",
+        "official_description",
+        "public_metric",
+        "observatory_inference"
+      ],
+      "sourceEvidence": [
+        "https://www.youtube.com/watch?v=9LFqhXfh6S0"
+      ],
+      "training": {
+        "evidencePolicyVersion": "1.1",
+        "evidenceRole": "controlled_exploration",
+        "evidenceLevel": 3,
+        "requiredEvidenceObserved": false,
+        "supportEligible": false,
+        "claimCoverage": [
+          {
+            "claim": "promessa de comparar Canva e CapCut",
+            "requiredModalities": [
+              "title",
+              "description"
+            ],
+            "observedModalities": [
+              "title",
+              "description"
+            ],
+            "sufficient": true
+          },
+          {
+            "claim": "critérios e veredito comparativo",
+            "requiredModalities": [
+              "transcript"
+            ],
+            "observedModalities": [],
+            "sufficient": false
+          }
+        ],
+        "provenanceAndConsent": {
+          "storyOrigin": "not_applicable",
+          "consentStatus": "not_applicable",
+          "identityProtection": "not_applicable",
+          "evidence": [
+            "comparação de ferramentas"
+          ]
+        },
+        "replicable": [
+          "Ferramenta A versus B em torno de uma decisão explícita."
+        ],
+        "contingent": [
+          "critérios observáveis",
+          "perfil de usuário",
+          "veredito proporcional"
+        ],
+        "notRecommended": [
+          "declarar vencedor sem critérios",
+          "atribuir desempenho ao título",
+          "copiar roteiro"
+        ],
+        "hypotheses": []
+      },
+      "viralAssessment": {
+        "status": "indeterminate",
+        "observedSignal": "15.917 visualizações, sem baseline funcional",
+        "missingForRelativeAssessment": [
+          "baseline funcional contemporâneo",
+          "retenção",
+          "impressões",
+          "fontes de tráfego"
+        ],
+        "confounders": [
+          "tamanho do canal",
+          "idade do vídeo",
+          "distribuição",
+          "demanda de comparação"
+        ],
+        "causalClaimAllowed": false
+      }
     }
   ],
   "patterns": [
@@ -27311,17 +28642,19 @@
         "desejo"
       ],
       "conditions": [
-        "tutorial vertical curto",
-        "ferramenta nomeada",
-        "um recurso ou efeito central"
+        "YouTube Short ou vídeo vertical compacto",
+        "Canva nomeado",
+        "um recurso, objeto ou microresultado central identificável"
       ],
       "supportReferenceIds": [
         "obs-20260824-021",
-        "obs-20260824-022",
-        "obs-20260824-023"
+        "obs-20260824-023",
+        "obs-20260907-111",
+        "obs-20260907-112",
+        "obs-20260907-113"
       ],
-      "comparableSupportCount": 3,
-      "supportingCount": 3,
+      "comparableSupportCount": 5,
+      "supportingCount": 5,
       "counterexampleCount": 0,
       "comparisonLevel": 1,
       "confidence": "medium",
@@ -27336,10 +28669,10 @@
         },
         {
           "referenceId": "obs-20260824-022",
-          "observation": "Ferramenta explícita, efeito genérico.",
+          "observation": "Caso-limite: Canva aparece, mas o efeito é genérico e não há microresultado identificável.",
           "evidence": "Título e métrica pública.",
           "limitations": [
-            "Sem demonstração acessível."
+            "Sem demonstração acessível; não conta como apoio."
           ]
         },
         {
@@ -27349,18 +28682,58 @@
           "limitations": [
             "Sem transcrição."
           ]
+        },
+        {
+          "referenceId": "obs-20260907-111",
+          "observation": "Canva e efeito máscara de respingo aparecem no título; a transcrição confirma procedimento e entrega falados.",
+          "evidence": "Título, descrição, métricas e transcrição automática integral.",
+          "limitations": [
+            "112 segundos; sem audiovisual, retenção ou baseline."
+          ]
+        },
+        {
+          "referenceId": "obs-20260907-112",
+          "observation": "Problema, Canva e Expansão Mágica aparecem no título; a transcrição confirma sequência até o resultado declarado.",
+          "evidence": "Título, descrição, métricas e transcrição automática integral.",
+          "limitations": [
+            "Sem audiovisual, retenção ou baseline."
+          ]
+        },
+        {
+          "referenceId": "obs-20260907-113",
+          "observation": "Canva, QR Code e personalização aparecem no título; a transcrição confirma etapas específicas.",
+          "evidence": "Título, descrição, métricas e transcrição automática integral.",
+          "limitations": [
+            "Resultado final visual e inserção de logo não foram observados na fala."
+          ]
+        },
+        {
+          "referenceId": "obs-20260907-114",
+          "observation": "Caso-limite: título e descrição não identificam recurso ou microresultado; transcrição registra apenas música.",
+          "evidence": "Título, hashtags, métricas e transcrição automática curta.",
+          "limitations": [
+            "Vídeo e texto na tela não foram auditados; não é contraexemplo."
+          ]
         }
       ],
       "limitations": [
-        "O padrão descreve clareza de promessa, não desempenho.",
-        "Nenhuma demonstração foi auditada integralmente.",
-        "Visualizações variam muito e não provam causalidade."
+        "O padrão descreve clareza semântica da promessa, não desempenho.",
+        "Cinco apoios de cinco criadores e fontes independentes satisfazem recorrência estrutural.",
+        "Dois novos apoios têm menos de 60 segundos e um tem 112 segundos; a comparabilidade deste último é nível 2.",
+        "Três novas transcrições confirmam sequência falada, mas nenhum audiovisual foi auditado.",
+        "Visualizações variam e não provam causalidade; nenhum apoio possui retenção ou experimento de compreensão.",
+        "Dois títulos genéricos são casos-limite, não contraexemplos."
       ],
       "validation": "requires_human_or_experimental_evidence",
       "taxonomyVersion": "3.0",
-      "creatorDiversityCount": 3,
-      "sourceDiversityCount": 3,
-      "patternType": "outro"
+      "creatorDiversityCount": 5,
+      "sourceDiversityCount": 5,
+      "patternType": "outro",
+      "caseLimitReferenceIds": [
+        "obs-20260824-022",
+        "obs-20260907-114"
+      ],
+      "caseLimitCount": 2
     },
     {
       "id": "pat-20260828-006",
@@ -29873,6 +31246,115 @@
         "Uma referência comercial de saúde teve criador e métricas não identificáveis.",
         "Uma transcrição automática apresentou timestamps deslocados e outra imprecisões de ASR.",
         "Somente uma página declarou contagem de comentários e nenhum baseline contemporâneo ficou acessível.",
+        "Nenhum resultado autoriza causalidade ou validação."
+      ]
+    },
+    {
+      "id": "run-20260907-supervised-019",
+      "executedAt": "2026-09-07T11:15:52.000Z",
+      "batchPolicyVersion": "1.1",
+      "requestedBatchSize": 5,
+      "candidatesFound": 38,
+      "referenceIds": [
+        "obs-20260907-111",
+        "obs-20260907-112",
+        "obs-20260907-113",
+        "obs-20260907-114",
+        "obs-20260907-115"
+      ],
+      "targetKnowledgeId": "pat-20260824-005",
+      "targetReferenceIds": [
+        "obs-20260907-111",
+        "obs-20260907-112",
+        "obs-20260907-113"
+      ],
+      "falsificationOrBoundaryReferenceIds": [
+        "obs-20260907-114"
+      ],
+      "controlledExplorationReferenceIds": [
+        "obs-20260907-115"
+      ],
+      "discarded": [
+        {
+          "url": "https://www.youtube.com/watch?v=6nbOCtnBrWI",
+          "reason": "título específico, mas duração longa e ausência de transcrição reduziram a comparabilidade com microtutoriais"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=Y2WLikauLtk",
+          "reason": "tutorial específico, porém duração longa e sem transcrição"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=LZMMQ5Zs6sI",
+          "reason": "descrição detalhada, porém vídeo longo e sem transcrição"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=86wdpCoSVDg",
+          "reason": "transcrição integral, mas duração de 6m27s é menos comparável que os Shorts selecionados"
+        },
+        {
+          "url": "https://www.youtube.com/shorts/qMwZK_e204c",
+          "reason": "Short comparável, porém antigo e sem transcrição; preterido por três candidatos com fala integral"
+        }
+      ],
+      "analyzed": 5,
+      "brazilianReferences": 4,
+      "internationalReferences": 0,
+      "unknownOriginReferences": 1,
+      "smallOrMediumCreatorReferences": 5,
+      "coverageSummary": {
+        "complete": 0,
+        "partial": 5,
+        "insufficient": 0
+      },
+      "audiovisualAcquisition": {
+        "attempted": true,
+        "succeeded": 0,
+        "failure": "as páginas foram inspecionadas após pesquisa pública, mas nenhum vídeo foi auditado quadro a quadro; três ofereceram transcrição automática integral",
+        "effect": "imagem em movimento, áudio ouvido, texto na tela, edição, ritmo e retenção ficaram não mensurados"
+      },
+      "commentsCoverage": {
+        "fullOrDeclaredZero": 0,
+        "partialSample": 0
+      },
+      "baselineCoverage": {
+        "sampledProfiles": 0,
+        "contemporaneousBaselines": 0,
+        "limitation": "tamanhos de canal e métricas dos vídeos foram observados, mas nenhum baseline funcional contemporâneo foi calculado"
+      },
+      "patternsCreated": [],
+      "patternsStrengthened": [
+        "pat-20260824-005"
+      ],
+      "patternsRefined": [
+        "pat-20260824-005"
+      ],
+      "hypothesesCreated": [],
+      "hypothesesStrengthened": [],
+      "validatedPatternsCreated": 0,
+      "contradictionsFound": [],
+      "caseLimitsFound": [
+        "nomear apenas Canva e usar 'dica rápida' não torna o conteúdo semanticamente específico; sem recurso ou microresultado, o material refina o limite e não apoia o padrão"
+      ],
+      "safetyFindings": [
+        "a referência genérica não foi ensinada porque sua substância visual permaneceu inacessível",
+        "transcrição musical não substitui demonstração visual"
+      ],
+      "evidenceGateSummary": {
+        "targetSupportsEligible": 3,
+        "targetSupportsRejected": 0,
+        "boundaryCases": 1,
+        "explorationReferences": 1,
+        "duplicateUrls": 0,
+        "independentCreatorsAddedToPattern": 3,
+        "newHypotheses": 0
+      },
+      "outcome": "Três Shorts com títulos específicos e transcrições integrais fortaleceram o padrão. Um falso apoio antigo foi reclassificado como caso-limite; o padrão terminou com cinco apoios válidos de cinco fontes, dois casos-limite e nenhuma hipótese nova.",
+      "nextTarget": "microtutorial brasileiro de Canva ou ferramenta equivalente com vídeo integral auditável, texto na tela, comentários e baseline; incluir um título específico cuja demonstração não entregue o microresultado para buscar um contraexemplo genuíno",
+      "limitations": [
+        "Nenhum audiovisual foi auditado quadro a quadro.",
+        "Três transcrições cobrem fala, não imagem nem texto na tela.",
+        "Comentários e baseline funcional não ficaram acessíveis.",
+        "Um vídeo de comparação teve apenas título e descrição.",
         "Nenhum resultado autoriza causalidade ou validação."
       ]
     }
