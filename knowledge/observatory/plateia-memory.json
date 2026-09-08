@@ -1,6 +1,6 @@
 {
   "protocol": "plateia-memory/1.0",
-  "updatedAt": "2026-09-07T11:15:52.000Z",
+  "updatedAt": "2026-09-08T11:44:00.000Z",
   "references": [
     {
       "id": "obs-20260823-001",
@@ -28131,6 +28131,1252 @@
         ],
         "causalClaimAllowed": false
       }
+    },
+    {
+      "id": "obs-20260908-116",
+      "title": "CANVA TUTORIAL: Como criar o efeito glitch",
+      "creator": "Tocaia Studio Criativo",
+      "creatorIdentity": "tocaia-studio-criativo",
+      "sourceIdentity": "tocaia-studio-criativo",
+      "country": "BR",
+      "url": "https://www.youtube.com/shorts/w618hj2UyTY",
+      "publishedAt": "2026-04-06",
+      "duration": "PT0M32S",
+      "createdAt": "2026-09-08T11:44:00.000Z",
+      "coverage": {
+        "level": "partial",
+        "accessible": [
+          "título",
+          "criador",
+          "descrição oficial parcial",
+          "capa indexada",
+          "data exata",
+          "duração",
+          "visualizações",
+          "curtidas",
+          "controle público de comentários"
+        ],
+        "missing": [
+          "vídeo integral auditado quadro a quadro",
+          "imagem em movimento efetivamente analisada",
+          "áudio ouvido",
+          "fala ou transcrição",
+          "legendas",
+          "texto na tela",
+          "procedimento executado",
+          "resultado visual",
+          "edição",
+          "ritmo",
+          "retenção",
+          "baseline funcional contemporâneo",
+          "impressões e fontes de tráfego"
+        ]
+      },
+      "publicMetrics": {
+        "viewsObserved": "96",
+        "likesObserved": "2",
+        "commentsObserved": "quantidade não exibida",
+        "subscriberCountObserved": "não mensurado",
+        "observedAt": "2026-09-08",
+        "sourceType": "youtube_public_page_metadata_and_public_search",
+        "causality": "not_inferred"
+      },
+      "classification": {
+        "taxonomyVersion": "3.0",
+        "container": "youtube_short",
+        "materialFormat": "video_curto",
+        "presentationFormats": [
+          "tutorial"
+        ],
+        "primaryFamily": "educativo",
+        "secondaryFamilies": [
+          "demonstracao",
+          "explicativo"
+        ],
+        "functionalMix": [
+          {
+            "family": "educativo",
+            "percentage": 45
+          },
+          {
+            "family": "demonstracao",
+            "percentage": 35
+          },
+          {
+            "family": "explicativo",
+            "percentage": 20
+          }
+        ],
+        "objectives": [
+          "educar",
+          "salvamento",
+          "visualizacao"
+        ],
+        "advertisingType": "editorial_organico",
+        "commercialIntent": "ausente",
+        "advertisedEntity": {
+          "kind": "marca",
+          "name": "Canva",
+          "confidence": "high"
+        },
+        "contentTopic": {
+          "label": "efeito glitch no Canva",
+          "iabCode": null
+        },
+        "segment": "design e criação de conteúdo",
+        "subsegment": "efeito glitch no Canva",
+        "probableAudience": "criadores e pequenos negócios que usam Canva",
+        "awarenessStage": "consciente_solucao",
+        "productionLevel": "simple",
+        "creatorScale": "small",
+        "replicability": "high",
+        "durationBand": "31_to_60s",
+        "pace": "unknown",
+        "mechanisms": [
+          "curiosidade",
+          "recompensa",
+          "utilidade_pratica"
+        ],
+        "hookTypes": [
+          "promessa",
+          "resultado_antecipado"
+        ],
+        "narrativeElements": [
+          "promessa"
+        ],
+        "proofTypes": [
+          "ausencia_prova_necessaria"
+        ],
+        "ctaTypes": [],
+        "distributionContext": {
+          "organicPaid": "unknown",
+          "trendDependency": "unknown"
+        },
+        "confidence": "medium",
+        "evidence": [
+          "O título nomeia Canva e o efeito glitch.",
+          "Descrição e metadados confirmam o tema, mas não permitem observar execução ou entrega."
+        ],
+        "alternativeClassifications": [],
+        "missingInformation": [
+          "audiovisual",
+          "fala",
+          "transcrição",
+          "texto na tela",
+          "procedimento",
+          "resultado",
+          "ritmo",
+          "retenção",
+          "baseline"
+        ],
+        "needsHumanReview": true
+      },
+      "comparison": {
+        "level": 1,
+        "group": "microtutorial vertical de Canva com ferramenta e efeito específico nomeados no título",
+        "referenceIds": [
+          "obs-20260907-111",
+          "obs-20260907-112",
+          "obs-20260907-113"
+        ],
+        "confidence": "medium"
+      },
+      "observations": [
+        "Canva e o efeito glitch aparecem no título.",
+        "A substância visual e a entrega não ficaram acessíveis."
+      ],
+      "interpretations": [
+        "A referência apoia somente a clareza semântica da promessa, não a execução nem o desempenho.",
+        "A duração mantém comparabilidade estrutural de nível 1."
+      ],
+      "scores": {
+        "gancho": 88,
+        "clareza": 92,
+        "relevancia": 87,
+        "desejo": 82,
+        "confianca": "not_assessed",
+        "retencao": "not_assessed",
+        "acao": "not_assessed",
+        "objecoes": "not_assessed"
+      },
+      "fiveLenses": {
+        "apressado": "Identifica ferramenta e efeito antes da reprodução.",
+        "analitico": "Não consegue conferir passos ou resultado.",
+        "aspiracional": "A promessa de acabamento é compreensível, mas não auditada.",
+        "comunidade": "Não mensurado.",
+        "cetico": "Título específico não comprova entrega nem qualidade visual."
+      },
+      "hypotheses": [],
+      "replicable": [
+        "Nomear ferramenta e um único efeito verificável no título."
+      ],
+      "limitations": [
+        "Sem vídeo, fala ou transcrição, procedimento e resultado não são ensinados.",
+        "Métricas absolutas não demonstram eficácia."
+      ],
+      "provenance": [
+        "public_content",
+        "youtube_public_page",
+        "public_search",
+        "public_metric",
+        "observatory_inference"
+      ],
+      "sourceEvidence": [
+        "https://www.youtube.com/shorts/w618hj2UyTY"
+      ],
+      "training": {
+        "evidencePolicyVersion": "1.1",
+        "evidenceRole": "target_support",
+        "evidenceLevel": 1,
+        "requiredEvidenceObserved": true,
+        "supportEligible": true,
+        "claimCoverage": [
+          {
+            "claim": "Canva e microresultado específico aparecem no título",
+            "requiredModalities": [
+              "title"
+            ],
+            "observedModalities": [
+              "title"
+            ],
+            "sufficient": true
+          }
+        ],
+        "provenanceAndConsent": {
+          "storyOrigin": "not_applicable",
+          "consentStatus": "not_applicable",
+          "identityProtection": "not_applicable",
+          "evidence": [
+            "tutorial de ferramenta"
+          ]
+        },
+        "replicable": [
+          "Ferramenta + efeito específico no título."
+        ],
+        "contingent": [
+          "recurso disponível na versão usada",
+          "entrega audiovisual não observada"
+        ],
+        "notRecommended": [
+          "copiar frase ou roteiro",
+          "inferir cenas, ritmo, retenção ou resultado",
+          "tratar visualizações como prova"
+        ],
+        "hypotheses": []
+      },
+      "viralAssessment": {
+        "status": "indeterminate",
+        "observedSignal": "96 visualizações, sem baseline funcional",
+        "missingForRelativeAssessment": [
+          "baseline funcional contemporâneo",
+          "retenção",
+          "impressões",
+          "fontes de tráfego"
+        ],
+        "confounders": [
+          "tamanho do canal",
+          "distribuição",
+          "tema",
+          "idade do vídeo"
+        ],
+        "causalClaimAllowed": false
+      }
+    },
+    {
+      "id": "obs-20260908-117",
+      "title": "Como Fazer Efeito Reflexo no Canva (Tutorial Completo para Designs Profissionais!)",
+      "creator": "Airton Designer",
+      "creatorIdentity": "airton-designer",
+      "sourceIdentity": "airton-designer",
+      "country": "BR",
+      "url": "https://www.youtube.com/shorts/p-GriSqesrg",
+      "publishedAt": "2025-07-23",
+      "duration": "PT0M56S",
+      "createdAt": "2026-09-08T11:44:00.000Z",
+      "coverage": {
+        "level": "partial",
+        "accessible": [
+          "título",
+          "criador",
+          "descrição oficial parcial",
+          "capa indexada",
+          "data exata",
+          "duração",
+          "visualizações",
+          "curtidas",
+          "zero comentários exibidos"
+        ],
+        "missing": [
+          "vídeo integral auditado quadro a quadro",
+          "imagem em movimento efetivamente analisada",
+          "áudio ouvido",
+          "fala ou transcrição",
+          "legendas",
+          "texto na tela",
+          "procedimento executado",
+          "resultado visual",
+          "edição",
+          "ritmo",
+          "retenção",
+          "baseline funcional contemporâneo",
+          "impressões e fontes de tráfego"
+        ]
+      },
+      "publicMetrics": {
+        "viewsObserved": "538",
+        "likesObserved": "15",
+        "commentsObserved": "0",
+        "subscriberCountObserved": "não mensurado",
+        "observedAt": "2026-09-08",
+        "sourceType": "youtube_public_page_metadata_and_public_search",
+        "causality": "not_inferred"
+      },
+      "classification": {
+        "taxonomyVersion": "3.0",
+        "container": "youtube_short",
+        "materialFormat": "video_curto",
+        "presentationFormats": [
+          "tutorial"
+        ],
+        "primaryFamily": "demonstracao",
+        "secondaryFamilies": [
+          "educativo",
+          "transformacao"
+        ],
+        "functionalMix": [
+          {
+            "family": "demonstracao",
+            "percentage": 45
+          },
+          {
+            "family": "educativo",
+            "percentage": 35
+          },
+          {
+            "family": "transformacao",
+            "percentage": 20
+          }
+        ],
+        "objectives": [
+          "educar",
+          "salvamento",
+          "visualizacao"
+        ],
+        "advertisingType": "editorial_organico",
+        "commercialIntent": "ausente",
+        "advertisedEntity": {
+          "kind": "marca",
+          "name": "Canva",
+          "confidence": "high"
+        },
+        "contentTopic": {
+          "label": "efeito reflexo no Canva",
+          "iabCode": null
+        },
+        "segment": "design e criação de conteúdo",
+        "subsegment": "efeito reflexo no Canva",
+        "probableAudience": "criadores e pequenos negócios que usam Canva",
+        "awarenessStage": "consciente_solucao",
+        "productionLevel": "simple",
+        "creatorScale": "small",
+        "replicability": "high",
+        "durationBand": "31_to_60s",
+        "pace": "unknown",
+        "mechanisms": [
+          "curiosidade",
+          "recompensa",
+          "utilidade_pratica"
+        ],
+        "hookTypes": [
+          "promessa",
+          "resultado_antecipado"
+        ],
+        "narrativeElements": [
+          "promessa"
+        ],
+        "proofTypes": [
+          "ausencia_prova_necessaria"
+        ],
+        "ctaTypes": [],
+        "distributionContext": {
+          "organicPaid": "unknown",
+          "trendDependency": "unknown"
+        },
+        "confidence": "medium",
+        "evidence": [
+          "O título nomeia Canva e o efeito reflexo.",
+          "Descrição e metadados confirmam o tema, mas não permitem observar execução ou entrega."
+        ],
+        "alternativeClassifications": [],
+        "missingInformation": [
+          "audiovisual",
+          "fala",
+          "transcrição",
+          "texto na tela",
+          "procedimento",
+          "resultado",
+          "ritmo",
+          "retenção",
+          "baseline"
+        ],
+        "needsHumanReview": true
+      },
+      "comparison": {
+        "level": 1,
+        "group": "microtutorial vertical de Canva com ferramenta e efeito específico nomeados no título",
+        "referenceIds": [
+          "obs-20260907-111",
+          "obs-20260907-112",
+          "obs-20260907-113"
+        ],
+        "confidence": "medium"
+      },
+      "observations": [
+        "Canva e o efeito reflexo aparecem no título.",
+        "A substância visual e a entrega não ficaram acessíveis."
+      ],
+      "interpretations": [
+        "A referência apoia somente a clareza semântica da promessa, não a execução nem o desempenho.",
+        "A duração mantém comparabilidade estrutural de nível 1."
+      ],
+      "scores": {
+        "gancho": 88,
+        "clareza": 92,
+        "relevancia": 87,
+        "desejo": 82,
+        "confianca": "not_assessed",
+        "retencao": "not_assessed",
+        "acao": "not_assessed",
+        "objecoes": "not_assessed"
+      },
+      "fiveLenses": {
+        "apressado": "Identifica ferramenta e efeito antes da reprodução.",
+        "analitico": "Não consegue conferir passos ou resultado.",
+        "aspiracional": "A promessa de acabamento é compreensível, mas não auditada.",
+        "comunidade": "Não mensurado.",
+        "cetico": "Título específico não comprova entrega nem qualidade visual."
+      },
+      "hypotheses": [],
+      "replicable": [
+        "Nomear ferramenta e um único efeito verificável no título."
+      ],
+      "limitations": [
+        "Sem vídeo, fala ou transcrição, procedimento e resultado não são ensinados.",
+        "Métricas absolutas não demonstram eficácia."
+      ],
+      "provenance": [
+        "public_content",
+        "youtube_public_page",
+        "public_search",
+        "public_metric",
+        "observatory_inference"
+      ],
+      "sourceEvidence": [
+        "https://www.youtube.com/shorts/p-GriSqesrg"
+      ],
+      "training": {
+        "evidencePolicyVersion": "1.1",
+        "evidenceRole": "target_support",
+        "evidenceLevel": 1,
+        "requiredEvidenceObserved": true,
+        "supportEligible": true,
+        "claimCoverage": [
+          {
+            "claim": "Canva e microresultado específico aparecem no título",
+            "requiredModalities": [
+              "title"
+            ],
+            "observedModalities": [
+              "title"
+            ],
+            "sufficient": true
+          }
+        ],
+        "provenanceAndConsent": {
+          "storyOrigin": "not_applicable",
+          "consentStatus": "not_applicable",
+          "identityProtection": "not_applicable",
+          "evidence": [
+            "tutorial de ferramenta"
+          ]
+        },
+        "replicable": [
+          "Ferramenta + efeito específico no título."
+        ],
+        "contingent": [
+          "recurso disponível na versão usada",
+          "entrega audiovisual não observada"
+        ],
+        "notRecommended": [
+          "copiar frase ou roteiro",
+          "inferir cenas, ritmo, retenção ou resultado",
+          "tratar visualizações como prova"
+        ],
+        "hypotheses": []
+      },
+      "viralAssessment": {
+        "status": "indeterminate",
+        "observedSignal": "538 visualizações, sem baseline funcional",
+        "missingForRelativeAssessment": [
+          "baseline funcional contemporâneo",
+          "retenção",
+          "impressões",
+          "fontes de tráfego"
+        ],
+        "confounders": [
+          "tamanho do canal",
+          "distribuição",
+          "tema",
+          "idade do vídeo"
+        ],
+        "causalClaimAllowed": false
+      }
+    },
+    {
+      "id": "obs-20260908-118",
+      "title": "Efeito texto relevo no Canva #tutorial",
+      "creator": "Claudia Rodrigues Dicas e Tutoriais",
+      "creatorIdentity": "claudia-rodrigues-dicas-e-tutoriais",
+      "sourceIdentity": "claudia-rodrigues-dicas-e-tutoriais",
+      "country": "BR",
+      "url": "https://www.youtube.com/shorts/wcePIETyr-k",
+      "publishedAt": "2026-08-02",
+      "duration": "PT1M12S",
+      "createdAt": "2026-09-08T11:44:00.000Z",
+      "coverage": {
+        "level": "partial",
+        "accessible": [
+          "título",
+          "criador",
+          "descrição oficial parcial com pedido de apoio e links de afiliados",
+          "capa indexada",
+          "data exata",
+          "duração",
+          "visualizações",
+          "curtidas"
+        ],
+        "missing": [
+          "vídeo integral auditado quadro a quadro",
+          "imagem em movimento efetivamente analisada",
+          "áudio ouvido",
+          "fala ou transcrição",
+          "legendas",
+          "texto na tela",
+          "procedimento executado",
+          "resultado visual",
+          "edição",
+          "ritmo",
+          "retenção",
+          "baseline funcional contemporâneo",
+          "impressões e fontes de tráfego"
+        ]
+      },
+      "publicMetrics": {
+        "viewsObserved": "89",
+        "likesObserved": "4",
+        "commentsObserved": "não mensurado",
+        "subscriberCountObserved": "não mensurado",
+        "observedAt": "2026-09-08",
+        "sourceType": "youtube_public_page_metadata_and_public_search",
+        "causality": "not_inferred"
+      },
+      "classification": {
+        "taxonomyVersion": "3.0",
+        "container": "youtube_short",
+        "materialFormat": "video_curto",
+        "presentationFormats": [
+          "tutorial"
+        ],
+        "primaryFamily": "transformacao",
+        "secondaryFamilies": [
+          "demonstracao",
+          "educativo"
+        ],
+        "functionalMix": [
+          {
+            "family": "transformacao",
+            "percentage": 40
+          },
+          {
+            "family": "demonstracao",
+            "percentage": 35
+          },
+          {
+            "family": "educativo",
+            "percentage": 25
+          }
+        ],
+        "objectives": [
+          "educar",
+          "salvamento",
+          "visualizacao"
+        ],
+        "advertisingType": "publicidade_nativa",
+        "commercialIntent": "implicita",
+        "advertisedEntity": {
+          "kind": "marca",
+          "name": "Canva",
+          "confidence": "high"
+        },
+        "contentTopic": {
+          "label": "texto em relevo no Canva",
+          "iabCode": null
+        },
+        "segment": "design e criação de conteúdo",
+        "subsegment": "texto em relevo no Canva",
+        "probableAudience": "criadores e pequenos negócios que usam Canva",
+        "awarenessStage": "consciente_solucao",
+        "productionLevel": "simple",
+        "creatorScale": "small",
+        "replicability": "high",
+        "durationBand": "over_60s",
+        "pace": "unknown",
+        "mechanisms": [
+          "curiosidade",
+          "recompensa",
+          "utilidade_pratica"
+        ],
+        "hookTypes": [
+          "promessa",
+          "resultado_antecipado"
+        ],
+        "narrativeElements": [
+          "promessa"
+        ],
+        "proofTypes": [
+          "ausencia_prova_necessaria"
+        ],
+        "ctaTypes": [],
+        "distributionContext": {
+          "organicPaid": "unknown",
+          "trendDependency": "unknown"
+        },
+        "confidence": "medium",
+        "evidence": [
+          "O título nomeia Canva e o efeito de texto em relevo.",
+          "Descrição e metadados confirmam o tema, mas não permitem observar execução ou entrega."
+        ],
+        "alternativeClassifications": [],
+        "missingInformation": [
+          "audiovisual",
+          "fala",
+          "transcrição",
+          "texto na tela",
+          "procedimento",
+          "resultado",
+          "ritmo",
+          "retenção",
+          "baseline"
+        ],
+        "needsHumanReview": true
+      },
+      "comparison": {
+        "level": 2,
+        "group": "microtutorial vertical de Canva com ferramenta e efeito específico nomeados no título",
+        "referenceIds": [
+          "obs-20260907-111",
+          "obs-20260907-112",
+          "obs-20260907-113"
+        ],
+        "confidence": "medium"
+      },
+      "observations": [
+        "Canva e o efeito de texto em relevo aparecem no título.",
+        "A substância visual e a entrega não ficaram acessíveis."
+      ],
+      "interpretations": [
+        "A referência apoia somente a clareza semântica da promessa, não a execução nem o desempenho.",
+        "A duração acima de 60 segundos reduz a comparabilidade para nível 2."
+      ],
+      "scores": {
+        "gancho": 88,
+        "clareza": 92,
+        "relevancia": 87,
+        "desejo": 82,
+        "confianca": "not_assessed",
+        "retencao": "not_assessed",
+        "acao": "not_assessed",
+        "objecoes": "not_assessed"
+      },
+      "fiveLenses": {
+        "apressado": "Identifica ferramenta e efeito antes da reprodução.",
+        "analitico": "Não consegue conferir passos ou resultado.",
+        "aspiracional": "A promessa de acabamento é compreensível, mas não auditada.",
+        "comunidade": "Não mensurado.",
+        "cetico": "Título específico não comprova entrega nem qualidade visual."
+      },
+      "hypotheses": [],
+      "replicable": [
+        "Nomear ferramenta e um único efeito verificável no título."
+      ],
+      "limitations": [
+        "Sem vídeo, fala ou transcrição, procedimento e resultado não são ensinados.",
+        "Métricas absolutas não demonstram eficácia."
+      ],
+      "provenance": [
+        "public_content",
+        "youtube_public_page",
+        "public_search",
+        "public_metric",
+        "observatory_inference"
+      ],
+      "sourceEvidence": [
+        "https://www.youtube.com/shorts/wcePIETyr-k"
+      ],
+      "training": {
+        "evidencePolicyVersion": "1.1",
+        "evidenceRole": "target_support",
+        "evidenceLevel": 2,
+        "requiredEvidenceObserved": true,
+        "supportEligible": true,
+        "claimCoverage": [
+          {
+            "claim": "Canva e microresultado específico aparecem no título",
+            "requiredModalities": [
+              "title"
+            ],
+            "observedModalities": [
+              "title"
+            ],
+            "sufficient": true
+          }
+        ],
+        "provenanceAndConsent": {
+          "storyOrigin": "not_applicable",
+          "consentStatus": "not_applicable",
+          "identityProtection": "not_applicable",
+          "evidence": [
+            "tutorial de ferramenta"
+          ]
+        },
+        "replicable": [
+          "Ferramenta + efeito específico no título."
+        ],
+        "contingent": [
+          "recurso disponível na versão usada",
+          "entrega audiovisual não observada"
+        ],
+        "notRecommended": [
+          "copiar frase ou roteiro",
+          "inferir cenas, ritmo, retenção ou resultado",
+          "tratar visualizações como prova"
+        ],
+        "hypotheses": []
+      },
+      "viralAssessment": {
+        "status": "indeterminate",
+        "observedSignal": "89 visualizações, sem baseline funcional",
+        "missingForRelativeAssessment": [
+          "baseline funcional contemporâneo",
+          "retenção",
+          "impressões",
+          "fontes de tráfego"
+        ],
+        "confounders": [
+          "tamanho do canal",
+          "distribuição",
+          "tema",
+          "idade do vídeo"
+        ],
+        "causalClaimAllowed": false
+      }
+    },
+    {
+      "id": "obs-20260908-119",
+      "title": "Efeito incrível de vídeo no Canva #tutorial #canva #canvadesign",
+      "creator": "Sou Renato Melo",
+      "creatorIdentity": "sou-renato-melo",
+      "sourceIdentity": "sou-renato-melo",
+      "country": "BR",
+      "url": "https://www.youtube.com/shorts/cAw3vNx8My0",
+      "publishedAt": "2025-06-16",
+      "duration": "PT0M53S",
+      "createdAt": "2026-09-08T11:44:00.000Z",
+      "coverage": {
+        "level": "partial",
+        "accessible": [
+          "título",
+          "criador",
+          "capa indexada",
+          "data exata",
+          "duração",
+          "4.361 visualizações",
+          "223 curtidas",
+          "11 comentários declarados",
+          "snippet indexado que menciona linhas simples e efeito 3D"
+        ],
+        "missing": [
+          "descrição oficial substantiva na página ao vivo",
+          "vídeo integral auditado quadro a quadro",
+          "imagem em movimento efetivamente analisada",
+          "áudio ouvido",
+          "fala ou transcrição",
+          "legendas",
+          "texto na tela",
+          "procedimento executado",
+          "resultado visual",
+          "edição",
+          "ritmo",
+          "retenção",
+          "baseline funcional contemporâneo",
+          "impressões e fontes de tráfego"
+        ]
+      },
+      "publicMetrics": {
+        "viewsObserved": "4.361",
+        "likesObserved": "223",
+        "commentsObserved": "11",
+        "subscriberCountObserved": "não mensurado",
+        "observedAt": "2026-09-08",
+        "sourceType": "youtube_public_page_metadata_and_public_search",
+        "causality": "not_inferred"
+      },
+      "classification": {
+        "taxonomyVersion": "3.0",
+        "container": "youtube_short",
+        "materialFormat": "video_curto",
+        "presentationFormats": [
+          "indeterminado"
+        ],
+        "primaryFamily": "curiosidade",
+        "secondaryFamilies": [
+          "educativo",
+          "demonstracao"
+        ],
+        "functionalMix": [
+          {
+            "family": "curiosidade",
+            "percentage": 45
+          },
+          {
+            "family": "educativo",
+            "percentage": 30
+          },
+          {
+            "family": "demonstracao",
+            "percentage": 25
+          }
+        ],
+        "objectives": [
+          "visualizacao",
+          "educar"
+        ],
+        "advertisingType": "editorial_organico",
+        "commercialIntent": "ausente",
+        "advertisedEntity": {
+          "kind": "marca",
+          "name": "Canva",
+          "confidence": "high"
+        },
+        "contentTopic": {
+          "label": "efeito de vídeo não especificado no título",
+          "iabCode": null
+        },
+        "segment": "design e criação de conteúdo",
+        "subsegment": "efeito de vídeo no Canva",
+        "probableAudience": "usuários de Canva",
+        "awarenessStage": "consciente_solucao",
+        "productionLevel": "simple",
+        "creatorScale": "medium",
+        "replicability": "high",
+        "durationBand": "31_to_60s",
+        "pace": "unknown",
+        "mechanisms": [
+          "curiosidade",
+          "novidade"
+        ],
+        "hookTypes": [
+          "promessa"
+        ],
+        "narrativeElements": [
+          "promessa"
+        ],
+        "proofTypes": [
+          "ausencia_prova_necessaria"
+        ],
+        "ctaTypes": [],
+        "distributionContext": {
+          "organicPaid": "unknown",
+          "trendDependency": "unknown"
+        },
+        "confidence": "medium",
+        "evidence": [
+          "O título usa o adjetivo genérico 'incrível' sem nomear o efeito.",
+          "Um snippet de busca menciona efeito 3D, mas a página ao vivo não expôs descrição substantiva e o vídeo não reproduziu."
+        ],
+        "alternativeClassifications": [],
+        "missingInformation": [
+          "efeito verificável na página ao vivo",
+          "audiovisual",
+          "fala",
+          "transcrição",
+          "procedimento",
+          "resultado",
+          "retenção",
+          "baseline"
+        ],
+        "needsHumanReview": true
+      },
+      "comparison": {
+        "level": 1,
+        "group": "caso-limite de microtutorial de Canva com ferramenta nomeada e resultado genérico no título",
+        "referenceIds": [
+          "obs-20260824-022",
+          "obs-20260907-114",
+          "obs-20260908-116"
+        ],
+        "confidence": "high"
+      },
+      "observations": [
+        "O título nomeia Canva, mas usa 'efeito incrível' sem especificar o microresultado.",
+        "O snippet indexado contém maior especificidade que o título; a entrega não pôde ser conferida."
+      ],
+      "interpretations": [
+        "É caso-limite, não contraexemplo.",
+        "Comentários e alcance absolutos não provam eficácia do título genérico."
+      ],
+      "scores": {
+        "gancho": 73,
+        "clareza": 48,
+        "relevancia": "not_assessed",
+        "desejo": "not_assessed",
+        "confianca": "not_assessed",
+        "retencao": "not_assessed",
+        "acao": "not_assessed",
+        "objecoes": "not_assessed"
+      },
+      "fiveLenses": {
+        "apressado": "Sabe apenas que haverá um efeito no Canva.",
+        "analitico": "Não identifica o efeito pelo título.",
+        "aspiracional": "O adjetivo sugere resultado, sem prova visual.",
+        "comunidade": "Onze comentários são declarados; seu teor não foi acessado.",
+        "cetico": "Snippet e métricas não substituem demonstração."
+      },
+      "hypotheses": [],
+      "replicable": [],
+      "limitations": [
+        "Não ensina cenas, passos ou resultado.",
+        "Não conta como apoio nem contraexemplo."
+      ],
+      "provenance": [
+        "public_content",
+        "youtube_public_page",
+        "public_search",
+        "public_metric",
+        "observatory_inference"
+      ],
+      "sourceEvidence": [
+        "https://www.youtube.com/shorts/cAw3vNx8My0"
+      ],
+      "training": {
+        "evidencePolicyVersion": "1.1",
+        "evidenceRole": "falsification_or_boundary",
+        "evidenceLevel": 1,
+        "requiredEvidenceObserved": false,
+        "supportEligible": false,
+        "claimCoverage": [
+          {
+            "claim": "o título usa promessa genérica e não nomeia o microresultado",
+            "requiredModalities": [
+              "title"
+            ],
+            "observedModalities": [
+              "title"
+            ],
+            "sufficient": true
+          },
+          {
+            "claim": "a demonstração entrega um efeito 3D específico",
+            "requiredModalities": [
+              "video_or_transcript"
+            ],
+            "observedModalities": [
+              "title",
+              "search_snippet"
+            ],
+            "sufficient": false
+          }
+        ],
+        "provenanceAndConsent": {
+          "storyOrigin": "not_applicable",
+          "consentStatus": "not_applicable",
+          "identityProtection": "not_applicable",
+          "evidence": [
+            "tutorial de ferramenta"
+          ]
+        },
+        "replicable": [],
+        "contingent": [
+          "descrição indexada",
+          "acesso ao audiovisual"
+        ],
+        "notRecommended": [
+          "ensinar o efeito sem observá-lo",
+          "tratar comentários ou visualizações como prova"
+        ],
+        "hypotheses": []
+      },
+      "viralAssessment": {
+        "status": "indeterminate",
+        "observedSignal": "4.361 visualizações e 11 comentários declarados, sem baseline funcional",
+        "missingForRelativeAssessment": [
+          "baseline funcional contemporâneo",
+          "retenção",
+          "impressões",
+          "fontes de tráfego"
+        ],
+        "confounders": [
+          "tamanho do canal",
+          "distribuição",
+          "tema",
+          "idade do vídeo"
+        ],
+        "causalClaimAllowed": false
+      }
+    },
+    {
+      "id": "obs-20260908-120",
+      "title": "Eu sou a marmota, Flávio. #humor #comedia #assessoria",
+      "creator": "Marianna Armellini",
+      "creatorIdentity": "marianna-armellini",
+      "sourceIdentity": "mariarmellini",
+      "country": "BR",
+      "url": "https://www.instagram.com/reel/Db-osRMBGW5/",
+      "publishedAt": "2026-08-12",
+      "duration": "unknown",
+      "createdAt": "2026-09-08T11:44:00.000Z",
+      "coverage": {
+        "level": "partial",
+        "accessible": [
+          "URL da publicação individual",
+          "criadora",
+          "legenda curta",
+          "data pública",
+          "aprox. 156 mil curtidas",
+          "aprox. 7.464 comentários"
+        ],
+        "missing": [
+          "vídeo",
+          "imagem ou capa confiável",
+          "fala",
+          "áudio",
+          "transcrição",
+          "legendas de acessibilidade",
+          "texto na tela",
+          "personagens",
+          "cenas",
+          "estrutura da piada",
+          "CTA",
+          "duração",
+          "edição",
+          "ritmo",
+          "retenção",
+          "baseline funcional contemporâneo",
+          "mídia paga e distribuição"
+        ]
+      },
+      "publicMetrics": {
+        "likesObserved": "aprox. 156 mil",
+        "commentsObserved": "aprox. 7.464",
+        "viewsObserved": "não mensurado",
+        "observedAt": "2026-09-08",
+        "sourceType": "public_search_index_of_instagram_post",
+        "causality": "not_inferred"
+      },
+      "classification": {
+        "taxonomyVersion": "3.0",
+        "container": "instagram_reel",
+        "materialFormat": "reel",
+        "presentationFormats": [
+          "indeterminado"
+        ],
+        "primaryFamily": "humor",
+        "secondaryFamilies": [
+          "entretenimento"
+        ],
+        "functionalMix": [
+          {
+            "family": "humor",
+            "percentage": 70
+          },
+          {
+            "family": "entretenimento",
+            "percentage": 30
+          }
+        ],
+        "objectives": [
+          "visualizacao",
+          "comentario",
+          "compartilhamento"
+        ],
+        "advertisingType": "editorial_organico",
+        "commercialIntent": "ausente",
+        "advertisedEntity": {
+          "kind": "nenhuma",
+          "name": "",
+          "confidence": "medium"
+        },
+        "contentTopic": {
+          "label": "humor sobre assessoria, conteúdo inacessível",
+          "iabCode": null
+        },
+        "segment": "entretenimento e comentário cultural",
+        "subsegment": "humor de assessoria",
+        "probableAudience": "não mensurado",
+        "awarenessStage": "indeterminado",
+        "productionLevel": "unknown",
+        "creatorScale": "large",
+        "replicability": "unknown",
+        "durationBand": "unknown",
+        "pace": "unknown",
+        "mechanisms": [
+          "humor",
+          "identificacao"
+        ],
+        "hookTypes": [
+          "indeterminado"
+        ],
+        "narrativeElements": [],
+        "proofTypes": [
+          "ausencia_prova_necessaria"
+        ],
+        "ctaTypes": [],
+        "distributionContext": {
+          "organicPaid": "unknown",
+          "trendDependency": "unknown"
+        },
+        "confidence": "low",
+        "evidence": [
+          "Legenda e hashtags classificam a intenção como humor.",
+          "O conteúdo audiovisual não ficou acessível."
+        ],
+        "alternativeClassifications": [],
+        "missingInformation": [
+          "vídeo",
+          "fala",
+          "personagens",
+          "estrutura",
+          "CTA",
+          "ritmo",
+          "retenção",
+          "baseline"
+        ],
+        "needsHumanReview": true
+      },
+      "comparison": {
+        "level": 3,
+        "group": "exploração controlada de humor; cobertura insuficiente para comparação funcional",
+        "referenceIds": [
+          "obs-20260825-047"
+        ],
+        "confidence": "low"
+      },
+      "observations": [
+        "A legenda identifica humor e assessoria; nenhuma cena ou fala foi observada.",
+        "Curtidas e comentários absolutos não demonstram mecanismo causal."
+      ],
+      "interpretations": [
+        "O material amplia cobertura de família, mas não ensina estrutura criativa nem cria hipótese."
+      ],
+      "scores": {
+        "gancho": "not_assessed",
+        "clareza": 62,
+        "relevancia": "not_assessed",
+        "desejo": "not_assessed",
+        "confianca": "not_assessed",
+        "retencao": "not_assessed",
+        "acao": "not_assessed",
+        "objecoes": "not_assessed"
+      },
+      "fiveLenses": {
+        "apressado": "A legenda sinaliza humor, mas não revela a situação.",
+        "analitico": "Sem conteúdo suficiente para decompor mecanismo.",
+        "aspiracional": "Não mensurado.",
+        "comunidade": "Volume de comentários foi observado; teor e resposta não.",
+        "cetico": "Métricas e hashtags não substituem o vídeo."
+      },
+      "hypotheses": [],
+      "replicable": [],
+      "limitations": [
+        "Não ensina a referência porque cenas, fala e estrutura não ficaram acessíveis.",
+        "Popularidade é apenas contexto."
+      ],
+      "provenance": [
+        "public_content",
+        "public_search",
+        "public_metric",
+        "observatory_inference"
+      ],
+      "sourceEvidence": [
+        "https://www.instagram.com/reel/Db-osRMBGW5/"
+      ],
+      "training": {
+        "evidencePolicyVersion": "1.1",
+        "evidenceRole": "controlled_exploration",
+        "evidenceLevel": 3,
+        "requiredEvidenceObserved": false,
+        "supportEligible": false,
+        "claimCoverage": [
+          {
+            "claim": "a publicação se apresenta como humor sobre assessoria",
+            "requiredModalities": [
+              "caption"
+            ],
+            "observedModalities": [
+              "caption"
+            ],
+            "sufficient": true
+          },
+          {
+            "claim": "estrutura e mecanismo humorístico",
+            "requiredModalities": [
+              "video_or_transcript"
+            ],
+            "observedModalities": [
+              "caption"
+            ],
+            "sufficient": false
+          }
+        ],
+        "provenanceAndConsent": {
+          "storyOrigin": "unknown",
+          "consentStatus": "unknown",
+          "identityProtection": "unknown",
+          "evidence": [
+            "apenas publicação indexada; elenco e personagens não observados"
+          ]
+        },
+        "replicable": [],
+        "contingent": [
+          "acesso ao vídeo",
+          "contexto cultural",
+          "atuação e personagens não observados"
+        ],
+        "notRecommended": [
+          "copiar personagem, fala ou roteiro",
+          "inferir estrutura pela legenda",
+          "atribuir causalidade às métricas"
+        ],
+        "hypotheses": []
+      },
+      "viralAssessment": {
+        "status": "indeterminate",
+        "observedSignal": "aprox. 156 mil curtidas e 7.464 comentários, sem baseline funcional",
+        "missingForRelativeAssessment": [
+          "visualizações",
+          "baseline funcional contemporâneo",
+          "retenção",
+          "impressões",
+          "fontes de tráfego"
+        ],
+        "confounders": [
+          "tamanho da criadora",
+          "distribuição",
+          "atualidade cultural",
+          "repostagens"
+        ],
+        "causalClaimAllowed": false
+      }
     }
   ],
   "patterns": [
@@ -28650,10 +29896,13 @@
         "obs-20260824-023",
         "obs-20260907-111",
         "obs-20260907-112",
-        "obs-20260907-113"
+        "obs-20260907-113",
+        "obs-20260908-116",
+        "obs-20260908-117",
+        "obs-20260908-118"
       ],
-      "comparableSupportCount": 5,
-      "supportingCount": 5,
+      "comparableSupportCount": 8,
+      "supportingCount": 8,
       "counterexampleCount": 0,
       "comparisonLevel": 1,
       "confidence": "medium",
@@ -28713,26 +29962,59 @@
           "limitations": [
             "Vídeo e texto na tela não foram auditados; não é contraexemplo."
           ]
+        },
+        {
+          "referenceId": "obs-20260908-116",
+          "observation": "Canva e efeito glitch aparecem no título.",
+          "evidence": "Título, descrição parcial, data, duração e métricas.",
+          "limitations": [
+            "Sem audiovisual, fala ou transcrição; apoia apenas clareza semântica."
+          ]
+        },
+        {
+          "referenceId": "obs-20260908-117",
+          "observation": "Canva e efeito reflexo aparecem no título.",
+          "evidence": "Título, descrição parcial, data, duração, métricas e zero comentários exibidos.",
+          "limitations": [
+            "Sem audiovisual, fala ou transcrição; entrega não verificada."
+          ]
+        },
+        {
+          "referenceId": "obs-20260908-118",
+          "observation": "Canva e texto em relevo aparecem no título.",
+          "evidence": "Título, descrição parcial, data, duração e métricas.",
+          "limitations": [
+            "72 segundos; sem audiovisual, fala ou transcrição."
+          ]
+        },
+        {
+          "referenceId": "obs-20260908-119",
+          "observation": "Caso-limite: título usa 'efeito incrível' sem identificar resultado.",
+          "evidence": "Título, snippet, data, duração e métricas.",
+          "limitations": [
+            "Vídeo não reproduziu; não é contraexemplo."
+          ]
         }
       ],
       "limitations": [
         "O padrão descreve clareza semântica da promessa, não desempenho.",
-        "Cinco apoios de cinco criadores e fontes independentes satisfazem recorrência estrutural.",
-        "Dois novos apoios têm menos de 60 segundos e um tem 112 segundos; a comparabilidade deste último é nível 2.",
-        "Três novas transcrições confirmam sequência falada, mas nenhum audiovisual foi auditado.",
-        "Visualizações variam e não provam causalidade; nenhum apoio possui retenção ou experimento de compreensão.",
-        "Dois títulos genéricos são casos-limite, não contraexemplos."
+        "Oito apoios de oito criadores e fontes independentes demonstram recorrência estrutural.",
+        "Três apoios novos dependem de título e metadados; procedimento e entrega não foram observados.",
+        "Um apoio novo excede 60 segundos e tem comparabilidade de nível 2.",
+        "Nenhum apoio possui retenção, baseline ou experimento de compreensão.",
+        "Três títulos genéricos são casos-limite; nenhum é contraexemplo genuíno."
       ],
       "validation": "requires_human_or_experimental_evidence",
       "taxonomyVersion": "3.0",
-      "creatorDiversityCount": 5,
-      "sourceDiversityCount": 5,
+      "creatorDiversityCount": 8,
+      "sourceDiversityCount": 8,
       "patternType": "outro",
       "caseLimitReferenceIds": [
         "obs-20260824-022",
-        "obs-20260907-114"
+        "obs-20260907-114",
+        "obs-20260908-119"
       ],
-      "caseLimitCount": 2
+      "caseLimitCount": 3
     },
     {
       "id": "pat-20260828-006",
@@ -31354,6 +32636,114 @@
         "Três transcrições cobrem fala, não imagem nem texto na tela.",
         "Comentários e baseline funcional não ficaram acessíveis.",
         "Um vídeo de comparação teve apenas título e descrição.",
+        "Nenhum resultado autoriza causalidade ou validação."
+      ]
+    },
+    {
+      "id": "run-20260908-supervised-020",
+      "executedAt": "2026-09-08T11:44:00.000Z",
+      "batchPolicyVersion": "1.1",
+      "requestedBatchSize": 5,
+      "candidatesFound": 20,
+      "referenceIds": [
+        "obs-20260908-116",
+        "obs-20260908-117",
+        "obs-20260908-118",
+        "obs-20260908-119",
+        "obs-20260908-120"
+      ],
+      "targetKnowledgeId": "pat-20260824-005",
+      "targetReferenceIds": [
+        "obs-20260908-116",
+        "obs-20260908-117",
+        "obs-20260908-118"
+      ],
+      "falsificationOrBoundaryReferenceIds": [
+        "obs-20260908-119"
+      ],
+      "controlledExplorationReferenceIds": [
+        "obs-20260908-120"
+      ],
+      "discarded": [
+        {
+          "url": "https://www.youtube.com/shorts/-Ep2fJZ3zHU",
+          "reason": "mesmo criador do apoio glitch; não aumentaria independência"
+        },
+        {
+          "url": "https://www.youtube.com/shorts/qbVJ2LPNf80",
+          "reason": "cobertura mais pobre que a dos três apoios escolhidos"
+        },
+        {
+          "url": "https://www.youtube.com/shorts/qsmNalD4t90",
+          "reason": "sem data, métricas ou transcrição suficientes"
+        },
+        {
+          "url": "https://www.youtube.com/shorts/wPfzRCII7Ng",
+          "reason": "conteúdo indisponível na indexação pública"
+        },
+        {
+          "url": "https://www.youtube.com/shorts/wdks-OzsRf8",
+          "reason": "vídeo antigo e sem cobertura suficiente"
+        }
+      ],
+      "analyzed": 5,
+      "brazilianReferences": 5,
+      "internationalReferences": 0,
+      "unknownOriginReferences": 0,
+      "smallOrMediumCreatorReferences": 4,
+      "coverageSummary": {
+        "complete": 0,
+        "partial": 5,
+        "insufficient": 0
+      },
+      "audiovisualAcquisition": {
+        "attempted": true,
+        "succeeded": 0,
+        "failure": "controles e metadados abriram, mas os vídeos permaneceram em tempo zero e sem quadros reproduzidos; nenhuma transcrição ficou disponível",
+        "effect": "cenas, fala, áudio, texto na tela, execução, resultado, edição, ritmo e retenção ficaram não mensurados"
+      },
+      "commentsCoverage": {
+        "fullOrDeclaredZero": 1,
+        "partialSample": 0
+      },
+      "baselineCoverage": {
+        "sampledProfiles": 0,
+        "contemporaneousBaselines": 0,
+        "limitation": "métricas absolutas foram registradas, mas nenhum baseline funcional contemporâneo foi calculado"
+      },
+      "patternsCreated": [],
+      "patternsStrengthened": [
+        "pat-20260824-005"
+      ],
+      "patternsRefined": [],
+      "hypothesesCreated": [],
+      "hypothesesStrengthened": [],
+      "validatedPatternsCreated": 0,
+      "contradictionsFound": [],
+      "caseLimitsFound": [
+        "um título pode nomear Canva e ainda esconder o microresultado atrás de adjetivo genérico; snippet mais específico não substitui a promessa do título nem prova entrega"
+      ],
+      "safetyFindings": [
+        "nenhum procedimento ou resultado visual inacessível foi ensinado",
+        "a exploração de humor ficou limitada à legenda e às métricas",
+        "zero comentários foi registrado como observado; ausência de contagem nos demais não virou zero"
+      ],
+      "evidenceGateSummary": {
+        "targetSupportsEligible": 3,
+        "targetSupportsRejected": 0,
+        "boundaryCases": 1,
+        "explorationReferences": 1,
+        "duplicateUrls": 0,
+        "independentCreatorsAddedToPattern": 3,
+        "newHypotheses": 0
+      },
+      "outcome": "Três títulos específicos ampliaram a recorrência semântica do padrão de cinco para oito apoios independentes. Um novo título genérico virou caso-limite. Não surgiu contraexemplo genuíno nem evidência audiovisual de entrega.",
+      "nextTarget": "microtutorial brasileiro de Canva ou ferramenta equivalente com arquivo audiovisual ou transcrição integral, texto na tela, comentários e baseline; priorizar título específico cuja demonstração falhe ou não entregue o resultado",
+      "limitations": [
+        "Nenhum audiovisual foi reproduzido ou auditado.",
+        "Nenhuma transcrição ficou disponível.",
+        "Comentários foram zero declarado em um Short, 11 declarados em outro e não mensurados nos demais.",
+        "Sem baseline funcional ou retenção.",
         "Nenhum resultado autoriza causalidade ou validação."
       ]
     }
