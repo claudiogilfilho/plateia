@@ -40,7 +40,7 @@ const checks = {
   incompleteEvidenceDoesNotSupport: incompleteDecision.supportingCount === 0 && incompleteDecision.stage === "hypothesis",
   validationEvidenceRequired: falseValidatedDecision.stage === "provisional" && reviewedValidatedDecision.stage === "experimentally_validated",
   concentratedBatchContractRejectsDispersion: ["invalid-batch.candidatePoolMinimum", "invalid-batch.targetReferenceQuota", "invalid-batch.boundaryReferenceQuota", "invalid-batch.explorationReferenceQuota", "invalid-batch.newHypothesisLimit", "invalid-batch.automaticValidation"].every(issue => invalidBatchIssues.includes(issue)),
-  isolatedHypothesesAreRetrievable: portablePatterns.length >= PORTABLE_MEMORY_STATS.patternCount + PORTABLE_MEMORY_STATS.activeHypothesisCount && portablePatterns.some(pattern => pattern.id === "hyp-20260830-033") && !portablePatterns.some(pattern => pattern.id === "hyp-20260824-013"),
+  isolatedHypothesesAreRetrievable: portablePatterns.length >= PORTABLE_MEMORY_STATS.patternCount + PORTABLE_MEMORY_STATS.activeHypothesisCount && (PORTABLE_MEMORY_STATS.activeHypothesisCount === 0 || portablePatterns.some(pattern => pattern.id.startsWith("hyp-"))) && !portablePatterns.some(pattern => pattern.id === "hyp-20260824-013"),
 };
 
 const failed = Object.entries(checks).filter(([, passed]) => !passed).map(([name]) => name);

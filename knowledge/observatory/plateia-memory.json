@@ -1,6 +1,6 @@
 {
   "protocol": "plateia-memory/1.0",
-  "updatedAt": "2026-09-10T12:12:55.000Z",
+  "updatedAt": "2026-09-11T11:34:38.000Z",
   "references": [
     {
       "id": "obs-20260823-001",
@@ -32158,6 +32158,1385 @@
         ],
         "causalClaimAllowed": false
       }
+    },
+    {
+      "id": "obs-20260911-131",
+      "title": "POST ou AFTER? Como dizer \"DEPOIS\" em inglês?",
+      "creator": "ANAEL THE TEACHER",
+      "creatorIdentity": "anael-the-teacher",
+      "sourceIdentity": "anael-the-teacher",
+      "country": "BR",
+      "url": "https://www.youtube.com/shorts/7Hmnq1jVmTI",
+      "publishedAt": "2026-02-11",
+      "duration": "PT41S",
+      "createdAt": "2026-09-11T11:34:38.000Z",
+      "coverage": {
+        "level": "partial",
+        "accessible": [
+          "título",
+          "criadora",
+          "descrição integral",
+          "data exata",
+          "duração",
+          "transcrição automática integral com timestamps",
+          "fala por substituição textual",
+          "150 visualizações",
+          "zero comentários declarado",
+          "2,58 mil inscritos"
+        ],
+        "missing": [
+          "vídeo integral auditado quadro a quadro",
+          "imagem em movimento efetivamente analisada",
+          "áudio ouvido",
+          "texto na tela",
+          "edição",
+          "ritmo",
+          "curva de retenção",
+          "baseline funcional contemporâneo",
+          "impressões e fontes de tráfego",
+          "mídia paga"
+        ]
+      },
+      "publicMetrics": {
+        "viewsObserved": "150",
+        "likesObserved": "não disponível",
+        "commentsObserved": "0 declarado",
+        "subscriberCountObserved": "2,58 mil",
+        "observedAt": "2026-09-11",
+        "sourceType": "youtube_public_metadata_transcript_description_and_comments_after_public_search",
+        "causality": "not_inferred"
+      },
+      "classification": {
+        "taxonomyVersion": "3.0",
+        "container": "youtube_short",
+        "materialFormat": "video_curto",
+        "presentationFormats": [
+          "tutorial"
+        ],
+        "primaryFamily": "educativo",
+        "secondaryFamilies": [
+          "comunidade",
+          "venda_indireta"
+        ],
+        "functionalMix": [
+          {
+            "family": "educativo",
+            "percentage": 65
+          },
+          {
+            "family": "comunidade",
+            "percentage": 20
+          },
+          {
+            "family": "venda_indireta",
+            "percentage": 15
+          }
+        ],
+        "objectives": [
+          "educar",
+          "comentario",
+          "seguidores"
+        ],
+        "advertisingType": "geracao_de_leads",
+        "commercialIntent": "explicita",
+        "advertisedEntity": {
+          "kind": "servico",
+          "name": "aulas ANAEL THE TEACHER",
+          "confidence": "high"
+        },
+        "contentTopic": {
+          "label": "diferença de uso entre post e after",
+          "iabCode": null
+        },
+        "segment": "educação e idiomas",
+        "subsegment": "vocabulário de inglês para brasileiros",
+        "probableAudience": "brasileiros iniciantes ou intermediários em inglês",
+        "awarenessStage": "consciente_problema",
+        "productionLevel": "simple",
+        "creatorScale": "small",
+        "replicability": "high",
+        "durationBand": "31_to_60s",
+        "pace": "unknown",
+        "mechanisms": [
+          "utilidade_pratica",
+          "recompensa",
+          "pertencimento"
+        ],
+        "hookTypes": [
+          "pergunta",
+          "problema"
+        ],
+        "narrativeElements": [
+          "problema",
+          "mecanismo",
+          "conclusao",
+          "cta"
+        ],
+        "proofTypes": [
+          "mecanismo_explicado"
+        ],
+        "ctaTypes": [
+          "comentar",
+          "seguir"
+        ],
+        "distributionContext": {
+          "organicPaid": "unknown",
+          "trendDependency": "low"
+        },
+        "confidence": "high",
+        "evidence": [
+          "A fala distingue os dois usos e a descrição pede uma frase com after nos comentários.",
+          "A publicação declara zero comentários; isso não prova ausência de prática fora da plataforma."
+        ],
+        "alternativeClassifications": [
+          "comunidade como família secundária"
+        ],
+        "missingInformation": [
+          "vídeo integral auditado quadro a quadro",
+          "imagem em movimento efetivamente analisada",
+          "áudio ouvido",
+          "texto na tela",
+          "edição",
+          "ritmo",
+          "curva de retenção",
+          "baseline funcional contemporâneo",
+          "impressões e fontes de tráfego",
+          "mídia paga"
+        ],
+        "needsHumanReview": true
+      },
+      "comparison": {
+        "level": 2,
+        "group": "aula de idioma cujo CTA pede aplicação do conteúdo em uma frase",
+        "referenceIds": [
+          "obs-20260830-075",
+          "obs-20260911-132",
+          "obs-20260911-133"
+        ],
+        "confidence": "high"
+      },
+      "observations": [
+        "A explicação diferencia uso cotidiano e uso formal antes do CTA.",
+        "A descrição transforma o comentário em tarefa delimitada: produzir uma frase com o termo ensinado.",
+        "Zero comentários foi registrado como métrica pública, não como nota nem prova de falha."
+      ],
+      "interpretations": [
+        "O CTA mantém continuidade semântica com a aula.",
+        "Sem respostas observadas, não se sabe se a tarefa foi executada ou compreendida."
+      ],
+      "scores": {
+        "gancho": 86,
+        "clareza": 90,
+        "relevancia": 87,
+        "desejo": 70,
+        "confianca": 80,
+        "retencao": "not_assessed",
+        "acao": 91,
+        "objecoes": 82
+      },
+      "fiveLenses": {
+        "apressado": "Entende a dúvida e a distinção na fala transcrita.",
+        "analitico": "Recebe regra e exemplos; a execução visual não foi auditada.",
+        "aspiracional": "A tarefa oferece uso imediato, sem prometer fluência.",
+        "comunidade": "Pode responder com frase, mas não houve resposta pública.",
+        "cetico": "Não há base para afirmar aprendizagem ou engajamento."
+      },
+      "hypotheses": [],
+      "replicable": [
+        "Pedir uma produção curta usando exatamente o item ensinado.",
+        "Definir a unidade de resposta, como uma frase, em vez de pedir comentário genérico."
+      ],
+      "limitations": [
+        "A instrução mais específica está na descrição; a fala pede comentário de forma menos delimitada.",
+        "Zero comentários não é contraexemplo sem alcance comparável e baseline.",
+        "Audiovisual e retenção não foram auditados."
+      ],
+      "provenance": [
+        "public_content",
+        "youtube_public_metadata",
+        "youtube_automatic_transcript",
+        "youtube_public_description",
+        "public_metric",
+        "observatory_inference"
+      ],
+      "sourceEvidence": [
+        "https://www.youtube.com/shorts/7Hmnq1jVmTI"
+      ],
+      "training": {
+        "evidencePolicyVersion": "1.1",
+        "evidenceRole": "target_support",
+        "evidenceLevel": 2,
+        "requiredEvidenceObserved": true,
+        "supportEligible": true,
+        "claimCoverage": [
+          {
+            "claim": "a publicação ensina uma distinção de uso",
+            "requiredModalities": [
+              "transcript",
+              "description"
+            ],
+            "observedModalities": [
+              "transcript",
+              "description"
+            ],
+            "sufficient": true
+          },
+          {
+            "claim": "o CTA pede uma frase que aplique o conteúdo",
+            "requiredModalities": [
+              "description"
+            ],
+            "observedModalities": [
+              "description"
+            ],
+            "sufficient": true
+          }
+        ],
+        "provenanceAndConsent": {
+          "storyOrigin": "explicação didática original da criadora",
+          "consentStatus": "not_applicable",
+          "identityProtection": "not_applicable",
+          "evidence": [
+            "nenhuma história pessoal ou pessoa terceira é usada na cobertura textual"
+          ]
+        },
+        "replicable": [
+          "Pedir uma produção curta usando exatamente o item ensinado.",
+          "Definir a unidade de resposta, como uma frase, em vez de pedir comentário genérico."
+        ],
+        "contingent": [
+          "A instrução mais específica está na descrição; a fala pede comentário de forma menos delimitada.",
+          "Zero comentários não é contraexemplo sem alcance comparável e baseline.",
+          "Audiovisual e retenção não foram auditados."
+        ],
+        "notRecommended": [
+          "copiar frase, personagem ou roteiro",
+          "tratar volume de comentários, visualizações ou tamanho do canal como prova de aprendizagem",
+          "confundir pedido de engajamento com exercício aplicado",
+          "inferir cenas, áudio, edição, ritmo, retenção ou causalidade não observados"
+        ],
+        "hypotheses": []
+      },
+      "viralAssessment": {
+        "status": "indeterminate",
+        "observedSignal": "150",
+        "missingForRelativeAssessment": [
+          "baseline funcional contemporâneo",
+          "retenção",
+          "impressões",
+          "fontes de tráfego",
+          "mídia paga"
+        ],
+        "confounders": [
+          "tamanho do canal",
+          "distribuição",
+          "idade do vídeo",
+          "tema",
+          "oferta"
+        ],
+        "causalClaimAllowed": false
+      }
+    },
+    {
+      "id": "obs-20260911-132",
+      "title": "LIE X LAY — entenda em menos de 2 minutos",
+      "creator": "Teacher Natália de Oliveira",
+      "creatorIdentity": "teacher-natalia-de-oliveira",
+      "sourceIdentity": "teacher-natalia-de-oliveira",
+      "country": "BR",
+      "url": "https://www.youtube.com/watch?v=IQEATjqQiXc",
+      "publishedAt": "2024-06-11",
+      "duration": "PT1M38S",
+      "createdAt": "2026-09-11T11:34:38.000Z",
+      "coverage": {
+        "level": "partial",
+        "accessible": [
+          "título",
+          "criadora",
+          "descrição integral",
+          "data exata",
+          "duração",
+          "transcrição automática integral com timestamps",
+          "fala por substituição textual",
+          "39 visualizações",
+          "2,2 mil inscritos"
+        ],
+        "missing": [
+          "vídeo integral auditado quadro a quadro",
+          "imagem em movimento efetivamente analisada",
+          "áudio ouvido",
+          "texto na tela",
+          "edição",
+          "ritmo",
+          "curva de retenção",
+          "baseline funcional contemporâneo",
+          "impressões e fontes de tráfego",
+          "mídia paga",
+          "comentários públicos"
+        ]
+      },
+      "publicMetrics": {
+        "viewsObserved": "39",
+        "likesObserved": "não disponível",
+        "commentsObserved": "não disponível",
+        "subscriberCountObserved": "2,2 mil",
+        "observedAt": "2026-09-11",
+        "sourceType": "youtube_public_metadata_transcript_description_and_comments_after_public_search",
+        "causality": "not_inferred"
+      },
+      "classification": {
+        "taxonomyVersion": "3.0",
+        "container": "youtube_video",
+        "materialFormat": "video_longo",
+        "presentationFormats": [
+          "tutorial"
+        ],
+        "primaryFamily": "educativo",
+        "secondaryFamilies": [
+          "comunidade",
+          "identificacao"
+        ],
+        "functionalMix": [
+          {
+            "family": "educativo",
+            "percentage": 70
+          },
+          {
+            "family": "comunidade",
+            "percentage": 20
+          },
+          {
+            "family": "identificacao",
+            "percentage": 10
+          }
+        ],
+        "objectives": [
+          "educar",
+          "comentario",
+          "salvamento"
+        ],
+        "advertisingType": "editorial_organico",
+        "commercialIntent": "implicita",
+        "advertisedEntity": {
+          "kind": "servico",
+          "name": "conteúdo educacional Teacher Natália",
+          "confidence": "medium"
+        },
+        "contentTopic": {
+          "label": "diferença entre lie e lay",
+          "iabCode": null
+        },
+        "segment": "educação e idiomas",
+        "subsegment": "gramática e vocabulário de inglês",
+        "probableAudience": "brasileiros que confundem verbos de forma semelhante",
+        "awarenessStage": "consciente_problema",
+        "productionLevel": "simple",
+        "creatorScale": "small",
+        "replicability": "high",
+        "durationBand": "over_60s",
+        "pace": "unknown",
+        "mechanisms": [
+          "utilidade_pratica",
+          "recompensa",
+          "identificacao"
+        ],
+        "hookTypes": [
+          "problema",
+          "promessa"
+        ],
+        "narrativeElements": [
+          "problema",
+          "mecanismo",
+          "conclusao",
+          "cta"
+        ],
+        "proofTypes": [
+          "mecanismo_explicado"
+        ],
+        "ctaTypes": [
+          "comentar",
+          "salvar"
+        ],
+        "distributionContext": {
+          "organicPaid": "unknown",
+          "trendDependency": "low"
+        },
+        "confidence": "high",
+        "evidence": [
+          "A fala explica significados, transitividade e exemplos antes de pedir uma frase com um dos verbos.",
+          "Comentários e respostas da criadora não ficaram acessíveis."
+        ],
+        "alternativeClassifications": [],
+        "missingInformation": [
+          "vídeo integral auditado quadro a quadro",
+          "imagem em movimento efetivamente analisada",
+          "áudio ouvido",
+          "texto na tela",
+          "edição",
+          "ritmo",
+          "curva de retenção",
+          "baseline funcional contemporâneo",
+          "impressões e fontes de tráfego",
+          "mídia paga",
+          "comentários públicos"
+        ],
+        "needsHumanReview": true
+      },
+      "comparison": {
+        "level": 2,
+        "group": "aula de idioma cujo CTA pede aplicação do conteúdo em uma frase",
+        "referenceIds": [
+          "obs-20260830-075",
+          "obs-20260911-131",
+          "obs-20260911-133"
+        ],
+        "confidence": "high"
+      },
+      "observations": [
+        "A diferença entre os verbos é explicada por regras e exemplos.",
+        "A fala encerra pedindo uma frase com um dos verbos para que a professora possa ajudar.",
+        "A ajuda prometida não pôde ser verificada sem comentários acessíveis."
+      ],
+      "interpretations": [
+        "A tarefa exige recuperação e produção, não apenas opinião.",
+        "A promessa de feedback é contingente à moderação e não foi demonstrada."
+      ],
+      "scores": {
+        "gancho": 84,
+        "clareza": 88,
+        "relevancia": 88,
+        "desejo": 68,
+        "confianca": 82,
+        "retencao": "not_assessed",
+        "acao": 93,
+        "objecoes": 84
+      },
+      "fiveLenses": {
+        "apressado": "Entende rapidamente a confusão tratada.",
+        "analitico": "Recebe distinção e exemplos; ASR pode errar palavras inglesas.",
+        "aspiracional": "Pode aplicar a regra numa frase própria.",
+        "comunidade": "Há convite a receber ajuda, mas a interação não foi observada.",
+        "cetico": "Sem comentários, não há prova do feedback anunciado."
+      },
+      "hypotheses": [],
+      "replicable": [
+        "Encerrar uma explicação com uma produção que use a regra recém-ensinada.",
+        "Oferecer feedback somente quando houver capacidade real de moderação."
+      ],
+      "limitations": [
+        "Transcrição automática pode confundir lie, lay e flexões.",
+        "Comentários e feedback não foram observados.",
+        "Audiovisual e retenção não foram auditados."
+      ],
+      "provenance": [
+        "public_content",
+        "youtube_public_metadata",
+        "youtube_automatic_transcript",
+        "youtube_public_description",
+        "public_metric",
+        "observatory_inference"
+      ],
+      "sourceEvidence": [
+        "https://www.youtube.com/watch?v=IQEATjqQiXc"
+      ],
+      "training": {
+        "evidencePolicyVersion": "1.1",
+        "evidenceRole": "target_support",
+        "evidenceLevel": 2,
+        "requiredEvidenceObserved": true,
+        "supportEligible": true,
+        "claimCoverage": [
+          {
+            "claim": "a diferença entre dois verbos é explicada",
+            "requiredModalities": [
+              "transcript"
+            ],
+            "observedModalities": [
+              "transcript"
+            ],
+            "sufficient": true
+          },
+          {
+            "claim": "a fala pede uma frase que aplique um dos verbos",
+            "requiredModalities": [
+              "transcript"
+            ],
+            "observedModalities": [
+              "transcript"
+            ],
+            "sufficient": true
+          }
+        ],
+        "provenanceAndConsent": {
+          "storyOrigin": "explicação didática original da criadora",
+          "consentStatus": "not_applicable",
+          "identityProtection": "not_applicable",
+          "evidence": [
+            "nenhuma história pessoal ou pessoa terceira é usada"
+          ]
+        },
+        "replicable": [
+          "Encerrar uma explicação com uma produção que use a regra recém-ensinada.",
+          "Oferecer feedback somente quando houver capacidade real de moderação."
+        ],
+        "contingent": [
+          "Transcrição automática pode confundir lie, lay e flexões.",
+          "Comentários e feedback não foram observados.",
+          "Audiovisual e retenção não foram auditados."
+        ],
+        "notRecommended": [
+          "copiar frase, personagem ou roteiro",
+          "tratar volume de comentários, visualizações ou tamanho do canal como prova de aprendizagem",
+          "confundir pedido de engajamento com exercício aplicado",
+          "inferir cenas, áudio, edição, ritmo, retenção ou causalidade não observados"
+        ],
+        "hypotheses": []
+      },
+      "viralAssessment": {
+        "status": "indeterminate",
+        "observedSignal": "39",
+        "missingForRelativeAssessment": [
+          "baseline funcional contemporâneo",
+          "retenção",
+          "impressões",
+          "fontes de tráfego",
+          "mídia paga"
+        ],
+        "confounders": [
+          "tamanho do canal",
+          "distribuição",
+          "idade do vídeo",
+          "tema",
+          "oferta"
+        ],
+        "causalClaimAllowed": false
+      }
+    },
+    {
+      "id": "obs-20260911-133",
+      "title": "From To vs From Through: você sabe as diferenças?",
+      "creator": "Fluency Academy",
+      "creatorIdentity": "fluency-academy",
+      "sourceIdentity": "fluency-academy",
+      "country": "BR",
+      "url": "https://www.youtube.com/watch?v=67x9KP7uaG8",
+      "publishedAt": "2022-07-11",
+      "duration": "PT1M38S",
+      "createdAt": "2026-09-11T11:34:38.000Z",
+      "coverage": {
+        "level": "partial",
+        "accessible": [
+          "título",
+          "criador",
+          "descrição integral",
+          "data exata",
+          "duração",
+          "transcrição automática integral com timestamps",
+          "fala por substituição textual",
+          "3.436 visualizações",
+          "14 comentários integralmente extraídos",
+          "1,04 milhão de inscritos"
+        ],
+        "missing": [
+          "vídeo integral auditado quadro a quadro",
+          "imagem em movimento efetivamente analisada",
+          "áudio ouvido",
+          "texto na tela",
+          "edição",
+          "ritmo",
+          "curva de retenção",
+          "baseline funcional contemporâneo",
+          "impressões e fontes de tráfego",
+          "mídia paga"
+        ]
+      },
+      "publicMetrics": {
+        "viewsObserved": "3.436",
+        "likesObserved": "não disponível",
+        "commentsObserved": "14 integralmente extraídos",
+        "subscriberCountObserved": "1,04 milhão",
+        "observedAt": "2026-09-11",
+        "sourceType": "youtube_public_metadata_transcript_description_and_comments_after_public_search",
+        "causality": "not_inferred"
+      },
+      "classification": {
+        "taxonomyVersion": "3.0",
+        "container": "youtube_video",
+        "materialFormat": "video_longo",
+        "presentationFormats": [
+          "tutorial"
+        ],
+        "primaryFamily": "educativo",
+        "secondaryFamilies": [
+          "comunidade",
+          "venda_indireta"
+        ],
+        "functionalMix": [
+          {
+            "family": "educativo",
+            "percentage": 65
+          },
+          {
+            "family": "comunidade",
+            "percentage": 20
+          },
+          {
+            "family": "venda_indireta",
+            "percentage": 15
+          }
+        ],
+        "objectives": [
+          "educar",
+          "comentario",
+          "lead",
+          "venda"
+        ],
+        "advertisingType": "geracao_de_leads",
+        "commercialIntent": "explicita",
+        "advertisedEntity": {
+          "kind": "servico",
+          "name": "turmas e portal Fluency Academy",
+          "confidence": "high"
+        },
+        "contentTopic": {
+          "label": "diferença entre from to e from through",
+          "iabCode": null
+        },
+        "segment": "educação e idiomas",
+        "subsegment": "gramática prática de inglês",
+        "probableAudience": "brasileiros estudantes de inglês",
+        "awarenessStage": "consciente_problema",
+        "productionLevel": "simple",
+        "creatorScale": "large",
+        "replicability": "high",
+        "durationBand": "over_60s",
+        "pace": "unknown",
+        "mechanisms": [
+          "utilidade_pratica",
+          "recompensa",
+          "pertencimento",
+          "confianca"
+        ],
+        "hookTypes": [
+          "pergunta",
+          "problema"
+        ],
+        "narrativeElements": [
+          "problema",
+          "mecanismo",
+          "progressao",
+          "conclusao",
+          "cta"
+        ],
+        "proofTypes": [
+          "mecanismo_explicado"
+        ],
+        "ctaTypes": [
+          "comentar",
+          "cadastrar",
+          "seguir"
+        ],
+        "distributionContext": {
+          "organicPaid": "unknown",
+          "trendDependency": "low"
+        },
+        "confidence": "high",
+        "evidence": [
+          "A descrição pede uma frase usando uma das estruturas.",
+          "Entre 14 comentários, um aluno publica uma frase e uma dúvida recebe explicação da marca seguida de confirmação do entendimento."
+        ],
+        "alternativeClassifications": [
+          "venda indireta como família secundária"
+        ],
+        "missingInformation": [
+          "vídeo integral auditado quadro a quadro",
+          "imagem em movimento efetivamente analisada",
+          "áudio ouvido",
+          "texto na tela",
+          "edição",
+          "ritmo",
+          "curva de retenção",
+          "baseline funcional contemporâneo",
+          "impressões e fontes de tráfego",
+          "mídia paga"
+        ],
+        "needsHumanReview": true
+      },
+      "comparison": {
+        "level": 2,
+        "group": "aula de idioma cujo CTA pede aplicação do conteúdo em uma frase",
+        "referenceIds": [
+          "obs-20260830-075",
+          "obs-20260911-131",
+          "obs-20260911-132"
+        ],
+        "confidence": "high"
+      },
+      "observations": [
+        "A explicação contrasta alcance temporal das duas estruturas.",
+        "A descrição pede uma frase em inglês usando uma delas.",
+        "A amostra integral de 14 comentários contém uma produção de aluno e uma sequência dúvida, explicação da marca e confirmação do aluno."
+      ],
+      "interpretations": [
+        "Há ao menos uma instância observável de prática e uma de feedback.",
+        "Uma interação não demonstra aprendizagem em escala; o tamanho do canal e a oferta são confundidores."
+      ],
+      "scores": {
+        "gancho": 85,
+        "clareza": 89,
+        "relevancia": 88,
+        "desejo": 72,
+        "confianca": 86,
+        "retencao": "not_assessed",
+        "acao": 94,
+        "objecoes": 84
+      },
+      "fiveLenses": {
+        "apressado": "Entende a distinção e recebe exemplos compactos.",
+        "analitico": "Pode conferir regra, frase de aluno e resposta explicativa.",
+        "aspiracional": "A tarefa permite testar uso próprio.",
+        "comunidade": "Há uma pequena evidência de resposta e retorno, não de comunidade ampla.",
+        "cetico": "O canal é grande e comercial; a interação observada não autoriza causalidade."
+      },
+      "hypotheses": [],
+      "replicable": [
+        "Pedir uma frase que aplique uma escolha ensinada.",
+        "Responder dúvidas com a regra por trás da resposta, não apenas elogiar."
+      ],
+      "limitations": [
+        "Canal grande e oferta comercial limitam comparações de desempenho.",
+        "Apenas uma produção e uma troca explicativa foram observadas.",
+        "Audiovisual, retenção e baseline não foram auditados."
+      ],
+      "provenance": [
+        "public_content",
+        "youtube_public_metadata",
+        "youtube_automatic_transcript",
+        "youtube_public_description",
+        "youtube_public_comments",
+        "public_metric",
+        "observatory_inference"
+      ],
+      "sourceEvidence": [
+        "https://www.youtube.com/watch?v=67x9KP7uaG8"
+      ],
+      "training": {
+        "evidencePolicyVersion": "1.1",
+        "evidenceRole": "target_support",
+        "evidenceLevel": 2,
+        "requiredEvidenceObserved": true,
+        "supportEligible": true,
+        "claimCoverage": [
+          {
+            "claim": "o CTA pede uma frase que aplique o conteúdo",
+            "requiredModalities": [
+              "description"
+            ],
+            "observedModalities": [
+              "description"
+            ],
+            "sufficient": true
+          },
+          {
+            "claim": "há uma produção de aluno e uma troca explicativa",
+            "requiredModalities": [
+              "comments"
+            ],
+            "observedModalities": [
+              "comments"
+            ],
+            "sufficient": true
+          }
+        ],
+        "provenanceAndConsent": {
+          "storyOrigin": "explicação didática e comentários públicos",
+          "consentStatus": "public_comments_only",
+          "identityProtection": "usernames_not_reproduced",
+          "evidence": [
+            "o registro preserva a função das respostas sem copiar nomes ou texto integral"
+          ]
+        },
+        "replicable": [
+          "Pedir uma frase que aplique uma escolha ensinada.",
+          "Responder dúvidas com a regra por trás da resposta, não apenas elogiar."
+        ],
+        "contingent": [
+          "Canal grande e oferta comercial limitam comparações de desempenho.",
+          "Apenas uma produção e uma troca explicativa foram observadas.",
+          "Audiovisual, retenção e baseline não foram auditados."
+        ],
+        "notRecommended": [
+          "copiar frase, personagem ou roteiro",
+          "tratar volume de comentários, visualizações ou tamanho do canal como prova de aprendizagem",
+          "confundir pedido de engajamento com exercício aplicado",
+          "inferir cenas, áudio, edição, ritmo, retenção ou causalidade não observados"
+        ],
+        "hypotheses": []
+      },
+      "viralAssessment": {
+        "status": "indeterminate",
+        "observedSignal": "3.436",
+        "missingForRelativeAssessment": [
+          "baseline funcional contemporâneo",
+          "retenção",
+          "impressões",
+          "fontes de tráfego",
+          "mídia paga"
+        ],
+        "confounders": [
+          "tamanho do canal",
+          "distribuição",
+          "idade do vídeo",
+          "tema",
+          "oferta"
+        ],
+        "causalClaimAllowed": false
+      }
+    },
+    {
+      "id": "obs-20260911-134",
+      "title": "Teste seu nível de inglês em 3 minutes; comente seu nível",
+      "creator": "Online English and Portuguese Courses",
+      "creatorIdentity": "online-english-and-portuguese-courses",
+      "sourceIdentity": "online-english-and-portuguese-courses",
+      "country": "unknown",
+      "url": "https://www.youtube.com/watch?v=qhkYu-kaH6E",
+      "publishedAt": "2026-07-11",
+      "duration": "PT3M34S",
+      "createdAt": "2026-09-11T11:34:38.000Z",
+      "coverage": {
+        "level": "partial",
+        "accessible": [
+          "título",
+          "criador",
+          "descrição integral",
+          "data exata",
+          "duração",
+          "transcrição automática integral com timestamps",
+          "fala por substituição textual",
+          "1.971 visualizações",
+          "130 curtidas",
+          "2 comentários integralmente extraídos",
+          "19,7 mil inscritos"
+        ],
+        "missing": [
+          "vídeo integral auditado quadro a quadro",
+          "imagem em movimento efetivamente analisada",
+          "áudio ouvido",
+          "texto na tela",
+          "edição",
+          "ritmo",
+          "curva de retenção",
+          "baseline funcional contemporâneo",
+          "impressões e fontes de tráfego",
+          "mídia paga"
+        ]
+      },
+      "publicMetrics": {
+        "viewsObserved": "1.971",
+        "likesObserved": "130",
+        "commentsObserved": "2 integralmente extraídos",
+        "subscriberCountObserved": "19,7 mil",
+        "observedAt": "2026-09-11",
+        "sourceType": "youtube_public_metadata_transcript_description_and_comments_after_public_search",
+        "causality": "not_inferred"
+      },
+      "classification": {
+        "taxonomyVersion": "3.0",
+        "container": "youtube_video",
+        "materialFormat": "video_longo",
+        "presentationFormats": [
+          "desafio",
+          "tutorial"
+        ],
+        "primaryFamily": "educativo",
+        "secondaryFamilies": [
+          "curiosidade",
+          "venda_indireta"
+        ],
+        "functionalMix": [
+          {
+            "family": "educativo",
+            "percentage": 60
+          },
+          {
+            "family": "curiosidade",
+            "percentage": 25
+          },
+          {
+            "family": "venda_indireta",
+            "percentage": 15
+          }
+        ],
+        "objectives": [
+          "educar",
+          "comentario",
+          "venda"
+        ],
+        "advertisingType": "oferta_direta",
+        "commercialIntent": "explicita",
+        "advertisedEntity": {
+          "kind": "produto",
+          "name": "aulas intensivas e e-book",
+          "confidence": "high"
+        },
+        "contentTopic": {
+          "label": "quiz de tradução e autoavaliação de nível de inglês",
+          "iabCode": null
+        },
+        "segment": "educação e idiomas",
+        "subsegment": "quiz de vocabulário em inglês",
+        "probableAudience": "estudantes de inglês que querem autoavaliar vocabulário",
+        "awarenessStage": "consciente_problema",
+        "productionLevel": "simple",
+        "creatorScale": "medium",
+        "replicability": "high",
+        "durationBand": "over_60s",
+        "pace": "unknown",
+        "mechanisms": [
+          "curiosidade",
+          "recompensa",
+          "utilidade_pratica"
+        ],
+        "hookTypes": [
+          "pergunta",
+          "promessa"
+        ],
+        "narrativeElements": [
+          "promessa",
+          "progressao",
+          "cta"
+        ],
+        "proofTypes": [
+          "mecanismo_explicado"
+        ],
+        "ctaTypes": [
+          "comentar",
+          "seguir",
+          "comprar"
+        ],
+        "distributionContext": {
+          "organicPaid": "unknown",
+          "trendDependency": "unknown"
+        },
+        "confidence": "high",
+        "evidence": [
+          "A fala apresenta sucessivas perguntas de tradução com respostas.",
+          "A descrição pede acerto, palavra desejada e nível; não exige aplicar uma unidade ensinada numa produção."
+        ],
+        "alternativeClassifications": [
+          "curiosidade como família principal"
+        ],
+        "missingInformation": [
+          "vídeo integral auditado quadro a quadro",
+          "imagem em movimento efetivamente analisada",
+          "áudio ouvido",
+          "texto na tela",
+          "edição",
+          "ritmo",
+          "curva de retenção",
+          "baseline funcional contemporâneo",
+          "impressões e fontes de tráfego",
+          "mídia paga"
+        ],
+        "needsHumanReview": true
+      },
+      "comparison": {
+        "level": 2,
+        "group": "aula de idioma com CTA de comentário ligado ao tema, mas sem produção aplicada delimitada",
+        "referenceIds": [
+          "obs-20260911-131",
+          "obs-20260911-132",
+          "obs-20260911-133"
+        ],
+        "confidence": "high"
+      },
+      "observations": [
+        "O quiz permite responder mentalmente a traduções.",
+        "O CTA pede autoavaliação ou preferência, não uma frase que use o conteúdo.",
+        "Os dois comentários disponíveis não contêm resposta substantiva ao exercício; isso não prova que o CTA falhou."
+      ],
+      "interpretations": [
+        "É um caso-limite entre CTA temático e exercício produtivo.",
+        "Autoavaliação pode gerar participação, mas não demonstra aplicação ou feedback."
+      ],
+      "scores": {
+        "gancho": 84,
+        "clareza": 86,
+        "relevancia": 82,
+        "desejo": 70,
+        "confianca": 62,
+        "retencao": "not_assessed",
+        "acao": 69,
+        "objecoes": 64
+      },
+      "fiveLenses": {
+        "apressado": "Entende que é um teste de nível.",
+        "analitico": "Recebe itens e respostas, mas o CTA mede autoimagem, não produção.",
+        "aspiracional": "Pode se reconhecer num nível declarado.",
+        "comunidade": "Há convite a comentar, sem troca substantiva observada.",
+        "cetico": "Número de acertos não foi ligado a critério validado de nível."
+      },
+      "hypotheses": [],
+      "replicable": [
+        "Separar CTA de autoavaliação de tarefa de aplicação.",
+        "Se a meta for prática, pedir resposta produtiva e oferecer critério de feedback."
+      ],
+      "limitations": [
+        "Não é contraexemplo: falta baseline e a previsão de aprendizagem não foi medida.",
+        "O teste não apresenta validação de nível na cobertura.",
+        "Audiovisual e retenção não foram auditados."
+      ],
+      "provenance": [
+        "public_content",
+        "youtube_public_metadata",
+        "youtube_automatic_transcript",
+        "youtube_public_description",
+        "youtube_public_comments",
+        "public_metric",
+        "observatory_inference"
+      ],
+      "sourceEvidence": [
+        "https://www.youtube.com/watch?v=qhkYu-kaH6E"
+      ],
+      "training": {
+        "evidencePolicyVersion": "1.1",
+        "evidenceRole": "falsification_or_boundary",
+        "evidenceLevel": 2,
+        "requiredEvidenceObserved": false,
+        "supportEligible": false,
+        "claimCoverage": [
+          {
+            "claim": "o CTA pede autoavaliação e preferência",
+            "requiredModalities": [
+              "description"
+            ],
+            "observedModalities": [
+              "description"
+            ],
+            "sufficient": true
+          },
+          {
+            "claim": "o CTA não exige uma frase que aplique o conteúdo",
+            "requiredModalities": [
+              "description",
+              "transcript"
+            ],
+            "observedModalities": [
+              "description",
+              "transcript"
+            ],
+            "sufficient": true
+          }
+        ],
+        "provenanceAndConsent": {
+          "storyOrigin": "quiz didático e comentários públicos",
+          "consentStatus": "public_comments_only",
+          "identityProtection": "usernames_not_reproduced",
+          "evidence": [
+            "nenhuma história pessoal é usada e os comentários foram resumidos sem nomes"
+          ]
+        },
+        "replicable": [
+          "Separar CTA de autoavaliação de tarefa de aplicação.",
+          "Se a meta for prática, pedir resposta produtiva e oferecer critério de feedback."
+        ],
+        "contingent": [
+          "Não é contraexemplo: falta baseline e a previsão de aprendizagem não foi medida.",
+          "O teste não apresenta validação de nível na cobertura.",
+          "Audiovisual e retenção não foram auditados."
+        ],
+        "notRecommended": [
+          "copiar frase, personagem ou roteiro",
+          "tratar volume de comentários, visualizações ou tamanho do canal como prova de aprendizagem",
+          "confundir pedido de engajamento com exercício aplicado",
+          "inferir cenas, áudio, edição, ritmo, retenção ou causalidade não observados"
+        ],
+        "hypotheses": []
+      },
+      "viralAssessment": {
+        "status": "indeterminate",
+        "observedSignal": "1.971",
+        "missingForRelativeAssessment": [
+          "baseline funcional contemporâneo",
+          "retenção",
+          "impressões",
+          "fontes de tráfego",
+          "mídia paga"
+        ],
+        "confounders": [
+          "tamanho do canal",
+          "distribuição",
+          "idade do vídeo",
+          "tema",
+          "oferta"
+        ],
+        "causalClaimAllowed": false
+      }
+    },
+    {
+      "id": "obs-20260911-135",
+      "title": "Casal feliz e verdadeiro — Desabafo de um japonês",
+      "creator": "Desabafo de um Japonês / ator Henrique Kimura",
+      "creatorIdentity": "desabafo-de-um-japones-henrique-kimura",
+      "sourceIdentity": "desabafo-de-um-japones-henrique-kimura",
+      "country": "BR",
+      "url": "https://www.youtube.com/shorts/XjeUfrCPYQo",
+      "publishedAt": "2026-07-23",
+      "duration": "PT10S",
+      "createdAt": "2026-09-11T11:34:38.000Z",
+      "coverage": {
+        "level": "partial",
+        "accessible": [
+          "título",
+          "criador e ator",
+          "descrição integral",
+          "data exata",
+          "duração",
+          "13.591 visualizações",
+          "104 curtidas",
+          "44,9 mil inscritos"
+        ],
+        "missing": [
+          "vídeo integral auditado quadro a quadro",
+          "imagem em movimento efetivamente analisada",
+          "áudio ouvido",
+          "texto na tela",
+          "edição",
+          "ritmo",
+          "curva de retenção",
+          "baseline funcional contemporâneo",
+          "impressões e fontes de tráfego",
+          "mídia paga",
+          "transcrição",
+          "fala",
+          "comentários públicos",
+          "cenas e desfecho"
+        ]
+      },
+      "publicMetrics": {
+        "viewsObserved": "13.591",
+        "likesObserved": "104",
+        "commentsObserved": "não disponível",
+        "subscriberCountObserved": "44,9 mil",
+        "observedAt": "2026-09-11",
+        "sourceType": "youtube_public_metadata_transcript_description_and_comments_after_public_search",
+        "causality": "not_inferred"
+      },
+      "classification": {
+        "taxonomyVersion": "3.0",
+        "container": "youtube_short",
+        "materialFormat": "video_curto",
+        "presentationFormats": [
+          "esquete"
+        ],
+        "primaryFamily": "humor",
+        "secondaryFamilies": [
+          "identificacao",
+          "entretenimento"
+        ],
+        "functionalMix": [
+          {
+            "family": "humor",
+            "percentage": 60
+          },
+          {
+            "family": "identificacao",
+            "percentage": 25
+          },
+          {
+            "family": "entretenimento",
+            "percentage": 15
+          }
+        ],
+        "objectives": [
+          "visualizacao",
+          "identificacao",
+          "compartilhamento"
+        ],
+        "advertisingType": "editorial_organico",
+        "commercialIntent": "ausente",
+        "advertisedEntity": {
+          "kind": "nenhuma",
+          "name": "",
+          "confidence": "medium"
+        },
+        "contentTopic": {
+          "label": "humor de personagem sobre cotidiano brasileiro e casal",
+          "iabCode": null
+        },
+        "segment": "humor de situação",
+        "subsegment": "casal e cotidiano brasileiro",
+        "probableAudience": "público brasileiro de humor curto",
+        "awarenessStage": "inconsciente",
+        "productionLevel": "intermediate",
+        "creatorScale": "medium",
+        "replicability": "medium",
+        "durationBand": "up_to_15s",
+        "pace": "unknown",
+        "mechanisms": [
+          "humor",
+          "identificacao"
+        ],
+        "hookTypes": [
+          "identificacao"
+        ],
+        "narrativeElements": [],
+        "proofTypes": [
+          "nenhuma"
+        ],
+        "ctaTypes": [
+          "nenhum"
+        ],
+        "distributionContext": {
+          "organicPaid": "unknown",
+          "trendDependency": "unknown"
+        },
+        "confidence": "low",
+        "evidence": [
+          "Título e descrição atribuem o conteúdo a um personagem nervoso e ao cotidiano brasileiro.",
+          "Sem vídeo ou fala não se observa a situação, escalada ou recompensa."
+        ],
+        "alternativeClassifications": [
+          "entretenimento como família principal"
+        ],
+        "missingInformation": [
+          "vídeo integral auditado quadro a quadro",
+          "imagem em movimento efetivamente analisada",
+          "áudio ouvido",
+          "texto na tela",
+          "edição",
+          "ritmo",
+          "curva de retenção",
+          "baseline funcional contemporâneo",
+          "impressões e fontes de tráfego",
+          "mídia paga",
+          "transcrição",
+          "cenas e desfecho"
+        ],
+        "needsHumanReview": true
+      },
+      "comparison": {
+        "level": 4,
+        "group": "exploração controlada de humor de personagem; não comparável ao alvo educacional",
+        "referenceIds": [],
+        "confidence": "low"
+      },
+      "observations": [
+        "O título promete um recorte de casal e a descrição posiciona um personagem recorrente ligado ao cotidiano brasileiro.",
+        "Nenhuma cena, fala, conflito, escalada ou recompensa ficou acessível."
+      ],
+      "interpretations": [
+        "A descrição delimita território cultural e personagem, mas não permite ensinar a execução do humor."
+      ],
+      "scores": {
+        "gancho": 72,
+        "clareza": 68,
+        "relevancia": "not_assessed",
+        "desejo": "not_assessed",
+        "confianca": "not_assessed",
+        "retencao": "not_assessed",
+        "acao": "not_assessed",
+        "objecoes": "not_assessed"
+      },
+      "fiveLenses": {
+        "apressado": "Reconhece casal e humor pelo título.",
+        "analitico": "Não consegue verificar premissa ou payoff.",
+        "aspiracional": "Não mensurado.",
+        "comunidade": "O território brasileiro é declarado, mas identificação não foi observada.",
+        "cetico": "Métricas e descrição não substituem a cena."
+      },
+      "hypotheses": [],
+      "replicable": [
+        "Somente a delimitação explícita de personagem e território cultural pôde ser observada; a estrutura humorística não deve ser ensinada."
+      ],
+      "limitations": [
+        "Cobertura insuficiente para analisar cenas, fala, escalada, ritmo ou payoff.",
+        "Métricas absolutas não demonstram eficácia.",
+        "Nenhuma hipótese foi criada."
+      ],
+      "provenance": [
+        "public_content",
+        "youtube_public_metadata",
+        "youtube_public_description",
+        "public_metric",
+        "observatory_inference"
+      ],
+      "sourceEvidence": [
+        "https://www.youtube.com/shorts/XjeUfrCPYQo"
+      ],
+      "training": {
+        "evidencePolicyVersion": "1.1",
+        "evidenceRole": "controlled_exploration",
+        "evidenceLevel": 4,
+        "requiredEvidenceObserved": false,
+        "supportEligible": false,
+        "claimCoverage": [
+          {
+            "claim": "a descrição posiciona personagem e cotidiano brasileiro",
+            "requiredModalities": [
+              "title",
+              "description"
+            ],
+            "observedModalities": [
+              "title",
+              "description"
+            ],
+            "sufficient": true
+          },
+          {
+            "claim": "a execução humorística foi observada",
+            "requiredModalities": [
+              "video_or_frames",
+              "transcript"
+            ],
+            "observedModalities": [],
+            "sufficient": false
+          }
+        ],
+        "provenanceAndConsent": {
+          "storyOrigin": "personagem ficcional declarado na descrição",
+          "consentStatus": "not_applicable",
+          "identityProtection": "not_applicable",
+          "evidence": [
+            "o ator é creditado publicamente e nenhuma história de terceiro ficou acessível"
+          ]
+        },
+        "replicable": [
+          "Somente a delimitação explícita de personagem e território cultural pôde ser observada; a estrutura humorística não deve ser ensinada."
+        ],
+        "contingent": [
+          "Cobertura insuficiente para analisar cenas, fala, escalada, ritmo ou payoff.",
+          "Métricas absolutas não demonstram eficácia.",
+          "Nenhuma hipótese foi criada."
+        ],
+        "notRecommended": [
+          "copiar frase, personagem ou roteiro",
+          "tratar volume de comentários, visualizações ou tamanho do canal como prova de aprendizagem",
+          "confundir pedido de engajamento com exercício aplicado",
+          "inferir cenas, áudio, edição, ritmo, retenção ou causalidade não observados"
+        ],
+        "hypotheses": []
+      },
+      "viralAssessment": {
+        "status": "indeterminate",
+        "observedSignal": "13.591",
+        "missingForRelativeAssessment": [
+          "baseline funcional contemporâneo",
+          "retenção",
+          "impressões",
+          "fontes de tráfego",
+          "mídia paga"
+        ],
+        "confounders": [
+          "tamanho do canal",
+          "distribuição",
+          "idade do vídeo",
+          "tema",
+          "oferta"
+        ],
+        "causalClaimAllowed": false
+      }
     }
   ],
   "patterns": [
@@ -33450,6 +34829,110 @@
       ],
       "validation": "requires_human_or_experimental_evidence",
       "taxonomyVersion": "3.0"
+    },
+    {
+      "id": "pat-20260911-011",
+      "status": "provisional",
+      "stage": "provisional",
+      "name": "CTA de comentário convertido em exercício da aula",
+      "statement": "Em conteúdo educacional, converter o CTA em uma tarefa que exige aplicar no comentário a unidade recém-ensinada cria continuidade observável entre aula e participação; efeitos sobre prática real, qualidade das respostas, aprendizagem ou comunidade permanecem não medidos.",
+      "creativeFamily": "educativo",
+      "objective": "prática e comentário",
+      "segment": "educação e idiomas",
+      "mechanism": [
+        "utilidade_pratica",
+        "recompensa",
+        "pertencimento"
+      ],
+      "conditions": [
+        "conteúdo instrucional identificável",
+        "tarefa exige usar a unidade recém-ensinada",
+        "unidade de resposta delimitada",
+        "CTA vai além de opinião, curtida ou autoavaliação"
+      ],
+      "supportReferenceIds": [
+        "obs-20260911-131",
+        "obs-20260911-132",
+        "obs-20260911-133"
+      ],
+      "precursorReferenceIds": [
+        "obs-20260830-075"
+      ],
+      "comparableSupportCount": 3,
+      "supportingCount": 3,
+      "counterexampleCount": 0,
+      "caseLimitCount": 1,
+      "counterexampleReferenceIds": [],
+      "caseLimitReferenceIds": [
+        "obs-20260911-134"
+      ],
+      "comparisonLevel": 2,
+      "confidence": "medium",
+      "creatorDiversityCount": 3,
+      "sourceDiversityCount": 3,
+      "patternType": "cta",
+      "evidence": [
+        {
+          "referenceId": "obs-20260911-131",
+          "role": "support",
+          "comparisonLevel": 2,
+          "requiredEvidenceObserved": true,
+          "confidence": "high",
+          "observation": "Descrição pede uma frase com a unidade ensinada após explicação transcrita.",
+          "evidence": "Descrição e transcrição automática integrais.",
+          "limitations": [
+            "zero comentários",
+            "sem audiovisual ou retenção"
+          ]
+        },
+        {
+          "referenceId": "obs-20260911-132",
+          "role": "support",
+          "comparisonLevel": 2,
+          "requiredEvidenceObserved": true,
+          "confidence": "high",
+          "observation": "Fala pede uma frase com um dos verbos explicados e oferece ajuda.",
+          "evidence": "Transcrição automática integral e descrição.",
+          "limitations": [
+            "comentários e feedback não acessíveis",
+            "sem audiovisual ou retenção"
+          ]
+        },
+        {
+          "referenceId": "obs-20260911-133",
+          "role": "support",
+          "comparisonLevel": 2,
+          "requiredEvidenceObserved": true,
+          "confidence": "high",
+          "observation": "Descrição pede frase aplicada; comentários mostram uma produção e uma troca explicativa.",
+          "evidence": "Descrição, transcrição automática integral e 14 comentários.",
+          "limitations": [
+            "uma única pequena evidência de execução",
+            "canal grande e comercial"
+          ]
+        },
+        {
+          "referenceId": "obs-20260911-134",
+          "role": "case_limit",
+          "comparisonLevel": 2,
+          "requiredEvidenceObserved": false,
+          "confidence": "high",
+          "observation": "CTA pede autoavaliação e preferência, sem produção que use a unidade ensinada.",
+          "evidence": "Descrição, transcrição integral e dois comentários.",
+          "limitations": [
+            "não conta como apoio nem contraexemplo"
+          ]
+        }
+      ],
+      "limitations": [
+        "O padrão descreve alinhamento estrutural entre conteúdo e CTA, não aprendizagem.",
+        "Somente uma referência tem pequena evidência pública de prática e feedback; isso não mede qualidade em escala.",
+        "Nenhum apoio possui retenção, experimento, baseline ou conversão.",
+        "O precursor antigo permanece contexto porque sua cobertura era secundária e os comentários reais não foram observados.",
+        "O caso-limite mostra que comentar nível ou preferência não equivale a aplicar o conteúdo."
+      ],
+      "validation": "requires_human_or_experimental_evidence",
+      "taxonomyVersion": "3.0"
     }
   ],
   "hypotheses": [
@@ -33781,12 +35264,19 @@
     },
     {
       "id": "hyp-20260830-033",
-      "status": "observed_not_promoted",
-      "statement": "Em conteúdo educacional, transformar o CTA de comentário em exercício diretamente ligado à aula e incentivar respostas entre pares pode combinar prática, participação e comunidade.",
+      "status": "promoted_to_provisional",
+      "statement": "Em conteúdo educacional, converter o CTA em uma tarefa que exige aplicar no comentário a unidade recém-ensinada cria continuidade observável entre aula e participação; efeitos sobre prática real, qualidade das respostas, aprendizagem ou comunidade permanecem não medidos.",
       "supportReferenceIds": [
-        "obs-20260830-075"
+        "obs-20260830-075",
+        "obs-20260911-131",
+        "obs-20260911-132",
+        "obs-20260911-133"
       ],
-      "reasonNotPromoted": "Apenas uma referência; comentários reais, qualidade da interação, retenção e efeito de aprendizagem não foram acessados."
+      "reasonNotPromoted": "Apenas uma referência; comentários reais, qualidade da interação, retenção e efeito de aprendizagem não foram acessados.",
+      "previousStatement": "Em conteúdo educacional, transformar o CTA de comentário em exercício diretamente ligado à aula e incentivar respostas entre pares pode combinar prática, participação e comunidade.",
+      "promotedPatternId": "pat-20260911-011",
+      "consolidatedIntoPatternId": "pat-20260911-011",
+      "promotionReason": "A formulação anterior misturava tarefa aplicada, respostas entre pares e efeito comunitário. Três novas referências independentes mostram diretamente uma instrução para produzir frase com a unidade ensinada; somente uma possui pequena evidência pública de execução e feedback. O padrão foi restringido à continuidade estrutural entre aula e CTA."
     }
   ],
   "contradictions": [
@@ -35881,6 +37371,134 @@
       "limitations": [
         "Nenhum audiovisual ou áudio foi reproduzido.",
         "Transcrições automáticas podem conter erros.",
+        "Sem retenção, baseline, aprendizagem ou conversão.",
+        "Comentários não são representativos.",
+        "Nenhum resultado autoriza causalidade ou validação."
+      ]
+    },
+    {
+      "id": "run-20260911-supervised-023",
+      "executedAt": "2026-09-11T11:34:38.000Z",
+      "batchPolicyVersion": "1.1",
+      "requestedBatchSize": 5,
+      "candidatesFound": 23,
+      "referenceIds": [
+        "obs-20260911-131",
+        "obs-20260911-132",
+        "obs-20260911-133",
+        "obs-20260911-134",
+        "obs-20260911-135"
+      ],
+      "targetKnowledgeId": "hyp-20260830-033",
+      "targetReferenceIds": [
+        "obs-20260911-131",
+        "obs-20260911-132",
+        "obs-20260911-133"
+      ],
+      "falsificationOrBoundaryReferenceIds": [
+        "obs-20260911-134"
+      ],
+      "controlledExplorationReferenceIds": [
+        "obs-20260911-135"
+      ],
+      "discarded": [
+        {
+          "url": "https://www.youtube.com/watch?v=QOWqeahtD4o",
+          "reason": "comparável, mas substituído por apoio com transcrição integral"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=CRjg02yGs6g",
+          "reason": "CTA pede opinião sobre dificuldade e formato, não produção aplicada delimitada"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=KTCfoZVyx2c",
+          "reason": "perguntas de prática aparecem, mas o CTA de comentário não ficou observável"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=patl9o3HHlA",
+          "reason": "comentário é canal para dúvidas, não exercício produtivo obrigatório"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=_K8OFhhOWxc",
+          "reason": "mesma fonte do caso-limite selecionado e CTA de autoavaliação"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=SLru-WD2LLs",
+          "reason": "descrição pede frase, mas a fala pede preferência; reservado como teste de consistência entre modalidades"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=0xx4l6xVbiM",
+          "reason": "conteúdo em inglês e comparação com público brasileiro inferior"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=CPf7CvV-uKk",
+          "reason": "português para estrangeiros e cobertura insuficiente após timeout"
+        }
+      ],
+      "analyzed": 5,
+      "brazilianReferences": 4,
+      "internationalReferences": 0,
+      "unknownOriginReferences": 1,
+      "smallOrMediumCreatorReferences": 4,
+      "coverageSummary": {
+        "complete": 0,
+        "partial": 5,
+        "insufficient": 0
+      },
+      "audiovisualAcquisition": {
+        "attempted": true,
+        "succeeded": 0,
+        "failure": "endpoints públicos foram consultados; tentativas diretas nos Shorts retornaram formato indisponível e uma legenda da exploração recebeu 429",
+        "effect": "imagem em movimento, áudio ouvido, texto na tela, edição e ritmo ficaram não mensurados"
+      },
+      "transcriptCoverage": {
+        "fullAutomatic": 4,
+        "partialAutomatic": 0,
+        "none": 1,
+        "limitation": "transcrições automáticas substituem somente fala e podem errar palavras em inglês"
+      },
+      "commentsCoverage": {
+        "fullOrDeclaredZero": 3,
+        "partialSample": 0,
+        "unavailable": 2
+      },
+      "baselineCoverage": {
+        "sampledProfiles": 0,
+        "contemporaneousBaselines": 0,
+        "limitation": "métricas absolutas observadas sem baseline funcional"
+      },
+      "patternsCreated": [
+        "pat-20260911-011"
+      ],
+      "patternsStrengthened": [],
+      "patternsRefined": [],
+      "hypothesesCreated": [],
+      "hypothesesStrengthened": [
+        "hyp-20260830-033"
+      ],
+      "validatedPatternsCreated": 0,
+      "contradictionsFound": [],
+      "caseLimitsFound": [
+        "CTA temático de autoavaliação ou preferência não conta como exercício aplicado"
+      ],
+      "safetyFindings": [
+        "comentários públicos foram resumidos sem reproduzir usernames",
+        "promessa de feedback foi registrada como não verificada quando comentários não estavam acessíveis"
+      ],
+      "evidenceGateSummary": {
+        "targetSupportsEligible": 3,
+        "targetSupportsRejected": 0,
+        "boundaryCases": 1,
+        "explorationReferences": 1,
+        "duplicateUrls": 0,
+        "independentCreatorsAddedToPattern": 3,
+        "newHypotheses": 0
+      },
+      "outcome": "A hipótese foi restringida ao que a evidência mostra: continuidade estrutural entre aula e tarefa aplicada no comentário. Três apoios independentes sustentam padrão provisório; aprendizagem, qualidade das respostas e comunidade não foram inferidas.",
+      "nextTarget": "conteúdo educacional brasileiro curto com audiovisual integral, tarefa aplicada, amostra de respostas e rubrica de feedback; buscar caso funcionalmente semelhante em que respostas revelem erro persistente ou feedback ausente",
+      "limitations": [
+        "Nenhum audiovisual ou áudio foi reproduzido.",
+        "Uma referência não teve transcrição.",
         "Sem retenção, baseline, aprendizagem ou conversão.",
         "Comentários não são representativos.",
         "Nenhum resultado autoriza causalidade ou validação."
