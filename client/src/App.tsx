@@ -2,7 +2,7 @@ import { Toaster } from "@/components/ui/sonner";
 import { TooltipProvider } from "@/components/ui/tooltip";
 import NotFound from "@/pages/NotFound";
 import { Route, Switch } from "wouter";
-import type { ReactNode } from "react";
+import { lazy, Suspense, type ReactNode } from "react";
 import DashboardLayout from "./components/DashboardLayout";
 import ErrorBoundary from "./components/ErrorBoundary";
 import { ThemeProvider } from "./contexts/ThemeContext";
@@ -12,6 +12,8 @@ import Home from "./pages/Home";
 import InstagramConnection from "./pages/InstagramConnection";
 import NewEvaluation from "./pages/NewEvaluation";
 import Report from "./pages/Report";
+
+const Observatory = lazy(() => import("./pages/Observatory"));
 
 function AppShell({ children }: { children: ReactNode }) {
   return <DashboardLayout>{children}</DashboardLayout>;
@@ -25,6 +27,7 @@ function Router() {
       <Route path="/avaliar"><AppShell><NewEvaluation /></AppShell></Route>
       <Route path="/historico"><AppShell><History /></AppShell></Route>
       <Route path="/instagram"><AppShell><InstagramConnection /></AppShell></Route>
+      <Route path="/observatorio"><AppShell><Suspense fallback={<div role="status" className="p-8 text-sm text-violet-700">Carregando Observatório…</div>}><Observatory /></Suspense></AppShell></Route>
       <Route path="/analises/:id"><AppShell><Report /></AppShell></Route>
       <Route path="/404" component={NotFound} />
       <Route component={NotFound} />

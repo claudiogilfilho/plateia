@@ -1,20 +1,13 @@
 import { Badge } from "@/components/ui/badge";
 import { trpc } from "@/lib/trpc";
+import { getReportScore } from "@/lib/reportParsing";
 import { ArrowRight, Clock3, Plus } from "lucide-react";
 import React from "react";
 import { Link } from "wouter";
 
 const statusMap = { completed: { label: "Concluída", className: "bg-emerald-50 text-emerald-700 border-emerald-100" }, processing: { label: "Em avaliação", className: "bg-amber-50 text-amber-700 border-amber-100" }, needs_content: { label: "Complemento necessário", className: "bg-amber-50 text-amber-800 border-amber-200" }, failed: { label: "Não concluída", className: "bg-rose-50 text-rose-700 border-rose-100" } } as const;
 
-export function getReportScore(reportJson: string | null) {
-  if (!reportJson) return null;
-  try {
-    const score = JSON.parse(reportJson)?.synthesis?.overallScore;
-    return typeof score === "number" && Number.isFinite(score) ? score : null;
-  } catch {
-    return null;
-  }
-}
+export { getReportScore } from "@/lib/reportParsing";
 
 export default function History() {
   const { data: analyses = [], isLoading, error } = trpc.analyses.list.useQuery();

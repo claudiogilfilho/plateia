@@ -1,6 +1,8 @@
 import { Badge } from "@/components/ui/badge";
 import { trpc } from "@/lib/trpc";
-import { AlertTriangle, ArrowLeft, CheckCircle2, CircleAlert, ExternalLink, Lightbulb, Link2, Loader2, Target, UploadCloud } from "lucide-react";
+import { parseReportJson } from "@/lib/reportParsing";
+import { DecisionReportView, isDecisionReport } from "@/components/DecisionReportView";
+import { AlertTriangle, ArrowLeft, BrainCircuit, CheckCircle2, CircleAlert, ExternalLink, Lightbulb, Link2, Loader2, Target, UploadCloud } from "lucide-react";
 import React, { type CSSProperties } from "react";
 import { Link, useRoute, useSearch } from "wouter";
 
@@ -8,10 +10,22 @@ const criteria = ["gancho", "clareza", "relevância", "desejo", "confiança", "r
 type Criterion = (typeof criteria)[number];
 export type ReadingCoverage = { level: "complete" | "partial" | "requires_complement"; title: string; description: string; mode?: "visual_only" | "requires_visual"; excludedCriteria?: Criterion[] };
 type ReportData = {
-  consumers: Array<{ name: string; overallScore: number; reaction: string; criteria: Record<Criterion, number>; mainObjection: string }>;
-  synthesis: { overallScore: number; weightedAverage: number; divergence: number; strengths: string[]; risks: string[]; recommendations: [string, string, string] };
+  consumers: Array<{ name: string; overallScore: number; reaction: string; criteria: Record<Criterion, number | null>; mainObjection: string }>;
+  synthesis: { overallScore: number; weightedAverage: number; divergence: number; strengths: string[]; risks: string[]; recommendations: [string, string, string]; unassessedCriteria?: Criterion[] };
   coverage?: ReadingCoverage;
+  observatory?: {
+    promptVersion: string;
+    classification: { materialFormat: string; primaryFamily: string; objectives: string[]; advertisingType?: string; commercialIntent?: string; mechanisms?: string[]; segment: string; confidence: "low" | "medium" | "high"; needsHumanReview: boolean };
+    comparisons: Array<{ id: string | number; title: string; creator: string; similarity: number; comparisonLevel: 1 | 2 | 3 | 4; primaryFamily: string; segment: string }>;
+    patterns: Array<{ id: string | number; name: string; stage: string; supportingCount: number; counterexampleCount: number; confidence: "low" | "medium" | "high"; mechanism: string }>;
+    comparisonLevel: 1 | 2 | 3 | 4;
+    benchmarkConfidence: "low" | "medium" | "high";
+  } | null;
 };
+
+function isCompleteReport(value: ReportData | null): value is ReportData {
+  return Boolean(value && Array.isArray(value.consumers) && value.consumers.length && value.synthesis && typeof value.synthesis.overallScore === "number");
+}
 
 export default function Report() {
   const [, params] = useRoute("/analises/:id");
@@ -28,15 +42,25 @@ export default function Report() {
   if (error) return <div role="alert" className="mx-auto mt-16 max-w-xl rounded-2xl border border-rose-100 bg-rose-50 p-6 text-center text-rose-700">Não foi possível carregar este relatório agora. Volte ao histórico e tente novamente.</div>;
   if (!analysis) return <div className="p-8 text-slate-600">Avaliação não encontrada.</div>;
   if (analysis.status === "failed") return <FailedReport />;
-  if (analysis.status === "needs_content") return <NeedsContentReport contentType={analysis.contentType} sourceUrl={analysis.sourceUrl} reportJson={analysis.reportJson} />;
+  const legacyInstagramWithoutMedia = requiresVisualComplement(analysis);
+  if (analysis.status === "needs_content" || legacyInstagramWithoutMedia) {
+    const reportJson = legacyInstagramWithoutMedia ? visualComplementReportJson(analysis.reportJson) : analysis.reportJson;
+    return <NeedsContentReport contentType={analysis.contentType} sourceUrl={analysis.sourceUrl} reportJson={reportJson} />;
+  }
   if (!analysis.reportJson) return <div className="mx-auto max-w-xl pt-16 text-center"><Loader2 className="mx-auto mb-4 h-9 w-9 animate-spin text-violet-600" /><h1 className="font-display text-3xl font-extrabold text-[#2b1058]">A Platéia está lendo seu material.</h1><p className="mt-2 text-slate-600">O relatório aparecerá aqui assim que a avaliação for concluída.</p></div>;
 
-  const report = JSON.parse(analysis.reportJson) as ReportData;
+  const parsedReport = parseReportJson<unknown>(analysis.reportJson);
   const reportTitle = analysis.product || `Avaliação de ${analysis.contentType}`;
   const reportContext = [analysis.objective && `Objetivo: ${analysis.objective}`, analysis.targetAudience && `Público: ${analysis.targetAudience}`].filter(Boolean).join(" · ");
-  const excludedCriteria = report.coverage?.excludedCriteria ?? [];
+  if (isDecisionReport(parsedReport)) return <DecisionReportView report={parsedReport} analysisId={analysis.id} title={reportTitle} context={reportContext} />;
+  const report = parsedReport as ReportData | null;
+  if (!isCompleteReport(report)) return <InvalidReport />;
+  const excludedCriteria = Array.from(new Set([...(report.coverage?.excludedCriteria ?? []), ...(report.synthesis.unassessedCriteria ?? [])]));
   const assessedCriteria = criteria.filter(key => !excludedCriteria.includes(key));
-  const avgByCriterion = Object.fromEntries(assessedCriteria.map(key => [key, Math.round(report.consumers.reduce((sum, consumer) => sum + consumer.criteria[key], 0) / report.consumers.length)])) as Partial<Record<Criterion, number>>;
+  const avgByCriterion = Object.fromEntries(assessedCriteria.flatMap(key => {
+    const scores = report.consumers.map(consumer => consumer.criteria[key]).filter((score): score is number => score !== null);
+    return scores.length ? [[key, Math.round(scores.reduce((sum, score) => sum + score, 0) / scores.length)]] : [];
+  })) as Partial<Record<Criterion, number>>;
 
   return <div className="mx-auto max-w-7xl pb-12">
     <Link href="/historico" className="mb-6 inline-flex items-center gap-2 rounded-md px-1 py-1 text-sm font-semibold text-violet-700 hover:text-violet-900 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-violet-500"><ArrowLeft className="h-4 w-4" /> Voltar ao histórico</Link>
@@ -56,6 +80,7 @@ export default function Report() {
       </div>
     </section>
     <CoverageNotice coverage={report.coverage} />
+    <ObservatoryNotice observatory={report.observatory} />
     <section className="mt-6 grid gap-6 xl:grid-cols-[1.2fr_0.8fr]">
       <div className="space-y-6">
         <div className="plateia-card p-6 sm:p-7">
@@ -77,14 +102,39 @@ export default function Report() {
   </div>;
 }
 
+export function requiresVisualComplement(analysis: { contentType: string; sourceKind?: string | null; sourceUrl?: string | null; mediaUrl?: string | null }) {
+  return analysis.contentType !== "copy" && analysis.sourceKind === "published_post" && Boolean(analysis.sourceUrl?.includes("instagram.com/")) && !analysis.mediaUrl;
+}
+
+function visualComplementReportJson(reportJson: string | null) {
+  const existing = parseReportJson<{ coverage?: ReadingCoverage }>(reportJson);
+  return JSON.stringify({ ...(existing ?? {}), coverage: { level: "requires_complement", mode: "requires_visual", title: "Material visual necessário", description: "Esta avaliação antiga foi criada sem imagem ou vídeo acessível. Para evitar uma nota sem base visual, envie o arquivo original e continue a leitura." } });
+}
+
 function FailedReport() {
   return <div className="mx-auto max-w-xl pt-16 text-center"><CircleAlert className="mx-auto mb-4 h-10 w-10 text-rose-500" /><h1 className="font-display text-3xl font-extrabold text-[#2b1058]">Essa leitura não foi concluída.</h1><p className="mt-2 text-slate-600">Tente enviar o material novamente. Nenhum relatório parcial foi salvo.</p><Link href="/avaliar" className="mt-6 inline-flex h-10 items-center rounded-md bg-[#2b1058] px-4 text-sm font-semibold text-white focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-violet-500">Nova avaliação</Link></div>;
 }
 
+function InvalidReport() {
+  return <div role="alert" className="mx-auto max-w-xl rounded-2xl border border-rose-100 bg-rose-50 p-6 text-center text-rose-700"><CircleAlert className="mx-auto mb-3 h-8 w-8" /><p className="font-bold">Este relatório está incompleto.</p><p className="mt-1 text-sm">Volte ao histórico e tente uma nova avaliação. A tela foi protegida para não interromper o restante do aplicativo.</p></div>;
+}
+
 export function NeedsContentReport({ contentType, sourceUrl, reportJson }: { contentType: string; sourceUrl: string | null; reportJson: string | null }) {
-  const coverage = reportJson ? (JSON.parse(reportJson) as Pick<ReportData, "coverage">).coverage : undefined;
+  const coverage = parseReportJson<Pick<ReportData, "coverage">>(reportJson)?.coverage;
   const action = getComplementAction(coverage, contentType, sourceUrl);
   return <section className="mx-auto max-w-2xl py-3 sm:py-12"><div className="rounded-[1.75rem] border border-violet-100 bg-white px-6 py-8 text-center shadow-[0_20px_45px_-36px_rgba(43,16,88,0.45)] sm:px-10 sm:py-10"><div className="mx-auto grid h-14 w-14 place-items-center rounded-2xl bg-amber-50 text-amber-500"><CircleAlert className="h-7 w-7" /></div><p className="mt-5 text-xs font-bold uppercase tracking-[0.16em] text-violet-500">Link público indisponível</p><h1 className="mt-2 font-display text-3xl font-extrabold tracking-[-0.055em] text-[#2b1058] sm:text-4xl">{action.heading}</h1><p className="mx-auto mt-4 max-w-lg text-base leading-7 text-slate-600">{coverage?.description || "O Instagram não disponibilizou a prévia deste conteúdo. Para continuar agora, envie o arquivo original; a legenda permanece opcional."}</p><div className="mx-auto mt-6 max-w-md rounded-2xl border border-violet-100 bg-violet-50/65 p-4 text-left"><div className="flex gap-3"><UploadCloud className="mt-0.5 h-5 w-5 shrink-0 text-violet-700" /><div><p className="text-sm font-bold text-[#2b1058]">Você não precisa recomeçar.</p><p className="mt-1 text-xs leading-5 text-slate-600">Abra o vídeo ou a imagem original no celular e envie-o na próxima tela. MP4, JPG, PNG ou WEBP de até 12 MB.</p></div></div></div><a href={action.href} className="mt-6 inline-flex min-h-12 w-full items-center justify-center gap-2 rounded-xl bg-[#2b1058] px-5 text-base font-bold text-white shadow-[0_14px_28px_-18px_rgba(43,16,88,0.85)] transition-transform hover:bg-[#401d7b] active:scale-[0.97] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-violet-500 sm:w-auto"><UploadCloud className="h-5 w-5" />{action.label}</a>{sourceUrl && <a href={getRetryLink(contentType, sourceUrl)} className="mt-4 inline-flex items-center gap-2 text-sm font-bold text-violet-700 hover:text-violet-900 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-violet-500"><Link2 className="h-4 w-4" />Tentar outro link público</a>}</div></section>;
+}
+
+function humanize(value: string) {
+  return value.replaceAll("_", " ");
+}
+
+function ObservatoryNotice({ observatory }: { observatory?: ReportData["observatory"] }) {
+  if (!observatory) return null;
+  const { classification, comparisons, patterns = [] } = observatory;
+  const levelLabels = { 1: "mesma família, objetivo e segmento", 2: "mesma família e objetivo", 3: "mecanismo semelhante", 4: "sem equivalente confiável" } as const;
+  const confidenceLabels = { low: "baixa", medium: "média", high: "alta" } as const;
+  return <section className="mt-6 rounded-2xl border border-violet-100 bg-violet-50/55 p-5 sm:p-6"><div className="flex items-start gap-3"><div className="grid h-10 w-10 shrink-0 place-items-center rounded-xl bg-[#2b1058] text-white"><BrainCircuit className="h-5 w-5" /></div><div className="min-w-0 flex-1"><div className="flex flex-wrap items-center gap-2"><p className="text-xs font-bold uppercase tracking-[0.16em] text-violet-600">Contexto do Observatório</p><Badge variant="outline" className="border-violet-200 bg-white text-violet-700">Confiança {confidenceLabels[observatory.benchmarkConfidence]}</Badge></div><h2 className="mt-1 font-display text-xl font-extrabold text-[#2b1058] capitalize">{humanize(classification.primaryFamily)} · {classification.segment}</h2><p className="mt-2 text-sm leading-6 text-slate-600">A avaliação identificou este material como <strong>{humanize(classification.materialFormat)}</strong>, com objetivo provável de <strong>{classification.objectives.map(humanize).join(", ")}</strong>{classification.advertisingType ? <> e publicidade <strong>{humanize(classification.advertisingType)}</strong></> : null}. A comparação usada foi de nível {observatory.comparisonLevel}: {levelLabels[observatory.comparisonLevel]}.</p>{comparisons.length ? <><p className="mt-2 text-xs leading-5 text-slate-500">Base comparável: {comparisons.length} {comparisons.length === 1 ? "referência curada" : "referências curadas"}; {patterns.length} {patterns.length === 1 ? "padrão provisório relevante" : "padrões provisórios relevantes"}. O Observatório informa contexto; os cinco cérebros sintéticos continuam independentes.</p><p className="mt-2 text-xs leading-5 text-slate-500"><strong>Referências que influenciaram a comparação:</strong> {comparisons.slice(0, 3).map(item => `${item.title} — ${item.creator}`).join("; ")}.</p>{patterns.length ? <p className="mt-1 text-xs leading-5 text-slate-500"><strong>Padrões usados:</strong> {patterns.slice(0, 3).map(item => item.name).join("; ")}.</p> : null}</> : <p className="mt-2 text-xs leading-5 text-amber-700">Ainda não há referência suficientemente semelhante. A nota foi calculada pelos critérios estruturais e não foi tratada como benchmark de categoria.</p>}</div></div></section>;
 }
 
 export function getComplementAction(coverage: ReadingCoverage | undefined, contentType: string, sourceUrl: string | null) {

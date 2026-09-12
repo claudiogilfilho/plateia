@@ -1,8 +1,10 @@
 import { BrandMark } from "@/components/BrandMark";
 import { Badge } from "@/components/ui/badge";
 import { trpc } from "@/lib/trpc";
+import { getReportScore } from "@/lib/reportParsing";
 import { ArrowRight, BarChart3, Clock3, FileCheck2, Plus, Sparkles } from "lucide-react";
 import { Link } from "wouter";
+import { RuntimeStatus } from "@/components/RuntimeStatus";
 
 const statusMap = {
   completed: { label: "Concluída", className: "bg-emerald-50 text-emerald-700 border-emerald-100" },
@@ -38,6 +40,8 @@ export default function Dashboard() {
         </div>
       </section>
 
+      <RuntimeStatus />
+
       <section className="grid gap-4 md:grid-cols-3">
         <MetricCard icon={FileCheck2} label="Avaliações concluídas" value={isLoading ? "—" : String(completed)} accent="bg-violet-100 text-violet-700" />
         <MetricCard icon={Clock3} label="Em avaliação" value={isLoading ? "—" : String(processing)} accent="bg-amber-100 text-amber-700" />
@@ -58,7 +62,7 @@ export default function Dashboard() {
         ) : (
           <div className="divide-y divide-violet-50 border-t border-violet-50">
             {analyses.slice(0, 5).map(item => {
-              const score = item.reportJson ? JSON.parse(item.reportJson).synthesis?.overallScore : null;
+              const score = getReportScore(item.reportJson);
               const status = statusMap[item.status];
               return <Link key={item.id} href={`/analises/${item.id}`}><div className="group flex cursor-pointer items-center gap-4 px-6 py-4 transition-colors hover:bg-violet-50/50 sm:px-7"><div className="grid h-10 w-10 shrink-0 place-items-center rounded-xl bg-[#f3efff] text-sm font-extrabold text-violet-700">{item.contentType.slice(0, 1).toUpperCase()}</div><div className="min-w-0 flex-1"><p className="truncate font-semibold text-[#2b1058]">{item.product || `Avaliação de ${item.contentType}`}</p><p className="mt-0.5 text-xs text-slate-500">{item.contentType} · {new Date(item.createdAt).toLocaleDateString("pt-BR")}</p></div><Badge variant="outline" className={status.className}>{status.label}</Badge>{score !== null && <div className="hidden h-9 min-w-9 place-items-center rounded-full bg-[#2b1058] px-2 text-sm font-extrabold text-white sm:grid">{score}</div>}<ArrowRight className="h-4 w-4 text-slate-300 transition-transform group-hover:translate-x-1 group-hover:text-violet-600" /></div></Link>;
             })}
