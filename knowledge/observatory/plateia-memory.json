@@ -1,6 +1,6 @@
 {
   "protocol": "plateia-memory/1.0",
-  "updatedAt": "2026-09-13T11:11:30.000Z",
+  "updatedAt": "2026-09-14T11:11:50.000Z",
   "references": [
     {
       "id": "obs-20260823-001",
@@ -37728,6 +37728,1413 @@
         ],
         "causalClaimAllowed": false
       }
+    },
+    {
+      "id": "obs-20260914-151",
+      "title": "Usei o Apple Watch Series 11 por 30 dias: minha opinião",
+      "creator": "Cerqueira Tech",
+      "creatorIdentity": "cerqueira-tech",
+      "sourceIdentity": "cerqueira-tech",
+      "country": "BR",
+      "url": "https://www.youtube.com/watch?v=dcgNoEuesaY",
+      "sourceEvidence": [
+        "https://www.youtube.com/watch?v=dcgNoEuesaY"
+      ],
+      "publishedAt": null,
+      "duration": "PT3M24S",
+      "createdAt": "2026-09-14T11:11:50.000Z",
+      "coverage": {
+        "level": "partial",
+        "accessible": [
+          "título",
+          "criador",
+          "duração",
+          "data relativa indexada: cerca de três meses",
+          "transcrição automática integral em português com timestamps",
+          "fala por substituição textual",
+          "3.256 visualizações na triagem pública",
+          "70 curtidas exibidas no índice público",
+          "período de uso de 30 dias",
+          "critérios de mapas, pagamento, exercícios, assistente, ligações e praticidade",
+          "veredito condicionado ao uso de iPhone e às necessidades declaradas"
+        ],
+        "missing": [
+          "vídeo reproduzido ou auditado quadro a quadro",
+          "imagem em movimento efetivamente observada",
+          "capa ou outra imagem adquirida",
+          "áudio ouvido",
+          "texto na tela",
+          "edição",
+          "ritmo",
+          "curva de retenção",
+          "impressões e fontes de tráfego",
+          "mídia paga",
+          "data exata de publicação",
+          "descrição integral",
+          "comentários públicos"
+        ]
+      },
+      "publicMetrics": {
+        "viewsObserved": "3.256",
+        "likesObserved": "70 indexadas",
+        "commentsObserved": "not_assessed",
+        "observedAt": "2026-09-14",
+        "sourceType": "public_search_youtube_index_and_full_automatic_transcript",
+        "causality": "not_inferred"
+      },
+      "classification": {
+        "taxonomyVersion": "3.0",
+        "container": "youtube_video",
+        "materialFormat": "video_longo",
+        "presentationFormats": [
+          "comentario",
+          "indeterminado"
+        ],
+        "primaryFamily": "comparacao",
+        "secondaryFamilies": [
+          "autoridade_opiniao",
+          "demonstracao"
+        ],
+        "functionalMix": [
+          {
+            "family": "comparacao",
+            "percentage": 50
+          },
+          {
+            "family": "autoridade_opiniao",
+            "percentage": 30
+          },
+          {
+            "family": "demonstracao",
+            "percentage": 20
+          }
+        ],
+        "objectives": [
+          "educar",
+          "apresentar_solucao",
+          "confianca"
+        ],
+        "advertisingType": "editorial_organico",
+        "commercialIntent": "ausente",
+        "advertisedEntity": {
+          "kind": "nenhuma",
+          "name": "nenhuma",
+          "confidence": "medium"
+        },
+        "contentTopic": {
+          "label": "review pós-uso do Apple Watch Series 11",
+          "iabCode": null
+        },
+        "segment": "tecnologia de consumo",
+        "subsegment": "wearables e ecossistema Apple",
+        "probableAudience": "usuários de iPhone considerando um smartwatch",
+        "awarenessStage": "consciente_produto",
+        "productionLevel": "simple",
+        "creatorScale": "small",
+        "replicability": "high",
+        "durationBand": "over_60s",
+        "pace": "unknown",
+        "mechanisms": [
+          "aproximacao",
+          "confianca",
+          "recompensa"
+        ],
+        "hookTypes": [
+          "numero",
+          "problema",
+          "verbal"
+        ],
+        "narrativeElements": [
+          "situacao",
+          "prova",
+          "conclusao"
+        ],
+        "proofTypes": [
+          "depoimento",
+          "demonstracao"
+        ],
+        "ctaTypes": [
+          "comentar",
+          "seguir"
+        ],
+        "distributionContext": {
+          "organicPaid": "unknown",
+          "trendDependency": "low"
+        },
+        "confidence": "high",
+        "evidence": [
+          "A abertura declara 30 dias de uso real e diferencia o vídeo de uma leitura de ficha técnica.",
+          "Os critérios aparecem antes do veredito: mapas, pagamento, exercícios, assistente, calculadora e ligações.",
+          "Entre 02:05 e 02:58, o veredito é condicionado ao ecossistema e aos hábitos do comprador."
+        ],
+        "alternativeClassifications": [],
+        "missingInformation": [
+          "vídeo reproduzido ou auditado quadro a quadro",
+          "imagem em movimento efetivamente observada",
+          "capa ou outra imagem adquirida",
+          "áudio ouvido",
+          "texto na tela",
+          "edição",
+          "ritmo",
+          "curva de retenção",
+          "impressões e fontes de tráfego",
+          "mídia paga"
+        ],
+        "needsHumanReview": true
+      },
+      "comparison": {
+        "level": 1,
+        "group": "review brasileiro pós-uso para decisão de compra, com período, critérios e veredito condicionado",
+        "referenceIds": [
+          "obs-20260914-152",
+          "obs-20260914-153"
+        ],
+        "confidence": "high"
+      },
+      "observations": [
+        "O contexto de teste é declarado nos primeiros segundos.",
+        "A fala organiza seis usos cotidianos antes do veredito.",
+        "A conclusão separa quem tende a se beneficiar de quem provavelmente precisa apenas de um relógio comum."
+      ],
+      "interpretations": [
+        "Período, uso e critérios tornam a recomendação semanticamente auditável.",
+        "A sequência é recorrente, mas sua utilidade ou efeito sobre compra não foi medido."
+      ],
+      "scores": {
+        "gancho": 88,
+        "clareza": 94,
+        "relevancia": 91,
+        "desejo": 78,
+        "confianca": 84,
+        "retencao": "not_assessed",
+        "acao": 78,
+        "objecoes": 87
+      },
+      "fiveLenses": {
+        "apressado": "Entende período, produto e promessa de uso real nos primeiros segundos.",
+        "analitico": "Recebe critérios e ressalvas, mas não dados instrumentados nem preço.",
+        "aspiracional": "Percebe praticidade cotidiana sem promessa de transformação extrema.",
+        "comunidade": "É convidado a declarar sua necessidade; respostas não foram acessadas.",
+        "cetico": "Valoriza o veredito condicionado, mas desconta ausência de disclosure e teste audiovisual auditado."
+      },
+      "hypotheses": [],
+      "replicable": [
+        "Declarar período e natureza do uso antes dos critérios.",
+        "Avaliar usos concretos antes do veredito.",
+        "Condicionar a recomendação ao perfil que realmente se beneficia."
+      ],
+      "limitations": [
+        "Sem audiovisual, áudio ouvido, texto na tela, edição, ritmo ou retenção.",
+        "Sem preço, disclosure, comentários ou baseline funcional.",
+        "Métricas públicas são contexto, não causa."
+      ],
+      "provenance": [
+        "public_content",
+        "youtube_public_metadata",
+        "public_search",
+        "youtube_automatic_transcript",
+        "public_metric",
+        "observatory_inference"
+      ],
+      "training": {
+        "evidencePolicyVersion": "1.1",
+        "evidenceRole": "target_support",
+        "evidenceLevel": 1,
+        "requiredEvidenceObserved": true,
+        "supportEligible": true,
+        "claimCoverage": [
+          {
+            "claim": "contexto de teste aparece antes do veredito",
+            "requiredModalities": [
+              "transcript"
+            ],
+            "observedModalities": [
+              "transcript"
+            ],
+            "sufficient": true
+          },
+          {
+            "claim": "critérios concretos aparecem antes do veredito",
+            "requiredModalities": [
+              "transcript"
+            ],
+            "observedModalities": [
+              "transcript"
+            ],
+            "sufficient": true
+          }
+        ],
+        "provenanceAndConsent": {
+          "storyOrigin": "creator-authored gameplay or documented own project",
+          "consentStatus": "not_applicable",
+          "identityProtection": "not_applicable",
+          "evidence": [
+            "nenhum relato privado de terceiro foi ensinado"
+          ]
+        },
+        "replicable": [
+          "Declarar período e natureza do uso antes dos critérios.",
+          "Avaliar usos concretos antes do veredito.",
+          "Condicionar a recomendação ao perfil que realmente se beneficia."
+        ],
+        "contingent": [
+          "Sem audiovisual, áudio ouvido, texto na tela, edição, ritmo ou retenção.",
+          "Sem preço, disclosure, comentários ou baseline funcional.",
+          "Métricas públicas são contexto, não causa."
+        ],
+        "notRecommended": [
+          "copiar frases, personagens, mundo de jogo ou roteiro",
+          "tratar numeração de episódio como prova de compreensão ou retenção",
+          "inferir cenas, áudio, texto na tela, montagem, ritmo ou retenção",
+          "atribuir alcance ao mecanismo sem experimento ou baseline funcional"
+        ],
+        "hypotheses": []
+      },
+      "viralAssessment": {
+        "status": "indeterminate",
+        "observedSignal": "3.256",
+        "missingForRelativeAssessment": [
+          "coorte funcional contemporânea homogênea",
+          "retenção",
+          "impressões",
+          "fontes de tráfego",
+          "mídia paga"
+        ],
+        "confounders": [
+          "tamanho do canal",
+          "idade do vídeo",
+          "tema",
+          "distribuição"
+        ],
+        "causalClaimAllowed": false
+      }
+    },
+    {
+      "id": "obs-20260914-152",
+      "title": "Flashforge AD5X após 30 dias: Vale a pena? Análise sincera após 1 mês de uso!",
+      "creator": "A&B_3D",
+      "creatorIdentity": "a-e-b-3d",
+      "sourceIdentity": "a-e-b-3d",
+      "country": "BR",
+      "url": "https://www.youtube.com/watch?v=gc_mLqwTKTw",
+      "sourceEvidence": [
+        "https://www.youtube.com/watch?v=gc_mLqwTKTw"
+      ],
+      "publishedAt": null,
+      "duration": "PT4M45S",
+      "createdAt": "2026-09-14T11:11:50.000Z",
+      "coverage": {
+        "level": "partial",
+        "accessible": [
+          "título",
+          "criador",
+          "duração",
+          "transcrição automática integral em português com timestamps",
+          "fala por substituição textual",
+          "5.069 visualizações na triagem pública",
+          "período de uso de um mês",
+          "amostras de impressão descritas na fala",
+          "configuração de filamento declarada",
+          "faixa de preço falada",
+          "comparação com outra impressora",
+          "ressalva para iniciantes",
+          "veredito falado"
+        ],
+        "missing": [
+          "vídeo reproduzido ou auditado quadro a quadro",
+          "imagem em movimento efetivamente observada",
+          "capa ou outra imagem adquirida",
+          "áudio ouvido",
+          "texto na tela",
+          "edição",
+          "ritmo",
+          "curva de retenção",
+          "impressões e fontes de tráfego",
+          "mídia paga",
+          "data de publicação",
+          "descrição integral",
+          "curtidas",
+          "comentários públicos"
+        ]
+      },
+      "publicMetrics": {
+        "viewsObserved": "5.069",
+        "likesObserved": "not_assessed",
+        "commentsObserved": "not_assessed",
+        "observedAt": "2026-09-14",
+        "sourceType": "public_search_youtube_index_and_full_automatic_transcript",
+        "causality": "not_inferred"
+      },
+      "classification": {
+        "taxonomyVersion": "3.0",
+        "container": "youtube_video",
+        "materialFormat": "video_longo",
+        "presentationFormats": [
+          "comentario",
+          "indeterminado"
+        ],
+        "primaryFamily": "demonstracao",
+        "secondaryFamilies": [
+          "comparacao",
+          "educativo"
+        ],
+        "functionalMix": [
+          {
+            "family": "demonstracao",
+            "percentage": 45
+          },
+          {
+            "family": "comparacao",
+            "percentage": 35
+          },
+          {
+            "family": "educativo",
+            "percentage": 20
+          }
+        ],
+        "objectives": [
+          "educar",
+          "apresentar_solucao",
+          "confianca",
+          "comentario"
+        ],
+        "advertisingType": "editorial_organico",
+        "commercialIntent": "ausente",
+        "advertisedEntity": {
+          "kind": "nenhuma",
+          "name": "nenhuma",
+          "confidence": "medium"
+        },
+        "contentTopic": {
+          "label": "review pós-uso da impressora Flashforge AD5X",
+          "iabCode": null
+        },
+        "segment": "tecnologia maker",
+        "subsegment": "impressão 3D doméstica",
+        "probableAudience": "iniciantes e makers considerando uma impressora multicolorida",
+        "awarenessStage": "consciente_produto",
+        "productionLevel": "simple",
+        "creatorScale": "small",
+        "replicability": "high",
+        "durationBand": "over_60s",
+        "pace": "unknown",
+        "mechanisms": [
+          "confianca",
+          "recompensa",
+          "aproximacao"
+        ],
+        "hookTypes": [
+          "numero",
+          "pergunta",
+          "demonstracao_antecipada"
+        ],
+        "narrativeElements": [
+          "situacao",
+          "prova",
+          "progressao",
+          "conclusao"
+        ],
+        "proofTypes": [
+          "depoimento",
+          "demonstracao",
+          "dado"
+        ],
+        "ctaTypes": [
+          "comentar",
+          "conversar"
+        ],
+        "distributionContext": {
+          "organicPaid": "unknown",
+          "trendDependency": "low"
+        },
+        "confidence": "high",
+        "evidence": [
+          "A abertura declara que o criador esperou um mês para testar antes de opinar.",
+          "Antes do veredito, a fala descreve peças, ajustes e configuração de filamento.",
+          "Entre 01:33 e 04:22, preço, comparação, ausência de problemas e ressalva para iniciantes qualificam a recomendação."
+        ],
+        "alternativeClassifications": [],
+        "missingInformation": [
+          "vídeo reproduzido ou auditado quadro a quadro",
+          "imagem em movimento efetivamente observada",
+          "capa ou outra imagem adquirida",
+          "áudio ouvido",
+          "texto na tela",
+          "edição",
+          "ritmo",
+          "curva de retenção",
+          "impressões e fontes de tráfego",
+          "mídia paga"
+        ],
+        "needsHumanReview": true
+      },
+      "comparison": {
+        "level": 2,
+        "group": "review brasileiro pós-uso para decisão de compra, com período, critérios e veredito condicionado",
+        "referenceIds": [
+          "obs-20260914-151",
+          "obs-20260914-153"
+        ],
+        "confidence": "high"
+      },
+      "observations": [
+        "O período de teste é declarado antes de qualquer recomendação.",
+        "Resultados, configuração, preço e comparação precedem ou sustentam o veredito.",
+        "A recomendação a iniciantes recebe ressalva sobre configuração inicial."
+      ],
+      "interpretations": [
+        "O veredito fica rastreável a critérios falados, mesmo sem verificação visual das peças.",
+        "A demonstração descrita não substitui auditoria das imagens."
+      ],
+      "scores": {
+        "gancho": 83,
+        "clareza": 89,
+        "relevancia": 92,
+        "desejo": 82,
+        "confianca": 81,
+        "retencao": "not_assessed",
+        "acao": 80,
+        "objecoes": 84
+      },
+      "fiveLenses": {
+        "apressado": "Recebe período, produto e pergunta de compra em menos de vinte segundos.",
+        "analitico": "Encontra preço, comparação e ressalvas; quer protocolo visual e disclosure.",
+        "aspiracional": "Projetos e impressão multicolorida sugerem possibilidades, sem cenas auditadas.",
+        "comunidade": "O CTA promete responder dúvidas ou produzir novo vídeo; execução não foi verificada.",
+        "cetico": "Não aceita adjetivos de qualidade como medição e separa fala de evidência visual."
+      },
+      "hypotheses": [],
+      "replicable": [
+        "Esperar uso suficiente e declarar o período.",
+        "Expor peças, configurações e preço antes de recomendar.",
+        "Adicionar ressalva operacional para iniciantes."
+      ],
+      "limitations": [
+        "Peças e qualidade foram apenas descritas na fala.",
+        "Sem audiovisual, comentários, disclosure, retenção ou baseline.",
+        "Comparação de preço foi observacional e sem mercado controlado."
+      ],
+      "provenance": [
+        "public_content",
+        "youtube_public_metadata",
+        "public_search",
+        "youtube_automatic_transcript",
+        "public_metric",
+        "observatory_inference"
+      ],
+      "training": {
+        "evidencePolicyVersion": "1.1",
+        "evidenceRole": "target_support",
+        "evidenceLevel": 2,
+        "requiredEvidenceObserved": true,
+        "supportEligible": true,
+        "claimCoverage": [
+          {
+            "claim": "contexto de teste aparece antes do veredito",
+            "requiredModalities": [
+              "transcript"
+            ],
+            "observedModalities": [
+              "transcript"
+            ],
+            "sufficient": true
+          },
+          {
+            "claim": "resultados, configuração e preço qualificam o veredito",
+            "requiredModalities": [
+              "transcript"
+            ],
+            "observedModalities": [
+              "transcript"
+            ],
+            "sufficient": true
+          }
+        ],
+        "provenanceAndConsent": {
+          "storyOrigin": "creator-authored gameplay or documented own project",
+          "consentStatus": "not_applicable",
+          "identityProtection": "not_applicable",
+          "evidence": [
+            "nenhum relato privado de terceiro foi ensinado"
+          ]
+        },
+        "replicable": [
+          "Esperar uso suficiente e declarar o período.",
+          "Expor peças, configurações e preço antes de recomendar.",
+          "Adicionar ressalva operacional para iniciantes."
+        ],
+        "contingent": [
+          "Peças e qualidade foram apenas descritas na fala.",
+          "Sem audiovisual, comentários, disclosure, retenção ou baseline.",
+          "Comparação de preço foi observacional e sem mercado controlado."
+        ],
+        "notRecommended": [
+          "copiar frases, personagens, mundo de jogo ou roteiro",
+          "tratar numeração de episódio como prova de compreensão ou retenção",
+          "inferir cenas, áudio, texto na tela, montagem, ritmo ou retenção",
+          "atribuir alcance ao mecanismo sem experimento ou baseline funcional"
+        ],
+        "hypotheses": []
+      },
+      "viralAssessment": {
+        "status": "indeterminate",
+        "observedSignal": "5.069",
+        "missingForRelativeAssessment": [
+          "coorte funcional contemporânea homogênea",
+          "retenção",
+          "impressões",
+          "fontes de tráfego",
+          "mídia paga"
+        ],
+        "confounders": [
+          "tamanho do canal",
+          "idade do vídeo",
+          "tema",
+          "distribuição"
+        ],
+        "causalClaimAllowed": false
+      }
+    },
+    {
+      "id": "obs-20260914-153",
+      "title": "TESTEI UM MONOCICLO ELÉTRICO POR 30 DIAS: VALE A PENA?",
+      "creator": "Reset",
+      "creatorIdentity": "reset",
+      "sourceIdentity": "reset",
+      "country": "BR",
+      "url": "https://www.youtube.com/watch?v=wpkDpxQ1UCE",
+      "sourceEvidence": [
+        "https://www.youtube.com/watch?v=wpkDpxQ1UCE"
+      ],
+      "publishedAt": "2025-11-05",
+      "duration": "PT14M54S",
+      "createdAt": "2026-09-14T11:11:50.000Z",
+      "coverage": {
+        "level": "partial",
+        "accessible": [
+          "título",
+          "criador",
+          "descrição indexada",
+          "data exata indexada",
+          "duração",
+          "transcrição automática integral em português com timestamps",
+          "fala por substituição textual",
+          "127.061 visualizações na triagem pública",
+          "período de um mês quase diário",
+          "critérios de portabilidade, aprendizagem, autonomia, velocidade, suspensão, preço, risco e cenário de uso",
+          "opinião adicional de outro usuário na transcrição",
+          "veredito condicionado ao cenário"
+        ],
+        "missing": [
+          "vídeo reproduzido ou auditado quadro a quadro",
+          "imagem em movimento efetivamente observada",
+          "capa ou outra imagem adquirida",
+          "áudio ouvido",
+          "texto na tela",
+          "edição",
+          "ritmo",
+          "curva de retenção",
+          "impressões e fontes de tráfego",
+          "mídia paga",
+          "descrição integral",
+          "curtidas",
+          "comentários públicos",
+          "disclosure comercial completo"
+        ]
+      },
+      "publicMetrics": {
+        "viewsObserved": "127.061",
+        "likesObserved": "not_assessed",
+        "commentsObserved": "not_assessed",
+        "observedAt": "2026-09-14",
+        "sourceType": "public_search_youtube_index_description_and_full_automatic_transcript",
+        "causality": "not_inferred"
+      },
+      "classification": {
+        "taxonomyVersion": "3.0",
+        "container": "youtube_video",
+        "materialFormat": "video_longo",
+        "presentationFormats": [
+          "comentario",
+          "indeterminado"
+        ],
+        "primaryFamily": "comparacao",
+        "secondaryFamilies": [
+          "demonstracao",
+          "autoridade_opiniao"
+        ],
+        "functionalMix": [
+          {
+            "family": "comparacao",
+            "percentage": 45
+          },
+          {
+            "family": "demonstracao",
+            "percentage": 35
+          },
+          {
+            "family": "autoridade_opiniao",
+            "percentage": 20
+          }
+        ],
+        "objectives": [
+          "educar",
+          "apresentar_solucao",
+          "confianca",
+          "venda"
+        ],
+        "advertisingType": "publicidade_nativa",
+        "commercialIntent": "explicita",
+        "advertisedEntity": {
+          "kind": "produto",
+          "name": "monociclos vendidos pela loja de um amigo do criador",
+          "confidence": "high"
+        },
+        "contentTopic": {
+          "label": "review pós-uso de monociclo elétrico",
+          "iabCode": null
+        },
+        "segment": "mobilidade elétrica",
+        "subsegment": "monociclo para lazer e deslocamento",
+        "probableAudience": "adultos avaliando veículo elétrico pessoal",
+        "awarenessStage": "consciente_produto",
+        "productionLevel": "intermediate",
+        "creatorScale": "large",
+        "replicability": "medium",
+        "durationBand": "over_60s",
+        "pace": "unknown",
+        "mechanisms": [
+          "curiosidade",
+          "confianca",
+          "vigilancia",
+          "recompensa"
+        ],
+        "hookTypes": [
+          "numero",
+          "pergunta",
+          "risco"
+        ],
+        "narrativeElements": [
+          "situacao",
+          "risco",
+          "prova",
+          "progressao",
+          "conclusao"
+        ],
+        "proofTypes": [
+          "depoimento",
+          "demonstracao",
+          "tratamento_objecao"
+        ],
+        "ctaTypes": [
+          "compartilhar",
+          "clicar"
+        ],
+        "distributionContext": {
+          "organicPaid": "unknown",
+          "trendDependency": "low"
+        },
+        "confidence": "high",
+        "evidence": [
+          "A abertura declara um mês de uso e promete recomendação honesta.",
+          "A fala percorre portabilidade, aprendizagem, suspensão, autonomia, preço e risco antes do fechamento.",
+          "Entre 07:20 e 14:17, a recomendação muda conforme lazer, mobilidade diária, terreno, experiência e companhia.",
+          "O encerramento direciona à loja de um amigo e menciona possível desconto."
+        ],
+        "alternativeClassifications": [],
+        "missingInformation": [
+          "vídeo reproduzido ou auditado quadro a quadro",
+          "imagem em movimento efetivamente observada",
+          "capa ou outra imagem adquirida",
+          "áudio ouvido",
+          "texto na tela",
+          "edição",
+          "ritmo",
+          "curva de retenção",
+          "impressões e fontes de tráfego",
+          "mídia paga"
+        ],
+        "needsHumanReview": true
+      },
+      "comparison": {
+        "level": 2,
+        "group": "review brasileiro pós-uso para decisão de compra, com período, critérios e veredito condicionado",
+        "referenceIds": [
+          "obs-20260914-151",
+          "obs-20260914-152"
+        ],
+        "confidence": "medium"
+      },
+      "observations": [
+        "O teste de um mês é declarado na abertura.",
+        "A recomendação é dividida por cenário: lazer, deslocamento urbano, terreno, suspensão e exposição corporal.",
+        "O vínculo comercial com a loja aparece na fala e limita independência percebida."
+      ],
+      "interpretations": [
+        "Critérios e ressalvas tornam o veredito condicional, não universal.",
+        "Risco e vínculo comercial exigem leitura mais cética; desempenho não pode ser inferido pelas visualizações."
+      ],
+      "scores": {
+        "gancho": 90,
+        "clareza": 88,
+        "relevancia": 91,
+        "desejo": 80,
+        "confianca": 76,
+        "retencao": "not_assessed",
+        "acao": 82,
+        "objecoes": 86
+      },
+      "fiveLenses": {
+        "apressado": "Entende produto, período e pergunta rapidamente.",
+        "analitico": "Recebe múltiplos critérios, mas quer protocolo, acidentes e disclosure formal.",
+        "aspiracional": "O uso recreativo é atraente, contrabalançado por risco explícito.",
+        "comunidade": "Uma segunda opinião amplia perspectivas, sem amostra representativa.",
+        "cetico": "Desconta o encaminhamento comercial e exige separar experiência de segurança comprovada."
+      },
+      "hypotheses": [],
+      "replicable": [
+        "Declarar duração e frequência do teste.",
+        "Separar critérios de produto de cenários de uso.",
+        "Condicionar o veredito ao risco e ao perfil do comprador."
+      ],
+      "limitations": [
+        "Produto e teste exigem custo, espaço e habilidade.",
+        "Vínculo com vendedor e desconto são contexto comercial.",
+        "Sem audiovisual, comentários, incidentes documentados, retenção ou baseline."
+      ],
+      "provenance": [
+        "public_content",
+        "youtube_public_metadata",
+        "public_search",
+        "youtube_automatic_transcript",
+        "public_metric",
+        "observatory_inference"
+      ],
+      "training": {
+        "evidencePolicyVersion": "1.1",
+        "evidenceRole": "target_support",
+        "evidenceLevel": 2,
+        "requiredEvidenceObserved": true,
+        "supportEligible": true,
+        "claimCoverage": [
+          {
+            "claim": "período e intenção do teste aparecem antes do veredito",
+            "requiredModalities": [
+              "transcript"
+            ],
+            "observedModalities": [
+              "transcript"
+            ],
+            "sufficient": true
+          },
+          {
+            "claim": "critérios e cenários qualificam a recomendação",
+            "requiredModalities": [
+              "transcript"
+            ],
+            "observedModalities": [
+              "transcript"
+            ],
+            "sufficient": true
+          }
+        ],
+        "provenanceAndConsent": {
+          "storyOrigin": "creator-authored gameplay or documented own project",
+          "consentStatus": "not_applicable",
+          "identityProtection": "not_applicable",
+          "evidence": [
+            "nenhum relato privado de terceiro foi ensinado"
+          ]
+        },
+        "replicable": [
+          "Declarar duração e frequência do teste.",
+          "Separar critérios de produto de cenários de uso.",
+          "Condicionar o veredito ao risco e ao perfil do comprador."
+        ],
+        "contingent": [
+          "Produto e teste exigem custo, espaço e habilidade.",
+          "Vínculo com vendedor e desconto são contexto comercial.",
+          "Sem audiovisual, comentários, incidentes documentados, retenção ou baseline."
+        ],
+        "notRecommended": [
+          "copiar frases, personagens, mundo de jogo ou roteiro",
+          "tratar numeração de episódio como prova de compreensão ou retenção",
+          "inferir cenas, áudio, texto na tela, montagem, ritmo ou retenção",
+          "atribuir alcance ao mecanismo sem experimento ou baseline funcional"
+        ],
+        "hypotheses": []
+      },
+      "viralAssessment": {
+        "status": "indeterminate",
+        "observedSignal": "127.061",
+        "missingForRelativeAssessment": [
+          "coorte funcional contemporânea homogênea",
+          "retenção",
+          "impressões",
+          "fontes de tráfego",
+          "mídia paga"
+        ],
+        "confounders": [
+          "tamanho do canal",
+          "idade do vídeo",
+          "tema",
+          "distribuição"
+        ],
+        "causalClaimAllowed": false
+      }
+    },
+    {
+      "id": "obs-20260914-154",
+      "title": "Usei o MacBook Air M5 por 30 Dias e essa é minha opinião sincera",
+      "creator": "Ricardo Franzen",
+      "creatorIdentity": "ricardo-franzen",
+      "sourceIdentity": "ricardo-franzen",
+      "country": "BR",
+      "url": "https://www.youtube.com/watch?v=kZ8YSZt5SEw",
+      "sourceEvidence": [
+        "https://www.youtube.com/watch?v=kZ8YSZt5SEw"
+      ],
+      "publishedAt": null,
+      "duration": "PT19M06S",
+      "createdAt": "2026-09-14T11:11:50.000Z",
+      "coverage": {
+        "level": "partial",
+        "accessible": [
+          "título",
+          "criador",
+          "duração",
+          "transcrição automática integral em português com timestamps",
+          "fala por substituição textual",
+          "14.142 visualizações na triagem pública",
+          "período de um mês",
+          "uso diário para edição",
+          "software, carga de trabalho, calor, portas, tela e bateria",
+          "ausência de link de afiliado declarada",
+          "veredito positivo apresentado na abertura"
+        ],
+        "missing": [
+          "vídeo reproduzido ou auditado quadro a quadro",
+          "imagem em movimento efetivamente observada",
+          "capa ou outra imagem adquirida",
+          "áudio ouvido",
+          "texto na tela",
+          "edição",
+          "ritmo",
+          "curva de retenção",
+          "impressões e fontes de tráfego",
+          "mídia paga",
+          "data de publicação",
+          "descrição integral",
+          "curtidas",
+          "comentários públicos"
+        ]
+      },
+      "publicMetrics": {
+        "viewsObserved": "14.142",
+        "likesObserved": "not_assessed",
+        "commentsObserved": "not_assessed",
+        "observedAt": "2026-09-14",
+        "sourceType": "public_search_youtube_index_and_full_automatic_transcript",
+        "causality": "not_inferred"
+      },
+      "classification": {
+        "taxonomyVersion": "3.0",
+        "container": "youtube_video",
+        "materialFormat": "video_longo",
+        "presentationFormats": [
+          "comentario",
+          "indeterminado"
+        ],
+        "primaryFamily": "autoridade_opiniao",
+        "secondaryFamilies": [
+          "comparacao",
+          "demonstracao"
+        ],
+        "functionalMix": [
+          {
+            "family": "autoridade_opiniao",
+            "percentage": 45
+          },
+          {
+            "family": "comparacao",
+            "percentage": 35
+          },
+          {
+            "family": "demonstracao",
+            "percentage": 20
+          }
+        ],
+        "objectives": [
+          "educar",
+          "apresentar_solucao",
+          "confianca"
+        ],
+        "advertisingType": "editorial_organico",
+        "commercialIntent": "ausente",
+        "advertisedEntity": {
+          "kind": "nenhuma",
+          "name": "nenhuma",
+          "confidence": "medium"
+        },
+        "contentTopic": {
+          "label": "review pós-uso do MacBook Air M5",
+          "iabCode": null
+        },
+        "segment": "tecnologia de consumo",
+        "subsegment": "computadores para edição de vídeo",
+        "probableAudience": "criadores considerando notebook Apple para edição",
+        "awarenessStage": "consciente_produto",
+        "productionLevel": "simple",
+        "creatorScale": "medium",
+        "replicability": "high",
+        "durationBand": "over_60s",
+        "pace": "unknown",
+        "mechanisms": [
+          "confianca",
+          "desejo",
+          "recompensa"
+        ],
+        "hookTypes": [
+          "numero",
+          "resultado_antecipado",
+          "problema"
+        ],
+        "narrativeElements": [
+          "conclusao",
+          "situacao",
+          "prova",
+          "problema"
+        ],
+        "proofTypes": [
+          "depoimento",
+          "alegacao_sem_prova"
+        ],
+        "ctaTypes": [
+          "comentar"
+        ],
+        "distributionContext": {
+          "organicPaid": "unknown",
+          "trendDependency": "low"
+        },
+        "confidence": "high",
+        "evidence": [
+          "Nos primeiros cinco segundos, a fala já qualifica a experiência como incrível.",
+          "Depois, declara edição diária, Final Cut, carga, calor, tela, portas e bateria.",
+          "A recomendação explícita reaparece no final e declara ausência de link comercial."
+        ],
+        "alternativeClassifications": [],
+        "missingInformation": [
+          "vídeo reproduzido ou auditado quadro a quadro",
+          "imagem em movimento efetivamente observada",
+          "capa ou outra imagem adquirida",
+          "áudio ouvido",
+          "texto na tela",
+          "edição",
+          "ritmo",
+          "curva de retenção",
+          "impressões e fontes de tráfego",
+          "mídia paga"
+        ],
+        "needsHumanReview": true
+      },
+      "comparison": {
+        "level": 1,
+        "group": "review brasileiro pós-uso para decisão de compra, mas com veredito antes dos critérios",
+        "referenceIds": [
+          "obs-20260914-151",
+          "obs-20260914-152",
+          "obs-20260914-153"
+        ],
+        "confidence": "high"
+      },
+      "observations": [
+        "O período e o uso profissional aparecem cedo, mas o julgamento positivo vem antes do conjunto de critérios.",
+        "Critérios e única ressalva de tela surgem depois da conclusão antecipada.",
+        "A ausência de link é declarada, mas compra, preço e configuração exata não ficaram integralmente auditáveis."
+      ],
+      "interpretations": [
+        "É funcionalmente comparável, porém não apoia a sequência critérios-antes-do-veredito.",
+        "Sem medida de utilidade, não é contraexemplo causal; refina apenas a fronteira estrutural."
+      ],
+      "scores": {
+        "gancho": 86,
+        "clareza": 85,
+        "relevancia": 88,
+        "desejo": 84,
+        "confianca": 75,
+        "retencao": "not_assessed",
+        "acao": 76,
+        "objecoes": 72
+      },
+      "fiveLenses": {
+        "apressado": "Recebe uma conclusão forte antes de entender limites e configuração.",
+        "analitico": "Encontra carga de trabalho e software, mas precisa reorganizar os critérios.",
+        "aspiracional": "A edição diária sem travar sustenta desejo declarado.",
+        "comunidade": "Dúvidas são convidadas no fim; comentários não foram acessados.",
+        "cetico": "Questiona o veredito precoce e os absolutos antes das ressalvas."
+      },
+      "hypotheses": [],
+      "replicable": [
+        "Declarar período, uso principal e software.",
+        "Relacionar recomendação a uma carga de trabalho concreta."
+      ],
+      "limitations": [
+        "Caso-limite: veredito aparece antes dos critérios.",
+        "Sem audiovisual, comentários, configuração completa, retenção ou baseline.",
+        "Experiência pessoal não equivale a benchmark de desempenho."
+      ],
+      "provenance": [
+        "public_content",
+        "youtube_public_metadata",
+        "public_search",
+        "youtube_automatic_transcript",
+        "public_metric",
+        "observatory_inference"
+      ],
+      "training": {
+        "evidencePolicyVersion": "1.1",
+        "evidenceRole": "falsification_or_boundary",
+        "evidenceLevel": 1,
+        "requiredEvidenceObserved": false,
+        "supportEligible": false,
+        "claimCoverage": [
+          {
+            "claim": "período e uso principal aparecem cedo",
+            "requiredModalities": [
+              "transcript"
+            ],
+            "observedModalities": [
+              "transcript"
+            ],
+            "sufficient": true
+          },
+          {
+            "claim": "critérios concretos aparecem antes do veredito",
+            "requiredModalities": [
+              "transcript",
+              "criteria_before_verdict"
+            ],
+            "observedModalities": [
+              "transcript"
+            ],
+            "sufficient": false
+          },
+          {
+            "claim": "a ordem reduz utilidade",
+            "requiredModalities": [
+              "utility_measure"
+            ],
+            "observedModalities": [],
+            "sufficient": false
+          }
+        ],
+        "provenanceAndConsent": {
+          "storyOrigin": "creator-authored gameplay or documented own project",
+          "consentStatus": "not_applicable",
+          "identityProtection": "not_applicable",
+          "evidence": [
+            "nenhum relato privado de terceiro foi ensinado"
+          ]
+        },
+        "replicable": [
+          "Declarar período, uso principal e software.",
+          "Relacionar recomendação a uma carga de trabalho concreta."
+        ],
+        "contingent": [
+          "Caso-limite: veredito aparece antes dos critérios.",
+          "Sem audiovisual, comentários, configuração completa, retenção ou baseline.",
+          "Experiência pessoal não equivale a benchmark de desempenho."
+        ],
+        "notRecommended": [
+          "copiar frases, personagens, mundo de jogo ou roteiro",
+          "tratar numeração de episódio como prova de compreensão ou retenção",
+          "inferir cenas, áudio, texto na tela, montagem, ritmo ou retenção",
+          "atribuir alcance ao mecanismo sem experimento ou baseline funcional"
+        ],
+        "hypotheses": []
+      },
+      "viralAssessment": {
+        "status": "indeterminate",
+        "observedSignal": "14.142",
+        "missingForRelativeAssessment": [
+          "coorte funcional contemporânea homogênea",
+          "retenção",
+          "impressões",
+          "fontes de tráfego",
+          "mídia paga"
+        ],
+        "confounders": [
+          "tamanho do canal",
+          "idade do vídeo",
+          "tema",
+          "distribuição"
+        ],
+        "causalClaimAllowed": false
+      }
+    },
+    {
+      "id": "obs-20260914-155",
+      "title": "Curau Brûlée Cremoso e Crocante",
+      "creator": "Tastemade Brasil",
+      "creatorIdentity": "tastemade-brasil",
+      "sourceIdentity": "tastemade-brasil",
+      "country": "BR",
+      "url": "https://www.youtube.com/watch?v=aiBxC17KvW4",
+      "sourceEvidence": [
+        "https://www.youtube.com/watch?v=aiBxC17KvW4"
+      ],
+      "publishedAt": null,
+      "duration": "PT4M40S",
+      "createdAt": "2026-09-14T11:11:50.000Z",
+      "coverage": {
+        "level": "partial",
+        "accessible": [
+          "título",
+          "criador",
+          "duração indexada",
+          "data relativa indexada: cerca de dois meses",
+          "458 visualizações na triagem pública",
+          "canal oficial e publicação individual identificados"
+        ],
+        "missing": [
+          "vídeo reproduzido ou auditado quadro a quadro",
+          "imagem em movimento efetivamente observada",
+          "capa ou outra imagem adquirida",
+          "áudio ouvido",
+          "texto na tela",
+          "edição",
+          "ritmo",
+          "curva de retenção",
+          "impressões e fontes de tráfego",
+          "mídia paga",
+          "data exata",
+          "descrição",
+          "fala ou transcrição",
+          "ingredientes",
+          "etapas",
+          "resultado visual",
+          "curtidas",
+          "comentários públicos"
+        ]
+      },
+      "publicMetrics": {
+        "viewsObserved": "458",
+        "likesObserved": "not_assessed",
+        "commentsObserved": "not_assessed",
+        "observedAt": "2026-09-14",
+        "sourceType": "public_search_youtube_index_only",
+        "causality": "not_inferred"
+      },
+      "classification": {
+        "taxonomyVersion": "3.0",
+        "container": "youtube_video",
+        "materialFormat": "video_longo",
+        "presentationFormats": [
+          "indeterminado"
+        ],
+        "primaryFamily": "curiosidade",
+        "secondaryFamilies": [
+          "demonstracao",
+          "educativo"
+        ],
+        "functionalMix": [
+          {
+            "family": "curiosidade",
+            "percentage": 50
+          },
+          {
+            "family": "demonstracao",
+            "percentage": 30
+          },
+          {
+            "family": "educativo",
+            "percentage": 20
+          }
+        ],
+        "objectives": [
+          "visualizacao",
+          "educar",
+          "salvamento"
+        ],
+        "advertisingType": "editorial_organico",
+        "commercialIntent": "ausente",
+        "advertisedEntity": {
+          "kind": "nenhuma",
+          "name": "nenhuma",
+          "confidence": "medium"
+        },
+        "contentTopic": {
+          "label": "curau com acabamento brûlée",
+          "iabCode": null
+        },
+        "segment": "alimentação e culinária",
+        "subsegment": "sobremesa brasileira reinterpretada",
+        "probableAudience": "pessoas interessadas em receitas e confeitaria",
+        "awarenessStage": "consciente_solucao",
+        "productionLevel": "intermediate",
+        "creatorScale": "large",
+        "replicability": "unknown",
+        "durationBand": "over_60s",
+        "pace": "unknown",
+        "mechanisms": [
+          "curiosidade",
+          "recompensa",
+          "desejo"
+        ],
+        "hookTypes": [
+          "textual",
+          "resultado_antecipado"
+        ],
+        "narrativeElements": [
+          "promessa"
+        ],
+        "proofTypes": [],
+        "ctaTypes": [],
+        "distributionContext": {
+          "organicPaid": "unknown",
+          "trendDependency": "low"
+        },
+        "confidence": "low",
+        "evidence": [
+          "O título combina um prato familiar com dois atributos de textura contrastantes.",
+          "O índice público identifica publicação, canal, duração e visualizações."
+        ],
+        "alternativeClassifications": [],
+        "missingInformation": [
+          "vídeo reproduzido ou auditado quadro a quadro",
+          "imagem em movimento efetivamente observada",
+          "capa ou outra imagem adquirida",
+          "áudio ouvido",
+          "texto na tela",
+          "edição",
+          "ritmo",
+          "curva de retenção",
+          "impressões e fontes de tráfego",
+          "mídia paga",
+          "fala",
+          "ingredientes",
+          "etapas",
+          "resultado",
+          "CTA"
+        ],
+        "needsHumanReview": true
+      },
+      "comparison": {
+        "level": 4,
+        "group": "exploração de demonstração culinária; cobertura insuficiente para comparação estrutural",
+        "referenceIds": [],
+        "confidence": "low"
+      },
+      "observations": [
+        "O título nomeia prato e contraste de textura: cremoso e crocante.",
+        "Nenhuma execução, ingrediente ou entrega visual ficou acessível."
+      ],
+      "interpretations": [
+        "O contraste pode orientar uma futura busca, mas não autoriza ensinar estrutura, ritmo ou receita."
+      ],
+      "scores": {
+        "gancho": 78,
+        "clareza": 76,
+        "relevancia": 72,
+        "desejo": 80,
+        "confianca": "not_assessed",
+        "retencao": "not_assessed",
+        "acao": "not_assessed",
+        "objecoes": "not_assessed"
+      },
+      "fiveLenses": {
+        "apressado": "Entende prato e promessa de textura pelo título.",
+        "analitico": "Não consegue avaliar ingredientes, processo ou entrega.",
+        "aspiracional": "O contraste de textura sugere uma recompensa, sem imagem auditada.",
+        "comunidade": "Comentários e participação não foram acessados.",
+        "cetico": "Mantém toda afirmação sobre execução como não mensurada."
+      },
+      "hypotheses": [],
+      "replicable": [
+        "Nomear no título o prato e o contraste sensorial prometido."
+      ],
+      "limitations": [
+        "Exploração de outra família; não sustenta o padrão de reviews.",
+        "Cobertura insuficiente para ensinar receita, demonstração, ritmo ou retenção.",
+        "Produção e replicabilidade material ficaram não mensuradas."
+      ],
+      "provenance": [
+        "public_content",
+        "youtube_public_metadata",
+        "public_search",
+        "youtube_automatic_transcript",
+        "public_metric",
+        "observatory_inference"
+      ],
+      "training": {
+        "evidencePolicyVersion": "1.1",
+        "evidenceRole": "controlled_exploration",
+        "evidenceLevel": 4,
+        "requiredEvidenceObserved": false,
+        "supportEligible": false,
+        "claimCoverage": [
+          {
+            "claim": "o título promete contraste de textura",
+            "requiredModalities": [
+              "title"
+            ],
+            "observedModalities": [
+              "title"
+            ],
+            "sufficient": true
+          },
+          {
+            "claim": "a receita entrega as texturas prometidas",
+            "requiredModalities": [
+              "video_or_frames",
+              "recipe"
+            ],
+            "observedModalities": [],
+            "sufficient": false
+          }
+        ],
+        "provenanceAndConsent": {
+          "storyOrigin": "creator-authored gameplay or documented own project",
+          "consentStatus": "not_applicable",
+          "identityProtection": "not_applicable",
+          "evidence": [
+            "nenhum relato privado de terceiro foi ensinado"
+          ]
+        },
+        "replicable": [
+          "Nomear no título o prato e o contraste sensorial prometido."
+        ],
+        "contingent": [
+          "Exploração de outra família; não sustenta o padrão de reviews.",
+          "Cobertura insuficiente para ensinar receita, demonstração, ritmo ou retenção.",
+          "Produção e replicabilidade material ficaram não mensuradas."
+        ],
+        "notRecommended": [
+          "copiar frases, personagens, mundo de jogo ou roteiro",
+          "tratar numeração de episódio como prova de compreensão ou retenção",
+          "inferir cenas, áudio, texto na tela, montagem, ritmo ou retenção",
+          "atribuir alcance ao mecanismo sem experimento ou baseline funcional"
+        ],
+        "hypotheses": []
+      },
+      "viralAssessment": {
+        "status": "indeterminate",
+        "observedSignal": "458",
+        "missingForRelativeAssessment": [
+          "coorte funcional contemporânea homogênea",
+          "retenção",
+          "impressões",
+          "fontes de tráfego",
+          "mídia paga"
+        ],
+        "confounders": [
+          "tamanho do canal",
+          "idade do vídeo",
+          "tema",
+          "distribuição"
+        ],
+        "causalClaimAllowed": false
+      }
     }
   ],
   "patterns": [
@@ -39395,6 +40802,112 @@
       ],
       "validation": "requires_human_or_experimental_evidence",
       "taxonomyVersion": "3.0"
+    },
+    {
+      "id": "pat-20260914-014",
+      "status": "provisional",
+      "stage": "provisional",
+      "name": "Contexto e critérios antes do veredito pós-uso",
+      "statement": "Em reviews pós-uso para decisão de compra, declarar o período e o cenário de teste, apresentar critérios concretos e então condicionar o veredito ao perfil de uso torna a lógica da recomendação rastreável. Efeitos sobre utilidade percebida, confiança, retenção ou conversão não foram medidos.",
+      "creativeFamily": "comparacao",
+      "objective": "orientar decisão de compra",
+      "segment": "reviews de tecnologia e mobilidade de consumo",
+      "mechanism": [
+        "confianca",
+        "aproximacao",
+        "recompensa",
+        "vigilancia"
+      ],
+      "conditions": [
+        "experiência pós-uso com período declarado",
+        "cenário ou frequência de uso identificável",
+        "dois ou mais critérios concretos apresentados antes da conclusão principal",
+        "veredito ligado ao perfil, cenário ou necessidade do comprador",
+        "sequência diretamente observável em transcrição, áudio ou vídeo"
+      ],
+      "supportReferenceIds": [
+        "obs-20260914-151",
+        "obs-20260914-152",
+        "obs-20260914-153"
+      ],
+      "precursorReferenceIds": [
+        "obs-20260826-051"
+      ],
+      "comparableSupportCount": 3,
+      "supportingCount": 3,
+      "counterexampleCount": 0,
+      "caseLimitCount": 1,
+      "counterexampleReferenceIds": [],
+      "caseLimitReferenceIds": [
+        "obs-20260914-154"
+      ],
+      "comparisonLevel": 2,
+      "confidence": "medium",
+      "creatorDiversityCount": 3,
+      "sourceDiversityCount": 3,
+      "patternType": "compreensao",
+      "evidence": [
+        {
+          "referenceId": "obs-20260914-151",
+          "role": "support",
+          "comparisonLevel": 1,
+          "requiredEvidenceObserved": true,
+          "confidence": "high",
+          "observation": "Trinta dias e uso real são declarados; seis critérios cotidianos precedem um veredito condicionado a ecossistema e hábitos.",
+          "evidence": "Título, índice público e transcrição automática integral.",
+          "limitations": [
+            "sem audiovisual, comentários, preço ou retenção"
+          ]
+        },
+        {
+          "referenceId": "obs-20260914-152",
+          "role": "support",
+          "comparisonLevel": 2,
+          "requiredEvidenceObserved": true,
+          "confidence": "high",
+          "observation": "Um mês de teste, peças, configurações, preço e comparação sustentam recomendação com ressalva para iniciantes.",
+          "evidence": "Título, índice público e transcrição automática integral.",
+          "limitations": [
+            "qualidade visual das peças não auditada",
+            "sem disclosure ou retenção"
+          ]
+        },
+        {
+          "referenceId": "obs-20260914-153",
+          "role": "support",
+          "comparisonLevel": 2,
+          "requiredEvidenceObserved": true,
+          "confidence": "high",
+          "observation": "Um mês quase diário, critérios de portabilidade, autonomia, preço, suspensão e risco antecedem recomendações diferentes por cenário.",
+          "evidence": "Título, descrição indexada, data e transcrição automática integral.",
+          "limitations": [
+            "vínculo comercial com loja",
+            "sem audiovisual, comentários ou retenção"
+          ]
+        },
+        {
+          "referenceId": "obs-20260914-154",
+          "role": "case_limit",
+          "comparisonLevel": 1,
+          "requiredEvidenceObserved": false,
+          "confidence": "high",
+          "observation": "O período e o uso profissional são claros, mas o julgamento positivo aparece nos primeiros segundos, antes do conjunto de critérios.",
+          "evidence": "Título, índice público e transcrição automática integral.",
+          "limitations": [
+            "não é contraexemplo causal porque utilidade e desempenho não foram medidos"
+          ]
+        }
+      ],
+      "limitations": [
+        "Os três apoios independentes demonstram recorrência estrutural, não eficácia.",
+        "Nenhum vídeo, áudio, capa, texto na tela, edição, ritmo ou retenção foi auditado.",
+        "Os produtos, durações e escalas de criador diferem; não formam benchmark numérico.",
+        "A referência precursora permanece contexto por cobertura secundária.",
+        "O caso-limite mostra que declarar período e uso não basta quando o veredito antecede os critérios.",
+        "Validação exige revisão humana ou evidência experimental apropriada."
+      ],
+      "validation": "requires_human_or_experimental_evidence",
+      "taxonomyVersion": "3.0"
     }
   ],
   "hypotheses": [
@@ -39635,12 +41148,16 @@
     },
     {
       "id": "hyp-20260826-022",
-      "status": "observed_not_promoted",
+      "status": "promoted_to_provisional",
       "statement": "Em review curto de produto, antecipar contexto de teste e critérios concretos de compra antes do veredito pode aumentar utilidade para consideração.",
       "supportReferenceIds": [
-        "obs-20260826-051"
+        "obs-20260826-051",
+        "obs-20260914-151",
+        "obs-20260914-152",
+        "obs-20260914-153"
       ],
-      "reasonNotPromoted": "Uma única referência com legenda secundária, sem execução do teste, disclosure, retenção ou conversão."
+      "promotedPatternId": "pat-20260914-014",
+      "promotedAt": "2026-09-14T11:11:50.000Z"
     },
     {
       "id": "hyp-20260826-023",
@@ -42394,6 +43911,209 @@
         "Uma transcrição automática teve baixa confiabilidade.",
         "Sem retenção, teste de compreensão ou baseline homogêneo.",
         "Comentários são ausentes ou amostrais.",
+        "Nenhum resultado autoriza causalidade ou validação."
+      ]
+    },
+    {
+      "id": "run-20260914-supervised-027",
+      "executedAt": "2026-09-14T11:11:50.000Z",
+      "batchPolicyVersion": "1.1",
+      "requestedBatchSize": 5,
+      "candidatesFound": 30,
+      "referenceIds": [
+        "obs-20260914-151",
+        "obs-20260914-152",
+        "obs-20260914-153",
+        "obs-20260914-154",
+        "obs-20260914-155"
+      ],
+      "targetKnowledgeId": "hyp-20260826-022",
+      "targetReferenceIds": [
+        "obs-20260914-151",
+        "obs-20260914-152",
+        "obs-20260914-153"
+      ],
+      "falsificationOrBoundaryReferenceIds": [
+        "obs-20260914-154"
+      ],
+      "controlledExplorationReferenceIds": [
+        "obs-20260914-155"
+      ],
+      "discarded": [
+        {
+          "url": "https://www.youtube.com/watch?v=mrsMuQbNlzM",
+          "reason": "suplemento ingerível; maior risco de confundir experiência com alegação de saúde"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=zKOSsEAdm9c",
+          "reason": "mesmo produto do apoio selecionado e menor diversidade de fonte"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=PNxnC8ORrXo",
+          "reason": "mesmo criador de outro candidato e produto antigo; diversidade inferior"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=i74CDqkgEyU",
+          "reason": "mesmo criador de outro candidato e cobertura redundante"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=x4rdpgaMV1Q",
+          "reason": "notebook semelhante ao caso-limite e duração ainda maior"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=5raF67nilvQ",
+          "reason": "mesmo criador de outro candidato e duração longa"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=WU5aDPW8Gfw",
+          "reason": "mesmo criador de outro candidato e cobertura redundante"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=sWv0FeCcwgs",
+          "reason": "mesmo criador de outro candidato e duração longa"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=sOmqj_uKJG4",
+          "reason": "produto semelhante a outros candidatos; diversidade inferior"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=LPVR2JoJzQQ",
+          "reason": "mesmo criador de outro candidato e cobertura redundante"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=mnc4Gp-t57Q",
+          "reason": "bom candidato, mas duração maior e sobreposição com review de impressão 3D selecionado"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=rqTDNjkk3CM",
+          "reason": "wearable com duração longa; menor ganho de diversidade que o monociclo"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=8AsGRez8YVY",
+          "reason": "notebook semelhante ao caso-limite selecionado"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=faWkStPfFoQ",
+          "reason": "cosmético com cobertura insuficiente e maior risco de alegação pessoal não verificável"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=gzY_RtObHOk",
+          "reason": "mesmo criador de candidato anterior e cobertura redundante"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=1bd-ny10Tqo",
+          "reason": "título disponível, mas cobertura inferior aos apoios com transcrição adquirida"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=sDvD5UHdpkM",
+          "reason": "compilação culinária longa e menos específica que a exploração escolhida"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=i9nJAtmrX3I",
+          "reason": "compilação de cinco receitas; menor isolamento do mecanismo"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=jzEPDMxgDgk",
+          "reason": "compilação de dez receitas; menor comparabilidade estrutural"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=ZxJVKpK2d-Q",
+          "reason": "programa culinário longo e produção menos replicável"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=4GaEvdJxpLs",
+          "reason": "episódio culinário com múltiplas receitas e produção complexa"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=zc_Jv8LYU8g",
+          "reason": "compilação de tortas; menor isolamento da promessa"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=ZWw9M783m1M",
+          "reason": "compilação de pudins; menor isolamento da promessa"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=lWMw2_Fgd4g",
+          "reason": "compilação de bolos; redundante com outras listas"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=DxUrAAlTCxw",
+          "reason": "compilação de sanduíches; menor especificidade que o caso escolhido"
+        }
+      ],
+      "analyzed": 5,
+      "brazilianReferences": 5,
+      "internationalReferences": 0,
+      "unknownOriginReferences": 0,
+      "smallOrMediumCreatorReferences": 3,
+      "replicableReferences": 4,
+      "creativeFamiliesObserved": [
+        "comparacao",
+        "autoridade_opiniao",
+        "demonstracao",
+        "educativo",
+        "curiosidade"
+      ],
+      "coverageSummary": {
+        "complete": 0,
+        "partial": 5,
+        "insufficient": 0
+      },
+      "audiovisualAcquisition": {
+        "attempted": true,
+        "succeeded": 0,
+        "failure": "downloads e páginas diretas foram bloqueados por verificação automatizada, 429 ou timeout; capas também expiraram",
+        "effect": "imagem em movimento, áudio ouvido, texto na tela, edição, ritmo e retenção ficaram não mensurados"
+      },
+      "transcriptCoverage": {
+        "fullAutomatic": 4,
+        "partialAutomatic": 0,
+        "none": 1,
+        "limitation": "transcrições automáticas substituem apenas fala e podem conter erros; a exploração não teve transcrição"
+      },
+      "commentsCoverage": {
+        "unavailable": 5,
+        "limitation": "comentários públicos não foram adquiridos"
+      },
+      "baselineCoverage": {
+        "sampledProfiles": 0,
+        "contemporaneousBaselines": 0,
+        "limitation": "produtos, idades, durações e escalas heterogêneos impedem benchmark de desempenho"
+      },
+      "patternsCreated": [
+        "pat-20260914-014"
+      ],
+      "patternsStrengthened": [],
+      "patternsRefined": [],
+      "hypothesesCreated": [],
+      "hypothesesStrengthened": [
+        "hyp-20260826-022"
+      ],
+      "validatedPatternsCreated": 0,
+      "contradictionsFound": [],
+      "caseLimitsFound": [
+        "declarar período e cenário não equivale a apresentar critérios antes do veredito"
+      ],
+      "safetyFindings": [
+        "nenhuma alegação de segurança do veículo foi ensinada como fato",
+        "nenhum comentário ou dado pessoal foi reproduzido"
+      ],
+      "evidenceGateSummary": {
+        "targetSupportsEligible": 3,
+        "targetSupportsRejected": 0,
+        "boundaryCases": 1,
+        "explorationReferences": 1,
+        "duplicateUrls": 0,
+        "independentCreatorsAddedToPattern": 3,
+        "newHypotheses": 0
+      },
+      "outcome": "Três criadores brasileiros independentes sustentam recorrência estrutural de período, cenário e critérios antes de um veredito condicionado. O padrão é provisório; utilidade, confiança, retenção e conversão não foram medidas.",
+      "nextTarget": "review brasileiro pós-uso curto com audiovisual integral, disclosure, critérios pré-declarados e teste de compreensão; buscar caso comparável em que critérios contradigam o veredito ou em que público não identifique para quem a recomendação vale",
+      "limitations": [
+        "Nenhum audiovisual, áudio ou capa foi adquirido.",
+        "Uma referência não teve transcrição.",
+        "Sem comentários, retenção, teste de compreensão, conversão ou baseline homogêneo.",
+        "Datas exatas de quatro referências não ficaram acessíveis.",
         "Nenhum resultado autoriza causalidade ou validação."
       ]
     }
