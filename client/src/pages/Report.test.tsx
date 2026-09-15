@@ -1,7 +1,7 @@
 import { renderToStaticMarkup } from "react-dom/server";
 import React from "react";
 import { describe, expect, it } from "vitest";
-import { CoverageNotice, getComplementAction, NeedsContentReport } from "./Report";
+import { CoverageNotice, getComplementAction, NeedsContentReport, requiresVisualComplement } from "./Report";
 
 describe("CoverageNotice", () => {
   it("shows the coverage title and description for a partial reading", () => {
@@ -30,5 +30,10 @@ describe("CoverageNotice", () => {
   it("never treats an absent caption as a required action", () => {
     const action = getComplementAction(undefined, "reel", "https://www.instagram.com/reel/exemplo/");
     expect(action).toEqual({ heading: "O material visual não está disponível.", label: "Escolher arquivo original", href: "/avaliar?envio=upload&tipo=reel&retorno=instagram&link=https%3A%2F%2Fwww.instagram.com%2Freel%2Fexemplo%2F" });
+  });
+
+  it("intercepts legacy Instagram reports that were completed without visual media", () => {
+    expect(requiresVisualComplement({ contentType: "reel", sourceKind: "published_post", sourceUrl: "https://www.instagram.com/reel/exemplo/", mediaUrl: null })).toBe(true);
+    expect(requiresVisualComplement({ contentType: "reel", sourceKind: "published_post", sourceUrl: "https://www.instagram.com/reel/exemplo/", mediaUrl: "https://cdn.example/video.mp4" })).toBe(false);
   });
 });

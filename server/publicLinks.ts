@@ -31,7 +31,7 @@ function metaContent(html: string, property: string) {
   return html.match(propertyFirst)?.[1] ?? html.match(contentFirst)?.[1] ?? null;
 }
 
-function decodeHtml(value: string | null) {
+function decodeHtml(value: string | null | undefined) {
   return value?.replace(/&amp;/g, "&").replace(/&#x27;/g, "'").replace(/&quot;/g, '"').replace(/&#39;/g, "'").trim() || null;
 }
 
@@ -127,30 +127,54 @@ function structuredInstagramMaterial(html: string) {
 
 export type InstagramMaterial = { mediaUrl: string | null; mediaMimeType: "image/jpeg" | "video/mp4" | null; videoUrl: string | null; coverImageUrl: string | null; caption: string | null };
 
+function instagramMaterialFromHtml(html: string): InstagramMaterial | null {
+  const structured = structuredInstagramMaterial(html);
+  const videoCandidate = [
+    structured?.videoUrl,
+    metaContent(html, "og:video:secure_url"),
+    metaContent(html, "og:video:url"),
+    metaContent(html, "og:video"),
+    metaContent(html, "twitter:player:stream"),
+  ].map(decodeHtml).find((candidate): candidate is string => Boolean(candidate && isAllowedPublicHttpsUrl(candidate))) ?? null;
+  const coverCandidate = [
+    structured?.coverImageUrl,
+    metaContent(html, "og:image:secure_url"),
+    metaContent(html, "og:image"),
+    metaContent(html, "twitter:image"),
+  ].map(decodeHtml).find((candidate): candidate is string => Boolean(candidate && isAllowedPublicHttpsUrl(candidate))) ?? null;
+  const caption = structured?.caption ?? captionFromHtml(html);
+  if (!videoCandidate && !coverCandidate && !caption) return null;
+  return { mediaUrl: videoCandidate ?? coverCandidate, mediaMimeType: videoCandidate ? "video/mp4" : coverCandidate ? "image/jpeg" : null, videoUrl: videoCandidate, coverImageUrl: coverCandidate, caption };
+}
+
+function mergeInstagramMaterials(materials: Array<InstagramMaterial | null>): InstagramMaterial | null {
+  const videoUrl = materials.find(material => material?.videoUrl)?.videoUrl ?? null;
+  const coverImageUrl = materials.find(material => material?.coverImageUrl)?.coverImageUrl ?? null;
+  const caption = materials.find(material => material?.caption)?.caption ?? null;
+  if (!videoUrl && !coverImageUrl && !caption) return null;
+  return { mediaUrl: videoUrl ?? coverImageUrl, mediaMimeType: videoUrl ? "video/mp4" : coverImageUrl ? "image/jpeg" : null, videoUrl, coverImageUrl, caption };
+}
+
 export async function resolveInstagramMaterial(sourceUrl: string): Promise<InstagramMaterial | null> {
   if (!isInstagramPublicationUrl(sourceUrl)) return null;
   const source = new URL(sourceUrl);
   const path = source.pathname.replace(/^\/+|\/+$/g, "");
   const canonicalPath = path.replace(/^reels\//i, "reel/");
-  const embedUrl = `https://www.instagram.com/${canonicalPath}/embed/captioned/`;
+  const candidateUrls = [`https://www.instagram.com/${canonicalPath}/embed/captioned/`, `https://www.instagram.com/${canonicalPath}/embed/`, `https://www.instagram.com/${canonicalPath}/`];
   const controller = new AbortController();
-  const timeout = setTimeout(() => controller.abort(), 8_000);
+  const timeout = setTimeout(() => controller.abort(), 10_000);
 
   try {
-    const response = await fetch(embedUrl, {
-      headers: { "user-agent": "Mozilla/5.0 (compatible; Plateia/1.0; +https://plateia.app)" },
-      signal: controller.signal,
-    });
-    if (!response.ok) return null;
-    const html = await response.text();
-    const structured = structuredInstagramMaterial(html);
-    const candidateMediaUrl = decodeHtml(metaContent(html, "og:image"));
-    const coverImageUrl = structured?.coverImageUrl ?? (candidateMediaUrl && isAllowedPublicHttpsUrl(candidateMediaUrl) ? candidateMediaUrl : null);
-    const videoUrl = structured?.videoUrl ?? null;
-    const mediaUrl = videoUrl ?? coverImageUrl;
-    const caption = structured?.caption ?? captionFromHtml(html);
-    if (!mediaUrl && !caption) return null;
-    return { mediaUrl, mediaMimeType: videoUrl ? "video/mp4" : coverImageUrl ? "image/jpeg" : null, videoUrl, coverImageUrl, caption };
+    const attempts = await Promise.allSettled(candidateUrls.map(async url => {
+      const response = await fetch(url, {
+        headers: { accept: "text/html,application/xhtml+xml", "accept-language": "pt-BR,pt;q=0.9,en;q=0.7", "user-agent": "Mozilla/5.0 (compatible; Plateia/1.0; +https://plateia.app)" },
+        redirect: "follow",
+        signal: controller.signal,
+      });
+      if (!response.ok) return null;
+      return instagramMaterialFromHtml(await response.text());
+    }));
+    return mergeInstagramMaterials(attempts.map(attempt => attempt.status === "fulfilled" ? attempt.value : null));
   } catch {
     return null;
   } finally {
