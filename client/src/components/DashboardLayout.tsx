@@ -21,7 +21,7 @@ import {
 } from "@/components/ui/sidebar";
 import { startLogin } from "@/const";
 import { useIsMobile } from "@/hooks/useMobile";
-import { ClipboardCheck, History, Instagram, LayoutDashboard, LogOut, PanelLeft, PlusCircle } from "lucide-react";
+import { BrainCircuit, ClipboardCheck, History, Instagram, LayoutDashboard, LogOut, PanelLeft, PlusCircle } from "lucide-react";
 import { CSSProperties, useEffect, useRef, useState } from "react";
 import { useLocation } from "wouter";
 import { DashboardLayoutSkeleton } from './DashboardLayoutSkeleton';
@@ -34,6 +34,8 @@ const menuItems = [
   { icon: History, label: "Histórico", path: "/historico" },
   { icon: Instagram, label: "Instagram", path: "/instagram" },
 ];
+
+const adminMenuItem = { icon: BrainCircuit, label: "Observatório", path: "/observatorio" };
 
 const SIDEBAR_WIDTH_KEY = "sidebar-width";
 const DEFAULT_WIDTH = 280;
@@ -113,7 +115,8 @@ function DashboardLayoutContent({
   const isCollapsed = state === "collapsed";
   const [isResizing, setIsResizing] = useState(false);
   const sidebarRef = useRef<HTMLDivElement>(null);
-  const activeMenuItem = menuItems.find(item => item.path === location);
+  const visibleMenuItems = user?.role === "admin" ? [...menuItems, adminMenuItem] : menuItems;
+  const activeMenuItem = visibleMenuItems.find(item => item.path === location);
   const isMobile = useIsMobile();
 
   useEffect(() => {
@@ -179,7 +182,7 @@ function DashboardLayoutContent({
 
           <SidebarContent className="gap-0">
             <SidebarMenu className="px-2 py-1">
-              {menuItems.map(item => {
+              {visibleMenuItems.map(item => {
                 const isActive = location === item.path;
                 return (
                   <SidebarMenuItem key={item.path}>
@@ -220,13 +223,17 @@ function DashboardLayoutContent({
                 </button>
               </DropdownMenuTrigger>
               <DropdownMenuContent align="end" className="w-48">
-                <DropdownMenuItem
-                  onClick={logout}
-                  className="cursor-pointer text-destructive focus:text-destructive"
-                >
-                  <LogOut className="mr-2 h-4 w-4" />
-                  <span>Sair da Platéia</span>
-                </DropdownMenuItem>
+                {user?.loginMethod === "guest" ? (
+                  <DropdownMenuItem disabled><span>Modo de teste do MVP</span></DropdownMenuItem>
+                ) : (
+                  <DropdownMenuItem
+                    onClick={logout}
+                    className="cursor-pointer text-destructive focus:text-destructive"
+                  >
+                    <LogOut className="mr-2 h-4 w-4" />
+                    <span>Sair da Platéia</span>
+                  </DropdownMenuItem>
+                )}
               </DropdownMenuContent>
             </DropdownMenu>
           </SidebarFooter>

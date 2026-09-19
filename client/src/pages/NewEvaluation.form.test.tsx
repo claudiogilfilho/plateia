@@ -6,7 +6,10 @@ import { afterEach, beforeEach, describe, expect, it, vi } from "vitest";
 const mocks = vi.hoisted(() => ({ mutate: vi.fn(), setLocation: vi.fn() }));
 
 vi.mock("@/lib/trpc", () => ({
-  trpc: { analyses: { create: { useMutation: () => ({ mutate: mocks.mutate, isPending: false, error: null }) } } },
+  trpc: {
+    analyses: { create: { useMutation: () => ({ mutate: mocks.mutate, isPending: false, error: null }) } },
+    system: { mvpStatus: { useQuery: () => ({ data: { ready: true, auth: "guest", persistence: "memory", storage: "inline", ai: { message: "Pronto" } }, isLoading: false }) } },
+  },
 }));
 
 vi.mock("wouter", () => ({ useLocation: () => ["/avaliar", mocks.setLocation] }));
