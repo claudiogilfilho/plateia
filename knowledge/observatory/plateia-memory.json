@@ -1,6 +1,6 @@
 {
   "protocol": "plateia-memory/1.0",
-  "updatedAt": "2026-09-23T11:11:28.000Z",
+  "updatedAt": "2026-09-24T11:23:26.000Z",
   "references": [
     {
       "id": "obs-20260823-001",
@@ -53148,6 +53148,1451 @@
         ],
         "causalClaimAllowed": false
       }
+    },
+    {
+      "id": "obs-20260924-206",
+      "title": "5 COISAS QUE VOCÊ APRENDEU ERRADO SOBRE O DESCOBRIMENTO DO BRASIL",
+      "creator": "Rabiscos da História",
+      "creatorIdentity": "rabiscos-da-historia",
+      "sourceIdentity": "rabiscos-da-historia",
+      "country": "BR",
+      "url": "https://www.youtube.com/watch?v=lhr_giMqIXo",
+      "sourceEvidence": [
+        "https://www.youtube.com/watch?v=lhr_giMqIXo"
+      ],
+      "publishedAt": "2026-08-21",
+      "duration": "PT17M51S",
+      "createdAt": "2026-09-24T11:23:26.000Z",
+      "coverage": {
+        "level": "partial",
+        "accessible": [
+          "título",
+          "criador",
+          "descrição pública integral",
+          "data exata no microformato público",
+          "duração de 17 minutos e 51 segundos",
+          "transcrição automática integral em português com 409 segmentos e timestamps",
+          "fala por substituição textual",
+          "781 visualizações e 9 curtidas observadas",
+          "amostra integral dos 2 comentários públicos retornados",
+          "versão escolar familiar e cinco correções delimitadas na descrição e na fala",
+          "qualificação explícita entre hipótese, evidência e exagero sobre a rota de Cabral",
+          "Carta de Pero Vaz de Caminha nomeada como fonte e limitada aos primeiros contatos"
+        ],
+        "missing": [
+          "vídeo reproduzido ou auditado quadro a quadro",
+          "imagem em movimento efetivamente observada",
+          "capa ou outra imagem adquirida",
+          "áudio ouvido",
+          "texto na tela",
+          "edição",
+          "ritmo",
+          "curva de retenção",
+          "impressões e fontes de tráfego",
+          "mídia paga",
+          "revisão factual humana",
+          "bibliografia completa",
+          "baseline comparável",
+          "teste de compreensão"
+        ]
+      },
+      "publicMetrics": {
+        "viewsObserved": 781,
+        "likesObserved": 9,
+        "commentsObserved": 2,
+        "observedAt": "2026-09-24",
+        "sourceType": "youtube_public_metadata_full_description_full_automatic_transcript_and_2_public_comments",
+        "causality": "not_inferred"
+      },
+      "classification": {
+        "taxonomyVersion": "3.0",
+        "container": "youtube_video",
+        "materialFormat": "video_longo",
+        "presentationFormats": [
+          "narracao_imagens",
+          "comentario"
+        ],
+        "primaryFamily": "storytelling",
+        "secondaryFamilies": [
+          "educativo",
+          "curiosidade"
+        ],
+        "functionalMix": [
+          {
+            "family": "storytelling",
+            "percentage": 45
+          },
+          {
+            "family": "educativo",
+            "percentage": 35
+          },
+          {
+            "family": "curiosidade",
+            "percentage": 20
+          }
+        ],
+        "objectives": [
+          "educar",
+          "visualizacao",
+          "comentario",
+          "compartilhamento"
+        ],
+        "advertisingType": "editorial_organico",
+        "commercialIntent": "ausente",
+        "advertisedEntity": {
+          "kind": "indeterminado",
+          "name": "",
+          "confidence": "low"
+        },
+        "contentTopic": {
+          "label": "simplificações sobre a chegada portuguesa em 1500",
+          "iabCode": null
+        },
+        "segment": "história",
+        "subsegment": "história do Brasil colonial",
+        "probableAudience": "público geral interessado em história do Brasil",
+        "awarenessStage": "consciente_problema",
+        "productionLevel": "simple",
+        "creatorScale": "small",
+        "replicability": "high",
+        "durationBand": "over_60s",
+        "pace": "unknown",
+        "mechanisms": [
+          "curiosidade",
+          "contraste",
+          "confianca"
+        ],
+        "hookTypes": [
+          "pergunta",
+          "afirmacao_contraintuitiva",
+          "numero"
+        ],
+        "narrativeElements": [
+          "situacao",
+          "problema",
+          "progressao",
+          "prova",
+          "conclusao"
+        ],
+        "proofTypes": [
+          "evidencia_documental",
+          "mecanismo_explicado"
+        ],
+        "ctaTypes": [
+          "comentar",
+          "seguir",
+          "compartilhar"
+        ],
+        "distributionContext": {
+          "organicPaid": "unknown",
+          "trendDependency": "low"
+        },
+        "confidence": "high",
+        "evidence": [
+          "A abertura transcrita reconstrói a versão escolar do descobrimento e a chama de simples demais.",
+          "Na discussão da rota, a fala separa hipótese de fato comprovado e evita afirmar intenção ou acidente como certeza.",
+          "Na seção do primeiro contato, a Carta de Caminha é nomeada e seu alcance é limitado; dois comentários falam de música e velocidade, não de compreensão."
+        ],
+        "alternativeClassifications": [],
+        "missingInformation": [
+          "vídeo reproduzido ou auditado quadro a quadro",
+          "imagem em movimento efetivamente observada",
+          "capa ou outra imagem adquirida",
+          "áudio ouvido",
+          "texto na tela",
+          "edição",
+          "ritmo",
+          "curva de retenção",
+          "impressões e fontes de tráfego",
+          "mídia paga"
+        ],
+        "needsHumanReview": true
+      },
+      "comparison": {
+        "level": 2,
+        "group": "vídeo educativo brasileiro de história que explicita uma versão familiar, apresenta correção delimitada e nomeia fontes ou qualifica proporcionalmente a alegação",
+        "referenceIds": [
+          "obs-20260924-207",
+          "obs-20260924-208"
+        ],
+        "confidence": "high"
+      },
+      "observations": [
+        "A correção preserva a versão familiar como ponto de partida, mas evita dizer que ela é inteiramente falsa.",
+        "A fala torna visível a incerteza sobre a rota e o limite documental da Carta de Caminha.",
+        "Os comentários não medem compreensão, precisão ou retenção."
+      ],
+      "interpretations": [
+        "Delimitar o que a fonte permite afirmar pode sustentar curiosidade sem trocar simplificação por certeza absoluta.",
+        "A estrutura é recorrente; a exatidão histórica de cada afirmação ainda requer revisão especializada."
+      ],
+      "scores": {
+        "gancho": 92,
+        "clareza": 94,
+        "relevancia": 89,
+        "desejo": 82,
+        "confianca": 86,
+        "retencao": "not_assessed",
+        "acao": 80,
+        "objecoes": 88
+      },
+      "fiveLenses": {
+        "apressado": "Recebe tema, conflito e lista na abertura.",
+        "analitico": "Encontra distinção entre hipótese e evidência, mas precisa da bibliografia completa.",
+        "aspiracional": "A promessa é rever uma memória escolar conhecida.",
+        "comunidade": "O CTA pede qual ponto surpreendeu; dois comentários não testam entendimento.",
+        "cetico": "Valoriza a qualificação e exige checagem histórica independente."
+      },
+      "hypotheses": [],
+      "replicable": [
+        "Começar pela versão que o público já reconhece.",
+        "Corrigir uma afirmação por vez.",
+        "Nomear a fonte e declarar o que ela não permite concluir."
+      ],
+      "limitations": [
+        "Transcrição automática pode conter erros.",
+        "Bibliografia completa não foi publicada.",
+        "Audiovisual e precisão histórica não foram auditados."
+      ],
+      "provenance": [
+        "public_content",
+        "youtube_public_metadata",
+        "public_search",
+        "youtube_automatic_transcript",
+        "public_metric",
+        "observatory_inference",
+        "youtube_public_comments"
+      ],
+      "training": {
+        "evidencePolicyVersion": "1.1",
+        "evidenceRole": "target_support",
+        "evidenceLevel": 2,
+        "requiredEvidenceObserved": true,
+        "supportEligible": true,
+        "claimCoverage": [
+          {
+            "claim": "versão familiar, correções específicas e qualificação da incerteza aparecem na fala",
+            "requiredModalities": [
+              "transcript"
+            ],
+            "observedModalities": [
+              "transcript"
+            ],
+            "sufficient": true
+          },
+          {
+            "claim": "uma fonte histórica é nomeada e seu alcance é limitado",
+            "requiredModalities": [
+              "transcript"
+            ],
+            "observedModalities": [
+              "transcript"
+            ],
+            "sufficient": true
+          }
+        ],
+        "provenanceAndConsent": {
+          "storyOrigin": "conteúdo editorial público do próprio criador",
+          "consentStatus": "not_applicable",
+          "identityProtection": "not_applicable",
+          "evidence": [
+            "nenhum relato privado identificável de terceiro foi ensinado"
+          ]
+        },
+        "replicable": [
+          "Começar pela versão que o público já reconhece.",
+          "Corrigir uma afirmação por vez.",
+          "Nomear a fonte e declarar o que ela não permite concluir."
+        ],
+        "contingent": [
+          "Transcrição automática pode conter erros.",
+          "Bibliografia completa não foi publicada.",
+          "Audiovisual e precisão histórica não foram auditados."
+        ],
+        "notRecommended": [
+          "copiar frases, personagens, imagens ou roteiro",
+          "converter correção histórica em certeza sem fontes acessíveis e revisão factual",
+          "tratar popularidade, comentário, marca, oferta ou orçamento como prova causal",
+          "inferir cena, áudio, texto na tela, edição, ritmo ou retenção sem mídia reproduzida",
+          "confundir recorrência estrutural com compreensão, precisão histórica ou desempenho"
+        ],
+        "hypotheses": []
+      },
+      "viralAssessment": {
+        "status": "indeterminate",
+        "observedSignal": 781,
+        "missingForRelativeAssessment": [
+          "coorte funcional contemporânea homogênea",
+          "retenção",
+          "impressões",
+          "fontes de tráfego",
+          "mídia paga"
+        ],
+        "confounders": [
+          "tamanho do canal",
+          "idade do vídeo",
+          "tema",
+          "distribuição"
+        ],
+        "causalClaimAllowed": false
+      }
+    },
+    {
+      "id": "obs-20260924-207",
+      "title": "15 Vezes Que a Escola Te Ensinou Uma Mentira Sobre o Brasil Colonial",
+      "creator": "Relíquias Perdidas 937",
+      "creatorIdentity": "reliquias-perdidas-937",
+      "sourceIdentity": "reliquias-perdidas-937",
+      "country": "BR",
+      "url": "https://www.youtube.com/watch?v=gxoilg4NUqI",
+      "sourceEvidence": [
+        "https://www.youtube.com/watch?v=gxoilg4NUqI"
+      ],
+      "publishedAt": "2026-09-10",
+      "duration": "PT20M8S",
+      "createdAt": "2026-09-24T11:23:26.000Z",
+      "coverage": {
+        "level": "partial",
+        "accessible": [
+          "título",
+          "criador",
+          "descrição pública integral com capítulos",
+          "data exata",
+          "duração de 20 minutos e 8 segundos",
+          "transcrição automática integral em português com 429 segmentos e timestamps",
+          "fala por substituição textual",
+          "1.268 visualizações e 23 curtidas observadas",
+          "amostra integral dos 2 comentários públicos retornados",
+          "quinze versões familiares e correções enumeradas na fala",
+          "fontes nomeadas na descrição: Slave Voyages, Pesquisa FAPESP, acervo Kahal Zur Israel e registros do Tratado de Methuen",
+          "uso de imagens geradas por IA declarado na descrição, sem imagens adquiridas para auditoria"
+        ],
+        "missing": [
+          "vídeo reproduzido ou auditado quadro a quadro",
+          "imagem em movimento efetivamente observada",
+          "capa ou outra imagem adquirida",
+          "áudio ouvido",
+          "texto na tela",
+          "edição",
+          "ritmo",
+          "curva de retenção",
+          "impressões e fontes de tráfego",
+          "mídia paga",
+          "links diretos para todas as fontes por afirmação",
+          "revisão factual humana",
+          "verificação das reconstruções de IA",
+          "teste de compreensão"
+        ]
+      },
+      "publicMetrics": {
+        "viewsObserved": 1268,
+        "likesObserved": 23,
+        "commentsObserved": 2,
+        "observedAt": "2026-09-24",
+        "sourceType": "youtube_public_metadata_full_description_full_automatic_transcript_and_2_public_comments",
+        "causality": "not_inferred"
+      },
+      "classification": {
+        "taxonomyVersion": "3.0",
+        "container": "youtube_video",
+        "materialFormat": "video_longo",
+        "presentationFormats": [
+          "narracao_imagens",
+          "montagem",
+          "comentario"
+        ],
+        "primaryFamily": "storytelling",
+        "secondaryFamilies": [
+          "educativo",
+          "curiosidade"
+        ],
+        "functionalMix": [
+          {
+            "family": "storytelling",
+            "percentage": 40
+          },
+          {
+            "family": "educativo",
+            "percentage": 40
+          },
+          {
+            "family": "curiosidade",
+            "percentage": 20
+          }
+        ],
+        "objectives": [
+          "educar",
+          "visualizacao",
+          "comentario",
+          "seguidores"
+        ],
+        "advertisingType": "editorial_organico",
+        "commercialIntent": "ausente",
+        "advertisedEntity": {
+          "kind": "indeterminado",
+          "name": "",
+          "confidence": "low"
+        },
+        "contentTopic": {
+          "label": "correções sobre o Brasil colonial",
+          "iabCode": null
+        },
+        "segment": "história",
+        "subsegment": "Brasil colonial",
+        "probableAudience": "público geral interessado em história do Brasil",
+        "awarenessStage": "consciente_problema",
+        "productionLevel": "intermediate",
+        "creatorScale": "medium",
+        "replicability": "medium",
+        "durationBand": "over_60s",
+        "pace": "unknown",
+        "mechanisms": [
+          "curiosidade",
+          "contraste",
+          "surpresa",
+          "confianca"
+        ],
+        "hookTypes": [
+          "afirmacao_contraintuitiva",
+          "numero",
+          "promessa"
+        ],
+        "narrativeElements": [
+          "situacao",
+          "problema",
+          "progressao",
+          "prova",
+          "conclusao"
+        ],
+        "proofTypes": [
+          "evidencia_documental",
+          "dado",
+          "mecanismo_explicado"
+        ],
+        "ctaTypes": [
+          "comentar",
+          "seguir"
+        ],
+        "distributionContext": {
+          "organicPaid": "unknown",
+          "trendDependency": "low"
+        },
+        "confidence": "high",
+        "evidence": [
+          "A abertura transcrita enumera versões escolares familiares e promete tratá-las com fontes documentadas.",
+          "A descrição organiza quinze correções por capítulos e nomeia quatro conjuntos documentais ou historiográficos.",
+          "A descrição declara imagens de IA; sua correspondência histórica não pôde ser vista nem verificada."
+        ],
+        "alternativeClassifications": [],
+        "missingInformation": [
+          "vídeo reproduzido ou auditado quadro a quadro",
+          "imagem em movimento efetivamente observada",
+          "capa ou outra imagem adquirida",
+          "áudio ouvido",
+          "texto na tela",
+          "edição",
+          "ritmo",
+          "curva de retenção",
+          "impressões e fontes de tráfego",
+          "mídia paga"
+        ],
+        "needsHumanReview": true
+      },
+      "comparison": {
+        "level": 2,
+        "group": "vídeo educativo brasileiro de história que explicita uma versão familiar, apresenta correção delimitada e nomeia fontes ou qualifica proporcionalmente a alegação",
+        "referenceIds": [
+          "obs-20260924-206",
+          "obs-20260924-208"
+        ],
+        "confidence": "medium"
+      },
+      "observations": [
+        "A enumeração mantém o contraste entre versão escolar e correção ao longo de quinze tópicos.",
+        "A descrição torna parte da procedência rastreável, mas não liga cada afirmação a uma citação específica.",
+        "A declaração de IA reduz ambiguidade sobre a origem das imagens, sem validar sua fidelidade."
+      ],
+      "interpretations": [
+        "Capítulos e fontes nomeadas podem tornar um conjunto extenso navegável e parcialmente verificável.",
+        "A escala de quinze alegações aumenta a necessidade de citação por item e revisão humana."
+      ],
+      "scores": {
+        "gancho": 90,
+        "clareza": 91,
+        "relevancia": 88,
+        "desejo": 84,
+        "confianca": 76,
+        "retencao": "not_assessed",
+        "acao": 79,
+        "objecoes": 73
+      },
+      "fiveLenses": {
+        "apressado": "Recebe a tese e uma lista extensa logo na abertura.",
+        "analitico": "Vê conjuntos de fontes, mas quer correspondência entre afirmação e citação.",
+        "aspiracional": "A promessa é reconstruir uma visão mais complexa do período colonial.",
+        "comunidade": "O CTA pede qual fato merece aprofundamento; dois comentários não formam teste.",
+        "cetico": "Desconta hipérbole do título, imagens de IA e ausência de revisão independente."
+      },
+      "hypotheses": [],
+      "replicable": [
+        "Enumerar versões e correções com capítulos.",
+        "Publicar fontes consultadas e declarar mídia sintética.",
+        "Separar o que é simplificação do que seria falsidade completa."
+      ],
+      "limitations": [
+        "Fontes não estão ligadas individualmente às quinze alegações.",
+        "Imagens de IA não foram observadas.",
+        "Precisão histórica não foi revisada."
+      ],
+      "provenance": [
+        "public_content",
+        "youtube_public_metadata",
+        "public_search",
+        "youtube_automatic_transcript",
+        "public_metric",
+        "observatory_inference",
+        "youtube_public_comments"
+      ],
+      "training": {
+        "evidencePolicyVersion": "1.1",
+        "evidenceRole": "target_support",
+        "evidenceLevel": 2,
+        "requiredEvidenceObserved": true,
+        "supportEligible": true,
+        "claimCoverage": [
+          {
+            "claim": "versões familiares e correções específicas são organizadas na fala e nos capítulos",
+            "requiredModalities": [
+              "transcript",
+              "description"
+            ],
+            "observedModalities": [
+              "transcript",
+              "description"
+            ],
+            "sufficient": true
+          },
+          {
+            "claim": "conjuntos de fontes são nomeados publicamente",
+            "requiredModalities": [
+              "description"
+            ],
+            "observedModalities": [
+              "description"
+            ],
+            "sufficient": true
+          }
+        ],
+        "provenanceAndConsent": {
+          "storyOrigin": "conteúdo editorial público do próprio criador",
+          "consentStatus": "not_applicable",
+          "identityProtection": "not_applicable",
+          "evidence": [
+            "nenhum relato privado identificável de terceiro foi ensinado"
+          ]
+        },
+        "replicable": [
+          "Enumerar versões e correções com capítulos.",
+          "Publicar fontes consultadas e declarar mídia sintética.",
+          "Separar o que é simplificação do que seria falsidade completa."
+        ],
+        "contingent": [
+          "Fontes não estão ligadas individualmente às quinze alegações.",
+          "Imagens de IA não foram observadas.",
+          "Precisão histórica não foi revisada."
+        ],
+        "notRecommended": [
+          "copiar frases, personagens, imagens ou roteiro",
+          "converter correção histórica em certeza sem fontes acessíveis e revisão factual",
+          "tratar popularidade, comentário, marca, oferta ou orçamento como prova causal",
+          "inferir cena, áudio, texto na tela, edição, ritmo ou retenção sem mídia reproduzida",
+          "confundir recorrência estrutural com compreensão, precisão histórica ou desempenho"
+        ],
+        "hypotheses": []
+      },
+      "viralAssessment": {
+        "status": "indeterminate",
+        "observedSignal": 1268,
+        "missingForRelativeAssessment": [
+          "coorte funcional contemporânea homogênea",
+          "retenção",
+          "impressões",
+          "fontes de tráfego",
+          "mídia paga"
+        ],
+        "confounders": [
+          "tamanho do canal",
+          "idade do vídeo",
+          "tema",
+          "distribuição"
+        ],
+        "causalClaimAllowed": false
+      }
+    },
+    {
+      "id": "obs-20260924-208",
+      "title": "\"Egito\" é um nome muito errado",
+      "creator": "Estranha História",
+      "creatorIdentity": "estranha-historia",
+      "sourceIdentity": "estranha-historia",
+      "country": "BR",
+      "url": "https://www.youtube.com/watch?v=PlUUVgdoNh4",
+      "sourceEvidence": [
+        "https://www.youtube.com/watch?v=PlUUVgdoNh4"
+      ],
+      "publishedAt": "2026-01-13",
+      "duration": "PT22M30S",
+      "createdAt": "2026-09-24T11:23:26.000Z",
+      "coverage": {
+        "level": "partial",
+        "accessible": [
+          "título",
+          "criador",
+          "descrição pública integral",
+          "data exata",
+          "duração de 22 minutos e 30 segundos",
+          "transcrição automática integral em português com 582 segmentos e timestamps",
+          "fala por substituição textual",
+          "242.984 visualizações e 19.098 curtidas observadas",
+          "amostra pública de 50 comentários",
+          "contradição sobre o nome Egito e explicação de Kemet, Masr e Misr na fala",
+          "duas referências acadêmicas completas na descrição: Ian Shaw (2003) e Marc Van De Mieroop (2021)",
+          "links afiliados, curso, associação e publicidade da Insider identificados na descrição"
+        ],
+        "missing": [
+          "vídeo reproduzido ou auditado quadro a quadro",
+          "imagem em movimento efetivamente observada",
+          "capa ou outra imagem adquirida",
+          "áudio ouvido",
+          "texto na tela",
+          "edição",
+          "ritmo",
+          "curva de retenção",
+          "impressões e fontes de tráfego",
+          "mídia paga",
+          "revisão factual humana",
+          "páginas específicas das obras citadas",
+          "contagem pública total de comentários",
+          "teste de compreensão"
+        ]
+      },
+      "publicMetrics": {
+        "viewsObserved": 242984,
+        "likesObserved": 19098,
+        "commentsObserved": "not_measured",
+        "observedAt": "2026-09-24",
+        "sourceType": "youtube_public_metadata_full_description_full_automatic_transcript_and_50_public_comments",
+        "causality": "not_inferred"
+      },
+      "classification": {
+        "taxonomyVersion": "3.0",
+        "container": "youtube_video",
+        "materialFormat": "video_longo",
+        "presentationFormats": [
+          "camera_direta",
+          "comentario",
+          "narracao_imagens"
+        ],
+        "primaryFamily": "storytelling",
+        "secondaryFamilies": [
+          "educativo",
+          "autoridade_opiniao"
+        ],
+        "functionalMix": [
+          {
+            "family": "storytelling",
+            "percentage": 40
+          },
+          {
+            "family": "educativo",
+            "percentage": 40
+          },
+          {
+            "family": "autoridade_opiniao",
+            "percentage": 20
+          }
+        ],
+        "objectives": [
+          "educar",
+          "autoridade",
+          "visualizacao",
+          "venda"
+        ],
+        "advertisingType": "publicidade_nativa",
+        "commercialIntent": "explicita",
+        "advertisedEntity": {
+          "kind": "marca",
+          "name": "Insider, curso, livros e clube de leitura",
+          "confidence": "high"
+        },
+        "contentTopic": {
+          "label": "origem e transmissão dos nomes usados para o Egito",
+          "iabCode": null
+        },
+        "segment": "história",
+        "subsegment": "história antiga e historiografia",
+        "probableAudience": "público interessado em história antiga e arqueologia",
+        "awarenessStage": "consciente_problema",
+        "productionLevel": "intermediate",
+        "creatorScale": "large",
+        "replicability": "high",
+        "durationBand": "over_60s",
+        "pace": "unknown",
+        "mechanisms": [
+          "curiosidade",
+          "contraste",
+          "confianca"
+        ],
+        "hookTypes": [
+          "afirmacao_contraintuitiva",
+          "problema"
+        ],
+        "narrativeElements": [
+          "problema",
+          "situacao",
+          "progressao",
+          "prova",
+          "conclusao"
+        ],
+        "proofTypes": [
+          "fonte",
+          "mecanismo_explicado"
+        ],
+        "ctaTypes": [
+          "seguir",
+          "comprar"
+        ],
+        "distributionContext": {
+          "organicPaid": "unknown",
+          "trendDependency": "low"
+        },
+        "confidence": "high",
+        "evidence": [
+          "A abertura transcrita contradiz o nome familiar e apresenta Kemet, Masr e Misr como problema histórico.",
+          "A fala explica a transmissão de nomes por tradições historiográficas e fontes greco-romanas.",
+          "A descrição oferece duas referências acadêmicas completas; ofertas e escala foram tratadas apenas como contexto."
+        ],
+        "alternativeClassifications": [],
+        "missingInformation": [
+          "vídeo reproduzido ou auditado quadro a quadro",
+          "imagem em movimento efetivamente observada",
+          "capa ou outra imagem adquirida",
+          "áudio ouvido",
+          "texto na tela",
+          "edição",
+          "ritmo",
+          "curva de retenção",
+          "impressões e fontes de tráfego",
+          "mídia paga"
+        ],
+        "needsHumanReview": true
+      },
+      "comparison": {
+        "level": 2,
+        "group": "vídeo educativo brasileiro de história que explicita uma versão familiar, apresenta correção delimitada e nomeia fontes ou qualifica proporcionalmente a alegação",
+        "referenceIds": [
+          "obs-20260924-206",
+          "obs-20260924-207"
+        ],
+        "confidence": "high"
+      },
+      "observations": [
+        "Uma palavra cotidiana funciona como versão familiar antes da correção etimológica e historiográfica.",
+        "A descrição fornece duas obras acadêmicas identificáveis, embora sem páginas por afirmação.",
+        "Amostra de cinquenta comentários contém perguntas, pedidos e questões comerciais; não mede compreensão."
+      ],
+      "interpretations": [
+        "Um objeto verbal específico pode concentrar a correção e reduzir a amplitude da promessa.",
+        "Referências acadêmicas aumentam rastreabilidade, mas não substituem revisão factual nem teste de aprendizagem."
+      ],
+      "scores": {
+        "gancho": 94,
+        "clareza": 93,
+        "relevancia": 87,
+        "desejo": 84,
+        "confianca": 90,
+        "retencao": "not_assessed",
+        "acao": 83,
+        "objecoes": 88
+      },
+      "fiveLenses": {
+        "apressado": "Entende a contradição específica pelo título e pela abertura.",
+        "analitico": "Recebe mecanismo historiográfico e duas obras verificáveis.",
+        "aspiracional": "A correção promete ler nomes históricos com mais precisão.",
+        "comunidade": "Comentários trazem novas perguntas, não teste de aprendizagem.",
+        "cetico": "Separa referências do bloco comercial e pede páginas ou revisão independente."
+      },
+      "hypotheses": [],
+      "replicable": [
+        "Escolher um termo familiar e formular uma contradição específica.",
+        "Explicar a cadeia histórica que produziu o termo.",
+        "Publicar referências acadêmicas completas separadas das ofertas."
+      ],
+      "limitations": [
+        "As obras citadas não foram conferidas página a página.",
+        "Ofertas comerciais coexistem com o conteúdo.",
+        "Audiovisual e retenção não foram observados."
+      ],
+      "provenance": [
+        "public_content",
+        "youtube_public_metadata",
+        "public_search",
+        "youtube_automatic_transcript",
+        "public_metric",
+        "observatory_inference",
+        "youtube_public_comments"
+      ],
+      "training": {
+        "evidencePolicyVersion": "1.1",
+        "evidenceRole": "target_support",
+        "evidenceLevel": 2,
+        "requiredEvidenceObserved": true,
+        "supportEligible": true,
+        "claimCoverage": [
+          {
+            "claim": "termo familiar, correção delimitada e mecanismo historiográfico aparecem na fala",
+            "requiredModalities": [
+              "transcript"
+            ],
+            "observedModalities": [
+              "transcript"
+            ],
+            "sufficient": true
+          },
+          {
+            "claim": "duas referências acadêmicas identificáveis sustentam a pauta publicamente",
+            "requiredModalities": [
+              "description"
+            ],
+            "observedModalities": [
+              "description"
+            ],
+            "sufficient": true
+          }
+        ],
+        "provenanceAndConsent": {
+          "storyOrigin": "conteúdo editorial público do próprio criador",
+          "consentStatus": "not_applicable",
+          "identityProtection": "not_applicable",
+          "evidence": [
+            "nenhum relato privado identificável de terceiro foi ensinado"
+          ]
+        },
+        "replicable": [
+          "Escolher um termo familiar e formular uma contradição específica.",
+          "Explicar a cadeia histórica que produziu o termo.",
+          "Publicar referências acadêmicas completas separadas das ofertas."
+        ],
+        "contingent": [
+          "As obras citadas não foram conferidas página a página.",
+          "Ofertas comerciais coexistem com o conteúdo.",
+          "Audiovisual e retenção não foram observados."
+        ],
+        "notRecommended": [
+          "copiar frases, personagens, imagens ou roteiro",
+          "converter correção histórica em certeza sem fontes acessíveis e revisão factual",
+          "tratar popularidade, comentário, marca, oferta ou orçamento como prova causal",
+          "inferir cena, áudio, texto na tela, edição, ritmo ou retenção sem mídia reproduzida",
+          "confundir recorrência estrutural com compreensão, precisão histórica ou desempenho"
+        ],
+        "hypotheses": []
+      },
+      "viralAssessment": {
+        "status": "indeterminate",
+        "observedSignal": 242984,
+        "missingForRelativeAssessment": [
+          "coorte funcional contemporânea homogênea",
+          "retenção",
+          "impressões",
+          "fontes de tráfego",
+          "mídia paga"
+        ],
+        "confounders": [
+          "tamanho do canal",
+          "idade do vídeo",
+          "tema",
+          "distribuição"
+        ],
+        "causalClaimAllowed": false
+      }
+    },
+    {
+      "id": "obs-20260924-209",
+      "title": "5 Mentiras que Você Aprendeu na Escola Sobre a História do Brasil",
+      "creator": "Provando Historia",
+      "creatorIdentity": "provando-historia",
+      "sourceIdentity": "provando-historia",
+      "country": "BR",
+      "url": "https://www.youtube.com/watch?v=uZpU0HBuovE",
+      "sourceEvidence": [
+        "https://www.youtube.com/watch?v=uZpU0HBuovE"
+      ],
+      "publishedAt": "2025-07-31",
+      "duration": "PT5M19S",
+      "createdAt": "2026-09-24T11:23:26.000Z",
+      "coverage": {
+        "level": "partial",
+        "accessible": [
+          "título",
+          "criador",
+          "descrição pública integral",
+          "data exata",
+          "duração de 5 minutos e 19 segundos",
+          "transcrição automática integral em português com 119 segmentos e timestamps",
+          "fala por substituição textual",
+          "623 visualizações, 4 curtidas e zero comentários retornados",
+          "cinco versões familiares e correções na fala",
+          "menção genérica a autores, documentos e cartas, sem obras, autores, arquivos ou links identificáveis"
+        ],
+        "missing": [
+          "vídeo reproduzido ou auditado quadro a quadro",
+          "imagem em movimento efetivamente observada",
+          "capa ou outra imagem adquirida",
+          "áudio ouvido",
+          "texto na tela",
+          "edição",
+          "ritmo",
+          "curva de retenção",
+          "impressões e fontes de tráfego",
+          "mídia paga",
+          "fontes identificáveis para as cinco alegações",
+          "revisão factual humana",
+          "comentários públicos",
+          "teste de compreensão"
+        ]
+      },
+      "publicMetrics": {
+        "viewsObserved": 623,
+        "likesObserved": 4,
+        "commentsObserved": 0,
+        "observedAt": "2026-09-24",
+        "sourceType": "youtube_public_metadata_full_description_full_automatic_transcript_and_zero_returned_comments",
+        "causality": "not_inferred"
+      },
+      "classification": {
+        "taxonomyVersion": "3.0",
+        "container": "youtube_video",
+        "materialFormat": "video_longo",
+        "presentationFormats": [
+          "narracao_imagens",
+          "comentario"
+        ],
+        "primaryFamily": "storytelling",
+        "secondaryFamilies": [
+          "polemica",
+          "educativo"
+        ],
+        "functionalMix": [
+          {
+            "family": "storytelling",
+            "percentage": 40
+          },
+          {
+            "family": "polemica",
+            "percentage": 35
+          },
+          {
+            "family": "educativo",
+            "percentage": 25
+          }
+        ],
+        "objectives": [
+          "educar",
+          "visualizacao",
+          "compartilhamento",
+          "comentario"
+        ],
+        "advertisingType": "editorial_organico",
+        "commercialIntent": "ausente",
+        "advertisedEntity": {
+          "kind": "indeterminado",
+          "name": "",
+          "confidence": "low"
+        },
+        "contentTopic": {
+          "label": "cinco correções amplas sobre a história do Brasil",
+          "iabCode": null
+        },
+        "segment": "história",
+        "subsegment": "história política e social do Brasil",
+        "probableAudience": "público geral atraído por revisão da história escolar",
+        "awarenessStage": "consciente_problema",
+        "productionLevel": "simple",
+        "creatorScale": "small",
+        "replicability": "high",
+        "durationBand": "over_60s",
+        "pace": "unknown",
+        "mechanisms": [
+          "curiosidade",
+          "indignacao",
+          "contraste"
+        ],
+        "hookTypes": [
+          "afirmacao_contraintuitiva",
+          "numero",
+          "conflito"
+        ],
+        "narrativeElements": [
+          "problema",
+          "progressao",
+          "conclusao"
+        ],
+        "proofTypes": [
+          "alegacao_sem_prova",
+          "mecanismo_explicado"
+        ],
+        "ctaTypes": [
+          "comentar",
+          "seguir",
+          "compartilhar"
+        ],
+        "distributionContext": {
+          "organicPaid": "unknown",
+          "trendDependency": "low"
+        },
+        "confidence": "high",
+        "evidence": [
+          "A abertura promete desmentir o que o público acreditou e atribui omissão à escola.",
+          "A fala cobre independência, abolição, chegada portuguesa, conflitos e ditadura em cinco minutos.",
+          "As fontes aparecem apenas como categorias genéricas; não há identificação pública suficiente para rastrear as correções."
+        ],
+        "alternativeClassifications": [],
+        "missingInformation": [
+          "vídeo reproduzido ou auditado quadro a quadro",
+          "imagem em movimento efetivamente observada",
+          "capa ou outra imagem adquirida",
+          "áudio ouvido",
+          "texto na tela",
+          "edição",
+          "ritmo",
+          "curva de retenção",
+          "impressões e fontes de tráfego",
+          "mídia paga"
+        ],
+        "needsHumanReview": true
+      },
+      "comparison": {
+        "level": 2,
+        "group": "vídeo educativo brasileiro de história que explicita uma versão familiar, apresenta correção delimitada e nomeia fontes ou qualifica proporcionalmente a alegação",
+        "referenceIds": [
+          "obs-20260924-206",
+          "obs-20260924-207",
+          "obs-20260924-208"
+        ],
+        "confidence": "high"
+      },
+      "observations": [
+        "A versão familiar e a correção são reconhecíveis, mas a formulação usa mentira, farsa, manipulação e verdade sem sustentação proporcional acessível.",
+        "Cinco temas historicamente amplos são comprimidos sem uma trilha pública de fontes.",
+        "O caso delimita que contraste e especificidade não bastam quando a prova fica genérica."
+      ],
+      "interpretations": [
+        "Este é caso-limite de embalagem corretiva: o mecanismo estrutural aparece, mas a condição de rastreabilidade não.",
+        "A ausência de fontes acessíveis não prova que as afirmações são falsas; torna sua sustentação não mensurada."
+      ],
+      "scores": {
+        "gancho": 91,
+        "clareza": 84,
+        "relevancia": 85,
+        "desejo": 79,
+        "confianca": 38,
+        "retencao": "not_assessed",
+        "acao": 72,
+        "objecoes": 41
+      },
+      "fiveLenses": {
+        "apressado": "Entende rapidamente a promessa de cinco correções.",
+        "analitico": "Não encontra autores, obras ou documentos rastreáveis.",
+        "aspiracional": "A promessa de verdade oculta pode atrair, sem garantir precisão.",
+        "comunidade": "O CTA pede choque, mas zero comentários foram retornados.",
+        "cetico": "Rejeita certeza ampla sem fonte identificável e revisão independente."
+      },
+      "hypotheses": [],
+      "replicable": [
+        "Delimitar o número de correções.",
+        "Partir de versões escolares reconhecíveis.",
+        "Separar uma alegação por bloco."
+      ],
+      "limitations": [
+        "Não há fontes identificáveis na descrição.",
+        "As correções cobrem períodos muito distintos.",
+        "Ausência de revisão não equivale a falsidade factual."
+      ],
+      "provenance": [
+        "public_content",
+        "youtube_public_metadata",
+        "public_search",
+        "youtube_automatic_transcript",
+        "public_metric",
+        "observatory_inference"
+      ],
+      "training": {
+        "evidencePolicyVersion": "1.1",
+        "evidenceRole": "case_limit",
+        "evidenceLevel": 2,
+        "requiredEvidenceObserved": false,
+        "supportEligible": false,
+        "claimCoverage": [
+          {
+            "claim": "versão familiar e correções específicas aparecem na fala",
+            "requiredModalities": [
+              "transcript"
+            ],
+            "observedModalities": [
+              "transcript"
+            ],
+            "sufficient": true
+          },
+          {
+            "claim": "as correções são qualificadas e sustentadas por fontes rastreáveis",
+            "requiredModalities": [
+              "transcript",
+              "description",
+              "source_list"
+            ],
+            "observedModalities": [
+              "transcript",
+              "description"
+            ],
+            "sufficient": false
+          },
+          {
+            "claim": "as alegações são verdadeiras ou falsas",
+            "requiredModalities": [
+              "expert_review",
+              "primary_sources"
+            ],
+            "observedModalities": [],
+            "sufficient": false
+          }
+        ],
+        "provenanceAndConsent": {
+          "storyOrigin": "conteúdo editorial público do próprio criador",
+          "consentStatus": "not_applicable",
+          "identityProtection": "not_applicable",
+          "evidence": [
+            "nenhum relato privado identificável de terceiro foi ensinado"
+          ]
+        },
+        "replicable": [
+          "Delimitar o número de correções.",
+          "Partir de versões escolares reconhecíveis.",
+          "Separar uma alegação por bloco."
+        ],
+        "contingent": [
+          "Não há fontes identificáveis na descrição.",
+          "As correções cobrem períodos muito distintos.",
+          "Ausência de revisão não equivale a falsidade factual."
+        ],
+        "notRecommended": [
+          "copiar frases, personagens, imagens ou roteiro",
+          "converter correção histórica em certeza sem fontes acessíveis e revisão factual",
+          "tratar popularidade, comentário, marca, oferta ou orçamento como prova causal",
+          "inferir cena, áudio, texto na tela, edição, ritmo ou retenção sem mídia reproduzida",
+          "confundir recorrência estrutural com compreensão, precisão histórica ou desempenho"
+        ],
+        "hypotheses": []
+      },
+      "viralAssessment": {
+        "status": "indeterminate",
+        "observedSignal": 623,
+        "missingForRelativeAssessment": [
+          "coorte funcional contemporânea homogênea",
+          "retenção",
+          "impressões",
+          "fontes de tráfego",
+          "mídia paga"
+        ],
+        "confounders": [
+          "tamanho do canal",
+          "idade do vídeo",
+          "tema",
+          "distribuição"
+        ],
+        "causalClaimAllowed": false
+      }
+    },
+    {
+      "id": "obs-20260924-210",
+      "title": "POR QUE o CENTRO da TERRA é tão QUENTE?",
+      "creator": "Manual do Mundo",
+      "creatorIdentity": "manual-do-mundo",
+      "sourceIdentity": "manual-do-mundo",
+      "country": "BR",
+      "url": "https://www.youtube.com/watch?v=q53mI5lhep4",
+      "sourceEvidence": [
+        "https://www.youtube.com/watch?v=q53mI5lhep4"
+      ],
+      "publishedAt": "2026-09-19",
+      "duration": "PT18M14S",
+      "createdAt": "2026-09-24T11:23:26.000Z",
+      "coverage": {
+        "level": "partial",
+        "accessible": [
+          "título",
+          "criador",
+          "descrição pública integral",
+          "data exata",
+          "duração de 18 minutos e 14 segundos",
+          "545.328 visualizações e 17.609 curtidas observadas",
+          "amostra pública de 50 comentários",
+          "pergunta científica literal, tópicos de crosta, manto, núcleo e sismologia descritos",
+          "experimento com marreta e câmera térmica declarado na descrição, sem procedimento ou resultado visual observado",
+          "créditos públicos de roteiro, conteúdo, produção, fotografia, edição e arte"
+        ],
+        "missing": [
+          "vídeo reproduzido ou auditado quadro a quadro",
+          "imagem em movimento efetivamente observada",
+          "capa ou outra imagem adquirida",
+          "áudio ouvido",
+          "texto na tela",
+          "edição",
+          "ritmo",
+          "curva de retenção",
+          "impressões e fontes de tráfego",
+          "mídia paga",
+          "transcrição ou legenda",
+          "fala",
+          "procedimento do experimento",
+          "resultado do experimento",
+          "fontes científicas",
+          "contagem pública total de comentários",
+          "teste de compreensão"
+        ]
+      },
+      "publicMetrics": {
+        "viewsObserved": 545328,
+        "likesObserved": 17609,
+        "commentsObserved": "not_measured",
+        "observedAt": "2026-09-24",
+        "sourceType": "youtube_public_metadata_full_description_no_transcript_and_50_public_comments",
+        "causality": "not_inferred"
+      },
+      "classification": {
+        "taxonomyVersion": "3.0",
+        "container": "youtube_video",
+        "materialFormat": "video_longo",
+        "presentationFormats": [
+          "demonstracao",
+          "camera_direta",
+          "narracao_imagens"
+        ],
+        "primaryFamily": "explicativo",
+        "secondaryFamilies": [
+          "demonstracao",
+          "curiosidade"
+        ],
+        "functionalMix": [
+          {
+            "family": "explicativo",
+            "percentage": 45
+          },
+          {
+            "family": "demonstracao",
+            "percentage": 35
+          },
+          {
+            "family": "curiosidade",
+            "percentage": 20
+          }
+        ],
+        "objectives": [
+          "educar",
+          "visualizacao",
+          "autoridade",
+          "seguidores"
+        ],
+        "advertisingType": "publicidade_nativa",
+        "commercialIntent": "implicita",
+        "advertisedEntity": {
+          "kind": "marca",
+          "name": "livros e associação do canal",
+          "confidence": "high"
+        },
+        "contentTopic": {
+          "label": "origem e função do calor interno da Terra",
+          "iabCode": null
+        },
+        "segment": "ciência",
+        "subsegment": "geologia e física da Terra",
+        "probableAudience": "público geral e estudantes interessados em ciência",
+        "awarenessStage": "consciente_problema",
+        "productionLevel": "complex",
+        "creatorScale": "large",
+        "replicability": "medium",
+        "durationBand": "over_60s",
+        "pace": "unknown",
+        "mechanisms": [
+          "curiosidade",
+          "surpresa",
+          "confianca"
+        ],
+        "hookTypes": [
+          "pergunta"
+        ],
+        "narrativeElements": [
+          "problema",
+          "promessa",
+          "progressao"
+        ],
+        "proofTypes": [
+          "demonstracao",
+          "autoridade_percebida"
+        ],
+        "ctaTypes": [
+          "seguir",
+          "comprar"
+        ],
+        "distributionContext": {
+          "organicPaid": "unknown",
+          "trendDependency": "low"
+        },
+        "confidence": "medium",
+        "evidence": [
+          "Título e descrição delimitam a pergunta sobre o calor interno da Terra.",
+          "A descrição declara um experimento com marreta e câmera térmica, mas mídia e transcrição não ficaram acessíveis.",
+          "Cinquenta comentários públicos foram amostrados; reações e perguntas não medem compreensão nem precisão."
+        ],
+        "alternativeClassifications": [],
+        "missingInformation": [
+          "vídeo reproduzido ou auditado quadro a quadro",
+          "imagem em movimento efetivamente observada",
+          "capa ou outra imagem adquirida",
+          "áudio ouvido",
+          "texto na tela",
+          "edição",
+          "ritmo",
+          "curva de retenção",
+          "impressões e fontes de tráfego",
+          "mídia paga"
+        ],
+        "needsHumanReview": true
+      },
+      "comparison": {
+        "level": 4,
+        "group": "exploração controlada de explicação científica com demonstração declarada",
+        "referenceIds": [],
+        "confidence": "low"
+      },
+      "observations": [
+        "A embalagem combina pergunta literal, fenômeno específico e experimento declarado.",
+        "Somente descrição e metadados sustentam a análise; a demonstração e o resultado não foram ensinados.",
+        "Escala, curtidas e comentários são contexto, não evidência do mecanismo nem da compreensão."
+      ],
+      "interpretations": [
+        "A referência preserva diversidade do lote, mas não gera hipótese sem acesso ao conteúdo corporal.",
+        "Uma pergunta científica específica pode ser triada pela embalagem; a entrega exige audiovisual ou transcrição."
+      ],
+      "scores": {
+        "gancho": 91,
+        "clareza": 88,
+        "relevancia": 86,
+        "desejo": 84,
+        "confianca": "not_assessed",
+        "retencao": "not_assessed",
+        "acao": 70,
+        "objecoes": "not_assessed"
+      },
+      "fiveLenses": {
+        "apressado": "Entende imediatamente a pergunta científica.",
+        "analitico": "Precisa de fontes, transcrição e resultado do experimento.",
+        "aspiracional": "A promessa é compreender uma região inacessível do planeta.",
+        "comunidade": "Comentários trazem perguntas e reações, sem teste de aprendizagem.",
+        "cetico": "Não aceita o experimento ou a explicação sem observar a execução."
+      },
+      "hypotheses": [],
+      "replicable": [
+        "Formular uma pergunta literal sobre um fenômeno.",
+        "Antecipar o caminho explicativo sem prometer conclusão já provada.",
+        "Declarar créditos e recursos de produção."
+      ],
+      "limitations": [
+        "Experimento, cenas, fala e resultado não foram acessados.",
+        "Produção em equipe e câmera térmica elevam recursos necessários.",
+        "Nenhuma precisão científica foi verificada."
+      ],
+      "provenance": [
+        "public_content",
+        "youtube_public_metadata",
+        "public_search",
+        "public_metric",
+        "observatory_inference",
+        "youtube_public_comments"
+      ],
+      "training": {
+        "evidencePolicyVersion": "1.1",
+        "evidenceRole": "controlled_exploration",
+        "evidenceLevel": 4,
+        "requiredEvidenceObserved": false,
+        "supportEligible": false,
+        "claimCoverage": [
+          {
+            "claim": "a embalagem delimita uma pergunta científica e promete explicação",
+            "requiredModalities": [
+              "metadata",
+              "description"
+            ],
+            "observedModalities": [
+              "metadata",
+              "description"
+            ],
+            "sufficient": true
+          },
+          {
+            "claim": "o experimento demonstra o mecanismo ou o resultado",
+            "requiredModalities": [
+              "video",
+              "audio_or_transcript"
+            ],
+            "observedModalities": [],
+            "sufficient": false
+          }
+        ],
+        "provenanceAndConsent": {
+          "storyOrigin": "conteúdo editorial público do próprio criador",
+          "consentStatus": "not_applicable",
+          "identityProtection": "not_applicable",
+          "evidence": [
+            "nenhum relato privado identificável de terceiro foi ensinado"
+          ]
+        },
+        "replicable": [
+          "Formular uma pergunta literal sobre um fenômeno.",
+          "Antecipar o caminho explicativo sem prometer conclusão já provada.",
+          "Declarar créditos e recursos de produção."
+        ],
+        "contingent": [
+          "Experimento, cenas, fala e resultado não foram acessados.",
+          "Produção em equipe e câmera térmica elevam recursos necessários.",
+          "Nenhuma precisão científica foi verificada."
+        ],
+        "notRecommended": [
+          "copiar frases, personagens, imagens ou roteiro",
+          "converter correção histórica em certeza sem fontes acessíveis e revisão factual",
+          "tratar popularidade, comentário, marca, oferta ou orçamento como prova causal",
+          "inferir cena, áudio, texto na tela, edição, ritmo ou retenção sem mídia reproduzida",
+          "confundir recorrência estrutural com compreensão, precisão histórica ou desempenho"
+        ],
+        "hypotheses": []
+      },
+      "viralAssessment": {
+        "status": "indeterminate",
+        "observedSignal": 545328,
+        "missingForRelativeAssessment": [
+          "coorte funcional contemporânea homogênea",
+          "retenção",
+          "impressões",
+          "fontes de tráfego",
+          "mídia paga"
+        ],
+        "confounders": [
+          "tamanho do canal",
+          "idade do vídeo",
+          "tema",
+          "distribuição"
+        ],
+        "causalClaimAllowed": false
+      }
     }
   ],
   "patterns": [
@@ -53924,7 +55369,7 @@
     {
       "id": "pat-20260828-006",
       "status": "provisional",
-      "statement": "Em storytelling educativo de história, começar por uma versão familiar e apresentar uma correção ou contradição específica pode tornar o assunto claro e abrir uma lacuna de conhecimento, desde que a correção seja delimitada e sustentada por fontes.",
+      "statement": "Em storytelling educativo de história, começar por uma versão familiar e apresentar uma correção ou contradição específica pode tornar o assunto claro e abrir uma lacuna de conhecimento, desde que a correção seja delimitada, proporcional à evidência e sustentada por fontes rastreáveis.",
       "mechanism": [
         "curiosidade",
         "contraste",
@@ -53934,23 +55379,26 @@
         "storytelling educativo de história",
         "narrativa familiar explicitada",
         "correção específica sem ocultar o assunto",
-        "fontes ou qualificação proporcional à alegação"
+        "fontes rastreáveis ou qualificação proporcional à alegação"
       ],
       "supportReferenceIds": [
         "obs-20260824-039",
         "obs-20260826-054",
         "obs-20260828-061",
-        "obs-20260828-062"
+        "obs-20260828-062",
+        "obs-20260924-206",
+        "obs-20260924-207",
+        "obs-20260924-208"
       ],
-      "comparableSupportCount": 4,
+      "comparableSupportCount": 7,
       "comparisonLevel": 2,
       "confidence": "medium",
       "limitations": [
-        "Cobertura predominantemente parcial e textual.",
-        "Nenhum apoio teve retenção ou execução audiovisual integralmente auditada.",
-        "Os formatos e níveis de produção variam.",
-        "Correções históricas exigem revisão factual e fontes acessíveis.",
-        "O padrão descreve clareza e lacuna de conhecimento; não prova desempenho ou persuasão."
+        "Cobertura ainda predominantemente textual; nenhum apoio teve audiovisual integral auditado.",
+        "Fontes nomeadas variam de um documento ou livro a conjuntos amplos sem página por alegação.",
+        "Nenhuma correção histórica recebeu revisão humana especializada neste lote.",
+        "Os formatos, durações, temas e escalas variam.",
+        "O padrão descreve clareza, contraste e rastreabilidade; não prova compreensão, precisão, retenção ou persuasão."
       ],
       "validation": "requires_human_or_experimental_evidence",
       "stage": "provisional",
@@ -53958,7 +55406,7 @@
       "creativeFamily": "storytelling",
       "objective": "educar e criar curiosidade",
       "segment": "história",
-      "supportingCount": 4,
+      "supportingCount": 7,
       "counterexampleCount": 0,
       "evidence": [
         {
@@ -54005,17 +55453,66 @@
           "limitations": [
             "Não conta como apoio nem como contraexemplo factual."
           ]
+        },
+        {
+          "referenceId": "obs-20260924-206",
+          "role": "support",
+          "comparisonLevel": 2,
+          "requiredEvidenceObserved": true,
+          "confidence": "high",
+          "observation": "A versão escolar é seguida por cinco correções; a fala separa hipótese de fato e limita o alcance da Carta de Caminha.",
+          "evidence": "Metadados, descrição integral, transcrição automática integral e dois comentários.",
+          "limitations": [
+            "sem audiovisual, bibliografia completa ou revisão factual"
+          ]
+        },
+        {
+          "referenceId": "obs-20260924-207",
+          "role": "support",
+          "comparisonLevel": 2,
+          "requiredEvidenceObserved": true,
+          "confidence": "medium",
+          "observation": "Quinze versões familiares são contrapostas a correções, com capítulos e conjuntos de fontes nomeados publicamente.",
+          "evidence": "Metadados, descrição integral, transcrição automática integral e dois comentários.",
+          "limitations": [
+            "sem mapeamento de fonte por alegação, auditoria das imagens de IA ou revisão factual"
+          ]
+        },
+        {
+          "referenceId": "obs-20260924-208",
+          "role": "support",
+          "comparisonLevel": 2,
+          "requiredEvidenceObserved": true,
+          "confidence": "high",
+          "observation": "O termo familiar Egito abre uma correção etimológica e historiográfica apoiada por duas referências acadêmicas completas na descrição.",
+          "evidence": "Metadados, descrição integral, transcrição automática integral e cinquenta comentários.",
+          "limitations": [
+            "sem páginas específicas, audiovisual ou revisão factual"
+          ]
+        },
+        {
+          "referenceId": "obs-20260924-209",
+          "role": "case_limit",
+          "comparisonLevel": 2,
+          "requiredEvidenceObserved": false,
+          "confidence": "high",
+          "observation": "Versões e correções são reconhecíveis, mas mentira, farsa e verdade são afirmadas sem fontes identificáveis publicamente.",
+          "evidence": "Metadados, descrição integral, transcrição automática integral e zero comentários retornados.",
+          "limitations": [
+            "não conta como apoio nem como contraexemplo factual"
+          ]
         }
       ],
       "taxonomyVersion": "3.0",
-      "creatorDiversityCount": 4,
-      "sourceDiversityCount": 4,
+      "creatorDiversityCount": 7,
+      "sourceDiversityCount": 7,
       "patternType": "compreensao",
       "counterexampleReferenceIds": [],
       "caseLimitReferenceIds": [
-        "obs-20260828-063"
+        "obs-20260828-063",
+        "obs-20260924-209"
       ],
-      "caseLimitCount": 1
+      "caseLimitCount": 2
     },
     {
       "id": "pat-20260829-007",
@@ -60397,6 +61894,136 @@
         "Foram amostrados 57 comentários; a amostra não é representativa.",
         "Dois dos três apoios novos foram publicados em 2020 e não tiveram a interface atual revalidada.",
         "Não houve baseline, retenção, replay, teste de execução, compreensão ou causalidade.",
+        "Nenhum resultado autoriza validação; revisão humana ou evidência experimental continua necessária."
+      ]
+    },
+    {
+      "id": "run-20260924-supervised-038",
+      "executedAt": "2026-09-24T11:23:26.000Z",
+      "batchPolicyVersion": "1.1",
+      "requestedBatchSize": 5,
+      "candidatesFound": 111,
+      "referenceIds": [
+        "obs-20260924-206",
+        "obs-20260924-207",
+        "obs-20260924-208",
+        "obs-20260924-209",
+        "obs-20260924-210"
+      ],
+      "targetKnowledgeId": "pat-20260828-006",
+      "targetReferenceIds": [
+        "obs-20260924-206",
+        "obs-20260924-207",
+        "obs-20260924-208"
+      ],
+      "falsificationOrBoundaryReferenceIds": [
+        "obs-20260924-209"
+      ],
+      "controlledExplorationReferenceIds": [
+        "obs-20260924-210"
+      ],
+      "discarded": [
+        {
+          "url": "https://www.youtube.com/watch?v=TPKeY_MrBto",
+          "reason": "descrição útil e artigo ligado, mas nenhuma transcrição pública; redundante após três apoios com fala integral"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=laceIONtuZI",
+          "reason": "correções em formato de ranking, porém procedência pública menos rastreável que os três apoios escolhidos"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=X_-ZpqBO1jg",
+          "reason": "transcrição integral, mas alegações amplas e sem fontes identificáveis; redundante com o caso-limite selecionado"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=RktnI1EFbDE",
+          "reason": "fonte não listada na descrição e menor rastreabilidade que o apoio de história antiga selecionado"
+        }
+      ],
+      "analyzed": 5,
+      "brazilianReferences": 5,
+      "internationalReferences": 0,
+      "unknownOriginReferences": 0,
+      "smallOrMediumCreatorReferences": 3,
+      "replicableReferences": 4,
+      "creativeFamiliesObserved": [
+        "storytelling",
+        "educativo",
+        "curiosidade",
+        "polemica",
+        "autoridade_opiniao",
+        "explicativo",
+        "demonstracao"
+      ],
+      "coverageSummary": {
+        "complete": 0,
+        "partial": 5,
+        "insufficient": 0
+      },
+      "audiovisualAcquisition": {
+        "attempted": true,
+        "succeeded": 0,
+        "failure": "para as cinco URLs, sondagens dos streams retornaram HTTP 206 com HTML de 195 bytes e sondagens das capas retornaram HTTP 200 com o mesmo HTML de indisponibilidade; o storyboard também continha apenas respostas de 195 bytes",
+        "effect": "imagem em movimento, capa, áudio ouvido, texto na tela, atuação, edição, ritmo e retenção ficaram não mensurados"
+      },
+      "transcriptCoverage": {
+        "fullHumanOrCreatorProvided": 0,
+        "fullAutomatic": 4,
+        "partialHumanOrCreatorProvided": 0,
+        "partialAutomatic": 0,
+        "none": 1,
+        "limitation": "quatro transcrições automáticas substituem somente a fala; a exploração científica ficou restrita a descrição e metadados após bloqueio temporário da legenda"
+      },
+      "commentsCoverage": {
+        "countsOnly": 0,
+        "sampledReferences": 4,
+        "sampledComments": 104,
+        "zeroReturnedReferences": 1,
+        "limitation": "amostras públicas de comentários não são representativas nem teste de compreensão, precisão ou retenção"
+      },
+      "baselineCoverage": {
+        "sampledProfiles": 0,
+        "contemporaneousBaselines": 0,
+        "limitation": "datas, durações, temas, produções e escalas diferentes impedem benchmark causal de desempenho"
+      },
+      "patternsCreated": [],
+      "patternsStrengthened": [
+        "pat-20260828-006"
+      ],
+      "patternsRefined": [
+        "pat-20260828-006"
+      ],
+      "hypothesesCreated": [],
+      "hypothesesStrengthened": [],
+      "validatedPatternsCreated": 0,
+      "contradictionsFound": [],
+      "caseLimitsFound": [
+        "chamar uma versão de mentira ou farsa e oferecer correções específicas não satisfaz o padrão quando as fontes permanecem genéricas e não rastreáveis"
+      ],
+      "safetyFindings": [
+        "precisão histórica não foi inferida da confiança narrativa, de métricas ou da fama do canal",
+        "ofertas, publicidade, IA declarada, escala e comentários permaneceram contexto não causal",
+        "nenhuma cena, áudio, texto na tela, edição, ritmo, retenção, frase ou roteiro foi inventado",
+        "a exploração sem transcrição não foi tratada como demonstração observada",
+        "Observatório, cérebros sintéticos e futuro Freud permaneceram separados"
+      ],
+      "evidenceGateSummary": {
+        "targetSupportsEligible": 3,
+        "targetSupportsRejected": 0,
+        "boundaryCases": 1,
+        "explorationReferences": 1,
+        "duplicateUrls": 0,
+        "independentCreatorsAddedToPattern": 3,
+        "newHypotheses": 0
+      },
+      "outcome": "Três criadores independentes ampliam de quatro para sete os apoios do padrão de versão histórica familiar seguida de correção rastreável. Um caso-limite mostra que contraste e especificidade não compensam fontes genéricas. O padrão permanece provisório e não demonstra precisão, compreensão, retenção ou desempenho.",
+      "nextTarget": "vídeo histórico brasileiro curto, de criador pequeno ou médio, com audiovisual integral, correção única, fonte primária ligada à afirmação e teste de compreensão; buscar também um caso em que a fonte citada contradiga ou não sustente a correção",
+      "limitations": [
+        "Nenhum vídeo, áudio, capa ou storyboard utilizável foi adquirido.",
+        "Quatro transcrições são automáticas integrais; uma referência ficou sem transcrição.",
+        "Foram amostrados 104 comentários; a amostra não é representativa.",
+        "A correspondência entre cada correção e suas fontes não foi completa em dois dos três apoios.",
+        "Não houve baseline, retenção, teste de compreensão, revisão factual humana ou causalidade.",
         "Nenhum resultado autoriza validação; revisão humana ou evidência experimental continua necessária."
       ]
     }
