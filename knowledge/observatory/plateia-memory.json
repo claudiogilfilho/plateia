@@ -1,6 +1,6 @@
 {
   "protocol": "plateia-memory/1.0",
-  "updatedAt": "2026-09-24T11:23:26.000Z",
+  "updatedAt": "2026-09-27T11:40:47.000Z",
   "references": [
     {
       "id": "obs-20260823-001",
@@ -54593,6 +54593,1448 @@
         ],
         "causalClaimAllowed": false
       }
+    },
+    {
+      "id": "obs-20260927-211",
+      "title": "Como saber se é infarto? | Primeiros Socorros",
+      "creator": "Einstein Hospital Israelita",
+      "creatorIdentity": "einstein-hospital-israelita",
+      "sourceIdentity": "einstein-hospital-israelita",
+      "country": "BR",
+      "url": "https://www.youtube.com/watch?v=kdY-RKANFyc",
+      "sourceEvidence": [
+        "https://www.youtube.com/watch?v=kdY-RKANFyc"
+      ],
+      "publishedAt": "2024-02-23",
+      "duration": "PT2M53S",
+      "createdAt": "2026-09-27T11:40:47.000Z",
+      "coverage": {
+        "level": "partial",
+        "accessible": [
+          "título",
+          "criador",
+          "descrição pública integral",
+          "data exata",
+          "duração de 2 minutos e 53 segundos",
+          "transcrição automática integral em português com 61 segmentos e timestamps",
+          "fala por substituição textual",
+          "216.116 visualizações e 2.565 curtidas observadas",
+          "amostra pública de 50 comentários",
+          "Dr. Pedro Lemos identificado como cardiologista intervencionista e gerente de centro do Einstein",
+          "diretriz de 2021 da Sociedade Brasileira de Cardiologia nomeada na descrição",
+          "sintomas, duração indicativa, grupos de risco e orientação de procurar hospital apresentados na fala"
+        ],
+        "missing": [
+          "vídeo reproduzido ou auditado quadro a quadro",
+          "imagem em movimento efetivamente observada",
+          "capa ou outra imagem adquirida",
+          "áudio ouvido",
+          "texto na tela",
+          "edição",
+          "ritmo",
+          "curva de retenção",
+          "impressões e fontes de tráfego",
+          "mídia paga",
+          "contagem pública total de comentários",
+          "revisão clínica humana atual",
+          "baseline comparável",
+          "teste de compreensão"
+        ]
+      },
+      "publicMetrics": {
+        "viewsObserved": 216116,
+        "likesObserved": 2565,
+        "commentsObserved": "not_measured",
+        "observedAt": "2026-09-27",
+        "sourceType": "youtube_public_metadata_full_description_full_automatic_transcript_and_50_public_comments",
+        "causality": "not_inferred"
+      },
+      "classification": {
+        "taxonomyVersion": "3.0",
+        "container": "youtube_video",
+        "materialFormat": "video_curto",
+        "presentationFormats": [
+          "camera_direta",
+          "institucional"
+        ],
+        "primaryFamily": "explicativo",
+        "secondaryFamilies": [
+          "educativo",
+          "autoridade_opiniao"
+        ],
+        "functionalMix": [
+          {
+            "family": "explicativo",
+            "percentage": 45
+          },
+          {
+            "family": "educativo",
+            "percentage": 35
+          },
+          {
+            "family": "autoridade_opiniao",
+            "percentage": 20
+          }
+        ],
+        "objectives": [
+          "educar",
+          "consciencia_problema",
+          "confianca",
+          "compartilhamento"
+        ],
+        "advertisingType": "institucional",
+        "commercialIntent": "implicita",
+        "advertisedEntity": {
+          "kind": "servico",
+          "name": "Hospital Israelita Albert Einstein",
+          "confidence": "high"
+        },
+        "contentTopic": {
+          "label": "reconhecer sinais de infarto e procurar atendimento",
+          "iabCode": null
+        },
+        "segment": "saúde",
+        "subsegment": "cardiologia e primeiros socorros",
+        "probableAudience": "adultos buscando orientação inicial sobre sinais de infarto",
+        "awarenessStage": "consciente_problema",
+        "productionLevel": "intermediate",
+        "creatorScale": "large",
+        "replicability": "high",
+        "durationBand": "over_60s",
+        "pace": "unknown",
+        "mechanisms": [
+          "vigilancia",
+          "urgencia",
+          "confianca",
+          "alivio"
+        ],
+        "hookTypes": [
+          "pergunta",
+          "risco",
+          "autoridade"
+        ],
+        "narrativeElements": [
+          "problema",
+          "risco",
+          "mecanismo",
+          "conclusao"
+        ],
+        "proofTypes": [
+          "especialista",
+          "fonte",
+          "mecanismo_explicado"
+        ],
+        "ctaTypes": [
+          "comparecer",
+          "seguir"
+        ],
+        "distributionContext": {
+          "organicPaid": "unknown",
+          "trendDependency": "low"
+        },
+        "confidence": "high",
+        "evidence": [
+          "A descrição identifica especialista, instituição e diretriz clínica de referência.",
+          "A fala delimita sintomas clássicos, evita manobra doméstica e orienta atendimento hospitalar.",
+          "Cinquenta comentários foram amostrados; perguntas e agradecimentos não medem compreensão nem segurança clínica."
+        ],
+        "alternativeClassifications": [],
+        "missingInformation": [
+          "vídeo reproduzido ou auditado quadro a quadro",
+          "imagem em movimento efetivamente observada",
+          "capa ou outra imagem adquirida",
+          "áudio ouvido",
+          "texto na tela",
+          "edição",
+          "ritmo",
+          "curva de retenção",
+          "impressões e fontes de tráfego",
+          "mídia paga"
+        ],
+        "needsHumanReview": true
+      },
+      "comparison": {
+        "level": 1,
+        "group": "explicador brasileiro de saúde que nomeia risco ou pergunta, identifica autoridade, usa linguagem proporcional e oferece ação específica sem substituir atendimento",
+        "referenceIds": [
+          "obs-20260927-212",
+          "obs-20260927-213"
+        ],
+        "confidence": "high"
+      },
+      "observations": [
+        "Pergunta, sinais, autoridade e próximo passo aparecem de forma rastreável no título, descrição e fala.",
+        "A recomendação central é procurar atendimento; o conteúdo não se apresenta como diagnóstico individual.",
+        "A diretriz é nomeada, mas sua aplicação e atualização não receberam revisão clínica humana neste lote."
+      ],
+      "interpretations": [
+        "Identificar fonte e limite de ação torna o caminho comunicacional verificável sem exigir que o público faça autodiagnóstico.",
+        "Marca, métricas e comentários são contexto e não demonstram confiança, compreensão ou adesão."
+      ],
+      "scores": {
+        "gancho": 94,
+        "clareza": 95,
+        "relevancia": 94,
+        "desejo": 70,
+        "confianca": 91,
+        "retencao": "not_assessed",
+        "acao": 94,
+        "objecoes": 88
+      },
+      "fiveLenses": {
+        "apressado": "Recebe pergunta, sinais e ação hospitalar cedo.",
+        "analitico": "Encontra especialista e diretriz nomeados, mas precisa de revisão clínica atual.",
+        "aspiracional": "A transformação proposta é agir com segurança diante do risco.",
+        "comunidade": "Comentários trazem dúvidas e agradecimentos, sem evidência de aprendizagem.",
+        "cetico": "Valoriza a fonte e rejeita interpretar o vídeo como diagnóstico pessoal."
+      },
+      "hypotheses": [],
+      "replicable": [
+        "Nomear uma pergunta clínica concreta.",
+        "Identificar credencial e fonte pública.",
+        "Encerrar com ação segura que não substitua atendimento."
+      ],
+      "limitations": [
+        "Precisão clínica não foi auditada por especialista humano.",
+        "Audiovisual e retenção não foram observados.",
+        "Instituição e autoridade não são transferíveis a criadores sem credenciais."
+      ],
+      "provenance": [
+        "public_content",
+        "youtube_public_metadata",
+        "public_search",
+        "public_metric",
+        "observatory_inference",
+        "youtube_public_comments",
+        "youtube_automatic_transcript"
+      ],
+      "training": {
+        "evidencePolicyVersion": "1.1",
+        "evidenceRole": "target_support",
+        "evidenceLevel": 1,
+        "requiredEvidenceObserved": true,
+        "supportEligible": true,
+        "claimCoverage": [
+          {
+            "claim": "pergunta, risco, autoridade identificável e ação hospitalar aparecem publicamente",
+            "requiredModalities": [
+              "metadata",
+              "description",
+              "transcript"
+            ],
+            "observedModalities": [
+              "metadata",
+              "description",
+              "transcript"
+            ],
+            "sufficient": true
+          }
+        ],
+        "provenanceAndConsent": {
+          "storyOrigin": "conteúdo editorial público do próprio canal",
+          "consentStatus": "not_applicable",
+          "identityProtection": "not_applicable",
+          "evidence": [
+            "nenhum relato privado identificável de terceiro foi ensinado"
+          ]
+        },
+        "replicable": [
+          "Nomear uma pergunta clínica concreta.",
+          "Identificar credencial e fonte pública.",
+          "Encerrar com ação segura que não substitua atendimento."
+        ],
+        "contingent": [
+          "Precisão clínica não foi auditada por especialista humano.",
+          "Audiovisual e retenção não foram observados.",
+          "Instituição e autoridade não são transferíveis a criadores sem credenciais."
+        ],
+        "notRecommended": [
+          "copiar frases, diagnóstico, recomendação clínica, personagem ou roteiro",
+          "usar medo, certeza absoluta ou aparência médica como substituto de fonte verificável",
+          "tratar visualizações, marca hospitalar, fama, comentário ou produção como prova causal",
+          "inferir cena, áudio, texto na tela, edição, ritmo ou retenção sem mídia reproduzida",
+          "confundir estrutura comunicacional com precisão clínica, confiança real ou mudança de comportamento"
+        ],
+        "hypotheses": []
+      },
+      "viralAssessment": {
+        "status": "indeterminate",
+        "observedSignal": 216116,
+        "missingForRelativeAssessment": [
+          "coorte funcional contemporânea homogênea",
+          "retenção",
+          "impressões",
+          "fontes de tráfego",
+          "mídia paga"
+        ],
+        "confounders": [
+          "tamanho do canal",
+          "idade do vídeo",
+          "tema",
+          "distribuição"
+        ],
+        "causalClaimAllowed": false
+      }
+    },
+    {
+      "id": "obs-20260927-212",
+      "title": "Sintomas de Infarto | Quando devo ir ao hospital?",
+      "creator": "Hcor",
+      "creatorIdentity": "hcor",
+      "sourceIdentity": "hcor",
+      "country": "BR",
+      "url": "https://www.youtube.com/watch?v=MNicm8L0Sqk",
+      "sourceEvidence": [
+        "https://www.youtube.com/watch?v=MNicm8L0Sqk"
+      ],
+      "publishedAt": "2020-06-01",
+      "duration": "PT2M15S",
+      "createdAt": "2026-09-27T11:40:47.000Z",
+      "coverage": {
+        "level": "partial",
+        "accessible": [
+          "título",
+          "criador",
+          "descrição pública integral",
+          "data exata",
+          "duração de 2 minutos e 15 segundos",
+          "transcrição automática integral em português com 42 segmentos e timestamps",
+          "fala por substituição textual",
+          "3.078 visualizações e 111 curtidas observadas",
+          "único comentário público retornado",
+          "Dr. Alexandre Abizaid identificado na descrição",
+          "sintomas de infarto e orientação de procurar hospital presentes na fala",
+          "contexto de medo hospitalar durante a pandemia explicitado"
+        ],
+        "missing": [
+          "vídeo reproduzido ou auditado quadro a quadro",
+          "imagem em movimento efetivamente observada",
+          "capa ou outra imagem adquirida",
+          "áudio ouvido",
+          "texto na tela",
+          "edição",
+          "ritmo",
+          "curva de retenção",
+          "impressões e fontes de tráfego",
+          "mídia paga",
+          "credencial detalhada do médico na própria publicação",
+          "revalidação pós-pandemia",
+          "revisão clínica humana",
+          "teste de compreensão"
+        ]
+      },
+      "publicMetrics": {
+        "viewsObserved": 3078,
+        "likesObserved": 111,
+        "commentsObserved": 1,
+        "observedAt": "2026-09-27",
+        "sourceType": "youtube_public_metadata_full_description_full_automatic_transcript_and_1_public_comment",
+        "causality": "not_inferred"
+      },
+      "classification": {
+        "taxonomyVersion": "3.0",
+        "container": "youtube_video",
+        "materialFormat": "video_curto",
+        "presentationFormats": [
+          "camera_direta",
+          "institucional"
+        ],
+        "primaryFamily": "explicativo",
+        "secondaryFamilies": [
+          "educativo",
+          "conscientizacao"
+        ],
+        "functionalMix": [
+          {
+            "family": "explicativo",
+            "percentage": 45
+          },
+          {
+            "family": "educativo",
+            "percentage": 35
+          },
+          {
+            "family": "conscientizacao",
+            "percentage": 20
+          }
+        ],
+        "objectives": [
+          "educar",
+          "consciencia_problema",
+          "confianca"
+        ],
+        "advertisingType": "institucional",
+        "commercialIntent": "implicita",
+        "advertisedEntity": {
+          "kind": "servico",
+          "name": "Hcor",
+          "confidence": "high"
+        },
+        "contentTopic": {
+          "label": "sintomas de infarto e receio de procurar hospital na pandemia",
+          "iabCode": null
+        },
+        "segment": "saúde",
+        "subsegment": "cardiologia e emergência",
+        "probableAudience": "adultos com sintomas cardíacos ou receio de procurar atendimento",
+        "awarenessStage": "consciente_problema",
+        "productionLevel": "simple",
+        "creatorScale": "large",
+        "replicability": "high",
+        "durationBand": "over_60s",
+        "pace": "unknown",
+        "mechanisms": [
+          "vigilancia",
+          "urgencia",
+          "confianca",
+          "alivio"
+        ],
+        "hookTypes": [
+          "pergunta",
+          "risco"
+        ],
+        "narrativeElements": [
+          "situacao",
+          "problema",
+          "risco",
+          "conclusao"
+        ],
+        "proofTypes": [
+          "especialista",
+          "autoridade_demonstrada",
+          "mecanismo_explicado"
+        ],
+        "ctaTypes": [
+          "comparecer",
+          "seguir"
+        ],
+        "distributionContext": {
+          "organicPaid": "unknown",
+          "trendDependency": "low"
+        },
+        "confidence": "high",
+        "evidence": [
+          "O título pergunta quando ir ao hospital e a descrição identifica o médico.",
+          "A fala enumera dor, irradiação, suor frio, náusea e falta de ar antes de orientar atendimento.",
+          "A moldura é a pandemia de 2020; sua atualidade contextual não foi revalidada."
+        ],
+        "alternativeClassifications": [],
+        "missingInformation": [
+          "vídeo reproduzido ou auditado quadro a quadro",
+          "imagem em movimento efetivamente observada",
+          "capa ou outra imagem adquirida",
+          "áudio ouvido",
+          "texto na tela",
+          "edição",
+          "ritmo",
+          "curva de retenção",
+          "impressões e fontes de tráfego",
+          "mídia paga"
+        ],
+        "needsHumanReview": true
+      },
+      "comparison": {
+        "level": 1,
+        "group": "explicador brasileiro de saúde que nomeia risco ou pergunta, identifica autoridade, usa linguagem proporcional e oferece ação específica sem substituir atendimento",
+        "referenceIds": [
+          "obs-20260927-211",
+          "obs-20260927-213"
+        ],
+        "confidence": "high"
+      },
+      "observations": [
+        "A pergunta e o risco são concretos, e a ação específica é não postergar o atendimento.",
+        "A autoridade é atribuída a um médico em um canal hospitalar, embora a credencial detalhada não conste da publicação.",
+        "O contexto pandêmico é datado; isso limita transferência literal, não a estrutura observada."
+      ],
+      "interpretations": [
+        "Uma objeção contextual pode ser tratada antes da ação, desde que não seja confundida com recomendação universal atual.",
+        "Um comentário de agradecimento não mede compreensão, segurança ou comportamento."
+      ],
+      "scores": {
+        "gancho": 91,
+        "clareza": 92,
+        "relevancia": 88,
+        "desejo": 66,
+        "confianca": 82,
+        "retencao": "not_assessed",
+        "acao": 93,
+        "objecoes": 86
+      },
+      "fiveLenses": {
+        "apressado": "Entende sintomas, urgência e destino.",
+        "analitico": "Recebe sinais e contexto, mas desconta a publicação de 2020.",
+        "aspiracional": "A promessa é evitar complicação pelo atendimento em tempo hábil.",
+        "comunidade": "Um comentário não sustenta inferência coletiva.",
+        "cetico": "Exige atualização clínica e separa instituição de prova factual."
+      },
+      "hypotheses": [],
+      "replicable": [
+        "Transformar objeção concreta em pauta.",
+        "Nomear sinais antes da ação.",
+        "Indicar destino e urgência sem prometer diagnóstico remoto."
+      ],
+      "limitations": [
+        "Contexto de pandemia publicado em 2020.",
+        "Credencial detalhada não consta da descrição.",
+        "Audiovisual, retenção e efeito comportamental não foram medidos."
+      ],
+      "provenance": [
+        "public_content",
+        "youtube_public_metadata",
+        "public_search",
+        "public_metric",
+        "observatory_inference",
+        "youtube_public_comments",
+        "youtube_automatic_transcript"
+      ],
+      "training": {
+        "evidencePolicyVersion": "1.1",
+        "evidenceRole": "target_support",
+        "evidenceLevel": 1,
+        "requiredEvidenceObserved": true,
+        "supportEligible": true,
+        "claimCoverage": [
+          {
+            "claim": "pergunta, sinais, autoridade atribuída e ação hospitalar aparecem publicamente",
+            "requiredModalities": [
+              "metadata",
+              "description",
+              "transcript"
+            ],
+            "observedModalities": [
+              "metadata",
+              "description",
+              "transcript"
+            ],
+            "sufficient": true
+          }
+        ],
+        "provenanceAndConsent": {
+          "storyOrigin": "conteúdo editorial público do próprio canal",
+          "consentStatus": "not_applicable",
+          "identityProtection": "not_applicable",
+          "evidence": [
+            "nenhum relato privado identificável de terceiro foi ensinado"
+          ]
+        },
+        "replicable": [
+          "Transformar objeção concreta em pauta.",
+          "Nomear sinais antes da ação.",
+          "Indicar destino e urgência sem prometer diagnóstico remoto."
+        ],
+        "contingent": [
+          "Contexto de pandemia publicado em 2020.",
+          "Credencial detalhada não consta da descrição.",
+          "Audiovisual, retenção e efeito comportamental não foram medidos."
+        ],
+        "notRecommended": [
+          "copiar frases, diagnóstico, recomendação clínica, personagem ou roteiro",
+          "usar medo, certeza absoluta ou aparência médica como substituto de fonte verificável",
+          "tratar visualizações, marca hospitalar, fama, comentário ou produção como prova causal",
+          "inferir cena, áudio, texto na tela, edição, ritmo ou retenção sem mídia reproduzida",
+          "confundir estrutura comunicacional com precisão clínica, confiança real ou mudança de comportamento"
+        ],
+        "hypotheses": []
+      },
+      "viralAssessment": {
+        "status": "indeterminate",
+        "observedSignal": 3078,
+        "missingForRelativeAssessment": [
+          "coorte funcional contemporânea homogênea",
+          "retenção",
+          "impressões",
+          "fontes de tráfego",
+          "mídia paga"
+        ],
+        "confounders": [
+          "tamanho do canal",
+          "idade do vídeo",
+          "tema",
+          "distribuição"
+        ],
+        "causalClaimAllowed": false
+      }
+    },
+    {
+      "id": "obs-20260927-213",
+      "title": "Pressão alta (hipertensão arterial) | Sintomas, diagnóstico e tratamento",
+      "creator": "Hospital Alemão Oswaldo Cruz",
+      "creatorIdentity": "hospital-alemao-oswaldo-cruz",
+      "sourceIdentity": "hospital-alemao-oswaldo-cruz",
+      "country": "BR",
+      "url": "https://www.youtube.com/watch?v=K7QnivczWVo",
+      "sourceEvidence": [
+        "https://www.youtube.com/watch?v=K7QnivczWVo"
+      ],
+      "publishedAt": "2022-01-12",
+      "duration": "PT3M14S",
+      "createdAt": "2026-09-27T11:40:47.000Z",
+      "coverage": {
+        "level": "partial",
+        "accessible": [
+          "título",
+          "criador",
+          "descrição pública integral",
+          "data exata",
+          "duração de 3 minutos e 14 segundos",
+          "transcrição automática integral em português com 78 segmentos e timestamps",
+          "fala por substituição textual",
+          "735.238 visualizações e 12.188 curtidas observadas",
+          "amostra pública de 50 comentários",
+          "Dr. Leandro Costa identificado como cardiologista do hospital",
+          "caráter frequentemente assintomático e sinais extremos explicados",
+          "avaliação periódica, procura imediata em sinais graves e acompanhamento médico apresentados como ações"
+        ],
+        "missing": [
+          "vídeo reproduzido ou auditado quadro a quadro",
+          "imagem em movimento efetivamente observada",
+          "capa ou outra imagem adquirida",
+          "áudio ouvido",
+          "texto na tela",
+          "edição",
+          "ritmo",
+          "curva de retenção",
+          "impressões e fontes de tráfego",
+          "mídia paga",
+          "contagem pública total de comentários",
+          "fontes clínicas listadas",
+          "revisão clínica humana atual",
+          "teste de compreensão"
+        ]
+      },
+      "publicMetrics": {
+        "viewsObserved": 735238,
+        "likesObserved": 12188,
+        "commentsObserved": "not_measured",
+        "observedAt": "2026-09-27",
+        "sourceType": "youtube_public_metadata_full_description_full_automatic_transcript_and_50_public_comments",
+        "causality": "not_inferred"
+      },
+      "classification": {
+        "taxonomyVersion": "3.0",
+        "container": "youtube_video",
+        "materialFormat": "video_curto",
+        "presentationFormats": [
+          "camera_direta",
+          "institucional"
+        ],
+        "primaryFamily": "explicativo",
+        "secondaryFamilies": [
+          "educativo",
+          "autoridade_opiniao"
+        ],
+        "functionalMix": [
+          {
+            "family": "explicativo",
+            "percentage": 45
+          },
+          {
+            "family": "educativo",
+            "percentage": 35
+          },
+          {
+            "family": "autoridade_opiniao",
+            "percentage": 20
+          }
+        ],
+        "objectives": [
+          "educar",
+          "consciencia_problema",
+          "confianca",
+          "comentario"
+        ],
+        "advertisingType": "institucional",
+        "commercialIntent": "implicita",
+        "advertisedEntity": {
+          "kind": "servico",
+          "name": "Hospital Alemão Oswaldo Cruz",
+          "confidence": "high"
+        },
+        "contentTopic": {
+          "label": "hipertensão, sintomas, diagnóstico e tratamento",
+          "iabCode": null
+        },
+        "segment": "saúde",
+        "subsegment": "cardiologia e hipertensão",
+        "probableAudience": "adultos interessados em prevenção e acompanhamento de pressão alta",
+        "awarenessStage": "consciente_problema",
+        "productionLevel": "simple",
+        "creatorScale": "large",
+        "replicability": "high",
+        "durationBand": "over_60s",
+        "pace": "unknown",
+        "mechanisms": [
+          "vigilancia",
+          "confianca",
+          "alivio",
+          "utilidade_pratica"
+        ],
+        "hookTypes": [
+          "problema",
+          "autoridade"
+        ],
+        "narrativeElements": [
+          "problema",
+          "mecanismo",
+          "risco",
+          "conclusao",
+          "cta"
+        ],
+        "proofTypes": [
+          "especialista",
+          "mecanismo_explicado",
+          "autoridade_demonstrada"
+        ],
+        "ctaTypes": [
+          "comentar",
+          "comparecer",
+          "seguir"
+        ],
+        "distributionContext": {
+          "organicPaid": "unknown",
+          "trendDependency": "low"
+        },
+        "confidence": "high",
+        "evidence": [
+          "A abertura informa que a hipertensão costuma ser assintomática e identifica o cardiologista.",
+          "A fala distingue sinais extremos, consulta periódica, tratamento farmacológico e não farmacológico.",
+          "A descrição declara finalidade informativa e recomenda consultar autoridade de saúde."
+        ],
+        "alternativeClassifications": [],
+        "missingInformation": [
+          "vídeo reproduzido ou auditado quadro a quadro",
+          "imagem em movimento efetivamente observada",
+          "capa ou outra imagem adquirida",
+          "áudio ouvido",
+          "texto na tela",
+          "edição",
+          "ritmo",
+          "curva de retenção",
+          "impressões e fontes de tráfego",
+          "mídia paga"
+        ],
+        "needsHumanReview": true
+      },
+      "comparison": {
+        "level": 2,
+        "group": "explicador brasileiro de saúde que nomeia risco ou pergunta, identifica autoridade, usa linguagem proporcional e oferece ação específica sem substituir atendimento",
+        "referenceIds": [
+          "obs-20260927-211",
+          "obs-20260927-212"
+        ],
+        "confidence": "high"
+      },
+      "observations": [
+        "O risco é proporcionalmente qualificado: ausência de sintomas é diferenciada de valores extremos e sinais graves.",
+        "A autoridade e o limite informativo são publicamente identificáveis.",
+        "A resposta do hospital a um comentário recomenda avaliação; a amostra não mede aprendizagem."
+      ],
+      "interpretations": [
+        "Distinguir rotina, alerta e emergência pode reduzir ambiguidade sem prometer diagnóstico pelo conteúdo.",
+        "O volume de visualizações e a marca hospitalar não demonstram confiança real ou eficácia."
+      ],
+      "scores": {
+        "gancho": 86,
+        "clareza": 94,
+        "relevancia": 91,
+        "desejo": 69,
+        "confianca": 89,
+        "retencao": "not_assessed",
+        "acao": 91,
+        "objecoes": 90
+      },
+      "fiveLenses": {
+        "apressado": "Recebe cedo que hipertensão pode ser silenciosa.",
+        "analitico": "Encontra distinções e especialista, mas não referências clínicas listadas.",
+        "aspiracional": "A transformação é acompanhamento preventivo e controle.",
+        "comunidade": "Comentários contêm dúvidas e respostas, sem amostra representativa.",
+        "cetico": "Valoriza ressalvas e exige revisão clínica contemporânea."
+      },
+      "hypotheses": [],
+      "replicable": [
+        "Distinguir ausência de sintomas de sinais graves.",
+        "Separar rotina, avaliação e emergência.",
+        "Declarar finalidade informativa e limite do conteúdo."
+      ],
+      "limitations": [
+        "Fontes clínicas não estão listadas.",
+        "A publicação é de 2022.",
+        "Audiovisual, retenção e efeito clínico não foram observados."
+      ],
+      "provenance": [
+        "public_content",
+        "youtube_public_metadata",
+        "public_search",
+        "public_metric",
+        "observatory_inference",
+        "youtube_public_comments",
+        "youtube_automatic_transcript"
+      ],
+      "training": {
+        "evidencePolicyVersion": "1.1",
+        "evidenceRole": "target_support",
+        "evidenceLevel": 2,
+        "requiredEvidenceObserved": true,
+        "supportEligible": true,
+        "claimCoverage": [
+          {
+            "claim": "risco, autoridade, linguagem qualificada e ações específicas aparecem na fala e descrição",
+            "requiredModalities": [
+              "description",
+              "transcript"
+            ],
+            "observedModalities": [
+              "description",
+              "transcript"
+            ],
+            "sufficient": true
+          }
+        ],
+        "provenanceAndConsent": {
+          "storyOrigin": "conteúdo editorial público do próprio canal",
+          "consentStatus": "not_applicable",
+          "identityProtection": "not_applicable",
+          "evidence": [
+            "nenhum relato privado identificável de terceiro foi ensinado"
+          ]
+        },
+        "replicable": [
+          "Distinguir ausência de sintomas de sinais graves.",
+          "Separar rotina, avaliação e emergência.",
+          "Declarar finalidade informativa e limite do conteúdo."
+        ],
+        "contingent": [
+          "Fontes clínicas não estão listadas.",
+          "A publicação é de 2022.",
+          "Audiovisual, retenção e efeito clínico não foram observados."
+        ],
+        "notRecommended": [
+          "copiar frases, diagnóstico, recomendação clínica, personagem ou roteiro",
+          "usar medo, certeza absoluta ou aparência médica como substituto de fonte verificável",
+          "tratar visualizações, marca hospitalar, fama, comentário ou produção como prova causal",
+          "inferir cena, áudio, texto na tela, edição, ritmo ou retenção sem mídia reproduzida",
+          "confundir estrutura comunicacional com precisão clínica, confiança real ou mudança de comportamento"
+        ],
+        "hypotheses": []
+      },
+      "viralAssessment": {
+        "status": "indeterminate",
+        "observedSignal": 735238,
+        "missingForRelativeAssessment": [
+          "coorte funcional contemporânea homogênea",
+          "retenção",
+          "impressões",
+          "fontes de tráfego",
+          "mídia paga"
+        ],
+        "confounders": [
+          "tamanho do canal",
+          "idade do vídeo",
+          "tema",
+          "distribuição"
+        ],
+        "causalClaimAllowed": false
+      }
+    },
+    {
+      "id": "obs-20260927-214",
+      "title": "Os 5 Sinais de Infarto: O Seu Corpo Avisa MESES Antes (Você Ignora!)",
+      "creator": "Curiosidade Oculta Lab",
+      "creatorIdentity": "curiosidade-oculta-lab",
+      "sourceIdentity": "curiosidade-oculta-lab",
+      "country": "BR",
+      "url": "https://www.youtube.com/watch?v=wgCv2wA4Bn4",
+      "sourceEvidence": [
+        "https://www.youtube.com/watch?v=wgCv2wA4Bn4"
+      ],
+      "publishedAt": "2026-05-17",
+      "duration": "PT2M34S",
+      "createdAt": "2026-09-27T11:40:47.000Z",
+      "coverage": {
+        "level": "partial",
+        "accessible": [
+          "título",
+          "criador",
+          "descrição pública integral com capítulos",
+          "data exata",
+          "duração de 2 minutos e 34 segundos",
+          "legenda humana integral em português do Brasil com 30 segmentos e timestamps",
+          "fala por substituição textual",
+          "93 visualizações, 11 curtidas e 6 comentários públicos retornados",
+          "cinco sinais e orientação de assistência médica imediata",
+          "três famílias de fontes mencionadas genericamente na descrição",
+          "nenhum profissional de saúde, autor, página, DOI ou link clínico identificado"
+        ],
+        "missing": [
+          "vídeo reproduzido ou auditado quadro a quadro",
+          "imagem em movimento efetivamente observada",
+          "capa ou outra imagem adquirida",
+          "áudio ouvido",
+          "texto na tela",
+          "edição",
+          "ritmo",
+          "curva de retenção",
+          "impressões e fontes de tráfego",
+          "mídia paga",
+          "autoridade médica identificável",
+          "referências completas por alegação",
+          "revisão clínica humana",
+          "teste de compreensão"
+        ]
+      },
+      "publicMetrics": {
+        "viewsObserved": 93,
+        "likesObserved": 11,
+        "commentsObserved": 6,
+        "observedAt": "2026-09-27",
+        "sourceType": "youtube_public_metadata_full_description_full_human_caption_and_6_public_comments",
+        "causality": "not_inferred"
+      },
+      "classification": {
+        "taxonomyVersion": "3.0",
+        "container": "youtube_video",
+        "materialFormat": "video_curto",
+        "presentationFormats": [
+          "narracao_imagens",
+          "comentario"
+        ],
+        "primaryFamily": "curiosidade",
+        "secondaryFamilies": [
+          "polemica",
+          "conscientizacao"
+        ],
+        "functionalMix": [
+          {
+            "family": "curiosidade",
+            "percentage": 45
+          },
+          {
+            "family": "polemica",
+            "percentage": 30
+          },
+          {
+            "family": "conscientizacao",
+            "percentage": 25
+          }
+        ],
+        "objectives": [
+          "interromper_rolagem",
+          "consciencia_problema",
+          "compartilhamento",
+          "comentario"
+        ],
+        "advertisingType": "editorial_organico",
+        "commercialIntent": "ausente",
+        "advertisedEntity": {
+          "kind": "nenhuma",
+          "name": "",
+          "confidence": "medium"
+        },
+        "contentTopic": {
+          "label": "alegados sinais meses antes de um infarto",
+          "iabCode": null
+        },
+        "segment": "saúde",
+        "subsegment": "cardiologia popular",
+        "probableAudience": "público geral preocupado com sinais precoces de infarto",
+        "awarenessStage": "consciente_problema",
+        "productionLevel": "simple",
+        "creatorScale": "small",
+        "replicability": "high",
+        "durationBand": "over_60s",
+        "pace": "unknown",
+        "mechanisms": [
+          "medo",
+          "urgencia",
+          "curiosidade",
+          "vigilancia"
+        ],
+        "hookTypes": [
+          "risco",
+          "urgencia",
+          "numero",
+          "promessa"
+        ],
+        "narrativeElements": [
+          "risco",
+          "promessa",
+          "progressao",
+          "conclusao",
+          "cta"
+        ],
+        "proofTypes": [
+          "fonte",
+          "alegacao_sem_prova",
+          "mecanismo_explicado"
+        ],
+        "ctaTypes": [
+          "comentar",
+          "compartilhar"
+        ],
+        "distributionContext": {
+          "organicPaid": "unknown",
+          "trendDependency": "low"
+        },
+        "confidence": "high",
+        "evidence": [
+          "Título, descrição e legenda afirmam que o corpo avisa semanas ou meses antes e usam linguagem de fatalidade.",
+          "A descrição nomeia Circulation, Mayo Clinic e SBC/Rede D'Or apenas em categorias, sem citação rastreável por alegação.",
+          "O canal e a publicação não identificam profissional de saúde responsável pelo conteúdo."
+        ],
+        "alternativeClassifications": [],
+        "missingInformation": [
+          "vídeo reproduzido ou auditado quadro a quadro",
+          "imagem em movimento efetivamente observada",
+          "capa ou outra imagem adquirida",
+          "áudio ouvido",
+          "texto na tela",
+          "edição",
+          "ritmo",
+          "curva de retenção",
+          "impressões e fontes de tráfego",
+          "mídia paga"
+        ],
+        "needsHumanReview": true
+      },
+      "comparison": {
+        "level": 2,
+        "group": "explicador brasileiro de saúde que nomeia risco ou pergunta, identifica autoridade, usa linguagem proporcional e oferece ação específica sem substituir atendimento",
+        "referenceIds": [
+          "obs-20260927-211",
+          "obs-20260927-212",
+          "obs-20260927-213"
+        ],
+        "confidence": "high"
+      },
+      "observations": [
+        "Risco e ação aparecem, mas autoridade verificável e proporcionalidade permanecem ausentes.",
+        "A legenda usa universalizações como ciência já provou, máquina perfeita e falha iminente.",
+        "Fontes amplas não permitem ligar cada sinal à evidência correspondente."
+      ],
+      "interpretations": [
+        "É caso-limite: aparência científica e orientação final não substituem autoria clínica e rastreabilidade.",
+        "A ausência de revisão não prova que cada sinal seja falso; torna precisão e proporcionalidade não mensuradas."
+      ],
+      "scores": {
+        "gancho": 95,
+        "clareza": 84,
+        "relevancia": 88,
+        "desejo": 72,
+        "confianca": 38,
+        "retencao": "not_assessed",
+        "acao": 76,
+        "objecoes": 35
+      },
+      "fiveLenses": {
+        "apressado": "Entende rápido o risco e a lista.",
+        "analitico": "Não encontra autoria médica nem citação por alegação.",
+        "aspiracional": "A promessa é detectar um perigo cedo.",
+        "comunidade": "Seis comentários trazem reações, não compreensão.",
+        "cetico": "Rejeita certeza ampla, medo e autoridade genérica."
+      },
+      "hypotheses": [],
+      "replicable": [
+        "Delimitar uma lista curta.",
+        "Oferecer orientação de procurar assistência.",
+        "Organizar descrição por capítulos."
+      ],
+      "limitations": [
+        "Autoridade médica não identificada.",
+        "Fontes não são rastreáveis por alegação.",
+        "Precisão clínica, cenas, áudio, ritmo e retenção não foram auditados."
+      ],
+      "provenance": [
+        "public_content",
+        "youtube_public_metadata",
+        "public_search",
+        "public_metric",
+        "observatory_inference",
+        "youtube_public_comments",
+        "youtube_human_caption"
+      ],
+      "training": {
+        "evidencePolicyVersion": "1.1",
+        "evidenceRole": "case_limit",
+        "evidenceLevel": 2,
+        "requiredEvidenceObserved": false,
+        "supportEligible": false,
+        "claimCoverage": [
+          {
+            "claim": "risco e ação aparecem na publicação",
+            "requiredModalities": [
+              "description",
+              "transcript"
+            ],
+            "observedModalities": [
+              "description",
+              "transcript"
+            ],
+            "sufficient": true
+          },
+          {
+            "claim": "há autoridade identificável, linguagem proporcional e fonte rastreável por alegação",
+            "requiredModalities": [
+              "description",
+              "source_list",
+              "credential"
+            ],
+            "observedModalities": [
+              "description"
+            ],
+            "sufficient": false
+          },
+          {
+            "claim": "os cinco sinais e mecanismos são clinicamente corretos",
+            "requiredModalities": [
+              "expert_review",
+              "primary_sources"
+            ],
+            "observedModalities": [],
+            "sufficient": false
+          }
+        ],
+        "provenanceAndConsent": {
+          "storyOrigin": "conteúdo editorial público do próprio canal",
+          "consentStatus": "not_applicable",
+          "identityProtection": "not_applicable",
+          "evidence": [
+            "nenhum relato privado identificável de terceiro foi ensinado"
+          ]
+        },
+        "replicable": [
+          "Delimitar uma lista curta.",
+          "Oferecer orientação de procurar assistência.",
+          "Organizar descrição por capítulos."
+        ],
+        "contingent": [
+          "Autoridade médica não identificada.",
+          "Fontes não são rastreáveis por alegação.",
+          "Precisão clínica, cenas, áudio, ritmo e retenção não foram auditados."
+        ],
+        "notRecommended": [
+          "copiar frases, diagnóstico, recomendação clínica, personagem ou roteiro",
+          "usar medo, certeza absoluta ou aparência médica como substituto de fonte verificável",
+          "tratar visualizações, marca hospitalar, fama, comentário ou produção como prova causal",
+          "inferir cena, áudio, texto na tela, edição, ritmo ou retenção sem mídia reproduzida",
+          "confundir estrutura comunicacional com precisão clínica, confiança real ou mudança de comportamento"
+        ],
+        "hypotheses": []
+      },
+      "viralAssessment": {
+        "status": "indeterminate",
+        "observedSignal": 93,
+        "missingForRelativeAssessment": [
+          "coorte funcional contemporânea homogênea",
+          "retenção",
+          "impressões",
+          "fontes de tráfego",
+          "mídia paga"
+        ],
+        "confounders": [
+          "tamanho do canal",
+          "idade do vídeo",
+          "tema",
+          "distribuição"
+        ],
+        "causalClaimAllowed": false
+      }
+    },
+    {
+      "id": "obs-20260927-215",
+      "title": "Governo identifica 97 perfis de médicos criados por IA e cobra remoção de vídeos | Cidade Alerta DF",
+      "creator": "Record Brasília",
+      "creatorIdentity": "record-brasilia",
+      "sourceIdentity": "record-brasilia",
+      "country": "BR",
+      "url": "https://www.youtube.com/watch?v=VXDDysumNq8",
+      "sourceEvidence": [
+        "https://www.youtube.com/watch?v=VXDDysumNq8"
+      ],
+      "publishedAt": "2026-09-11",
+      "duration": "PT3M58S",
+      "createdAt": "2026-09-27T11:40:47.000Z",
+      "coverage": {
+        "level": "partial",
+        "accessible": [
+          "título",
+          "criador",
+          "descrição pública integral",
+          "data exata de 11 de setembro de 2026",
+          "duração de 3 minutos e 58 segundos",
+          "transcrição automática integral em português com 104 segmentos e timestamps",
+          "fala por substituição textual",
+          "1.889 visualizações e 18 curtidas observadas",
+          "nenhum comentário público retornado e contagem total indisponível",
+          "alegação jornalística de 97 perfis identificados entre janeiro e julho de 2026",
+          "sinais verbais para desconfiar de avatar, promessa milagrosa, venda e credencial não verificada",
+          "orientação de verificar CRM e denunciar em canais oficiais"
+        ],
+        "missing": [
+          "vídeo reproduzido ou auditado quadro a quadro",
+          "imagem em movimento efetivamente observada",
+          "capa ou outra imagem adquirida",
+          "áudio ouvido",
+          "texto na tela",
+          "edição",
+          "ritmo",
+          "curva de retenção",
+          "impressões e fontes de tráfego",
+          "mídia paga",
+          "nota oficial primária acessível na busca pública",
+          "identificação completa dos especialistas entrevistados na descrição",
+          "contagem de comentários",
+          "auditoria visual dos sinais de avatar"
+        ]
+      },
+      "publicMetrics": {
+        "viewsObserved": 1889,
+        "likesObserved": 18,
+        "commentsObserved": "not_measured",
+        "observedAt": "2026-09-27",
+        "sourceType": "youtube_public_metadata_full_description_full_automatic_transcript_zero_returned_comments_and_public_search",
+        "causality": "not_inferred"
+      },
+      "classification": {
+        "taxonomyVersion": "3.0",
+        "container": "youtube_video",
+        "materialFormat": "video_curto",
+        "presentationFormats": [
+          "reportagem",
+          "comentario",
+          "institucional"
+        ],
+        "primaryFamily": "noticia_atualidade",
+        "secondaryFamilies": [
+          "conscientizacao",
+          "explicativo"
+        ],
+        "functionalMix": [
+          {
+            "family": "noticia_atualidade",
+            "percentage": 50
+          },
+          {
+            "family": "conscientizacao",
+            "percentage": 30
+          },
+          {
+            "family": "explicativo",
+            "percentage": 20
+          }
+        ],
+        "objectives": [
+          "consciencia_problema",
+          "educar",
+          "confianca",
+          "compartilhamento"
+        ],
+        "advertisingType": "editorial_organico",
+        "commercialIntent": "ausente",
+        "advertisedEntity": {
+          "kind": "nenhuma",
+          "name": "",
+          "confidence": "high"
+        },
+        "contentTopic": {
+          "label": "falsos médicos criados por IA e checagem de credenciais",
+          "iabCode": null
+        },
+        "segment": "mídia e saúde",
+        "subsegment": "desinformação médica e inteligência artificial",
+        "probableAudience": "usuários de redes sociais expostos a aconselhamento de saúde",
+        "awarenessStage": "consciente_problema",
+        "productionLevel": "complex",
+        "creatorScale": "large",
+        "replicability": "low",
+        "durationBand": "over_60s",
+        "pace": "unknown",
+        "mechanisms": [
+          "vigilancia",
+          "medo",
+          "confianca",
+          "utilidade_pratica"
+        ],
+        "hookTypes": [
+          "risco",
+          "numero",
+          "novidade"
+        ],
+        "narrativeElements": [
+          "problema",
+          "risco",
+          "prova",
+          "mecanismo",
+          "conclusao"
+        ],
+        "proofTypes": [
+          "dado",
+          "especialista",
+          "autoridade_percebida"
+        ],
+        "ctaTypes": [
+          "compartilhar"
+        ],
+        "distributionContext": {
+          "organicPaid": "unknown",
+          "trendDependency": "low"
+        },
+        "confidence": "medium",
+        "evidence": [
+          "A descrição e a transcrição atribuem o número de perfis ao Ministério da Saúde e a notificação à AGU.",
+          "A fala orienta verificar CRM e desconfiar de promessas de cura garantida e venda pressionada.",
+          "Os indícios visuais de avatar não foram auditados porque o vídeo não foi adquirido."
+        ],
+        "alternativeClassifications": [],
+        "missingInformation": [
+          "vídeo reproduzido ou auditado quadro a quadro",
+          "imagem em movimento efetivamente observada",
+          "capa ou outra imagem adquirida",
+          "áudio ouvido",
+          "texto na tela",
+          "edição",
+          "ritmo",
+          "curva de retenção",
+          "impressões e fontes de tráfego",
+          "mídia paga"
+        ],
+        "needsHumanReview": true
+      },
+      "comparison": {
+        "level": 4,
+        "group": "exploração controlada de reportagem sobre confiança e desinformação médica",
+        "referenceIds": [],
+        "confidence": "low"
+      },
+      "observations": [
+        "A reportagem contrapõe aparência de autoridade a credencial verificável e ação de checagem.",
+        "A fonte primária da alegação numérica não ficou acessível na pesquisa pública realizada.",
+        "Movimento, sincronização labial e expressões foram apenas descritos, não observados."
+      ],
+      "interpretations": [
+        "A exploração reforça a necessidade de rastrear autoridade, mas não é par funcional dos explicadores médicos.",
+        "Sem fonte oficial acessível e audiovisual, não se cria hipótese nem se confirma o diagnóstico visual de IA."
+      ],
+      "scores": {
+        "gancho": 91,
+        "clareza": 90,
+        "relevancia": 93,
+        "desejo": 68,
+        "confianca": 72,
+        "retencao": "not_assessed",
+        "acao": 88,
+        "objecoes": 70
+      },
+      "fiveLenses": {
+        "apressado": "Recebe o risco e o número na abertura.",
+        "analitico": "Quer a nota oficial e nomes completos dos entrevistados.",
+        "aspiracional": "A transformação é consumir orientação médica com mais segurança.",
+        "comunidade": "Não houve comentários públicos retornados.",
+        "cetico": "Aceita a regra de verificar CRM, mas não generaliza sinais visuais não auditados."
+      },
+      "hypotheses": [],
+      "replicable": [
+        "Ensinar uma verificação concreta de credencial.",
+        "Separar aparência de autoridade de registro profissional.",
+        "Nomear sinais de promessa absoluta e pressão comercial."
+      ],
+      "limitations": [
+        "Produção jornalística e acesso a fontes elevam complexidade.",
+        "A fonte primária da contagem não ficou acessível.",
+        "Sinais visuais, cenas, ritmo e retenção não foram observados."
+      ],
+      "provenance": [
+        "public_content",
+        "youtube_public_metadata",
+        "public_search",
+        "public_metric",
+        "observatory_inference",
+        "youtube_automatic_transcript"
+      ],
+      "training": {
+        "evidencePolicyVersion": "1.1",
+        "evidenceRole": "controlled_exploration",
+        "evidenceLevel": 4,
+        "requiredEvidenceObserved": false,
+        "supportEligible": false,
+        "claimCoverage": [
+          {
+            "claim": "a reportagem ensina verificar CRM e desconfiar de promessa absoluta",
+            "requiredModalities": [
+              "description",
+              "transcript"
+            ],
+            "observedModalities": [
+              "description",
+              "transcript"
+            ],
+            "sufficient": true
+          },
+          {
+            "claim": "os sinais visuais de avatar são observáveis nesta publicação",
+            "requiredModalities": [
+              "video"
+            ],
+            "observedModalities": [],
+            "sufficient": false
+          },
+          {
+            "claim": "o governo identificou exatamente 97 perfis",
+            "requiredModalities": [
+              "official_primary_source"
+            ],
+            "observedModalities": [
+              "report_description",
+              "transcript"
+            ],
+            "sufficient": false
+          }
+        ],
+        "provenanceAndConsent": {
+          "storyOrigin": "conteúdo editorial público do próprio canal",
+          "consentStatus": "not_applicable",
+          "identityProtection": "not_applicable",
+          "evidence": [
+            "nenhum relato privado identificável de terceiro foi ensinado"
+          ]
+        },
+        "replicable": [
+          "Ensinar uma verificação concreta de credencial.",
+          "Separar aparência de autoridade de registro profissional.",
+          "Nomear sinais de promessa absoluta e pressão comercial."
+        ],
+        "contingent": [
+          "Produção jornalística e acesso a fontes elevam complexidade.",
+          "A fonte primária da contagem não ficou acessível.",
+          "Sinais visuais, cenas, ritmo e retenção não foram observados."
+        ],
+        "notRecommended": [
+          "copiar frases, diagnóstico, recomendação clínica, personagem ou roteiro",
+          "usar medo, certeza absoluta ou aparência médica como substituto de fonte verificável",
+          "tratar visualizações, marca hospitalar, fama, comentário ou produção como prova causal",
+          "inferir cena, áudio, texto na tela, edição, ritmo ou retenção sem mídia reproduzida",
+          "confundir estrutura comunicacional com precisão clínica, confiança real ou mudança de comportamento"
+        ],
+        "hypotheses": []
+      },
+      "viralAssessment": {
+        "status": "indeterminate",
+        "observedSignal": 1889,
+        "missingForRelativeAssessment": [
+          "coorte funcional contemporânea homogênea",
+          "retenção",
+          "impressões",
+          "fontes de tráfego",
+          "mídia paga"
+        ],
+        "confounders": [
+          "tamanho do canal",
+          "idade do vídeo",
+          "tema",
+          "distribuição"
+        ],
+        "causalClaimAllowed": false
+      }
     }
   ],
   "patterns": [
@@ -54792,18 +56234,18 @@
     {
       "id": "pat-20260823-002",
       "status": "provisional",
-      "statement": "Em explicadores de saúde, uma pergunta ou risco concreto combinado com autoridade identificável, linguagem proporcional à evidência e ação específica tende a elevar clareza e confiança percebida.",
+      "statement": "Em explicadores de saúde, combinar pergunta ou risco concreto, autoridade rastreável, linguagem proporcional e ação específica torna problema, fonte, limite e próximo passo identificáveis; efeitos sobre confiança, compreensão e comportamento permanecem não medidos.",
       "mechanism": [
         "vigilancia",
         "confianca",
         "alivio"
       ],
       "conditions": [
-        "conteúdo de saúde",
-        "objetivo educativo ou conscientização",
+        "conteúdo educativo ou explicativo de saúde",
+        "pergunta ou risco concreto",
         "autoridade identificável e rastreável",
-        "linguagem proporcional à evidência, sem promessa médica absoluta",
-        "ação específica e segura que não substitui atendimento"
+        "linguagem proporcional sem promessa médica absoluta",
+        "ação específica que não substitui atendimento"
       ],
       "supportReferenceIds": [
         "obs-20260823-004",
@@ -54815,25 +56257,28 @@
         "obs-20260828-065",
         "obs-20260906-106",
         "obs-20260906-107",
-        "obs-20260906-108"
+        "obs-20260906-108",
+        "obs-20260927-211",
+        "obs-20260927-212",
+        "obs-20260927-213"
       ],
-      "comparableSupportCount": 10,
+      "comparableSupportCount": 13,
       "comparisonLevel": 2,
       "confidence": "medium",
       "limitations": [
-        "A recorrência estrutural agora reúne dez apoios de cinco criadores e cinco fontes, mas não mede confiança, compreensão ou comportamento.",
-        "Nenhuma referência oferece experimento causal ou retenção.",
-        "Parcerias e conteúdo institucional podem alterar percepção e exigem disclosure.",
-        "O caso-limite mostra que aparência de autoridade não basta; autoridade verificável, proporcionalidade e ação segura são condições necessárias.",
-        "Variação de duração e apresentação não demonstra equivalência de efeito."
+        "Treze apoios formais vêm de oito criadores e sete fontes; demonstram recorrência estrutural, não confiança, compreensão ou comportamento.",
+        "Nenhuma referência oferece retenção, teste de compreensão, revisão clínica humana deste lote ou experimento causal.",
+        "Marca hospitalar, fama, métricas e comentários permanecem contexto não causal.",
+        "O novo caso-limite reforça que fontes genéricas e aviso médico não substituem autoria clínica e proporcionalidade.",
+        "Publicações de 2020 a 2024 podem exigir atualização clínica; a comparação é comunicacional, não diretriz médica."
       ],
       "validation": "requires_human_or_experimental_evidence",
       "stage": "provisional",
-      "name": "Em explicadores de saúde, uma pergunta ou risco concreto combinado com autoridade identificável, linguagem proporcional à evidência e ação específica tende a elevar clareza e confiança percebida.",
+      "name": "Em explicadores de saúde, combinar pergunta ou risco concreto, autoridade rastreável, linguagem proporcional e ação específica torna problema, fonte, limite e próximo passo identificáveis; efeitos sobre confiança, compreensão e comportamento permanecem não medidos.",
       "creativeFamily": "conteúdo de saúde",
       "objective": "objetivo educativo ou conscientização",
       "segment": "fonte ou autoridade demonstrada",
-      "supportingCount": 10,
+      "supportingCount": 13,
       "counterexampleCount": 0,
       "evidence": [
         {
@@ -54917,16 +56362,65 @@
           "limitations": [
             "Não mede confiança ou comportamento; não é contraexemplo causal."
           ]
+        },
+        {
+          "referenceId": "obs-20260927-211",
+          "role": "support",
+          "comparisonLevel": 1,
+          "requiredEvidenceObserved": true,
+          "confidence": "high",
+          "observation": "Pergunta, sinais, cardiologista identificado, diretriz nomeada e ação hospitalar aparecem no pacote público.",
+          "evidence": "Metadados, descrição integral, transcrição automática integral e cinquenta comentários amostrados.",
+          "limitations": [
+            "sem audiovisual, revisão clínica humana ou teste de compreensão"
+          ]
+        },
+        {
+          "referenceId": "obs-20260927-212",
+          "role": "support",
+          "comparisonLevel": 1,
+          "requiredEvidenceObserved": true,
+          "confidence": "high",
+          "observation": "Sintomas, risco, médico atribuído e ação de procurar hospital são explicitados, com objeção pandêmica tratada.",
+          "evidence": "Metadados, descrição integral, transcrição automática integral e um comentário.",
+          "limitations": [
+            "contexto publicado em 2020, sem revalidação clínica ou audiovisual"
+          ]
+        },
+        {
+          "referenceId": "obs-20260927-213",
+          "role": "support",
+          "comparisonLevel": 2,
+          "requiredEvidenceObserved": true,
+          "confidence": "high",
+          "observation": "O cardiologista diferencia rotina, caráter assintomático, sinais extremos e atendimento imediato, com limite informativo declarado.",
+          "evidence": "Metadados, descrição integral, transcrição automática integral e cinquenta comentários amostrados.",
+          "limitations": [
+            "sem fontes clínicas listadas, revisão humana ou audiovisual"
+          ]
+        },
+        {
+          "referenceId": "obs-20260927-214",
+          "role": "case_limit",
+          "comparisonLevel": 2,
+          "requiredEvidenceObserved": false,
+          "confidence": "high",
+          "observation": "Há risco, lista e ação, mas a publicação não identifica autoridade médica e usa certeza ampla com fontes genéricas.",
+          "evidence": "Metadados, descrição integral, legenda humana integral e seis comentários.",
+          "limitations": [
+            "não conta como apoio nem como contraexemplo clínico"
+          ]
         }
       ],
       "taxonomyVersion": "3.0",
-      "creatorDiversityCount": 5,
-      "sourceDiversityCount": 5,
+      "creatorDiversityCount": 8,
+      "sourceDiversityCount": 7,
       "patternType": "prova",
       "caseLimitReferenceIds": [
-        "obs-20260906-109"
+        "obs-20260906-109",
+        "obs-20260927-214"
       ],
-      "caseLimitCount": 1
+      "caseLimitCount": 2
     },
     {
       "id": "pat-20260823-003",
@@ -62024,6 +63518,136 @@
         "Foram amostrados 104 comentários; a amostra não é representativa.",
         "A correspondência entre cada correção e suas fontes não foi completa em dois dos três apoios.",
         "Não houve baseline, retenção, teste de compreensão, revisão factual humana ou causalidade.",
+        "Nenhum resultado autoriza validação; revisão humana ou evidência experimental continua necessária."
+      ]
+    },
+    {
+      "id": "run-20260927-supervised-039",
+      "executedAt": "2026-09-27T11:40:47.000Z",
+      "batchPolicyVersion": "1.1",
+      "requestedBatchSize": 5,
+      "candidatesFound": 114,
+      "referenceIds": [
+        "obs-20260927-211",
+        "obs-20260927-212",
+        "obs-20260927-213",
+        "obs-20260927-214",
+        "obs-20260927-215"
+      ],
+      "targetKnowledgeId": "pat-20260823-002",
+      "targetReferenceIds": [
+        "obs-20260927-211",
+        "obs-20260927-212",
+        "obs-20260927-213"
+      ],
+      "falsificationOrBoundaryReferenceIds": [
+        "obs-20260927-214"
+      ],
+      "controlledExplorationReferenceIds": [
+        "obs-20260927-215"
+      ],
+      "discarded": [
+        {
+          "url": "https://www.youtube.com/watch?v=QFSm6HhXU50",
+          "reason": "explicador comparável, porém publicado em 2013 e com orientação medicamentosa que exigiria revisão clínica específica; três apoios mais adequados foram selecionados"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=TY-xHoBs2eo",
+          "reason": "transcrição integral e autoridade identificável, mas duração de 13 minutos e bloco terapêutico detalhado reduzem comparabilidade com o grupo curto selecionado"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=JpbsbQiHho4",
+          "reason": "mesmo criador aparece repetidamente no pool e a seleção priorizou diversidade de fontes institucionais"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=sY6huX32cr8",
+          "reason": "embalagem de alerta disponível, mas a cobertura e a autoridade pública ficaram inferiores às três referências-alvo"
+        }
+      ],
+      "analyzed": 5,
+      "brazilianReferences": 5,
+      "internationalReferences": 0,
+      "unknownOriginReferences": 0,
+      "smallOrMediumCreatorReferences": 1,
+      "replicableReferences": 4,
+      "creativeFamiliesObserved": [
+        "explicativo",
+        "educativo",
+        "autoridade_opiniao",
+        "conscientizacao",
+        "curiosidade",
+        "polemica",
+        "noticia_atualidade"
+      ],
+      "coverageSummary": {
+        "complete": 0,
+        "partial": 5,
+        "insufficient": 0
+      },
+      "audiovisualAcquisition": {
+        "attempted": true,
+        "succeeded": 0,
+        "failure": "para as cinco URLs, vídeo e áudio retornaram arquivos HTML de 195 bytes; as cinco capas também retornaram HTML de 195 bytes",
+        "effect": "imagem em movimento, capa, áudio ouvido, texto na tela, atuação, edição, ritmo e retenção ficaram não mensurados"
+      },
+      "transcriptCoverage": {
+        "fullHumanOrCreatorProvided": 1,
+        "fullAutomatic": 4,
+        "partialHumanOrCreatorProvided": 0,
+        "partialAutomatic": 0,
+        "none": 0,
+        "limitation": "quatro transcrições automáticas e uma legenda humana substituem somente a fala; não sustentam cenas, voz ou ritmo"
+      },
+      "commentsCoverage": {
+        "countsOnly": 0,
+        "sampledReferences": 4,
+        "sampledComments": 107,
+        "zeroReturnedReferences": 1,
+        "limitation": "comentários públicos não são amostra representativa nem teste de compreensão, segurança ou confiança"
+      },
+      "baselineCoverage": {
+        "sampledProfiles": 0,
+        "contemporaneousBaselines": 0,
+        "limitation": "datas, temas, escalas e instituições diferentes impedem benchmark causal de desempenho"
+      },
+      "patternsCreated": [],
+      "patternsStrengthened": [
+        "pat-20260823-002"
+      ],
+      "patternsRefined": [
+        "pat-20260823-002"
+      ],
+      "hypothesesCreated": [],
+      "hypothesesStrengthened": [],
+      "validatedPatternsCreated": 0,
+      "contradictionsFound": [],
+      "caseLimitsFound": [
+        "alerta, fontes genéricas e orientação final não satisfazem o padrão sem autoridade identificável e linguagem proporcional"
+      ],
+      "safetyFindings": [
+        "precisão clínica não foi inferida de autoridade, marca, legenda, descrição, comentários ou métricas",
+        "nenhuma orientação médica foi ensinada como recomendação ao usuário",
+        "nenhuma cena, áudio, texto na tela, edição, ritmo ou retenção foi inventado",
+        "a alegação jornalística recente foi registrada como não confirmada por fonte oficial primária acessível",
+        "Observatório, cérebros sintéticos e futuro Freud permaneceram separados"
+      ],
+      "evidenceGateSummary": {
+        "targetSupportsEligible": 3,
+        "targetSupportsRejected": 0,
+        "boundaryCases": 1,
+        "explorationReferences": 1,
+        "duplicateUrls": 0,
+        "independentCreatorsAddedToPattern": 3,
+        "newHypotheses": 0
+      },
+      "outcome": "Três fontes institucionais independentes elevam de dez para treze os apoios do padrão de explicação de saúde rastreável. Um caso-limite mostra que risco e aviso médico não compensam autoria ausente e certeza desproporcional. O padrão permanece provisório.",
+      "nextTarget": "explicador brasileiro recente e curto de saúde, de profissional ou instituição pequena ou média, com audiovisual integral, credencial e fonte primária verificáveis, ação segura e teste de compreensão; buscar também um caso em que a credencial seja real, mas a recomendação exceda a evidência",
+      "limitations": [
+        "Nenhum vídeo, áudio ou capa utilizável foi adquirido.",
+        "Quatro transcrições são automáticas integrais e uma legenda é humana integral.",
+        "Foram amostrados 107 comentários; a amostra não é representativa.",
+        "Não houve baseline, retenção, teste de compreensão, revisão clínica humana ou causalidade.",
+        "A fonte oficial primária da exploração jornalística não ficou acessível na pesquisa pública.",
         "Nenhum resultado autoriza validação; revisão humana ou evidência experimental continua necessária."
       ]
     }
