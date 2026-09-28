@@ -1,6 +1,6 @@
 {
   "protocol": "plateia-memory/1.0",
-  "updatedAt": "2026-09-27T11:40:47.000Z",
+  "updatedAt": "2026-09-28T11:35:00.000Z",
   "references": [
     {
       "id": "obs-20260823-001",
@@ -56035,6 +56035,1440 @@
         ],
         "causalClaimAllowed": false
       }
+    },
+    {
+      "id": "obs-20260928-216",
+      "title": "Como organizar a VIDA FINANCEIRA do zero",
+      "creator": "Gabi Teixeira",
+      "creatorIdentity": "gabi-teixeira",
+      "sourceIdentity": "gabi-teixeira",
+      "country": "BR",
+      "url": "https://www.youtube.com/watch?v=dzmjIW_jBNA",
+      "sourceEvidence": [
+        "https://www.youtube.com/watch?v=dzmjIW_jBNA"
+      ],
+      "publishedAt": "2025-07-10",
+      "duration": "PT10M58S",
+      "createdAt": "2026-09-28T11:35:00.000Z",
+      "coverage": {
+        "level": "partial",
+        "accessible": [
+          "título",
+          "criador",
+          "descrição pública integral",
+          "data exata",
+          "duração de 10 minutos e 58 segundos",
+          "transcrição automática integral em português com 259 segmentos e timestamps",
+          "fala por substituição textual",
+          "64.129 visualizações, 3.299 curtidas e 73 comentários públicos indicados",
+          "amostra pública de 20 comentários",
+          "problema de desorganização ou endividamento explicitado na abertura",
+          "três passos falados: levantar saídas, categorizar e somar, depois cortar, centralizar e repetir",
+          "oferta de planner próprio e links comerciais na descrição"
+        ],
+        "missing": [
+          "vídeo reproduzido ou auditado quadro a quadro",
+          "imagem em movimento efetivamente observada",
+          "capa ou outra imagem adquirida",
+          "áudio ouvido",
+          "texto na tela",
+          "edição",
+          "ritmo",
+          "curva de retenção",
+          "impressões e fontes de tráfego",
+          "mídia paga",
+          "baseline comparável",
+          "teste de compreensão",
+          "resultado financeiro dos espectadores",
+          "disclosure detalhado dos links comerciais"
+        ]
+      },
+      "publicMetrics": {
+        "viewsObserved": 64129,
+        "likesObserved": 3299,
+        "commentsObserved": 73,
+        "observedAt": "2026-09-28",
+        "sourceType": "youtube_public_metadata_full_description_full_automatic_transcript_and_20_public_comments",
+        "causality": "not_inferred"
+      },
+      "classification": {
+        "taxonomyVersion": "3.0",
+        "container": "youtube_video",
+        "materialFormat": "video_longo",
+        "presentationFormats": [
+          "camera_direta",
+          "tutorial"
+        ],
+        "primaryFamily": "educativo",
+        "secondaryFamilies": [
+          "explicativo",
+          "oferta_direta"
+        ],
+        "functionalMix": [
+          {
+            "family": "educativo",
+            "percentage": 55
+          },
+          {
+            "family": "explicativo",
+            "percentage": 30
+          },
+          {
+            "family": "oferta_direta",
+            "percentage": 15
+          }
+        ],
+        "objectives": [
+          "educar",
+          "consciencia_problema",
+          "apresentar_solucao",
+          "trafego"
+        ],
+        "advertisingType": "oferta_direta",
+        "commercialIntent": "explicita",
+        "advertisedEntity": {
+          "kind": "produto",
+          "name": "Combo Vida em Ordem",
+          "confidence": "high"
+        },
+        "contentTopic": {
+          "label": "organização financeira do zero",
+          "iabCode": null
+        },
+        "segment": "finanças pessoais",
+        "subsegment": "controle de gastos para iniciantes",
+        "probableAudience": "adultos desorganizados, endividados ou sem clareza sobre gastos",
+        "awarenessStage": "consciente_problema",
+        "productionLevel": "simple",
+        "creatorScale": "medium",
+        "replicability": "high",
+        "durationBand": "over_60s",
+        "pace": "unknown",
+        "mechanisms": [
+          "aproximacao",
+          "alivio",
+          "confianca"
+        ],
+        "hookTypes": [
+          "problema",
+          "numero",
+          "promessa"
+        ],
+        "narrativeElements": [
+          "problema",
+          "progressao",
+          "mecanismo",
+          "conclusao",
+          "cta"
+        ],
+        "proofTypes": [
+          "mecanismo_explicado",
+          "tratamento_objecao"
+        ],
+        "ctaTypes": [
+          "clicar",
+          "outro_conteudo"
+        ],
+        "distributionContext": {
+          "organicPaid": "unknown",
+          "trendDependency": "low"
+        },
+        "confidence": "high",
+        "evidence": [
+          "A fala promete três passos e os executa em sequência verificável.",
+          "O caminho parte de extratos e faturas, passa por categorias e termina em cortes e repetição mensal.",
+          "Vinte comentários foram amostrados; relatos de utilidade ou dificuldade não medem resultado financeiro."
+        ],
+        "alternativeClassifications": [],
+        "missingInformation": [
+          "vídeo reproduzido ou auditado quadro a quadro",
+          "imagem em movimento efetivamente observada",
+          "capa ou outra imagem adquirida",
+          "áudio ouvido",
+          "texto na tela",
+          "edição",
+          "ritmo",
+          "curva de retenção",
+          "impressões e fontes de tráfego",
+          "mídia paga"
+        ],
+        "needsHumanReview": true
+      },
+      "comparison": {
+        "level": 1,
+        "group": "educação financeira brasileira para iniciantes que nomeia desorganização ou falta de clareza e oferece um caminho finito e executável",
+        "referenceIds": [
+          "obs-20260928-217",
+          "obs-20260928-218"
+        ],
+        "confidence": "high"
+      },
+      "observations": [
+        "A abertura nomeia falta de direção, cartão no limite, dívidas e ausência de sobra antes de oferecer três passos.",
+        "Cada passo produz uma tarefa observável na fala, do levantamento ao compromisso de repetir no mês seguinte.",
+        "A oferta do planner vem depois do método; sua utilidade comercial e conversão não foram medidas."
+      ],
+      "interpretations": [
+        "Problema concreto e sequência finita tornam o caminho rastreável para iniciantes.",
+        "Produto próprio, métricas e comentários são contexto, não prova de aprendizagem ou eficácia."
+      ],
+      "scores": {
+        "gancho": 91,
+        "clareza": 95,
+        "relevancia": 93,
+        "desejo": 77,
+        "confianca": 80,
+        "retencao": "not_assessed",
+        "acao": 92,
+        "objecoes": 82
+      },
+      "fiveLenses": {
+        "apressado": "Entende cedo o problema e a promessa de três passos.",
+        "analitico": "Encontra tarefas concretas, mas não resultado ou adequação individual.",
+        "aspiracional": "Visualiza controle e decisões mais conscientes.",
+        "comunidade": "Comentários trazem relatos e dúvidas sem representatividade.",
+        "cetico": "Separa o método da venda do planner e exige prova de resultado."
+      },
+      "hypotheses": [],
+      "replicable": [
+        "Nomear o problema financeiro antes da explicação.",
+        "Anunciar uma sequência curta e executar cada etapa.",
+        "Transformar cada passo em tarefa verificável."
+      ],
+      "limitations": [
+        "A adequação financeira individual não foi testada.",
+        "A oferta de produto e links comerciais exige transparência.",
+        "Audiovisual, ritmo, retenção e resultado permaneceram não mensurados."
+      ],
+      "provenance": [
+        "public_content",
+        "youtube_public_metadata",
+        "public_search",
+        "youtube_automatic_transcript",
+        "public_metric",
+        "observatory_inference",
+        "youtube_public_comments"
+      ],
+      "training": {
+        "evidencePolicyVersion": "1.1",
+        "evidenceRole": "target_support",
+        "evidenceLevel": 1,
+        "requiredEvidenceObserved": true,
+        "supportEligible": true,
+        "claimCoverage": [
+          {
+            "claim": "problema concreto e caminho organizado em três passos aparecem publicamente",
+            "requiredModalities": [
+              "metadata",
+              "description",
+              "transcript"
+            ],
+            "observedModalities": [
+              "metadata",
+              "description",
+              "transcript"
+            ],
+            "sufficient": true
+          }
+        ],
+        "provenanceAndConsent": {
+          "storyOrigin": "conteúdo editorial público do próprio canal",
+          "consentStatus": "not_applicable",
+          "identityProtection": "not_applicable",
+          "evidence": [
+            "nenhum relato privado identificável de terceiro foi ensinado"
+          ]
+        },
+        "replicable": [
+          "Nomear o problema financeiro antes da explicação.",
+          "Anunciar uma sequência curta e executar cada etapa.",
+          "Transformar cada passo em tarefa verificável."
+        ],
+        "contingent": [
+          "A adequação financeira individual não foi testada.",
+          "A oferta de produto e links comerciais exige transparência.",
+          "Audiovisual, ritmo, retenção e resultado permaneceram não mensurados."
+        ],
+        "notRecommended": [
+          "copiar frase, personagem, promessa, produto ou roteiro",
+          "tratar prazo fixo, mentalidade, autoridade percebida ou comentário como prova de resultado financeiro",
+          "prescrever estratégia financeira individual sem renda, dívida, juros, risco e capacidade de pagamento",
+          "tratar visualizações, fama, escala, produção ou venda de material como causa de desempenho",
+          "inferir cena, áudio, texto na tela, edição, ritmo ou retenção sem mídia reproduzida"
+        ],
+        "hypotheses": []
+      },
+      "viralAssessment": {
+        "status": "indeterminate",
+        "observedSignal": 64129,
+        "missingForRelativeAssessment": [
+          "coorte funcional contemporânea homogênea",
+          "retenção",
+          "impressões",
+          "fontes de tráfego",
+          "mídia paga"
+        ],
+        "confounders": [
+          "tamanho do canal",
+          "idade do vídeo",
+          "tema",
+          "distribuição"
+        ],
+        "causalClaimAllowed": false
+      }
+    },
+    {
+      "id": "obs-20260928-217",
+      "title": "Organizar Suas Finanças é FÁCIL, Na Verdade (Guia Completo para Iniciantes)",
+      "creator": "Larissa Quintanilha",
+      "creatorIdentity": "larissa-quintanilha",
+      "sourceIdentity": "larissa-quintanilha",
+      "country": "BR",
+      "url": "https://www.youtube.com/watch?v=FfJRuxVqqvQ",
+      "sourceEvidence": [
+        "https://www.youtube.com/watch?v=FfJRuxVqqvQ"
+      ],
+      "publishedAt": "2025-08-31",
+      "duration": "PT27M37S",
+      "createdAt": "2026-09-28T11:35:00.000Z",
+      "coverage": {
+        "level": "partial",
+        "accessible": [
+          "título",
+          "criador",
+          "descrição pública integral",
+          "data exata",
+          "duração de 27 minutos e 37 segundos",
+          "transcrição automática integral em português com 817 segmentos e timestamps",
+          "fala por substituição textual",
+          "66.951 visualizações, 3.088 curtidas e 40 comentários públicos indicados",
+          "amostra pública de 20 comentários",
+          "problema de contas, gasto e falta de sobra explicitado",
+          "quatro blocos falados: raio X, metas, organização cotidiana e mentalidade",
+          "oferta de planner próprio no comentário fixado e na fala"
+        ],
+        "missing": [
+          "vídeo reproduzido ou auditado quadro a quadro",
+          "imagem em movimento efetivamente observada",
+          "capa ou outra imagem adquirida",
+          "áudio ouvido",
+          "texto na tela",
+          "edição",
+          "ritmo",
+          "curva de retenção",
+          "impressões e fontes de tráfego",
+          "mídia paga",
+          "baseline comparável",
+          "teste de compreensão",
+          "resultado financeiro dos espectadores",
+          "adequação individual das recomendações"
+        ]
+      },
+      "publicMetrics": {
+        "viewsObserved": 66951,
+        "likesObserved": 3088,
+        "commentsObserved": 40,
+        "observedAt": "2026-09-28",
+        "sourceType": "youtube_public_metadata_full_description_full_automatic_transcript_and_20_public_comments",
+        "causality": "not_inferred"
+      },
+      "classification": {
+        "taxonomyVersion": "3.0",
+        "container": "youtube_video",
+        "materialFormat": "video_longo",
+        "presentationFormats": [
+          "camera_direta",
+          "tutorial"
+        ],
+        "primaryFamily": "educativo",
+        "secondaryFamilies": [
+          "explicativo",
+          "inspiracao"
+        ],
+        "functionalMix": [
+          {
+            "family": "educativo",
+            "percentage": 55
+          },
+          {
+            "family": "explicativo",
+            "percentage": 30
+          },
+          {
+            "family": "inspiracao",
+            "percentage": 15
+          }
+        ],
+        "objectives": [
+          "educar",
+          "consciencia_problema",
+          "apresentar_solucao",
+          "trafego"
+        ],
+        "advertisingType": "oferta_direta",
+        "commercialIntent": "explicita",
+        "advertisedEntity": {
+          "kind": "produto",
+          "name": "Planner Your Success",
+          "confidence": "high"
+        },
+        "contentTopic": {
+          "label": "guia completo de organização financeira",
+          "iabCode": null
+        },
+        "segment": "finanças pessoais",
+        "subsegment": "planejamento para iniciantes",
+        "probableAudience": "adultos iniciantes que perdem controle das contas e metas",
+        "awarenessStage": "consciente_problema",
+        "productionLevel": "simple",
+        "creatorScale": "medium",
+        "replicability": "high",
+        "durationBand": "over_60s",
+        "pace": "unknown",
+        "mechanisms": [
+          "aproximacao",
+          "alivio",
+          "desejo",
+          "confianca"
+        ],
+        "hookTypes": [
+          "problema",
+          "promessa",
+          "identificacao"
+        ],
+        "narrativeElements": [
+          "situacao",
+          "problema",
+          "progressao",
+          "mecanismo",
+          "cta"
+        ],
+        "proofTypes": [
+          "mecanismo_explicado",
+          "tratamento_objecao"
+        ],
+        "ctaTypes": [
+          "clicar",
+          "seguir"
+        ],
+        "distributionContext": {
+          "organicPaid": "unknown",
+          "trendDependency": "low"
+        },
+        "confidence": "high",
+        "evidence": [
+          "A fala parte do descontrole mensal e declara um guia para iniciantes.",
+          "Raio X, metas, rotina e mentalidade formam quatro blocos ordenados com exemplos.",
+          "Um comentário questiona a venda do planner; isso registra objeção, não invalida o método."
+        ],
+        "alternativeClassifications": [],
+        "missingInformation": [
+          "vídeo reproduzido ou auditado quadro a quadro",
+          "imagem em movimento efetivamente observada",
+          "capa ou outra imagem adquirida",
+          "áudio ouvido",
+          "texto na tela",
+          "edição",
+          "ritmo",
+          "curva de retenção",
+          "impressões e fontes de tráfego",
+          "mídia paga"
+        ],
+        "needsHumanReview": true
+      },
+      "comparison": {
+        "level": 2,
+        "group": "educação financeira brasileira para iniciantes que nomeia desorganização ou falta de clareza e oferece um caminho finito e executável",
+        "referenceIds": [
+          "obs-20260928-216",
+          "obs-20260928-218"
+        ],
+        "confidence": "high"
+      },
+      "observations": [
+        "O vídeo nomeia a sensação de descontrole e reconstrói o caminho por quatro blocos falados.",
+        "Exemplos ligam gastos, causas, metas e ajustes, mas algumas recomendações exigem adequação ao perfil.",
+        "A extensão de 27 minutos reduz comparabilidade de duração sem impedir a comparação funcional."
+      ],
+      "interpretations": [
+        "Um mapa explícito sustenta rastreabilidade mesmo em conteúdo longo.",
+        "Experiência pessoal e produto próprio não substituem teste de compreensão ou resultado."
+      ],
+      "scores": {
+        "gancho": 89,
+        "clareza": 92,
+        "relevancia": 91,
+        "desejo": 79,
+        "confianca": 76,
+        "retencao": "not_assessed",
+        "acao": 88,
+        "objecoes": 75
+      },
+      "fiveLenses": {
+        "apressado": "Entende o problema e a promessa, mas enfrenta uma entrega longa.",
+        "analitico": "Encontra mapa e exemplos; pede adequação das recomendações ao perfil.",
+        "aspiracional": "Vê metas e controle de longo prazo.",
+        "comunidade": "Comentários incluem identificação, elogios e objeção comercial.",
+        "cetico": "Questiona universalização e a venda do planner sem prova de eficácia."
+      },
+      "hypotheses": [],
+      "replicable": [
+        "Abrir com uma situação cotidiana reconhecível.",
+        "Organizar um guia longo em blocos nomeados.",
+        "Vincular exemplos a causas e próximos passos."
+      ],
+      "limitations": [
+        "Duração e produto próprio alteram a experiência.",
+        "Recomendações financeiras exigem adequação individual.",
+        "Audiovisual, ritmo, retenção e resultado permaneceram não mensurados."
+      ],
+      "provenance": [
+        "public_content",
+        "youtube_public_metadata",
+        "public_search",
+        "youtube_automatic_transcript",
+        "public_metric",
+        "observatory_inference",
+        "youtube_public_comments"
+      ],
+      "training": {
+        "evidencePolicyVersion": "1.1",
+        "evidenceRole": "target_support",
+        "evidenceLevel": 2,
+        "requiredEvidenceObserved": true,
+        "supportEligible": true,
+        "claimCoverage": [
+          {
+            "claim": "problema de descontrole e caminho organizado em quatro blocos aparecem na fala",
+            "requiredModalities": [
+              "metadata",
+              "transcript"
+            ],
+            "observedModalities": [
+              "metadata",
+              "transcript"
+            ],
+            "sufficient": true
+          }
+        ],
+        "provenanceAndConsent": {
+          "storyOrigin": "conteúdo editorial público do próprio canal",
+          "consentStatus": "not_applicable",
+          "identityProtection": "not_applicable",
+          "evidence": [
+            "nenhum relato privado identificável de terceiro foi ensinado"
+          ]
+        },
+        "replicable": [
+          "Abrir com uma situação cotidiana reconhecível.",
+          "Organizar um guia longo em blocos nomeados.",
+          "Vincular exemplos a causas e próximos passos."
+        ],
+        "contingent": [
+          "Duração e produto próprio alteram a experiência.",
+          "Recomendações financeiras exigem adequação individual.",
+          "Audiovisual, ritmo, retenção e resultado permaneceram não mensurados."
+        ],
+        "notRecommended": [
+          "copiar frase, personagem, promessa, produto ou roteiro",
+          "tratar prazo fixo, mentalidade, autoridade percebida ou comentário como prova de resultado financeiro",
+          "prescrever estratégia financeira individual sem renda, dívida, juros, risco e capacidade de pagamento",
+          "tratar visualizações, fama, escala, produção ou venda de material como causa de desempenho",
+          "inferir cena, áudio, texto na tela, edição, ritmo ou retenção sem mídia reproduzida"
+        ],
+        "hypotheses": []
+      },
+      "viralAssessment": {
+        "status": "indeterminate",
+        "observedSignal": 66951,
+        "missingForRelativeAssessment": [
+          "coorte funcional contemporânea homogênea",
+          "retenção",
+          "impressões",
+          "fontes de tráfego",
+          "mídia paga"
+        ],
+        "confounders": [
+          "tamanho do canal",
+          "idade do vídeo",
+          "tema",
+          "distribuição"
+        ],
+        "causalClaimAllowed": false
+      }
+    },
+    {
+      "id": "obs-20260928-218",
+      "title": "Como fazer Controle Financeiro Pessoal no Caderno?",
+      "creator": "Ju Oliveira Finanças",
+      "creatorIdentity": "ju-oliveira-financas",
+      "sourceIdentity": "ju-oliveira-financas",
+      "country": "BR",
+      "url": "https://www.youtube.com/watch?v=vSalOkoX9G8",
+      "sourceEvidence": [
+        "https://www.youtube.com/watch?v=vSalOkoX9G8"
+      ],
+      "publishedAt": "2022-07-05",
+      "duration": "PT5M5S",
+      "createdAt": "2026-09-28T11:35:00.000Z",
+      "coverage": {
+        "level": "partial",
+        "accessible": [
+          "título",
+          "criador",
+          "descrição pública integral",
+          "data exata",
+          "duração de 5 minutos e 5 segundos",
+          "transcrição automática integral em português com 91 segmentos e timestamps",
+          "fala por substituição textual",
+          "174.942 visualizações, 8.218 curtidas e 221 comentários públicos indicados",
+          "amostra pública de 20 comentários",
+          "procedimento falado de controle em caderno com receitas, despesas fixas, despesas variáveis, reserva e movimentações",
+          "links afiliados de livros na descrição"
+        ],
+        "missing": [
+          "vídeo reproduzido ou auditado quadro a quadro",
+          "imagem em movimento efetivamente observada",
+          "capa ou outra imagem adquirida",
+          "áudio ouvido",
+          "texto na tela",
+          "edição",
+          "ritmo",
+          "curva de retenção",
+          "impressões e fontes de tráfego",
+          "mídia paga",
+          "execução visual do caderno",
+          "legibilidade do modelo",
+          "baseline comparável",
+          "teste de execução",
+          "resultado financeiro dos espectadores"
+        ]
+      },
+      "publicMetrics": {
+        "viewsObserved": 174942,
+        "likesObserved": 8218,
+        "commentsObserved": 221,
+        "observedAt": "2026-09-28",
+        "sourceType": "youtube_public_metadata_full_description_full_automatic_transcript_and_20_public_comments",
+        "causality": "not_inferred"
+      },
+      "classification": {
+        "taxonomyVersion": "3.0",
+        "container": "youtube_video",
+        "materialFormat": "video_longo",
+        "presentationFormats": [
+          "tutorial",
+          "demonstracao"
+        ],
+        "primaryFamily": "educativo",
+        "secondaryFamilies": [
+          "demonstracao",
+          "explicativo"
+        ],
+        "functionalMix": [
+          {
+            "family": "educativo",
+            "percentage": 50
+          },
+          {
+            "family": "demonstracao",
+            "percentage": 30
+          },
+          {
+            "family": "explicativo",
+            "percentage": 20
+          }
+        ],
+        "objectives": [
+          "educar",
+          "apresentar_solucao",
+          "salvamento",
+          "seguidores"
+        ],
+        "advertisingType": "publicidade_nativa",
+        "commercialIntent": "implicita",
+        "advertisedEntity": {
+          "kind": "produto",
+          "name": "livros afiliados na descrição",
+          "confidence": "high"
+        },
+        "contentTopic": {
+          "label": "controle financeiro manual no caderno",
+          "iabCode": null
+        },
+        "segment": "finanças pessoais",
+        "subsegment": "registro de orçamento para iniciantes",
+        "probableAudience": "pessoas que preferem papel a planilha ou aplicativo",
+        "awarenessStage": "consciente_solucao",
+        "productionLevel": "simple",
+        "creatorScale": "medium",
+        "replicability": "high",
+        "durationBand": "over_60s",
+        "pace": "unknown",
+        "mechanisms": [
+          "aproximacao",
+          "alivio",
+          "confianca"
+        ],
+        "hookTypes": [
+          "pergunta",
+          "problema"
+        ],
+        "narrativeElements": [
+          "problema",
+          "mecanismo",
+          "progressao",
+          "conclusao"
+        ],
+        "proofTypes": [
+          "mecanismo_explicado"
+        ],
+        "ctaTypes": [
+          "seguir"
+        ],
+        "distributionContext": {
+          "organicPaid": "unknown",
+          "trendDependency": "low"
+        },
+        "confidence": "high",
+        "evidence": [
+          "A fala apresenta um método para quem não gosta de planilhas ou aplicativos.",
+          "Receitas, categorias de despesas, reserva e movimentações são preenchidas em ordem verbal.",
+          "A demonstração visual e a legibilidade não puderam ser confirmadas."
+        ],
+        "alternativeClassifications": [],
+        "missingInformation": [
+          "vídeo reproduzido ou auditado quadro a quadro",
+          "imagem em movimento efetivamente observada",
+          "capa ou outra imagem adquirida",
+          "áudio ouvido",
+          "texto na tela",
+          "edição",
+          "ritmo",
+          "curva de retenção",
+          "impressões e fontes de tráfego",
+          "mídia paga"
+        ],
+        "needsHumanReview": true
+      },
+      "comparison": {
+        "level": 2,
+        "group": "educação financeira brasileira para iniciantes que nomeia desorganização ou falta de clareza e oferece um caminho finito e executável",
+        "referenceIds": [
+          "obs-20260928-216",
+          "obs-20260928-217"
+        ],
+        "confidence": "high"
+      },
+      "observations": [
+        "A objeção a planilhas e aplicativos é convertida em caminho manual de baixa barreira.",
+        "O procedimento falado organiza entradas, saídas, reserva e saldo.",
+        "Comentários descrevem adoção e facilidade, mas não constituem teste representativo de execução."
+      ],
+      "interpretations": [
+        "Uma alternativa de baixo custo pode tornar o caminho mais executável para o público que prefere papel.",
+        "Sem a imagem, não se ensina layout, legibilidade ou resultado visual."
+      ],
+      "scores": {
+        "gancho": 84,
+        "clareza": 91,
+        "relevancia": 88,
+        "desejo": 66,
+        "confianca": 75,
+        "retencao": "not_assessed",
+        "acao": 88,
+        "objecoes": 80
+      },
+      "fiveLenses": {
+        "apressado": "Entende a solução manual rapidamente.",
+        "analitico": "Recebe categorias e cálculo, mas não vê o modelo.",
+        "aspiracional": "Visualiza controle simples e acessível.",
+        "comunidade": "Comentários relatam preferência por caderno e intenção de uso.",
+        "cetico": "Não confunde relatos com resultado e pede a execução visual."
+      },
+      "hypotheses": [],
+      "replicable": [
+        "Começar por uma objeção concreta à ferramenta comum.",
+        "Oferecer alternativa barata e acessível.",
+        "Ordenar os campos antes de calcular o saldo."
+      ],
+      "limitations": [
+        "A execução visual não foi observada.",
+        "Links afiliados são contexto comercial.",
+        "Retenção, adesão e resultado financeiro não foram medidos."
+      ],
+      "provenance": [
+        "public_content",
+        "youtube_public_metadata",
+        "public_search",
+        "youtube_automatic_transcript",
+        "public_metric",
+        "observatory_inference",
+        "youtube_public_comments"
+      ],
+      "training": {
+        "evidencePolicyVersion": "1.1",
+        "evidenceRole": "target_support",
+        "evidenceLevel": 2,
+        "requiredEvidenceObserved": true,
+        "supportEligible": true,
+        "claimCoverage": [
+          {
+            "claim": "problema de ferramenta e caminho manual organizado aparecem na fala",
+            "requiredModalities": [
+              "metadata",
+              "description",
+              "transcript"
+            ],
+            "observedModalities": [
+              "metadata",
+              "description",
+              "transcript"
+            ],
+            "sufficient": true
+          }
+        ],
+        "provenanceAndConsent": {
+          "storyOrigin": "conteúdo editorial público do próprio canal",
+          "consentStatus": "not_applicable",
+          "identityProtection": "not_applicable",
+          "evidence": [
+            "nenhum relato privado identificável de terceiro foi ensinado"
+          ]
+        },
+        "replicable": [
+          "Começar por uma objeção concreta à ferramenta comum.",
+          "Oferecer alternativa barata e acessível.",
+          "Ordenar os campos antes de calcular o saldo."
+        ],
+        "contingent": [
+          "A execução visual não foi observada.",
+          "Links afiliados são contexto comercial.",
+          "Retenção, adesão e resultado financeiro não foram medidos."
+        ],
+        "notRecommended": [
+          "copiar frase, personagem, promessa, produto ou roteiro",
+          "tratar prazo fixo, mentalidade, autoridade percebida ou comentário como prova de resultado financeiro",
+          "prescrever estratégia financeira individual sem renda, dívida, juros, risco e capacidade de pagamento",
+          "tratar visualizações, fama, escala, produção ou venda de material como causa de desempenho",
+          "inferir cena, áudio, texto na tela, edição, ritmo ou retenção sem mídia reproduzida"
+        ],
+        "hypotheses": []
+      },
+      "viralAssessment": {
+        "status": "indeterminate",
+        "observedSignal": 174942,
+        "missingForRelativeAssessment": [
+          "coorte funcional contemporânea homogênea",
+          "retenção",
+          "impressões",
+          "fontes de tráfego",
+          "mídia paga"
+        ],
+        "confounders": [
+          "tamanho do canal",
+          "idade do vídeo",
+          "tema",
+          "distribuição"
+        ],
+        "causalClaimAllowed": false
+      }
+    },
+    {
+      "id": "obs-20260928-219",
+      "title": "90 DIAS SEM DÍVIDAS Plano Passo a Passo – Napoleon Hill",
+      "creator": "Segredos de Napoleon Hill",
+      "creatorIdentity": "segredos-de-napoleon-hill",
+      "sourceIdentity": "segredos-de-napoleon-hill",
+      "country": "BR",
+      "url": "https://www.youtube.com/watch?v=OUeMneVcI9o",
+      "sourceEvidence": [
+        "https://www.youtube.com/watch?v=OUeMneVcI9o"
+      ],
+      "publishedAt": "2025-06-13",
+      "duration": "PT23M31S",
+      "createdAt": "2026-09-28T11:35:00.000Z",
+      "coverage": {
+        "level": "partial",
+        "accessible": [
+          "título",
+          "criador",
+          "descrição pública integral",
+          "data exata",
+          "duração de 23 minutos e 31 segundos",
+          "transcrição automática integral em português com 518 segmentos e timestamps",
+          "fala por substituição textual",
+          "1.358 visualizações, 55 curtidas e 9 comentários públicos",
+          "todos os 9 comentários públicos amostrados",
+          "cinco princípios falados: diagnóstico, cortes, renda extra, foco em uma dívida e missão pessoal",
+          "promessa reiterada de eliminação das dívidas em 90 dias",
+          "atribuições a Napoleon Hill sem obra, página ou fonte identificada"
+        ],
+        "missing": [
+          "vídeo reproduzido ou auditado quadro a quadro",
+          "imagem em movimento efetivamente observada",
+          "capa ou outra imagem adquirida",
+          "áudio ouvido",
+          "texto na tela",
+          "edição",
+          "ritmo",
+          "curva de retenção",
+          "impressões e fontes de tráfego",
+          "mídia paga",
+          "autor ou especialista financeiro identificável",
+          "fonte primária das atribuições",
+          "baseline de renda, dívida e juros",
+          "teste de resultado em 90 dias",
+          "adequação individual"
+        ]
+      },
+      "publicMetrics": {
+        "viewsObserved": 1358,
+        "likesObserved": 55,
+        "commentsObserved": 9,
+        "observedAt": "2026-09-28",
+        "sourceType": "youtube_public_metadata_full_description_full_automatic_transcript_and_9_public_comments",
+        "causality": "not_inferred"
+      },
+      "classification": {
+        "taxonomyVersion": "3.0",
+        "container": "youtube_video",
+        "materialFormat": "video_longo",
+        "presentationFormats": [
+          "narracao_imagens",
+          "comentario"
+        ],
+        "primaryFamily": "inspiracao",
+        "secondaryFamilies": [
+          "educativo",
+          "autoridade_opiniao"
+        ],
+        "functionalMix": [
+          {
+            "family": "inspiracao",
+            "percentage": 45
+          },
+          {
+            "family": "educativo",
+            "percentage": 35
+          },
+          {
+            "family": "autoridade_opiniao",
+            "percentage": 20
+          }
+        ],
+        "objectives": [
+          "consciencia_problema",
+          "educar",
+          "comentario",
+          "seguidores"
+        ],
+        "advertisingType": "editorial_organico",
+        "commercialIntent": "ausente",
+        "advertisedEntity": {
+          "kind": "nenhuma",
+          "name": "",
+          "confidence": "medium"
+        },
+        "contentTopic": {
+          "label": "eliminação de dívidas em 90 dias",
+          "iabCode": null
+        },
+        "segment": "finanças pessoais",
+        "subsegment": "dívidas e motivação financeira",
+        "probableAudience": "pessoas endividadas buscando plano e motivação",
+        "awarenessStage": "preparado_agir",
+        "productionLevel": "simple",
+        "creatorScale": "small",
+        "replicability": "high",
+        "durationBand": "over_60s",
+        "pace": "unknown",
+        "mechanisms": [
+          "aversao_perda",
+          "urgencia",
+          "desejo",
+          "medo"
+        ],
+        "hookTypes": [
+          "urgencia",
+          "promessa",
+          "autoridade"
+        ],
+        "narrativeElements": [
+          "problema",
+          "progressao",
+          "promessa",
+          "cta"
+        ],
+        "proofTypes": [
+          "autoridade_percebida",
+          "alegacao_sem_prova"
+        ],
+        "ctaTypes": [
+          "comentar",
+          "seguir",
+          "compartilhar"
+        ],
+        "distributionContext": {
+          "organicPaid": "unknown",
+          "trendDependency": "low"
+        },
+        "confidence": "high",
+        "evidence": [
+          "A fala oferece cinco passos e calcula um exemplo, mas mantém prazo fixo para situações distintas.",
+          "O método é chamado de testado e universal sem baseline, coorte ou evidência de resultado.",
+          "Os nove comentários são declarações de intenção; nenhum comprova quitação em 90 dias."
+        ],
+        "alternativeClassifications": [],
+        "missingInformation": [
+          "vídeo reproduzido ou auditado quadro a quadro",
+          "imagem em movimento efetivamente observada",
+          "capa ou outra imagem adquirida",
+          "áudio ouvido",
+          "texto na tela",
+          "edição",
+          "ritmo",
+          "curva de retenção",
+          "impressões e fontes de tráfego",
+          "mídia paga"
+        ],
+        "needsHumanReview": true
+      },
+      "comparison": {
+        "level": 2,
+        "group": "educação financeira brasileira para iniciantes que nomeia desorganização ou falta de clareza e oferece um caminho finito e executável",
+        "referenceIds": [
+          "obs-20260928-216",
+          "obs-20260928-217",
+          "obs-20260928-218"
+        ],
+        "confidence": "high"
+      },
+      "observations": [
+        "Problema e caminho finito estão presentes, mas o prazo de 90 dias independe da relação entre dívida, juros, renda e despesas.",
+        "A fala promete funcionamento e atribui princípios a Napoleon Hill sem fonte rastreável.",
+        "Comentários repetem a declaração proposta pelo CTA, sem evidência posterior de resultado."
+      ],
+      "interpretations": [
+        "É caso-limite: organização existe, porém universalidade, autoridade não rastreada e prazo rígido elevam o ônus de prova.",
+        "Não é contraexemplo de eficácia, porque não há resultado comparável nem teste de 90 dias."
+      ],
+      "scores": {
+        "gancho": 96,
+        "clareza": 84,
+        "relevancia": 90,
+        "desejo": 88,
+        "confianca": 34,
+        "retencao": "not_assessed",
+        "acao": 85,
+        "objecoes": 32
+      },
+      "fiveLenses": {
+        "apressado": "Entende prazo e promessa imediatamente.",
+        "analitico": "Questiona viabilidade, atribuição e ausência de baseline.",
+        "aspiracional": "É atraído pela liberdade total em 90 dias.",
+        "comunidade": "Vê declarações públicas induzidas pelo CTA, não resultados.",
+        "cetico": "Rejeita universalidade e autoridade sem fonte."
+      },
+      "hypotheses": [],
+      "replicable": [
+        "Estruturar diagnóstico, cortes e priorização.",
+        "Recapitular o plano em lista finita.",
+        "Transformar intenção em tarefa imediata."
+      ],
+      "limitations": [
+        "Prazo de 90 dias não é proporcional ao baseline.",
+        "Atribuições e eficácia não têm fonte rastreável.",
+        "Audiovisual, retenção, execução e resultado não foram medidos."
+      ],
+      "provenance": [
+        "public_content",
+        "youtube_public_metadata",
+        "public_search",
+        "youtube_automatic_transcript",
+        "public_metric",
+        "observatory_inference",
+        "youtube_public_comments"
+      ],
+      "training": {
+        "evidencePolicyVersion": "1.1",
+        "evidenceRole": "case_limit",
+        "evidenceLevel": 2,
+        "requiredEvidenceObserved": false,
+        "supportEligible": false,
+        "claimCoverage": [
+          {
+            "claim": "problema e caminho organizado em cinco passos aparecem na fala",
+            "requiredModalities": [
+              "description",
+              "transcript"
+            ],
+            "observedModalities": [
+              "description",
+              "transcript"
+            ],
+            "sufficient": true
+          },
+          {
+            "claim": "o plano elimina dívidas em 90 dias independentemente do caso",
+            "requiredModalities": [
+              "baseline",
+              "intervention",
+              "outcome",
+              "comparison"
+            ],
+            "observedModalities": [],
+            "sufficient": false
+          },
+          {
+            "claim": "as atribuições a Napoleon Hill estão documentadas",
+            "requiredModalities": [
+              "primary_source"
+            ],
+            "observedModalities": [],
+            "sufficient": false
+          }
+        ],
+        "provenanceAndConsent": {
+          "storyOrigin": "conteúdo editorial público do próprio canal",
+          "consentStatus": "not_applicable",
+          "identityProtection": "not_applicable",
+          "evidence": [
+            "nenhum relato privado identificável de terceiro foi ensinado"
+          ]
+        },
+        "replicable": [
+          "Estruturar diagnóstico, cortes e priorização.",
+          "Recapitular o plano em lista finita.",
+          "Transformar intenção em tarefa imediata."
+        ],
+        "contingent": [
+          "Prazo de 90 dias não é proporcional ao baseline.",
+          "Atribuições e eficácia não têm fonte rastreável.",
+          "Audiovisual, retenção, execução e resultado não foram medidos."
+        ],
+        "notRecommended": [
+          "copiar frase, personagem, promessa, produto ou roteiro",
+          "tratar prazo fixo, mentalidade, autoridade percebida ou comentário como prova de resultado financeiro",
+          "prescrever estratégia financeira individual sem renda, dívida, juros, risco e capacidade de pagamento",
+          "tratar visualizações, fama, escala, produção ou venda de material como causa de desempenho",
+          "inferir cena, áudio, texto na tela, edição, ritmo ou retenção sem mídia reproduzida"
+        ],
+        "hypotheses": []
+      },
+      "viralAssessment": {
+        "status": "indeterminate",
+        "observedSignal": 1358,
+        "missingForRelativeAssessment": [
+          "coorte funcional contemporânea homogênea",
+          "retenção",
+          "impressões",
+          "fontes de tráfego",
+          "mídia paga"
+        ],
+        "confounders": [
+          "tamanho do canal",
+          "idade do vídeo",
+          "tema",
+          "distribuição"
+        ],
+        "causalClaimAllowed": false
+      }
+    },
+    {
+      "id": "obs-20260928-220",
+      "title": "Minuto Ciência - Como extrair DNA do morango (Episódio 10)",
+      "creator": "AgDC - IBB",
+      "creatorIdentity": "agdc-ibb",
+      "sourceIdentity": "agdc-ibb",
+      "country": "BR",
+      "url": "https://www.youtube.com/watch?v=1w5u0XIGydI",
+      "sourceEvidence": [
+        "https://www.youtube.com/watch?v=1w5u0XIGydI"
+      ],
+      "publishedAt": "2019-05-21",
+      "duration": "PT2M58S",
+      "createdAt": "2026-09-28T11:35:00.000Z",
+      "coverage": {
+        "level": "partial",
+        "accessible": [
+          "título",
+          "criador",
+          "descrição pública integral",
+          "data exata",
+          "duração de 2 minutos e 58 segundos",
+          "transcrição automática integral em português com 61 segmentos e timestamps",
+          "fala por substituição textual",
+          "106.653 visualizações, 3.641 curtidas e 112 comentários públicos indicados",
+          "amostra pública de 20 comentários",
+          "materiais e etapas falados: morango, água, detergente, sal, filtragem e álcool",
+          "mecanismo de cada etapa explicado na descrição e autoria institucional identificada"
+        ],
+        "missing": [
+          "vídeo reproduzido ou auditado quadro a quadro",
+          "imagem em movimento efetivamente observada",
+          "capa ou outra imagem adquirida",
+          "áudio ouvido",
+          "texto na tela",
+          "edição",
+          "ritmo",
+          "curva de retenção",
+          "impressões e fontes de tráfego",
+          "mídia paga",
+          "execução visual do procedimento",
+          "resultado visual dos fios",
+          "aviso de segurança sobre álcool e produtos de limpeza",
+          "teste de compreensão",
+          "revisão contemporânea do protocolo"
+        ]
+      },
+      "publicMetrics": {
+        "viewsObserved": 106653,
+        "likesObserved": 3641,
+        "commentsObserved": 112,
+        "observedAt": "2026-09-28",
+        "sourceType": "youtube_public_metadata_full_description_full_automatic_transcript_and_20_public_comments",
+        "causality": "not_inferred"
+      },
+      "classification": {
+        "taxonomyVersion": "3.0",
+        "container": "youtube_video",
+        "materialFormat": "video_curto",
+        "presentationFormats": [
+          "demonstracao",
+          "dialogo",
+          "institucional"
+        ],
+        "primaryFamily": "demonstracao",
+        "secondaryFamilies": [
+          "educativo",
+          "curiosidade"
+        ],
+        "functionalMix": [
+          {
+            "family": "demonstracao",
+            "percentage": 50
+          },
+          {
+            "family": "educativo",
+            "percentage": 35
+          },
+          {
+            "family": "curiosidade",
+            "percentage": 15
+          }
+        ],
+        "objectives": [
+          "educar",
+          "visualizacao",
+          "salvamento",
+          "compartilhamento"
+        ],
+        "advertisingType": "institucional",
+        "commercialIntent": "implicita",
+        "advertisedEntity": {
+          "kind": "marca",
+          "name": "Instituto de Biociências de Botucatu",
+          "confidence": "high"
+        },
+        "contentTopic": {
+          "label": "extração caseira de DNA do morango",
+          "iabCode": null
+        },
+        "segment": "educação científica",
+        "subsegment": "biologia experimental",
+        "probableAudience": "estudantes, professores e famílias interessadas em experimento de DNA",
+        "awarenessStage": "consciente_solucao",
+        "productionLevel": "intermediate",
+        "creatorScale": "medium",
+        "replicability": "high",
+        "durationBand": "over_60s",
+        "pace": "unknown",
+        "mechanisms": [
+          "curiosidade",
+          "surpresa",
+          "recompensa",
+          "confianca"
+        ],
+        "hookTypes": [
+          "pergunta",
+          "demonstracao_antecipada",
+          "resultado_antecipado"
+        ],
+        "narrativeElements": [
+          "promessa",
+          "progressao",
+          "payoff",
+          "cta"
+        ],
+        "proofTypes": [
+          "fonte",
+          "mecanismo_explicado",
+          "autoridade_demonstrada"
+        ],
+        "ctaTypes": [
+          "comentar",
+          "seguir"
+        ],
+        "distributionContext": {
+          "organicPaid": "unknown",
+          "trendDependency": "low"
+        },
+        "confidence": "high",
+        "evidence": [
+          "A fala lista materiais, passos e resultado declarado.",
+          "A descrição explica ruptura de membrana, neutralização e precipitação.",
+          "Um comentário pede mecanismo; a descrição o oferece, mas não houve teste de compreensão."
+        ],
+        "alternativeClassifications": [],
+        "missingInformation": [
+          "vídeo reproduzido ou auditado quadro a quadro",
+          "imagem em movimento efetivamente observada",
+          "capa ou outra imagem adquirida",
+          "áudio ouvido",
+          "texto na tela",
+          "edição",
+          "ritmo",
+          "curva de retenção",
+          "impressões e fontes de tráfego",
+          "mídia paga"
+        ],
+        "needsHumanReview": true
+      },
+      "comparison": {
+        "level": 4,
+        "group": "exploração controlada de demonstração científica doméstica",
+        "referenceIds": [],
+        "confidence": "low"
+      },
+      "observations": [
+        "Procedimento e mecanismo estão rastreáveis em fala e descrição.",
+        "O resultado visual e a execução não foram observados, portanto a demonstração não é ensinada como audiovisual confirmado.",
+        "A publicação não apresenta aviso de segurança acessível para álcool e detergente."
+      ],
+      "interpretations": [
+        "A exploração mostra alinhamento entre procedimento falado e explicação escrita, sem provar compreensão ou segurança operacional.",
+        "Uma única referência não gera hipótese nova."
+      ],
+      "scores": {
+        "gancho": 87,
+        "clareza": 92,
+        "relevancia": 89,
+        "desejo": 72,
+        "confianca": 83,
+        "retencao": "not_assessed",
+        "acao": 76,
+        "objecoes": 70
+      },
+      "fiveLenses": {
+        "apressado": "Recebe experimento e resultado prometido cedo.",
+        "analitico": "Encontra mecanismo na descrição, mas não a execução visual.",
+        "aspiracional": "Visualiza uma atividade científica acessível.",
+        "comunidade": "Comentários relatam uso em aula sem teste representativo.",
+        "cetico": "Exige confirmação visual e orientação de segurança."
+      },
+      "hypotheses": [],
+      "replicable": [
+        "Listar materiais e passos na fala.",
+        "Usar a descrição para explicar o mecanismo.",
+        "Vincular resultado declarado a um conceito científico."
+      ],
+      "limitations": [
+        "Execução e resultado visuais não foram confirmados.",
+        "Segurança operacional não foi documentada.",
+        "Popularidade e uso relatado em aula não provam compreensão."
+      ],
+      "provenance": [
+        "public_content",
+        "youtube_public_metadata",
+        "public_search",
+        "youtube_automatic_transcript",
+        "public_metric",
+        "observatory_inference",
+        "youtube_public_comments"
+      ],
+      "training": {
+        "evidencePolicyVersion": "1.1",
+        "evidenceRole": "controlled_exploration",
+        "evidenceLevel": 4,
+        "requiredEvidenceObserved": false,
+        "supportEligible": false,
+        "claimCoverage": [
+          {
+            "claim": "materiais, passos e mecanismo aparecem na fala e descrição",
+            "requiredModalities": [
+              "description",
+              "transcript"
+            ],
+            "observedModalities": [
+              "description",
+              "transcript"
+            ],
+            "sufficient": true
+          },
+          {
+            "claim": "a execução e o resultado visual funcionam como demonstrados",
+            "requiredModalities": [
+              "video"
+            ],
+            "observedModalities": [],
+            "sufficient": false
+          },
+          {
+            "claim": "o procedimento é seguro para execução sem supervisão",
+            "requiredModalities": [
+              "safety_guidance",
+              "expert_review"
+            ],
+            "observedModalities": [],
+            "sufficient": false
+          }
+        ],
+        "provenanceAndConsent": {
+          "storyOrigin": "conteúdo editorial público do próprio canal",
+          "consentStatus": "not_applicable",
+          "identityProtection": "not_applicable",
+          "evidence": [
+            "nenhum relato privado identificável de terceiro foi ensinado"
+          ]
+        },
+        "replicable": [
+          "Listar materiais e passos na fala.",
+          "Usar a descrição para explicar o mecanismo.",
+          "Vincular resultado declarado a um conceito científico."
+        ],
+        "contingent": [
+          "Execução e resultado visuais não foram confirmados.",
+          "Segurança operacional não foi documentada.",
+          "Popularidade e uso relatado em aula não provam compreensão."
+        ],
+        "notRecommended": [
+          "copiar frase, personagem, promessa, produto ou roteiro",
+          "tratar prazo fixo, mentalidade, autoridade percebida ou comentário como prova de resultado financeiro",
+          "prescrever estratégia financeira individual sem renda, dívida, juros, risco e capacidade de pagamento",
+          "tratar visualizações, fama, escala, produção ou venda de material como causa de desempenho",
+          "inferir cena, áudio, texto na tela, edição, ritmo ou retenção sem mídia reproduzida"
+        ],
+        "hypotheses": []
+      },
+      "viralAssessment": {
+        "status": "indeterminate",
+        "observedSignal": 106653,
+        "missingForRelativeAssessment": [
+          "coorte funcional contemporânea homogênea",
+          "retenção",
+          "impressões",
+          "fontes de tráfego",
+          "mídia paga"
+        ],
+        "confounders": [
+          "tamanho do canal",
+          "idade do vídeo",
+          "tema",
+          "distribuição"
+        ],
+        "causalClaimAllowed": false
+      }
     }
   ],
   "patterns": [
@@ -56425,16 +57859,18 @@
     {
       "id": "pat-20260823-003",
       "status": "provisional",
-      "statement": "Em educação financeira para iniciantes, explicitar o problema e oferecer um caminho organizado aumenta relevância percebida; promessas hiperbólicas podem elevar desejo, mas também aumentam objeções e custo de prova.",
+      "statement": "Em educação financeira para iniciantes, nomear um problema concreto e organizar a resposta em etapas finitas torna problema, caminho e próxima ação identificáveis; prazos fixos ou promessas universais sem renda, dívida, juros e viabilidade elevam o ônus de prova, e efeitos sobre compreensão, relevância e resultado permanecem não medidos.",
       "mechanism": [
         "desejo",
         "aproximacao",
         "confianca"
       ],
       "conditions": [
-        "família educativo ou inspiracao financeira",
-        "público iniciante",
-        "formato explicativo de 10 a 30 minutos"
+        "conteúdo educativo de finanças pessoais para iniciantes",
+        "problema financeiro concreto identificado",
+        "caminho organizado em etapas finitas",
+        "ações executáveis compatíveis com o escopo declarado",
+        "promessas proporcionais ao baseline e sem universalidade não demonstrada"
       ],
       "supportReferenceIds": [
         "obs-20260823-010",
@@ -56444,28 +57880,28 @@
         "obs-20260824-037",
         "obs-20260918-171",
         "obs-20260918-172",
-        "obs-20260918-173"
+        "obs-20260918-173",
+        "obs-20260928-216",
+        "obs-20260928-217",
+        "obs-20260928-218"
       ],
-      "comparableSupportCount": 8,
+      "comparableSupportCount": 11,
       "comparisonLevel": 2,
       "confidence": "medium",
       "limitations": [
-        "Oito apoios formais vêm de oito criadores e oito fontes; demonstram recorrência estrutural, não relevância, aprendizagem, confiança, retenção ou resultado financeiro.",
-        "Os três novos apoios possuem transcrição integral e 90 comentários amostrados, mas nenhum teste de compreensão ou baseline funcional contemporâneo.",
-        "Percentuais, produtos, simulações e recomendações financeiras exigem adequação individual e revisão atual; estrutura clara não valida conselho financeiro.",
-        "O primeiro caso-limite mostra que caminho organizado não elimina objeções quando promessa, prazo ou autoridade excedem a evidência acessível.",
-        "Ofertas comerciais intermediárias e perfis de renda heterogêneos aparecem como fontes de objeção na amostra, sem prova de efeito causal.",
-        "Nenhum audiovisual, capa, áudio ouvido, texto na tela, edição, ritmo ou retenção foi auditado neste lote.",
-        "Popularidade, fama, produção e monetização são contexto, nunca prova causal.",
-        "Validação exige revisão humana ou evidência experimental apropriada."
+        "Onze apoios vêm de onze criadores e onze fontes; demonstram recorrência estrutural, não compreensão, relevância percebida ou resultado financeiro.",
+        "Nenhuma referência oferece retenção, teste de compreensão, baseline individual ou experimento causal.",
+        "Comentários, métricas, fama, escala e venda de material permanecem contexto não causal.",
+        "O novo caso-limite reforça que sequência organizada não compensa prazo universal e autoridade não rastreada.",
+        "Conselhos financeiros exigem adequação a renda, despesas, dívida, juros, risco e capacidade de pagamento."
       ],
       "validation": "requires_human_or_experimental_evidence",
       "stage": "provisional",
-      "name": "Em educação financeira para iniciantes, explicitar o problema e oferecer um caminho organizado aumenta relevância percebida; promessas hiperbólicas podem elevar desejo, mas também aumentam objeções e custo de prova.",
+      "name": "Em educação financeira para iniciantes, nomear um problema concreto e organizar a resposta em etapas finitas torna problema, caminho e próxima ação identificáveis; prazos fixos ou promessas universais sem renda, dívida, juros e viabilidade elevam o ônus de prova, e efeitos sobre compreensão, relevância e resultado permanecem não medidos.",
       "creativeFamily": "família educativo ou inspiracao financeira",
       "objective": "público iniciante",
       "segment": "formato explicativo de 10 a 30 minutos",
-      "supportingCount": 8,
+      "supportingCount": 11,
       "counterexampleCount": 0,
       "evidence": [
         {
@@ -56552,16 +57988,65 @@
             "retenção, confiança e causalidade não medidas",
             "fontes e cálculos não auditados"
           ]
+        },
+        {
+          "referenceId": "obs-20260928-216",
+          "role": "support",
+          "comparisonLevel": 1,
+          "requiredEvidenceObserved": true,
+          "confidence": "high",
+          "observation": "Desorganização, dívida e ausência de sobra antecedem três passos executáveis de levantamento, categorização e faxina.",
+          "evidence": "Metadados, descrição integral, transcrição automática integral e vinte comentários amostrados.",
+          "limitations": [
+            "sem audiovisual, teste de compreensão ou resultado financeiro"
+          ]
+        },
+        {
+          "referenceId": "obs-20260928-217",
+          "role": "support",
+          "comparisonLevel": 2,
+          "requiredEvidenceObserved": true,
+          "confidence": "high",
+          "observation": "O descontrole mensal é reorganizado em raio X, metas, rotina e mentalidade, com exemplos falados.",
+          "evidence": "Metadados, descrição integral, transcrição automática integral e vinte comentários amostrados.",
+          "limitations": [
+            "duração longa, produto próprio e recomendações sem adequação individual testada"
+          ]
+        },
+        {
+          "referenceId": "obs-20260928-218",
+          "role": "support",
+          "comparisonLevel": 2,
+          "requiredEvidenceObserved": true,
+          "confidence": "high",
+          "observation": "A objeção a planilhas é resolvida por um caminho manual de receitas, despesas, reserva, movimentos e saldo.",
+          "evidence": "Metadados, descrição integral, transcrição automática integral e vinte comentários amostrados.",
+          "limitations": [
+            "sem execução visual, teste de uso ou resultado"
+          ]
+        },
+        {
+          "referenceId": "obs-20260928-219",
+          "role": "case_limit",
+          "comparisonLevel": 2,
+          "requiredEvidenceObserved": false,
+          "confidence": "high",
+          "observation": "Há problema e cinco passos, mas prazo fixo de 90 dias, universalidade e autoridade sem fonte excedem a evidência acessível.",
+          "evidence": "Metadados, descrição integral, transcrição automática integral e nove comentários.",
+          "limitations": [
+            "não conta como apoio nem como contraexemplo de eficácia"
+          ]
         }
       ],
       "taxonomyVersion": "3.0",
-      "creatorDiversityCount": 8,
-      "sourceDiversityCount": 8,
+      "creatorDiversityCount": 11,
+      "sourceDiversityCount": 11,
       "patternType": "prova",
       "caseLimitReferenceIds": [
-        "obs-20260918-174"
+        "obs-20260918-174",
+        "obs-20260928-219"
       ],
-      "caseLimitCount": 1
+      "caseLimitCount": 2
     },
     {
       "id": "pat-20260824-004",
@@ -63648,6 +65133,144 @@
         "Foram amostrados 107 comentários; a amostra não é representativa.",
         "Não houve baseline, retenção, teste de compreensão, revisão clínica humana ou causalidade.",
         "A fonte oficial primária da exploração jornalística não ficou acessível na pesquisa pública.",
+        "Nenhum resultado autoriza validação; revisão humana ou evidência experimental continua necessária."
+      ]
+    },
+    {
+      "id": "run-20260928-supervised-040",
+      "executedAt": "2026-09-28T11:35:00.000Z",
+      "batchPolicyVersion": "1.1",
+      "requestedBatchSize": 5,
+      "candidatesFound": 49,
+      "referenceIds": [
+        "obs-20260928-216",
+        "obs-20260928-217",
+        "obs-20260928-218",
+        "obs-20260928-219",
+        "obs-20260928-220"
+      ],
+      "targetKnowledgeId": "pat-20260823-003",
+      "targetReferenceIds": [
+        "obs-20260928-216",
+        "obs-20260928-217",
+        "obs-20260928-218"
+      ],
+      "falsificationOrBoundaryReferenceIds": [
+        "obs-20260928-219"
+      ],
+      "controlledExplorationReferenceIds": [
+        "obs-20260928-220"
+      ],
+      "discarded": [
+        {
+          "url": "https://www.youtube.com/watch?v=xIIa3A3kY-k",
+          "reason": "mesma criadora de um apoio selecionado; a diversidade de fontes teve prioridade"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=in0XbfQEm2A",
+          "reason": "criador de grande escala; três apoios de produção mais acessível foram priorizados"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=rilMuvFaIEQ",
+          "reason": "título agressivo, porém caso-limite menos nítido que a promessa fixa de 90 dias selecionada"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=D9HDgpvY5-Y",
+          "reason": "URL já presente na memória"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=BTPmIFV1q0U",
+          "reason": "publicação indisponível na verificação de cobertura"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=FCRJcWRj5Xg",
+          "reason": "publicação indisponível na verificação de cobertura"
+        }
+      ],
+      "analyzed": 5,
+      "brazilianReferences": 5,
+      "internationalReferences": 0,
+      "unknownOriginReferences": 0,
+      "smallOrMediumCreatorReferences": 5,
+      "replicableReferences": 5,
+      "creativeFamiliesObserved": [
+        "educativo",
+        "explicativo",
+        "oferta_direta",
+        "inspiracao",
+        "demonstracao",
+        "autoridade_opiniao",
+        "curiosidade"
+      ],
+      "coverageSummary": {
+        "complete": 0,
+        "partial": 5,
+        "insufficient": 0
+      },
+      "audiovisualAcquisition": {
+        "attempted": true,
+        "succeeded": 0,
+        "failure": "para as cinco URLs, as amostras de vídeo falharam como dados inválidos e as capas retornaram HTML de 195 bytes",
+        "effect": "imagem em movimento, capa, áudio ouvido, texto na tela, atuação, edição, ritmo e retenção ficaram não mensurados"
+      },
+      "transcriptCoverage": {
+        "fullHumanOrCreatorProvided": 0,
+        "fullAutomatic": 5,
+        "partialHumanOrCreatorProvided": 0,
+        "partialAutomatic": 0,
+        "none": 0,
+        "limitation": "transcrições automáticas substituem somente a fala; não sustentam cenas, voz, texto na tela ou ritmo"
+      },
+      "commentsCoverage": {
+        "countsOnly": 0,
+        "sampledReferences": 5,
+        "sampledComments": 89,
+        "zeroReturnedReferences": 0,
+        "limitation": "comentários públicos não são amostra representativa nem teste de compreensão, execução ou resultado financeiro"
+      },
+      "baselineCoverage": {
+        "sampledProfiles": 0,
+        "contemporaneousBaselines": 0,
+        "limitation": "datas, durações, escalas e ofertas diferentes impedem benchmark causal de desempenho"
+      },
+      "patternsCreated": [],
+      "patternsStrengthened": [
+        "pat-20260823-003"
+      ],
+      "patternsRefined": [
+        "pat-20260823-003"
+      ],
+      "hypothesesCreated": [],
+      "hypothesesStrengthened": [],
+      "validatedPatternsCreated": 0,
+      "contradictionsFound": [],
+      "caseLimitsFound": [
+        "um caminho organizado não sustenta prazo universal quando renda, dívida, juros, despesas e capacidade de pagamento não são medidos"
+      ],
+      "safetyFindings": [
+        "nenhuma recomendação financeira foi tratada como adequada a todo perfil",
+        "prazo, mentalidade, comentários, autoridade percebida e métricas não foram tratados como prova de resultado",
+        "o experimento científico não foi ensinado como execução visual confirmada ou procedimento seguro sem supervisão",
+        "nenhuma cena, áudio, texto na tela, edição, ritmo ou retenção foi inventado",
+        "Observatório, cérebros sintéticos e futuro Freud permaneceram separados"
+      ],
+      "evidenceGateSummary": {
+        "targetSupportsEligible": 3,
+        "targetSupportsRejected": 0,
+        "boundaryCases": 1,
+        "explorationReferences": 1,
+        "duplicateUrls": 0,
+        "independentCreatorsAddedToPattern": 3,
+        "newHypotheses": 0
+      },
+      "outcome": "Três criadores independentes elevam de oito para onze os apoios do padrão de educação financeira para iniciantes. Um caso-limite mostra que um plano em etapas não torna proporcional uma promessa de quitação em 90 dias. O padrão permanece provisório.",
+      "nextTarget": "explicador financeiro brasileiro recente e curto, de criador pequeno ou médio, com audiovisual integral, caminho finito, premissas de renda, dívida e juros visíveis e teste de execução ou compreensão; buscar também um caso em que os passos contradigam o próprio baseline",
+      "limitations": [
+        "Nenhum vídeo, áudio ou capa utilizável foi adquirido.",
+        "As cinco transcrições são automáticas integrais.",
+        "Foram amostrados 89 comentários; a amostra não é representativa.",
+        "Não houve baseline contemporâneo, retenção, teste de compreensão, adequação financeira individual ou causalidade.",
+        "O resultado do experimento científico e sua segurança operacional não foram confirmados visualmente.",
         "Nenhum resultado autoriza validação; revisão humana ou evidência experimental continua necessária."
       ]
     }
