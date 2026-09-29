@@ -1,6 +1,6 @@
 {
   "protocol": "plateia-memory/1.0",
-  "updatedAt": "2026-09-28T11:35:00.000Z",
+  "updatedAt": "2026-09-29T11:17:14.000Z",
   "references": [
     {
       "id": "obs-20260823-001",
@@ -57469,6 +57469,1403 @@
         ],
         "causalClaimAllowed": false
       }
+    },
+    {
+      "id": "obs-20260929-221",
+      "title": "COMO ORGANIZAR SUAS FINANÇAS DO ZERO EM 2026 | Organização financeira para 2026",
+      "creator": "Ruth Szilagy",
+      "creatorIdentity": "ruth-szilagy",
+      "sourceIdentity": "ruth-szilagy",
+      "country": "BR",
+      "url": "https://www.youtube.com/watch?v=wDxevnvAj0k",
+      "sourceEvidence": [
+        "https://www.youtube.com/watch?v=wDxevnvAj0k"
+      ],
+      "publishedAt": "2025-12-02",
+      "duration": "PT16M9S",
+      "createdAt": "2026-09-29T11:17:14.000Z",
+      "coverage": {
+        "level": "partial",
+        "accessible": [
+          "título, criador, categoria e descrição pública integral de 1.871 caracteres",
+          "data exata, duração de 16 minutos e 9 segundos, 5.891 visualizações e 479 curtidas públicas",
+          "transcrição automática integral em português com 32 blocos temporais; fala acessível somente por substituição textual",
+          "etapas faladas: identificar renda líquida ou média variável, listar obrigações mensais e anuais, mapear gastos variáveis e construir orçamento realista",
+          "alternativas faladas de controle por aplicativo, caderno, planilha, grupo próprio de mensagens ou inteligência artificial",
+          "oferta de consultoria, material e links comerciais na descrição"
+        ],
+        "missing": [
+          "vídeo reproduzido ou auditado quadro a quadro",
+          "imagem em movimento efetivamente observada",
+          "capa ou outra imagem adquirida",
+          "áudio ouvido",
+          "texto na tela",
+          "edição",
+          "ritmo",
+          "curva de retenção",
+          "impressões e fontes de tráfego",
+          "mídia paga",
+          "comentários públicos e sua contagem",
+          "baseline individual comparável",
+          "teste de compreensão ou execução",
+          "resultado financeiro dos espectadores",
+          "adequação individual do orçamento",
+          "disclosure completo dos vínculos comerciais"
+        ]
+      },
+      "publicMetrics": {
+        "viewsObserved": 5891,
+        "likesObserved": 479,
+        "commentsObserved": "not_assessed",
+        "observedAt": "2026-09-29",
+        "sourceType": "youtube_public_watch_metadata_full_description_and_full_automatic_transcript",
+        "causality": "not_inferred"
+      },
+      "classification": {
+        "taxonomyVersion": "3.0",
+        "container": "youtube_video",
+        "materialFormat": "video_longo",
+        "presentationFormats": [
+          "camera_direta",
+          "tutorial"
+        ],
+        "primaryFamily": "educativo",
+        "secondaryFamilies": [
+          "explicativo",
+          "oferta_direta"
+        ],
+        "functionalMix": [
+          {
+            "family": "educativo",
+            "percentage": 55
+          },
+          {
+            "family": "explicativo",
+            "percentage": 30
+          },
+          {
+            "family": "oferta_direta",
+            "percentage": 15
+          }
+        ],
+        "objectives": [
+          "educar",
+          "consciencia_problema",
+          "apresentar_solucao",
+          "trafego"
+        ],
+        "advertisingType": "oferta_direta",
+        "commercialIntent": "explicita",
+        "advertisedEntity": {
+          "kind": "servico",
+          "name": "consultoria e materiais próprios",
+          "confidence": "high"
+        },
+        "contentTopic": {
+          "label": "organização financeira do zero",
+          "iabCode": null
+        },
+        "segment": "finanças pessoais",
+        "subsegment": "orçamento para iniciantes",
+        "probableAudience": "adultos sem clareza sobre renda, obrigações e gastos",
+        "awarenessStage": "consciente_problema",
+        "productionLevel": "simple",
+        "creatorScale": "small",
+        "replicability": "high",
+        "durationBand": "over_60s",
+        "pace": "unknown",
+        "mechanisms": [
+          "aproximacao",
+          "alivio",
+          "confianca"
+        ],
+        "hookTypes": [
+          "problema",
+          "promessa",
+          "identificacao"
+        ],
+        "narrativeElements": [
+          "problema",
+          "progressao",
+          "mecanismo",
+          "conclusao",
+          "cta"
+        ],
+        "proofTypes": [
+          "mecanismo_explicado",
+          "tratamento_objecao"
+        ],
+        "ctaTypes": [
+          "outro_conteudo",
+          "seguir"
+        ],
+        "distributionContext": {
+          "organicPaid": "unknown",
+          "trendDependency": "low"
+        },
+        "confidence": "high",
+        "evidence": [
+          "A fala começa pela incerteza sobre o destino do dinheiro e anuncia um passo a passo do zero.",
+          "Renda fixa e variável, obrigações anuais, gastos variáveis e limites semanais aparecem antes da conclusão.",
+          "Oferta e métricas são contexto; não medem aprendizagem nem resultado financeiro."
+        ],
+        "alternativeClassifications": [],
+        "missingInformation": [
+          "vídeo reproduzido ou auditado quadro a quadro",
+          "imagem em movimento efetivamente observada",
+          "capa ou outra imagem adquirida",
+          "áudio ouvido",
+          "texto na tela",
+          "edição",
+          "ritmo",
+          "curva de retenção",
+          "impressões e fontes de tráfego",
+          "mídia paga"
+        ],
+        "needsHumanReview": true
+      },
+      "comparison": {
+        "level": 1,
+        "group": "educação financeira brasileira para iniciantes que converte desorganização ou dívida em um caminho finito, condicionado por renda, despesas, juros e capacidade de pagamento",
+        "referenceIds": [
+          "obs-20260929-222",
+          "obs-20260929-223"
+        ],
+        "confidence": "high"
+      },
+      "observations": [
+        "O caminho começa pela renda realmente disponível e diferencia salário fixo de renda variável.",
+        "Obrigações mensais e anuais e gastos variáveis são reconstruídos antes de propor limites e prioridades.",
+        "Quando despesas excedem a renda, a fala reconhece a necessidade de medidas corretivas separadas, sem demonstrar resultado."
+      ],
+      "interpretations": [
+        "A sequência torna auditável de onde parte o orçamento e quais decisões vêm depois.",
+        "A adequação a cada perfil e a eficácia permanecem não medidas."
+      ],
+      "scores": {
+        "gancho": 88,
+        "clareza": 94,
+        "relevancia": 93,
+        "desejo": 72,
+        "confianca": 80,
+        "retencao": "not_assessed",
+        "acao": 91,
+        "objecoes": 84
+      },
+      "fiveLenses": {
+        "apressado": "Entende cedo o problema e o primeiro passo.",
+        "analitico": "Encontra renda, obrigações e gastos, mas não vê execução ou resultado.",
+        "aspiracional": "Visualiza um orçamento alinhado a prioridades pessoais.",
+        "comunidade": "Comentários não ficaram acessíveis.",
+        "cetico": "Separa estrutura educativa, oferta comercial e eficácia não demonstrada."
+      },
+      "hypotheses": [],
+      "replicable": [
+        "Começar pela renda realmente disponível.",
+        "Separar obrigações mensais, anuais e gastos variáveis.",
+        "Só propor limites depois de reconstruir o baseline."
+      ],
+      "limitations": [
+        "Consultoria e materiais próprios são contexto comercial.",
+        "Adequação individual não foi testada.",
+        "Audiovisual, comentários, retenção e resultado não foram medidos."
+      ],
+      "provenance": [
+        "public_content",
+        "youtube_public_metadata",
+        "public_search",
+        "youtube_automatic_transcript",
+        "public_metric",
+        "observatory_inference",
+        "youtube_public_comments"
+      ],
+      "training": {
+        "evidencePolicyVersion": "1.1",
+        "evidenceRole": "target_support",
+        "evidenceLevel": 1,
+        "requiredEvidenceObserved": true,
+        "supportEligible": true,
+        "claimCoverage": [
+          {
+            "claim": "problema financeiro e caminho condicionado por renda, obrigações e gastos aparecem publicamente",
+            "requiredModalities": [
+              "metadata",
+              "description",
+              "transcript"
+            ],
+            "observedModalities": [
+              "metadata",
+              "description",
+              "transcript"
+            ],
+            "sufficient": true
+          }
+        ],
+        "provenanceAndConsent": {
+          "storyOrigin": "conteúdo editorial público do próprio canal",
+          "consentStatus": "not_applicable",
+          "identityProtection": "not_applicable",
+          "evidence": [
+            "nenhum relato privado identificável de terceiro foi ensinado"
+          ]
+        },
+        "replicable": [
+          "Começar pela renda realmente disponível.",
+          "Separar obrigações mensais, anuais e gastos variáveis.",
+          "Só propor limites depois de reconstruir o baseline."
+        ],
+        "contingent": [
+          "Consultoria e materiais próprios são contexto comercial.",
+          "Adequação individual não foi testada.",
+          "Audiovisual, comentários, retenção e resultado não foram medidos."
+        ],
+        "notRecommended": [
+          "copiar frase, personagem, promessa, produto ou roteiro",
+          "tratar prazo fixo, mentalidade, autoridade percebida ou comentário como prova de resultado financeiro",
+          "prescrever estratégia financeira individual sem renda, dívida, juros, risco e capacidade de pagamento",
+          "tratar visualizações, fama, escala, produção ou venda de material como causa de desempenho",
+          "inferir cena, áudio, texto na tela, edição, ritmo ou retenção sem mídia reproduzida"
+        ],
+        "hypotheses": []
+      },
+      "viralAssessment": {
+        "status": "indeterminate",
+        "observedSignal": 5891,
+        "missingForRelativeAssessment": [
+          "coorte funcional contemporânea homogênea",
+          "retenção",
+          "impressões",
+          "fontes de tráfego",
+          "mídia paga"
+        ],
+        "confounders": [
+          "tamanho do canal",
+          "idade do vídeo",
+          "tema",
+          "distribuição"
+        ],
+        "causalClaimAllowed": false
+      }
+    },
+    {
+      "id": "obs-20260929-222",
+      "title": "COMO SAIR DAS DÍVIDAS: 5 passos simples (que funcionam mesmo)",
+      "creator": "Vamos Prosperar",
+      "creatorIdentity": "vamos-prosperar",
+      "sourceIdentity": "vamos-prosperar",
+      "country": "BR",
+      "url": "https://www.youtube.com/watch?v=nl5cgUz8rNo",
+      "sourceEvidence": [
+        "https://www.youtube.com/watch?v=nl5cgUz8rNo"
+      ],
+      "publishedAt": "2022-02-28",
+      "duration": "PT14M36S",
+      "createdAt": "2026-09-29T11:17:14.000Z",
+      "coverage": {
+        "level": "partial",
+        "accessible": [
+          "título, criador, categoria e descrição pública integral de 1.526 caracteres com capítulos",
+          "data exata, duração de 14 minutos e 36 segundos, 8.274 visualizações e cerca de 1,3 mil curtidas públicas",
+          "transcrição automática integral em português com 28 blocos temporais; fala acessível somente por substituição textual",
+          "cinco passos falados: mapear dívida e juros, calcular capacidade de pagamento, negociar, escolher forma de quitação e monitorar o plano",
+          "enquadramento religioso, captação de leads e links comerciais na descrição"
+        ],
+        "missing": [
+          "vídeo reproduzido ou auditado quadro a quadro",
+          "imagem em movimento efetivamente observada",
+          "capa ou outra imagem adquirida",
+          "áudio ouvido",
+          "texto na tela",
+          "edição",
+          "ritmo",
+          "curva de retenção",
+          "impressões e fontes de tráfego",
+          "mídia paga",
+          "comentários públicos e sua contagem",
+          "baseline individual comparável",
+          "teste de compreensão ou execução",
+          "resultado financeiro dos espectadores",
+          "fonte da alegação de redução de gastos entre 20% e 40%",
+          "adequação individual das estratégias"
+        ]
+      },
+      "publicMetrics": {
+        "viewsObserved": 8274,
+        "likesObserved": "about_1300",
+        "commentsObserved": "not_assessed",
+        "observedAt": "2026-09-29",
+        "sourceType": "youtube_public_watch_metadata_full_description_and_full_automatic_transcript",
+        "causality": "not_inferred"
+      },
+      "classification": {
+        "taxonomyVersion": "3.0",
+        "container": "youtube_video",
+        "materialFormat": "video_longo",
+        "presentationFormats": [
+          "camera_direta",
+          "tutorial"
+        ],
+        "primaryFamily": "educativo",
+        "secondaryFamilies": [
+          "explicativo",
+          "inspiracao"
+        ],
+        "functionalMix": [
+          {
+            "family": "educativo",
+            "percentage": 55
+          },
+          {
+            "family": "explicativo",
+            "percentage": 30
+          },
+          {
+            "family": "inspiracao",
+            "percentage": 15
+          }
+        ],
+        "objectives": [
+          "educar",
+          "consciencia_problema",
+          "apresentar_solucao",
+          "trafego"
+        ],
+        "advertisingType": "oferta_direta",
+        "commercialIntent": "explicita",
+        "advertisedEntity": {
+          "kind": "servico",
+          "name": "materiais e captação do canal",
+          "confidence": "high"
+        },
+        "contentTopic": {
+          "label": "saída de dívidas em cinco passos",
+          "iabCode": null
+        },
+        "segment": "finanças pessoais",
+        "subsegment": "negociação e quitação de dívidas",
+        "probableAudience": "adultos endividados buscando um plano de negociação",
+        "awarenessStage": "preparado_agir",
+        "productionLevel": "simple",
+        "creatorScale": "small",
+        "replicability": "high",
+        "durationBand": "over_60s",
+        "pace": "unknown",
+        "mechanisms": [
+          "alivio",
+          "confianca",
+          "aversao_perda"
+        ],
+        "hookTypes": [
+          "problema",
+          "numero",
+          "promessa"
+        ],
+        "narrativeElements": [
+          "problema",
+          "progressao",
+          "mecanismo",
+          "conclusao",
+          "cta"
+        ],
+        "proofTypes": [
+          "mecanismo_explicado",
+          "tratamento_objecao"
+        ],
+        "ctaTypes": [
+          "clicar",
+          "seguir"
+        ],
+        "distributionContext": {
+          "organicPaid": "unknown",
+          "trendDependency": "low"
+        },
+        "confidence": "high",
+        "evidence": [
+          "Cada dívida deve ser listada com saldo, parcela e taxa de juros; a capacidade de pagamento é calculada pela diferença entre renda e despesas.",
+          "A negociação inclui extensão, desconto à vista, consolidação de juros menores ou priorização da maior taxa.",
+          "Enquadramento religioso, oferta e métricas não foram tratados como causa de desempenho."
+        ],
+        "alternativeClassifications": [],
+        "missingInformation": [
+          "vídeo reproduzido ou auditado quadro a quadro",
+          "imagem em movimento efetivamente observada",
+          "capa ou outra imagem adquirida",
+          "áudio ouvido",
+          "texto na tela",
+          "edição",
+          "ritmo",
+          "curva de retenção",
+          "impressões e fontes de tráfego",
+          "mídia paga"
+        ],
+        "needsHumanReview": true
+      },
+      "comparison": {
+        "level": 1,
+        "group": "educação financeira brasileira para iniciantes que converte desorganização ou dívida em um caminho finito, condicionado por renda, despesas, juros e capacidade de pagamento",
+        "referenceIds": [
+          "obs-20260929-221",
+          "obs-20260929-223"
+        ],
+        "confidence": "high"
+      },
+      "observations": [
+        "A sequência liga saldo, parcela e juros à capacidade de pagamento antes da negociação.",
+        "A fala explicita que alongar prazo pode aumentar o total pago e que consolidação exige taxa menor.",
+        "Monitoramento e ajuste fecham o caminho, mas nenhum resultado individual foi observado."
+      ],
+      "interpretations": [
+        "Tornar juros e capacidade visíveis qualifica o caminho para dívida sem provar que ele funciona para todos.",
+        "A alegação numérica sobre redução de gastos permaneceu não auditada."
+      ],
+      "scores": {
+        "gancho": 90,
+        "clareza": 95,
+        "relevancia": 95,
+        "desejo": 75,
+        "confianca": 82,
+        "retencao": "not_assessed",
+        "acao": 93,
+        "objecoes": 88
+      },
+      "fiveLenses": {
+        "apressado": "Recebe cinco passos e a primeira tarefa rapidamente.",
+        "analitico": "Encontra saldo, juros, capacidade e trade-offs explícitos.",
+        "aspiracional": "Visualiza uma rota de negociação e acompanhamento.",
+        "comunidade": "Comentários não ficaram acessíveis.",
+        "cetico": "Exige fonte para a alegação percentual e adequação ao caso individual."
+      },
+      "hypotheses": [],
+      "replicable": [
+        "Listar saldo, parcela e taxa antes de aconselhar.",
+        "Calcular capacidade de pagamento com renda e despesas.",
+        "Explicar trade-offs de cada forma de quitação."
+      ],
+      "limitations": [
+        "A redução percentual de gastos não foi verificada.",
+        "Estratégias dependem de contrato, taxa e capacidade individual.",
+        "Audiovisual, comentários, retenção e resultado não foram medidos."
+      ],
+      "provenance": [
+        "public_content",
+        "youtube_public_metadata",
+        "public_search",
+        "youtube_automatic_transcript",
+        "public_metric",
+        "observatory_inference",
+        "youtube_public_comments"
+      ],
+      "training": {
+        "evidencePolicyVersion": "1.1",
+        "evidenceRole": "target_support",
+        "evidenceLevel": 1,
+        "requiredEvidenceObserved": true,
+        "supportEligible": true,
+        "claimCoverage": [
+          {
+            "claim": "caminho de dívida condicionado por saldo, juros, renda, despesas e capacidade aparece na fala",
+            "requiredModalities": [
+              "description",
+              "transcript"
+            ],
+            "observedModalities": [
+              "description",
+              "transcript"
+            ],
+            "sufficient": true
+          }
+        ],
+        "provenanceAndConsent": {
+          "storyOrigin": "conteúdo editorial público do próprio canal",
+          "consentStatus": "not_applicable",
+          "identityProtection": "not_applicable",
+          "evidence": [
+            "nenhum relato privado identificável de terceiro foi ensinado"
+          ]
+        },
+        "replicable": [
+          "Listar saldo, parcela e taxa antes de aconselhar.",
+          "Calcular capacidade de pagamento com renda e despesas.",
+          "Explicar trade-offs de cada forma de quitação."
+        ],
+        "contingent": [
+          "A redução percentual de gastos não foi verificada.",
+          "Estratégias dependem de contrato, taxa e capacidade individual.",
+          "Audiovisual, comentários, retenção e resultado não foram medidos."
+        ],
+        "notRecommended": [
+          "copiar frase, personagem, promessa, produto ou roteiro",
+          "tratar prazo fixo, mentalidade, autoridade percebida ou comentário como prova de resultado financeiro",
+          "prescrever estratégia financeira individual sem renda, dívida, juros, risco e capacidade de pagamento",
+          "tratar visualizações, fama, escala, produção ou venda de material como causa de desempenho",
+          "inferir cena, áudio, texto na tela, edição, ritmo ou retenção sem mídia reproduzida"
+        ],
+        "hypotheses": []
+      },
+      "viralAssessment": {
+        "status": "indeterminate",
+        "observedSignal": 8274,
+        "missingForRelativeAssessment": [
+          "coorte funcional contemporânea homogênea",
+          "retenção",
+          "impressões",
+          "fontes de tráfego",
+          "mídia paga"
+        ],
+        "confounders": [
+          "tamanho do canal",
+          "idade do vídeo",
+          "tema",
+          "distribuição"
+        ],
+        "causalClaimAllowed": false
+      }
+    },
+    {
+      "id": "obs-20260929-223",
+      "title": "Como Quitar Dívidas Mesmo Ganhando Pouco (O Plano Definitivo Que Funciona no Brasil)",
+      "creator": "Sem Juros Mentais",
+      "creatorIdentity": "sem-juros-mentais",
+      "sourceIdentity": "sem-juros-mentais",
+      "country": "BR",
+      "url": "https://www.youtube.com/watch?v=PAJ3FESfXOY",
+      "sourceEvidence": [
+        "https://www.youtube.com/watch?v=PAJ3FESfXOY"
+      ],
+      "publishedAt": "2026-01-16",
+      "duration": "PT8M8S",
+      "createdAt": "2026-09-29T11:17:14.000Z",
+      "coverage": {
+        "level": "partial",
+        "accessible": [
+          "título, criador, categoria e descrição pública integral de 610 caracteres",
+          "data exata, duração de 8 minutos e 8 segundos, 12 visualizações e 5 curtidas públicas",
+          "transcrição automática integral em português com 16 blocos temporais; fala acessível somente por substituição textual",
+          "etapas faladas: listar dívida total, juros, parcela e vencimento; escolher avalanche ou bola de neve; abrir margem, negociar e formar reserva mínima"
+        ],
+        "missing": [
+          "vídeo reproduzido ou auditado quadro a quadro",
+          "imagem em movimento efetivamente observada",
+          "capa ou outra imagem adquirida",
+          "áudio ouvido",
+          "texto na tela",
+          "edição",
+          "ritmo",
+          "curva de retenção",
+          "impressões e fontes de tráfego",
+          "mídia paga",
+          "comentários públicos e sua contagem",
+          "baseline individual comparável",
+          "teste de compreensão ou execução",
+          "resultado financeiro dos espectadores",
+          "credencial ou fonte técnica identificável",
+          "prova da promessa de plano definitivo",
+          "adequação a necessidades essenciais"
+        ]
+      },
+      "publicMetrics": {
+        "viewsObserved": 12,
+        "likesObserved": 5,
+        "commentsObserved": "not_assessed",
+        "observedAt": "2026-09-29",
+        "sourceType": "youtube_public_watch_metadata_full_description_and_full_automatic_transcript",
+        "causality": "not_inferred"
+      },
+      "classification": {
+        "taxonomyVersion": "3.0",
+        "container": "youtube_video",
+        "materialFormat": "video_longo",
+        "presentationFormats": [
+          "comentario",
+          "tutorial"
+        ],
+        "primaryFamily": "explicativo",
+        "secondaryFamilies": [
+          "educativo",
+          "inspiracao"
+        ],
+        "functionalMix": [
+          {
+            "family": "explicativo",
+            "percentage": 45
+          },
+          {
+            "family": "educativo",
+            "percentage": 40
+          },
+          {
+            "family": "inspiracao",
+            "percentage": 15
+          }
+        ],
+        "objectives": [
+          "educar",
+          "consciencia_problema",
+          "apresentar_solucao",
+          "seguidores"
+        ],
+        "advertisingType": "editorial_organico",
+        "commercialIntent": "ausente",
+        "advertisedEntity": {
+          "kind": "nenhuma",
+          "name": "",
+          "confidence": "medium"
+        },
+        "contentTopic": {
+          "label": "quitação de dívidas com baixa renda",
+          "iabCode": null
+        },
+        "segment": "finanças pessoais",
+        "subsegment": "priorização e negociação de dívidas",
+        "probableAudience": "adultos endividados com pouca margem mensal",
+        "awarenessStage": "preparado_agir",
+        "productionLevel": "simple",
+        "creatorScale": "small",
+        "replicability": "high",
+        "durationBand": "over_60s",
+        "pace": "unknown",
+        "mechanisms": [
+          "alivio",
+          "aversao_perda",
+          "confianca"
+        ],
+        "hookTypes": [
+          "problema",
+          "promessa",
+          "identificacao"
+        ],
+        "narrativeElements": [
+          "problema",
+          "progressao",
+          "mecanismo",
+          "conclusao",
+          "cta"
+        ],
+        "proofTypes": [
+          "mecanismo_explicado",
+          "alegacao_sem_prova"
+        ],
+        "ctaTypes": [
+          "seguir",
+          "compartilhar"
+        ],
+        "distributionContext": {
+          "organicPaid": "unknown",
+          "trendDependency": "low"
+        },
+        "confidence": "high",
+        "evidence": [
+          "A primeira tarefa exige saldo, juros, parcela e vencimento de cada dívida.",
+          "Avalanche e bola de neve são apresentadas como rotas alternativas; a escolha é condicionada à manutenção do plano.",
+          "A reserva mínima aparece depois da negociação, mas a promessa definitiva não possui prova acessível."
+        ],
+        "alternativeClassifications": [],
+        "missingInformation": [
+          "vídeo reproduzido ou auditado quadro a quadro",
+          "imagem em movimento efetivamente observada",
+          "capa ou outra imagem adquirida",
+          "áudio ouvido",
+          "texto na tela",
+          "edição",
+          "ritmo",
+          "curva de retenção",
+          "impressões e fontes de tráfego",
+          "mídia paga"
+        ],
+        "needsHumanReview": true
+      },
+      "comparison": {
+        "level": 1,
+        "group": "educação financeira brasileira para iniciantes que converte desorganização ou dívida em um caminho finito, condicionado por renda, despesas, juros e capacidade de pagamento",
+        "referenceIds": [
+          "obs-20260929-221",
+          "obs-20260929-222"
+        ],
+        "confidence": "high"
+      },
+      "observations": [
+        "O plano exige um inventário de dívida antes de escolher a ordem de pagamento.",
+        "A fala preserva duas estratégias e reconhece que adesão importa, sem medir adesão ou resultado.",
+        "A afirmação de que dívida costuma não decorrer de baixa renda é ampla e não foi sustentada por fonte."
+      ],
+      "interpretations": [
+        "O inventário e a escolha explícita tornam o caminho rastreável.",
+        "Promessa definitiva, causalidade sobre renda e eficácia continuam não demonstradas."
+      ],
+      "scores": {
+        "gancho": 92,
+        "clareza": 91,
+        "relevancia": 92,
+        "desejo": 80,
+        "confianca": 58,
+        "retencao": "not_assessed",
+        "acao": 90,
+        "objecoes": 72
+      },
+      "fiveLenses": {
+        "apressado": "Entende a dívida-alvo e recebe uma primeira tarefa.",
+        "analitico": "Encontra dados mínimos e duas estratégias, mas pede fontes e adequação.",
+        "aspiracional": "Visualiza controle e reserva mesmo com baixa renda.",
+        "comunidade": "Comentários não ficaram acessíveis.",
+        "cetico": "Questiona a promessa definitiva e generalizações sem fonte."
+      },
+      "hypotheses": [],
+      "replicable": [
+        "Inventariar dívida, juros, parcela e vencimento.",
+        "Apresentar alternativas com critério explícito.",
+        "Incluir margem e reserva sem prometer universalidade."
+      ],
+      "limitations": [
+        "Credenciais e fontes não ficaram identificáveis.",
+        "A promessa definitiva excede a evidência acessível.",
+        "Audiovisual, comentários, retenção e resultado não foram medidos."
+      ],
+      "provenance": [
+        "public_content",
+        "youtube_public_metadata",
+        "public_search",
+        "youtube_automatic_transcript",
+        "public_metric",
+        "observatory_inference",
+        "youtube_public_comments"
+      ],
+      "training": {
+        "evidencePolicyVersion": "1.1",
+        "evidenceRole": "target_support",
+        "evidenceLevel": 1,
+        "requiredEvidenceObserved": true,
+        "supportEligible": true,
+        "claimCoverage": [
+          {
+            "claim": "inventário da dívida, alternativas de priorização e negociação aparecem na fala",
+            "requiredModalities": [
+              "metadata",
+              "transcript"
+            ],
+            "observedModalities": [
+              "metadata",
+              "transcript"
+            ],
+            "sufficient": true
+          }
+        ],
+        "provenanceAndConsent": {
+          "storyOrigin": "conteúdo editorial público do próprio canal",
+          "consentStatus": "not_applicable",
+          "identityProtection": "not_applicable",
+          "evidence": [
+            "nenhum relato privado identificável de terceiro foi ensinado"
+          ]
+        },
+        "replicable": [
+          "Inventariar dívida, juros, parcela e vencimento.",
+          "Apresentar alternativas com critério explícito.",
+          "Incluir margem e reserva sem prometer universalidade."
+        ],
+        "contingent": [
+          "Credenciais e fontes não ficaram identificáveis.",
+          "A promessa definitiva excede a evidência acessível.",
+          "Audiovisual, comentários, retenção e resultado não foram medidos."
+        ],
+        "notRecommended": [
+          "copiar frase, personagem, promessa, produto ou roteiro",
+          "tratar prazo fixo, mentalidade, autoridade percebida ou comentário como prova de resultado financeiro",
+          "prescrever estratégia financeira individual sem renda, dívida, juros, risco e capacidade de pagamento",
+          "tratar visualizações, fama, escala, produção ou venda de material como causa de desempenho",
+          "inferir cena, áudio, texto na tela, edição, ritmo ou retenção sem mídia reproduzida"
+        ],
+        "hypotheses": []
+      },
+      "viralAssessment": {
+        "status": "indeterminate",
+        "observedSignal": 12,
+        "missingForRelativeAssessment": [
+          "coorte funcional contemporânea homogênea",
+          "retenção",
+          "impressões",
+          "fontes de tráfego",
+          "mídia paga"
+        ],
+        "confounders": [
+          "tamanho do canal",
+          "idade do vídeo",
+          "tema",
+          "distribuição"
+        ],
+        "causalClaimAllowed": false
+      }
+    },
+    {
+      "id": "obs-20260929-224",
+      "title": "A VERDADE NUA E CRUA PARA SAIR DAS DÍVIDAS (método único)",
+      "creator": "Investimento sem terno",
+      "creatorIdentity": "investimento-sem-terno",
+      "sourceIdentity": "investimento-sem-terno",
+      "country": "BR",
+      "url": "https://www.youtube.com/watch?v=NqnOihGb4to",
+      "sourceEvidence": [
+        "https://www.youtube.com/watch?v=NqnOihGb4to"
+      ],
+      "publishedAt": "2026-04-15",
+      "duration": "PT6M",
+      "createdAt": "2026-09-29T11:17:14.000Z",
+      "coverage": {
+        "level": "partial",
+        "accessible": [
+          "título, criador e descrição pública integral de 2.629 caracteres; uma de três sondagens da página ficou indisponível",
+          "data exata, duração de 6 minutos, 13 visualizações e uma curtida pública observada em uma sondagem anterior",
+          "transcrição automática integral em português com 12 blocos temporais; fala acessível somente por substituição textual",
+          "problema concreto, lista de grandes despesas e proposta falada de sacrifício extremo"
+        ],
+        "missing": [
+          "vídeo reproduzido ou auditado quadro a quadro",
+          "imagem em movimento efetivamente observada",
+          "capa ou outra imagem adquirida",
+          "áudio ouvido",
+          "texto na tela",
+          "edição",
+          "ritmo",
+          "curva de retenção",
+          "impressões e fontes de tráfego",
+          "mídia paga",
+          "comentários públicos e sua contagem",
+          "baseline individual comparável",
+          "teste de compreensão ou execução",
+          "resultado financeiro dos espectadores",
+          "fonte da alegação de oito em dez brasileiros endividados",
+          "mapeamento de saldo, taxa, parcela e capacidade",
+          "proteção explícita de necessidades essenciais"
+        ]
+      },
+      "publicMetrics": {
+        "viewsObserved": 13,
+        "likesObserved": 1,
+        "commentsObserved": "not_assessed",
+        "observedAt": "2026-09-29",
+        "sourceType": "youtube_public_watch_metadata_full_description_and_full_automatic_transcript",
+        "causality": "not_inferred"
+      },
+      "classification": {
+        "taxonomyVersion": "3.0",
+        "container": "youtube_video",
+        "materialFormat": "video_longo",
+        "presentationFormats": [
+          "comentario",
+          "camera_direta"
+        ],
+        "primaryFamily": "autoridade_opiniao",
+        "secondaryFamilies": [
+          "educativo",
+          "conscientizacao"
+        ],
+        "functionalMix": [
+          {
+            "family": "autoridade_opiniao",
+            "percentage": 45
+          },
+          {
+            "family": "educativo",
+            "percentage": 35
+          },
+          {
+            "family": "conscientizacao",
+            "percentage": 20
+          }
+        ],
+        "objectives": [
+          "consciencia_problema",
+          "educar",
+          "seguidores"
+        ],
+        "advertisingType": "editorial_organico",
+        "commercialIntent": "ausente",
+        "advertisedEntity": {
+          "kind": "nenhuma",
+          "name": "",
+          "confidence": "medium"
+        },
+        "contentTopic": {
+          "label": "saída de dívidas por corte extremo",
+          "iabCode": null
+        },
+        "segment": "finanças pessoais",
+        "subsegment": "cortes de despesas para endividados",
+        "probableAudience": "adultos endividados buscando ação imediata",
+        "awarenessStage": "preparado_agir",
+        "productionLevel": "simple",
+        "creatorScale": "small",
+        "replicability": "high",
+        "durationBand": "over_60s",
+        "pace": "unknown",
+        "mechanisms": [
+          "medo",
+          "aversao_perda",
+          "urgencia"
+        ],
+        "hookTypes": [
+          "verbal",
+          "problema",
+          "promessa"
+        ],
+        "narrativeElements": [
+          "problema",
+          "progressao",
+          "promessa",
+          "cta"
+        ],
+        "proofTypes": [
+          "alegacao_sem_prova",
+          "autoridade_percebida"
+        ],
+        "ctaTypes": [
+          "seguir"
+        ],
+        "distributionContext": {
+          "organicPaid": "unknown",
+          "trendDependency": "low"
+        },
+        "confidence": "high",
+        "evidence": [
+          "A fala propõe listar os maiores gastos e fazer cortes imediatos.",
+          "Exemplos incluem alimentação, itens domésticos e lazer familiar sem reconstruir capacidade de pagamento ou preservar um piso essencial.",
+          "Faixas de juros e prevalência de endividamento são mencionadas sem fonte rastreável."
+        ],
+        "alternativeClassifications": [],
+        "missingInformation": [
+          "vídeo reproduzido ou auditado quadro a quadro",
+          "imagem em movimento efetivamente observada",
+          "capa ou outra imagem adquirida",
+          "áudio ouvido",
+          "texto na tela",
+          "edição",
+          "ritmo",
+          "curva de retenção",
+          "impressões e fontes de tráfego",
+          "mídia paga"
+        ],
+        "needsHumanReview": true
+      },
+      "comparison": {
+        "level": 2,
+        "group": "educação financeira brasileira para iniciantes que converte desorganização ou dívida em um caminho finito, condicionado por renda, despesas, juros e capacidade de pagamento",
+        "referenceIds": [
+          "obs-20260929-221",
+          "obs-20260929-222",
+          "obs-20260929-223"
+        ],
+        "confidence": "high"
+      },
+      "observations": [
+        "Há problema e ação finita, mas não inventário da dívida, taxa por contrato, parcela ou capacidade de pagamento.",
+        "O sacrifício é apresentado como método único e alcança necessidades que podem ser essenciais.",
+        "Não há resultado comparável para tratá-lo como contraexemplo de eficácia."
+      ],
+      "interpretations": [
+        "É caso-limite: clareza e urgência não compensam ausência de baseline e viabilidade.",
+        "Cortes extremos sem piso essencial elevam o risco e o ônus de prova."
+      ],
+      "scores": {
+        "gancho": 94,
+        "clareza": 81,
+        "relevancia": 86,
+        "desejo": 68,
+        "confianca": 30,
+        "retencao": "not_assessed",
+        "acao": 79,
+        "objecoes": 24
+      },
+      "fiveLenses": {
+        "apressado": "Recebe uma ordem de corte imediata.",
+        "analitico": "Não encontra saldo, juros, capacidade ou proteção de essenciais.",
+        "aspiracional": "É atraído pela promessa de ruptura rápida.",
+        "comunidade": "Comentários não ficaram acessíveis.",
+        "cetico": "Rejeita método único, números sem fonte e sacrifício desproporcional."
+      },
+      "hypotheses": [],
+      "replicable": [
+        "Nomear o problema sem eufemismo.",
+        "Transformar diagnóstico em lista de despesas.",
+        "Distinguir custos ajustáveis de necessidades essenciais."
+      ],
+      "limitations": [
+        "Método único e cortes extremos não foram validados.",
+        "Dados estatísticos e faixas de juros não têm fonte acessível.",
+        "Audiovisual, comentários, retenção e resultado não foram medidos."
+      ],
+      "provenance": [
+        "public_content",
+        "youtube_public_metadata",
+        "public_search",
+        "youtube_automatic_transcript",
+        "public_metric",
+        "observatory_inference",
+        "youtube_public_comments"
+      ],
+      "training": {
+        "evidencePolicyVersion": "1.1",
+        "evidenceRole": "case_limit",
+        "evidenceLevel": 2,
+        "requiredEvidenceObserved": false,
+        "supportEligible": false,
+        "claimCoverage": [
+          {
+            "claim": "problema e proposta finita de cortes aparecem na fala",
+            "requiredModalities": [
+              "description",
+              "transcript"
+            ],
+            "observedModalities": [
+              "description",
+              "transcript"
+            ],
+            "sufficient": true
+          },
+          {
+            "claim": "sacrifício extremo é método único adequado para sair das dívidas",
+            "requiredModalities": [
+              "baseline",
+              "safety",
+              "intervention",
+              "outcome",
+              "comparison"
+            ],
+            "observedModalities": [],
+            "sufficient": false
+          }
+        ],
+        "provenanceAndConsent": {
+          "storyOrigin": "conteúdo editorial público do próprio canal",
+          "consentStatus": "not_applicable",
+          "identityProtection": "not_applicable",
+          "evidence": [
+            "nenhum relato privado identificável de terceiro foi ensinado"
+          ]
+        },
+        "replicable": [
+          "Nomear o problema sem eufemismo.",
+          "Transformar diagnóstico em lista de despesas.",
+          "Distinguir custos ajustáveis de necessidades essenciais."
+        ],
+        "contingent": [
+          "Método único e cortes extremos não foram validados.",
+          "Dados estatísticos e faixas de juros não têm fonte acessível.",
+          "Audiovisual, comentários, retenção e resultado não foram medidos."
+        ],
+        "notRecommended": [
+          "copiar frase, personagem, promessa, produto ou roteiro",
+          "tratar prazo fixo, mentalidade, autoridade percebida ou comentário como prova de resultado financeiro",
+          "prescrever estratégia financeira individual sem renda, dívida, juros, risco e capacidade de pagamento",
+          "tratar visualizações, fama, escala, produção ou venda de material como causa de desempenho",
+          "inferir cena, áudio, texto na tela, edição, ritmo ou retenção sem mídia reproduzida"
+        ],
+        "hypotheses": []
+      },
+      "viralAssessment": {
+        "status": "indeterminate",
+        "observedSignal": 13,
+        "missingForRelativeAssessment": [
+          "coorte funcional contemporânea homogênea",
+          "retenção",
+          "impressões",
+          "fontes de tráfego",
+          "mídia paga"
+        ],
+        "confounders": [
+          "tamanho do canal",
+          "idade do vídeo",
+          "tema",
+          "distribuição"
+        ],
+        "causalClaimAllowed": false
+      }
+    },
+    {
+      "id": "obs-20260929-225",
+      "title": "DE ONDE VEM O VENTO? Aprenda com uma EXPERIÊNCIA!",
+      "creator": "Manual do Mundo",
+      "creatorIdentity": "manual-do-mundo",
+      "sourceIdentity": "manual-do-mundo",
+      "country": "BR",
+      "url": "https://www.youtube.com/watch?v=JuxZTgWEKfs",
+      "sourceEvidence": [
+        "https://www.youtube.com/watch?v=JuxZTgWEKfs"
+      ],
+      "publishedAt": "2014-08-12",
+      "duration": "PT3M24S",
+      "createdAt": "2026-09-29T11:17:14.000Z",
+      "coverage": {
+        "level": "partial",
+        "accessible": [
+          "título, criador, categoria e descrição pública integral de 1.389 caracteres",
+          "data exata, duração de 3 minutos e 24 segundos, 757.605 visualizações e cerca de 33 mil curtidas públicas",
+          "transcrição automática integral em português com 6 blocos temporais; fala acessível somente por substituição textual",
+          "materiais e procedimento falados: aquário, água quente e fria e corantes vermelho e azul",
+          "explicação falada de densidade, subida do fluido quente, descida do fluido frio e analogia com o ar"
+        ],
+        "missing": [
+          "vídeo reproduzido ou auditado quadro a quadro",
+          "imagem em movimento efetivamente observada",
+          "capa ou outra imagem adquirida",
+          "áudio ouvido",
+          "texto na tela",
+          "edição",
+          "ritmo",
+          "curva de retenção",
+          "impressões e fontes de tráfego",
+          "mídia paga",
+          "comentários públicos e sua contagem",
+          "baseline individual comparável",
+          "teste de compreensão ou execução",
+          "resultado financeiro dos espectadores",
+          "movimento visual dos corantes",
+          "resultado visual",
+          "orientação de segurança para água quente",
+          "revisão científica externa"
+        ]
+      },
+      "publicMetrics": {
+        "viewsObserved": 757605,
+        "likesObserved": "about_33000",
+        "commentsObserved": "not_assessed",
+        "observedAt": "2026-09-29",
+        "sourceType": "youtube_public_watch_metadata_full_description_and_full_automatic_transcript",
+        "causality": "not_inferred"
+      },
+      "classification": {
+        "taxonomyVersion": "3.0",
+        "container": "youtube_video",
+        "materialFormat": "video_curto",
+        "presentationFormats": [
+          "demonstracao",
+          "tutorial"
+        ],
+        "primaryFamily": "demonstracao",
+        "secondaryFamilies": [
+          "educativo",
+          "curiosidade"
+        ],
+        "functionalMix": [
+          {
+            "family": "demonstracao",
+            "percentage": 50
+          },
+          {
+            "family": "educativo",
+            "percentage": 35
+          },
+          {
+            "family": "curiosidade",
+            "percentage": 15
+          }
+        ],
+        "objectives": [
+          "educar",
+          "visualizacao",
+          "compartilhamento",
+          "salvamento"
+        ],
+        "advertisingType": "editorial_organico",
+        "commercialIntent": "ausente",
+        "advertisedEntity": {
+          "kind": "marca",
+          "name": "Manual do Mundo",
+          "confidence": "high"
+        },
+        "contentTopic": {
+          "label": "convecção e origem do vento",
+          "iabCode": null
+        },
+        "segment": "educação científica",
+        "subsegment": "experimento doméstico de fluidos",
+        "probableAudience": "estudantes, famílias e professores interessados em ciência",
+        "awarenessStage": "consciente_solucao",
+        "productionLevel": "intermediate",
+        "creatorScale": "large",
+        "replicability": "high",
+        "durationBand": "over_60s",
+        "pace": "unknown",
+        "mechanisms": [
+          "curiosidade",
+          "surpresa",
+          "recompensa",
+          "confianca"
+        ],
+        "hookTypes": [
+          "pergunta",
+          "demonstracao_antecipada"
+        ],
+        "narrativeElements": [
+          "promessa",
+          "progressao",
+          "payoff",
+          "conclusao"
+        ],
+        "proofTypes": [
+          "mecanismo_explicado",
+          "autoridade_demonstrada"
+        ],
+        "ctaTypes": [
+          "seguir"
+        ],
+        "distributionContext": {
+          "organicPaid": "unknown",
+          "trendDependency": "low"
+        },
+        "confidence": "high",
+        "evidence": [
+          "A pergunta sobre o vento antecede materiais, procedimento e explicação de convecção.",
+          "A fala relaciona densidade e temperatura em água e ar.",
+          "Movimento, resultado visual e segurança operacional não foram observados."
+        ],
+        "alternativeClassifications": [],
+        "missingInformation": [
+          "vídeo reproduzido ou auditado quadro a quadro",
+          "imagem em movimento efetivamente observada",
+          "capa ou outra imagem adquirida",
+          "áudio ouvido",
+          "texto na tela",
+          "edição",
+          "ritmo",
+          "curva de retenção",
+          "impressões e fontes de tráfego",
+          "mídia paga"
+        ],
+        "needsHumanReview": true
+      },
+      "comparison": {
+        "level": 4,
+        "group": "exploração controlada de demonstração científica doméstica",
+        "referenceIds": [],
+        "confidence": "low"
+      },
+      "observations": [
+        "Procedimento e mecanismo são rastreáveis na fala e na descrição.",
+        "Sem o vídeo, não se confirma a circulação dos corantes nem se ensina o resultado como demonstração visual.",
+        "Orientação acessível de segurança para água quente não foi localizada."
+      ],
+      "interpretations": [
+        "A exploração registra alinhamento verbal entre pergunta, procedimento e mecanismo, sem provar execução ou compreensão.",
+        "Uma referência isolada não gera hipótese nova."
+      ],
+      "scores": {
+        "gancho": 89,
+        "clareza": 90,
+        "relevancia": 87,
+        "desejo": 75,
+        "confianca": 79,
+        "retencao": "not_assessed",
+        "acao": 70,
+        "objecoes": 62
+      },
+      "fiveLenses": {
+        "apressado": "Recebe pergunta e experimento cedo.",
+        "analitico": "Encontra mecanismo falado, mas não o resultado visual.",
+        "aspiracional": "Visualiza uma experiência doméstica acessível.",
+        "comunidade": "Comentários não ficaram acessíveis.",
+        "cetico": "Exige confirmação visual, revisão científica e segurança."
+      },
+      "hypotheses": [],
+      "replicable": [
+        "Abrir com pergunta específica.",
+        "Listar materiais e procedimento.",
+        "Explicar o mecanismo sem depender apenas do espetáculo visual."
+      ],
+      "limitations": [
+        "Resultado e execução visuais não foram confirmados.",
+        "Segurança com água quente não foi documentada.",
+        "Popularidade não prova precisão ou compreensão."
+      ],
+      "provenance": [
+        "public_content",
+        "youtube_public_metadata",
+        "public_search",
+        "youtube_automatic_transcript",
+        "public_metric",
+        "observatory_inference",
+        "youtube_public_comments"
+      ],
+      "training": {
+        "evidencePolicyVersion": "1.1",
+        "evidenceRole": "controlled_exploration",
+        "evidenceLevel": 4,
+        "requiredEvidenceObserved": false,
+        "supportEligible": false,
+        "claimCoverage": [
+          {
+            "claim": "materiais, procedimento e mecanismo de convecção aparecem na fala e descrição",
+            "requiredModalities": [
+              "description",
+              "transcript"
+            ],
+            "observedModalities": [
+              "description",
+              "transcript"
+            ],
+            "sufficient": true
+          },
+          {
+            "claim": "o movimento visual dos corantes confirma o resultado",
+            "requiredModalities": [
+              "video"
+            ],
+            "observedModalities": [],
+            "sufficient": false
+          },
+          {
+            "claim": "o procedimento é seguro sem supervisão",
+            "requiredModalities": [
+              "safety_guidance",
+              "expert_review"
+            ],
+            "observedModalities": [],
+            "sufficient": false
+          }
+        ],
+        "provenanceAndConsent": {
+          "storyOrigin": "conteúdo editorial público do próprio canal",
+          "consentStatus": "not_applicable",
+          "identityProtection": "not_applicable",
+          "evidence": [
+            "nenhum relato privado identificável de terceiro foi ensinado"
+          ]
+        },
+        "replicable": [
+          "Abrir com pergunta específica.",
+          "Listar materiais e procedimento.",
+          "Explicar o mecanismo sem depender apenas do espetáculo visual."
+        ],
+        "contingent": [
+          "Resultado e execução visuais não foram confirmados.",
+          "Segurança com água quente não foi documentada.",
+          "Popularidade não prova precisão ou compreensão."
+        ],
+        "notRecommended": [
+          "copiar frase, personagem, promessa, produto ou roteiro",
+          "tratar prazo fixo, mentalidade, autoridade percebida ou comentário como prova de resultado financeiro",
+          "prescrever estratégia financeira individual sem renda, dívida, juros, risco e capacidade de pagamento",
+          "tratar visualizações, fama, escala, produção ou venda de material como causa de desempenho",
+          "inferir cena, áudio, texto na tela, edição, ritmo ou retenção sem mídia reproduzida"
+        ],
+        "hypotheses": []
+      },
+      "viralAssessment": {
+        "status": "indeterminate",
+        "observedSignal": 757605,
+        "missingForRelativeAssessment": [
+          "coorte funcional contemporânea homogênea",
+          "retenção",
+          "impressões",
+          "fontes de tráfego",
+          "mídia paga"
+        ],
+        "confounders": [
+          "tamanho do canal",
+          "idade do vídeo",
+          "tema",
+          "distribuição"
+        ],
+        "causalClaimAllowed": false
+      }
     }
   ],
   "patterns": [
@@ -57859,7 +59256,7 @@
     {
       "id": "pat-20260823-003",
       "status": "provisional",
-      "statement": "Em educação financeira para iniciantes, nomear um problema concreto e organizar a resposta em etapas finitas torna problema, caminho e próxima ação identificáveis; prazos fixos ou promessas universais sem renda, dívida, juros e viabilidade elevam o ônus de prova, e efeitos sobre compreensão, relevância e resultado permanecem não medidos.",
+      "statement": "Em educação financeira para iniciantes, nomear um problema concreto e organizar a resposta em etapas finitas torna problema, caminho e próxima ação identificáveis; em conteúdos sobre dívida, explicitar renda, despesas, saldo, juros, parcelas e capacidade de pagamento torna o caminho auditável e delimita ações viáveis. Cortes universais ou extremos sem preservar necessidades essenciais elevam o ônus de prova, e compreensão e resultado financeiro permanecem não medidos.",
       "mechanism": [
         "desejo",
         "aproximacao",
@@ -57869,8 +59266,8 @@
         "conteúdo educativo de finanças pessoais para iniciantes",
         "problema financeiro concreto identificado",
         "caminho organizado em etapas finitas",
-        "ações executáveis compatíveis com o escopo declarado",
-        "promessas proporcionais ao baseline e sem universalidade não demonstrada"
+        "em dívida, renda, despesas, saldo, juros, parcelas e capacidade de pagamento explicitados quando aplicáveis",
+        "ações preservam necessidades essenciais e são proporcionais ao baseline"
       ],
       "supportReferenceIds": [
         "obs-20260823-010",
@@ -57883,25 +59280,28 @@
         "obs-20260918-173",
         "obs-20260928-216",
         "obs-20260928-217",
-        "obs-20260928-218"
+        "obs-20260928-218",
+        "obs-20260929-221",
+        "obs-20260929-222",
+        "obs-20260929-223"
       ],
-      "comparableSupportCount": 11,
+      "comparableSupportCount": 14,
       "comparisonLevel": 2,
       "confidence": "medium",
       "limitations": [
-        "Onze apoios vêm de onze criadores e onze fontes; demonstram recorrência estrutural, não compreensão, relevância percebida ou resultado financeiro.",
-        "Nenhuma referência oferece retenção, teste de compreensão, baseline individual ou experimento causal.",
-        "Comentários, métricas, fama, escala e venda de material permanecem contexto não causal.",
-        "O novo caso-limite reforça que sequência organizada não compensa prazo universal e autoridade não rastreada.",
-        "Conselhos financeiros exigem adequação a renda, despesas, dívida, juros, risco e capacidade de pagamento."
+        "Quatorze apoios vêm de quatorze criadores e fontes; demonstram recorrência estrutural, não compreensão ou resultado financeiro.",
+        "Nenhuma referência oferece retenção, teste de compreensão, baseline individual completo ou experimento causal.",
+        "Comentários, métricas, fama, escala, produção e ofertas permanecem contexto não causal.",
+        "O terceiro caso-limite mostra que ação clara não compensa cortes extremos sem capacidade de pagamento e piso essencial.",
+        "Conselhos financeiros exigem adequação individual, revisão humana e avaliação de riscos e contratos."
       ],
       "validation": "requires_human_or_experimental_evidence",
       "stage": "provisional",
-      "name": "Em educação financeira para iniciantes, nomear um problema concreto e organizar a resposta em etapas finitas torna problema, caminho e próxima ação identificáveis; prazos fixos ou promessas universais sem renda, dívida, juros e viabilidade elevam o ônus de prova, e efeitos sobre compreensão, relevância e resultado permanecem não medidos.",
+      "name": "Em educação financeira para iniciantes, nomear um problema concreto e organizar a resposta em etapas finitas torna problema, caminho e próxima ação identificáveis; em conteúdos sobre dívida, explicitar renda, despesas, saldo, juros, parcelas e capacidade de pagamento torna o caminho auditável e delimita ações viáveis. Cortes universais ou extremos sem preservar necessidades essenciais elevam o ônus de prova, e compreensão e resultado financeiro permanecem não medidos.",
       "creativeFamily": "família educativo ou inspiracao financeira",
       "objective": "público iniciante",
       "segment": "formato explicativo de 10 a 30 minutos",
-      "supportingCount": 11,
+      "supportingCount": 14,
       "counterexampleCount": 0,
       "evidence": [
         {
@@ -58036,17 +59436,66 @@
           "limitations": [
             "não conta como apoio nem como contraexemplo de eficácia"
           ]
+        },
+        {
+          "referenceId": "obs-20260929-221",
+          "role": "support",
+          "comparisonLevel": 1,
+          "requiredEvidenceObserved": true,
+          "confidence": "high",
+          "observation": "Renda disponível, obrigações mensais e anuais e gastos variáveis são reconstruídos antes de limites e prioridades.",
+          "evidence": "Metadados, descrição integral e transcrição automática integral.",
+          "limitations": [
+            "sem audiovisual, comentários, teste de execução ou resultado financeiro"
+          ]
+        },
+        {
+          "referenceId": "obs-20260929-222",
+          "role": "support",
+          "comparisonLevel": 1,
+          "requiredEvidenceObserved": true,
+          "confidence": "high",
+          "observation": "Saldo, parcela, juros e capacidade de pagamento antecedem negociação, escolha da forma de quitação e monitoramento.",
+          "evidence": "Metadados, descrição integral com capítulos e transcrição automática integral.",
+          "limitations": [
+            "alegação percentual não auditada; sem audiovisual ou resultado"
+          ]
+        },
+        {
+          "referenceId": "obs-20260929-223",
+          "role": "support",
+          "comparisonLevel": 1,
+          "requiredEvidenceObserved": true,
+          "confidence": "high",
+          "observation": "Inventário de dívida, duas estratégias de priorização, margem, negociação e reserva formam um caminho rastreável.",
+          "evidence": "Metadados, descrição integral e transcrição automática integral.",
+          "limitations": [
+            "promessa definitiva e generalizações sem prova; sem audiovisual ou resultado"
+          ]
+        },
+        {
+          "referenceId": "obs-20260929-224",
+          "role": "case_limit",
+          "comparisonLevel": 2,
+          "requiredEvidenceObserved": false,
+          "confidence": "high",
+          "observation": "Há problema e ação finita, mas método único e sacrifício extremo ignoram saldo, juros, capacidade e preservação de necessidades essenciais.",
+          "evidence": "Metadados, descrição integral e transcrição automática integral.",
+          "limitations": [
+            "não conta como apoio nem contraexemplo de eficácia"
+          ]
         }
       ],
       "taxonomyVersion": "3.0",
-      "creatorDiversityCount": 11,
-      "sourceDiversityCount": 11,
+      "creatorDiversityCount": 14,
+      "sourceDiversityCount": 14,
       "patternType": "prova",
       "caseLimitReferenceIds": [
         "obs-20260918-174",
-        "obs-20260928-219"
+        "obs-20260928-219",
+        "obs-20260929-224"
       ],
-      "caseLimitCount": 2
+      "caseLimitCount": 3
     },
     {
       "id": "pat-20260824-004",
@@ -65270,6 +66719,142 @@
         "As cinco transcrições são automáticas integrais.",
         "Foram amostrados 89 comentários; a amostra não é representativa.",
         "Não houve baseline contemporâneo, retenção, teste de compreensão, adequação financeira individual ou causalidade.",
+        "O resultado do experimento científico e sua segurança operacional não foram confirmados visualmente.",
+        "Nenhum resultado autoriza validação; revisão humana ou evidência experimental continua necessária."
+      ]
+    },
+    {
+      "id": "run-20260929-supervised-041",
+      "executedAt": "2026-09-29T11:17:14.000Z",
+      "batchPolicyVersion": "1.1",
+      "requestedBatchSize": 5,
+      "candidatesFound": 122,
+      "referenceIds": [
+        "obs-20260929-221",
+        "obs-20260929-222",
+        "obs-20260929-223",
+        "obs-20260929-224",
+        "obs-20260929-225"
+      ],
+      "targetKnowledgeId": "pat-20260823-003",
+      "targetReferenceIds": [
+        "obs-20260929-221",
+        "obs-20260929-222",
+        "obs-20260929-223"
+      ],
+      "falsificationOrBoundaryReferenceIds": [
+        "obs-20260929-224"
+      ],
+      "controlledExplorationReferenceIds": [
+        "obs-20260929-225"
+      ],
+      "discarded": [
+        {
+          "url": "https://www.youtube.com/watch?v=yPoBIw-sqbQ",
+          "reason": "foco principal em finanças empresariais; comparabilidade funcional inferior à dívida pessoal"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=3CeGKeWNzTY",
+          "reason": "abordagem concentrada em cartão; o conjunto selecionado cobre baseline mais completo"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=hbLXJlLM2bs",
+          "reason": "estrutura comparável, mas os três apoios escolhidos ofereceram maior diversidade de mecanismos"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=X9WcWT1TRIU",
+          "reason": "descrição traz estatísticas e promessa de desconto sem fontes acessíveis"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=jv1V0O8aIbE",
+          "reason": "embalagem de segredo bancário e evidência estrutural inferior ao caso-limite selecionado"
+        }
+      ],
+      "analyzed": 5,
+      "brazilianReferences": 5,
+      "internationalReferences": 0,
+      "unknownOriginReferences": 0,
+      "smallOrMediumCreatorReferences": 4,
+      "replicableReferences": 5,
+      "creativeFamiliesObserved": [
+        "educativo",
+        "explicativo",
+        "oferta_direta",
+        "inspiracao",
+        "autoridade_opiniao",
+        "conscientizacao",
+        "demonstracao",
+        "curiosidade"
+      ],
+      "coverageSummary": {
+        "complete": 0,
+        "partial": 5,
+        "insufficient": 0
+      },
+      "audiovisualAcquisition": {
+        "attempted": true,
+        "succeeded": 0,
+        "failure": "as cinco páginas expuseram somente formatos cifrados sem URL direta; as cinco capas retornaram HTML de indisponibilidade de 195 bytes e as faixas nativas de legenda retornaram zero bytes",
+        "effect": "imagem em movimento, capa, áudio ouvido, texto na tela, atuação, edição, ritmo e retenção ficaram não mensurados"
+      },
+      "transcriptCoverage": {
+        "fullHumanOrCreatorProvided": 0,
+        "fullAutomatic": 5,
+        "partialHumanOrCreatorProvided": 0,
+        "partialAutomatic": 0,
+        "none": 0,
+        "limitation": "transcrições automáticas obtidas por serviço público substituem somente a fala e podem repetir ou errar palavras; não sustentam cenas, voz, texto na tela ou ritmo"
+      },
+      "commentsCoverage": {
+        "countsOnly": 0,
+        "sampledReferences": 0,
+        "sampledComments": 0,
+        "zeroReturnedReferences": 0,
+        "unavailableReferences": 5,
+        "limitation": "comentários e contagens não ficaram acessíveis; ausência de cobertura não foi registrada como zero"
+      },
+      "baselineCoverage": {
+        "sampledProfiles": 0,
+        "contemporaneousBaselines": 0,
+        "limitation": "datas, durações, escalas e ofertas diferentes impedem benchmark causal de desempenho"
+      },
+      "patternsCreated": [],
+      "patternsStrengthened": [
+        "pat-20260823-003"
+      ],
+      "patternsRefined": [
+        "pat-20260823-003"
+      ],
+      "hypothesesCreated": [],
+      "hypothesesStrengthened": [],
+      "validatedPatternsCreated": 0,
+      "contradictionsFound": [],
+      "caseLimitsFound": [
+        "um caminho finito não se torna financeiramente viável quando ignora saldo, juros, capacidade de pagamento e preservação de necessidades essenciais"
+      ],
+      "safetyFindings": [
+        "nenhuma recomendação financeira foi tratada como adequada a todo perfil",
+        "promessa, método único, comentários, autoridade percebida e métricas não foram tratados como prova de resultado",
+        "o experimento científico não foi ensinado como execução visual confirmada ou procedimento seguro sem supervisão",
+        "nenhuma cena, áudio, texto na tela, edição, ritmo ou retenção foi inventado",
+        "Observatório, cérebros sintéticos e futuro Freud permaneceram separados"
+      ],
+      "evidenceGateSummary": {
+        "targetSupportsEligible": 3,
+        "targetSupportsRejected": 0,
+        "boundaryCases": 1,
+        "explorationReferences": 1,
+        "duplicateUrls": 0,
+        "independentCreatorsAddedToPattern": 3,
+        "newHypotheses": 0
+      },
+      "outcome": "Três criadores independentes elevam de onze para quatorze os apoios do padrão financeiro. Um caso-limite refina a exigência de capacidade de pagamento e preservação de necessidades essenciais. O padrão permanece provisório.",
+      "nextTarget": "explicador financeiro brasileiro recente e curto, de criador pequeno ou médio, com audiovisual integral e exemplo preenchido que ligue renda, despesas essenciais, saldo, juros, parcela e sobra viável; buscar também um teste de compreensão ou execução e um caso em que os passos contradigam o próprio baseline",
+      "limitations": [
+        "Nenhum vídeo, áudio ou capa utilizável foi adquirido.",
+        "As cinco transcrições são automáticas integrais e substituem somente a fala.",
+        "Comentários e suas contagens não ficaram acessíveis.",
+        "Não houve baseline contemporâneo, retenção, teste de compreensão, adequação individual ou causalidade.",
         "O resultado do experimento científico e sua segurança operacional não foram confirmados visualmente.",
         "Nenhum resultado autoriza validação; revisão humana ou evidência experimental continua necessária."
       ]
