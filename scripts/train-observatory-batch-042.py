@@ -40,7 +40,7 @@ refs = [
         title="Orçamento para quitar dividas na pratica",
         creator="Sem Dívidas", identity="sem-dividas",
         url="https://www.youtube.com/watch?v=aId5IG1Lr54",
-        published="2022-10-25", duration="PT33M10S",
+        published="2022-10-26", duration="PT33M10S",
         accessible=[
             "título, criador, categoria, descrição pública integral de 195 caracteres e data exata",
             "duração de 33 minutos e 10 segundos, 182 visualizações e 21 curtidas públicas; contagem de comentários não acessível",
@@ -399,7 +399,7 @@ memory["trainingRuns"].append({
     "unknownOriginReferences": 0,
     "smallOrMediumCreatorReferences": 4,
     "replicableReferences": 4,
-    "creativeFamiliesObserved": ["educativo","demonstracao","estudo_caso","explicativo","prova_estudo_caso","oferta_direta","curiosidade"],
+    "creativeFamiliesObserved": ["educativo","demonstracao","explicativo","prova_estudo_caso","oferta_direta","curiosidade"],
     "coverageSummary": {"complete":0,"partial":4,"insufficient":1},
     "audiovisualAcquisition": {
         "attempted": True,
