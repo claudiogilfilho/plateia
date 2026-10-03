@@ -1,0 +1,242 @@
+{
+  "migrationId": "taxonomy-v3-2026-08-24",
+  "taxonomyVersion": "3.0",
+  "mode": "write",
+  "referencesInspected": 35,
+  "patternsInspected": 5,
+  "aliasesApplied": {
+    "mechanism:confiança->confianca": 13,
+    "presentationFormat:explicativo->outro": 10,
+    "presentationFormat:storytelling->outro": 7,
+    "objective:acao->outro": 1,
+    "objective:entretenimento->visualizacao": 2,
+    "presentationFormat:humor->outro": 2,
+    "objective:venda_indireta->venda": 1,
+    "materialFormat:short_vertical->video_curto": 18,
+    "presentationFormat:curiosidade->outro": 3,
+    "objective:consciencia_solucao->apresentar_solucao": 1,
+    "mechanism:descoberta->curiosidade": 1,
+    "presentationFormat:review->comentario": 1,
+    "objective:decisao_compra->venda": 1,
+    "presentationFormat:sketch->esquete": 2,
+    "objective:entreter->visualizacao": 6,
+    "presentationFormat:recorte_entrevista->podcast_entrevista": 1,
+    "mechanism:comunidade->pertencimento": 2,
+    "presentationFormat:cobertura_evento->reportagem": 1,
+    "presentationFormat:celebridades->outro": 1,
+    "objective:atualidade->alcance": 1,
+    "presentationFormat:rua->outro": 1,
+    "presentationFormat:personagem_de_marca->personagem_marca": 1,
+    "presentationFormat:serial->outro": 1,
+    "objective:posicionamento_marca->marca": 2,
+    "materialFormat:video_exact_duration_unknown->outro": 1,
+    "presentationFormat:branded_content->produto": 1,
+    "presentationFormat:desafio_serial->desafio": 1
+  },
+  "ambiguousClassifications": [
+    {
+      "referenceId": "obs-20260823-004",
+      "axis": "presentationFormat",
+      "sourceValue": "explicativo",
+      "migratedValue": "outro",
+      "requiresHumanReview": true
+    },
+    {
+      "referenceId": "obs-20260823-005",
+      "axis": "presentationFormat",
+      "sourceValue": "explicativo",
+      "migratedValue": "outro",
+      "requiresHumanReview": true
+    },
+    {
+      "referenceId": "obs-20260823-006",
+      "axis": "presentationFormat",
+      "sourceValue": "explicativo",
+      "migratedValue": "outro",
+      "requiresHumanReview": true
+    },
+    {
+      "referenceId": "obs-20260823-007",
+      "axis": "presentationFormat",
+      "sourceValue": "storytelling",
+      "migratedValue": "outro",
+      "requiresHumanReview": true
+    },
+    {
+      "referenceId": "obs-20260823-007",
+      "axis": "objective",
+      "sourceValue": "acao",
+      "migratedValue": "outro",
+      "requiresHumanReview": true
+    },
+    {
+      "referenceId": "obs-20260823-010",
+      "axis": "presentationFormat",
+      "sourceValue": "explicativo",
+      "migratedValue": "outro",
+      "requiresHumanReview": true
+    },
+    {
+      "referenceId": "obs-20260823-011",
+      "axis": "presentationFormat",
+      "sourceValue": "humor",
+      "migratedValue": "outro",
+      "requiresHumanReview": true
+    },
+    {
+      "referenceId": "obs-20260823-012",
+      "axis": "presentationFormat",
+      "sourceValue": "storytelling",
+      "migratedValue": "outro",
+      "requiresHumanReview": true
+    },
+    {
+      "referenceId": "obs-20260823-014",
+      "axis": "presentationFormat",
+      "sourceValue": "storytelling",
+      "migratedValue": "outro",
+      "requiresHumanReview": true
+    },
+    {
+      "referenceId": "obs-20260824-016",
+      "axis": "presentationFormat",
+      "sourceValue": "curiosidade",
+      "migratedValue": "outro",
+      "requiresHumanReview": true
+    },
+    {
+      "referenceId": "obs-20260824-017",
+      "axis": "presentationFormat",
+      "sourceValue": "explicativo",
+      "migratedValue": "outro",
+      "requiresHumanReview": true
+    },
+    {
+      "referenceId": "obs-20260824-017",
+      "axis": "presentationFormat",
+      "sourceValue": "curiosidade",
+      "migratedValue": "outro",
+      "requiresHumanReview": true
+    },
+    {
+      "referenceId": "obs-20260824-018",
+      "axis": "presentationFormat",
+      "sourceValue": "explicativo",
+      "migratedValue": "outro",
+      "requiresHumanReview": true
+    },
+    {
+      "referenceId": "obs-20260824-019",
+      "axis": "presentationFormat",
+      "sourceValue": "explicativo",
+      "migratedValue": "outro",
+      "requiresHumanReview": true
+    },
+    {
+      "referenceId": "obs-20260824-020",
+      "axis": "presentationFormat",
+      "sourceValue": "explicativo",
+      "migratedValue": "outro",
+      "requiresHumanReview": true
+    },
+    {
+      "referenceId": "obs-20260824-027",
+      "axis": "presentationFormat",
+      "sourceValue": "storytelling",
+      "migratedValue": "outro",
+      "requiresHumanReview": true
+    },
+    {
+      "referenceId": "obs-20260824-028",
+      "axis": "presentationFormat",
+      "sourceValue": "humor",
+      "migratedValue": "outro",
+      "requiresHumanReview": true
+    },
+    {
+      "referenceId": "obs-20260824-029",
+      "axis": "presentationFormat",
+      "sourceValue": "celebridades",
+      "migratedValue": "outro",
+      "requiresHumanReview": true
+    },
+    {
+      "referenceId": "obs-20260824-030",
+      "axis": "presentationFormat",
+      "sourceValue": "storytelling",
+      "migratedValue": "outro",
+      "requiresHumanReview": true
+    },
+    {
+      "referenceId": "obs-20260824-030",
+      "axis": "presentationFormat",
+      "sourceValue": "rua",
+      "migratedValue": "outro",
+      "requiresHumanReview": true
+    },
+    {
+      "referenceId": "obs-20260824-031",
+      "axis": "presentationFormat",
+      "sourceValue": "explicativo",
+      "migratedValue": "outro",
+      "requiresHumanReview": true
+    },
+    {
+      "referenceId": "obs-20260824-031",
+      "axis": "presentationFormat",
+      "sourceValue": "curiosidade",
+      "migratedValue": "outro",
+      "requiresHumanReview": true
+    },
+    {
+      "referenceId": "obs-20260824-032",
+      "axis": "presentationFormat",
+      "sourceValue": "explicativo",
+      "migratedValue": "outro",
+      "requiresHumanReview": true
+    },
+    {
+      "referenceId": "obs-20260824-033",
+      "axis": "presentationFormat",
+      "sourceValue": "storytelling",
+      "migratedValue": "outro",
+      "requiresHumanReview": true
+    },
+    {
+      "referenceId": "obs-20260824-033",
+      "axis": "presentationFormat",
+      "sourceValue": "serial",
+      "migratedValue": "outro",
+      "requiresHumanReview": true
+    },
+    {
+      "referenceId": "obs-20260824-034",
+      "axis": "materialFormat",
+      "sourceValue": "video_exact_duration_unknown",
+      "migratedValue": "outro",
+      "requiresHumanReview": true
+    },
+    {
+      "referenceId": "obs-20260824-035",
+      "axis": "presentationFormat",
+      "sourceValue": "storytelling",
+      "migratedValue": "outro",
+      "requiresHumanReview": true
+    }
+  ],
+  "patternStageChanges": [
+    {
+      "patternId": "pat-20260823-001",
+      "from": "provisional",
+      "to": "supported_hypothesis",
+      "reason": "mínimo de 3 referências comparáveis e 2 criadores independentes"
+    }
+  ],
+  "guarantees": [
+    "nenhuma referência removida",
+    "URLs preservadas",
+    "classificação anterior preservada por referência",
+    "migração idempotente",
+    "reversível por Git"
+  ]
+}

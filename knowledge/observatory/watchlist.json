@@ -1,0 +1,385 @@
+{
+  "protocol": "plateia-watchlist/1.1",
+  "status": "active",
+  "createdAt": "2026-08-23T23:00:00Z",
+  "dailyTarget": 5,
+  "selectionPolicy": {
+    "brazilianShareTarget": 0.7,
+    "accessibleProductionShareTarget": 0.7,
+    "familiesPerBatchMinimum": 2,
+    "avoidDuplicateUrl": true,
+    "preferRecentDays": 120,
+    "requirePublicSource": true,
+    "requireProvenance": true,
+    "doNotSelectByViewsAlone": true,
+    "rule": "Escolher primeiro uma hipótese ou padrão-alvo e só depois pesquisar referências. Classificar e verificar cobertura antes de ensinar; popularidade, fama, mídia paga e produção cara são contexto, não qualidade causal.",
+    "candidatePoolMinimum": 15,
+    "screenCoverageBeforeSelection": true,
+    "preferDirectMediaOrFullTranscript": true,
+    "maxNewHypothesesPerBatch": 1,
+    "supportMaxComparisonLevel": 2,
+    "caseLimitsAreNotCounterexamples": true,
+    "batchPolicyVersion": "1.1",
+    "requireStructuredBatchRoles": true,
+    "requireTargetKnowledgeId": true,
+    "requireReferenceIdsPerBatch": true,
+    "requireClaimLevelModalityAudit": true,
+    "requireStoryProvenanceAndConsentAudit": true,
+    "validatedStageRequiresEvidenceId": true,
+    "excludeConsolidatedHypothesesFromCandidateQueue": true,
+    "requiredBeforeCommit": [
+      "python3 .agents/skills/plateia/scripts/observatory_memory.py --db knowledge/observatory/plateia-memory.json audit",
+      "pnpm observatory:verify:v3"
+    ],
+    "rejectCommitWhenAuditFails": true
+  },
+  "sources": [
+    {
+      "id": "manual-do-mundo",
+      "name": "Manual do Mundo",
+      "region": "BR",
+      "priority": 1,
+      "profiles": [
+        {
+          "platform": "instagram",
+          "url": "https://www.instagram.com/manualdomundo/"
+        },
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/@manualdomundo/shorts"
+        }
+      ],
+      "lanes": [
+        "educacao_demonstracao",
+        "curiosidade",
+        "retencao"
+      ],
+      "productionClass": "simple_to_intermediate",
+      "intendedUse": "Estudar explicação visual, demonstração e recompensa compreensível.",
+      "comparabilityGuard": "Priorizar referências replicáveis por criadores e pequenas marcas."
+    },
+    {
+      "id": "portal-drauzio-varella",
+      "name": "Portal Drauzio Varella",
+      "region": "BR",
+      "priority": 1,
+      "profiles": [
+        {
+          "platform": "instagram",
+          "url": "https://www.instagram.com/sitedrauziovarella/"
+        },
+        {
+          "platform": "tiktok",
+          "url": "https://www.tiktok.com/@portaldrauziovarella"
+        },
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/drdrauziovarella"
+        }
+      ],
+      "lanes": [
+        "autoridade_explicacao",
+        "confianca",
+        "objecoes"
+      ],
+      "productionClass": "simple_to_intermediate",
+      "intendedUse": "Estudar autoridade demonstrada, linguagem acessível e confiança sem sensacionalismo.",
+      "comparabilityGuard": "Não transferir autoridade médica ou fama pessoal para segmentos sem credenciais equivalentes."
+    },
+    {
+      "id": "nathalia-arcuri-me-poupe",
+      "name": "Nathalia Arcuri / Me Poupe!",
+      "region": "BR",
+      "priority": 1,
+      "profiles": [
+        {
+          "platform": "instagram",
+          "url": "https://www.instagram.com/nathaliaarcuri/"
+        },
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/mepoupenaweb"
+        }
+      ],
+      "lanes": [
+        "educacao_demonstracao",
+        "humor_comunidade",
+        "oferta_conversao_ou_marca"
+      ],
+      "productionClass": "intermediate",
+      "intendedUse": "Estudar simplificação de finanças, energia de apresentação, humor e chamada para ação.",
+      "comparabilityGuard": "Separar personalidade, base de seguidores e prova real dos mecanismos replicáveis."
+    },
+    {
+      "id": "duolingo-brasil",
+      "name": "Duolingo Brasil",
+      "region": "BR",
+      "priority": 1,
+      "profiles": [
+        {
+          "platform": "instagram",
+          "url": "https://www.instagram.com/duolingobrasil/"
+        },
+        {
+          "platform": "tiktok",
+          "url": "https://www.tiktok.com/@duolingobrasil"
+        }
+      ],
+      "lanes": [
+        "humor_comunidade",
+        "identificacao",
+        "marca"
+      ],
+      "productionClass": "intermediate",
+      "intendedUse": "Estudar voz de marca, trend, personagem e cocriação com a comunidade.",
+      "comparabilityGuard": "Mascote, equipe dedicada e mídia paga impedem comparação direta com um criador comum; usar por mecanismo."
+    },
+    {
+      "id": "nubank",
+      "name": "Nubank",
+      "region": "BR",
+      "priority": 2,
+      "profiles": [
+        {
+          "platform": "instagram",
+          "url": "https://www.instagram.com/nubank/"
+        },
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/@Nubank"
+        }
+      ],
+      "lanes": [
+        "autoridade_explicacao",
+        "comunidade",
+        "marca"
+      ],
+      "productionClass": "intermediate_to_complex",
+      "intendedUse": "Estudar clareza de produto, confiança e educação de serviço financeiro.",
+      "comparabilityGuard": "Marca consolidada e orçamento superior; comparar diretamente apenas com marcas equivalentes."
+    },
+    {
+      "id": "netflix-brasil",
+      "name": "Netflix Brasil",
+      "region": "BR",
+      "priority": 2,
+      "profiles": [
+        {
+          "platform": "instagram",
+          "url": "https://www.instagram.com/netflixbrasil/"
+        },
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/@NetflixBrasil"
+        }
+      ],
+      "lanes": [
+        "humor_comunidade",
+        "storytelling_retencao",
+        "marca"
+      ],
+      "productionClass": "complex",
+      "intendedUse": "Estudar comentário cultural, timing, fandom e reaproveitamento narrativo.",
+      "comparabilityGuard": "Não usar cenas, celebridades ou propriedade intelectual como vantagem replicável; extrair somente mecanismo."
+    },
+    {
+      "id": "tastemade-brasil",
+      "name": "Tastemade Brasil",
+      "region": "BR",
+      "priority": 2,
+      "profiles": [
+        {
+          "platform": "instagram",
+          "url": "https://www.instagram.com/tastemadebr/"
+        },
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/@TastemadeBrasil"
+        }
+      ],
+      "lanes": [
+        "educacao_demonstracao",
+        "retencao",
+        "recompensa"
+      ],
+      "productionClass": "simple_to_intermediate",
+      "intendedUse": "Estudar demonstração, progressão visual, antecipação e recompensa.",
+      "comparabilityGuard": "Separar qualidade de captação do mecanismo narrativo e da clareza da demonstração."
+    },
+    {
+      "id": "canva",
+      "name": "Canva",
+      "region": "GLOBAL",
+      "priority": 2,
+      "profiles": [
+        {
+          "platform": "instagram",
+          "url": "https://www.instagram.com/canva/"
+        },
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/@canva/shorts"
+        }
+      ],
+      "lanes": [
+        "educacao_demonstracao",
+        "oferta_conversao_ou_marca",
+        "ugc"
+      ],
+      "productionClass": "simple_to_intermediate",
+      "intendedUse": "Estudar tutoriais rápidos, demonstração de produto e conteúdo replicável por pequenos negócios.",
+      "comparabilityGuard": "Distinguir tutorial útil de publicidade de produto."
+    },
+    {
+      "id": "ryan-trahan",
+      "name": "Ryan Trahan",
+      "region": "GLOBAL",
+      "priority": 3,
+      "profiles": [
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/@ryan/shorts"
+        }
+      ],
+      "lanes": [
+        "storytelling_retencao",
+        "curiosidade",
+        "recompensa"
+      ],
+      "productionClass": "intermediate",
+      "intendedUse": "Estudar abertura de tensão, progressão, regras narrativas e recompensa.",
+      "comparabilityGuard": "Usar como referência narrativa; não presumir que escala de audiência é replicável."
+    },
+    {
+      "id": "mrbeast",
+      "name": "MrBeast",
+      "region": "GLOBAL",
+      "priority": 3,
+      "profiles": [
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/@MrBeast/shorts"
+        }
+      ],
+      "lanes": [
+        "storytelling_retencao",
+        "curiosidade",
+        "recompensa"
+      ],
+      "productionClass": "complex",
+      "intendedUse": "Estudar mecanismos de promessa, escalada e recompensa.",
+      "comparabilityGuard": "Nunca comparar diretamente com produção comum; usar somente no nível 3, por mecanismo."
+    },
+    {
+      "id": "nike",
+      "name": "Nike",
+      "region": "GLOBAL",
+      "priority": 3,
+      "profiles": [
+        {
+          "platform": "instagram",
+          "url": "https://www.instagram.com/nike/"
+        },
+        {
+          "platform": "youtube",
+          "url": "https://www.youtube.com/@nike"
+        }
+      ],
+      "lanes": [
+        "storytelling_retencao",
+        "aspiracao",
+        "marca"
+      ],
+      "productionClass": "complex",
+      "intendedUse": "Estudar transformação aspiracional, manifesto e síntese de marca.",
+      "comparabilityGuard": "Celebridades e alto orçamento são fatores contingentes; não viram recomendação para usuários comuns."
+    },
+    {
+      "id": "tiktok-business-awards-br",
+      "name": "TikTok For Business — casos premiados no Brasil",
+      "region": "BR",
+      "priority": 1,
+      "profiles": [
+        {
+          "platform": "web",
+          "url": "https://ads.tiktok.com/business/pt-BR/blog"
+        }
+      ],
+      "lanes": [
+        "evidencia_publica",
+        "campanhas",
+        "metricas"
+      ],
+      "productionClass": "mixed",
+      "intendedUse": "Confirmar métricas públicas, contexto de campanha e casos premiados por fonte primária.",
+      "comparabilityGuard": "Caso de campanha não é referência individual de vídeo e não entra em benchmark direto."
+    }
+  ],
+  "updatedAt": "2026-08-30T17:01:37.562Z",
+  "trainingStrategy": {
+    "mode": "concentrated_falsifiable",
+    "roles": [
+      {
+        "role": "target_support",
+        "quota": 3,
+        "purpose": "Buscar três referências funcionalmente comparáveis para a mesma hipótese ou padrão já existente."
+      },
+      {
+        "role": "falsification_or_boundary",
+        "quota": 1,
+        "purpose": "Procurar um contraexemplo genuíno ou caso-limite comparável; caso-limite não conta como contraexemplo."
+      },
+      {
+        "role": "controlled_exploration",
+        "quota": 1,
+        "purpose": "Cobrir uma terceira família criativa sem criar mais de uma hipótese nova no lote."
+      }
+    ],
+    "targetPriority": [
+      "hipótese com dois apoios elegíveis de criadores independentes",
+      "hipótese com um apoio e grupo comparável claramente definido",
+      "padrão provisório sem teste contrário genuíno",
+      "lacuna prioritária da watchlist com cobertura suficiente"
+    ],
+    "rules": [
+      "Não distribuir as cinco vagas por cinco hipóteses diferentes.",
+      "Reapresentar ao curador as hipóteses e padrões candidatos antes de criar hipótese nova.",
+      "Só ligar uma referência a padrão existente por ID explícito e comparação de nível 1 ou 2.",
+      "Uma rodada pode terminar sem novo padrão; precisão e falsificação têm prioridade sobre volume.",
+      "O verificador deve rejeitar lote sem targetKnowledgeId, sem três referências-alvo, sem caso contrário/limite, sem exploração, com mais de uma hipótese nova ou com referência sem papel explícito.",
+      "Apoio só é elegível quando cada alegação registra modalidades exigidas, modalidades observadas e suficiência coerente.",
+      "Histórias da audiência devem registrar origem, estado do consentimento e proteção de identidade; ausência desses dados limita a evidência.",
+      "Hipóteses já consolidadas em padrão não voltam à fila de candidatos."
+    ]
+  },
+  "coveragePolicy": {
+    "discoveryOrder": [
+      "descobrir pelo menos quinze candidatos públicos",
+      "verificar duplicidade",
+      "verificar mídia, transcrição, legenda, descrição, data e métricas",
+      "classificar",
+      "selecionar até cinco"
+    ],
+    "teachableWhen": "Existe conteúdo suficiente para uma observação diretamente sustentada. Material somente promocional ou sem substância é descartado.",
+    "supportEligibleWhen": [
+      "o mecanismo alegado está diretamente observável nas modalidades necessárias",
+      "comparisonLevel é 1 ou 2",
+      "requiredEvidenceObserved é true",
+      "confiança é medium ou high",
+      "a referência e o criador/fonte ainda não foram contados para o mesmo papel"
+    ],
+    "modalityGuard": {
+      "visual": "exige vídeo, quadros ou imagem efetivamente observados",
+      "audio": "exige áudio efetivamente ouvido ou transcrição identificada como substituto apenas para fala",
+      "rhythm_or_editing": "exige vídeo reproduzível; transcrição não basta",
+      "retention": "exige métrica de retenção ou experimento apropriado; estrutura não basta",
+      "commercial_proof": "exige simultaneamente estado anterior ou baseline, intervenção e resultado observado; alegação futura não basta"
+    }
+  },
+  "evidenceRoles": {
+    "support": "Apoio diretamente observado, comparável e elegível para contagem.",
+    "counterexample": "Caso funcionalmente comparável, com cobertura equivalente, em que a previsão do padrão está ausente ou se inverte.",
+    "case_limit": "Material parecido que não mede ou não mostra um componente necessário; refina o limite, mas não apoia nem contradiz.",
+    "context": "Material útil para interpretação, porém não comparável ou insuficiente para contagem."
+  }
+}

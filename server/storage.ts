@@ -17,6 +17,10 @@ function getForgeConfig() {
   return { forgeUrl: forgeUrl.replace(/\/+$/, ""), forgeKey };
 }
 
+function hasForgeConfig() {
+  return Boolean(ENV.forgeApiUrl && ENV.forgeApiKey);
+}
+
 function normalizeKey(relKey: string): string {
   return relKey.replace(/^\/+/, "");
 }
@@ -33,6 +37,14 @@ export async function storagePut(
   data: Buffer | Uint8Array | string,
   contentType = "application/octet-stream",
 ): Promise<{ key: string; url: string }> {
+  if (!hasForgeConfig()) {
+    if (ENV.databaseUrl) {
+      throw new Error("Armazenamento persistente não configurado. Use um link público ou conecte o serviço de arquivos.");
+    }
+    const key = `inline/${appendHashSuffix(normalizeKey(relKey))}`;
+    const payload = typeof data === "string" ? Buffer.from(data) : Buffer.from(data);
+    return { key, url: `data:${contentType};base64,${payload.toString("base64")}` };
+  }
   const { forgeUrl, forgeKey } = getForgeConfig();
   const key = appendHashSuffix(normalizeKey(relKey));
 
