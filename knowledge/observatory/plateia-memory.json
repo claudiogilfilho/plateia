@@ -1,6 +1,6 @@
 {
   "protocol": "plateia-memory/1.0",
-  "updatedAt": "2026-10-02T11:43:22.000Z",
+  "updatedAt": "2026-10-03T11:12:38.000Z",
   "references": [
     {
       "id": "obs-20260823-001",
@@ -62970,6 +62970,1371 @@
         ],
         "causalClaimAllowed": false
       }
+    },
+    {
+      "id": "obs-20261003-241",
+      "title": "ELE EXPLODIU... então FIZEMOS OUTRO! DEU BOM?",
+      "creator": "Manual do Mundo",
+      "creatorIdentity": "manual-do-mundo",
+      "sourceIdentity": "manual-do-mundo",
+      "country": "BR",
+      "url": "https://www.youtube.com/watch?v=6VhEDnVy254",
+      "sourceEvidence": [
+        "https://www.youtube.com/watch?v=6VhEDnVy254"
+      ],
+      "publishedAt": "2026-06-16",
+      "duration": "PT24M37S",
+      "createdAt": "2026-10-02T11:43:22.000Z",
+      "coverage": {
+        "level": "partial",
+        "accessible": [
+          "título, criador, descrição pública integral e data exata",
+          "duração pública de 24 minutos e 37 segundos, 1.025.016 visualizações, 76.727 curtidas e 1.300 comentários indicados em 3 de outubro de 2026",
+          "transcrição automática integral em português até 24 minutos e 38 segundos; fala acessível somente por substituição textual",
+          "descrição e fala ligam a explosão do primeiro pião a desequilíbrio, rotação, estrutura de impressão 3D e gesso não totalmente curado; a segunda construção troca materiais, revê massa e é testada novamente",
+          "vinte comentários públicos amostrados; perguntas e elogios não constituem teste de compreensão ou segurança"
+        ],
+        "missing": [
+          "vídeo reproduzido ou auditado quadro a quadro",
+          "imagem em movimento efetivamente observada",
+          "capa ou outra imagem adquirida",
+          "áudio ouvido",
+          "texto na tela",
+          "edição",
+          "ritmo",
+          "curva de retenção",
+          "impressões e fontes de tráfego",
+          "mídia paga",
+          "teste representativo de compreensão ou confiança",
+          "comparação causal controlada",
+          "reprodução independente do resultado",
+          "medição instrumental das forças e da rotação",
+          "auditoria visual da explosão e do teste final"
+        ]
+      },
+      "publicMetrics": {
+        "viewsObserved": 1025016,
+        "likesObserved": 76727,
+        "commentsObserved": 1300,
+        "commentsSampled": 20,
+        "observedAt": "2026-10-02",
+        "sourceType": "youtube_public_watch_metadata_full_description_full_automatic_transcript_and_20_public_comments",
+        "causality": "not_inferred"
+      },
+      "classification": {
+        "taxonomyVersion": "3.0",
+        "container": "youtube_video",
+        "materialFormat": "video_longo",
+        "presentationFormats": [
+          "demonstracao",
+          "bastidores",
+          "camera_direta"
+        ],
+        "primaryFamily": "demonstracao",
+        "secondaryFamilies": [
+          "transformacao",
+          "educativo"
+        ],
+        "functionalMix": [
+          {
+            "family": "demonstracao",
+            "percentage": 50
+          },
+          {
+            "family": "transformacao",
+            "percentage": 30
+          },
+          {
+            "family": "educativo",
+            "percentage": 20
+          }
+        ],
+        "objectives": [
+          "educar",
+          "visualizacao",
+          "confianca"
+        ],
+        "advertisingType": "editorial_organico",
+        "commercialIntent": "ausente",
+        "advertisedEntity": {
+          "kind": "nenhuma",
+          "name": "",
+          "confidence": "high"
+        },
+        "contentTopic": {
+          "label": "reconstrução e teste de um pião gigante após falha estrutural",
+          "iabCode": null
+        },
+        "segment": "ciência e engenharia maker",
+        "subsegment": "rotação, materiais e prototipagem",
+        "probableAudience": "público geral interessado em ciência, construção e projetos maker",
+        "awarenessStage": "inconsciente",
+        "productionLevel": "complex",
+        "creatorScale": "large",
+        "replicability": "medium",
+        "durationBand": "over_60s",
+        "pace": "unknown",
+        "mechanisms": [
+          "curiosidade",
+          "surpresa",
+          "confianca",
+          "recompensa"
+        ],
+        "hookTypes": [
+          "conflito",
+          "resultado_antecipado"
+        ],
+        "narrativeElements": [
+          "problema",
+          "tentativa",
+          "mecanismo",
+          "progressao",
+          "virada",
+          "conclusao"
+        ],
+        "proofTypes": [
+          "demonstracao",
+          "mecanismo_explicado"
+        ],
+        "ctaTypes": [
+          "seguir"
+        ],
+        "distributionContext": {
+          "organicPaid": "unknown",
+          "trendDependency": "low"
+        },
+        "confidence": "high",
+        "evidence": [
+          "A descrição recupera o desfecho não planejado do primeiro pião e promete uma versão resistente e equilibrada.",
+          "A fala relaciona a falha anterior a materiais, cura incompleta, desequilíbrio e rotação; essas relações permanecem hipóteses do criador, não ensaio causal.",
+          "A revisão troca a casca e o preenchimento por camadas de MDF e EVA, revê a massa e descreve novo teste estável."
+        ],
+        "alternativeClassifications": [],
+        "missingInformation": [
+          "vídeo reproduzido ou auditado quadro a quadro",
+          "imagem em movimento efetivamente observada",
+          "capa ou outra imagem adquirida",
+          "áudio ouvido",
+          "texto na tela",
+          "edição",
+          "ritmo",
+          "curva de retenção",
+          "impressões e fontes de tráfego",
+          "mídia paga"
+        ],
+        "needsHumanReview": true
+      },
+      "comparison": {
+        "level": 2,
+        "group": "demonstração ou protótipo que mantém uma falha observável, nomeia uma variável ou limite e executa uma revisão rastreável",
+        "referenceIds": [
+          "obs-20261003-242",
+          "obs-20261003-243"
+        ],
+        "confidence": "high"
+      },
+      "observations": [
+        "A falha anterior não é apagada: ela organiza a escolha de materiais, o balanceamento e o limite de velocidade da segunda versão.",
+        "O criador distingue cálculo prévio, hipótese de causa e resultado declarado do novo teste.",
+        "A escala, a oficina e a popularidade são contexto; não demonstram compreensão ou retenção."
+      ],
+      "interpretations": [
+        "Preservar a falha e nomear o que foi alterado torna a revisão do protótipo rastreável na fala.",
+        "Sem audiovisual e medição independente, não se conclui que cada variável causou a melhora."
+      ],
+      "scores": {
+        "gancho": 94,
+        "clareza": 92,
+        "relevancia": 87,
+        "desejo": 82,
+        "confianca": 84,
+        "retencao": "not_assessed",
+        "acao": 68,
+        "objecoes": 79
+      },
+      "fiveLenses": {
+        "apressado": "Entende de imediato que houve explosão e uma segunda tentativa.",
+        "analitico": "Consegue rastrear materiais, massa, equilíbrio e rotação, mas pede medições e controle de variáveis.",
+        "aspiracional": "Vê uma falha convertida em projeto revisado.",
+        "comunidade": "Comentários trazem perguntas e entusiasmo, sem teste representativo.",
+        "cetico": "Separa a hipótese verbal sobre a causa de uma demonstração causal independente."
+      },
+      "hypotheses": [],
+      "replicable": [
+        "Recuperar a falha antes da nova tentativa.",
+        "Nomear materiais, limites e decisões alteradas.",
+        "Distinguir hipótese de causa do resultado do reteste."
+      ],
+      "limitations": [
+        "Projeto, oficina e orçamento são pouco replicáveis.",
+        "Hipóteses de causa não foram isoladas.",
+        "Audiovisual e retenção não foram observados."
+      ],
+      "provenance": [
+        "public_content",
+        "youtube_public_metadata",
+        "public_search",
+        "youtube_automatic_transcript",
+        "public_metric",
+        "observatory_inference",
+        "youtube_public_comments"
+      ],
+      "training": {
+        "evidencePolicyVersion": "1.1",
+        "evidenceRole": "target_support",
+        "evidenceLevel": 2,
+        "requiredEvidenceObserved": true,
+        "supportEligible": true,
+        "claimCoverage": [
+          {
+            "claim": "a fala liga a falha anterior a variáveis e registra uma revisão seguida de novo teste",
+            "requiredModalities": [
+              "description",
+              "transcript"
+            ],
+            "observedModalities": [
+              "description",
+              "transcript"
+            ],
+            "sufficient": true
+          }
+        ],
+        "provenanceAndConsent": {
+          "storyOrigin": "conteúdo editorial público do próprio canal; experiência própria ou demonstração pública",
+          "consentStatus": "not_applicable",
+          "identityProtection": "not_applicable",
+          "evidence": [
+            "nenhum relato privado identificável de terceiro foi ensinado"
+          ]
+        },
+        "replicable": [
+          "Recuperar a falha antes da nova tentativa.",
+          "Nomear materiais, limites e decisões alteradas.",
+          "Distinguir hipótese de causa do resultado do reteste."
+        ],
+        "contingent": [
+          "Projeto, oficina e orçamento são pouco replicáveis.",
+          "Hipóteses de causa não foram isoladas.",
+          "Audiovisual e retenção não foram observados."
+        ],
+        "notRecommended": [
+          "copiar frase, personagem, promessa, produto ou roteiro",
+          "tratar visualizações, fama, comentários, escala ou orçamento como causa de desempenho",
+          "repetir demonstrações com fogo, combustíveis, estruturas pesadas ou componentes pressurizados sem avaliação de segurança",
+          "tratar uma tentativa melhor, depoimento ou rótulo de falso como prova causal",
+          "inferir cena, áudio, texto na tela, edição, ritmo ou retenção sem mídia reproduzida"
+        ],
+        "hypotheses": []
+      },
+      "viralAssessment": {
+        "status": "indeterminate",
+        "observedSignal": 1025016,
+        "missingForRelativeAssessment": [
+          "coorte funcional contemporânea homogênea",
+          "retenção",
+          "impressões",
+          "fontes de tráfego",
+          "mídia paga"
+        ],
+        "confounders": [
+          "tamanho do canal",
+          "idade do vídeo",
+          "tema",
+          "distribuição"
+        ],
+        "causalClaimAllowed": false
+      }
+    },
+    {
+      "id": "obs-20261003-242",
+      "title": "AGORA FOI! - Mudei TUDO, FUREI O PISTÃO e o TETO FUNCIONOU! - TETO POP UP PARA KOMBIHOME",
+      "creator": "Philomena Estradeira",
+      "creatorIdentity": "philomena-estradeira",
+      "sourceIdentity": "philomena-estradeira",
+      "country": "BR",
+      "url": "https://www.youtube.com/watch?v=VeWC1oA8hLA",
+      "sourceEvidence": [
+        "https://www.youtube.com/watch?v=VeWC1oA8hLA"
+      ],
+      "publishedAt": "2021-09-19",
+      "duration": "PT15M48S",
+      "createdAt": "2026-10-02T11:43:22.000Z",
+      "coverage": {
+        "level": "partial",
+        "accessible": [
+          "título, criador, descrição pública integral e data exata",
+          "duração pública de 15 minutos e 48 segundos, 25.004 visualizações, 1.970 curtidas e 75 comentários indicados em 3 de outubro de 2026",
+          "transcrição automática integral em português até 15 minutos e 49 segundos; fala acessível somente por substituição textual e com alguns termos ruidosos",
+          "descrição e fala registram teto que não fechava, testes de ângulo, identificação da força excessiva dos amortecedores, tentativa intermediária e substituição por suportes articulados de metal",
+          "vinte comentários públicos amostrados; um comentário declara intenção de aplicar a ideia, sem confirmar execução"
+        ],
+        "missing": [
+          "vídeo reproduzido ou auditado quadro a quadro",
+          "imagem em movimento efetivamente observada",
+          "capa ou outra imagem adquirida",
+          "áudio ouvido",
+          "texto na tela",
+          "edição",
+          "ritmo",
+          "curva de retenção",
+          "impressões e fontes de tráfego",
+          "mídia paga",
+          "teste representativo de compreensão ou confiança",
+          "comparação causal controlada",
+          "reprodução independente do resultado",
+          "cálculo estrutural independente",
+          "auditoria visual do movimento, das travas e da segurança"
+        ]
+      },
+      "publicMetrics": {
+        "viewsObserved": 25004,
+        "likesObserved": 1970,
+        "commentsObserved": 75,
+        "commentsSampled": 20,
+        "observedAt": "2026-10-02",
+        "sourceType": "youtube_public_watch_metadata_full_description_full_automatic_transcript_and_20_public_comments",
+        "causality": "not_inferred"
+      },
+      "classification": {
+        "taxonomyVersion": "3.0",
+        "container": "youtube_video",
+        "materialFormat": "video_longo",
+        "presentationFormats": [
+          "demonstracao",
+          "bastidores",
+          "transformacao"
+        ],
+        "primaryFamily": "transformacao",
+        "secondaryFamilies": [
+          "demonstracao",
+          "storytelling"
+        ],
+        "functionalMix": [
+          {
+            "family": "transformacao",
+            "percentage": 45
+          },
+          {
+            "family": "demonstracao",
+            "percentage": 35
+          },
+          {
+            "family": "storytelling",
+            "percentage": 20
+          }
+        ],
+        "objectives": [
+          "apresentar_solucao",
+          "educar",
+          "confianca"
+        ],
+        "advertisingType": "editorial_organico",
+        "commercialIntent": "ausente",
+        "advertisedEntity": {
+          "kind": "nenhuma",
+          "name": "",
+          "confidence": "high"
+        },
+        "contentTopic": {
+          "label": "revisão do mecanismo de teto elevatório de uma Kombi",
+          "iabCode": null
+        },
+        "segment": "faça você mesmo e construção veicular",
+        "subsegment": "protótipo de teto pop-up",
+        "probableAudience": "pessoas construindo motorhomes e interessadas em soluções maker",
+        "awarenessStage": "consciente_solucao",
+        "productionLevel": "intermediate",
+        "creatorScale": "small",
+        "replicability": "high",
+        "durationBand": "over_60s",
+        "pace": "unknown",
+        "mechanisms": [
+          "curiosidade",
+          "alivio",
+          "confianca",
+          "recompensa"
+        ],
+        "hookTypes": [
+          "resultado_antecipado",
+          "conflito"
+        ],
+        "narrativeElements": [
+          "problema",
+          "tentativa",
+          "mecanismo",
+          "virada",
+          "transformacao",
+          "conclusao"
+        ],
+        "proofTypes": [
+          "demonstracao",
+          "mecanismo_explicado"
+        ],
+        "ctaTypes": [
+          "seguir"
+        ],
+        "distributionContext": {
+          "organicPaid": "unknown",
+          "trendDependency": "low"
+        },
+        "confidence": "high",
+        "evidence": [
+          "A descrição informa abandono da estrutura anterior e adoção de outro mecanismo.",
+          "A fala diz que trocar o ângulo não resolveu e atribui o bloqueio à força e à geometria dos amortecedores.",
+          "Uma unidade articulada é montada e testada antes de ser replicada; o funcionamento final é declarado na fala e no título."
+        ],
+        "alternativeClassifications": [],
+        "missingInformation": [
+          "vídeo reproduzido ou auditado quadro a quadro",
+          "imagem em movimento efetivamente observada",
+          "capa ou outra imagem adquirida",
+          "áudio ouvido",
+          "texto na tela",
+          "edição",
+          "ritmo",
+          "curva de retenção",
+          "impressões e fontes de tráfego",
+          "mídia paga"
+        ],
+        "needsHumanReview": true
+      },
+      "comparison": {
+        "level": 2,
+        "group": "demonstração ou protótipo que mantém uma falha observável, nomeia uma variável ou limite e executa uma revisão rastreável",
+        "referenceIds": [
+          "obs-20261003-241",
+          "obs-20261003-243"
+        ],
+        "confidence": "medium"
+      },
+      "observations": [
+        "O vídeo preserva tentativas anteriores, elimina uma hipótese de ângulo e explica por que o amortecedor impedia o fechamento.",
+        "O plano B é prototipado em uma peça antes da replicação, tornando a revisão rastreável na fala.",
+        "Perfurar um amortecedor apesar do aviso de não perfurar é risco observável e não foi extraído como princípio replicável."
+      ],
+      "interpretations": [
+        "Falha, diagnóstico e protótipo intermediário formam uma cadeia de revisão comparável ao alvo.",
+        "O resultado declarado não substitui cálculo estrutural, teste de segurança ou auditoria visual."
+      ],
+      "scores": {
+        "gancho": 90,
+        "clareza": 87,
+        "relevancia": 91,
+        "desejo": 79,
+        "confianca": 73,
+        "retencao": "not_assessed",
+        "acao": 70,
+        "objecoes": 67
+      },
+      "fiveLenses": {
+        "apressado": "Recebe cedo que o teto finalmente funcionará após mudanças.",
+        "analitico": "Rastreia hipótese, força do amortecedor, plano B e protótipo; pede cálculo e ensaio de segurança.",
+        "aspiracional": "Vê uma construção travada avançar por revisão concreta.",
+        "comunidade": "Um comentário declara intenção de uso, mas não demonstra execução segura.",
+        "cetico": "Rejeita a perfuração do amortecedor como conselho e exige validação estrutural."
+      },
+      "hypotheses": [],
+      "replicable": [
+        "Registrar as hipóteses já testadas.",
+        "Explicar por que o mecanismo anterior limitava o projeto.",
+        "Prototipar uma unidade antes de replicar."
+      ],
+      "limitations": [
+        "A solução física depende do veículo e da estrutura.",
+        "A perfuração do amortecedor não é recomendável.",
+        "Mídia, segurança e retenção não foram auditadas."
+      ],
+      "provenance": [
+        "public_content",
+        "youtube_public_metadata",
+        "public_search",
+        "youtube_automatic_transcript",
+        "public_metric",
+        "observatory_inference",
+        "youtube_public_comments"
+      ],
+      "training": {
+        "evidencePolicyVersion": "1.1",
+        "evidenceRole": "target_support",
+        "evidenceLevel": 2,
+        "requiredEvidenceObserved": true,
+        "supportEligible": true,
+        "claimCoverage": [
+          {
+            "claim": "a fala liga falha, diagnóstico, mudança de mecanismo e teste do protótipo",
+            "requiredModalities": [
+              "description",
+              "transcript"
+            ],
+            "observedModalities": [
+              "description",
+              "transcript"
+            ],
+            "sufficient": true
+          }
+        ],
+        "provenanceAndConsent": {
+          "storyOrigin": "conteúdo editorial público do próprio canal; experiência própria ou demonstração pública",
+          "consentStatus": "not_applicable",
+          "identityProtection": "not_applicable",
+          "evidence": [
+            "nenhum relato privado identificável de terceiro foi ensinado"
+          ]
+        },
+        "replicable": [
+          "Registrar as hipóteses já testadas.",
+          "Explicar por que o mecanismo anterior limitava o projeto.",
+          "Prototipar uma unidade antes de replicar."
+        ],
+        "contingent": [
+          "A solução física depende do veículo e da estrutura.",
+          "A perfuração do amortecedor não é recomendável.",
+          "Mídia, segurança e retenção não foram auditadas."
+        ],
+        "notRecommended": [
+          "copiar frase, personagem, promessa, produto ou roteiro",
+          "tratar visualizações, fama, comentários, escala ou orçamento como causa de desempenho",
+          "repetir demonstrações com fogo, combustíveis, estruturas pesadas ou componentes pressurizados sem avaliação de segurança",
+          "tratar uma tentativa melhor, depoimento ou rótulo de falso como prova causal",
+          "inferir cena, áudio, texto na tela, edição, ritmo ou retenção sem mídia reproduzida"
+        ],
+        "hypotheses": []
+      },
+      "viralAssessment": {
+        "status": "indeterminate",
+        "observedSignal": 25004,
+        "missingForRelativeAssessment": [
+          "coorte funcional contemporânea homogênea",
+          "retenção",
+          "impressões",
+          "fontes de tráfego",
+          "mídia paga"
+        ],
+        "confounders": [
+          "tamanho do canal",
+          "idade do vídeo",
+          "tema",
+          "distribuição"
+        ],
+        "causalClaimAllowed": false
+      }
+    },
+    {
+      "id": "obs-20261003-243",
+      "title": "Carbon snake, bi-carb version, part 2 (including reaction equations)",
+      "creator": "Science with Heen",
+      "creatorIdentity": "science-with-heen",
+      "sourceIdentity": "science-with-heen",
+      "country": "INT",
+      "url": "https://www.youtube.com/watch?v=qmg9bwsmXKA",
+      "sourceEvidence": [
+        "https://www.youtube.com/watch?v=qmg9bwsmXKA"
+      ],
+      "publishedAt": "2021-04-10",
+      "duration": "PT23M7S",
+      "createdAt": "2026-10-02T11:43:22.000Z",
+      "coverage": {
+        "level": "partial",
+        "accessible": [
+          "título, criador, descrição pública integral e data exata",
+          "duração pública de 23 minutos e 7 segundos, 60 visualizações e uma curtida indicadas em 3 de outubro de 2026; contagem pública de comentários não mensurada",
+          "transcrição automática integral em inglês até 23 minutos e 6 segundos; fala acessível somente por substituição textual",
+          "descrição e fala identificam a segunda tentativa, a mudança da ordem entre combustível e mistura, o resultado melhor e as equações das reações",
+          "nenhum comentário público foi retornado na coleta"
+        ],
+        "missing": [
+          "vídeo reproduzido ou auditado quadro a quadro",
+          "imagem em movimento efetivamente observada",
+          "capa ou outra imagem adquirida",
+          "áudio ouvido",
+          "texto na tela",
+          "edição",
+          "ritmo",
+          "curva de retenção",
+          "impressões e fontes de tráfego",
+          "mídia paga",
+          "teste representativo de compreensão ou confiança",
+          "comparação causal controlada",
+          "reprodução independente do resultado",
+          "quantidades exatas e repetição controlada",
+          "auditoria visual do crescimento da serpente",
+          "métrica pública de comentários"
+        ]
+      },
+      "publicMetrics": {
+        "viewsObserved": 60,
+        "likesObserved": 1,
+        "commentsObserved": "not_assessed",
+        "commentsSampled": 0,
+        "observedAt": "2026-10-02",
+        "sourceType": "youtube_public_watch_metadata_full_description_and_full_automatic_transcript",
+        "causality": "not_inferred"
+      },
+      "classification": {
+        "taxonomyVersion": "3.0",
+        "container": "youtube_video",
+        "materialFormat": "video_longo",
+        "presentationFormats": [
+          "demonstracao",
+          "tutorial",
+          "camera_direta"
+        ],
+        "primaryFamily": "demonstracao",
+        "secondaryFamilies": [
+          "educativo",
+          "explicativo"
+        ],
+        "functionalMix": [
+          {
+            "family": "demonstracao",
+            "percentage": 50
+          },
+          {
+            "family": "educativo",
+            "percentage": 30
+          },
+          {
+            "family": "explicativo",
+            "percentage": 20
+          }
+        ],
+        "objectives": [
+          "educar",
+          "confianca",
+          "visualizacao"
+        ],
+        "advertisingType": "editorial_organico",
+        "commercialIntent": "ausente",
+        "advertisedEntity": {
+          "kind": "nenhuma",
+          "name": "",
+          "confidence": "high"
+        },
+        "contentTopic": {
+          "label": "segunda tentativa de serpente de carbono com bicarbonato",
+          "iabCode": null
+        },
+        "segment": "ciência e educação",
+        "subsegment": "química experimental",
+        "probableAudience": "estudantes e educadores interessados em reações químicas",
+        "awarenessStage": "consciente_solucao",
+        "productionLevel": "simple",
+        "creatorScale": "small",
+        "replicability": "high",
+        "durationBand": "over_60s",
+        "pace": "unknown",
+        "mechanisms": [
+          "curiosidade",
+          "confianca",
+          "recompensa"
+        ],
+        "hookTypes": [
+          "narrativo",
+          "problema"
+        ],
+        "narrativeElements": [
+          "problema",
+          "tentativa",
+          "mecanismo",
+          "progressao",
+          "conclusao"
+        ],
+        "proofTypes": [
+          "demonstracao",
+          "mecanismo_explicado",
+          "dado"
+        ],
+        "ctaTypes": [],
+        "distributionContext": {
+          "organicPaid": "unknown",
+          "trendDependency": "low"
+        },
+        "confidence": "high",
+        "evidence": [
+          "A descrição declara que esta é a segunda tentativa e que funcionou melhor.",
+          "A fala muda explicitamente a ordem: combustível na areia antes da mistura de açúcar e bicarbonato.",
+          "Após o resultado declarado melhor, a fala explica decomposição, combustão e produção de gases por equações."
+        ],
+        "alternativeClassifications": [],
+        "missingInformation": [
+          "vídeo reproduzido ou auditado quadro a quadro",
+          "imagem em movimento efetivamente observada",
+          "capa ou outra imagem adquirida",
+          "áudio ouvido",
+          "texto na tela",
+          "edição",
+          "ritmo",
+          "curva de retenção",
+          "impressões e fontes de tráfego",
+          "mídia paga"
+        ],
+        "needsHumanReview": true
+      },
+      "comparison": {
+        "level": 1,
+        "group": "demonstração ou protótipo que mantém uma falha observável, nomeia uma variável ou limite e executa uma revisão rastreável",
+        "referenceIds": [
+          "obs-20261003-241",
+          "obs-20261003-242"
+        ],
+        "confidence": "high"
+      },
+      "observations": [
+        "A falha anterior é mantida como ponto de partida, uma variável operacional é alterada e o resultado comparativo é declarado.",
+        "A explicação química vem depois da revisão do procedimento.",
+        "Fogo e etanol exigem supervisão e controle; replicabilidade estrutural não é recomendação de execução doméstica."
+      ],
+      "interpretations": [
+        "Nomear a única alteração principal antes do reteste torna a comparação especialmente rastreável.",
+        "Uma tentativa melhor não isola causalidade sem quantidades, repetição e controle."
+      ],
+      "scores": {
+        "gancho": 78,
+        "clareza": 94,
+        "relevancia": 88,
+        "desejo": 70,
+        "confianca": 86,
+        "retencao": "not_assessed",
+        "acao": 62,
+        "objecoes": 82
+      },
+      "fiveLenses": {
+        "apressado": "Entende pela descrição que é a segunda tentativa e houve melhora.",
+        "analitico": "Encontra a variável alterada e equações, mas pede quantidades e repetição.",
+        "aspiracional": "Vê uma falha convertida em explicação química.",
+        "comunidade": "Nenhum comentário público foi retornado.",
+        "cetico": "Aceita a rastreabilidade e rejeita causalidade sem controle."
+      },
+      "hypotheses": [],
+      "replicable": [
+        "Declarar que se trata de uma segunda tentativa.",
+        "Nomear a alteração operacional antes do reteste.",
+        "Explicar o mecanismo depois do resultado."
+      ],
+      "limitations": [
+        "Fogo e etanol exigem controle de segurança.",
+        "Uma única repetição não prova causalidade.",
+        "Audiovisual e retenção não foram observados."
+      ],
+      "provenance": [
+        "public_content",
+        "youtube_public_metadata",
+        "public_search",
+        "youtube_automatic_transcript",
+        "public_metric",
+        "observatory_inference",
+        "youtube_public_comments"
+      ],
+      "training": {
+        "evidencePolicyVersion": "1.1",
+        "evidenceRole": "target_support",
+        "evidenceLevel": 1,
+        "requiredEvidenceObserved": true,
+        "supportEligible": true,
+        "claimCoverage": [
+          {
+            "claim": "a fala nomeia a ordem alterada, o resultado melhor e o mecanismo químico",
+            "requiredModalities": [
+              "description",
+              "transcript"
+            ],
+            "observedModalities": [
+              "description",
+              "transcript"
+            ],
+            "sufficient": true
+          }
+        ],
+        "provenanceAndConsent": {
+          "storyOrigin": "conteúdo editorial público do próprio canal; experiência própria ou demonstração pública",
+          "consentStatus": "not_applicable",
+          "identityProtection": "not_applicable",
+          "evidence": [
+            "nenhum relato privado identificável de terceiro foi ensinado"
+          ]
+        },
+        "replicable": [
+          "Declarar que se trata de uma segunda tentativa.",
+          "Nomear a alteração operacional antes do reteste.",
+          "Explicar o mecanismo depois do resultado."
+        ],
+        "contingent": [
+          "Fogo e etanol exigem controle de segurança.",
+          "Uma única repetição não prova causalidade.",
+          "Audiovisual e retenção não foram observados."
+        ],
+        "notRecommended": [
+          "copiar frase, personagem, promessa, produto ou roteiro",
+          "tratar visualizações, fama, comentários, escala ou orçamento como causa de desempenho",
+          "repetir demonstrações com fogo, combustíveis, estruturas pesadas ou componentes pressurizados sem avaliação de segurança",
+          "tratar uma tentativa melhor, depoimento ou rótulo de falso como prova causal",
+          "inferir cena, áudio, texto na tela, edição, ritmo ou retenção sem mídia reproduzida"
+        ],
+        "hypotheses": []
+      },
+      "viralAssessment": {
+        "status": "indeterminate",
+        "observedSignal": 60,
+        "missingForRelativeAssessment": [
+          "coorte funcional contemporânea homogênea",
+          "retenção",
+          "impressões",
+          "fontes de tráfego",
+          "mídia paga"
+        ],
+        "confounders": [
+          "tamanho do canal",
+          "idade do vídeo",
+          "tema",
+          "distribuição"
+        ],
+        "causalClaimAllowed": false
+      }
+    },
+    {
+      "id": "obs-20261003-244",
+      "title": "Testei os experimentos mais virais do YouTube (deu ruim)",
+      "creator": "Bia On",
+      "creatorIdentity": "bia-on",
+      "sourceIdentity": "bia-on",
+      "country": "BR",
+      "url": "https://www.youtube.com/watch?v=Hs288TLlPgw",
+      "sourceEvidence": [
+        "https://www.youtube.com/watch?v=Hs288TLlPgw"
+      ],
+      "publishedAt": "2026-04-12",
+      "duration": "PT9M39S",
+      "createdAt": "2026-10-02T11:43:22.000Z",
+      "coverage": {
+        "level": "partial",
+        "accessible": [
+          "título, criador, descrição pública integral e data exata",
+          "duração pública de 9 minutos e 39 segundos, 120 visualizações, 26 curtidas e 14 comentários indicados em 3 de outubro de 2026",
+          "transcrição automática integral em português até 9 minutos e 41 segundos; fala acessível somente por substituição textual e com trechos ruidosos",
+          "fala registra várias tentativas, resultados ausentes, vento como possível interferência em um teste e julgamentos de que desafios eram falsos",
+          "todos os 14 comentários públicos retornados foram amostrados; elogios e pedidos não testam o procedimento"
+        ],
+        "missing": [
+          "vídeo reproduzido ou auditado quadro a quadro",
+          "imagem em movimento efetivamente observada",
+          "capa ou outra imagem adquirida",
+          "áudio ouvido",
+          "texto na tela",
+          "edição",
+          "ritmo",
+          "curva de retenção",
+          "impressões e fontes de tráfego",
+          "mídia paga",
+          "teste representativo de compreensão ou confiança",
+          "comparação causal controlada",
+          "reprodução independente do resultado",
+          "procedimentos completos de cada teste",
+          "controle das interferências",
+          "auditoria visual dos resultados"
+        ]
+      },
+      "publicMetrics": {
+        "viewsObserved": 120,
+        "likesObserved": 26,
+        "commentsObserved": 14,
+        "commentsSampled": 14,
+        "observedAt": "2026-10-02",
+        "sourceType": "youtube_public_watch_metadata_full_description_full_automatic_transcript_and_complete_comment_sample",
+        "causality": "not_inferred"
+      },
+      "classification": {
+        "taxonomyVersion": "3.0",
+        "container": "youtube_video",
+        "materialFormat": "video_longo",
+        "presentationFormats": [
+          "reacao",
+          "demonstracao",
+          "montagem"
+        ],
+        "primaryFamily": "reacao",
+        "secondaryFamilies": [
+          "comparacao",
+          "entretenimento"
+        ],
+        "functionalMix": [
+          {
+            "family": "reacao",
+            "percentage": 45
+          },
+          {
+            "family": "comparacao",
+            "percentage": 30
+          },
+          {
+            "family": "entretenimento",
+            "percentage": 25
+          }
+        ],
+        "objectives": [
+          "visualizacao",
+          "comentario"
+        ],
+        "advertisingType": "editorial_organico",
+        "commercialIntent": "ausente",
+        "advertisedEntity": {
+          "kind": "nenhuma",
+          "name": "",
+          "confidence": "high"
+        },
+        "contentTopic": {
+          "label": "teste de experimentos virais",
+          "iabCode": null
+        },
+        "segment": "entretenimento e ciência caseira",
+        "subsegment": "checagem informal de desafios virais",
+        "probableAudience": "público jovem interessado em desafios e experimentos",
+        "awarenessStage": "inconsciente",
+        "productionLevel": "simple",
+        "creatorScale": "small",
+        "replicability": "high",
+        "durationBand": "over_60s",
+        "pace": "unknown",
+        "mechanisms": [
+          "curiosidade",
+          "surpresa",
+          "humor"
+        ],
+        "hookTypes": [
+          "promessa",
+          "conflito"
+        ],
+        "narrativeElements": [
+          "promessa",
+          "tentativa",
+          "problema",
+          "progressao",
+          "cta"
+        ],
+        "proofTypes": [
+          "demonstracao",
+          "ausencia_prova_necessaria"
+        ],
+        "ctaTypes": [
+          "seguir",
+          "comentar"
+        ],
+        "distributionContext": {
+          "organicPaid": "unknown",
+          "trendDependency": "low"
+        },
+        "confidence": "high",
+        "evidence": [
+          "A fala repete testes e registra que alguns não produziram o efeito esperado.",
+          "Vento é mencionado como possível interferência em um teste, mas não é controlado.",
+          "O rótulo de falso aparece antes de isolar erro de execução, material, ambiente ou premissa."
+        ],
+        "alternativeClassifications": [],
+        "missingInformation": [
+          "vídeo reproduzido ou auditado quadro a quadro",
+          "imagem em movimento efetivamente observada",
+          "capa ou outra imagem adquirida",
+          "áudio ouvido",
+          "texto na tela",
+          "edição",
+          "ritmo",
+          "curva de retenção",
+          "impressões e fontes de tráfego",
+          "mídia paga"
+        ],
+        "needsHumanReview": true
+      },
+      "comparison": {
+        "level": 2,
+        "group": "demonstração ou protótipo que mantém uma falha observável, nomeia uma variável ou limite e executa uma revisão rastreável",
+        "referenceIds": [
+          "obs-20261003-241",
+          "obs-20261003-242",
+          "obs-20261003-243"
+        ],
+        "confidence": "medium"
+      },
+      "observations": [
+        "A falha permanece na narrativa, mas as variáveis não são isoladas de modo rastreável.",
+        "A possibilidade de vento ou erro de execução é reconhecida e depois substituída por julgamento amplo de falsidade.",
+        "Chama, álcool e luva rasgada aparecem na fala; o conteúdo não foi tratado como instrução segura."
+      ],
+      "interpretations": [
+        "É caso-limite, não contraexemplo: mostrar que algo falhou não basta para transformar a falha em explicação.",
+        "Uma checagem informal precisa separar premissa falsa, erro de execução e interferência ambiental."
+      ],
+      "scores": {
+        "gancho": 86,
+        "clareza": 69,
+        "relevancia": 76,
+        "desejo": 72,
+        "confianca": 43,
+        "retencao": "not_assessed",
+        "acao": 78,
+        "objecoes": 41
+      },
+      "fiveLenses": {
+        "apressado": "Entende a promessa de testar virais e ver falhas.",
+        "analitico": "Não recebe controle suficiente para distinguir falsidade de execução ruim.",
+        "aspiracional": "Vê tentativa e erro, mas pouco aprendizado transferível.",
+        "comunidade": "Comentários celebram o vídeo; não corrigem ou reproduzem os testes.",
+        "cetico": "Rejeita o rótulo de falso sem isolamento de alternativas."
+      },
+      "hypotheses": [],
+      "replicable": [
+        "Manter falhas reais em uma checagem.",
+        "Declarar possíveis interferências."
+      ],
+      "limitations": [
+        "O tom de reação é parte do entretenimento.",
+        "Procedimentos e resultados não foram auditados visualmente.",
+        "Comentários e métricas não provam acerto."
+      ],
+      "provenance": [
+        "public_content",
+        "youtube_public_metadata",
+        "public_search",
+        "youtube_automatic_transcript",
+        "public_metric",
+        "observatory_inference",
+        "youtube_public_comments"
+      ],
+      "training": {
+        "evidencePolicyVersion": "1.1",
+        "evidenceRole": "falsification_or_boundary",
+        "evidenceLevel": 2,
+        "requiredEvidenceObserved": false,
+        "supportEligible": false,
+        "claimCoverage": [
+          {
+            "claim": "a fala registra tentativas, falhas e uma possível interferência",
+            "requiredModalities": [
+              "transcript"
+            ],
+            "observedModalities": [
+              "transcript"
+            ],
+            "sufficient": true
+          },
+          {
+            "claim": "os experimentos virais eram falsos",
+            "requiredModalities": [
+              "controlled_reproduction",
+              "visual_result",
+              "materials_audit"
+            ],
+            "observedModalities": [],
+            "sufficient": false
+          }
+        ],
+        "provenanceAndConsent": {
+          "storyOrigin": "conteúdo editorial público do próprio canal; experiência própria ou demonstração pública",
+          "consentStatus": "not_applicable",
+          "identityProtection": "not_applicable",
+          "evidence": [
+            "nenhum relato privado identificável de terceiro foi ensinado"
+          ]
+        },
+        "replicable": [
+          "Manter falhas reais em uma checagem.",
+          "Declarar possíveis interferências."
+        ],
+        "contingent": [
+          "O tom de reação é parte do entretenimento.",
+          "Procedimentos e resultados não foram auditados visualmente.",
+          "Comentários e métricas não provam acerto."
+        ],
+        "notRecommended": [
+          "copiar frase, personagem, promessa, produto ou roteiro",
+          "tratar visualizações, fama, comentários, escala ou orçamento como causa de desempenho",
+          "repetir demonstrações com fogo, combustíveis, estruturas pesadas ou componentes pressurizados sem avaliação de segurança",
+          "tratar uma tentativa melhor, depoimento ou rótulo de falso como prova causal",
+          "inferir cena, áudio, texto na tela, edição, ritmo ou retenção sem mídia reproduzida"
+        ],
+        "hypotheses": []
+      },
+      "viralAssessment": {
+        "status": "indeterminate",
+        "observedSignal": 120,
+        "missingForRelativeAssessment": [
+          "coorte funcional contemporânea homogênea",
+          "retenção",
+          "impressões",
+          "fontes de tráfego",
+          "mídia paga"
+        ],
+        "confounders": [
+          "tamanho do canal",
+          "idade do vídeo",
+          "tema",
+          "distribuição"
+        ],
+        "causalClaimAllowed": false
+      }
+    },
+    {
+      "id": "obs-20261003-245",
+      "title": "ROTINA DE UMA CIENTISTA NO JAPÃO: NEM TUDO DÁ CERTO",
+      "creator": "Física e Afins",
+      "creatorIdentity": "fisica-e-afins",
+      "sourceIdentity": "fisica-e-afins",
+      "country": "BR",
+      "url": "https://www.youtube.com/watch?v=V0x5C5mbNDA",
+      "sourceEvidence": [
+        "https://www.youtube.com/watch?v=V0x5C5mbNDA"
+      ],
+      "publishedAt": "2019-05-04",
+      "duration": "PT19M10S",
+      "createdAt": "2026-10-02T11:43:22.000Z",
+      "coverage": {
+        "level": "partial",
+        "accessible": [
+          "título, criador, descrição pública integral e data exata",
+          "duração pública de 19 minutos e 10 segundos, 2.475 visualizações, 306 curtidas e 27 comentários indicados em 3 de outubro de 2026",
+          "transcrição automática integral em português até 19 minutos e 12 segundos; fala acessível somente por substituição textual e com muitos termos técnicos ruidosos",
+          "relato falado de ajuste que não convergia, pausa, preparação de resumo, reunião de grupo, retorno ao problema e solução posterior descrita sem nomear o erro específico",
+          "vinte comentários públicos amostrados; pedidos de vlogs técnicos e apoio não testam aprendizagem"
+        ],
+        "missing": [
+          "vídeo reproduzido ou auditado quadro a quadro",
+          "imagem em movimento efetivamente observada",
+          "capa ou outra imagem adquirida",
+          "áudio ouvido",
+          "texto na tela",
+          "edição",
+          "ritmo",
+          "curva de retenção",
+          "impressões e fontes de tráfego",
+          "mídia paga",
+          "teste representativo de compreensão ou confiança",
+          "comparação causal controlada",
+          "reprodução independente do resultado",
+          "variável ou erro específico que resolveu o ajuste",
+          "dados e código da pesquisa",
+          "auditoria visual do trabalho"
+        ]
+      },
+      "publicMetrics": {
+        "viewsObserved": 2475,
+        "likesObserved": 306,
+        "commentsObserved": 27,
+        "commentsSampled": 20,
+        "observedAt": "2026-10-02",
+        "sourceType": "youtube_public_watch_metadata_full_description_full_automatic_transcript_and_20_public_comments",
+        "causality": "not_inferred"
+      },
+      "classification": {
+        "taxonomyVersion": "3.0",
+        "container": "youtube_video",
+        "materialFormat": "video_longo",
+        "presentationFormats": [
+          "bastidores",
+          "camera_direta",
+          "depoimento"
+        ],
+        "primaryFamily": "storytelling",
+        "secondaryFamilies": [
+          "identificacao",
+          "educativo"
+        ],
+        "functionalMix": [
+          {
+            "family": "storytelling",
+            "percentage": 45
+          },
+          {
+            "family": "identificacao",
+            "percentage": 35
+          },
+          {
+            "family": "educativo",
+            "percentage": 20
+          }
+        ],
+        "objectives": [
+          "identificacao",
+          "comunidade",
+          "confianca"
+        ],
+        "advertisingType": "editorial_organico",
+        "commercialIntent": "ausente",
+        "advertisedEntity": {
+          "kind": "nenhuma",
+          "name": "",
+          "confidence": "high"
+        },
+        "contentTopic": {
+          "label": "rotina de pesquisa com impasse e recuperação",
+          "iabCode": null
+        },
+        "segment": "ciência e carreira acadêmica",
+        "subsegment": "bastidores de pesquisa no Japão",
+        "probableAudience": "estudantes e pessoas interessadas em carreira científica",
+        "awarenessStage": "consciente_problema",
+        "productionLevel": "simple",
+        "creatorScale": "small",
+        "replicability": "high",
+        "durationBand": "over_60s",
+        "pace": "unknown",
+        "mechanisms": [
+          "identificacao",
+          "aproximacao",
+          "alivio",
+          "pertencimento"
+        ],
+        "hookTypes": [
+          "conflito",
+          "identificacao"
+        ],
+        "narrativeElements": [
+          "situacao",
+          "problema",
+          "tentativa",
+          "virada",
+          "conclusao"
+        ],
+        "proofTypes": [
+          "depoimento"
+        ],
+        "ctaTypes": [
+          "seguir"
+        ],
+        "distributionContext": {
+          "organicPaid": "unknown",
+          "trendDependency": "low"
+        },
+        "confidence": "high",
+        "evidence": [
+          "A fala registra um ajuste que não funcionava e a decisão de mudar temporariamente de tarefa.",
+          "Reunião de grupo, pausa e retorno aparecem como partes da rotina científica.",
+          "A solução é atribuída a algo simples, mas o erro ou a variável não é nomeado de forma inteligível."
+        ],
+        "alternativeClassifications": [],
+        "missingInformation": [
+          "vídeo reproduzido ou auditado quadro a quadro",
+          "imagem em movimento efetivamente observada",
+          "capa ou outra imagem adquirida",
+          "áudio ouvido",
+          "texto na tela",
+          "edição",
+          "ritmo",
+          "curva de retenção",
+          "impressões e fontes de tráfego",
+          "mídia paga"
+        ],
+        "needsHumanReview": true
+      },
+      "comparison": {
+        "level": 4,
+        "group": "exploração controlada de storytelling sobre incerteza científica",
+        "referenceIds": [],
+        "confidence": "medium"
+      },
+      "observations": [
+        "O conteúdo normaliza que pesquisa inclui impasses, pausas, ajuda e retomada.",
+        "A causa da resolução não ficou acessível e, por isso, o vídeo não conta como apoio ao padrão de falha explicada.",
+        "A experiência é própria e pública; não há relato privado identificável de terceiro ensinado."
+      ],
+      "interpretations": [
+        "A cobertura sustenta uma observação sobre bastidores científicos, sem nova hipótese transferível de desempenho."
+      ],
+      "scores": {
+        "gancho": 83,
+        "clareza": 76,
+        "relevancia": 87,
+        "desejo": 68,
+        "confianca": 81,
+        "retencao": "not_assessed",
+        "acao": 59,
+        "objecoes": 73
+      },
+      "fiveLenses": {
+        "apressado": "Entende que a rotina inclui um problema que não se resolve de imediato.",
+        "analitico": "Pede o erro específico, os dados e o procedimento ausentes.",
+        "aspiracional": "Vê persistência sem idealização linear da ciência.",
+        "comunidade": "Comentários pedem mais bastidores técnicos, sem medir aprendizagem.",
+        "cetico": "Aceita o relato pessoal e evita transformá-lo em regra causal."
+      },
+      "hypotheses": [],
+      "replicable": [
+        "Mostrar impasse, pausa e retomada sem fabricar certeza.",
+        "Separar emoção, rotina e resultado técnico."
+      ],
+      "limitations": [
+        "O contexto de laboratório no Japão é pessoal.",
+        "A variável de resolução não ficou acessível.",
+        "Mídia e retenção não foram observadas."
+      ],
+      "provenance": [
+        "public_content",
+        "youtube_public_metadata",
+        "public_search",
+        "youtube_automatic_transcript",
+        "public_metric",
+        "observatory_inference",
+        "youtube_public_comments"
+      ],
+      "training": {
+        "evidencePolicyVersion": "1.1",
+        "evidenceRole": "controlled_exploration",
+        "evidenceLevel": 4,
+        "requiredEvidenceObserved": false,
+        "supportEligible": false,
+        "claimCoverage": [
+          {
+            "claim": "a fala registra impasse, pausa, ajuda e resolução posterior",
+            "requiredModalities": [
+              "transcript"
+            ],
+            "observedModalities": [
+              "transcript"
+            ],
+            "sufficient": true
+          }
+        ],
+        "provenanceAndConsent": {
+          "storyOrigin": "conteúdo editorial público do próprio canal; experiência própria ou demonstração pública",
+          "consentStatus": "not_applicable",
+          "identityProtection": "not_applicable",
+          "evidence": [
+            "nenhum relato privado identificável de terceiro foi ensinado"
+          ]
+        },
+        "replicable": [
+          "Mostrar impasse, pausa e retomada sem fabricar certeza.",
+          "Separar emoção, rotina e resultado técnico."
+        ],
+        "contingent": [
+          "O contexto de laboratório no Japão é pessoal.",
+          "A variável de resolução não ficou acessível.",
+          "Mídia e retenção não foram observadas."
+        ],
+        "notRecommended": [
+          "copiar frase, personagem, promessa, produto ou roteiro",
+          "tratar visualizações, fama, comentários, escala ou orçamento como causa de desempenho",
+          "repetir demonstrações com fogo, combustíveis, estruturas pesadas ou componentes pressurizados sem avaliação de segurança",
+          "tratar uma tentativa melhor, depoimento ou rótulo de falso como prova causal",
+          "inferir cena, áudio, texto na tela, edição, ritmo ou retenção sem mídia reproduzida"
+        ],
+        "hypotheses": []
+      },
+      "viralAssessment": {
+        "status": "indeterminate",
+        "observedSignal": 2475,
+        "missingForRelativeAssessment": [
+          "coorte funcional contemporânea homogênea",
+          "retenção",
+          "impressões",
+          "fontes de tráfego",
+          "mídia paga"
+        ],
+        "confounders": [
+          "tamanho do canal",
+          "idade do vídeo",
+          "tema",
+          "distribuição"
+        ],
+        "causalClaimAllowed": false
+      }
     }
   ],
   "patterns": [
@@ -64511,8 +65876,8 @@
       "id": "pat-20260904-009",
       "status": "provisional",
       "stage": "provisional",
-      "name": "Falha explicada como evidência do limite experimental",
-      "statement": "Em demonstrações experimentais, manter uma falha ou resultado inconclusivo na progressão e ligá-lo explicitamente a uma variável, interferência ou limite observável transforma o fracasso em parte da explicação; efeitos sobre confiança, compreensão e retenção ainda não foram medidos.",
+      "name": "Falha explicada e retestada como evidência do limite experimental",
+      "statement": "Em demonstrações experimentais e protótipos, preservar a falha na progressão, ligá-la explicitamente a uma variável, interferência, limite ou hipótese verificável e registrar o que mudou no reteste torna a revisão do procedimento parte da explicação; dizer apenas que não funcionou ou que era falso sem controlar alternativas não basta, e efeitos sobre confiança, compreensão e retenção continuam não medidos.",
       "creativeFamily": "família demonstracao",
       "objective": "compreensão de limites e honestidade experimental",
       "segment": "demonstrações educativas e testes comparativos",
@@ -64522,31 +65887,36 @@
         "recompensa"
       ],
       "conditions": [
-        "família demonstracao ou teste comparativo",
-        "falha ou resultado inconclusivo observável",
-        "causa, variável ou limite explicitado",
-        "ausência de conclusão fabricada"
+        "família demonstração, transformação maker ou teste comparativo funcionalmente semelhante",
+        "falha ou resultado inconclusivo preservado na progressão",
+        "causa, variável, interferência, limite ou hipótese explicitada",
+        "mudança do reteste descrita de forma rastreável quando houver nova tentativa",
+        "ausência de conclusão fabricada ou rótulo de falsidade sem controle de alternativas"
       ],
       "supportReferenceIds": [
         "obs-20260829-069",
         "obs-20260903-091",
         "obs-20260904-097",
         "obs-20260905-101",
-        "obs-20260905-102"
+        "obs-20260905-102",
+        "obs-20261003-241",
+        "obs-20261003-242",
+        "obs-20261003-243"
       ],
-      "comparableSupportCount": 5,
-      "supportingCount": 5,
+      "comparableSupportCount": 8,
+      "supportingCount": 8,
       "comparisonLevel": 2,
       "confidence": "medium",
       "counterexampleReferenceIds": [],
       "counterexampleCount": 0,
       "caseLimitReferenceIds": [
         "obs-20260905-103",
-        "obs-20260905-104"
+        "obs-20260905-104",
+        "obs-20261003-244"
       ],
-      "caseLimitCount": 2,
-      "creatorDiversityCount": 4,
-      "sourceDiversityCount": 4,
+      "caseLimitCount": 3,
+      "creatorDiversityCount": 6,
+      "sourceDiversityCount": 6,
       "patternType": "compreensao",
       "evidence": [
         {
@@ -64632,14 +66002,62 @@
           "limitations": [
             "Não conta como apoio nem contraexemplo."
           ]
+        },
+        {
+          "referenceId": "obs-20261003-241",
+          "role": "support",
+          "comparisonLevel": 2,
+          "requiredEvidenceObserved": true,
+          "confidence": "high",
+          "observation": "Explosão anterior é ligada a materiais, cura, equilíbrio e rotação; a segunda versão muda a estrutura e é retestada.",
+          "evidence": "Metadados, descrição integral, transcrição automática integral e 20 comentários amostrados.",
+          "limitations": [
+            "mesmo criador de apoios anteriores; hipóteses de causa sem isolamento e sem audiovisual"
+          ]
+        },
+        {
+          "referenceId": "obs-20261003-242",
+          "role": "support",
+          "comparisonLevel": 2,
+          "requiredEvidenceObserved": true,
+          "confidence": "medium",
+          "observation": "Ângulo é eliminado como explicação, força e geometria do amortecedor são nomeadas e um mecanismo articulado é prototipado antes da replicação.",
+          "evidence": "Metadados, descrição integral, transcrição automática integral e 20 comentários amostrados.",
+          "limitations": [
+            "segmento maker e risco de segurança; sem cálculo estrutural ou audiovisual"
+          ]
+        },
+        {
+          "referenceId": "obs-20261003-243",
+          "role": "support",
+          "comparisonLevel": 1,
+          "requiredEvidenceObserved": true,
+          "confidence": "high",
+          "observation": "A segunda tentativa muda a ordem entre combustível e mistura, declara resultado melhor e explica as reações.",
+          "evidence": "Metadados, descrição integral e transcrição automática integral.",
+          "limitations": [
+            "sem quantidades, repetição controlada ou audiovisual"
+          ]
+        },
+        {
+          "referenceId": "obs-20261003-244",
+          "role": "case_limit",
+          "comparisonLevel": 2,
+          "requiredEvidenceObserved": false,
+          "confidence": "high",
+          "observation": "Falhas são mantidas, mas interferências e erros de execução não são controlados antes do rótulo de falsidade.",
+          "evidence": "Metadados, descrição integral, transcrição automática integral e 14 comentários amostrados.",
+          "limitations": [
+            "não conta como apoio nem contraexemplo de eficácia"
+          ]
         }
       ],
       "limitations": [
-        "Cinco apoios formais vêm de quatro criadores e quatro fontes; dois casos novos são do Manual do Mundo, já presente no conjunto.",
-        "Os segmentos são distintos e a comparação é estrutural, não temática.",
-        "Nenhum apoio possui retenção, teste de compreensão ou comparação causal.",
-        "A evidência nova é textual; cenas, áudio ouvido, ritmo e montagem não foram auditados.",
-        "Os dois casos-limite mostram que declarar falha, repetir ou oferecer alternativa não basta sem variável, interferência ou limite observável.",
+        "Oito apoios formais vêm de seis criadores; o novo lote traz três criadores independentes entre si, mas um deles já apoiava o padrão.",
+        "Os segmentos variam entre ciência, prototipagem maker e química; a comparação é estrutural, com dois novos apoios de nível 2.",
+        "Nenhum apoio possui retenção, teste representativo de compreensão ou comparação causal controlada.",
+        "A evidência nova é textual; cenas, áudio ouvido, texto na tela, montagem, ritmo e segurança visual não foram auditados.",
+        "O terceiro caso-limite mostra que manter a falha não basta: é necessário separar premissa falsa, erro de execução e interferência ambiental.",
         "O padrão permanece provisório e exige revisão humana ou experimento para qualquer validação."
       ],
       "validation": "requires_human_or_experimental_evidence",
@@ -71556,6 +72974,204 @@
         "Seis comentários foram amostrados sem representatividade estatística.",
         "Não houve retenção, auditoria independente, teste de compreensão ou causalidade.",
         "A exploração teve uma imprecisão de NPS e foi mantida como observação, sem hipótese nova.",
+        "Nenhum resultado autoriza validação; revisão humana ou evidência experimental continua necessária."
+      ]
+    },
+    {
+      "id": "run-20261003-supervised-045",
+      "executedAt": "2026-10-03T11:12:38.000Z",
+      "batchPolicyVersion": "1.1",
+      "requestedBatchSize": 5,
+      "candidatesFound": 25,
+      "referenceIds": [
+        "obs-20261003-241",
+        "obs-20261003-242",
+        "obs-20261003-243",
+        "obs-20261003-244",
+        "obs-20261003-245"
+      ],
+      "targetKnowledgeId": "pat-20260904-009",
+      "targetReferenceIds": [
+        "obs-20261003-241",
+        "obs-20261003-242",
+        "obs-20261003-243"
+      ],
+      "falsificationOrBoundaryReferenceIds": [
+        "obs-20261003-244"
+      ],
+      "controlledExplorationReferenceIds": [
+        "obs-20261003-245"
+      ],
+      "discarded": [
+        {
+          "url": "https://www.youtube.com/watch?v=8Z6uP2qfjC4",
+          "reason": "primeira versão do pião pertence ao mesmo criador; a segunda versão concentra falha, hipótese e reteste"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=SqcJK9jtzoA",
+          "reason": "a transcrição é uma apresentação do canal, sem experimento analisável"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=fDo4lPcSN2M",
+          "reason": "a slime dura é recuperada, mas o ingrediente corretivo não é nomeado na fala acessível"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=I5GSiiw0DdI",
+          "reason": "a falha e várias suposições aparecem, mas nenhuma variável é isolada ou confirmada"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=TcUX6eNT2j4",
+          "reason": "explica pontos de falha conceitualmente; menor prioridade que a demonstração direta selecionada"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=nsnyl8llfH4",
+          "reason": "apresenta múltiplas soluções de queda de ovo; a falha não organiza o vídeo inteiro"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=XyEaTVysMjk",
+          "reason": "transcrição curta e resultado inconclusivo, sem variável explicada"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=YY3yMYn-4SI",
+          "reason": "transcrição indisponível e audiovisual não adquirido"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=J2iGANe_Ov0",
+          "reason": "transcrição indisponível e audiovisual não adquirido"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=gU7B8Dtcakw",
+          "reason": "transcrição indisponível e audiovisual não adquirido"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=B0NhdLl60Rs",
+          "reason": "nenhuma transcrição foi encontrada e a mídia não foi adquirida"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=3Yi_8XgOf_g",
+          "reason": "produção industrial complexa e menor comparabilidade de falha-reteste"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=DKGDR7cF3dU",
+          "reason": "diagnóstico de fonte eletrônica e produto recebido; menor comparabilidade e origem internacional"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=4b7ApLwhH7k",
+          "reason": "demonstração de sucesso sem falha organizada como evidência"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=__8ueEt71ew",
+          "reason": "cinco testes de motor-foguete, porém sem falha explicada confirmada na triagem"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=6Cj_7Xj5Lhg",
+          "reason": "comentário teórico sobre experimentos negativos, não demonstração individual comparável"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=NblrD63p_xw",
+          "reason": "vídeo não reproduzível e sem transcrição adquirida"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=bfGDReOdM5g",
+          "reason": "falha doméstica infantil sem cobertura suficiente para explicar a variável"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=OVRvoGirqTo",
+          "reason": "desafio de objeto impossível, sem evidência suficiente de falha e revisão na triagem"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=VukMAP_4NWA",
+          "reason": "conteúdo de segurança laboratorial não comparável a uma falha retestada"
+        }
+      ],
+      "analyzed": 5,
+      "brazilianReferences": 4,
+      "internationalReferences": 1,
+      "unknownOriginReferences": 0,
+      "smallOrMediumCreatorReferences": 4,
+      "replicableReferences": 4,
+      "creativeFamiliesObserved": [
+        "demonstracao",
+        "transformacao",
+        "educativo",
+        "explicativo",
+        "reacao",
+        "comparacao",
+        "entretenimento",
+        "storytelling",
+        "identificacao"
+      ],
+      "coverageSummary": {
+        "complete": 0,
+        "partial": 5,
+        "insufficient": 0
+      },
+      "audiovisualAcquisition": {
+        "attempted": true,
+        "succeeded": 0,
+        "failure": "as cinco tentativas de vídeo falharam por formato indisponível e as cinco tentativas de capa produziram somente HTML de indisponibilidade de 195 bytes",
+        "effect": "imagem em movimento, capa, áudio ouvido, texto na tela, execução visual, edição, ritmo e retenção ficaram não mensurados"
+      },
+      "transcriptCoverage": {
+        "fullHumanOrCreatorProvided": 0,
+        "fullAutomatic": 5,
+        "partialHumanOrCreatorProvided": 0,
+        "partialAutomatic": 0,
+        "none": 0,
+        "limitation": "as cinco transcrições automáticas substituem somente a fala e podem errar termos; nenhuma cena, texto na tela ou áudio foi inferido delas"
+      },
+      "commentsCoverage": {
+        "countsOnly": 0,
+        "sampledReferences": 4,
+        "sampledComments": 74,
+        "zeroReturnedReferences": 1,
+        "unavailableReferences": 0,
+        "limitation": "as amostras são públicas, pequenas e não representativas; elogio, pergunta ou intenção de reproduzir não foram tratados como aprendizagem ou execução"
+      },
+      "baselineCoverage": {
+        "sampledProfiles": 3,
+        "contemporaneousBaselines": 0,
+        "limitation": "as próprias versões anteriores ou tentativas funcionam como comparadores internos, não como coorte contemporânea ou experimento causal"
+      },
+      "patternsCreated": [],
+      "patternsStrengthened": [
+        "pat-20260904-009"
+      ],
+      "patternsRefined": [
+        "pat-20260904-009"
+      ],
+      "hypothesesCreated": [],
+      "hypothesesStrengthened": [],
+      "validatedPatternsCreated": 0,
+      "contradictionsFound": [],
+      "caseLimitsFound": [
+        "mostrar que algo falhou ou chamá-lo de falso sem controlar execução e interferência não transforma falha em explicação"
+      ],
+      "safetyFindings": [
+        "perfuração de amortecedor pressurizado, fogo, etanol e estruturas pesadas foram registrados como riscos e não como instruções replicáveis",
+        "hipóteses de causa dos criadores não foram tratadas como causalidade demonstrada",
+        "comentários, popularidade, escala e orçamento permaneceram contexto não causal",
+        "nenhuma cena, áudio, texto na tela, edição, ritmo ou retenção foi inventado",
+        "Observatório, cérebros sintéticos e futuro Freud permaneceram separados"
+      ],
+      "evidenceGateSummary": {
+        "targetSupportsEligible": 3,
+        "targetSupportsRejected": 0,
+        "boundaryCases": 1,
+        "explorationReferences": 1,
+        "duplicateUrls": 0,
+        "independentCreatorsAddedToBatch": 3,
+        "independentCreatorsAddedToPattern": 2,
+        "newHypotheses": 0
+      },
+      "outcome": "Três criadores independentes entre si elevam de cinco para oito os apoios do padrão de falha explicada. Um caso-limite separa demonstração de falha de explicação controlada. O padrão permanece provisório.",
+      "nextTarget": "demonstração brasileira recente e curta, de criador pequeno ou médio, com audiovisual integral, falha observável, uma variável alterada por vez, repetição controlada e teste de compreensão; priorizar um contraexemplo em que a explicação atribuída seja refutada pelo próprio resultado",
+      "limitations": [
+        "Nenhum vídeo, áudio ou capa utilizável foi adquirido.",
+        "Cinco transcrições automáticas integrais substituem somente a fala e podem errar termos.",
+        "Setenta e quatro comentários foram amostrados sem representatividade estatística.",
+        "Não houve retenção, auditoria visual, teste de compreensão ou causalidade controlada.",
+        "Um apoio novo repete um criador já presente no padrão; a diversidade total sobe de quatro para seis criadores.",
         "Nenhum resultado autoriza validação; revisão humana ou evidência experimental continua necessária."
       ]
     }
