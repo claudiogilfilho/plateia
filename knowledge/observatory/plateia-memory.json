@@ -1,6 +1,6 @@
 {
   "protocol": "plateia-memory/1.0",
-  "updatedAt": "2026-10-05T11:43:20.000Z",
+  "updatedAt": "2026-10-06T11:56:43.000Z",
   "references": [
     {
       "id": "obs-20260823-001",
@@ -67058,6 +67058,1351 @@
         ],
         "causalClaimAllowed": false
       }
+    },
+    {
+      "id": "obs-20261006-256",
+      "title": "Pressão alta não se cuida apenas tirando o sal",
+      "creator": "Dr. Luciano Quinellato",
+      "creatorIdentity": "dr-luciano-quinellato",
+      "sourceIdentity": "dr-luciano-quinellato",
+      "country": "BR",
+      "url": "https://www.instagram.com/reel/Dd1BoQcsqrv/",
+      "sourceEvidence": [
+        "https://www.instagram.com/reel/Dd1BoQcsqrv/",
+        "https://imginn.com/p/Dd1BoQcsqrv/"
+      ],
+      "publishedAt": "2026-09-28",
+      "duration": "PT2M38S",
+      "createdAt": "2026-10-06T11:56:43.000Z",
+      "coverage": {
+        "level": "partial",
+        "accessible": [
+          "publicação individual pública, criador, legenda, data e contagens públicas observadas",
+          "arquivo MP4 integral adquirido (157,7 segundos), com vídeo e faixa de áudio presentes",
+          "doze quadros distribuídos ao longo do vídeo inspecionados; amostragem temporal representativa, não exaustiva",
+          "abertura, enquadramento, mudanças visuais, texto incorporado e legendas queimadas observados nos quadros amostrados",
+          "legenda pública integral e amostra pública de comentários",
+          "fala não transcrita integralmente; legendas queimadas parciais confirmam médico em câmera, potássio, frutas, pressão e limite de que alimento não substitui tratamento"
+        ],
+        "missing": [
+          "transcrição humana ou automática integral da fala",
+          "audição e conferência independente de toda a faixa de áudio",
+          "curva de retenção",
+          "impressões e fontes de tráfego",
+          "mídia paga",
+          "teste representativo de compreensão",
+          "comparação causal controlada",
+          "transcrição integral do discurso",
+          "verificação clínica independente das alegações nutricionais e do estudo mostrado",
+          "especialidade e CRM não exibidos na própria publicação"
+        ]
+      },
+      "publicMetrics": {
+        "viewsObserved": "not_measured",
+        "likesObserved": 594,
+        "commentsObserved": 59,
+        "commentsSampled": 5,
+        "observedAt": "2026-10-06",
+        "sourceType": "instagram_public_post_indexed_caption_comments_and_direct_mp4",
+        "causality": "not_inferred"
+      },
+      "classification": {
+        "taxonomyVersion": "3.0",
+        "container": "instagram_reel",
+        "materialFormat": "reel",
+        "presentationFormats": [
+          "camera_direta",
+          "demonstracao",
+          "montagem"
+        ],
+        "primaryFamily": "explicativo",
+        "secondaryFamilies": [
+          "educativo",
+          "venda_indireta"
+        ],
+        "functionalMix": [
+          {
+            "family": "explicativo",
+            "percentage": 50
+          },
+          {
+            "family": "educativo",
+            "percentage": 35
+          },
+          {
+            "family": "venda_indireta",
+            "percentage": 15
+          }
+        ],
+        "objectives": [
+          "educar",
+          "consciencia_problema",
+          "lead"
+        ],
+        "advertisingType": "editorial_com_oferta",
+        "commercialIntent": "explicita",
+        "advertisedEntity": {
+          "kind": "servico",
+          "name": "quiz e contato da equipe do criador",
+          "confidence": "high"
+        },
+        "contentTopic": {
+          "label": "potássio, alimentação e pressão arterial",
+          "iabCode": null
+        },
+        "segment": "saúde",
+        "subsegment": "hipertensão e alimentação",
+        "probableAudience": "adultos preocupados com hipertensão",
+        "awarenessStage": "consciente_problema",
+        "productionLevel": "intermediate",
+        "creatorScale": "small",
+        "replicability": "high",
+        "durationBand": "over_60s",
+        "pace": "medium",
+        "mechanisms": [
+          "vigilancia",
+          "confianca",
+          "alivio"
+        ],
+        "hookTypes": [
+          "contradicao",
+          "problema"
+        ],
+        "narrativeElements": [
+          "problema",
+          "mecanismo",
+          "limite",
+          "acao",
+          "cta"
+        ],
+        "proofTypes": [
+          "demonstracao",
+          "fonte_mostrada",
+          "autoridade_declarada"
+        ],
+        "ctaTypes": [
+          "salvar",
+          "compartilhar",
+          "comentar"
+        ],
+        "distributionContext": {
+          "organicPaid": "unknown",
+          "trendDependency": "low"
+        },
+        "confidence": "high",
+        "evidence": [
+          "abertura mostra alimento e médico em câmera",
+          "legendas identificam potássio, frutas e pressão",
+          "um quadro mostra artigo do PubMed",
+          "o próprio vídeo afirma que alimento não substitui tratamento"
+        ],
+        "alternativeClassifications": [],
+        "missingInformation": [
+          "transcrição humana ou automática integral da fala",
+          "audição e conferência independente de toda a faixa de áudio",
+          "curva de retenção",
+          "impressões e fontes de tráfego",
+          "mídia paga",
+          "teste representativo de compreensão",
+          "comparação causal controlada"
+        ],
+        "needsHumanReview": true
+      },
+      "comparison": {
+        "level": 2,
+        "group": "Reel brasileiro explicativo de saúde, com risco concreto, autoridade identificável, linguagem proporcional e ação específica",
+        "referenceIds": [
+          "obs-20261006-257",
+          "obs-20261006-258"
+        ],
+        "confidence": "medium"
+      },
+      "observations": [
+        "O Reel contrapõe reduzir sal a considerar potássio e mostra bananas, kiwi, laranja e outra fruta enquanto mantém o médico em quadro.",
+        "A fonte científica aparece visualmente em um quadro, mas autoria, população e limites não foram auditados.",
+        "O limite de que fruta não substitui tratamento aparece antes do CTA comercial."
+      ],
+      "interpretations": [
+        "A contradição específica abre uma lacuna sem esconder o tema.",
+        "Objetos concretos e fonte mostrada tornam a explicação visualmente auditável, ainda que não clinicamente validada."
+      ],
+      "scores": {
+        "gancho": 88,
+        "clareza": 86,
+        "relevancia": 87,
+        "desejo": 74,
+        "confianca": 73,
+        "retencao": "not_assessed",
+        "acao": 81,
+        "objecoes": 70
+      },
+      "fiveLenses": {
+        "apressado": "Entende pressão, sal, potássio e frutas pelos primeiros quadros.",
+        "analitico": "Valoriza a fonte mostrada, mas pede desenho do estudo, dose e aplicabilidade.",
+        "aspiracional": "Vê uma mudança alimentar simples e concreta.",
+        "comunidade": "CTA de salvar e compartilhar é coerente; comentários não medem adesão.",
+        "cetico": "O limite sobre tratamento reduz exagero, mas o funil comercial exige atenção."
+      },
+      "hypotheses": [],
+      "replicable": [
+        "Abrir com uma contradição específica ligada ao problema de saúde.",
+        "Alternar autoridade em câmera, objetos concretos e fonte visualmente localizável.",
+        "Declarar o limite da recomendação antes do CTA."
+      ],
+      "limitations": [
+        "Especialidade e CRM não foram verificados na publicação.",
+        "O estudo exibido não recebeu revisão clínica.",
+        "O CTA conduz a quiz e contato comercial."
+      ],
+      "provenance": [
+        "public_content",
+        "instagram_public_metadata",
+        "public_search",
+        "direct_instagram_media",
+        "sampled_video_frames",
+        "public_metric",
+        "observatory_inference",
+        "instagram_public_comments"
+      ],
+      "training": {
+        "evidencePolicyVersion": "1.1",
+        "evidenceRole": "target_support",
+        "evidenceLevel": 2,
+        "requiredEvidenceObserved": true,
+        "supportEligible": true,
+        "claimCoverage": [
+          {
+            "claim": "risco concreto, autoridade identificável, explicação proporcional e ação aparecem no audiovisual e na legenda",
+            "requiredModalities": [
+              "video",
+              "text_on_screen",
+              "caption",
+              "profile_identity"
+            ],
+            "observedModalities": [
+              "video",
+              "text_on_screen",
+              "caption",
+              "profile_identity"
+            ],
+            "sufficient": true
+          }
+        ],
+        "provenanceAndConsent": {
+          "storyOrigin": "conteúdo editorial público do próprio criador; nenhum relato privado identificável de terceiro foi ensinado",
+          "consentStatus": "not_applicable",
+          "identityProtection": "not_applicable",
+          "evidence": [
+            "publicação individual pública, arquivo de vídeo, legenda, metadados e comentários públicos"
+          ]
+        },
+        "replicable": [
+          "Abrir com uma contradição específica ligada ao problema de saúde.",
+          "Alternar autoridade em câmera, objetos concretos e fonte visualmente localizável.",
+          "Declarar o limite da recomendação antes do CTA."
+        ],
+        "contingent": [
+          "Especialidade e CRM não foram verificados na publicação.",
+          "O estudo exibido não recebeu revisão clínica.",
+          "O CTA conduz a quiz e contato comercial."
+        ],
+        "notRecommended": [
+          "copiar frase, identidade visual, personagem ou roteiro",
+          "tratar curtidas, comentários, fama, tendência, mídia ou orçamento como causa de desempenho",
+          "inferir retenção ou resultado comportamental sem métrica ou experimento",
+          "transformar comunicação de saúde em diagnóstico, prescrição ou certeza clínica sem revisão proporcional"
+        ],
+        "hypotheses": []
+      },
+      "viralAssessment": {
+        "status": "indeterminate",
+        "observedSignal": 594,
+        "missingForRelativeAssessment": [
+          "coorte funcional contemporânea homogênea",
+          "retenção",
+          "impressões",
+          "fontes de tráfego",
+          "mídia paga"
+        ],
+        "confounders": [
+          "tamanho do perfil",
+          "tema",
+          "data",
+          "distribuição"
+        ],
+        "causalClaimAllowed": false
+      }
+    },
+    {
+      "id": "obs-20261006-257",
+      "title": "Pressão que sobe e desce pode terminar em infarto ou derrame",
+      "creator": "Dr. Carlos Machado",
+      "creatorIdentity": "dr-carlos-machado",
+      "sourceIdentity": "dr-carlos-machado",
+      "country": "BR",
+      "url": "https://www.instagram.com/reel/Dc6O8jrCcNk/",
+      "sourceEvidence": [
+        "https://www.instagram.com/reel/Dc6O8jrCcNk/",
+        "https://imginn.com/p/Dc6O8jrCcNk/"
+      ],
+      "publishedAt": "2026-09-05",
+      "duration": "PT1M45S",
+      "createdAt": "2026-10-06T11:56:43.000Z",
+      "coverage": {
+        "level": "partial",
+        "accessible": [
+          "publicação individual pública, criador, legenda, data e contagens públicas observadas",
+          "arquivo MP4 integral adquirido (105,4 segundos), com vídeo e faixa de áudio presentes",
+          "doze quadros distribuídos ao longo do vídeo inspecionados; amostragem temporal representativa, não exaustiva",
+          "abertura, enquadramento, mudanças visuais, texto incorporado e legendas queimadas observados nos quadros amostrados",
+          "legenda pública integral e amostra pública de comentários",
+          "legendas queimadas parciais e a legenda pública confirmam oscilação da pressão, risco cardiovascular, necessidade de acompanhar números e buscar avaliação"
+        ],
+        "missing": [
+          "transcrição humana ou automática integral da fala",
+          "audição e conferência independente de toda a faixa de áudio",
+          "curva de retenção",
+          "impressões e fontes de tráfego",
+          "mídia paga",
+          "teste representativo de compreensão",
+          "comparação causal controlada",
+          "transcrição integral do discurso",
+          "revisão clínica independente das generalizações sobre pressão flutuante",
+          "baseline individual e técnica de medição da pressão"
+        ]
+      },
+      "publicMetrics": {
+        "viewsObserved": "not_measured",
+        "likesObserved": 1577,
+        "commentsObserved": 225,
+        "commentsSampled": 10,
+        "observedAt": "2026-10-06",
+        "sourceType": "instagram_public_post_indexed_caption_comments_and_direct_mp4",
+        "causality": "not_inferred"
+      },
+      "classification": {
+        "taxonomyVersion": "3.0",
+        "container": "instagram_reel",
+        "materialFormat": "reel",
+        "presentationFormats": [
+          "camera_direta",
+          "comentario",
+          "ugc"
+        ],
+        "primaryFamily": "explicativo",
+        "secondaryFamilies": [
+          "educativo",
+          "autoridade_opiniao"
+        ],
+        "functionalMix": [
+          {
+            "family": "explicativo",
+            "percentage": 50
+          },
+          {
+            "family": "educativo",
+            "percentage": 35
+          },
+          {
+            "family": "autoridade_opiniao",
+            "percentage": 15
+          }
+        ],
+        "objectives": [
+          "consciencia_problema",
+          "educar",
+          "lead"
+        ],
+        "advertisingType": "editorial_com_oferta",
+        "commercialIntent": "explicita",
+        "advertisedEntity": {
+          "kind": "servico",
+          "name": "grupo semanal de dicas de saúde",
+          "confidence": "high"
+        },
+        "contentTopic": {
+          "label": "oscilação da pressão arterial e risco cardiovascular",
+          "iabCode": null
+        },
+        "segment": "saúde",
+        "subsegment": "hipertensão",
+        "probableAudience": "adultos que observam medidas variáveis de pressão",
+        "awarenessStage": "consciente_problema",
+        "productionLevel": "simple",
+        "creatorScale": "small",
+        "replicability": "high",
+        "durationBand": "over_60s",
+        "pace": "steady",
+        "mechanisms": [
+          "vigilancia",
+          "medo",
+          "confianca"
+        ],
+        "hookTypes": [
+          "risco",
+          "ugc"
+        ],
+        "narrativeElements": [
+          "risco",
+          "mecanismo",
+          "acao",
+          "cta"
+        ],
+        "proofTypes": [
+          "autoridade_identificada",
+          "medicao_mostrada"
+        ],
+        "ctaTypes": [
+          "compartilhar",
+          "comentar"
+        ],
+        "distributionContext": {
+          "organicPaid": "unknown",
+          "trendDependency": "low"
+        },
+        "confidence": "high",
+        "evidence": [
+          "abertura mostra aparelho marcando 139/88 e afirma risco de infarto ou derrame",
+          "médico permanece em recorte sobre a medição",
+          "perfil identifica Nefrologia e Medicina Geral e CRM-SP 41.937",
+          "legenda pede acompanhar números, investigar causa e buscar avaliação"
+        ],
+        "alternativeClassifications": [],
+        "missingInformation": [
+          "transcrição humana ou automática integral da fala",
+          "audição e conferência independente de toda a faixa de áudio",
+          "curva de retenção",
+          "impressões e fontes de tráfego",
+          "mídia paga",
+          "teste representativo de compreensão",
+          "comparação causal controlada"
+        ],
+        "needsHumanReview": true
+      },
+      "comparison": {
+        "level": 1,
+        "group": "Reel brasileiro explicativo de saúde, com risco concreto, autoridade identificável, linguagem proporcional e ação específica",
+        "referenceIds": [
+          "obs-20261006-256",
+          "obs-20261006-258"
+        ],
+        "confidence": "high"
+      },
+      "observations": [
+        "A abertura combina medição realista, risco nomeado e autoridade identificada.",
+        "A ação proposta é acompanhar números, investigar a causa e procurar avaliação, sem oferecer diagnóstico remoto.",
+        "O CTA de grupo comercial aparece após a orientação."
+      ],
+      "interpretations": [
+        "Medição concreta reduz abstração do risco.",
+        "A autoridade rastreável e o encaminhamento proporcional tornam o próximo passo identificável."
+      ],
+      "scores": {
+        "gancho": 90,
+        "clareza": 90,
+        "relevancia": 89,
+        "desejo": 69,
+        "confianca": 80,
+        "retencao": "not_assessed",
+        "acao": 86,
+        "objecoes": 76
+      },
+      "fiveLenses": {
+        "apressado": "Vê imediatamente número de pressão e consequência possível.",
+        "analitico": "Pede técnica de medição, frequência e contexto clínico.",
+        "aspiracional": "Recebe um caminho de monitoramento e avaliação.",
+        "comunidade": "Amostra de comentários mostra dúvidas, não eficácia coletiva.",
+        "cetico": "O tom de risco é moderado pelo encaminhamento médico."
+      },
+      "hypotheses": [],
+      "replicable": [
+        "Mostrar o dado ou medição que materializa o risco.",
+        "Identificar credencial de forma verificável.",
+        "Encerrar com monitoramento e avaliação, não com diagnóstico remoto."
+      ],
+      "limitations": [
+        "Não há técnica de medição nem série temporal completa.",
+        "A relação causal individual não pode ser inferida de um único número.",
+        "Comentários são amostra não representativa."
+      ],
+      "provenance": [
+        "public_content",
+        "instagram_public_metadata",
+        "public_search",
+        "direct_instagram_media",
+        "sampled_video_frames",
+        "public_metric",
+        "observatory_inference",
+        "instagram_public_comments"
+      ],
+      "training": {
+        "evidencePolicyVersion": "1.1",
+        "evidenceRole": "target_support",
+        "evidenceLevel": 1,
+        "requiredEvidenceObserved": true,
+        "supportEligible": true,
+        "claimCoverage": [
+          {
+            "claim": "medição e risco concretos, credencial rastreável e ação de monitorar e procurar avaliação aparecem no pacote público",
+            "requiredModalities": [
+              "video",
+              "text_on_screen",
+              "caption",
+              "profile_identity"
+            ],
+            "observedModalities": [
+              "video",
+              "text_on_screen",
+              "caption",
+              "profile_identity"
+            ],
+            "sufficient": true
+          }
+        ],
+        "provenanceAndConsent": {
+          "storyOrigin": "conteúdo editorial público do próprio criador; nenhum relato privado identificável de terceiro foi ensinado",
+          "consentStatus": "not_applicable",
+          "identityProtection": "not_applicable",
+          "evidence": [
+            "publicação individual pública, arquivo de vídeo, legenda, metadados e comentários públicos"
+          ]
+        },
+        "replicable": [
+          "Mostrar o dado ou medição que materializa o risco.",
+          "Identificar credencial de forma verificável.",
+          "Encerrar com monitoramento e avaliação, não com diagnóstico remoto."
+        ],
+        "contingent": [
+          "Não há técnica de medição nem série temporal completa.",
+          "A relação causal individual não pode ser inferida de um único número.",
+          "Comentários são amostra não representativa."
+        ],
+        "notRecommended": [
+          "copiar frase, identidade visual, personagem ou roteiro",
+          "tratar curtidas, comentários, fama, tendência, mídia ou orçamento como causa de desempenho",
+          "inferir retenção ou resultado comportamental sem métrica ou experimento",
+          "transformar comunicação de saúde em diagnóstico, prescrição ou certeza clínica sem revisão proporcional"
+        ],
+        "hypotheses": []
+      },
+      "viralAssessment": {
+        "status": "indeterminate",
+        "observedSignal": 1577,
+        "missingForRelativeAssessment": [
+          "coorte funcional contemporânea homogênea",
+          "retenção",
+          "impressões",
+          "fontes de tráfego",
+          "mídia paga"
+        ],
+        "confounders": [
+          "tamanho do perfil",
+          "tema",
+          "data",
+          "distribuição"
+        ],
+        "causalClaimAllowed": false
+      }
+    },
+    {
+      "id": "obs-20261006-258",
+      "title": "O infarto odeia quem faz essas três coisas",
+      "creator": "Dr. Marcelo Santos",
+      "creatorIdentity": "dr-marcelo-santos",
+      "sourceIdentity": "dr-marcelo-santos",
+      "country": "BR",
+      "url": "https://www.instagram.com/reel/DdKWMPMvm-e/",
+      "sourceEvidence": [
+        "https://www.instagram.com/reel/DdKWMPMvm-e/",
+        "https://imginn.com/p/DdKWMPMvm-e/"
+      ],
+      "publishedAt": "2026-09-11",
+      "duration": "PT2M56S",
+      "createdAt": "2026-10-06T11:56:43.000Z",
+      "coverage": {
+        "level": "partial",
+        "accessible": [
+          "publicação individual pública, criador, legenda, data e contagens públicas observadas",
+          "arquivo MP4 integral adquirido (175,8 segundos), com vídeo e faixa de áudio presentes",
+          "doze quadros distribuídos ao longo do vídeo inspecionados; amostragem temporal representativa, não exaustiva",
+          "abertura, enquadramento, mudanças visuais, texto incorporado e legendas queimadas observados nos quadros amostrados",
+          "legenda pública integral e amostra pública de comentários",
+          "legendas queimadas parciais mostram treino de força, sensibilidade à insulina, hidratação, exames e cuidado cardiovascular; a legenda pública explica obstrução arterial e urgência"
+        ],
+        "missing": [
+          "transcrição humana ou automática integral da fala",
+          "audição e conferência independente de toda a faixa de áudio",
+          "curva de retenção",
+          "impressões e fontes de tráfego",
+          "mídia paga",
+          "teste representativo de compreensão",
+          "comparação causal controlada",
+          "transcrição integral do discurso",
+          "CRM ou especialidade verificável na própria publicação",
+          "fonte do número de 1.100 mortes por dia",
+          "revisão clínica das três recomendações e dos exames citados"
+        ]
+      },
+      "publicMetrics": {
+        "viewsObserved": "not_measured",
+        "likesObserved": 2389,
+        "commentsObserved": 54,
+        "commentsSampled": 15,
+        "observedAt": "2026-10-06",
+        "sourceType": "instagram_public_post_indexed_caption_comments_and_direct_mp4",
+        "causality": "not_inferred"
+      },
+      "classification": {
+        "taxonomyVersion": "3.0",
+        "container": "instagram_reel",
+        "materialFormat": "reel",
+        "presentationFormats": [
+          "camera_direta",
+          "comentario",
+          "montagem"
+        ],
+        "primaryFamily": "explicativo",
+        "secondaryFamilies": [
+          "educativo",
+          "autoridade_opiniao"
+        ],
+        "functionalMix": [
+          {
+            "family": "explicativo",
+            "percentage": 45
+          },
+          {
+            "family": "educativo",
+            "percentage": 40
+          },
+          {
+            "family": "autoridade_opiniao",
+            "percentage": 15
+          }
+        ],
+        "objectives": [
+          "educar",
+          "consciencia_problema",
+          "lead"
+        ],
+        "advertisingType": "editorial_com_oferta",
+        "commercialIntent": "explicita",
+        "advertisedEntity": {
+          "kind": "servico",
+          "name": "consulta médica pelo direct",
+          "confidence": "high"
+        },
+        "contentTopic": {
+          "label": "prevenção de risco cardiovascular e infarto",
+          "iabCode": null
+        },
+        "segment": "saúde",
+        "subsegment": "prevenção cardiovascular",
+        "probableAudience": "adultos interessados em prevenção do infarto",
+        "awarenessStage": "consciente_problema",
+        "productionLevel": "intermediate",
+        "creatorScale": "small",
+        "replicability": "high",
+        "durationBand": "over_60s",
+        "pace": "medium",
+        "mechanisms": [
+          "vigilancia",
+          "aversao_perda",
+          "confianca"
+        ],
+        "hookTypes": [
+          "personificacao",
+          "lista"
+        ],
+        "narrativeElements": [
+          "risco",
+          "lista",
+          "mecanismo",
+          "acao",
+          "cta"
+        ],
+        "proofTypes": [
+          "autoridade_declarada",
+          "mecanismo_explicado"
+        ],
+        "ctaTypes": [
+          "comentar"
+        ],
+        "distributionContext": {
+          "organicPaid": "unknown",
+          "trendDependency": "low"
+        },
+        "confidence": "medium",
+        "evidence": [
+          "gancho textual promete três ações",
+          "legendas mostram treino de força, sensibilidade à insulina, hidratação e exames",
+          "legenda pública explica obstrução arterial e urgência",
+          "perfil se apresenta como médico, sem CRM visível no material acessado"
+        ],
+        "alternativeClassifications": [],
+        "missingInformation": [
+          "transcrição humana ou automática integral da fala",
+          "audição e conferência independente de toda a faixa de áudio",
+          "curva de retenção",
+          "impressões e fontes de tráfego",
+          "mídia paga",
+          "teste representativo de compreensão",
+          "comparação causal controlada"
+        ],
+        "needsHumanReview": true
+      },
+      "comparison": {
+        "level": 2,
+        "group": "Reel brasileiro explicativo de saúde, com risco concreto, autoridade identificável, linguagem proporcional e ação específica",
+        "referenceIds": [
+          "obs-20261006-256",
+          "obs-20261006-257"
+        ],
+        "confidence": "medium"
+      },
+      "observations": [
+        "A lista de três ações estrutura quase três minutos de fala em câmera.",
+        "A legenda pública mantém o tema do infarto, mas não lista todas as premissas clínicas nem liga fontes aos números.",
+        "A autoridade é identificável pelo perfil, porém não plenamente rastreável no material acessado."
+      ],
+      "interpretations": [
+        "Lista finita e personificação reduzem o tempo para entender o benefício.",
+        "A ausência de credencial completa e fontes limita força probatória sem impedir a observação estrutural."
+      ],
+      "scores": {
+        "gancho": 89,
+        "clareza": 84,
+        "relevancia": 88,
+        "desejo": 73,
+        "confianca": 60,
+        "retencao": "not_assessed",
+        "acao": 75,
+        "objecoes": 58
+      },
+      "fiveLenses": {
+        "apressado": "Recebe promessa clara de três ações contra risco de infarto.",
+        "analitico": "Pede credencial, fontes, escopo e conexão entre recomendações.",
+        "aspiracional": "Enxerga hábitos preventivos acionáveis.",
+        "comunidade": "Comentários são majoritariamente elogios, sem teste de compreensão.",
+        "cetico": "Não aceita a metáfora nem o número de mortes como prova clínica."
+      },
+      "hypotheses": [],
+      "replicable": [
+        "Organizar explicação longa em lista finita.",
+        "Vincular cada ação a um mecanismo declarado.",
+        "Separar educação de captação comercial."
+      ],
+      "limitations": [
+        "Credencial completa não ficou rastreável no material acessado.",
+        "As fontes dos números e recomendações não foram fornecidas.",
+        "Legenda da publicação e fala visualmente amostrada não coincidem em todos os detalhes."
+      ],
+      "provenance": [
+        "public_content",
+        "instagram_public_metadata",
+        "public_search",
+        "direct_instagram_media",
+        "sampled_video_frames",
+        "public_metric",
+        "observatory_inference",
+        "instagram_public_comments"
+      ],
+      "training": {
+        "evidencePolicyVersion": "1.1",
+        "evidenceRole": "target_support",
+        "evidenceLevel": 2,
+        "requiredEvidenceObserved": true,
+        "supportEligible": true,
+        "claimCoverage": [
+          {
+            "claim": "risco concreto, autoridade identificável, lista de ações e limite de urgência aparecem no audiovisual e na legenda",
+            "requiredModalities": [
+              "video",
+              "text_on_screen",
+              "caption",
+              "profile_identity"
+            ],
+            "observedModalities": [
+              "video",
+              "text_on_screen",
+              "caption",
+              "profile_identity"
+            ],
+            "sufficient": true
+          }
+        ],
+        "provenanceAndConsent": {
+          "storyOrigin": "conteúdo editorial público do próprio criador; nenhum relato privado identificável de terceiro foi ensinado",
+          "consentStatus": "not_applicable",
+          "identityProtection": "not_applicable",
+          "evidence": [
+            "publicação individual pública, arquivo de vídeo, legenda, metadados e comentários públicos"
+          ]
+        },
+        "replicable": [
+          "Organizar explicação longa em lista finita.",
+          "Vincular cada ação a um mecanismo declarado.",
+          "Separar educação de captação comercial."
+        ],
+        "contingent": [
+          "Credencial completa não ficou rastreável no material acessado.",
+          "As fontes dos números e recomendações não foram fornecidas.",
+          "Legenda da publicação e fala visualmente amostrada não coincidem em todos os detalhes."
+        ],
+        "notRecommended": [
+          "copiar frase, identidade visual, personagem ou roteiro",
+          "tratar curtidas, comentários, fama, tendência, mídia ou orçamento como causa de desempenho",
+          "inferir retenção ou resultado comportamental sem métrica ou experimento",
+          "transformar comunicação de saúde em diagnóstico, prescrição ou certeza clínica sem revisão proporcional"
+        ],
+        "hypotheses": []
+      },
+      "viralAssessment": {
+        "status": "indeterminate",
+        "observedSignal": 2389,
+        "missingForRelativeAssessment": [
+          "coorte funcional contemporânea homogênea",
+          "retenção",
+          "impressões",
+          "fontes de tráfego",
+          "mídia paga"
+        ],
+        "confounders": [
+          "tamanho do perfil",
+          "tema",
+          "data",
+          "distribuição"
+        ],
+        "causalClaimAllowed": false
+      }
+    },
+    {
+      "id": "obs-20261006-259",
+      "title": "Casos reais: dor na perna, dímero-D e eco-Doppler",
+      "creator": "Dr. Cássio Guimarães",
+      "creatorIdentity": "dr-cassio-guimaraes-df",
+      "sourceIdentity": "dr-cassio-guimaraes-df",
+      "country": "BR",
+      "url": "https://www.instagram.com/reel/Dd6b3DLPnvB/",
+      "sourceEvidence": [
+        "https://www.instagram.com/reel/Dd6b3DLPnvB/",
+        "https://imginn.com/p/Dd6b3DLPnvB/"
+      ],
+      "publishedAt": "2026-09-30",
+      "duration": "PT1M50S",
+      "createdAt": "2026-10-06T11:56:43.000Z",
+      "coverage": {
+        "level": "partial",
+        "accessible": [
+          "publicação individual pública, criador, legenda, data e contagens públicas observadas",
+          "arquivo MP4 integral adquirido (110,1 segundos), com vídeo e faixa de áudio presentes",
+          "doze quadros distribuídos ao longo do vídeo inspecionados; amostragem temporal representativa, não exaustiva",
+          "abertura, enquadramento, mudanças visuais, texto incorporado e legendas queimadas observados nos quadros amostrados",
+          "legenda pública integral e amostra pública de comentários",
+          "legendas queimadas parciais confirmam relato clínico, dor, eco-Doppler, dímero alto, exame não solicitado e alerta preventivo; a legenda pública é majoritariamente lista de hashtags"
+        ],
+        "missing": [
+          "transcrição humana ou automática integral da fala",
+          "audição e conferência independente de toda a faixa de áudio",
+          "curva de retenção",
+          "impressões e fontes de tráfego",
+          "mídia paga",
+          "teste representativo de compreensão",
+          "comparação causal controlada",
+          "transcrição integral do relato e da recomendação",
+          "procedência e consentimento documentado da paciente",
+          "contexto clínico e justificativa para os exames",
+          "revisão clínica independente"
+        ]
+      },
+      "publicMetrics": {
+        "viewsObserved": "not_measured",
+        "likesObserved": 731,
+        "commentsObserved": 57,
+        "commentsSampled": 15,
+        "observedAt": "2026-10-06",
+        "sourceType": "instagram_public_post_indexed_caption_comments_and_direct_mp4",
+        "causality": "not_inferred"
+      },
+      "classification": {
+        "taxonomyVersion": "3.0",
+        "container": "instagram_reel",
+        "materialFormat": "reel",
+        "presentationFormats": [
+          "depoimento",
+          "camera_direta",
+          "comentario"
+        ],
+        "primaryFamily": "prova_estudo_caso",
+        "secondaryFamilies": [
+          "explicativo",
+          "autoridade_opiniao"
+        ],
+        "functionalMix": [
+          {
+            "family": "prova_estudo_caso",
+            "percentage": 45
+          },
+          {
+            "family": "explicativo",
+            "percentage": 35
+          },
+          {
+            "family": "autoridade_opiniao",
+            "percentage": 20
+          }
+        ],
+        "objectives": [
+          "consciencia_problema",
+          "autoridade",
+          "conversa"
+        ],
+        "advertisingType": "editorial_organico",
+        "commercialIntent": "implicita",
+        "advertisedEntity": {
+          "kind": "servico",
+          "name": "atendimento médico do criador",
+          "confidence": "medium"
+        },
+        "contentTopic": {
+          "label": "investigação de dor na perna e marcadores de coagulação",
+          "iabCode": null
+        },
+        "segment": "saúde",
+        "subsegment": "cardiologia e trombose",
+        "probableAudience": "adultos com sintomas ou exames relacionados a trombose",
+        "awarenessStage": "consciente_problema",
+        "productionLevel": "simple",
+        "creatorScale": "small",
+        "replicability": "medium",
+        "durationBand": "over_60s",
+        "pace": "steady",
+        "mechanisms": [
+          "medo",
+          "vigilancia",
+          "confianca"
+        ],
+        "hookTypes": [
+          "caso_real",
+          "risco"
+        ],
+        "narrativeElements": [
+          "personagem",
+          "problema",
+          "descoberta",
+          "alerta"
+        ],
+        "proofTypes": [
+          "relato_de_terceiro",
+          "autoridade_declarada"
+        ],
+        "ctaTypes": [],
+        "distributionContext": {
+          "organicPaid": "unknown",
+          "trendDependency": "low"
+        },
+        "confidence": "medium",
+        "evidence": [
+          "abertura mostra paciente em consultório",
+          "médico resume sequência de exames e resultado",
+          "texto na tela transforma o caso em alerta preventivo",
+          "consentimento e documentação do caso não aparecem"
+        ],
+        "alternativeClassifications": [],
+        "missingInformation": [
+          "transcrição humana ou automática integral da fala",
+          "audição e conferência independente de toda a faixa de áudio",
+          "curva de retenção",
+          "impressões e fontes de tráfego",
+          "mídia paga",
+          "teste representativo de compreensão",
+          "comparação causal controlada"
+        ],
+        "needsHumanReview": true
+      },
+      "comparison": {
+        "level": 2,
+        "group": "Reel brasileiro explicativo de saúde, com risco concreto, autoridade identificável, linguagem proporcional e ação específica",
+        "referenceIds": [
+          "obs-20261006-256",
+          "obs-20261006-257",
+          "obs-20261006-258"
+        ],
+        "confidence": "medium"
+      },
+      "observations": [
+        "O caso torna o risco concreto e dá progressão narrativa à explicação.",
+        "A publicação não fornece contexto suficiente para distinguir indicação individual de recomendação geral.",
+        "A origem do relato é pública, mas o consentimento para uso educativo não foi documentado no material acessado."
+      ],
+      "interpretations": [
+        "Caso clínico pode aumentar atenção, mas exige ônus maior de consentimento e proporcionalidade.",
+        "Comentários pedindo exames mostram risco de generalização, não efeito comprovado."
+      ],
+      "scores": {
+        "gancho": 86,
+        "clareza": 67,
+        "relevancia": 84,
+        "desejo": 58,
+        "confianca": 52,
+        "retencao": "not_assessed",
+        "acao": 49,
+        "objecoes": 43
+      },
+      "fiveLenses": {
+        "apressado": "Entende dor, exame e risco, mas não o critério clínico.",
+        "analitico": "Pede histórico, indicação, diagnóstico diferencial e fontes.",
+        "aspiracional": "Busca prevenção, porém pode supergeneralizar exames.",
+        "comunidade": "Relatos nos comentários ampliam identificação sem validade clínica.",
+        "cetico": "Questiona consentimento, contexto e recomendação ampla."
+      },
+      "hypotheses": [],
+      "replicable": [
+        "Usar sequência problema-investigação-desfecho em estudo de caso.",
+        "Explicitar o que é específico do caso e o que é orientação geral.",
+        "Documentar origem e consentimento antes de ensinar relato de paciente."
+      ],
+      "limitations": [
+        "Consentimento e proteção de identidade não foram documentados.",
+        "A indicação de exames não pode ser generalizada.",
+        "A legenda não fornece explicação clínica suficiente."
+      ],
+      "provenance": [
+        "public_content",
+        "instagram_public_metadata",
+        "public_search",
+        "direct_instagram_media",
+        "sampled_video_frames",
+        "public_metric",
+        "observatory_inference",
+        "instagram_public_comments"
+      ],
+      "training": {
+        "evidencePolicyVersion": "1.1",
+        "evidenceRole": "falsification_or_boundary",
+        "evidenceLevel": 2,
+        "requiredEvidenceObserved": false,
+        "supportEligible": false,
+        "claimCoverage": [
+          {
+            "claim": "o caso nomeia risco e ação, mas não mostra consentimento nem contexto suficiente para proporcionalidade clínica",
+            "requiredModalities": [
+              "video",
+              "caption",
+              "story_provenance",
+              "consent"
+            ],
+            "observedModalities": [
+              "video",
+              "caption"
+            ],
+            "sufficient": false
+          }
+        ],
+        "provenanceAndConsent": {
+          "storyOrigin": "relato clínico público apresentado pelo criador como caso real de consultório; documentação independente ausente",
+          "consentStatus": "unknown",
+          "identityProtection": "partial",
+          "evidence": [
+            "publicação individual pública, arquivo de vídeo, legenda, metadados e comentários públicos"
+          ]
+        },
+        "replicable": [
+          "Usar sequência problema-investigação-desfecho em estudo de caso.",
+          "Explicitar o que é específico do caso e o que é orientação geral.",
+          "Documentar origem e consentimento antes de ensinar relato de paciente."
+        ],
+        "contingent": [
+          "Consentimento e proteção de identidade não foram documentados.",
+          "A indicação de exames não pode ser generalizada.",
+          "A legenda não fornece explicação clínica suficiente."
+        ],
+        "notRecommended": [
+          "copiar frase, identidade visual, personagem ou roteiro",
+          "tratar curtidas, comentários, fama, tendência, mídia ou orçamento como causa de desempenho",
+          "inferir retenção ou resultado comportamental sem métrica ou experimento",
+          "transformar comunicação de saúde em diagnóstico, prescrição ou certeza clínica sem revisão proporcional"
+        ],
+        "hypotheses": []
+      },
+      "viralAssessment": {
+        "status": "indeterminate",
+        "observedSignal": 731,
+        "missingForRelativeAssessment": [
+          "coorte funcional contemporânea homogênea",
+          "retenção",
+          "impressões",
+          "fontes de tráfego",
+          "mídia paga"
+        ],
+        "confounders": [
+          "tamanho do perfil",
+          "tema",
+          "data",
+          "distribuição"
+        ],
+        "causalClaimAllowed": false
+      }
+    },
+    {
+      "id": "obs-20261006-260",
+      "title": "Homens e mulheres se arrumando para sair",
+      "creator": "Davi Aguiar",
+      "creatorIdentity": "davi-aguiar",
+      "sourceIdentity": "davi-aguiar",
+      "country": "BR",
+      "url": "https://www.instagram.com/reel/DdFkvNyhrnn/",
+      "sourceEvidence": [
+        "https://www.instagram.com/reel/DdFkvNyhrnn/",
+        "https://imginn.com/p/DdFkvNyhrnn/"
+      ],
+      "publishedAt": "2026-09-10",
+      "duration": "PT1M36S",
+      "createdAt": "2026-10-06T11:56:43.000Z",
+      "coverage": {
+        "level": "partial",
+        "accessible": [
+          "publicação individual pública, criador, legenda, data e contagens públicas observadas",
+          "arquivo MP4 integral adquirido (95,9 segundos), com vídeo e faixa de áudio presentes",
+          "doze quadros distribuídos ao longo do vídeo inspecionados; amostragem temporal representativa, não exaustiva",
+          "abertura, enquadramento, mudanças visuais, texto incorporado e legendas queimadas observados nos quadros amostrados",
+          "legenda pública integral e amostra pública de comentários",
+          "vídeo e quadros mostram contraste encenado entre preparação masculina curta e preparação feminina prolongada, com troca de figurino, relógios e espera"
+        ],
+        "missing": [
+          "transcrição humana ou automática integral da fala",
+          "audição e conferência independente de toda a faixa de áudio",
+          "curva de retenção",
+          "impressões e fontes de tráfego",
+          "mídia paga",
+          "teste representativo de compreensão",
+          "comparação causal controlada",
+          "transcrição integral do diálogo",
+          "identificação e consentimento formal de todos os participantes",
+          "baseline de desempenho do perfil"
+        ]
+      },
+      "publicMetrics": {
+        "viewsObserved": "not_measured",
+        "likesObserved": 3237,
+        "commentsObserved": 27,
+        "commentsSampled": 13,
+        "observedAt": "2026-10-06",
+        "sourceType": "instagram_public_post_indexed_caption_comments_and_direct_mp4",
+        "causality": "not_inferred"
+      },
+      "classification": {
+        "taxonomyVersion": "3.0",
+        "container": "instagram_reel",
+        "materialFormat": "reel",
+        "presentationFormats": [
+          "esquete",
+          "dramatizacao",
+          "montagem"
+        ],
+        "primaryFamily": "humor",
+        "secondaryFamilies": [
+          "identificacao",
+          "entretenimento"
+        ],
+        "functionalMix": [
+          {
+            "family": "humor",
+            "percentage": 55
+          },
+          {
+            "family": "identificacao",
+            "percentage": 30
+          },
+          {
+            "family": "entretenimento",
+            "percentage": 15
+          }
+        ],
+        "objectives": [
+          "entreter",
+          "identificacao",
+          "comentario"
+        ],
+        "advertisingType": "editorial_organico",
+        "commercialIntent": "ausente",
+        "advertisedEntity": {
+          "kind": "nenhuma",
+          "name": "",
+          "confidence": "high"
+        },
+        "contentTopic": {
+          "label": "diferença estereotipada no tempo para se arrumar",
+          "iabCode": null
+        },
+        "segment": "humor cotidiano",
+        "subsegment": "relacionamentos e rotina",
+        "probableAudience": "público jovem de humor cotidiano",
+        "awarenessStage": "inconsciente",
+        "productionLevel": "simple",
+        "creatorScale": "small",
+        "replicability": "high",
+        "durationBand": "over_60s",
+        "pace": "medium",
+        "mechanisms": [
+          "humor",
+          "identificacao",
+          "surpresa"
+        ],
+        "hookTypes": [
+          "comparacao",
+          "situacao_cotidiana"
+        ],
+        "narrativeElements": [
+          "situacao",
+          "contraste",
+          "escalada",
+          "payoff"
+        ],
+        "proofTypes": [
+          "dramatizacao"
+        ],
+        "ctaTypes": [],
+        "distributionContext": {
+          "organicPaid": "unknown",
+          "trendDependency": "medium"
+        },
+        "confidence": "high",
+        "evidence": [
+          "cartela inicial anuncia comparação",
+          "mesmo criador interpreta múltiplos papéis",
+          "relógios e trocas de roupa materializam passagem do tempo",
+          "encerramento retorna ao homem esperando"
+        ],
+        "alternativeClassifications": [],
+        "missingInformation": [
+          "transcrição humana ou automática integral da fala",
+          "audição e conferência independente de toda a faixa de áudio",
+          "curva de retenção",
+          "impressões e fontes de tráfego",
+          "mídia paga",
+          "teste representativo de compreensão",
+          "comparação causal controlada"
+        ],
+        "needsHumanReview": true
+      },
+      "comparison": {
+        "level": 4,
+        "group": "esquete de humor cotidiano baseada em contraste de tempo e papéis",
+        "referenceIds": [],
+        "confidence": "low"
+      },
+      "observations": [
+        "A premissa é compreendida antes da primeira ação por uma cartela binária.",
+        "A escalada permanece ligada à mesma variável: tempo e etapas para se arrumar.",
+        "Comentários incluem identificação e contestação do estereótipo, sem medir riso ou retenção."
+      ],
+      "interpretations": [
+        "Contraste visual recorrente oferece progressão simples e replicável.",
+        "O estereótipo favorece reconhecimento rápido, mas limita inclusão e transferibilidade."
+      ],
+      "scores": {
+        "gancho": 87,
+        "clareza": 92,
+        "relevancia": 78,
+        "desejo": 68,
+        "confianca": 61,
+        "retencao": "not_assessed",
+        "acao": 45,
+        "objecoes": 55
+      },
+      "fiveLenses": {
+        "apressado": "Entende homens versus mulheres em segundos.",
+        "analitico": "Vê uma caricatura, não uma afirmação representativa.",
+        "aspiracional": "Participa mais por reconhecimento do que por transformação.",
+        "comunidade": "Comentários confirmam identificação individual e contestam generalização.",
+        "cetico": "Rejeita o estereótipo se for tratado como verdade."
+      },
+      "hypotheses": [],
+      "replicable": [
+        "Declarar premissa comparativa em uma cartela curta.",
+        "Escalar uma única variável visualmente.",
+        "Fechar retornando à consequência da premissa."
+      ],
+      "limitations": [
+        "Estereótipo de gênero não é observação representativa.",
+        "Comentários não medem riso, retenção ou compartilhamento.",
+        "Não há grupo comparável suficiente neste lote."
+      ],
+      "provenance": [
+        "public_content",
+        "instagram_public_metadata",
+        "public_search",
+        "direct_instagram_media",
+        "sampled_video_frames",
+        "public_metric",
+        "observatory_inference",
+        "instagram_public_comments"
+      ],
+      "training": {
+        "evidencePolicyVersion": "1.1",
+        "evidenceRole": "controlled_exploration",
+        "evidenceLevel": 4,
+        "requiredEvidenceObserved": true,
+        "supportEligible": false,
+        "claimCoverage": [
+          {
+            "claim": "a esquete transforma uma tensão cotidiana em contraste e escalada visual",
+            "requiredModalities": [
+              "video",
+              "text_on_screen"
+            ],
+            "observedModalities": [
+              "video",
+              "text_on_screen"
+            ],
+            "sufficient": true
+          }
+        ],
+        "provenanceAndConsent": {
+          "storyOrigin": "conteúdo editorial público do próprio criador; nenhum relato privado identificável de terceiro foi ensinado",
+          "consentStatus": "not_applicable",
+          "identityProtection": "not_applicable",
+          "evidence": [
+            "publicação individual pública, arquivo de vídeo, legenda, metadados e comentários públicos"
+          ]
+        },
+        "replicable": [
+          "Declarar premissa comparativa em uma cartela curta.",
+          "Escalar uma única variável visualmente.",
+          "Fechar retornando à consequência da premissa."
+        ],
+        "contingent": [
+          "Estereótipo de gênero não é observação representativa.",
+          "Comentários não medem riso, retenção ou compartilhamento.",
+          "Não há grupo comparável suficiente neste lote."
+        ],
+        "notRecommended": [
+          "copiar frase, identidade visual, personagem ou roteiro",
+          "tratar curtidas, comentários, fama, tendência, mídia ou orçamento como causa de desempenho",
+          "inferir retenção ou resultado comportamental sem métrica ou experimento",
+          "transformar comunicação de saúde em diagnóstico, prescrição ou certeza clínica sem revisão proporcional"
+        ],
+        "hypotheses": []
+      },
+      "viralAssessment": {
+        "status": "indeterminate",
+        "observedSignal": 3237,
+        "missingForRelativeAssessment": [
+          "coorte funcional contemporânea homogênea",
+          "retenção",
+          "impressões",
+          "fontes de tráfego",
+          "mídia paga"
+        ],
+        "confounders": [
+          "tamanho do perfil",
+          "tema",
+          "data",
+          "distribuição"
+        ],
+        "causalClaimAllowed": false
+      }
     }
   ],
   "patterns": [
@@ -67283,17 +68628,20 @@
         "obs-20260906-108",
         "obs-20260927-211",
         "obs-20260927-212",
-        "obs-20260927-213"
+        "obs-20260927-213",
+        "obs-20261006-256",
+        "obs-20261006-257",
+        "obs-20261006-258"
       ],
-      "comparableSupportCount": 13,
+      "comparableSupportCount": 16,
       "comparisonLevel": 2,
       "confidence": "medium",
       "limitations": [
-        "Treze apoios formais vêm de oito criadores e sete fontes; demonstram recorrência estrutural, não confiança, compreensão ou comportamento.",
-        "Nenhuma referência oferece retenção, teste de compreensão, revisão clínica humana deste lote ou experimento causal.",
-        "Marca hospitalar, fama, métricas e comentários permanecem contexto não causal.",
-        "O novo caso-limite reforça que fontes genéricas e aviso médico não substituem autoria clínica e proporcionalidade.",
-        "Publicações de 2020 a 2024 podem exigir atualização clínica; a comparação é comunicacional, não diretriz médica."
+        "Dezesseis apoios formais vêm de onze criadores e dez fontes; demonstram recorrência estrutural, não confiança, compreensão ou comportamento.",
+        "Três Reels deste lote tiveram vídeo efetivamente adquirido e quadros distribuídos inspecionados, mas nenhuma fala recebeu transcrição integral ou revisão clínica humana.",
+        "Nenhuma referência oferece retenção, teste de compreensão ou experimento causal.",
+        "Marca, fama, curtidas, comentários e captação comercial permanecem contexto não causal.",
+        "O novo caso-limite reforça que caso clínico sem procedência, consentimento e escopo proporcional não conta como apoio."
       ],
       "validation": "requires_human_or_experimental_evidence",
       "stage": "provisional",
@@ -67301,7 +68649,7 @@
       "creativeFamily": "conteúdo de saúde",
       "objective": "objetivo educativo ou conscientização",
       "segment": "fonte ou autoridade demonstrada",
-      "supportingCount": 13,
+      "supportingCount": 16,
       "counterexampleCount": 0,
       "evidence": [
         {
@@ -67433,17 +68781,66 @@
           "limitations": [
             "não conta como apoio nem como contraexemplo clínico"
           ]
+        },
+        {
+          "referenceId": "obs-20261006-256",
+          "role": "support",
+          "comparisonLevel": 2,
+          "requiredEvidenceObserved": true,
+          "confidence": "medium",
+          "observation": "Contradição específica, médico identificável, fonte mostrada, limite de tratamento e ação aparecem em Reel adquirido.",
+          "evidence": "Vídeo integral, doze quadros, legenda pública e comentários.",
+          "limitations": [
+            "sem transcrição integral, verificação clínica ou retenção"
+          ]
+        },
+        {
+          "referenceId": "obs-20261006-257",
+          "role": "support",
+          "comparisonLevel": 1,
+          "requiredEvidenceObserved": true,
+          "confidence": "high",
+          "observation": "Medição concreta, risco, CRM rastreável e ação de acompanhar e procurar avaliação aparecem em Reel adquirido.",
+          "evidence": "Vídeo integral, doze quadros, legenda pública e comentários.",
+          "limitations": [
+            "sem técnica completa de medição, revisão clínica ou retenção"
+          ]
+        },
+        {
+          "referenceId": "obs-20261006-258",
+          "role": "support",
+          "comparisonLevel": 2,
+          "requiredEvidenceObserved": true,
+          "confidence": "medium",
+          "observation": "Risco concreto, lista finita e ações preventivas aparecem em Reel adquirido; credencial completa e fontes permanecem ausentes.",
+          "evidence": "Vídeo integral, doze quadros, legenda pública e comentários.",
+          "limitations": [
+            "autoridade apenas declarada no perfil; sem fontes clínicas ligadas às alegações"
+          ]
+        },
+        {
+          "referenceId": "obs-20261006-259",
+          "role": "case_limit",
+          "comparisonLevel": 2,
+          "requiredEvidenceObserved": false,
+          "confidence": "medium",
+          "observation": "Caso clínico nomeia risco e investigação, mas não documenta consentimento nem contexto que limite a recomendação.",
+          "evidence": "Vídeo integral, doze quadros, legenda pública e comentários.",
+          "limitations": [
+            "não conta como apoio nem contraexemplo clínico"
+          ]
         }
       ],
       "taxonomyVersion": "3.0",
-      "creatorDiversityCount": 8,
-      "sourceDiversityCount": 7,
+      "creatorDiversityCount": 11,
+      "sourceDiversityCount": 10,
       "patternType": "prova",
       "caseLimitReferenceIds": [
         "obs-20260906-109",
-        "obs-20260927-214"
+        "obs-20260927-214",
+        "obs-20261006-259"
       ],
-      "caseLimitCount": 2
+      "caseLimitCount": 3
     },
     {
       "id": "pat-20260823-003",
@@ -76384,6 +77781,143 @@
         "Quarenta e seis comentários foram amostrados sem representatividade estatística.",
         "Alegações científicas e previsões não receberam revisão humana especializada neste lote.",
         "Não houve retenção, auditoria visual, teste de compreensão ou causalidade controlada.",
+        "Nenhum resultado autoriza validação; revisão humana ou evidência experimental continua necessária."
+      ]
+    },
+    {
+      "id": "run-20261006-supervised-048",
+      "executedAt": "2026-10-06T11:56:43.000Z",
+      "batchPolicyVersion": "1.1",
+      "requestedBatchSize": 5,
+      "candidatesFound": 38,
+      "referenceIds": [
+        "obs-20261006-256",
+        "obs-20261006-257",
+        "obs-20261006-258",
+        "obs-20261006-259",
+        "obs-20261006-260"
+      ],
+      "targetKnowledgeId": "pat-20260823-002",
+      "targetReferenceIds": [
+        "obs-20261006-256",
+        "obs-20261006-257",
+        "obs-20261006-258"
+      ],
+      "falsificationOrBoundaryReferenceIds": [
+        "obs-20261006-259"
+      ],
+      "controlledExplorationReferenceIds": [
+        "obs-20261006-260"
+      ],
+      "discarded": [
+        {
+          "url": "https://www.instagram.com/p/DdZC_QiAlmu/",
+          "reason": "carrossel estático, não vídeo individual"
+        },
+        {
+          "url": "https://www.instagram.com/reel/Dc0oPTfBWIR/",
+          "reason": "vídeo identificado, mas o arquivo público expirou com resposta 403 e não houve cobertura suficiente"
+        },
+        {
+          "url": "https://www.instagram.com/p/DdMr0EepQKh/",
+          "reason": "imagem estática sobre Libras, fora do alvo de vídeo"
+        },
+        {
+          "url": "https://www.instagram.com/reel/DVrFKztjs3t/",
+          "reason": "legenda extensa acessível, porém mídia e autoridade não foram verificadas com segurança suficiente"
+        },
+        {
+          "url": "https://www.instagram.com/p/DdbUQ2kvKVG/",
+          "reason": "mesmo criador do caso-limite selecionado e menor diversidade de fonte"
+        }
+      ],
+      "analyzed": 5,
+      "brazilianReferences": 5,
+      "internationalReferences": 0,
+      "unknownOriginReferences": 0,
+      "smallOrMediumCreatorReferences": 5,
+      "replicableReferences": 4,
+      "creativeFamiliesObserved": [
+        "explicativo",
+        "educativo",
+        "autoridade_opiniao",
+        "venda_indireta",
+        "prova_estudo_caso",
+        "humor",
+        "identificacao",
+        "entretenimento"
+      ],
+      "coverageSummary": {
+        "complete": 0,
+        "partial": 5,
+        "insufficient": 0
+      },
+      "audiovisualAcquisition": {
+        "attempted": true,
+        "succeeded": 5,
+        "failure": null,
+        "effect": "cinco arquivos MP4 integrais foram adquiridos; doze quadros distribuídos por Reel foram inspecionados, permitindo observar abertura, enquadramento, texto na tela, mudanças visuais e estrutura aproximada"
+      },
+      "transcriptCoverage": {
+        "fullHumanOrCreatorProvided": 0,
+        "fullAutomatic": 0,
+        "partialHumanOrCreatorProvided": 0,
+        "partialAutomatic": 5,
+        "none": 0,
+        "limitation": "legendas queimadas foram observadas por amostragem temporal; a faixa de áudio existe nos cinco arquivos, mas não recebeu transcrição integral nem audição independente"
+      },
+      "commentsCoverage": {
+        "countsOnly": 0,
+        "sampledReferences": 5,
+        "sampledComments": 58,
+        "zeroReturnedReferences": 0,
+        "unavailableReferences": 0,
+        "limitation": "amostras públicas, pequenas e não representativas; relatos, pedidos de exame, elogios e contestação não medem compreensão ou resultado"
+      },
+      "baselineCoverage": {
+        "sampledProfiles": 5,
+        "contemporaneousBaselines": 0,
+        "limitation": "não houve coorte contemporânea, retenção, teste de compreensão, revisão clínica ou experimento causal"
+      },
+      "patternsCreated": [],
+      "patternsStrengthened": [
+        "pat-20260823-002"
+      ],
+      "patternsRefined": [
+        "pat-20260823-002"
+      ],
+      "hypothesesCreated": [],
+      "hypothesesStrengthened": [],
+      "validatedPatternsCreated": 0,
+      "contradictionsFound": [],
+      "caseLimitsFound": [
+        "caso clínico com risco e exames, mas sem procedência, consentimento e escopo suficientes para orientação generalizável"
+      ],
+      "safetyFindings": [
+        "credencial, linguagem proporcional, fonte e próximo passo foram avaliados separadamente",
+        "alegações clínicas não foram tratadas como validadas sem revisão proporcional",
+        "caso de paciente não foi contado como apoio sem procedência e consentimento documentados",
+        "comentários, curtidas, popularidade, mídia e produção permaneceram contexto não causal",
+        "retenção não foi inferida de ritmo, edição ou número de comentários",
+        "Observatório, cérebros sintéticos e futuro Freud permaneceram separados"
+      ],
+      "evidenceGateSummary": {
+        "targetSupportsEligible": 3,
+        "targetSupportsRejected": 0,
+        "boundaryCases": 1,
+        "explorationReferences": 1,
+        "duplicateUrls": 0,
+        "independentCreatorsAddedToBatch": 5,
+        "independentCreatorsAddedToPattern": 3,
+        "newHypotheses": 0
+      },
+      "outcome": "O primeiro lote integralmente Instagram adquiriu cinco Reels reais. Três apoios elevam de treze para dezesseis a recorrência do padrão de explicadores de saúde; um caso clínico refina o limite de consentimento e proporcionalidade. Nenhum resultado foi validado.",
+      "nextTarget": "Reel brasileiro curto de saúde, de profissional ou instituição pequena ou média, com audiovisual integral, credencial e fonte primária verificáveis, legenda humana completa e teste de compreensão; priorizar um caso em que a credencial seja real, mas a recomendação exceda a evidência",
+      "limitations": [
+        "Nenhuma fala recebeu transcrição integral ou audição independente; legendas queimadas foram observadas por amostragem temporal.",
+        "Alegações médicas e nutricionais não receberam revisão clínica humana neste lote.",
+        "Cinquenta e oito comentários foram amostrados sem representatividade estatística.",
+        "Não houve retenção, teste de compreensão, coorte comparável ou causalidade controlada.",
         "Nenhum resultado autoriza validação; revisão humana ou evidência experimental continua necessária."
       ]
     }
