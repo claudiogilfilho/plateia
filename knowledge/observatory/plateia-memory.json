@@ -67139,7 +67139,7 @@
           "consciencia_problema",
           "lead"
         ],
-        "advertisingType": "editorial_com_oferta",
+        "advertisingType": "geracao_de_leads",
         "commercialIntent": "explicita",
         "advertisedEntity": {
           "kind": "servico",
@@ -67158,27 +67158,26 @@
         "creatorScale": "small",
         "replicability": "high",
         "durationBand": "over_60s",
-        "pace": "medium",
+        "pace": "moderate",
         "mechanisms": [
           "vigilancia",
           "confianca",
           "alivio"
         ],
         "hookTypes": [
-          "contradicao",
+          "afirmacao_contraintuitiva",
           "problema"
         ],
         "narrativeElements": [
           "problema",
           "mecanismo",
-          "limite",
-          "acao",
+          "conclusao",
           "cta"
         ],
         "proofTypes": [
           "demonstracao",
-          "fonte_mostrada",
-          "autoridade_declarada"
+          "fonte",
+          "autoridade_percebida"
         ],
         "ctaTypes": [
           "salvar",
@@ -67413,7 +67412,7 @@
           "educar",
           "lead"
         ],
-        "advertisingType": "editorial_com_oferta",
+        "advertisingType": "geracao_de_leads",
         "commercialIntent": "explicita",
         "advertisedEntity": {
           "kind": "servico",
@@ -67432,7 +67431,7 @@
         "creatorScale": "small",
         "replicability": "high",
         "durationBand": "over_60s",
-        "pace": "steady",
+        "pace": "moderate",
         "mechanisms": [
           "vigilancia",
           "medo",
@@ -67440,17 +67439,16 @@
         ],
         "hookTypes": [
           "risco",
-          "ugc"
+          "visual"
         ],
         "narrativeElements": [
           "risco",
           "mecanismo",
-          "acao",
           "cta"
         ],
         "proofTypes": [
-          "autoridade_identificada",
-          "medicao_mostrada"
+          "especialista",
+          "demonstracao"
         ],
         "ctaTypes": [
           "compartilhar",
@@ -67685,7 +67683,7 @@
           "consciencia_problema",
           "lead"
         ],
-        "advertisingType": "editorial_com_oferta",
+        "advertisingType": "geracao_de_leads",
         "commercialIntent": "explicita",
         "advertisedEntity": {
           "kind": "servico",
@@ -67704,25 +67702,24 @@
         "creatorScale": "small",
         "replicability": "high",
         "durationBand": "over_60s",
-        "pace": "medium",
+        "pace": "moderate",
         "mechanisms": [
           "vigilancia",
           "aversao_perda",
           "confianca"
         ],
         "hookTypes": [
-          "personificacao",
-          "lista"
+          "afirmacao_contraintuitiva",
+          "numero"
         ],
         "narrativeElements": [
           "risco",
-          "lista",
+          "progressao",
           "mecanismo",
-          "acao",
           "cta"
         ],
         "proofTypes": [
-          "autoridade_declarada",
+          "autoridade_percebida",
           "mecanismo_explicado"
         ],
         "ctaTypes": [
@@ -67976,25 +67973,25 @@
         "creatorScale": "small",
         "replicability": "medium",
         "durationBand": "over_60s",
-        "pace": "steady",
+        "pace": "moderate",
         "mechanisms": [
           "medo",
           "vigilancia",
           "confianca"
         ],
         "hookTypes": [
-          "caso_real",
+          "narrativo",
           "risco"
         ],
         "narrativeElements": [
           "personagem",
           "problema",
-          "descoberta",
-          "alerta"
+          "virada",
+          "conclusao"
         ],
         "proofTypes": [
-          "relato_de_terceiro",
-          "autoridade_declarada"
+          "depoimento",
+          "autoridade_percebida"
         ],
         "ctaTypes": [],
         "distributionContext": {
@@ -68220,7 +68217,7 @@
           }
         ],
         "objectives": [
-          "entreter",
+          "visualizacao",
           "identificacao",
           "comentario"
         ],
@@ -68243,24 +68240,24 @@
         "creatorScale": "small",
         "replicability": "high",
         "durationBand": "over_60s",
-        "pace": "medium",
+        "pace": "moderate",
         "mechanisms": [
           "humor",
           "identificacao",
           "surpresa"
         ],
         "hookTypes": [
-          "comparacao",
-          "situacao_cotidiana"
+          "textual",
+          "identificacao"
         ],
         "narrativeElements": [
           "situacao",
-          "contraste",
+          "progressao",
           "escalada",
           "payoff"
         ],
         "proofTypes": [
-          "dramatizacao"
+          "nenhuma"
         ],
         "ctaTypes": [],
         "distributionContext": {
