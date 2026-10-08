@@ -1,6 +1,6 @@
 {
   "protocol": "plateia-memory/1.0",
-  "updatedAt": "2026-10-06T11:56:43.000Z",
+  "updatedAt": "2026-10-08T11:51:41.000Z",
   "references": [
     {
       "id": "obs-20260823-001",
@@ -68400,6 +68400,1266 @@
         ],
         "causalClaimAllowed": false
       }
+    },
+    {
+      "id": "obs-20261008-261",
+      "title": "Retatrutida: promessa não substitui aprovação sanitária",
+      "creator": "Dra. Tanise Vargas",
+      "creatorIdentity": "dra-tanise-vargas",
+      "sourceIdentity": "dra-tanise-vargas",
+      "country": "BR",
+      "url": "https://www.instagram.com/reel/DdH4J1hFK1V/",
+      "sourceEvidence": [
+        "https://www.instagram.com/reel/DdH4J1hFK1V/",
+        "https://imginn.com/p/DdH4J1hFK1V/"
+      ],
+      "publishedAt": "2026-09-10",
+      "duration": "not_measured",
+      "createdAt": "2026-10-08T11:51:41.000Z",
+      "coverage": {
+        "level": "partial",
+        "accessible": [
+          "URL pública individual, criador, legenda indexada, data e contexto declarado",
+          "texto integral ou substancial da legenda pública"
+        ],
+        "missing": [
+          "arquivo de vídeo reproduzível",
+          "quadros e imagens em movimento",
+          "áudio ouvido",
+          "transcrição independente da fala",
+          "texto na tela",
+          "duração",
+          "ritmo e edição",
+          "curva de retenção",
+          "impressões, tráfego e mídia paga",
+          "teste de compreensão",
+          "comparação causal"
+        ]
+      },
+      "publicMetrics": {
+        "viewsObserved": "not_measured",
+        "likesObserved": "not_measured",
+        "commentsObserved": "not_measured",
+        "commentsSampled": 0,
+        "observedAt": "2026-10-08",
+        "sourceType": "instagram_public_post_indexed_caption",
+        "causality": "not_inferred"
+      },
+      "classification": {
+        "taxonomyVersion": "3.0",
+        "container": "instagram_reel",
+        "materialFormat": "reel",
+        "presentationFormats": [
+          "camera_direta",
+          "comentario"
+        ],
+        "primaryFamily": "explicativo",
+        "secondaryFamilies": [
+          "educativo",
+          "autoridade_opiniao"
+        ],
+        "objectives": [
+          "educar",
+          "consciencia_problema"
+        ],
+        "advertisingType": "editorial_organico",
+        "commercialIntent": "implicita",
+        "advertisedEntity": {
+          "kind": "nenhuma",
+          "name": "",
+          "confidence": "medium"
+        },
+        "contentTopic": {
+          "label": "retatrutida experimental, risco e aprovação sanitária",
+          "iabCode": null
+        },
+        "segment": "saúde",
+        "subsegment": "retatrutida experimental, risco e aprovação sanitária",
+        "probableAudience": "adultos interessados em tratamento de obesidade",
+        "awarenessStage": "consciente_solucao",
+        "productionLevel": "unknown",
+        "creatorScale": "unknown",
+        "replicability": "high",
+        "durationBand": "unknown",
+        "pace": "unknown",
+        "mechanisms": [
+          "vigilancia",
+          "confianca"
+        ],
+        "hookTypes": [
+          "textual"
+        ],
+        "narrativeElements": [
+          "problema",
+          "mecanismo",
+          "conclusao",
+          "cta"
+        ],
+        "proofTypes": [
+          "autoridade_percebida"
+        ],
+        "ctaTypes": [
+          "compartilhar",
+          "comentar"
+        ],
+        "distributionContext": {
+          "organicPaid": "unknown",
+          "trendDependency": "unknown"
+        },
+        "confidence": "high",
+        "evidence": [
+          "A legenda nomeia a molécula, explica as três vias hormonais, informa fase 3 e ausência de aprovação por Anvisa e FDA, delimita riscos de procedência e orienta acompanhamento médico."
+        ],
+        "alternativeClassifications": [],
+        "missingInformation": [
+          "arquivo de vídeo reproduzível",
+          "quadros e imagens em movimento",
+          "áudio ouvido",
+          "transcrição independente da fala",
+          "texto na tela",
+          "duração",
+          "ritmo e edição",
+          "curva de retenção",
+          "impressões, tráfego e mídia paga",
+          "teste de compreensão",
+          "comparação causal"
+        ],
+        "needsHumanReview": true,
+        "functionalMix": [
+          {
+            "family": "explicativo",
+            "percentage": 60
+          },
+          {
+            "family": "educativo",
+            "percentage": 20
+          },
+          {
+            "family": "autoridade_opiniao",
+            "percentage": 20
+          }
+        ]
+      },
+      "comparison": {
+        "level": 2,
+        "group": "Reel brasileiro explicativo de saúde com risco concreto, autoridade rastreável, linguagem proporcional e ação específica",
+        "referenceIds": [
+          "obs-20261008-261",
+          "obs-20261008-262",
+          "obs-20261008-263"
+        ],
+        "confidence": "high"
+      },
+      "observations": [
+        "A legenda nomeia a molécula, explica as três vias hormonais, informa fase 3 e ausência de aprovação por Anvisa e FDA, delimita riscos de procedência e orienta acompanhamento médico."
+      ],
+      "interpretations": [
+        "A estrutura textual é observável; efeitos sobre atenção, compreensão, confiança e comportamento permanecem não medidos."
+      ],
+      "scores": {
+        "gancho": "not_assessed",
+        "clareza": 82,
+        "relevancia": 80,
+        "desejo": "not_assessed",
+        "confianca": 78,
+        "retencao": "not_assessed",
+        "acao": 78,
+        "objecoes": 75
+      },
+      "fiveLenses": {
+        "apressado": "Tema e próximo passo são identificáveis na legenda; abertura audiovisual não avaliada.",
+        "analitico": "Pede fontes primárias e escopo das alegações.",
+        "aspiracional": "Pode perceber autonomia ou prevenção, sem resultado medido.",
+        "comunidade": "Comentários não foram amostrados.",
+        "cetico": "Questiona credencial, fontes e generalização quando ausentes."
+      },
+      "hypotheses": [],
+      "replicable": [
+        "Nomear o risco ou dúvida com precisão.",
+        "Distinguir informação geral de orientação individual.",
+        "Oferecer uma ação proporcional ao escopo."
+      ],
+      "limitations": [
+        "O vídeo, a fala e as fontes primárias dos ensaios não foram adquiridos nem revisados; a especialidade foi declarada no perfil e não revalidada de forma independente."
+      ],
+      "provenance": [
+        "public_content",
+        "instagram_public_metadata",
+        "public_search",
+        "indexed_caption",
+        "observatory_inference"
+      ],
+      "training": {
+        "evidencePolicyVersion": "1.1",
+        "evidenceRole": "support",
+        "evidenceLevel": 2,
+        "requiredEvidenceObserved": true,
+        "supportEligible": true,
+        "claimCoverage": [
+          {
+            "claim": "A legenda nomeia a molécula, explica as três vias hormonais, informa fase 3 e ausência de aprovação por Anvisa e FDA, delimita riscos de procedência e orienta acompanhamento médico.",
+            "requiredModalities": [
+              "caption",
+              "creator_identity"
+            ],
+            "observedModalities": [
+              "caption",
+              "creator_identity"
+            ],
+            "sufficient": true
+          }
+        ],
+        "provenanceAndConsent": {
+          "storyOrigin": "conteúdo público editorial do próprio criador; nenhuma história privada de terceiro foi ensinada",
+          "consentStatus": "not_applicable",
+          "identityProtection": "not_applicable",
+          "evidence": [
+            "publicação individual, legenda e metadados públicos"
+          ]
+        },
+        "replicable": [
+          "Nomear o risco ou dúvida com precisão.",
+          "Distinguir informação geral de orientação individual.",
+          "Oferecer uma ação proporcional ao escopo."
+        ],
+        "contingent": [
+          "O vídeo, a fala e as fontes primárias dos ensaios não foram adquiridos nem revisados; a especialidade foi declarada no perfil e não revalidada de forma independente."
+        ],
+        "notRecommended": [
+          "copiar frase, identidade visual, personagem ou roteiro",
+          "tratar curtidas, fama, mídia ou produção como causa",
+          "inferir cenas, ritmo ou retenção sem vídeo",
+          "transformar conteúdo de saúde em diagnóstico ou prescrição"
+        ],
+        "hypotheses": []
+      },
+      "viralAssessment": {
+        "status": "indeterminate",
+        "observedSignal": "not_measured",
+        "missingForRelativeAssessment": [
+          "coorte funcional contemporânea",
+          "retenção",
+          "impressões",
+          "fontes de tráfego",
+          "mídia paga"
+        ],
+        "confounders": [
+          "tamanho do perfil",
+          "tema",
+          "data",
+          "distribuição"
+        ],
+        "causalClaimAllowed": false
+      }
+    },
+    {
+      "id": "obs-20261008-262",
+      "title": "Peyronie, curvatura e dificuldade erétil",
+      "creator": "Dr. Homero Ribeiro",
+      "creatorIdentity": "dr-homero-ribeiro",
+      "sourceIdentity": "dr-homero-ribeiro",
+      "country": "BR",
+      "url": "https://www.instagram.com/reel/DdaGUxQDJ8X/",
+      "sourceEvidence": [
+        "https://www.instagram.com/reel/DdaGUxQDJ8X/",
+        "https://imginn.com/p/DdaGUxQDJ8X/"
+      ],
+      "publishedAt": "2026-09-18",
+      "duration": "not_measured",
+      "createdAt": "2026-10-08T11:51:41.000Z",
+      "coverage": {
+        "level": "partial",
+        "accessible": [
+          "URL pública individual, criador, legenda indexada, data e contexto declarado",
+          "texto integral ou substancial da legenda pública",
+          "contagens públicas indexadas de curtidas e comentários"
+        ],
+        "missing": [
+          "arquivo de vídeo reproduzível",
+          "quadros e imagens em movimento",
+          "áudio ouvido",
+          "transcrição independente da fala",
+          "texto na tela",
+          "duração",
+          "ritmo e edição",
+          "curva de retenção",
+          "impressões, tráfego e mídia paga",
+          "teste de compreensão",
+          "comparação causal"
+        ]
+      },
+      "publicMetrics": {
+        "viewsObserved": "not_measured",
+        "likesObserved": 16,
+        "commentsObserved": 2,
+        "commentsSampled": 0,
+        "observedAt": "2026-10-08",
+        "sourceType": "instagram_public_post_indexed_caption",
+        "causality": "not_inferred"
+      },
+      "classification": {
+        "taxonomyVersion": "3.0",
+        "container": "instagram_reel",
+        "materialFormat": "reel",
+        "presentationFormats": [
+          "camera_direta",
+          "comentario"
+        ],
+        "primaryFamily": "explicativo",
+        "secondaryFamilies": [
+          "educativo",
+          "venda_indireta"
+        ],
+        "objectives": [
+          "educar",
+          "consciencia_problema"
+        ],
+        "advertisingType": "editorial_organico",
+        "commercialIntent": "explicita",
+        "advertisedEntity": {
+          "kind": "servico",
+          "name": "serviço ou conteúdo do criador",
+          "confidence": "medium"
+        },
+        "contentTopic": {
+          "label": "doença de Peyronie e disfunção erétil",
+          "iabCode": null
+        },
+        "segment": "saúde",
+        "subsegment": "doença de Peyronie e disfunção erétil",
+        "probableAudience": "homens com curvatura, dor ou alteração de rigidez",
+        "awarenessStage": "consciente_problema",
+        "productionLevel": "unknown",
+        "creatorScale": "unknown",
+        "replicability": "high",
+        "durationBand": "unknown",
+        "pace": "unknown",
+        "mechanisms": [
+          "vigilancia",
+          "alivio",
+          "confianca"
+        ],
+        "hookTypes": [
+          "textual"
+        ],
+        "narrativeElements": [
+          "problema",
+          "mecanismo",
+          "conclusao",
+          "cta"
+        ],
+        "proofTypes": [
+          "autoridade_percebida"
+        ],
+        "ctaTypes": [
+          "compartilhar",
+          "comentar"
+        ],
+        "distributionContext": {
+          "organicPaid": "unknown",
+          "trendDependency": "unknown"
+        },
+        "confidence": "high",
+        "evidence": [
+          "A legenda diferencia associação de causalidade direta, lista sinais concretos, apresenta opções condicionadas ao estágio e orienta avaliação urológica; CRM e RQE aparecem na própria publicação."
+        ],
+        "alternativeClassifications": [],
+        "missingInformation": [
+          "arquivo de vídeo reproduzível",
+          "quadros e imagens em movimento",
+          "áudio ouvido",
+          "transcrição independente da fala",
+          "texto na tela",
+          "duração",
+          "ritmo e edição",
+          "curva de retenção",
+          "impressões, tráfego e mídia paga",
+          "teste de compreensão",
+          "comparação causal"
+        ],
+        "needsHumanReview": true,
+        "functionalMix": [
+          {
+            "family": "explicativo",
+            "percentage": 60
+          },
+          {
+            "family": "educativo",
+            "percentage": 20
+          },
+          {
+            "family": "venda_indireta",
+            "percentage": 20
+          }
+        ]
+      },
+      "comparison": {
+        "level": 2,
+        "group": "Reel brasileiro explicativo de saúde com risco concreto, autoridade rastreável, linguagem proporcional e ação específica",
+        "referenceIds": [
+          "obs-20261008-261",
+          "obs-20261008-262",
+          "obs-20261008-263"
+        ],
+        "confidence": "high"
+      },
+      "observations": [
+        "A legenda diferencia associação de causalidade direta, lista sinais concretos, apresenta opções condicionadas ao estágio e orienta avaliação urológica; CRM e RQE aparecem na própria publicação."
+      ],
+      "interpretations": [
+        "A estrutura textual é observável; efeitos sobre atenção, compreensão, confiança e comportamento permanecem não medidos."
+      ],
+      "scores": {
+        "gancho": "not_assessed",
+        "clareza": 82,
+        "relevancia": 80,
+        "desejo": "not_assessed",
+        "confianca": 78,
+        "retencao": "not_assessed",
+        "acao": 78,
+        "objecoes": 75
+      },
+      "fiveLenses": {
+        "apressado": "Tema e próximo passo são identificáveis na legenda; abertura audiovisual não avaliada.",
+        "analitico": "Pede fontes primárias e escopo das alegações.",
+        "aspiracional": "Pode perceber autonomia ou prevenção, sem resultado medido.",
+        "comunidade": "Comentários não foram amostrados.",
+        "cetico": "Questiona credencial, fontes e generalização quando ausentes."
+      },
+      "hypotheses": [],
+      "replicable": [
+        "Nomear o risco ou dúvida com precisão.",
+        "Distinguir informação geral de orientação individual.",
+        "Oferecer uma ação proporcional ao escopo."
+      ],
+      "limitations": [
+        "Somente texto indexado, autoria, data e contagens parciais ficaram acessíveis; não houve vídeo, áudio, revisão urológica ou fonte clínica ligada às alegações."
+      ],
+      "provenance": [
+        "public_content",
+        "instagram_public_metadata",
+        "public_search",
+        "indexed_caption",
+        "observatory_inference"
+      ],
+      "training": {
+        "evidencePolicyVersion": "1.1",
+        "evidenceRole": "support",
+        "evidenceLevel": 2,
+        "requiredEvidenceObserved": true,
+        "supportEligible": true,
+        "claimCoverage": [
+          {
+            "claim": "A legenda diferencia associação de causalidade direta, lista sinais concretos, apresenta opções condicionadas ao estágio e orienta avaliação urológica; CRM e RQE aparecem na própria publicação.",
+            "requiredModalities": [
+              "caption",
+              "creator_identity"
+            ],
+            "observedModalities": [
+              "caption",
+              "creator_identity"
+            ],
+            "sufficient": true
+          }
+        ],
+        "provenanceAndConsent": {
+          "storyOrigin": "conteúdo público editorial do próprio criador; nenhuma história privada de terceiro foi ensinada",
+          "consentStatus": "not_applicable",
+          "identityProtection": "not_applicable",
+          "evidence": [
+            "publicação individual, legenda e metadados públicos"
+          ]
+        },
+        "replicable": [
+          "Nomear o risco ou dúvida com precisão.",
+          "Distinguir informação geral de orientação individual.",
+          "Oferecer uma ação proporcional ao escopo."
+        ],
+        "contingent": [
+          "Somente texto indexado, autoria, data e contagens parciais ficaram acessíveis; não houve vídeo, áudio, revisão urológica ou fonte clínica ligada às alegações."
+        ],
+        "notRecommended": [
+          "copiar frase, identidade visual, personagem ou roteiro",
+          "tratar curtidas, fama, mídia ou produção como causa",
+          "inferir cenas, ritmo ou retenção sem vídeo",
+          "transformar conteúdo de saúde em diagnóstico ou prescrição"
+        ],
+        "hypotheses": []
+      },
+      "viralAssessment": {
+        "status": "indeterminate",
+        "observedSignal": 16,
+        "missingForRelativeAssessment": [
+          "coorte funcional contemporânea",
+          "retenção",
+          "impressões",
+          "fontes de tráfego",
+          "mídia paga"
+        ],
+        "confounders": [
+          "tamanho do perfil",
+          "tema",
+          "data",
+          "distribuição"
+        ],
+        "causalClaimAllowed": false
+      }
+    },
+    {
+      "id": "obs-20261008-263",
+      "title": "Movimento na transição da menopausa",
+      "creator": "Claudia Fernanda",
+      "creatorIdentity": "claudia-fernanda-saude-da-mulher",
+      "sourceIdentity": "claudia-fernanda-saude-da-mulher",
+      "country": "BR",
+      "url": "https://www.instagram.com/reel/DdUwgv-tf5I/",
+      "sourceEvidence": [
+        "https://www.instagram.com/reel/DdUwgv-tf5I/",
+        "https://imginn.com/p/DdUwgv-tf5I/"
+      ],
+      "publishedAt": "2026-09-15",
+      "duration": "not_measured",
+      "createdAt": "2026-10-08T11:51:41.000Z",
+      "coverage": {
+        "level": "partial",
+        "accessible": [
+          "URL pública individual, criador, legenda indexada, data e contexto declarado",
+          "texto integral ou substancial da legenda pública",
+          "contagens públicas indexadas de curtidas e comentários"
+        ],
+        "missing": [
+          "arquivo de vídeo reproduzível",
+          "quadros e imagens em movimento",
+          "áudio ouvido",
+          "transcrição independente da fala",
+          "texto na tela",
+          "duração",
+          "ritmo e edição",
+          "curva de retenção",
+          "impressões, tráfego e mídia paga",
+          "teste de compreensão",
+          "comparação causal"
+        ]
+      },
+      "publicMetrics": {
+        "viewsObserved": "not_measured",
+        "likesObserved": 21,
+        "commentsObserved": 10,
+        "commentsSampled": 0,
+        "observedAt": "2026-10-08",
+        "sourceType": "instagram_public_post_indexed_caption",
+        "causality": "not_inferred"
+      },
+      "classification": {
+        "taxonomyVersion": "3.0",
+        "container": "instagram_reel",
+        "materialFormat": "reel",
+        "presentationFormats": [
+          "camera_direta",
+          "depoimento"
+        ],
+        "primaryFamily": "explicativo",
+        "secondaryFamilies": [
+          "educativo",
+          "venda_indireta"
+        ],
+        "objectives": [
+          "educar",
+          "consciencia_problema"
+        ],
+        "advertisingType": "editorial_organico",
+        "commercialIntent": "explicita",
+        "advertisedEntity": {
+          "kind": "servico",
+          "name": "serviço ou conteúdo do criador",
+          "confidence": "medium"
+        },
+        "contentTopic": {
+          "label": "exercício na perimenopausa, menopausa e pós-menopausa",
+          "iabCode": null
+        },
+        "segment": "saúde",
+        "subsegment": "exercício na perimenopausa, menopausa e pós-menopausa",
+        "probableAudience": "mulheres na transição da menopausa",
+        "awarenessStage": "consciente_problema",
+        "productionLevel": "unknown",
+        "creatorScale": "unknown",
+        "replicability": "high",
+        "durationBand": "unknown",
+        "pace": "unknown",
+        "mechanisms": [
+          "identificacao",
+          "alivio",
+          "confianca"
+        ],
+        "hookTypes": [
+          "textual"
+        ],
+        "narrativeElements": [
+          "problema",
+          "mecanismo",
+          "conclusao",
+          "cta"
+        ],
+        "proofTypes": [
+          "autoridade_percebida"
+        ],
+        "ctaTypes": [
+          "compartilhar",
+          "comentar"
+        ],
+        "distributionContext": {
+          "organicPaid": "unknown",
+          "trendDependency": "unknown"
+        },
+        "confidence": "medium",
+        "evidence": [
+          "A legenda parte de sintomas concretos, limita o alcance do exercício, declara que ele não substitui acompanhamento médico e propõe movimento individualizado antes do CTA de serviço."
+        ],
+        "alternativeClassifications": [],
+        "missingInformation": [
+          "arquivo de vídeo reproduzível",
+          "quadros e imagens em movimento",
+          "áudio ouvido",
+          "transcrição independente da fala",
+          "texto na tela",
+          "duração",
+          "ritmo e edição",
+          "curva de retenção",
+          "impressões, tráfego e mídia paga",
+          "teste de compreensão",
+          "comparação causal"
+        ],
+        "needsHumanReview": true,
+        "functionalMix": [
+          {
+            "family": "explicativo",
+            "percentage": 60
+          },
+          {
+            "family": "educativo",
+            "percentage": 20
+          },
+          {
+            "family": "venda_indireta",
+            "percentage": 20
+          }
+        ]
+      },
+      "comparison": {
+        "level": 2,
+        "group": "Reel brasileiro explicativo de saúde com risco concreto, autoridade rastreável, linguagem proporcional e ação específica",
+        "referenceIds": [
+          "obs-20261008-261",
+          "obs-20261008-262",
+          "obs-20261008-263"
+        ],
+        "confidence": "medium"
+      },
+      "observations": [
+        "A legenda parte de sintomas concretos, limita o alcance do exercício, declara que ele não substitui acompanhamento médico e propõe movimento individualizado antes do CTA de serviço."
+      ],
+      "interpretations": [
+        "A estrutura textual é observável; efeitos sobre atenção, compreensão, confiança e comportamento permanecem não medidos."
+      ],
+      "scores": {
+        "gancho": "not_assessed",
+        "clareza": 82,
+        "relevancia": 80,
+        "desejo": "not_assessed",
+        "confianca": 78,
+        "retencao": "not_assessed",
+        "acao": 78,
+        "objecoes": 75
+      },
+      "fiveLenses": {
+        "apressado": "Tema e próximo passo são identificáveis na legenda; abertura audiovisual não avaliada.",
+        "analitico": "Pede fontes primárias e escopo das alegações.",
+        "aspiracional": "Pode perceber autonomia ou prevenção, sem resultado medido.",
+        "comunidade": "Comentários não foram amostrados.",
+        "cetico": "Questiona credencial, fontes e generalização quando ausentes."
+      },
+      "hypotheses": [],
+      "replicable": [
+        "Nomear o risco ou dúvida com precisão.",
+        "Distinguir informação geral de orientação individual.",
+        "Oferecer uma ação proporcional ao escopo."
+      ],
+      "limitations": [
+        "A formação profissional é declarada, mas registro, fontes científicas, vídeo, fala e precisão das promessas não foram verificados; benefícios múltiplos aparecem sem estudos ligados a cada afirmação."
+      ],
+      "provenance": [
+        "public_content",
+        "instagram_public_metadata",
+        "public_search",
+        "indexed_caption",
+        "observatory_inference"
+      ],
+      "training": {
+        "evidencePolicyVersion": "1.1",
+        "evidenceRole": "support",
+        "evidenceLevel": 2,
+        "requiredEvidenceObserved": true,
+        "supportEligible": true,
+        "claimCoverage": [
+          {
+            "claim": "A legenda parte de sintomas concretos, limita o alcance do exercício, declara que ele não substitui acompanhamento médico e propõe movimento individualizado antes do CTA de serviço.",
+            "requiredModalities": [
+              "caption",
+              "creator_identity"
+            ],
+            "observedModalities": [
+              "caption",
+              "creator_identity"
+            ],
+            "sufficient": true
+          }
+        ],
+        "provenanceAndConsent": {
+          "storyOrigin": "conteúdo público editorial do próprio criador; nenhuma história privada de terceiro foi ensinada",
+          "consentStatus": "not_applicable",
+          "identityProtection": "not_applicable",
+          "evidence": [
+            "publicação individual, legenda e metadados públicos"
+          ]
+        },
+        "replicable": [
+          "Nomear o risco ou dúvida com precisão.",
+          "Distinguir informação geral de orientação individual.",
+          "Oferecer uma ação proporcional ao escopo."
+        ],
+        "contingent": [
+          "A formação profissional é declarada, mas registro, fontes científicas, vídeo, fala e precisão das promessas não foram verificados; benefícios múltiplos aparecem sem estudos ligados a cada afirmação."
+        ],
+        "notRecommended": [
+          "copiar frase, identidade visual, personagem ou roteiro",
+          "tratar curtidas, fama, mídia ou produção como causa",
+          "inferir cenas, ritmo ou retenção sem vídeo",
+          "transformar conteúdo de saúde em diagnóstico ou prescrição"
+        ],
+        "hypotheses": []
+      },
+      "viralAssessment": {
+        "status": "indeterminate",
+        "observedSignal": 21,
+        "missingForRelativeAssessment": [
+          "coorte funcional contemporânea",
+          "retenção",
+          "impressões",
+          "fontes de tráfego",
+          "mídia paga"
+        ],
+        "confounders": [
+          "tamanho do perfil",
+          "tema",
+          "data",
+          "distribuição"
+        ],
+        "causalClaimAllowed": false
+      }
+    },
+    {
+      "id": "obs-20261008-264",
+      "title": "Caneta, atalhos e hábitos",
+      "creator": "Cris Arcangeli",
+      "creatorIdentity": "cris-arcangeli",
+      "sourceIdentity": "cris-arcangeli",
+      "country": "BR",
+      "url": "https://www.instagram.com/reel/DdrGu7fDlIv/",
+      "sourceEvidence": [
+        "https://www.instagram.com/reel/DdrGu7fDlIv/",
+        "https://imginn.com/p/DdrGu7fDlIv/"
+      ],
+      "publishedAt": "2026-09-24",
+      "duration": "not_measured",
+      "createdAt": "2026-10-08T11:51:41.000Z",
+      "coverage": {
+        "level": "partial",
+        "accessible": [
+          "URL pública individual, criador, legenda indexada, data e contexto declarado",
+          "texto integral ou substancial da legenda pública",
+          "contagens públicas indexadas de curtidas e comentários"
+        ],
+        "missing": [
+          "arquivo de vídeo reproduzível",
+          "quadros e imagens em movimento",
+          "áudio ouvido",
+          "transcrição independente da fala",
+          "texto na tela",
+          "duração",
+          "ritmo e edição",
+          "curva de retenção",
+          "impressões, tráfego e mídia paga",
+          "teste de compreensão",
+          "comparação causal"
+        ]
+      },
+      "publicMetrics": {
+        "viewsObserved": "not_measured",
+        "likesObserved": 11125,
+        "commentsObserved": 192,
+        "commentsSampled": 0,
+        "observedAt": "2026-10-08",
+        "sourceType": "instagram_public_post_indexed_caption",
+        "causality": "not_inferred"
+      },
+      "classification": {
+        "taxonomyVersion": "3.0",
+        "container": "instagram_reel",
+        "materialFormat": "reel",
+        "presentationFormats": [
+          "camera_direta",
+          "comentario"
+        ],
+        "primaryFamily": "autoridade_opiniao",
+        "secondaryFamilies": [
+          "conscientizacao",
+          "posicionamento_marca"
+        ],
+        "objectives": [
+          "autoridade",
+          "marca"
+        ],
+        "advertisingType": "editorial_organico",
+        "commercialIntent": "implicita",
+        "advertisedEntity": {
+          "kind": "nenhuma",
+          "name": "",
+          "confidence": "medium"
+        },
+        "contentTopic": {
+          "label": "medicamentos para emagrecimento e hábitos",
+          "iabCode": null
+        },
+        "segment": "saúde",
+        "subsegment": "medicamentos para emagrecimento e hábitos",
+        "probableAudience": "adultos interessados em emagrecimento e performance",
+        "awarenessStage": "consciente_solucao",
+        "productionLevel": "unknown",
+        "creatorScale": "unknown",
+        "replicability": "high",
+        "durationBand": "unknown",
+        "pace": "unknown",
+        "mechanisms": [
+          "indignacao",
+          "vigilancia",
+          "identificacao"
+        ],
+        "hookTypes": [
+          "textual"
+        ],
+        "narrativeElements": [
+          "problema",
+          "mecanismo",
+          "conclusao",
+          "cta"
+        ],
+        "proofTypes": [
+          "autoridade_percebida"
+        ],
+        "ctaTypes": [
+          "compartilhar",
+          "comentar"
+        ],
+        "distributionContext": {
+          "organicPaid": "unknown",
+          "trendDependency": "unknown"
+        },
+        "confidence": "medium",
+        "evidence": [
+          "A legenda reconhece indicações médicas e encaminha a decisão ao médico, mas transforma a oposição entre atalho e constância em regra ampla e combina saúde com analogia de negócios."
+        ],
+        "alternativeClassifications": [],
+        "missingInformation": [
+          "arquivo de vídeo reproduzível",
+          "quadros e imagens em movimento",
+          "áudio ouvido",
+          "transcrição independente da fala",
+          "texto na tela",
+          "duração",
+          "ritmo e edição",
+          "curva de retenção",
+          "impressões, tráfego e mídia paga",
+          "teste de compreensão",
+          "comparação causal"
+        ],
+        "needsHumanReview": true,
+        "functionalMix": [
+          {
+            "family": "autoridade_opiniao",
+            "percentage": 60
+          },
+          {
+            "family": "conscientizacao",
+            "percentage": 20
+          },
+          {
+            "family": "posicionamento_marca",
+            "percentage": 20
+          }
+        ]
+      },
+      "comparison": {
+        "level": 2,
+        "group": "Reel brasileiro explicativo de saúde com risco concreto, autoridade rastreável, linguagem proporcional e ação específica",
+        "referenceIds": [
+          "obs-20261008-261",
+          "obs-20261008-262",
+          "obs-20261008-263"
+        ],
+        "confidence": "medium"
+      },
+      "observations": [
+        "A legenda reconhece indicações médicas e encaminha a decisão ao médico, mas transforma a oposição entre atalho e constância em regra ampla e combina saúde com analogia de negócios."
+      ],
+      "interpretations": [
+        "A estrutura textual é observável; efeitos sobre atenção, compreensão, confiança e comportamento permanecem não medidos."
+      ],
+      "scores": {
+        "gancho": "not_assessed",
+        "clareza": 70,
+        "relevancia": 68,
+        "desejo": "not_assessed",
+        "confianca": 48,
+        "retencao": "not_assessed",
+        "acao": 55,
+        "objecoes": 45
+      },
+      "fiveLenses": {
+        "apressado": "Tema e próximo passo são identificáveis na legenda; abertura audiovisual não avaliada.",
+        "analitico": "Pede fontes primárias e escopo das alegações.",
+        "aspiracional": "Pode perceber autonomia ou prevenção, sem resultado medido.",
+        "comunidade": "Comentários não foram amostrados.",
+        "cetico": "Questiona credencial, fontes e generalização quando ausentes."
+      },
+      "hypotheses": [],
+      "replicable": [
+        "Nomear o risco ou dúvida com precisão.",
+        "Distinguir informação geral de orientação individual.",
+        "Oferecer uma ação proporcional ao escopo."
+      ],
+      "limitations": [
+        "A autora não é apresentada como autoridade clínica, não há fonte médica ligada às afirmações e não foi possível observar vídeo, fala ou qualificações adicionais; é caso-limite, não contraexemplo."
+      ],
+      "provenance": [
+        "public_content",
+        "instagram_public_metadata",
+        "public_search",
+        "indexed_caption",
+        "observatory_inference"
+      ],
+      "training": {
+        "evidencePolicyVersion": "1.1",
+        "evidenceRole": "case_limit",
+        "evidenceLevel": 2,
+        "requiredEvidenceObserved": false,
+        "supportEligible": false,
+        "claimCoverage": [
+          {
+            "claim": "A legenda reconhece indicações médicas e encaminha a decisão ao médico, mas transforma a oposição entre atalho e constância em regra ampla e combina saúde com analogia de negócios.",
+            "requiredModalities": [
+              "caption",
+              "creator_identity",
+              "clinical_credential"
+            ],
+            "observedModalities": [
+              "caption",
+              "creator_identity"
+            ],
+            "sufficient": false
+          }
+        ],
+        "provenanceAndConsent": {
+          "storyOrigin": "conteúdo público editorial do próprio criador; nenhuma história privada de terceiro foi ensinada",
+          "consentStatus": "not_applicable",
+          "identityProtection": "not_applicable",
+          "evidence": [
+            "publicação individual, legenda e metadados públicos"
+          ]
+        },
+        "replicable": [
+          "Nomear o risco ou dúvida com precisão.",
+          "Distinguir informação geral de orientação individual.",
+          "Oferecer uma ação proporcional ao escopo."
+        ],
+        "contingent": [
+          "A autora não é apresentada como autoridade clínica, não há fonte médica ligada às afirmações e não foi possível observar vídeo, fala ou qualificações adicionais; é caso-limite, não contraexemplo."
+        ],
+        "notRecommended": [
+          "copiar frase, identidade visual, personagem ou roteiro",
+          "tratar curtidas, fama, mídia ou produção como causa",
+          "inferir cenas, ritmo ou retenção sem vídeo",
+          "transformar conteúdo de saúde em diagnóstico ou prescrição"
+        ],
+        "hypotheses": []
+      },
+      "viralAssessment": {
+        "status": "indeterminate",
+        "observedSignal": 11125,
+        "missingForRelativeAssessment": [
+          "coorte funcional contemporânea",
+          "retenção",
+          "impressões",
+          "fontes de tráfego",
+          "mídia paga"
+        ],
+        "confounders": [
+          "tamanho do perfil",
+          "tema",
+          "data",
+          "distribuição"
+        ],
+        "causalClaimAllowed": false
+      }
+    },
+    {
+      "id": "obs-20261008-265",
+      "title": "A receita falhou, mas o reality deu certo",
+      "creator": "Vanessa Costa",
+      "creatorIdentity": "vanessa-costa-receitas",
+      "sourceIdentity": "vanessa-costa-receitas",
+      "country": "BR",
+      "url": "https://www.instagram.com/reel/Ddbr3SERBVA/",
+      "sourceEvidence": [
+        "https://www.instagram.com/reel/Ddbr3SERBVA/",
+        "https://imginn.com/p/Ddbr3SERBVA/"
+      ],
+      "publishedAt": "2026-09-18",
+      "duration": "not_measured",
+      "createdAt": "2026-10-08T11:51:41.000Z",
+      "coverage": {
+        "level": "partial",
+        "accessible": [
+          "URL pública individual, criador, legenda indexada, data e contexto declarado",
+          "texto integral ou substancial da legenda pública",
+          "contagens públicas indexadas de curtidas e comentários"
+        ],
+        "missing": [
+          "arquivo de vídeo reproduzível",
+          "quadros e imagens em movimento",
+          "áudio ouvido",
+          "transcrição independente da fala",
+          "texto na tela",
+          "duração",
+          "ritmo e edição",
+          "curva de retenção",
+          "impressões, tráfego e mídia paga",
+          "teste de compreensão",
+          "comparação causal"
+        ]
+      },
+      "publicMetrics": {
+        "viewsObserved": "not_measured",
+        "likesObserved": 3570,
+        "commentsObserved": 67,
+        "commentsSampled": 0,
+        "observedAt": "2026-10-08",
+        "sourceType": "instagram_public_post_indexed_caption",
+        "causality": "not_inferred"
+      },
+      "classification": {
+        "taxonomyVersion": "3.0",
+        "container": "instagram_reel",
+        "materialFormat": "reel",
+        "presentationFormats": [
+          "bastidores",
+          "comentario",
+          "produto"
+        ],
+        "primaryFamily": "humor",
+        "secondaryFamilies": [
+          "storytelling",
+          "venda_indireta"
+        ],
+        "objectives": [
+          "visualizacao",
+          "marca"
+        ],
+        "advertisingType": "editorial_organico",
+        "commercialIntent": "explicita",
+        "advertisedEntity": {
+          "kind": "servico",
+          "name": "serviço ou conteúdo do criador",
+          "confidence": "medium"
+        },
+        "contentTopic": {
+          "label": "falha culinária reenquadrada como publicidade de reality",
+          "iabCode": null
+        },
+        "segment": "alimentação e entretenimento",
+        "subsegment": "falha culinária reenquadrada como publicidade de reality",
+        "probableAudience": "público de receitas e entretenimento culinário",
+        "awarenessStage": "consciente_produto",
+        "productionLevel": "unknown",
+        "creatorScale": "unknown",
+        "replicability": "medium",
+        "durationBand": "unknown",
+        "pace": "unknown",
+        "mechanisms": [
+          "surpresa",
+          "humor",
+          "curiosidade"
+        ],
+        "hookTypes": [
+          "textual"
+        ],
+        "narrativeElements": [
+          "problema",
+          "mecanismo",
+          "conclusao",
+          "cta"
+        ],
+        "proofTypes": [
+          "autoridade_percebida"
+        ],
+        "ctaTypes": [
+          "compartilhar",
+          "comentar"
+        ],
+        "distributionContext": {
+          "organicPaid": "unknown",
+          "trendDependency": "unknown"
+        },
+        "confidence": "medium",
+        "evidence": [
+          "A legenda preserva a falha da receita como premissa cômica e a converte em ponte explícita para divulgar um reality de comida japonesa, com marcação de publicidade."
+        ],
+        "alternativeClassifications": [],
+        "missingInformation": [
+          "arquivo de vídeo reproduzível",
+          "quadros e imagens em movimento",
+          "áudio ouvido",
+          "transcrição independente da fala",
+          "texto na tela",
+          "duração",
+          "ritmo e edição",
+          "curva de retenção",
+          "impressões, tráfego e mídia paga",
+          "teste de compreensão",
+          "comparação causal"
+        ],
+        "needsHumanReview": true,
+        "functionalMix": [
+          {
+            "family": "humor",
+            "percentage": 60
+          },
+          {
+            "family": "storytelling",
+            "percentage": 20
+          },
+          {
+            "family": "venda_indireta",
+            "percentage": 20
+          }
+        ]
+      },
+      "comparison": {
+        "level": 4,
+        "group": "publicidade culinária que preserva uma falha como premissa",
+        "referenceIds": [],
+        "confidence": "medium"
+      },
+      "observations": [
+        "A legenda preserva a falha da receita como premissa cômica e a converte em ponte explícita para divulgar um reality de comida japonesa, com marcação de publicidade."
+      ],
+      "interpretations": [
+        "A estrutura textual é observável; efeitos sobre atenção, compreensão, confiança e comportamento permanecem não medidos."
+      ],
+      "scores": {
+        "gancho": "not_assessed",
+        "clareza": 70,
+        "relevancia": 68,
+        "desejo": "not_assessed",
+        "confianca": 48,
+        "retencao": "not_assessed",
+        "acao": 55,
+        "objecoes": 45
+      },
+      "fiveLenses": {
+        "apressado": "Tema e próximo passo são identificáveis na legenda; abertura audiovisual não avaliada.",
+        "analitico": "Pede fontes primárias e escopo das alegações.",
+        "aspiracional": "Pode perceber autonomia ou prevenção, sem resultado medido.",
+        "comunidade": "Comentários não foram amostrados.",
+        "cetico": "Questiona credencial, fontes e generalização quando ausentes."
+      },
+      "hypotheses": [],
+      "replicable": [
+        "Nomear o risco ou dúvida com precisão.",
+        "Distinguir informação geral de orientação individual.",
+        "Oferecer uma ação proporcional ao escopo."
+      ],
+      "limitations": [
+        "A causa da falha, o procedimento, a execução visual, o timing cômico e a reação não ficaram acessíveis; não apoia o padrão experimental porque não explica nem retesta a falha."
+      ],
+      "provenance": [
+        "public_content",
+        "instagram_public_metadata",
+        "public_search",
+        "indexed_caption",
+        "observatory_inference"
+      ],
+      "training": {
+        "evidencePolicyVersion": "1.1",
+        "evidenceRole": "context",
+        "evidenceLevel": 4,
+        "requiredEvidenceObserved": false,
+        "supportEligible": false,
+        "claimCoverage": [
+          {
+            "claim": "A legenda preserva a falha da receita como premissa cômica e a converte em ponte explícita para divulgar um reality de comida japonesa, com marcação de publicidade.",
+            "requiredModalities": [
+              "caption",
+              "video"
+            ],
+            "observedModalities": [
+              "caption"
+            ],
+            "sufficient": false
+          }
+        ],
+        "provenanceAndConsent": {
+          "storyOrigin": "conteúdo publicitário público do próprio criador",
+          "consentStatus": "not_applicable",
+          "identityProtection": "not_applicable",
+          "evidence": [
+            "publicação individual, legenda e metadados públicos"
+          ]
+        },
+        "replicable": [
+          "Nomear o risco ou dúvida com precisão.",
+          "Distinguir informação geral de orientação individual.",
+          "Oferecer uma ação proporcional ao escopo."
+        ],
+        "contingent": [
+          "A causa da falha, o procedimento, a execução visual, o timing cômico e a reação não ficaram acessíveis; não apoia o padrão experimental porque não explica nem retesta a falha."
+        ],
+        "notRecommended": [
+          "copiar frase, identidade visual, personagem ou roteiro",
+          "tratar curtidas, fama, mídia ou produção como causa",
+          "inferir cenas, ritmo ou retenção sem vídeo",
+          "transformar conteúdo de saúde em diagnóstico ou prescrição"
+        ],
+        "hypotheses": []
+      },
+      "viralAssessment": {
+        "status": "indeterminate",
+        "observedSignal": 3570,
+        "missingForRelativeAssessment": [
+          "coorte funcional contemporânea",
+          "retenção",
+          "impressões",
+          "fontes de tráfego",
+          "mídia paga"
+        ],
+        "confounders": [
+          "tamanho do perfil",
+          "tema",
+          "data",
+          "distribuição"
+        ],
+        "causalClaimAllowed": false
+      }
     }
   ],
   "patterns": [
@@ -68628,17 +69888,20 @@
         "obs-20260927-213",
         "obs-20261006-256",
         "obs-20261006-257",
-        "obs-20261006-258"
+        "obs-20261006-258",
+        "obs-20261008-261",
+        "obs-20261008-262",
+        "obs-20261008-263"
       ],
-      "comparableSupportCount": 16,
+      "comparableSupportCount": 19,
       "comparisonLevel": 2,
       "confidence": "medium",
       "limitations": [
-        "Dezesseis apoios formais vêm de onze criadores e dez fontes; demonstram recorrência estrutural, não confiança, compreensão ou comportamento.",
-        "Três Reels deste lote tiveram vídeo efetivamente adquirido e quadros distribuídos inspecionados, mas nenhuma fala recebeu transcrição integral ou revisão clínica humana.",
+        "Dezenove apoios formais vêm de quatorze criadores e treze fontes; demonstram recorrência estrutural, não confiança, compreensão ou comportamento.",
+        "Neste lote, somente legendas e metadados públicos ficaram acessíveis; cenas, fala, ritmo, edição e retenção não foram avaliados.",
         "Nenhuma referência oferece retenção, teste de compreensão ou experimento causal.",
-        "Marca, fama, curtidas, comentários e captação comercial permanecem contexto não causal.",
-        "O novo caso-limite reforça que caso clínico sem procedência, consentimento e escopo proporcional não conta como apoio."
+        "Popularidade, comentários, mídia e produção permanecem contexto não causal.",
+        "O caso-limite separa limite médico declarado de autoridade clínica e fundamentação proporcional."
       ],
       "validation": "requires_human_or_experimental_evidence",
       "stage": "provisional",
@@ -68646,7 +69909,7 @@
       "creativeFamily": "conteúdo de saúde",
       "objective": "objetivo educativo ou conscientização",
       "segment": "fonte ou autoridade demonstrada",
-      "supportingCount": 16,
+      "supportingCount": 19,
       "counterexampleCount": 0,
       "evidence": [
         {
@@ -68826,18 +70089,67 @@
           "limitations": [
             "não conta como apoio nem contraexemplo clínico"
           ]
+        },
+        {
+          "referenceId": "obs-20261008-261",
+          "role": "support",
+          "comparisonLevel": 2,
+          "requiredEvidenceObserved": true,
+          "confidence": "medium",
+          "observation": "Risco ou pergunta, autoridade identificável, limite e ação proporcional aparecem na legenda pública.",
+          "evidence": "Legenda indexada, autoria e data públicas.",
+          "limitations": [
+            "sem audiovisual, fonte clínica primária, revisão humana ou retenção"
+          ]
+        },
+        {
+          "referenceId": "obs-20261008-262",
+          "role": "support",
+          "comparisonLevel": 2,
+          "requiredEvidenceObserved": true,
+          "confidence": "medium",
+          "observation": "Risco ou pergunta, autoridade identificável, limite e ação proporcional aparecem na legenda pública.",
+          "evidence": "Legenda indexada, autoria e data públicas.",
+          "limitations": [
+            "sem audiovisual, fonte clínica primária, revisão humana ou retenção"
+          ]
+        },
+        {
+          "referenceId": "obs-20261008-263",
+          "role": "support",
+          "comparisonLevel": 2,
+          "requiredEvidenceObserved": true,
+          "confidence": "medium",
+          "observation": "Risco ou pergunta, autoridade identificável, limite e ação proporcional aparecem na legenda pública.",
+          "evidence": "Legenda indexada, autoria e data públicas.",
+          "limitations": [
+            "sem audiovisual, fonte clínica primária, revisão humana ou retenção"
+          ]
+        },
+        {
+          "referenceId": "obs-20261008-264",
+          "role": "case_limit",
+          "comparisonLevel": 2,
+          "requiredEvidenceObserved": false,
+          "confidence": "medium",
+          "observation": "Há limite médico declarado, mas autoridade não clínica e regra ampla de hábitos reduzem rastreabilidade e proporcionalidade.",
+          "evidence": "Legenda indexada e autoria pública.",
+          "limitations": [
+            "não conta como apoio nem contraexemplo clínico"
+          ]
         }
       ],
       "taxonomyVersion": "3.0",
-      "creatorDiversityCount": 11,
-      "sourceDiversityCount": 10,
+      "creatorDiversityCount": 14,
+      "sourceDiversityCount": 13,
       "patternType": "prova",
       "caseLimitReferenceIds": [
         "obs-20260906-109",
         "obs-20260927-214",
-        "obs-20261006-259"
+        "obs-20261006-259",
+        "obs-20261008-264"
       ],
-      "caseLimitCount": 3
+      "caseLimitCount": 4
     },
     {
       "id": "pat-20260823-003",
@@ -77916,6 +79228,133 @@
         "Cinquenta e oito comentários foram amostrados sem representatividade estatística.",
         "Não houve retenção, teste de compreensão, coorte comparável ou causalidade controlada.",
         "Nenhum resultado autoriza validação; revisão humana ou evidência experimental continua necessária."
+      ]
+    },
+    {
+      "id": "run-20261008-supervised-049",
+      "executedAt": "2026-10-08T11:51:41.000Z",
+      "batchPolicyVersion": "1.1",
+      "requestedBatchSize": 5,
+      "candidatesFound": 31,
+      "referenceIds": [
+        "obs-20261008-261",
+        "obs-20261008-262",
+        "obs-20261008-263",
+        "obs-20261008-264",
+        "obs-20261008-265"
+      ],
+      "targetKnowledgeId": "pat-20260823-002",
+      "targetReferenceIds": [
+        "obs-20261008-261",
+        "obs-20261008-262",
+        "obs-20261008-263"
+      ],
+      "falsificationOrBoundaryReferenceIds": [
+        "obs-20261008-264"
+      ],
+      "controlledExplorationReferenceIds": [
+        "obs-20261008-265"
+      ],
+      "discarded": [
+        {
+          "url": "https://www.instagram.com/reel/DdXCGj5FFJH/",
+          "reason": "trecho indexado insuficiente para reconstruir integralmente a orientação de emergência"
+        },
+        {
+          "url": "https://www.instagram.com/reel/DdKSMfviAIm/",
+          "reason": "alegação clínica curta sem fonte nem contexto suficientes"
+        },
+        {
+          "url": "https://www.instagram.com/reel/Dd1naYPIHUe/",
+          "reason": "autoridade profissional e conteúdo integral não ficaram rastreáveis"
+        }
+      ],
+      "analyzed": 5,
+      "brazilianReferences": 5,
+      "internationalReferences": 0,
+      "unknownOriginReferences": 0,
+      "smallOrMediumCreatorReferences": 0,
+      "replicableReferences": 4,
+      "creativeFamiliesObserved": [
+        "explicativo",
+        "educativo",
+        "autoridade_opiniao",
+        "conscientizacao",
+        "humor",
+        "bastidores",
+        "venda_indireta"
+      ],
+      "coverageSummary": {
+        "complete": 0,
+        "partial": 5,
+        "insufficient": 0
+      },
+      "audiovisualAcquisition": {
+        "attempted": true,
+        "succeeded": 0,
+        "failure": "links públicos de mídia retornaram erro ou expiraram; nenhum arquivo reproduzível foi adquirido",
+        "effect": "cenas, áudio ouvido, texto na tela, edição, ritmo e retenção ficaram não mensurados"
+      },
+      "transcriptCoverage": {
+        "fullHumanOrCreatorProvided": 0,
+        "fullAutomatic": 0,
+        "partialHumanOrCreatorProvided": 0,
+        "partialAutomatic": 0,
+        "none": 5,
+        "limitation": "legendas públicas substituem apenas o texto editorial e não a fala"
+      },
+      "commentsCoverage": {
+        "countsOnly": 4,
+        "sampledReferences": 0,
+        "sampledComments": 0,
+        "zeroReturnedReferences": 0,
+        "unavailableReferences": 5,
+        "limitation": "contagens não medem opinião, compreensão ou comportamento"
+      },
+      "baselineCoverage": {
+        "sampledProfiles": 5,
+        "contemporaneousBaselines": 0,
+        "limitation": "não houve coorte, retenção, revisão clínica, teste de compreensão ou experimento causal"
+      },
+      "patternsCreated": [],
+      "patternsStrengthened": [
+        "pat-20260823-002"
+      ],
+      "patternsRefined": [
+        "pat-20260823-002"
+      ],
+      "hypothesesCreated": [],
+      "hypothesesStrengthened": [],
+      "validatedPatternsCreated": 0,
+      "contradictionsFound": [],
+      "caseLimitsFound": [
+        "limite médico declarado sem autoridade clínica ou fundamentação ligada à alegação não basta para apoio"
+      ],
+      "safetyFindings": [
+        "credencial, fonte, linguagem proporcional e ação foram auditadas separadamente",
+        "legenda não foi tratada como prova audiovisual",
+        "alegações clínicas não foram validadas",
+        "métricas públicas permaneceram contexto não causal",
+        "Observatório, cérebros sintéticos e futuro Freud permaneceram separados"
+      ],
+      "evidenceGateSummary": {
+        "targetSupportsEligible": 3,
+        "targetSupportsRejected": 0,
+        "boundaryCases": 1,
+        "explorationReferences": 1,
+        "duplicateUrls": 0,
+        "independentCreatorsAddedToBatch": 5,
+        "independentCreatorsAddedToPattern": 3,
+        "newHypotheses": 0
+      },
+      "outcome": "Cinco Reels brasileiros foram ensinados por cobertura textual parcial. Três apoios elevam de dezesseis para dezenove a recorrência do padrão de explicadores de saúde; um caso-limite separa encaminhamento médico de autoridade e fundamentação clínica. Nenhum resultado foi validado.",
+      "nextTarget": "Reel brasileiro recente de saúde com vídeo integral, fala transcrita, CRM ou registro profissional verificável, fonte primária ligada à alegação e teste de compreensão; priorizar um caso em que a credencial seja real, mas a recomendação exceda a evidência.",
+      "limitations": [
+        "Nenhum arquivo de vídeo ou áudio utilizável foi adquirido.",
+        "Legendas públicas não substituem fala, cenas, texto na tela, ritmo ou edição.",
+        "Nenhum comentário foi amostrado; contagens públicas não são representativas.",
+        "Alegações clínicas não receberam revisão humana especializada.",
+        "Não houve retenção, teste de compreensão ou causalidade controlada."
       ]
     }
   ],
