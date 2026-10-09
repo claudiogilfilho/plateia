@@ -1,6 +1,6 @@
 {
   "protocol": "plateia-memory/1.0",
-  "updatedAt": "2026-10-08T11:51:41.000Z",
+  "updatedAt": "2026-10-09T11:51:18.000Z",
   "references": [
     {
       "id": "obs-20260823-001",
@@ -69660,6 +69660,1220 @@
         ],
         "causalClaimAllowed": false
       }
+    },
+    {
+      "id": "obs-20261009-266",
+      "title": "Prompt estruturado para organizar dívidas sem sacrificar o essencial",
+      "creator": "Vitória Tiecher",
+      "creatorIdentity": "vitoria-tiecher",
+      "sourceIdentity": "vitoria-tiecher",
+      "country": "BR",
+      "url": "https://www.instagram.com/reel/DdKb2fxkbvu/",
+      "sourceEvidence": [
+        "https://www.instagram.com/reel/DdKb2fxkbvu/",
+        "https://imginn.com/p/DdKb2fxkbvu/"
+      ],
+      "publishedAt": "2026-09-11",
+      "duration": "PT7S",
+      "createdAt": "2026-10-09T11:51:18.000Z",
+      "coverage": {
+        "level": "partial",
+        "accessible": [
+          "URL pública individual e arquivo identificado como vídeo",
+          "criador, legenda pública substancial, data e métricas públicas indexadas"
+        ],
+        "missing": [
+          "arquivo de vídeo reproduzido ou preservado",
+          "quadros e imagens em movimento",
+          "áudio ouvido",
+          "transcrição independente da fala",
+          "texto na tela",
+          "ritmo e edição",
+          "curva de retenção",
+          "impressões, fontes de tráfego e mídia paga",
+          "teste de compreensão ou execução",
+          "comparação causal"
+        ]
+      },
+      "publicMetrics": {
+        "viewsObserved": "not_measured",
+        "likesObserved": 35,
+        "commentsObserved": 8,
+        "commentsSampled": 4,
+        "observedAt": "2026-10-09",
+        "sourceType": "instagram_public_post_indexed_caption",
+        "causality": "not_inferred"
+      },
+      "classification": {
+        "taxonomyVersion": "3.0",
+        "container": "instagram_reel",
+        "materialFormat": "reel",
+        "presentationFormats": [
+          "camera_direta",
+          "tutorial"
+        ],
+        "primaryFamily": "educativo",
+        "secondaryFamilies": [
+          "tutorial",
+          "conscientizacao"
+        ],
+        "objectives": [
+          "educar",
+          "salvamento",
+          "autoridade"
+        ],
+        "advertisingType": "editorial_organico",
+        "commercialIntent": "implicita",
+        "advertisedEntity": {
+          "kind": "nenhuma",
+          "name": "",
+          "confidence": "medium"
+        },
+        "contentTopic": {
+          "label": "organização de dívidas com prompt estruturado",
+          "iabCode": null
+        },
+        "segment": "finanças pessoais e direito bancário",
+        "subsegment": "organização de dívidas com prompt estruturado",
+        "probableAudience": "adultos endividados que buscam organizar um plano de pagamento",
+        "awarenessStage": "consciente_problema",
+        "productionLevel": "unknown",
+        "creatorScale": "unknown",
+        "replicability": "high",
+        "durationBand": "unknown",
+        "pace": "unknown",
+        "mechanisms": [
+          "alivio",
+          "confianca",
+          "vigilancia"
+        ],
+        "hookTypes": [
+          "textual"
+        ],
+        "narrativeElements": [
+          "problema",
+          "mecanismo",
+          "acao",
+          "cta"
+        ],
+        "proofTypes": [
+          "procedimento_textual"
+        ],
+        "ctaTypes": [
+          "salvar",
+          "seguir"
+        ],
+        "distributionContext": {
+          "organicPaid": "unknown",
+          "trendDependency": "unknown"
+        },
+        "confidence": "medium",
+        "evidence": [
+          "A legenda pede renda líquida, dívidas e parcelas, gastos fixos e variáveis e valor mensal disponível sem comprometer necessidades básicas antes de solicitar priorização, negociação e cronograma."
+        ],
+        "alternativeClassifications": [],
+        "missingInformation": [
+          "vídeo reproduzido",
+          "áudio ouvido",
+          "texto na tela",
+          "ritmo",
+          "retenção",
+          "teste de execução"
+        ],
+        "needsHumanReview": true,
+        "functionalMix": [
+          {
+            "family": "educativo",
+            "percentage": 70
+          },
+          {
+            "family": "tutorial",
+            "percentage": 30
+          }
+        ]
+      },
+      "comparison": {
+        "level": 2,
+        "group": "Reel brasileiro de educação financeira sobre dívida com variáveis explícitas de capacidade de pagamento",
+        "referenceIds": [
+          "obs-20260929-221",
+          "obs-20260929-222",
+          "obs-20261001-231"
+        ],
+        "confidence": "medium"
+      },
+      "observations": [
+        "A legenda pede renda líquida, dívidas e parcelas, gastos fixos e variáveis e valor mensal disponível sem comprometer necessidades básicas antes de solicitar priorização, negociação e cronograma."
+      ],
+      "interpretations": [
+        "A estrutura textual e os metadados são observáveis; execução audiovisual, compreensão, retenção e resultado financeiro permanecem não medidos."
+      ],
+      "scores": {
+        "gancho": "not_assessed",
+        "clareza": 84,
+        "relevancia": 91,
+        "desejo": "not_assessed",
+        "confianca": 76,
+        "retencao": "not_assessed",
+        "acao": 86,
+        "objecoes": 82
+      },
+      "fiveLenses": {
+        "apressado": "O tema e a próxima ação são identificáveis na legenda; a abertura audiovisual não foi avaliada.",
+        "analitico": "Vê as variáveis centrais e cobra um exemplo preenchido, cálculo e proteção de dados.",
+        "aspiracional": "Pode perceber um caminho de reorganização ou autonomia, sem resultado medido.",
+        "comunidade": "Comentários públicos foram apenas amostrados e não são representativos.",
+        "cetico": "Questiona se um prompt genérico produz plano correto sem conferência profissional."
+      },
+      "hypotheses": [],
+      "replicable": [
+        "Pedir renda, despesas essenciais, saldos e parcelas antes de recomendar cortes ou acordos.",
+        "Converter os dados em uma sequência de priorização e cronograma, sem prometer desconto."
+      ],
+      "limitations": [
+        "Os campos aparecem como modelo não preenchido; não houve caso real, cálculo executado, validação jurídica individual nem teste de qualidade da resposta gerada."
+      ],
+      "provenance": [
+        "public_content",
+        "instagram_public_metadata",
+        "public_search",
+        "indexed_caption",
+        "observatory_inference"
+      ],
+      "training": {
+        "evidencePolicyVersion": "1.1",
+        "evidenceRole": "support",
+        "evidenceLevel": 2,
+        "requiredEvidenceObserved": true,
+        "supportEligible": true,
+        "claimCoverage": [
+          {
+            "claim": "A legenda pede renda líquida, dívidas e parcelas, gastos fixos e variáveis e valor mensal disponível sem comprometer necessidades básicas antes de solicitar priorização, negociação e cronograma.",
+            "requiredModalities": [
+              "caption",
+              "creator_identity"
+            ],
+            "observedModalities": [
+              "caption",
+              "creator_identity",
+              "public_metadata"
+            ],
+            "sufficient": true
+          }
+        ],
+        "provenanceAndConsent": {
+          "storyOrigin": "conteúdo público editorial do próprio criador; nenhuma história privada de terceiro foi ensinada",
+          "consentStatus": "not_applicable",
+          "identityProtection": "not_applicable",
+          "evidence": [
+            "publicação individual, legenda e metadados públicos"
+          ]
+        },
+        "replicable": [
+          "Pedir renda, despesas essenciais, saldos e parcelas antes de recomendar cortes ou acordos.",
+          "Converter os dados em uma sequência de priorização e cronograma, sem prometer desconto."
+        ],
+        "contingent": [
+          "Os campos aparecem como modelo não preenchido; não houve caso real, cálculo executado, validação jurídica individual nem teste de qualidade da resposta gerada."
+        ],
+        "notRecommended": [
+          "copiar frase, identidade visual, personagem ou roteiro",
+          "tratar curtidas, fama, mídia ou produção como causa",
+          "inferir cenas, ritmo ou retenção sem reproduzir o vídeo",
+          "transformar orientação geral em plano financeiro individual"
+        ],
+        "hypotheses": []
+      },
+      "viralAssessment": {
+        "status": "indeterminate",
+        "observedSignal": 35,
+        "missingForRelativeAssessment": [
+          "coorte funcional contemporânea",
+          "retenção",
+          "impressões",
+          "fontes de tráfego",
+          "mídia paga"
+        ],
+        "confounders": [
+          "tamanho do perfil",
+          "tema",
+          "data",
+          "distribuição"
+        ],
+        "causalClaimAllowed": false
+      }
+    },
+    {
+      "id": "obs-20261009-267",
+      "title": "Seis passos para conferir a evolução de uma dívida",
+      "creator": "Suellen Syglyd",
+      "creatorIdentity": "suellen-syglyd",
+      "sourceIdentity": "suellen-syglyd",
+      "country": "BR",
+      "url": "https://www.instagram.com/reel/DdsTEX0xEjG/",
+      "sourceEvidence": [
+        "https://www.instagram.com/reel/DdsTEX0xEjG/",
+        "https://imginn.com/p/DdsTEX0xEjG/"
+      ],
+      "publishedAt": "2026-09-25",
+      "duration": "not_measured",
+      "createdAt": "2026-10-09T11:51:18.000Z",
+      "coverage": {
+        "level": "partial",
+        "accessible": [
+          "URL pública individual e arquivo identificado como vídeo",
+          "criador, legenda pública substancial, data e métricas públicas indexadas"
+        ],
+        "missing": [
+          "arquivo de vídeo reproduzido ou preservado",
+          "quadros e imagens em movimento",
+          "áudio ouvido",
+          "transcrição independente da fala",
+          "texto na tela",
+          "ritmo e edição",
+          "curva de retenção",
+          "impressões, fontes de tráfego e mídia paga",
+          "teste de compreensão ou execução",
+          "comparação causal"
+        ]
+      },
+      "publicMetrics": {
+        "viewsObserved": "not_measured",
+        "likesObserved": 35,
+        "commentsObserved": 0,
+        "commentsSampled": 0,
+        "observedAt": "2026-10-09",
+        "sourceType": "instagram_public_post_indexed_caption",
+        "causality": "not_inferred"
+      },
+      "classification": {
+        "taxonomyVersion": "3.0",
+        "container": "instagram_reel",
+        "materialFormat": "reel",
+        "presentationFormats": [
+          "camera_direta",
+          "tutorial"
+        ],
+        "primaryFamily": "educativo",
+        "secondaryFamilies": [
+          "autoridade_opiniao",
+          "conscientizacao"
+        ],
+        "objectives": [
+          "educar",
+          "salvamento",
+          "autoridade"
+        ],
+        "advertisingType": "editorial_organico",
+        "commercialIntent": "implicita",
+        "advertisedEntity": {
+          "kind": "nenhuma",
+          "name": "",
+          "confidence": "medium"
+        },
+        "contentTopic": {
+          "label": "conferência de saldo e juros antes de renegociar dívida",
+          "iabCode": null
+        },
+        "segment": "finanças pessoais e direito bancário",
+        "subsegment": "conferência de saldo e juros antes de renegociar dívida",
+        "probableAudience": "consumidores com dívida bancária",
+        "awarenessStage": "consciente_problema",
+        "productionLevel": "unknown",
+        "creatorScale": "unknown",
+        "replicability": "high",
+        "durationBand": "unknown",
+        "pace": "unknown",
+        "mechanisms": [
+          "vigilancia",
+          "alivio",
+          "confianca"
+        ],
+        "hookTypes": [
+          "textual"
+        ],
+        "narrativeElements": [
+          "problema",
+          "etapas",
+          "limite",
+          "cta"
+        ],
+        "proofTypes": [
+          "procedimento_textual",
+          "autoridade_declarada"
+        ],
+        "ctaTypes": [
+          "salvar",
+          "compartilhar",
+          "seguir"
+        ],
+        "distributionContext": {
+          "organicPaid": "unknown",
+          "trendDependency": "unknown"
+        },
+        "confidence": "medium",
+        "evidence": [
+          "A legenda orienta conferir valor real, juros e Documento de Evolução da Dívida antes de aceitar proposta, evitar pagamento mínimo e documentar reclamações; condiciona ação revisional à análise profissional."
+        ],
+        "alternativeClassifications": [],
+        "missingInformation": [
+          "vídeo reproduzido",
+          "áudio ouvido",
+          "texto na tela",
+          "ritmo",
+          "retenção",
+          "teste de execução"
+        ],
+        "needsHumanReview": true,
+        "functionalMix": [
+          {
+            "family": "educativo",
+            "percentage": 70
+          },
+          {
+            "family": "autoridade_opiniao",
+            "percentage": 30
+          }
+        ]
+      },
+      "comparison": {
+        "level": 2,
+        "group": "Reel brasileiro de educação financeira sobre dívida com saldo, juros e etapas finitas",
+        "referenceIds": [
+          "obs-20260928-216",
+          "obs-20260928-217",
+          "obs-20261001-232"
+        ],
+        "confidence": "medium"
+      },
+      "observations": [
+        "A legenda orienta conferir valor real, juros e Documento de Evolução da Dívida antes de aceitar proposta, evitar pagamento mínimo e documentar reclamações; condiciona ação revisional à análise profissional."
+      ],
+      "interpretations": [
+        "A estrutura textual e os metadados são observáveis; execução audiovisual, compreensão, retenção e resultado financeiro permanecem não medidos."
+      ],
+      "scores": {
+        "gancho": "not_assessed",
+        "clareza": 80,
+        "relevancia": 85,
+        "desejo": "not_assessed",
+        "confianca": 78,
+        "retencao": "not_assessed",
+        "acao": 77,
+        "objecoes": 76
+      },
+      "fiveLenses": {
+        "apressado": "O tema e a próxima ação são identificáveis na legenda; a abertura audiovisual não foi avaliada.",
+        "analitico": "Valoriza a trilha documental, mas pede base legal específica, cálculo e capacidade de pagamento.",
+        "aspiracional": "Pode perceber um caminho de reorganização ou autonomia, sem resultado medido.",
+        "comunidade": "Comentários públicos foram apenas amostrados e não são representativos.",
+        "cetico": "Questiona a generalização sobre juros abusivos e a utilidade do passo sem exemplo."
+      },
+      "hypotheses": [],
+      "replicable": [
+        "Tornar saldo e juros auditáveis antes de negociar.",
+        "Separar canais administrativos de eventual medida judicial e declarar limites."
+      ],
+      "limitations": [
+        "Não há renda, despesas essenciais, capacidade mensal, cálculo preenchido ou resultado documentado; o conteúdo apoia apenas a parte de auditoria da dívida."
+      ],
+      "provenance": [
+        "public_content",
+        "instagram_public_metadata",
+        "public_search",
+        "indexed_caption",
+        "observatory_inference"
+      ],
+      "training": {
+        "evidencePolicyVersion": "1.1",
+        "evidenceRole": "support",
+        "evidenceLevel": 2,
+        "requiredEvidenceObserved": true,
+        "supportEligible": true,
+        "claimCoverage": [
+          {
+            "claim": "A legenda orienta conferir valor real, juros e Documento de Evolução da Dívida antes de aceitar proposta, evitar pagamento mínimo e documentar reclamações; condiciona ação revisional à análise profissional.",
+            "requiredModalities": [
+              "caption",
+              "creator_identity"
+            ],
+            "observedModalities": [
+              "caption",
+              "creator_identity",
+              "public_metadata"
+            ],
+            "sufficient": true
+          }
+        ],
+        "provenanceAndConsent": {
+          "storyOrigin": "conteúdo público editorial do próprio criador; nenhuma história privada de terceiro foi ensinada",
+          "consentStatus": "not_applicable",
+          "identityProtection": "not_applicable",
+          "evidence": [
+            "publicação individual, legenda e metadados públicos"
+          ]
+        },
+        "replicable": [
+          "Tornar saldo e juros auditáveis antes de negociar.",
+          "Separar canais administrativos de eventual medida judicial e declarar limites."
+        ],
+        "contingent": [
+          "Não há renda, despesas essenciais, capacidade mensal, cálculo preenchido ou resultado documentado; o conteúdo apoia apenas a parte de auditoria da dívida."
+        ],
+        "notRecommended": [
+          "copiar frase, identidade visual, personagem ou roteiro",
+          "tratar curtidas, fama, mídia ou produção como causa",
+          "inferir cenas, ritmo ou retenção sem reproduzir o vídeo",
+          "transformar orientação geral em plano financeiro individual"
+        ],
+        "hypotheses": []
+      },
+      "viralAssessment": {
+        "status": "indeterminate",
+        "observedSignal": 35,
+        "missingForRelativeAssessment": [
+          "coorte funcional contemporânea",
+          "retenção",
+          "impressões",
+          "fontes de tráfego",
+          "mídia paga"
+        ],
+        "confounders": [
+          "tamanho do perfil",
+          "tema",
+          "data",
+          "distribuição"
+        ],
+        "causalClaimAllowed": false
+      }
+    },
+    {
+      "id": "obs-20261009-268",
+      "title": "Financiamento depois dos 50: prazo, renda e capacidade",
+      "creator": "Bruna Guaritá",
+      "creatorIdentity": "bruna-guarita",
+      "sourceIdentity": "bruna-guarita",
+      "country": "BR",
+      "url": "https://www.instagram.com/reel/DcdREpsu5T8/",
+      "sourceEvidence": [
+        "https://www.instagram.com/reel/DcdREpsu5T8/",
+        "https://imginn.com/p/DcdREpsu5T8/"
+      ],
+      "publishedAt": "2026-08-25",
+      "duration": "not_measured",
+      "createdAt": "2026-10-09T11:51:18.000Z",
+      "coverage": {
+        "level": "partial",
+        "accessible": [
+          "URL pública individual e arquivo identificado como vídeo",
+          "criador, legenda pública substancial, data e métricas públicas indexadas"
+        ],
+        "missing": [
+          "arquivo de vídeo reproduzido ou preservado",
+          "quadros e imagens em movimento",
+          "áudio ouvido",
+          "transcrição independente da fala",
+          "texto na tela",
+          "ritmo e edição",
+          "curva de retenção",
+          "impressões, fontes de tráfego e mídia paga",
+          "teste de compreensão ou execução",
+          "comparação causal"
+        ]
+      },
+      "publicMetrics": {
+        "viewsObserved": "not_measured",
+        "likesObserved": 396,
+        "commentsObserved": 12,
+        "commentsSampled": 6,
+        "observedAt": "2026-10-09",
+        "sourceType": "instagram_public_post_indexed_caption",
+        "causality": "not_inferred"
+      },
+      "classification": {
+        "taxonomyVersion": "3.0",
+        "container": "instagram_reel",
+        "materialFormat": "reel",
+        "presentationFormats": [
+          "camera_direta",
+          "comentario"
+        ],
+        "primaryFamily": "explicativo",
+        "secondaryFamilies": [
+          "educativo",
+          "conscientizacao"
+        ],
+        "objectives": [
+          "educar",
+          "consciencia_problema",
+          "compartilhamento"
+        ],
+        "advertisingType": "editorial_organico",
+        "commercialIntent": "implicita",
+        "advertisedEntity": {
+          "kind": "nenhuma",
+          "name": "",
+          "confidence": "medium"
+        },
+        "contentTopic": {
+          "label": "capacidade de pagamento no financiamento imobiliário após os 50 anos",
+          "iabCode": null
+        },
+        "segment": "finanças pessoais e imóveis",
+        "subsegment": "capacidade de pagamento no financiamento imobiliário após os 50 anos",
+        "probableAudience": "pessoas acima de 50 anos ou aposentadas interessadas em financiamento",
+        "awarenessStage": "consciente_problema",
+        "productionLevel": "unknown",
+        "creatorScale": "unknown",
+        "replicability": "high",
+        "durationBand": "unknown",
+        "pace": "unknown",
+        "mechanisms": [
+          "alivio",
+          "confiança",
+          "vigilancia"
+        ],
+        "hookTypes": [
+          "textual"
+        ],
+        "narrativeElements": [
+          "duvida",
+          "regra",
+          "limite",
+          "acao"
+        ],
+        "proofTypes": [
+          "regra_declarada"
+        ],
+        "ctaTypes": [
+          "compartilhar",
+          "salvar"
+        ],
+        "distributionContext": {
+          "organicPaid": "unknown",
+          "trendDependency": "unknown"
+        },
+        "confidence": "medium",
+        "evidence": [
+          "A legenda desfaz a proibição presumida por idade, informa o limite de idade mais prazo atribuído à Caixa e condiciona a concessão à renda, às dívidas, à capacidade de pagamento e às condições do imóvel."
+        ],
+        "alternativeClassifications": [],
+        "missingInformation": [
+          "vídeo reproduzido",
+          "áudio ouvido",
+          "texto na tela",
+          "ritmo",
+          "retenção",
+          "teste de execução"
+        ],
+        "needsHumanReview": true,
+        "functionalMix": [
+          {
+            "family": "explicativo",
+            "percentage": 70
+          },
+          {
+            "family": "educativo",
+            "percentage": 30
+          }
+        ]
+      },
+      "comparison": {
+        "level": 2,
+        "group": "Reel brasileiro explicativo sobre crédito com renda, dívida e capacidade de pagamento",
+        "referenceIds": [
+          "obs-20260930-226",
+          "obs-20260930-227",
+          "obs-20261001-233"
+        ],
+        "confidence": "medium"
+      },
+      "observations": [
+        "A legenda desfaz a proibição presumida por idade, informa o limite de idade mais prazo atribuído à Caixa e condiciona a concessão à renda, às dívidas, à capacidade de pagamento e às condições do imóvel."
+      ],
+      "interpretations": [
+        "A estrutura textual e os metadados são observáveis; execução audiovisual, compreensão, retenção e resultado financeiro permanecem não medidos."
+      ],
+      "scores": {
+        "gancho": "not_assessed",
+        "clareza": 82,
+        "relevancia": 86,
+        "desejo": "not_assessed",
+        "confianca": 72,
+        "retencao": "not_assessed",
+        "acao": 73,
+        "objecoes": 75
+      },
+      "fiveLenses": {
+        "apressado": "O tema e a próxima ação são identificáveis na legenda; a abertura audiovisual não foi avaliada.",
+        "analitico": "Entende as variáveis, mas cobra fonte oficial, data da regra e simulação preenchida.",
+        "aspiracional": "Pode perceber um caminho de reorganização ou autonomia, sem resultado medido.",
+        "comunidade": "Comentários públicos foram apenas amostrados e não são representativos.",
+        "cetico": "Questiona se prazo menor e prestação maior tornam a opção realmente viável."
+      },
+      "hypotheses": [],
+      "replicable": [
+        "Nomear a dúvida concreta e a regra que altera o prazo.",
+        "Condicionar a recomendação à renda, dívidas e capacidade de pagamento, indicando simulação."
+      ],
+      "limitations": [
+        "A regra não foi conferida em fonte primária nesta rodada; não há taxa, entrada, parcela, caso preenchido ou simulação que demonstre viabilidade."
+      ],
+      "provenance": [
+        "public_content",
+        "instagram_public_metadata",
+        "public_search",
+        "indexed_caption",
+        "observatory_inference"
+      ],
+      "training": {
+        "evidencePolicyVersion": "1.1",
+        "evidenceRole": "support",
+        "evidenceLevel": 2,
+        "requiredEvidenceObserved": true,
+        "supportEligible": true,
+        "claimCoverage": [
+          {
+            "claim": "A legenda desfaz a proibição presumida por idade, informa o limite de idade mais prazo atribuído à Caixa e condiciona a concessão à renda, às dívidas, à capacidade de pagamento e às condições do imóvel.",
+            "requiredModalities": [
+              "caption",
+              "creator_identity"
+            ],
+            "observedModalities": [
+              "caption",
+              "creator_identity",
+              "public_metadata"
+            ],
+            "sufficient": true
+          }
+        ],
+        "provenanceAndConsent": {
+          "storyOrigin": "conteúdo público editorial do próprio criador; nenhuma história privada de terceiro foi ensinada",
+          "consentStatus": "not_applicable",
+          "identityProtection": "not_applicable",
+          "evidence": [
+            "publicação individual, legenda e metadados públicos"
+          ]
+        },
+        "replicable": [
+          "Nomear a dúvida concreta e a regra que altera o prazo.",
+          "Condicionar a recomendação à renda, dívidas e capacidade de pagamento, indicando simulação."
+        ],
+        "contingent": [
+          "A regra não foi conferida em fonte primária nesta rodada; não há taxa, entrada, parcela, caso preenchido ou simulação que demonstre viabilidade."
+        ],
+        "notRecommended": [
+          "copiar frase, identidade visual, personagem ou roteiro",
+          "tratar curtidas, fama, mídia ou produção como causa",
+          "inferir cenas, ritmo ou retenção sem reproduzir o vídeo",
+          "transformar orientação geral em plano financeiro individual"
+        ],
+        "hypotheses": []
+      },
+      "viralAssessment": {
+        "status": "indeterminate",
+        "observedSignal": 396,
+        "missingForRelativeAssessment": [
+          "coorte funcional contemporânea",
+          "retenção",
+          "impressões",
+          "fontes de tráfego",
+          "mídia paga"
+        ],
+        "confounders": [
+          "tamanho do perfil",
+          "tema",
+          "data",
+          "distribuição"
+        ],
+        "causalClaimAllowed": false
+      }
+    },
+    {
+      "id": "obs-20261009-269",
+      "title": "Esforço sem diagnóstico da dívida",
+      "creator": "Verena Cordeiro",
+      "creatorIdentity": "verena-cordeiro",
+      "sourceIdentity": "verena-cordeiro",
+      "country": "BR",
+      "url": "https://www.instagram.com/reel/DdCBv_XRvDq/",
+      "sourceEvidence": [
+        "https://www.instagram.com/reel/DdCBv_XRvDq/",
+        "https://imginn.com/p/DdCBv_XRvDq/"
+      ],
+      "publishedAt": "2026-09-08",
+      "duration": "not_measured",
+      "createdAt": "2026-10-09T11:51:18.000Z",
+      "coverage": {
+        "level": "partial",
+        "accessible": [
+          "URL pública individual e arquivo identificado como vídeo",
+          "criador, legenda pública substancial, data e métricas públicas indexadas"
+        ],
+        "missing": [
+          "arquivo de vídeo reproduzido ou preservado",
+          "quadros e imagens em movimento",
+          "áudio ouvido",
+          "transcrição independente da fala",
+          "texto na tela",
+          "ritmo e edição",
+          "curva de retenção",
+          "impressões, fontes de tráfego e mídia paga",
+          "teste de compreensão ou execução",
+          "comparação causal"
+        ]
+      },
+      "publicMetrics": {
+        "viewsObserved": "not_measured",
+        "likesObserved": "not_measured",
+        "commentsObserved": 3,
+        "commentsSampled": 2,
+        "observedAt": "2026-10-09",
+        "sourceType": "instagram_public_post_indexed_caption",
+        "causality": "not_inferred"
+      },
+      "classification": {
+        "taxonomyVersion": "3.0",
+        "container": "instagram_reel",
+        "materialFormat": "reel",
+        "presentationFormats": [
+          "esquete",
+          "comentario",
+          "produto"
+        ],
+        "primaryFamily": "humor",
+        "secondaryFamilies": [
+          "educativo",
+          "oferta_direta"
+        ],
+        "objectives": [
+          "identificacao",
+          "consciencia_problema",
+          "lead"
+        ],
+        "advertisingType": "editorial_organico",
+        "commercialIntent": "implicita",
+        "advertisedEntity": {
+          "kind": "nenhuma",
+          "name": "",
+          "confidence": "medium"
+        },
+        "contentTopic": {
+          "label": "esforço sem priorização na quitação de dívidas",
+          "iabCode": null
+        },
+        "segment": "finanças pessoais",
+        "subsegment": "esforço sem priorização na quitação de dívidas",
+        "probableAudience": "brasileiros endividados nos Estados Unidos",
+        "awarenessStage": "consciente_problema",
+        "productionLevel": "unknown",
+        "creatorScale": "unknown",
+        "replicability": "high",
+        "durationBand": "unknown",
+        "pace": "unknown",
+        "mechanisms": [
+          "humor",
+          "identificacao",
+          "aversao_perda"
+        ],
+        "hookTypes": [
+          "textual"
+        ],
+        "narrativeElements": [
+          "problema",
+          "contraste",
+          "oferta",
+          "cta"
+        ],
+        "proofTypes": [
+          "autoridade_percebida"
+        ],
+        "ctaTypes": [
+          "comentar",
+          "participar"
+        ],
+        "distributionContext": {
+          "organicPaid": "unknown",
+          "trendDependency": "unknown"
+        },
+        "confidence": "medium",
+        "evidence": [
+          "A legenda contrapõe esforço disperso à priorização por juros e anuncia um método para ordenar cartão, carro, empréstimo e dívida médica, mas não entrega o cálculo, a renda, as despesas essenciais nem a capacidade mensal no conteúdo acessível."
+        ],
+        "alternativeClassifications": [],
+        "missingInformation": [
+          "vídeo reproduzido",
+          "áudio ouvido",
+          "texto na tela",
+          "ritmo",
+          "retenção",
+          "teste de execução"
+        ],
+        "needsHumanReview": true,
+        "functionalMix": [
+          {
+            "family": "humor",
+            "percentage": 70
+          },
+          {
+            "family": "educativo",
+            "percentage": 30
+          }
+        ]
+      },
+      "comparison": {
+        "level": 2,
+        "group": "Reel brasileiro de educação financeira sobre dívida com promessa de método",
+        "referenceIds": [
+          "obs-20261009-266",
+          "obs-20261009-267",
+          "obs-20261009-268"
+        ],
+        "confidence": "medium"
+      },
+      "observations": [
+        "A legenda contrapõe esforço disperso à priorização por juros e anuncia um método para ordenar cartão, carro, empréstimo e dívida médica, mas não entrega o cálculo, a renda, as despesas essenciais nem a capacidade mensal no conteúdo acessível."
+      ],
+      "interpretations": [
+        "A estrutura textual e os metadados são observáveis; execução audiovisual, compreensão, retenção e resultado financeiro permanecem não medidos."
+      ],
+      "scores": {
+        "gancho": "not_assessed",
+        "clareza": 86,
+        "relevancia": 75,
+        "desejo": "not_assessed",
+        "confianca": 54,
+        "retencao": "not_assessed",
+        "acao": 88,
+        "objecoes": 48
+      },
+      "fiveLenses": {
+        "apressado": "O tema e a próxima ação são identificáveis na legenda; a abertura audiovisual não foi avaliada.",
+        "analitico": "Reconhece o problema, mas exige ver o método, os números e as exceções.",
+        "aspiracional": "Pode perceber um caminho de reorganização ou autonomia, sem resultado medido.",
+        "comunidade": "Comentários públicos foram apenas amostrados e não são representativos.",
+        "cetico": "Percebe a ausência do procedimento como ponte comercial, não como demonstração."
+      },
+      "hypotheses": [],
+      "replicable": [
+        "Contrastar esforço difuso com uma decisão financeira específica.",
+        "Nomear os tipos de dívida e a variável de priorização."
+      ],
+      "limitations": [
+        "O mecanismo completo está deslocado para uma oferta; sem dados, cálculo ou exemplo preenchido, a promessa não é auditável e não conta como apoio."
+      ],
+      "provenance": [
+        "public_content",
+        "instagram_public_metadata",
+        "public_search",
+        "indexed_caption",
+        "observatory_inference"
+      ],
+      "training": {
+        "evidencePolicyVersion": "1.1",
+        "evidenceRole": "case_limit",
+        "evidenceLevel": 2,
+        "requiredEvidenceObserved": false,
+        "supportEligible": false,
+        "claimCoverage": [
+          {
+            "claim": "A legenda contrapõe esforço disperso à priorização por juros e anuncia um método para ordenar cartão, carro, empréstimo e dívida médica, mas não entrega o cálculo, a renda, as despesas essenciais nem a capacidade mensal no conteúdo acessível.",
+            "requiredModalities": [
+              "caption",
+              "creator_identity"
+            ],
+            "observedModalities": [
+              "caption",
+              "creator_identity",
+              "public_metadata"
+            ],
+            "sufficient": false
+          }
+        ],
+        "provenanceAndConsent": {
+          "storyOrigin": "conteúdo público editorial do próprio criador; nenhuma história privada de terceiro foi ensinada",
+          "consentStatus": "not_applicable",
+          "identityProtection": "not_applicable",
+          "evidence": [
+            "publicação individual, legenda e metadados públicos"
+          ]
+        },
+        "replicable": [
+          "Contrastar esforço difuso com uma decisão financeira específica.",
+          "Nomear os tipos de dívida e a variável de priorização."
+        ],
+        "contingent": [
+          "O mecanismo completo está deslocado para uma oferta; sem dados, cálculo ou exemplo preenchido, a promessa não é auditável e não conta como apoio."
+        ],
+        "notRecommended": [
+          "copiar frase, identidade visual, personagem ou roteiro",
+          "tratar curtidas, fama, mídia ou produção como causa",
+          "inferir cenas, ritmo ou retenção sem reproduzir o vídeo",
+          "transformar orientação geral em plano financeiro individual"
+        ],
+        "hypotheses": []
+      },
+      "viralAssessment": {
+        "status": "indeterminate",
+        "observedSignal": "not_measured",
+        "missingForRelativeAssessment": [
+          "coorte funcional contemporânea",
+          "retenção",
+          "impressões",
+          "fontes de tráfego",
+          "mídia paga"
+        ],
+        "confounders": [
+          "tamanho do perfil",
+          "tema",
+          "data",
+          "distribuição"
+        ],
+        "causalClaimAllowed": false
+      }
+    },
+    {
+      "id": "obs-20261009-270",
+      "title": "Falhar com método em um projeto de LEGO",
+      "creator": "CURIOLAB2.0",
+      "creatorIdentity": "curiolab2-0",
+      "sourceIdentity": "curiolab2-0",
+      "country": "BR",
+      "url": "https://www.instagram.com/reel/Dcw5Ym5MvJr/",
+      "sourceEvidence": [
+        "https://www.instagram.com/reel/Dcw5Ym5MvJr/",
+        "https://imginn.com/p/Dcw5Ym5MvJr/"
+      ],
+      "publishedAt": "2026-09-02",
+      "duration": "PT2M50S",
+      "createdAt": "2026-10-09T11:51:18.000Z",
+      "coverage": {
+        "level": "partial",
+        "accessible": [
+          "URL pública individual e arquivo identificado como vídeo",
+          "criador, legenda pública substancial, data e métricas públicas indexadas"
+        ],
+        "missing": [
+          "arquivo de vídeo reproduzido ou preservado",
+          "quadros e imagens em movimento",
+          "áudio ouvido",
+          "transcrição independente da fala",
+          "texto na tela",
+          "ritmo e edição",
+          "curva de retenção",
+          "impressões, fontes de tráfego e mídia paga",
+          "teste de compreensão ou execução",
+          "comparação causal"
+        ]
+      },
+      "publicMetrics": {
+        "viewsObserved": "not_measured",
+        "likesObserved": 575410,
+        "commentsObserved": 2006,
+        "commentsSampled": 8,
+        "observedAt": "2026-10-09",
+        "sourceType": "instagram_public_post_indexed_caption",
+        "causality": "not_inferred"
+      },
+      "classification": {
+        "taxonomyVersion": "3.0",
+        "container": "instagram_reel",
+        "materialFormat": "reel",
+        "presentationFormats": [
+          "demonstracao",
+          "narracao_imagens"
+        ],
+        "primaryFamily": "demonstracao",
+        "secondaryFamilies": [
+          "educativo",
+          "curiosidade"
+        ],
+        "objectives": [
+          "educar",
+          "retencao",
+          "compartilhamento"
+        ],
+        "advertisingType": "editorial_organico",
+        "commercialIntent": "implicita",
+        "advertisedEntity": {
+          "kind": "nenhuma",
+          "name": "",
+          "confidence": "medium"
+        },
+        "contentTopic": {
+          "label": "iteração de protótipos e centro de massa com LEGO",
+          "iabCode": null
+        },
+        "segment": "ciência e engenharia",
+        "subsegment": "iteração de protótipos e centro de massa com LEGO",
+        "probableAudience": "público geral interessado em engenharia e experimentos",
+        "awarenessStage": "consciente_problema",
+        "productionLevel": "unknown",
+        "creatorScale": "unknown",
+        "replicability": "high",
+        "durationBand": "over_60s",
+        "pace": "unknown",
+        "mechanisms": [
+          "curiosidade",
+          "surpresa",
+          "recompensa"
+        ],
+        "hookTypes": [
+          "textual"
+        ],
+        "narrativeElements": [
+          "desafio",
+          "falha",
+          "analise",
+          "reteste",
+          "resultado"
+        ],
+        "proofTypes": [
+          "demonstracao_declarada"
+        ],
+        "ctaTypes": [
+          "comentar",
+          "compartilhar"
+        ],
+        "distributionContext": {
+          "organicPaid": "unknown",
+          "trendDependency": "unknown"
+        },
+        "confidence": "medium",
+        "evidence": [
+          "A legenda descreve um carrinho de LEGO que falha, associa falhas a largura de eixo, tração, peso ou estabilidade e afirma que cada protótipo corrige uma variável, culminando em contrapeso abaixo do apoio para autoequilíbrio."
+        ],
+        "alternativeClassifications": [],
+        "missingInformation": [
+          "vídeo reproduzido",
+          "áudio ouvido",
+          "texto na tela",
+          "ritmo",
+          "retenção",
+          "teste de execução"
+        ],
+        "needsHumanReview": true,
+        "functionalMix": [
+          {
+            "family": "demonstracao",
+            "percentage": 70
+          },
+          {
+            "family": "educativo",
+            "percentage": 30
+          }
+        ]
+      },
+      "comparison": {
+        "level": 3,
+        "group": "Demonstração científica com falha, variável e reteste",
+        "referenceIds": [
+          "obs-20261003-241",
+          "obs-20261003-242",
+          "obs-20261003-243"
+        ],
+        "confidence": "medium"
+      },
+      "observations": [
+        "A legenda descreve um carrinho de LEGO que falha, associa falhas a largura de eixo, tração, peso ou estabilidade e afirma que cada protótipo corrige uma variável, culminando em contrapeso abaixo do apoio para autoequilíbrio."
+      ],
+      "interpretations": [
+        "A estrutura textual e os metadados são observáveis; execução audiovisual, compreensão, retenção e resultado financeiro permanecem não medidos."
+      ],
+      "scores": {
+        "gancho": "not_assessed",
+        "clareza": 88,
+        "relevancia": 83,
+        "desejo": "not_assessed",
+        "confianca": 70,
+        "retencao": "not_assessed",
+        "acao": 76,
+        "objecoes": 68
+      },
+      "fiveLenses": {
+        "apressado": "O tema e a próxima ação são identificáveis na legenda; a abertura audiovisual não foi avaliada.",
+        "analitico": "Vê uma explicação coerente, mas exige confirmar visualmente cada alteração e descartar variáveis concorrentes.",
+        "aspiracional": "Pode perceber um caminho de reorganização ou autonomia, sem resultado medido.",
+        "comunidade": "Comentários públicos foram apenas amostrados e não são representativos.",
+        "cetico": "Questiona se a legenda descreve fielmente o vídeo e se o princípio explica todos os resultados."
+      },
+      "hypotheses": [],
+      "replicable": [
+        "Transformar a falha em pergunta sobre uma variável específica.",
+        "Registrar o que mudou em cada iteração e ligar o resultado ao princípio físico."
+      ],
+      "limitations": [
+        "Embora o arquivo seja identificado como vídeo de 170 segundos, ele não foi reproduzido; a sequência visual, a alteração de uma variável por vez e o resultado não foram confirmados independentemente e não contam como apoio ao padrão experimental."
+      ],
+      "provenance": [
+        "public_content",
+        "instagram_public_metadata",
+        "public_search",
+        "indexed_caption",
+        "observatory_inference"
+      ],
+      "training": {
+        "evidencePolicyVersion": "1.1",
+        "evidenceRole": "context",
+        "evidenceLevel": 3,
+        "requiredEvidenceObserved": false,
+        "supportEligible": false,
+        "claimCoverage": [
+          {
+            "claim": "A legenda descreve um carrinho de LEGO que falha, associa falhas a largura de eixo, tração, peso ou estabilidade e afirma que cada protótipo corrige uma variável, culminando em contrapeso abaixo do apoio para autoequilíbrio.",
+            "requiredModalities": [
+              "caption",
+              "creator_identity"
+            ],
+            "observedModalities": [
+              "caption",
+              "creator_identity",
+              "public_metadata"
+            ],
+            "sufficient": false
+          }
+        ],
+        "provenanceAndConsent": {
+          "storyOrigin": "conteúdo público editorial do próprio criador; nenhuma história privada de terceiro foi ensinada",
+          "consentStatus": "not_applicable",
+          "identityProtection": "not_applicable",
+          "evidence": [
+            "publicação individual, legenda e metadados públicos"
+          ]
+        },
+        "replicable": [
+          "Transformar a falha em pergunta sobre uma variável específica.",
+          "Registrar o que mudou em cada iteração e ligar o resultado ao princípio físico."
+        ],
+        "contingent": [
+          "Embora o arquivo seja identificado como vídeo de 170 segundos, ele não foi reproduzido; a sequência visual, a alteração de uma variável por vez e o resultado não foram confirmados independentemente e não contam como apoio ao padrão experimental."
+        ],
+        "notRecommended": [
+          "copiar frase, identidade visual, personagem ou roteiro",
+          "tratar curtidas, fama, mídia ou produção como causa",
+          "inferir cenas, ritmo ou retenção sem reproduzir o vídeo",
+          "transformar orientação geral em plano financeiro individual"
+        ],
+        "hypotheses": []
+      },
+      "viralAssessment": {
+        "status": "indeterminate",
+        "observedSignal": 575410,
+        "missingForRelativeAssessment": [
+          "coorte funcional contemporânea",
+          "retenção",
+          "impressões",
+          "fontes de tráfego",
+          "mídia paga"
+        ],
+        "confounders": [
+          "tamanho do perfil",
+          "tema",
+          "data",
+          "distribuição"
+        ],
+        "causalClaimAllowed": false
+      }
     }
   ],
   "patterns": [
@@ -70154,7 +71368,7 @@
     {
       "id": "pat-20260823-003",
       "status": "provisional",
-      "statement": "Em educação financeira para iniciantes, nomear um problema concreto e organizar a resposta em etapas finitas torna problema, caminho e próxima ação identificáveis; em conteúdos sobre dívida, explicitar renda, despesas essenciais, saldo, juros, parcelas e capacidade de pagamento — de preferência em um exemplo preenchido — torna o caminho auditável e delimita ações viáveis. Em planilhas de orçamento, somar despesas sem preencher renda e saldo não demonstra capacidade de pagamento. Resultado declarado sem baseline e registros comparáveis, ou cortes universais sem preservar necessidades essenciais, eleva o ônus de prova; compreensão e resultado financeiro permanecem não medidos.",
+      "statement": "Em educação financeira para iniciantes, nomear um problema concreto e organizar a resposta em etapas finitas torna problema, caminho e próxima ação identificáveis; em conteúdos sobre dívida, explicitar renda, despesas essenciais, saldo, juros, parcelas e capacidade de pagamento — de preferência em um exemplo preenchido — torna o caminho auditável e delimita ações viáveis. Em planilhas de orçamento, somar despesas sem preencher renda e saldo não demonstra capacidade de pagamento. Resultado declarado sem baseline e registros comparáveis, ou cortes universais sem preservar necessidades essenciais, eleva o ônus de prova; Modelos sem exemplo preenchido e conteúdos que deslocam o método para uma oferta elevam o ônus de prova; compreensão, execução e resultado financeiro permanecem não medidos.",
       "mechanism": [
         "desejo",
         "aproximacao",
@@ -70189,7 +71403,10 @@
         "obs-20260930-228",
         "obs-20261001-231",
         "obs-20261001-232",
-        "obs-20261001-233"
+        "obs-20261001-233",
+        "obs-20261009-266",
+        "obs-20261009-267",
+        "obs-20261009-268"
       ],
       "comparableSupportCount": 20,
       "comparisonLevel": 2,
@@ -70203,7 +71420,7 @@
       ],
       "validation": "requires_human_or_experimental_evidence",
       "stage": "provisional",
-      "name": "Em educação financeira para iniciantes, nomear um problema concreto e organizar a resposta em etapas finitas torna problema, caminho e próxima ação identificáveis; em conteúdos sobre dívida, explicitar renda, despesas essenciais, saldo, juros, parcelas e capacidade de pagamento — de preferência em um exemplo preenchido — torna o caminho auditável e delimita ações viáveis. Em planilhas de orçamento, somar despesas sem preencher renda e saldo não demonstra capacidade de pagamento. Resultado declarado sem baseline e registros comparáveis, ou cortes universais sem preservar necessidades essenciais, eleva o ônus de prova; compreensão e resultado financeiro permanecem não medidos.",
+      "name": "Em educação financeira para iniciantes, nomear um problema concreto e organizar a resposta em etapas finitas torna problema, caminho e próxima ação identificáveis; em conteúdos sobre dívida, explicitar renda, despesas essenciais, saldo, juros, parcelas e capacidade de pagamento — de preferência em um exemplo preenchido — torna o caminho auditável e delimita ações viáveis. Em planilhas de orçamento, somar despesas sem preencher renda e saldo não demonstra capacidade de pagamento. Resultado declarado sem baseline e registros comparáveis, ou cortes universais sem preservar necessidades essenciais, eleva o ônus de prova; Modelos sem exemplo preenchido e conteúdos que deslocam o método para uma oferta elevam o ônus de prova; compreensão, execução e resultado financeiro permanecem não medidos.",
       "creativeFamily": "família educativo ou inspiracao financeira",
       "objective": "público iniciante",
       "segment": "formato explicativo de 10 a 30 minutos",
@@ -70497,7 +71714,8 @@
         "obs-20260928-219",
         "obs-20260929-224",
         "obs-20260930-229",
-        "obs-20261001-234"
+        "obs-20261001-234",
+        "obs-20261009-269"
       ],
       "caseLimitCount": 5
     },
@@ -79355,6 +80573,62 @@
         "Nenhum comentário foi amostrado; contagens públicas não são representativas.",
         "Alegações clínicas não receberam revisão humana especializada.",
         "Não houve retenção, teste de compreensão ou causalidade controlada."
+      ]
+    },
+    {
+      "id": "run-20261009-supervised-050",
+      "executedAt": "2026-10-09T11:51:18.000Z",
+      "batchPolicyVersion": "1.1",
+      "requestedBatchSize": 5,
+      "candidatesFound": 23,
+      "referenceIds": [
+        "obs-20261009-266",
+        "obs-20261009-267",
+        "obs-20261009-268",
+        "obs-20261009-269",
+        "obs-20261009-270"
+      ],
+      "targetKnowledgeId": "pat-20260823-003",
+      "targetReferenceIds": [
+        "obs-20261009-266",
+        "obs-20261009-267",
+        "obs-20261009-268"
+      ],
+      "falsificationOrBoundaryReferenceIds": [
+        "obs-20261009-269"
+      ],
+      "controlledExplorationReferenceIds": [
+        "obs-20261009-270"
+      ],
+      "discarded": [],
+      "selectionSummary": {
+        "countryDistribution": {
+          "BR": 5
+        },
+        "replicableCount": 4,
+        "families": [
+          "educativo",
+          "explicativo",
+          "humor",
+          "demonstracao"
+        ],
+        "platforms": {
+          "instagram": 5
+        }
+      },
+      "coverageSummary": {
+        "complete": 0,
+        "partial": 5,
+        "insufficient": 0
+      },
+      "newHypothesisIds": [],
+      "newPatternIds": [],
+      "updatedPatternIds": [
+        "pat-20260823-003"
+      ],
+      "notes": [
+        "Todos os cinco arquivos foram identificados como vídeo nos endpoints públicos; nenhum foi reproduzido ou preservado nesta execução.",
+        "A análise limita-se a legenda, metadados, duração quando exposta e pequena amostra de comentários; cenas, áudio, texto na tela, ritmo e retenção não foram ensinados."
       ]
     }
   ],
