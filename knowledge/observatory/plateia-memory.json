@@ -1,6 +1,6 @@
 {
   "protocol": "plateia-memory/1.0",
-  "updatedAt": "2026-10-09T11:51:18.000Z",
+  "updatedAt": "2026-10-09T11:57:00.000Z",
   "references": [
     {
       "id": "obs-20260823-001",
@@ -71368,7 +71368,7 @@
     {
       "id": "pat-20260823-003",
       "status": "provisional",
-      "statement": "Em educação financeira para iniciantes, nomear um problema concreto e organizar a resposta em etapas finitas torna problema, caminho e próxima ação identificáveis; em conteúdos sobre dívida, explicitar renda, despesas essenciais, saldo, juros, parcelas e capacidade de pagamento — de preferência em um exemplo preenchido — torna o caminho auditável e delimita ações viáveis. Em planilhas de orçamento, somar despesas sem preencher renda e saldo não demonstra capacidade de pagamento. Resultado declarado sem baseline e registros comparáveis, ou cortes universais sem preservar necessidades essenciais, eleva o ônus de prova; Modelos sem exemplo preenchido e conteúdos que deslocam o método para uma oferta elevam o ônus de prova; compreensão, execução e resultado financeiro permanecem não medidos.",
+      "statement": "Em educação financeira para iniciantes, nomear um problema concreto e organizar a resposta em etapas finitas torna problema, caminho e próxima ação identificáveis; em conteúdos sobre dívida, explicitar renda, despesas essenciais, saldo, juros, parcelas e capacidade de pagamento — de preferência em um exemplo preenchido — torna o caminho auditável e delimita ações viáveis. Em planilhas de orçamento, somar despesas sem preencher renda e saldo não demonstra capacidade de pagamento. Resultado declarado sem baseline e registros comparáveis, ou cortes universais sem preservar necessidades essenciais, eleva o ônus de prova. Modelos sem exemplo preenchido e conteúdos que deslocam o método para uma oferta elevam o ônus de prova; compreensão, execução e resultado financeiro permanecem não medidos.",
       "mechanism": [
         "desejo",
         "aproximacao",
@@ -71408,7 +71408,7 @@
         "obs-20261009-267",
         "obs-20261009-268"
       ],
-      "comparableSupportCount": 20,
+      "comparableSupportCount": 23,
       "comparisonLevel": 2,
       "confidence": "medium",
       "limitations": [
@@ -71420,7 +71420,7 @@
       ],
       "validation": "requires_human_or_experimental_evidence",
       "stage": "provisional",
-      "name": "Em educação financeira para iniciantes, nomear um problema concreto e organizar a resposta em etapas finitas torna problema, caminho e próxima ação identificáveis; em conteúdos sobre dívida, explicitar renda, despesas essenciais, saldo, juros, parcelas e capacidade de pagamento — de preferência em um exemplo preenchido — torna o caminho auditável e delimita ações viáveis. Em planilhas de orçamento, somar despesas sem preencher renda e saldo não demonstra capacidade de pagamento. Resultado declarado sem baseline e registros comparáveis, ou cortes universais sem preservar necessidades essenciais, eleva o ônus de prova; Modelos sem exemplo preenchido e conteúdos que deslocam o método para uma oferta elevam o ônus de prova; compreensão, execução e resultado financeiro permanecem não medidos.",
+      "name": "Em educação financeira para iniciantes, nomear um problema concreto e organizar a resposta em etapas finitas torna problema, caminho e próxima ação identificáveis; em conteúdos sobre dívida, explicitar renda, despesas essenciais, saldo, juros, parcelas e capacidade de pagamento — de preferência em um exemplo preenchido — torna o caminho auditável e delimita ações viáveis. Em planilhas de orçamento, somar despesas sem preencher renda e saldo não demonstra capacidade de pagamento. Resultado declarado sem baseline e registros comparáveis, ou cortes universais sem preservar necessidades essenciais, eleva o ônus de prova. Modelos sem exemplo preenchido e conteúdos que deslocam o método para uma oferta elevam o ônus de prova; compreensão, execução e resultado financeiro permanecem não medidos.",
       "creativeFamily": "família educativo ou inspiracao financeira",
       "objective": "público iniciante",
       "segment": "formato explicativo de 10 a 30 minutos",
@@ -71717,7 +71717,7 @@
         "obs-20261001-234",
         "obs-20261009-269"
       ],
-      "caseLimitCount": 5
+      "caseLimitCount": 6
     },
     {
       "id": "pat-20260824-004",
