@@ -1,6 +1,6 @@
 {
   "protocol": "plateia-memory/1.0",
-  "updatedAt": "2026-10-09T11:57:00.000Z",
+  "updatedAt": "2026-10-09T12:02:00.000Z",
   "references": [
     {
       "id": "obs-20260823-001",
@@ -69714,7 +69714,6 @@
         ],
         "primaryFamily": "educativo",
         "secondaryFamilies": [
-          "tutorial",
           "conscientizacao"
         ],
         "objectives": [
@@ -69753,11 +69752,11 @@
         "narrativeElements": [
           "problema",
           "mecanismo",
-          "acao",
+          "conclusao",
           "cta"
         ],
         "proofTypes": [
-          "procedimento_textual"
+          "mecanismo_explicado"
         ],
         "ctaTypes": [
           "salvar",
@@ -69787,7 +69786,7 @@
             "percentage": 70
           },
           {
-            "family": "tutorial",
+            "family": "conscientizacao",
             "percentage": 30
           }
         ]
@@ -69994,13 +69993,13 @@
         ],
         "narrativeElements": [
           "problema",
-          "etapas",
-          "limite",
+          "progressao",
+          "conclusao",
           "cta"
         ],
         "proofTypes": [
-          "procedimento_textual",
-          "autoridade_declarada"
+          "mecanismo_explicado",
+          "autoridade_percebida"
         ],
         "ctaTypes": [
           "salvar",
@@ -70230,20 +70229,20 @@
         "pace": "unknown",
         "mechanisms": [
           "alivio",
-          "confiança",
+          "confianca",
           "vigilancia"
         ],
         "hookTypes": [
           "textual"
         ],
         "narrativeElements": [
-          "duvida",
-          "regra",
-          "limite",
-          "acao"
+          "problema",
+          "mecanismo",
+          "conclusao",
+          "cta"
         ],
         "proofTypes": [
-          "regra_declarada"
+          "fonte"
         ],
         "ctaTypes": [
           "compartilhar",
@@ -70481,8 +70480,8 @@
         ],
         "narrativeElements": [
           "problema",
-          "contraste",
-          "oferta",
+          "conflito",
+          "promessa",
           "cta"
         ],
         "proofTypes": [
@@ -70490,7 +70489,7 @@
         ],
         "ctaTypes": [
           "comentar",
-          "participar"
+          "outro_conteudo"
         ],
         "distributionContext": {
           "organicPaid": "unknown",
@@ -70580,7 +70579,8 @@
             "claim": "A legenda contrapõe esforço disperso à priorização por juros e anuncia um método para ordenar cartão, carro, empréstimo e dívida médica, mas não entrega o cálculo, a renda, as despesas essenciais nem a capacidade mensal no conteúdo acessível.",
             "requiredModalities": [
               "caption",
-              "creator_identity"
+              "creator_identity",
+              "worked_example"
             ],
             "observedModalities": [
               "caption",
@@ -70722,14 +70722,14 @@
           "textual"
         ],
         "narrativeElements": [
-          "desafio",
-          "falha",
-          "analise",
-          "reteste",
-          "resultado"
+          "problema",
+          "tentativa",
+          "conflito",
+          "progressao",
+          "payoff"
         ],
         "proofTypes": [
-          "demonstracao_declarada"
+          "demonstracao"
         ],
         "ctaTypes": [
           "comentar",
@@ -70823,7 +70823,7 @@
             "claim": "A legenda descreve um carrinho de LEGO que falha, associa falhas a largura de eixo, tração, peso ou estabilidade e afirma que cada protótipo corrige uma variável, culminando em contrapeso abaixo do apoio para autoequilíbrio.",
             "requiredModalities": [
               "caption",
-              "creator_identity"
+              "video"
             ],
             "observedModalities": [
               "caption",
@@ -71412,10 +71412,10 @@
       "comparisonLevel": 2,
       "confidence": "medium",
       "limitations": [
-        "Vinte apoios vêm de vinte criadores e fontes; demonstram recorrência estrutural, não compreensão ou resultado financeiro.",
+        "Vinte e três apoios vêm de vinte e três criadores e fontes; demonstram recorrência estrutural, não compreensão ou resultado financeiro.",
         "Nenhuma referência oferece retenção, experimento causal ou acompanhamento comparável de resultado.",
         "Comentários, métricas, fama, escala, produção, downloads e ofertas permanecem contexto não causal.",
-        "O quinto caso-limite mostra que somar despesas sem renda e saldo não testa capacidade de pagamento.",
+        "O sexto caso-limite reforça que promessa ou método deslocado para oferta sem dados e cálculo não testa capacidade de pagamento.",
         "Conselhos financeiros exigem adequação individual, revisão humana e avaliação de riscos e contratos."
       ],
       "validation": "requires_human_or_experimental_evidence",
@@ -71424,7 +71424,7 @@
       "creativeFamily": "família educativo ou inspiracao financeira",
       "objective": "público iniciante",
       "segment": "formato explicativo de 10 a 30 minutos",
-      "supportingCount": 20,
+      "supportingCount": 23,
       "counterexampleCount": 0,
       "evidence": [
         {
@@ -71703,11 +71703,59 @@
           "limitations": [
             "não conta como apoio nem como contraexemplo de eficácia"
           ]
+        },
+        {
+          "referenceId": "obs-20261009-266",
+          "role": "support",
+          "comparisonLevel": 2,
+          "requiredEvidenceObserved": true,
+          "confidence": "medium",
+          "observation": "A legenda pede renda líquida, dívidas e parcelas, gastos fixos e variáveis e valor mensal disponível sem comprometer necessidades básicas antes de solicitar priorização, negociação e cronograma.",
+          "evidence": "Legenda pública substancial, identidade do criador, data, métricas indexadas e arquivo identificado como vídeo.",
+          "limitations": [
+            "Os campos aparecem como modelo não preenchido; não houve caso real, cálculo executado, validação jurídica individual nem teste de qualidade da resposta gerada."
+          ]
+        },
+        {
+          "referenceId": "obs-20261009-267",
+          "role": "support",
+          "comparisonLevel": 2,
+          "requiredEvidenceObserved": true,
+          "confidence": "medium",
+          "observation": "A legenda orienta conferir valor real, juros e Documento de Evolução da Dívida antes de aceitar proposta, evitar pagamento mínimo e documentar reclamações; condiciona ação revisional à análise profissional.",
+          "evidence": "Legenda pública substancial, identidade do criador, data, métricas indexadas e arquivo identificado como vídeo.",
+          "limitations": [
+            "Não há renda, despesas essenciais, capacidade mensal, cálculo preenchido ou resultado documentado; o conteúdo apoia apenas a parte de auditoria da dívida."
+          ]
+        },
+        {
+          "referenceId": "obs-20261009-268",
+          "role": "support",
+          "comparisonLevel": 2,
+          "requiredEvidenceObserved": true,
+          "confidence": "medium",
+          "observation": "A legenda desfaz a proibição presumida por idade, informa o limite de idade mais prazo atribuído à Caixa e condiciona a concessão à renda, às dívidas, à capacidade de pagamento e às condições do imóvel.",
+          "evidence": "Legenda pública substancial, identidade do criador, data, métricas indexadas e arquivo identificado como vídeo.",
+          "limitations": [
+            "A regra não foi conferida em fonte primária nesta rodada; não há taxa, entrada, parcela, caso preenchido ou simulação que demonstre viabilidade."
+          ]
+        },
+        {
+          "referenceId": "obs-20261009-269",
+          "role": "case_limit",
+          "comparisonLevel": 2,
+          "requiredEvidenceObserved": false,
+          "confidence": "medium",
+          "observation": "A legenda contrapõe esforço disperso à priorização por juros e anuncia um método para ordenar cartão, carro, empréstimo e dívida médica, mas não entrega o cálculo, a renda, as despesas essenciais nem a capacidade mensal no conteúdo acessível.",
+          "evidence": "Legenda pública e metadados indexados.",
+          "limitations": [
+            "O mecanismo completo está deslocado para uma oferta; sem dados, cálculo ou exemplo preenchido, a promessa não é auditável e não conta como apoio."
+          ]
         }
       ],
       "taxonomyVersion": "3.0",
-      "creatorDiversityCount": 20,
-      "sourceDiversityCount": 20,
+      "creatorDiversityCount": 23,
+      "sourceDiversityCount": 23,
       "patternType": "prova",
       "caseLimitReferenceIds": [
         "obs-20260918-174",
