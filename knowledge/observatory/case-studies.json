@@ -1,0 +1,113 @@
+{
+  "protocol": "plateia-case-evidence/1.0",
+  "updatedAt": "2026-08-23T23:00:00Z",
+  "warning": "Casos de campanha não são vídeos individuais e não entram como pares diretos. Servem para contexto, métricas públicas e hipóteses de mecanismo.",
+  "cases": [
+    {
+      "id": "duolingo-editanduo-2024",
+      "title": "#Editanduo — Edits com a Comunidade",
+      "creator": "Duolingo Brasil + Jotacom",
+      "sourceUrl": "https://ads.tiktok.com/business/cs-CZ/blog/tiktok-ad-awards-vencedores-2024",
+      "sourceType": "official_platform_case_study",
+      "access": {
+        "level": "partial",
+        "accessible": [
+          "descrição da campanha",
+          "métricas agregadas publicadas"
+        ],
+        "missing": [
+          "vídeos individuais completos",
+          "retenção individual",
+          "mídia paga por vídeo"
+        ]
+      },
+      "publicMetrics": {
+        "hashtagViews": 16500000,
+        "engagements": 2500000,
+        "awardedCreators": 8
+      },
+      "observations": [
+        "A marca disponibilizou ativos para a comunidade criar fanedits.",
+        "O incentivo premiava conteúdos que ultrapassassem 500 mil visualizações."
+      ],
+      "hypotheses": [
+        "Fornecer matéria-prima criativa e uma regra clara de participação pode reduzir o esforço de cocriação e ampliar pertencimento."
+      ],
+      "limitations": [
+        "As métricas são agregadas à campanha.",
+        "Não é possível atribuir causalidade a um elemento criativo isolado."
+      ],
+      "comparisonPolicy": "Somente com campanhas de cocriação e comunidade; não usar como benchmark direto de Reel comum."
+    },
+    {
+      "id": "brae-teste-termico-2023",
+      "title": "Teste Térmico",
+      "creator": "Braé",
+      "sourceUrl": "https://ads.tiktok.com/business/sv-SE/blog/tiktok-ad-awards-vencedores-2023",
+      "sourceType": "official_platform_case_study",
+      "access": {
+        "level": "partial",
+        "accessible": [
+          "descrição da campanha",
+          "métrica relativa de retenção"
+        ],
+        "missing": [
+          "vídeo completo",
+          "valor absoluto de retenção",
+          "distribuição orgânica e paga"
+        ]
+      },
+      "publicMetrics": {
+        "retentionRelativeToBrandAverage": "14x"
+      },
+      "observations": [
+        "A marca adaptou uma trend em que protetores térmicos eram demonstrados em fatias de pão.",
+        "O caso publicado relata retenção 14 vezes maior que a média dos demais conteúdos da marca."
+      ],
+      "hypotheses": [
+        "Uma demonstração concreta, visual e facilmente repetível pode tornar uma promessa abstrata mais compreensível e incentivar reprodução pela comunidade."
+      ],
+      "limitations": [
+        "O multiplicador não informa a base absoluta.",
+        "Trend, distribuição e novidade podem explicar parte do resultado."
+      ],
+      "comparisonPolicy": "Comparar apenas com demonstrações de produto e testes visuais de complexidade semelhante."
+    },
+    {
+      "id": "duolingo-always-on-2023",
+      "title": "Always On Duolingo Brasil",
+      "creator": "Duolingo Brasil + Jotacom",
+      "sourceUrl": "https://ads.tiktok.com/business/sv-SE/blog/tiktok-ad-awards-vencedores-2023",
+      "sourceType": "official_platform_case_study",
+      "access": {
+        "level": "partial",
+        "accessible": [
+          "descrição da estratégia",
+          "métricas agregadas de janeiro a setembro"
+        ],
+        "missing": [
+          "resultado por vídeo",
+          "retenção",
+          "separação completa entre orgânico e mídia paga"
+        ]
+      },
+      "publicMetrics": {
+        "organicViews": 224000000,
+        "engagements": 35000000,
+        "newFollowers": 1760000
+      },
+      "observations": [
+        "A estratégia acompanhou tendências de forma recorrente, com humor e identidade de marca.",
+        "O caso também menciona amplificação por mídia paga em ações específicas."
+      ],
+      "hypotheses": [
+        "Consistência de personagem e rapidez para adaptar tendências podem acumular reconhecimento e participação ao longo do tempo."
+      ],
+      "limitations": [
+        "Resultados agregados não identificam qual vídeo ou mecanismo gerou cada efeito.",
+        "Equipe dedicada, mascote conhecido e mídia paga limitam a replicabilidade."
+      ],
+      "comparisonPolicy": "Usar como evidência de estratégia de marca e comunidade, nunca como comparação direta com criador ou pequeno negócio."
+    }
+  ]
+}
